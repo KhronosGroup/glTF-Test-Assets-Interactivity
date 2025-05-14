@@ -1,0 +1,88 @@
+{
+  "glbFileName": "switch.glb",
+  "name": "flow/switch",
+  "tests": [
+    {
+      "name": "flow/switch",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/switch",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Switch selection flow",
+          "nodeId": 1
+        },
+        {
+          "name": "Switch default flow",
+          "nodeId": 11
+        },
+        {
+          "name": "Switch empty-cases default flow",
+          "nodeId": 21
+        },
+        {
+          "name": "Switch negate cases flow",
+          "nodeId": 31
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Selection flow",
+          "resultVarName": "TestResult_flow/switch_Selection flow",
+          "resultVarId": 0,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "Default flow",
+          "resultVarName": "TestResult_flow/switch_Default flow",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "Empty cases default flow",
+          "resultVarName": "TestResult_flow/switch_Empty cases default flow",
+          "resultVarId": 2,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "Negate cases flow",
+          "resultVarName": "TestResult_flow/switch_Negate cases flow",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/switch",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

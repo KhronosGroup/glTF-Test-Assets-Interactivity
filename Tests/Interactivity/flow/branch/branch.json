@@ -1,0 +1,78 @@
+{
+  "glbFileName": "branch.glb",
+  "name": "flow/branch",
+  "tests": [
+    {
+      "name": "flow/branch",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Branch Condition True",
+          "nodeId": 1
+        },
+        {
+          "name": "Branch Condition False",
+          "nodeId": 18
+        }
+      ],
+      "subTests": [
+        {
+          "name": "True-Condition true-flow",
+          "resultVarName": "TestResult_flow/branch_True-Condition true-flow",
+          "resultVarId": 0,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "True-Condition false-flow",
+          "resultVarName": "TestResult_flow/branch_True-Condition false-flow",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ]
+        },
+        {
+          "name": "False-Condition true-flow",
+          "resultVarName": "TestResult_flow/branch_False-Condition true-flow",
+          "resultVarId": 2,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ]
+        },
+        {
+          "name": "False-Condition false-flow",
+          "resultVarName": "TestResult_flow/branch_False-Condition false-flow",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

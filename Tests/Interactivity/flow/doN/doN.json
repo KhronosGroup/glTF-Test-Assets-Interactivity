@@ -1,0 +1,95 @@
+{
+  "glbFileName": "doN.glb",
+  "name": "flow/doN",
+  "tests": [
+    {
+      "name": "flow/doN",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/doN",
+        "flow/sequence",
+        "math/add",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Do N - Iterations",
+          "nodeId": 1
+        },
+        {
+          "name": "Do N - Reset",
+          "nodeId": 39
+        },
+        {
+          "name": "Do N - Max Iteration",
+          "nodeId": 56
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[out] flow",
+          "resultVarName": "TestResult_flow/doN_[out] flow",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "[out] iteration (5)",
+          "resultVarName": "TestResult_flow/doN_[out] iteration (5)",
+          "resultVarId": 2,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            5
+          ]
+        },
+        {
+          "name": "[currentCount]",
+          "resultVarName": "TestResult_flow/doN_[currentCount]",
+          "resultVarId": 3,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            5
+          ]
+        },
+        {
+          "name": "[reset] flow (N = 2, out/out/out/reset/out/out)",
+          "resultVarName": "TestResult_flow/doN_[reset] flow (N = 2, out/out/out/reset/out/out)",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            4
+          ]
+        },
+        {
+          "name": "Max Iteration flow",
+          "resultVarName": "TestResult_flow/doN_Max Iteration flow",
+          "resultVarId": 7,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/doN",
+    "flow/sequence",
+    "math/add",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

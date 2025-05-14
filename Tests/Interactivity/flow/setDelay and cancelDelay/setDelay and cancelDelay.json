@@ -1,0 +1,131 @@
+{
+  "glbFileName": "setDelay and cancelDelay.glb",
+  "name": "flow/setDelay and cancelDelay",
+  "tests": [
+    {
+      "name": "flow/setDelay and cancelDelay",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "event/onTick",
+        "flow/branch",
+        "flow/cancelDelay",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/abs",
+        "math/add",
+        "math/eq",
+        "math/lt",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Set Delay (delayed execution)",
+          "nodeId": 0,
+          "delayedExecutionTime": 2.0
+        },
+        {
+          "name": "setDelay [cancel] (delayed execution)",
+          "nodeId": 43,
+          "delayedExecutionTime": 2.0
+        },
+        {
+          "name": "Cancel Delay (delayed execution)",
+          "nodeId": 55,
+          "delayedExecutionTime": 2.0
+        },
+        {
+          "name": "Error (delayed execution)",
+          "nodeId": 76,
+          "delayedExecutionTime": 2.0
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Flow [out]",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_Flow [out]",
+          "resultVarId": 4,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ]
+        },
+        {
+          "name": "Flow [done]",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_Flow [done]",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "Flow [done] \nin correct delay",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_Flow [done] \nin correct delay",
+          "resultVarId": 2,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ]
+        },
+        {
+          "name": "Flow [err]",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_Flow [err]",
+          "resultVarId": 8,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "setDelay [cancel]",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_setDelay [cancel]",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ]
+        },
+        {
+          "name": "cancelDelay triggered",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_cancelDelay triggered",
+          "resultVarId": 6,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ]
+        },
+        {
+          "name": "cancelDelay \nFlow [out]",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_cancelDelay \nFlow [out]",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "event/onTick",
+    "flow/branch",
+    "flow/cancelDelay",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/abs",
+    "math/add",
+    "math/eq",
+    "math/lt",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

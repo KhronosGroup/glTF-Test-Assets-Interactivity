@@ -1,0 +1,126 @@
+{
+  "glbFileName": "throttle.glb",
+  "name": "flow/throttle",
+  "tests": [
+    {
+      "name": "flow/throttle",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "flow/throttle",
+        "math/abs",
+        "math/add",
+        "math/eq",
+        "math/lt",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[out] flow",
+          "nodeId": 1
+        },
+        {
+          "name": "Flow Out After Delay (delayed execution)",
+          "nodeId": 28,
+          "delayedExecutionTime": 2.0
+        },
+        {
+          "name": "[err] Flow on -1 Duration",
+          "nodeId": 53
+        },
+        {
+          "name": "[reset]",
+          "nodeId": 70
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[out] flow",
+          "resultVarName": "TestResult_flow/throttle_[out] flow",
+          "resultVarId": 2,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ]
+        },
+        {
+          "name": "[lastRemainingTime]",
+          "resultVarName": "TestResult_flow/throttle_[lastRemainingTime]",
+          "resultVarId": 0,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ]
+        },
+        {
+          "name": "Flow Out After Delay",
+          "resultVarName": "TestResult_flow/throttle_Flow Out After Delay",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ]
+        },
+        {
+          "name": "SubTest: setDelay",
+          "resultVarName": "TestResult_flow/throttle_SubTest: setDelay",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "[err] Flow on -1 Duration",
+          "resultVarName": "TestResult_flow/throttle_[err] Flow on -1 Duration",
+          "resultVarId": 6,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "Ignore [out] when error",
+          "resultVarName": "TestResult_flow/throttle_Ignore [out] when error",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ]
+        },
+        {
+          "name": "[reset]",
+          "resultVarName": "TestResult_flow/throttle_[reset]",
+          "resultVarId": 9,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "flow/throttle",
+    "math/abs",
+    "math/add",
+    "math/eq",
+    "math/lt",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

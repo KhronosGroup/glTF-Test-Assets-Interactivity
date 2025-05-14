@@ -1,0 +1,93 @@
+{
+  "glbFileName": "while.glb",
+  "name": "flow/while",
+  "tests": [
+    {
+      "name": "flow/while",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/while",
+        "math/add",
+        "math/eq",
+        "math/lt",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "While Loop flowIn",
+          "nodeId": 3
+        },
+        {
+          "name": "While Loop flowIn (false Condition)",
+          "nodeId": 34
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[body] flow",
+          "resultVarName": "TestResult_flow/while_[body] flow",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "[completed] flow",
+          "resultVarName": "TestResult_flow/while_[completed] flow",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "[body] iteration (2)",
+          "resultVarName": "TestResult_flow/while_[body] iteration (2)",
+          "resultVarId": 2,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ]
+        },
+        {
+          "name": "[body] flow when false",
+          "resultVarName": "TestResult_flow/while_[body] flow when false",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ]
+        },
+        {
+          "name": "[completed] flow when false",
+          "resultVarName": "TestResult_flow/while_[completed] flow when false",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/while",
+    "math/add",
+    "math/eq",
+    "math/lt",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -1,0 +1,248 @@
+[
+  {
+    "label": "Tests required operations",
+    "name": "Tests required operations",
+    "tags": [
+      "event/onStart",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "math/eq",
+      "flow/branch",
+      "flow/sequence",
+      "math/add",
+      "math/and",
+      "flow/setDelay"
+    ],
+    "variants": {
+      "gltf-Binary": "Tests required operations.glb",
+      "test-Json": "Tests required operations.json"
+    }
+  },
+  {
+    "label": "flow/branch",
+    "name": "flow/branch",
+    "tags": [
+      "flow/branch",
+      "event/onStart",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "math/eq",
+      "flow/sequence"
+    ],
+    "variants": {
+      "gltf-Binary": "flow/branch/branch.glb",
+      "test-Json": "flow/branch/branch.json"
+    }
+  },
+  {
+    "label": "flow/doN",
+    "name": "flow/doN",
+    "tags": [
+      "flow/doN",
+      "event/onStart",
+      "flow/sequence",
+      "variable/get",
+      "math/add",
+      "variable/set",
+      "pointer/set",
+      "debug/log",
+      "math/eq",
+      "flow/branch"
+    ],
+    "variants": {
+      "gltf-Binary": "flow/doN/doN.glb",
+      "test-Json": "flow/doN/doN.json"
+    }
+  },
+  {
+    "label": "flow/for",
+    "name": "flow/for",
+    "tags": [
+      "flow/for",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/add"
+    ],
+    "variants": {
+      "gltf-Binary": "flow/for/for.glb",
+      "test-Json": "flow/for/for.json"
+    }
+  },
+  {
+    "label": "flow/multiGate",
+    "name": "flow/multiGate",
+    "tags": [
+      "event/onStart",
+      "flow/multiGate",
+      "variable/get",
+      "math/add",
+      "math/eq",
+      "variable/set",
+      "flow/branch",
+      "debug/log",
+      "pointer/set",
+      "flow/sequence",
+      "math/and"
+    ],
+    "variants": {
+      "gltf-Binary": "flow/multiGate/multiGate.glb",
+      "test-Json": "flow/multiGate/multiGate.json"
+    }
+  },
+  {
+    "label": "flow/sequence",
+    "name": "flow/sequence",
+    "tags": [
+      "flow/sequence",
+      "event/onStart",
+      "variable/get",
+      "math/add",
+      "math/eq",
+      "variable/set",
+      "flow/branch",
+      "debug/log",
+      "pointer/set"
+    ],
+    "variants": {
+      "gltf-Binary": "flow/sequence/sequence.glb",
+      "test-Json": "flow/sequence/sequence.json"
+    }
+  },
+  {
+    "label": "flow/setDelay and cancelDelay",
+    "name": "flow/setDelay and cancelDelay",
+    "tags": [
+      "event/onStart",
+      "flow/setDelay",
+      "event/onTick",
+      "variable/set",
+      "flow/sequence",
+      "variable/get",
+      "math/sub",
+      "pointer/set",
+      "debug/log",
+      "math/eq",
+      "flow/branch",
+      "math/abs",
+      "math/lt",
+      "math/add",
+      "flow/cancelDelay"
+    ],
+    "variants": {
+      "gltf-Binary": "flow/setDelay and cancelDelay/setDelay and cancelDelay.glb",
+      "test-Json": "flow/setDelay and cancelDelay/setDelay and cancelDelay.json"
+    }
+  },
+  {
+    "label": "flow/switch",
+    "name": "flow/switch",
+    "tags": [
+      "flow/switch",
+      "event/onStart",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "math/eq",
+      "flow/branch",
+      "flow/sequence"
+    ],
+    "variants": {
+      "gltf-Binary": "flow/switch/switch.glb",
+      "test-Json": "flow/switch/switch.json"
+    }
+  },
+  {
+    "label": "flow/throttle",
+    "name": "flow/throttle",
+    "tags": [
+      "flow/throttle",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/add",
+      "math/eq",
+      "flow/setDelay"
+    ],
+    "variants": {
+      "gltf-Binary": "flow/throttle/throttle.glb",
+      "test-Json": "flow/throttle/throttle.json"
+    }
+  },
+  {
+    "label": "flow/waitAll",
+    "name": "flow/waitAll",
+    "tags": [
+      "flow/waitAll",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/add"
+    ],
+    "variants": {
+      "gltf-Binary": "flow/waitAll/waitAll.glb",
+      "test-Json": "flow/waitAll/waitAll.json"
+    }
+  },
+  {
+    "label": "flow/while",
+    "name": "flow/while",
+    "tags": [
+      "flow/while",
+      "event/onStart",
+      "variable/get",
+      "math/add",
+      "variable/set",
+      "pointer/set",
+      "debug/log",
+      "math/eq",
+      "flow/branch",
+      "flow/sequence",
+      "math/lt"
+    ],
+    "variants": {
+      "gltf-Binary": "flow/while/while.glb",
+      "test-Json": "flow/while/while.json"
+    }
+  },
+  {
+    "label": "variable/set and get",
+    "name": "variable/set and get",
+    "tags": [
+      "variable/set",
+      "event/onStart",
+      "variable/get",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "flow/sequence"
+    ],
+    "variants": {
+      "gltf-Binary": "variable/set and get/set and get.glb",
+      "test-Json": "variable/set and get/set and get.json"
+    }
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "glbFileName": "Tests required operations.glb",
+  "name": "Tests required operations",
+  "tests": [
+    {
+      "name": "Tests required operations",
+      "description": "Testing required operations for proper test execution. This tests should be passed before testing all other tests.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/add",
+        "math/and",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Entry",
+          "nodeId": 0
+        },
+        {
+          "name": "Delayed Check (delayed execution)",
+          "nodeId": 59,
+          "delayedExecutionTime": 1.0
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Flow Checks",
+          "resultVarName": "TestResult_Tests required operations_Flow Checks",
+          "resultVarId": 0,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "Value Checks",
+          "resultVarName": "TestResult_Tests required operations_Value Checks",
+          "resultVarId": 1,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ]
+        },
+        {
+          "name": "Value Proximity Checks",
+          "resultVarName": "TestResult_Tests required operations_Value Proximity Checks",
+          "resultVarId": 2,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            33.2114563
+          ]
+        },
+        {
+          "name": "Counter Checks",
+          "resultVarName": "TestResult_Tests required operations_Counter Checks",
+          "resultVarId": 4,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ]
+        },
+        {
+          "name": "Multi Flow Checks",
+          "resultVarName": "TestResult_Tests required operations_Multi Flow Checks",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "Delayed Checks",
+          "resultVarName": "TestResult_Tests required operations_Delayed Checks",
+          "resultVarId": 8,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/add",
+    "math/and",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

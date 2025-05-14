@@ -1,0 +1,99 @@
+{
+  "glbFileName": "waitAll.glb",
+  "name": "flow/waitAll",
+  "tests": [
+    {
+      "name": "flow/waitAll",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/waitAll",
+        "math/add",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Wait All - Completed",
+          "nodeId": 1
+        },
+        {
+          "name": "Wait All - Remaining",
+          "nodeId": 22
+        },
+        {
+          "name": "Wait All - Reset",
+          "nodeId": 37
+        },
+        {
+          "name": "Wait All - Reset Completed",
+          "nodeId": 52
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[completed]",
+          "resultVarName": "TestResult_flow/waitAll_[completed]",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "[remainingInputs] on completed",
+          "resultVarName": "TestResult_flow/waitAll_[remainingInputs] on completed",
+          "resultVarId": 0,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ]
+        },
+        {
+          "name": "[remainingInputs]",
+          "resultVarName": "TestResult_flow/waitAll_[remainingInputs]",
+          "resultVarId": 2,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ]
+        },
+        {
+          "name": "[reset]",
+          "resultVarName": "TestResult_flow/waitAll_[reset]",
+          "resultVarId": 3,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ]
+        },
+        {
+          "name": "[reset] [completed]",
+          "resultVarName": "TestResult_flow/waitAll_[reset] [completed]",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/waitAll",
+    "math/add",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

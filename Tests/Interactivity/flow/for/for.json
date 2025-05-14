@@ -1,0 +1,87 @@
+{
+  "glbFileName": "for.glb",
+  "name": "flow/for",
+  "tests": [
+    {
+      "name": "flow/for",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/for",
+        "flow/sequence",
+        "math/add",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Loop Entry",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[body] flow",
+          "resultVarName": "TestResult_flow/for_[body] flow",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "Loop range (0..10)",
+          "resultVarName": "TestResult_flow/for_Loop range (0..10)",
+          "resultVarId": 3,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            10
+          ]
+        },
+        {
+          "name": "[completed] flow",
+          "resultVarName": "TestResult_flow/for_[completed] flow",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "Initial index",
+          "resultVarName": "TestResult_flow/for_Initial index",
+          "resultVarId": 0,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ]
+        },
+        {
+          "name": "[index] when completed",
+          "resultVarName": "TestResult_flow/for_[index] when completed",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            10
+          ]
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/for",
+    "flow/sequence",
+    "math/add",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

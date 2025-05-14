@@ -1,0 +1,75 @@
+{
+  "glbFileName": "sequence.glb",
+  "name": "flow/sequence",
+  "tests": [
+    {
+      "name": "flow/sequence",
+      "description": "Tests the sequence order of the flow outputs.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/add",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Sequence Order (0,9,10) > (0,10,9)",
+          "nodeId": 1
+        },
+        {
+          "name": "Sequence Order (ccc,aaa,b) > (aaa,b,ccc)",
+          "nodeId": 28
+        },
+        {
+          "name": "Sequence Order (b,B,a,A) > (A,B,a,b)",
+          "nodeId": 55
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Sequence Order (0,9,10) > (0,10,9)",
+          "resultVarName": "TestResult_flow/sequence_Sequence Order (0,9,10) > (0,10,9)",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "Sequence Order (ccc,aaa,b) > (aaa,b,ccc)",
+          "resultVarName": "TestResult_flow/sequence_Sequence Order (ccc,aaa,b) > (aaa,b,ccc)",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        },
+        {
+          "name": "Sequence Order (b,B,a,A) > (A,B,a,b)",
+          "resultVarName": "TestResult_flow/sequence_Sequence Order (b,B,a,A) > (A,B,a,b)",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ]
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/add",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
