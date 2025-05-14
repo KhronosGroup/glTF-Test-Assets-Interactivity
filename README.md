@@ -4,27 +4,27 @@
 
 # glTF Interactivity Sample Assets
 
-[![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Assets/workflows/glTF%20Validation/badge.svg?branch=main)](https://github.com/KhronosGroup/glTF-Sample-Assets/actions)
-
-
 |  |  |
 |-|-|
-| [![Glass Hurricane Candle Holder](Models/GlassHurricaneCandleHolder/screenshot/screenshot.jpg)](Models/GlassHurricaneCandleHolder/README.md)  | Glass candle holder using Transmission and Volume extensions. [[Show]](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Models/main/Models/GlassHurricaneCandleHolder/glTF-Binary/GlassHurricaneCandleHolder.glb)<br>Credit:<br>&copy; 2021, Wayfair, LLC. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)<br> - Eric Chadwick for everything
+| [![Calculator](Models/Calculator/screenshot/screenshot.png)](Models/Calculator/README.md)  | Calculator model using Transmission and Volume extensions. [[Show]](https://gltf-interactivity.needle.tools/?model=https://raw.githubusercontent.com/needle-tools/glTF-Interactivity-Sample-Assets/main/Models/Calculator/glTF-Binary/Calculator.glb)<br>Credit:<br>&copy; 2025, Needle. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)<br>
 
 
 ## Introduction
 
 This Repository contains tests and samples of glTF assets using the KHR_interactivity extension, which allows for the creation of interactive 3D models. KHR_interactivity allows for the creation of interactive elements within 3D scenes, in a graph-based manner.
 
+## Viewing the sample and test assets online
+
+The models can be viewed in the [Graph Authoring Tool](https://gltf-interactivity.needle.tools/), which is a web-based tool that allows you to load GLB files with the KHR_interactivity extension and interact with them. A graph-based interface allows you to see the nodes and connections that make up the interactive elements of the model. You can also modify the properties of the nodes and connections, allowing you to experiment with different configurations and see how they affect the behavior of the model.
+
 ## Lists
 
 All models are tagged to allow easier access. These lists simplify your access and review of the models. All lists include the model name, screen shot, link to display the model in Sample Viewer, a short description, and the license/credits for the model. The following lists are available
 
-* [Testing](./Tests/Interactivity/Interactivity-testing.md) (#testing) for assets that are designed for programmatic or manual testing of KHR_interactivity implementations. These models can either be used to verify the behavior of specific features, or added to test suites to ensure correctness of implementation.
 * [Showcase](./Models/Models-showcase.md) (#showcase) for models that demonstrate real-world use cases of glTF Interactivity, ranging from simple to complex.
+* [Testing](./Tests/Interactivity/Interactivity-testing.md) (#testing) for assets that are designed for programmatic or manual testing of KHR_interactivity implementations. These models can either be used to verify the behavior of specific features, or added to test suites to ensure correctness of implementation.
 
 A summary of the model license is shown in each display, but see the `README.md` in each model's directory for detailed license information.
-
 
 ## Model Contents
 
