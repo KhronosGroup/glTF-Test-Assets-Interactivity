@@ -1,0 +1,4483 @@
+{
+  "glbFileName": "mathtests.glb",
+  "name": "Math Tests",
+  "tests": [
+    {
+      "name": "math/abs",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] -7.00000 = 7.00000",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] 7.00000 = 7.00000",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] 0.00000 = 0.00000",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] (-7.00000, -7.00000) = (7.00000, 7.00000)",
+          "nodeId": 43
+        },
+        {
+          "name": "[a] (7.00000, 7.00000) = (7.00000, 7.00000)",
+          "nodeId": 57
+        },
+        {
+          "name": "[a] (0.00000, 0.00000) = (0.00000, 0.00000)",
+          "nodeId": 71
+        },
+        {
+          "name": "[a] (-7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000)",
+          "nodeId": 85
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000)",
+          "nodeId": 99
+        },
+        {
+          "name": "[a] (0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000)",
+          "nodeId": 113
+        },
+        {
+          "name": "[a] (-7.00000, -7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "nodeId": 127
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "nodeId": 141
+        },
+        {
+          "name": "[a] (0.00000, 0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000, 0.00000)",
+          "nodeId": 155
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] -7.00000 = 7.00000",
+          "resultVarName": "TestResult_math/abs_[a] -7.00000 = 7.00000",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            7.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] -7.00000 = 7.00000"
+        },
+        {
+          "name": "[a] 7.00000 = 7.00000",
+          "resultVarName": "TestResult_math/abs_[a] 7.00000 = 7.00000",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            7.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] 7.00000 = 7.00000"
+        },
+        {
+          "name": "[a] 0.00000 = 0.00000",
+          "resultVarName": "TestResult_math/abs_[a] 0.00000 = 0.00000",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] 0.00000 = 0.00000"
+        },
+        {
+          "name": "[a] (-7.00000, -7.00000) = (7.00000, 7.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (-7.00000, -7.00000) = (7.00000, 7.00000)",
+          "resultVarId": 7,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            7.0,
+            7.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (-7.00000, -7.00000) = (7.00000, 7.00000)"
+        },
+        {
+          "name": "[a] (7.00000, 7.00000) = (7.00000, 7.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (7.00000, 7.00000) = (7.00000, 7.00000)",
+          "resultVarId": 9,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            7.0,
+            7.0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (7.00000, 7.00000) = (7.00000, 7.00000)"
+        },
+        {
+          "name": "[a] (0.00000, 0.00000) = (0.00000, 0.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (0.00000, 0.00000) = (0.00000, 0.00000)",
+          "resultVarId": 11,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (0.00000, 0.00000) = (0.00000, 0.00000)"
+        },
+        {
+          "name": "[a] (-7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (-7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000)",
+          "resultVarId": 13,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            7.0,
+            7.0,
+            7.0
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (-7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000)"
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000)",
+          "resultVarId": 15,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            7.0,
+            7.0,
+            7.0
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000)"
+        },
+        {
+          "name": "[a] (0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000)",
+          "resultVarId": 17,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000)"
+        },
+        {
+          "name": "[a] (-7.00000, -7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (-7.00000, -7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "resultVarId": 19,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (-7.00000, -7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)"
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (7.00000, 7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "resultVarId": 21,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ],
+          "successResultVarId": 20,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (7.00000, 7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)"
+        },
+        {
+          "name": "[a] (0.00000, 0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000, 0.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (0.00000, 0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000, 0.00000)",
+          "resultVarId": 23,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 22,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (0.00000, 0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000, 0.00000)"
+        }
+      ]
+    },
+    {
+      "name": "math/acos",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/acos",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 0.50000 = 1.04720",
+          "nodeId": 169
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (1.04720, 1.04720)",
+          "nodeId": 185
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720)",
+          "nodeId": 201
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720, 1.04720)",
+          "nodeId": 217
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 0.50000 = 1.04720",
+          "resultVarName": "TestResult_math/acos_[a] 0.50000 = 1.04720",
+          "resultVarId": 25,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.04719758
+          ],
+          "successResultVarId": 24,
+          "successResultVarName": "TestResult_HasPassed_math/acos_[a] 0.50000 = 1.04720"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (1.04720, 1.04720)",
+          "resultVarName": "TestResult_math/acos_[a] (0.50000, 0.50000) = (1.04720, 1.04720)",
+          "resultVarId": 27,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            1.04719758,
+            1.04719758
+          ],
+          "successResultVarId": 26,
+          "successResultVarName": "TestResult_HasPassed_math/acos_[a] (0.50000, 0.50000) = (1.04720, 1.04720)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720)",
+          "resultVarName": "TestResult_math/acos_[a] (0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720)",
+          "resultVarId": 29,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.04719758,
+            1.04719758,
+            1.04719758
+          ],
+          "successResultVarId": 28,
+          "successResultVarName": "TestResult_HasPassed_math/acos_[a] (0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720, 1.04720)",
+          "resultVarName": "TestResult_math/acos_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720, 1.04720)",
+          "resultVarId": 31,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            1.04719758,
+            1.04719758,
+            1.04719758,
+            1.04719758
+          ],
+          "successResultVarId": 30,
+          "successResultVarName": "TestResult_HasPassed_math/acos_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720, 1.04720)"
+        }
+      ]
+    },
+    {
+      "name": "math/acosh",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/acosh",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.50000 = 0.96242",
+          "nodeId": 233
+        },
+        {
+          "name": "[a] (1.50000, 1.50000) = (0.96242, 0.96242)",
+          "nodeId": 249
+        },
+        {
+          "name": "[a] (1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242)",
+          "nodeId": 265
+        },
+        {
+          "name": "[a] (1.50000, 1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242, 0.96242)",
+          "nodeId": 281
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.50000 = 0.96242",
+          "resultVarName": "TestResult_math/acosh_[a] 1.50000 = 0.96242",
+          "resultVarId": 33,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.9624236
+          ],
+          "successResultVarId": 32,
+          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] 1.50000 = 0.96242"
+        },
+        {
+          "name": "[a] (1.50000, 1.50000) = (0.96242, 0.96242)",
+          "resultVarName": "TestResult_math/acosh_[a] (1.50000, 1.50000) = (0.96242, 0.96242)",
+          "resultVarId": 35,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.9624236,
+            0.9624236
+          ],
+          "successResultVarId": 34,
+          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] (1.50000, 1.50000) = (0.96242, 0.96242)"
+        },
+        {
+          "name": "[a] (1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242)",
+          "resultVarName": "TestResult_math/acosh_[a] (1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242)",
+          "resultVarId": 37,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.9624236,
+            0.9624236,
+            0.9624236
+          ],
+          "successResultVarId": 36,
+          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] (1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242)"
+        },
+        {
+          "name": "[a] (1.50000, 1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242, 0.96242)",
+          "resultVarName": "TestResult_math/acosh_[a] (1.50000, 1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242, 0.96242)",
+          "resultVarId": 39,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.9624236,
+            0.9624236,
+            0.9624236,
+            0.9624236
+          ],
+          "successResultVarId": 38,
+          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] (1.50000, 1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242, 0.96242)"
+        }
+      ]
+    },
+    {
+      "name": "math/add",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/add",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] -1.00000 [b] 3.00000 = 2.00000",
+          "nodeId": 297
+        },
+        {
+          "name": "[a] -1 [b] 3 = 2",
+          "nodeId": 311
+        },
+        {
+          "name": "[a] (-1.00000, -1.00000) [b] (3.00000, 3.00000) = (2.00000, 2.00000)",
+          "nodeId": 325
+        },
+        {
+          "name": "[a] (-1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000)",
+          "nodeId": 339
+        },
+        {
+          "name": "[a] (-1.00000, -1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000, 2.00000)",
+          "nodeId": 353
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] -1.00000 [b] 3.00000 = 2.00000",
+          "resultVarName": "TestResult_math/add_[a] -1.00000 [b] 3.00000 = 2.00000",
+          "resultVarId": 41,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 40,
+          "successResultVarName": "TestResult_HasPassed_math/add_[a] -1.00000 [b] 3.00000 = 2.00000"
+        },
+        {
+          "name": "[a] -1 [b] 3 = 2",
+          "resultVarName": "TestResult_math/add_[a] -1 [b] 3 = 2",
+          "resultVarId": 43,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 42,
+          "successResultVarName": "TestResult_HasPassed_math/add_[a] -1 [b] 3 = 2"
+        },
+        {
+          "name": "[a] (-1.00000, -1.00000) [b] (3.00000, 3.00000) = (2.00000, 2.00000)",
+          "resultVarName": "TestResult_math/add_[a] (-1.00000, -1.00000) [b] (3.00000, 3.00000) = (2.00000, 2.00000)",
+          "resultVarId": 45,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.0,
+            2.0
+          ],
+          "successResultVarId": 44,
+          "successResultVarName": "TestResult_HasPassed_math/add_[a] (-1.00000, -1.00000) [b] (3.00000, 3.00000) = (2.00000, 2.00000)"
+        },
+        {
+          "name": "[a] (-1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000)",
+          "resultVarName": "TestResult_math/add_[a] (-1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000)",
+          "resultVarId": 47,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "successResultVarId": 46,
+          "successResultVarName": "TestResult_HasPassed_math/add_[a] (-1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000)"
+        },
+        {
+          "name": "[a] (-1.00000, -1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000, 2.00000)",
+          "resultVarName": "TestResult_math/add_[a] (-1.00000, -1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000, 2.00000)",
+          "resultVarId": 49,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "successResultVarId": 48,
+          "successResultVarName": "TestResult_HasPassed_math/add_[a] (-1.00000, -1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000, 2.00000)"
+        }
+      ]
+    },
+    {
+      "name": "math/asin",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/asin",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 0.50000 = 0.52360",
+          "nodeId": 367
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (0.52360, 0.52360)",
+          "nodeId": 383
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (0.52360, 0.52360, 0.52360)",
+          "nodeId": 399
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.52360, 0.52360, 0.52360, 0.52360)",
+          "nodeId": 415
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 0.50000 = 0.52360",
+          "resultVarName": "TestResult_math/asin_[a] 0.50000 = 0.52360",
+          "resultVarId": 51,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.5235988
+          ],
+          "successResultVarId": 50,
+          "successResultVarName": "TestResult_HasPassed_math/asin_[a] 0.50000 = 0.52360"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (0.52360, 0.52360)",
+          "resultVarName": "TestResult_math/asin_[a] (0.50000, 0.50000) = (0.52360, 0.52360)",
+          "resultVarId": 53,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.5235988,
+            0.5235988
+          ],
+          "successResultVarId": 52,
+          "successResultVarName": "TestResult_HasPassed_math/asin_[a] (0.50000, 0.50000) = (0.52360, 0.52360)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (0.52360, 0.52360, 0.52360)",
+          "resultVarName": "TestResult_math/asin_[a] (0.50000, 0.50000, 0.50000) = (0.52360, 0.52360, 0.52360)",
+          "resultVarId": 55,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.5235988,
+            0.5235988,
+            0.5235988
+          ],
+          "successResultVarId": 54,
+          "successResultVarName": "TestResult_HasPassed_math/asin_[a] (0.50000, 0.50000, 0.50000) = (0.52360, 0.52360, 0.52360)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.52360, 0.52360, 0.52360, 0.52360)",
+          "resultVarName": "TestResult_math/asin_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.52360, 0.52360, 0.52360, 0.52360)",
+          "resultVarId": 57,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.5235988,
+            0.5235988,
+            0.5235988,
+            0.5235988
+          ],
+          "successResultVarId": 56,
+          "successResultVarName": "TestResult_HasPassed_math/asin_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.52360, 0.52360, 0.52360, 0.52360)"
+        }
+      ]
+    },
+    {
+      "name": "math/asinh",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/asinh",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 0.50000 = 0.48121",
+          "nodeId": 431
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (0.48121, 0.48121)",
+          "nodeId": 447
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121)",
+          "nodeId": 463
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121, 0.48121)",
+          "nodeId": 479
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 0.50000 = 0.48121",
+          "resultVarName": "TestResult_math/asinh_[a] 0.50000 = 0.48121",
+          "resultVarId": 59,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.4812118
+          ],
+          "successResultVarId": 58,
+          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] 0.50000 = 0.48121"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (0.48121, 0.48121)",
+          "resultVarName": "TestResult_math/asinh_[a] (0.50000, 0.50000) = (0.48121, 0.48121)",
+          "resultVarId": 61,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.4812118,
+            0.4812118
+          ],
+          "successResultVarId": 60,
+          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] (0.50000, 0.50000) = (0.48121, 0.48121)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121)",
+          "resultVarName": "TestResult_math/asinh_[a] (0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121)",
+          "resultVarId": 63,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.4812118,
+            0.4812118,
+            0.4812118
+          ],
+          "successResultVarId": 62,
+          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] (0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121, 0.48121)",
+          "resultVarName": "TestResult_math/asinh_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121, 0.48121)",
+          "resultVarId": 65,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.4812118,
+            0.4812118,
+            0.4812118,
+            0.4812118
+          ],
+          "successResultVarId": 64,
+          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121, 0.48121)"
+        }
+      ]
+    },
+    {
+      "name": "math/atan",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/atan",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 0.50000 = 0.46365",
+          "nodeId": 495
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (0.46365, 0.46365)",
+          "nodeId": 511
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365)",
+          "nodeId": 527
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365, 0.46365)",
+          "nodeId": 543
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 0.50000 = 0.46365",
+          "resultVarName": "TestResult_math/atan_[a] 0.50000 = 0.46365",
+          "resultVarId": 67,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.4636476
+          ],
+          "successResultVarId": 66,
+          "successResultVarName": "TestResult_HasPassed_math/atan_[a] 0.50000 = 0.46365"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (0.46365, 0.46365)",
+          "resultVarName": "TestResult_math/atan_[a] (0.50000, 0.50000) = (0.46365, 0.46365)",
+          "resultVarId": 69,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.4636476,
+            0.4636476
+          ],
+          "successResultVarId": 68,
+          "successResultVarName": "TestResult_HasPassed_math/atan_[a] (0.50000, 0.50000) = (0.46365, 0.46365)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365)",
+          "resultVarName": "TestResult_math/atan_[a] (0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365)",
+          "resultVarId": 71,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.4636476,
+            0.4636476,
+            0.4636476
+          ],
+          "successResultVarId": 70,
+          "successResultVarName": "TestResult_HasPassed_math/atan_[a] (0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365, 0.46365)",
+          "resultVarName": "TestResult_math/atan_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365, 0.46365)",
+          "resultVarId": 73,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.4636476,
+            0.4636476,
+            0.4636476,
+            0.4636476
+          ],
+          "successResultVarId": 72,
+          "successResultVarName": "TestResult_HasPassed_math/atan_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365, 0.46365)"
+        }
+      ]
+    },
+    {
+      "name": "math/atan2",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/atan2",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 0.50000 [b] 0.50000 = 0.78540",
+          "nodeId": 559
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) [b] (0.50000, 0.50000) = (0.78540, 0.78540)",
+          "nodeId": 575
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) [b] (0.50000, 0.50000, 0.50000) = (0.78540, 0.78540, 0.78540)",
+          "nodeId": 591
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) [b] (0.50000, 0.50000, 0.50000, 0.50000) = (0.78540, 0.78540, 0.78540, 0.78540)",
+          "nodeId": 607
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 0.50000 [b] 0.50000 = 0.78540",
+          "resultVarName": "TestResult_math/atan2_[a] 0.50000 [b] 0.50000 = 0.78540",
+          "resultVarId": 75,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.7853982
+          ],
+          "successResultVarId": 74,
+          "successResultVarName": "TestResult_HasPassed_math/atan2_[a] 0.50000 [b] 0.50000 = 0.78540"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) [b] (0.50000, 0.50000) = (0.78540, 0.78540)",
+          "resultVarName": "TestResult_math/atan2_[a] (0.50000, 0.50000) [b] (0.50000, 0.50000) = (0.78540, 0.78540)",
+          "resultVarId": 77,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.7853982,
+            0.7853982
+          ],
+          "successResultVarId": 76,
+          "successResultVarName": "TestResult_HasPassed_math/atan2_[a] (0.50000, 0.50000) [b] (0.50000, 0.50000) = (0.78540, 0.78540)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) [b] (0.50000, 0.50000, 0.50000) = (0.78540, 0.78540, 0.78540)",
+          "resultVarName": "TestResult_math/atan2_[a] (0.50000, 0.50000, 0.50000) [b] (0.50000, 0.50000, 0.50000) = (0.78540, 0.78540, 0.78540)",
+          "resultVarId": 79,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.7853982,
+            0.7853982,
+            0.7853982
+          ],
+          "successResultVarId": 78,
+          "successResultVarName": "TestResult_HasPassed_math/atan2_[a] (0.50000, 0.50000, 0.50000) [b] (0.50000, 0.50000, 0.50000) = (0.78540, 0.78540, 0.78540)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) [b] (0.50000, 0.50000, 0.50000, 0.50000) = (0.78540, 0.78540, 0.78540, 0.78540)",
+          "resultVarName": "TestResult_math/atan2_[a] (0.50000, 0.50000, 0.50000, 0.50000) [b] (0.50000, 0.50000, 0.50000, 0.50000) = (0.78540, 0.78540, 0.78540, 0.78540)",
+          "resultVarId": 81,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.7853982,
+            0.7853982,
+            0.7853982,
+            0.7853982
+          ],
+          "successResultVarId": 80,
+          "successResultVarName": "TestResult_HasPassed_math/atan2_[a] (0.50000, 0.50000, 0.50000, 0.50000) [b] (0.50000, 0.50000, 0.50000, 0.50000) = (0.78540, 0.78540, 0.78540, 0.78540)"
+        }
+      ]
+    },
+    {
+      "name": "math/atanh",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/atanh",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 0.50000 = 0.54931",
+          "nodeId": 623
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (0.54931, 0.54931)",
+          "nodeId": 639
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (0.54931, 0.54931, 0.54931)",
+          "nodeId": 655
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.54931, 0.54931, 0.54931, 0.54931)",
+          "nodeId": 671
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 0.50000 = 0.54931",
+          "resultVarName": "TestResult_math/atanh_[a] 0.50000 = 0.54931",
+          "resultVarId": 83,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.549306154
+          ],
+          "successResultVarId": 82,
+          "successResultVarName": "TestResult_HasPassed_math/atanh_[a] 0.50000 = 0.54931"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (0.54931, 0.54931)",
+          "resultVarName": "TestResult_math/atanh_[a] (0.50000, 0.50000) = (0.54931, 0.54931)",
+          "resultVarId": 85,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.549306154,
+            0.549306154
+          ],
+          "successResultVarId": 84,
+          "successResultVarName": "TestResult_HasPassed_math/atanh_[a] (0.50000, 0.50000) = (0.54931, 0.54931)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (0.54931, 0.54931, 0.54931)",
+          "resultVarName": "TestResult_math/atanh_[a] (0.50000, 0.50000, 0.50000) = (0.54931, 0.54931, 0.54931)",
+          "resultVarId": 87,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.549306154,
+            0.549306154,
+            0.549306154
+          ],
+          "successResultVarId": 86,
+          "successResultVarName": "TestResult_HasPassed_math/atanh_[a] (0.50000, 0.50000, 0.50000) = (0.54931, 0.54931, 0.54931)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.54931, 0.54931, 0.54931, 0.54931)",
+          "resultVarName": "TestResult_math/atanh_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.54931, 0.54931, 0.54931, 0.54931)",
+          "resultVarId": 89,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.549306154,
+            0.549306154,
+            0.549306154,
+            0.549306154
+          ],
+          "successResultVarId": 88,
+          "successResultVarName": "TestResult_HasPassed_math/atanh_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.54931, 0.54931, 0.54931, 0.54931)"
+        }
+      ]
+    },
+    {
+      "name": "math/cbrt",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/cbrt",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 9769.23400 = 21.37733",
+          "nodeId": 687
+        },
+        {
+          "name": "[a] (9769.23400, 9769.23400) = (21.37733, 21.37733)",
+          "nodeId": 703
+        },
+        {
+          "name": "[a] (9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733)",
+          "nodeId": 719
+        },
+        {
+          "name": "[a] (9769.23400, 9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733, 21.37733)",
+          "nodeId": 735
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 9769.23400 = 21.37733",
+          "resultVarName": "TestResult_math/cbrt_[a] 9769.23400 = 21.37733",
+          "resultVarId": 91,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            21.3773346
+          ],
+          "successResultVarId": 90,
+          "successResultVarName": "TestResult_HasPassed_math/cbrt_[a] 9769.23400 = 21.37733"
+        },
+        {
+          "name": "[a] (9769.23400, 9769.23400) = (21.37733, 21.37733)",
+          "resultVarName": "TestResult_math/cbrt_[a] (9769.23400, 9769.23400) = (21.37733, 21.37733)",
+          "resultVarId": 93,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            21.3773346,
+            21.3773346
+          ],
+          "successResultVarId": 92,
+          "successResultVarName": "TestResult_HasPassed_math/cbrt_[a] (9769.23400, 9769.23400) = (21.37733, 21.37733)"
+        },
+        {
+          "name": "[a] (9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733)",
+          "resultVarName": "TestResult_math/cbrt_[a] (9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733)",
+          "resultVarId": 95,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            21.3773346,
+            21.3773346,
+            21.3773346
+          ],
+          "successResultVarId": 94,
+          "successResultVarName": "TestResult_HasPassed_math/cbrt_[a] (9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733)"
+        },
+        {
+          "name": "[a] (9769.23400, 9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733, 21.37733)",
+          "resultVarName": "TestResult_math/cbrt_[a] (9769.23400, 9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733, 21.37733)",
+          "resultVarId": 97,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            21.3773346,
+            21.3773346,
+            21.3773346,
+            21.3773346
+          ],
+          "successResultVarId": 96,
+          "successResultVarName": "TestResult_HasPassed_math/cbrt_[a] (9769.23400, 9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733, 21.37733)"
+        }
+      ]
+    },
+    {
+      "name": "math/ceil",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/ceil",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 757.00320 = 758.00000",
+          "nodeId": 751
+        },
+        {
+          "name": "[a] (757.00320, 757.00320) = (758.00000, 758.00000)",
+          "nodeId": 765
+        },
+        {
+          "name": "[a] (757.00320, 757.00320, 757.00320) = (758.00000, 758.00000, 758.00000)",
+          "nodeId": 779
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 757.00320 = 758.00000",
+          "resultVarName": "TestResult_math/ceil_[a] 757.00320 = 758.00000",
+          "resultVarId": 99,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            758.0
+          ],
+          "successResultVarId": 98,
+          "successResultVarName": "TestResult_HasPassed_math/ceil_[a] 757.00320 = 758.00000"
+        },
+        {
+          "name": "[a] (757.00320, 757.00320) = (758.00000, 758.00000)",
+          "resultVarName": "TestResult_math/ceil_[a] (757.00320, 757.00320) = (758.00000, 758.00000)",
+          "resultVarId": 101,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            758.0,
+            758.0
+          ],
+          "successResultVarId": 100,
+          "successResultVarName": "TestResult_HasPassed_math/ceil_[a] (757.00320, 757.00320) = (758.00000, 758.00000)"
+        },
+        {
+          "name": "[a] (757.00320, 757.00320, 757.00320) = (758.00000, 758.00000, 758.00000)",
+          "resultVarName": "TestResult_math/ceil_[a] (757.00320, 757.00320, 757.00320) = (758.00000, 758.00000, 758.00000)",
+          "resultVarId": 103,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            758.0,
+            758.0,
+            758.0
+          ],
+          "successResultVarId": 102,
+          "successResultVarName": "TestResult_HasPassed_math/ceil_[a] (757.00320, 757.00320, 757.00320) = (758.00000, 758.00000, 758.00000)"
+        }
+      ]
+    },
+    {
+      "name": "math/clamp",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/clamp",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 9.00000 [b] 2.00000 [c] 3.00000 = 3.00000",
+          "nodeId": 793
+        },
+        {
+          "name": "[a] (9.00000, 9.00000) [b] (2.00000, 2.00000) [c] (3.00000, 3.00000) = (3.00000, 3.00000)",
+          "nodeId": 807
+        },
+        {
+          "name": "[a] (9.00000, 9.00000, 9.00000) [b] (2.00000, 2.00000, 2.00000) [c] (3.00000, 3.00000, 3.00000) = (3.00000, 3.00000, 3.00000)",
+          "nodeId": 821
+        },
+        {
+          "name": "[a] (9.00000, 9.00000, 9.00000, 9.00000) [b] (2.00000, 2.00000, 2.00000, 2.00000) [c] (3.00000, 3.00000, 3.00000, 3.00000) = (3.00000, 3.00000, 3.00000, 3.00000)",
+          "nodeId": 835
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 9.00000 [b] 2.00000 [c] 3.00000 = 3.00000",
+          "resultVarName": "TestResult_math/clamp_[a] 9.00000 [b] 2.00000 [c] 3.00000 = 3.00000",
+          "resultVarId": 105,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.0
+          ],
+          "successResultVarId": 104,
+          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9.00000 [b] 2.00000 [c] 3.00000 = 3.00000"
+        },
+        {
+          "name": "[a] (9.00000, 9.00000) [b] (2.00000, 2.00000) [c] (3.00000, 3.00000) = (3.00000, 3.00000)",
+          "resultVarName": "TestResult_math/clamp_[a] (9.00000, 9.00000) [b] (2.00000, 2.00000) [c] (3.00000, 3.00000) = (3.00000, 3.00000)",
+          "resultVarId": 107,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            3.0,
+            3.0
+          ],
+          "successResultVarId": 106,
+          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] (9.00000, 9.00000) [b] (2.00000, 2.00000) [c] (3.00000, 3.00000) = (3.00000, 3.00000)"
+        },
+        {
+          "name": "[a] (9.00000, 9.00000, 9.00000) [b] (2.00000, 2.00000, 2.00000) [c] (3.00000, 3.00000, 3.00000) = (3.00000, 3.00000, 3.00000)",
+          "resultVarName": "TestResult_math/clamp_[a] (9.00000, 9.00000, 9.00000) [b] (2.00000, 2.00000, 2.00000) [c] (3.00000, 3.00000, 3.00000) = (3.00000, 3.00000, 3.00000)",
+          "resultVarId": 109,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            3.0,
+            3.0,
+            3.0
+          ],
+          "successResultVarId": 108,
+          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] (9.00000, 9.00000, 9.00000) [b] (2.00000, 2.00000, 2.00000) [c] (3.00000, 3.00000, 3.00000) = (3.00000, 3.00000, 3.00000)"
+        },
+        {
+          "name": "[a] (9.00000, 9.00000, 9.00000, 9.00000) [b] (2.00000, 2.00000, 2.00000, 2.00000) [c] (3.00000, 3.00000, 3.00000, 3.00000) = (3.00000, 3.00000, 3.00000, 3.00000)",
+          "resultVarName": "TestResult_math/clamp_[a] (9.00000, 9.00000, 9.00000, 9.00000) [b] (2.00000, 2.00000, 2.00000, 2.00000) [c] (3.00000, 3.00000, 3.00000, 3.00000) = (3.00000, 3.00000, 3.00000, 3.00000)",
+          "resultVarId": 111,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "successResultVarId": 110,
+          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] (9.00000, 9.00000, 9.00000, 9.00000) [b] (2.00000, 2.00000, 2.00000, 2.00000) [c] (3.00000, 3.00000, 3.00000, 3.00000) = (3.00000, 3.00000, 3.00000, 3.00000)"
+        }
+      ]
+    },
+    {
+      "name": "math/cos",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/cos",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4.32400 = -0.37870",
+          "nodeId": 849
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (-0.37870, -0.37870)",
+          "nodeId": 865
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870)",
+          "nodeId": 881
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870, -0.37870)",
+          "nodeId": 897
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4.32400 = -0.37870",
+          "resultVarName": "TestResult_math/cos_[a] 4.32400 = -0.37870",
+          "resultVarId": 113,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -0.378698
+          ],
+          "successResultVarId": 112,
+          "successResultVarName": "TestResult_HasPassed_math/cos_[a] 4.32400 = -0.37870"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (-0.37870, -0.37870)",
+          "resultVarName": "TestResult_math/cos_[a] (4.32400, 4.32400) = (-0.37870, -0.37870)",
+          "resultVarId": 115,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            -0.378698,
+            -0.378698
+          ],
+          "successResultVarId": 114,
+          "successResultVarName": "TestResult_HasPassed_math/cos_[a] (4.32400, 4.32400) = (-0.37870, -0.37870)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870)",
+          "resultVarName": "TestResult_math/cos_[a] (4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870)",
+          "resultVarId": 117,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -0.378698,
+            -0.378698,
+            -0.378698
+          ],
+          "successResultVarId": 116,
+          "successResultVarName": "TestResult_HasPassed_math/cos_[a] (4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870, -0.37870)",
+          "resultVarName": "TestResult_math/cos_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870, -0.37870)",
+          "resultVarId": 119,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            -0.378698,
+            -0.378698,
+            -0.378698,
+            -0.378698
+          ],
+          "successResultVarId": 118,
+          "successResultVarName": "TestResult_HasPassed_math/cos_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870, -0.37870)"
+        }
+      ]
+    },
+    {
+      "name": "math/cosh",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/cosh",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4.32400 = 37.75161",
+          "nodeId": 913
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (37.75161, 37.75161)",
+          "nodeId": 929
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161)",
+          "nodeId": 945
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161, 37.75161)",
+          "nodeId": 961
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4.32400 = 37.75161",
+          "resultVarName": "TestResult_math/cosh_[a] 4.32400 = 37.75161",
+          "resultVarId": 121,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            37.75161
+          ],
+          "successResultVarId": 120,
+          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] 4.32400 = 37.75161"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (37.75161, 37.75161)",
+          "resultVarName": "TestResult_math/cosh_[a] (4.32400, 4.32400) = (37.75161, 37.75161)",
+          "resultVarId": 123,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            37.75161,
+            37.75161
+          ],
+          "successResultVarId": 122,
+          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] (4.32400, 4.32400) = (37.75161, 37.75161)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161)",
+          "resultVarName": "TestResult_math/cosh_[a] (4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161)",
+          "resultVarId": 125,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            37.75161,
+            37.75161,
+            37.75161
+          ],
+          "successResultVarId": 124,
+          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] (4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161, 37.75161)",
+          "resultVarName": "TestResult_math/cosh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161, 37.75161)",
+          "resultVarId": 127,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            37.75161,
+            37.75161,
+            37.75161,
+            37.75161
+          ],
+          "successResultVarId": 126,
+          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161, 37.75161)"
+        }
+      ]
+    },
+    {
+      "name": "math/deg",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/deg",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.09956 = 63.00000",
+          "nodeId": 977
+        },
+        {
+          "name": "[a] (1.09956, 1.09956) = (63.00000, 63.00000)",
+          "nodeId": 993
+        },
+        {
+          "name": "[a] (1.09956, 1.09956, 1.09956) = (63.00000, 63.00000, 63.00000)",
+          "nodeId": 1009
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.09956 = 63.00000",
+          "resultVarName": "TestResult_math/deg_[a] 1.09956 = 63.00000",
+          "resultVarId": 129,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            62.9999962
+          ],
+          "successResultVarId": 128,
+          "successResultVarName": "TestResult_HasPassed_math/deg_[a] 1.09956 = 63.00000"
+        },
+        {
+          "name": "[a] (1.09956, 1.09956) = (63.00000, 63.00000)",
+          "resultVarName": "TestResult_math/deg_[a] (1.09956, 1.09956) = (63.00000, 63.00000)",
+          "resultVarId": 131,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            62.9999962,
+            62.9999962
+          ],
+          "successResultVarId": 130,
+          "successResultVarName": "TestResult_HasPassed_math/deg_[a] (1.09956, 1.09956) = (63.00000, 63.00000)"
+        },
+        {
+          "name": "[a] (1.09956, 1.09956, 1.09956) = (63.00000, 63.00000, 63.00000)",
+          "resultVarName": "TestResult_math/deg_[a] (1.09956, 1.09956, 1.09956) = (63.00000, 63.00000, 63.00000)",
+          "resultVarId": 133,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            62.9999962,
+            62.9999962,
+            62.9999962
+          ],
+          "successResultVarId": 132,
+          "successResultVarName": "TestResult_HasPassed_math/deg_[a] (1.09956, 1.09956, 1.09956) = (63.00000, 63.00000, 63.00000)"
+        }
+      ]
+    },
+    {
+      "name": "math/div",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/div",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 8989.32400 [b] 2134.23400 = 4.21197",
+          "nodeId": 1025
+        },
+        {
+          "name": "[a] (8989.32400, 8989.32400) [b] (2134.23400, 2134.23400) = (4.21197, 4.21197)",
+          "nodeId": 1041
+        },
+        {
+          "name": "[a] (8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197)",
+          "nodeId": 1057
+        },
+        {
+          "name": "[a] (8989.32400, 8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197, 4.21197)",
+          "nodeId": 1073
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 8989.32400 [b] 2134.23400 = 4.21197",
+          "resultVarName": "TestResult_math/div_[a] 8989.32400 [b] 2134.23400 = 4.21197",
+          "resultVarId": 135,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            4.211968
+          ],
+          "successResultVarId": 134,
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] 8989.32400 [b] 2134.23400 = 4.21197"
+        },
+        {
+          "name": "[a] (8989.32400, 8989.32400) [b] (2134.23400, 2134.23400) = (4.21197, 4.21197)",
+          "resultVarName": "TestResult_math/div_[a] (8989.32400, 8989.32400) [b] (2134.23400, 2134.23400) = (4.21197, 4.21197)",
+          "resultVarId": 137,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            4.211968,
+            4.211968
+          ],
+          "successResultVarId": 136,
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] (8989.32400, 8989.32400) [b] (2134.23400, 2134.23400) = (4.21197, 4.21197)"
+        },
+        {
+          "name": "[a] (8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197)",
+          "resultVarName": "TestResult_math/div_[a] (8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197)",
+          "resultVarId": 139,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            4.211968,
+            4.211968,
+            4.211968
+          ],
+          "successResultVarId": 138,
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] (8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197)"
+        },
+        {
+          "name": "[a] (8989.32400, 8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197, 4.21197)",
+          "resultVarName": "TestResult_math/div_[a] (8989.32400, 8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197, 4.21197)",
+          "resultVarId": 141,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            4.211968,
+            4.211968,
+            4.211968,
+            4.211968
+          ],
+          "successResultVarId": 140,
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] (8989.32400, 8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197, 4.21197)"
+        }
+      ]
+    },
+    {
+      "name": "math/e",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/e",
+        "math/lt",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "= 2.71828",
+          "nodeId": 1089
+        }
+      ],
+      "subTests": [
+        {
+          "name": "= 2.71828",
+          "resultVarName": "TestResult_math/e_= 2.71828",
+          "resultVarId": 143,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.71828175
+          ],
+          "successResultVarId": 142,
+          "successResultVarName": "TestResult_HasPassed_math/e_= 2.71828"
+        }
+      ]
+    },
+    {
+      "name": "math/eq",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.32400 [b] 2.32423 = False",
+          "nodeId": 1105
+        },
+        {
+          "name": "[a] True [b] False = False",
+          "nodeId": 1119
+        },
+        {
+          "name": "[a] (4.00000, 5.00000) [b] (4.00000, 5.00000) = True",
+          "nodeId": 1133
+        },
+        {
+          "name": "[a] NaN [b] NaN = False",
+          "nodeId": 1147
+        },
+        {
+          "name": "[a] NaN [b] 1.00000 = False",
+          "nodeId": 1161
+        },
+        {
+          "name": "[a] Infinity [b] Infinity = True",
+          "nodeId": 1175
+        },
+        {
+          "name": "[a] Infinity [b] -Infinity = False",
+          "nodeId": 1189
+        },
+        {
+          "name": "[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n [b] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = True",
+          "nodeId": 1203
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.32400 [b] 2.32423 = False",
+          "resultVarName": "TestResult_math/eq_[a] 1.32400 [b] 2.32423 = False",
+          "resultVarId": 145,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 144,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] 1.32400 [b] 2.32423 = False"
+        },
+        {
+          "name": "[a] True [b] False = False",
+          "resultVarName": "TestResult_math/eq_[a] True [b] False = False",
+          "resultVarId": 147,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 146,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] True [b] False = False"
+        },
+        {
+          "name": "[a] (4.00000, 5.00000) [b] (4.00000, 5.00000) = True",
+          "resultVarName": "TestResult_math/eq_[a] (4.00000, 5.00000) [b] (4.00000, 5.00000) = True",
+          "resultVarId": 149,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 148,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] (4.00000, 5.00000) [b] (4.00000, 5.00000) = True"
+        },
+        {
+          "name": "[a] NaN [b] NaN = False",
+          "resultVarName": "TestResult_math/eq_[a] NaN [b] NaN = False",
+          "resultVarId": 151,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 150,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] NaN [b] NaN = False"
+        },
+        {
+          "name": "[a] NaN [b] 1.00000 = False",
+          "resultVarName": "TestResult_math/eq_[a] NaN [b] 1.00000 = False",
+          "resultVarId": 153,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 152,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] NaN [b] 1.00000 = False"
+        },
+        {
+          "name": "[a] Infinity [b] Infinity = True",
+          "resultVarName": "TestResult_math/eq_[a] Infinity [b] Infinity = True",
+          "resultVarId": 155,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 154,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] Infinity [b] Infinity = True"
+        },
+        {
+          "name": "[a] Infinity [b] -Infinity = False",
+          "resultVarName": "TestResult_math/eq_[a] Infinity [b] -Infinity = False",
+          "resultVarId": 157,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 156,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] Infinity [b] -Infinity = False"
+        },
+        {
+          "name": "[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n [b] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = True",
+          "resultVarName": "TestResult_math/eq_[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n [b] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = True",
+          "resultVarId": 159,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 158,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n [b] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = True"
+        }
+      ]
+    },
+    {
+      "name": "math/exp",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/exp",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.21320 = 3.36423",
+          "nodeId": 1217
+        },
+        {
+          "name": "[a] (1.21320, 1.21320) = (3.36423, 3.36423)",
+          "nodeId": 1233
+        },
+        {
+          "name": "[a] (1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423)",
+          "nodeId": 1249
+        },
+        {
+          "name": "[a] (1.21320, 1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423, 3.36423)",
+          "nodeId": 1265
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.21320 = 3.36423",
+          "resultVarName": "TestResult_math/exp_[a] 1.21320 = 3.36423",
+          "resultVarId": 161,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.364233
+          ],
+          "successResultVarId": 160,
+          "successResultVarName": "TestResult_HasPassed_math/exp_[a] 1.21320 = 3.36423"
+        },
+        {
+          "name": "[a] (1.21320, 1.21320) = (3.36423, 3.36423)",
+          "resultVarName": "TestResult_math/exp_[a] (1.21320, 1.21320) = (3.36423, 3.36423)",
+          "resultVarId": 163,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            3.364233,
+            3.364233
+          ],
+          "successResultVarId": 162,
+          "successResultVarName": "TestResult_HasPassed_math/exp_[a] (1.21320, 1.21320) = (3.36423, 3.36423)"
+        },
+        {
+          "name": "[a] (1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423)",
+          "resultVarName": "TestResult_math/exp_[a] (1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423)",
+          "resultVarId": 165,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            3.364233,
+            3.364233,
+            3.364233
+          ],
+          "successResultVarId": 164,
+          "successResultVarName": "TestResult_HasPassed_math/exp_[a] (1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423)"
+        },
+        {
+          "name": "[a] (1.21320, 1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423, 3.36423)",
+          "resultVarName": "TestResult_math/exp_[a] (1.21320, 1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423, 3.36423)",
+          "resultVarId": 167,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            3.364233,
+            3.364233,
+            3.364233,
+            3.364233
+          ],
+          "successResultVarId": 166,
+          "successResultVarName": "TestResult_HasPassed_math/exp_[a] (1.21320, 1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423, 3.36423)"
+        }
+      ]
+    },
+    {
+      "name": "math/floor",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/floor",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] -2323.43500 = -2324.00000",
+          "nodeId": 1281
+        },
+        {
+          "name": "[a] (-2323.43500, -2323.43500) = (-2324.00000, -2324.00000)",
+          "nodeId": 1295
+        },
+        {
+          "name": "[a] (-2323.43500, -2323.43500, -2323.43500) = (-2324.00000, -2324.00000, -2324.00000)",
+          "nodeId": 1309
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] -2323.43500 = -2324.00000",
+          "resultVarName": "TestResult_math/floor_[a] -2323.43500 = -2324.00000",
+          "resultVarId": 169,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -2324.0
+          ],
+          "successResultVarId": 168,
+          "successResultVarName": "TestResult_HasPassed_math/floor_[a] -2323.43500 = -2324.00000"
+        },
+        {
+          "name": "[a] (-2323.43500, -2323.43500) = (-2324.00000, -2324.00000)",
+          "resultVarName": "TestResult_math/floor_[a] (-2323.43500, -2323.43500) = (-2324.00000, -2324.00000)",
+          "resultVarId": 171,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            -2324.0,
+            -2324.0
+          ],
+          "successResultVarId": 170,
+          "successResultVarName": "TestResult_HasPassed_math/floor_[a] (-2323.43500, -2323.43500) = (-2324.00000, -2324.00000)"
+        },
+        {
+          "name": "[a] (-2323.43500, -2323.43500, -2323.43500) = (-2324.00000, -2324.00000, -2324.00000)",
+          "resultVarName": "TestResult_math/floor_[a] (-2323.43500, -2323.43500, -2323.43500) = (-2324.00000, -2324.00000, -2324.00000)",
+          "resultVarId": 173,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -2324.0,
+            -2324.0,
+            -2324.0
+          ],
+          "successResultVarId": 172,
+          "successResultVarName": "TestResult_HasPassed_math/floor_[a] (-2323.43500, -2323.43500, -2323.43500) = (-2324.00000, -2324.00000, -2324.00000)"
+        }
+      ]
+    },
+    {
+      "name": "math/fract",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/fract",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] -32434.97000 = 0.03125",
+          "nodeId": 1323
+        },
+        {
+          "name": "[a] (-32434.97000, -32434.97000) = (0.03125, 0.03125)",
+          "nodeId": 1339
+        },
+        {
+          "name": "[a] (-32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125)",
+          "nodeId": 1355
+        },
+        {
+          "name": "[a] (-32434.97000, -32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125, 0.03125)",
+          "nodeId": 1371
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] -32434.97000 = 0.03125",
+          "resultVarName": "TestResult_math/fract_[a] -32434.97000 = 0.03125",
+          "resultVarId": 175,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.03125
+          ],
+          "successResultVarId": 174,
+          "successResultVarName": "TestResult_HasPassed_math/fract_[a] -32434.97000 = 0.03125"
+        },
+        {
+          "name": "[a] (-32434.97000, -32434.97000) = (0.03125, 0.03125)",
+          "resultVarName": "TestResult_math/fract_[a] (-32434.97000, -32434.97000) = (0.03125, 0.03125)",
+          "resultVarId": 177,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.03125,
+            0.03125
+          ],
+          "successResultVarId": 176,
+          "successResultVarName": "TestResult_HasPassed_math/fract_[a] (-32434.97000, -32434.97000) = (0.03125, 0.03125)"
+        },
+        {
+          "name": "[a] (-32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125)",
+          "resultVarName": "TestResult_math/fract_[a] (-32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125)",
+          "resultVarId": 179,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.03125,
+            0.03125,
+            0.03125
+          ],
+          "successResultVarId": 178,
+          "successResultVarName": "TestResult_HasPassed_math/fract_[a] (-32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125)"
+        },
+        {
+          "name": "[a] (-32434.97000, -32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125, 0.03125)",
+          "resultVarName": "TestResult_math/fract_[a] (-32434.97000, -32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125, 0.03125)",
+          "resultVarId": 181,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.03125,
+            0.03125,
+            0.03125,
+            0.03125
+          ],
+          "successResultVarId": 180,
+          "successResultVarName": "TestResult_HasPassed_math/fract_[a] (-32434.97000, -32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125, 0.03125)"
+        }
+      ]
+    },
+    {
+      "name": "math/ge",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/ge",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.34650 [b] 1.34650 = True",
+          "nodeId": 1387
+        },
+        {
+          "name": "[a] 1 [b] 1 = True",
+          "nodeId": 1401
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.34650 [b] 1.34650 = True",
+          "resultVarName": "TestResult_math/ge_[a] 1.34650 [b] 1.34650 = True",
+          "resultVarId": 183,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 182,
+          "successResultVarName": "TestResult_HasPassed_math/ge_[a] 1.34650 [b] 1.34650 = True"
+        },
+        {
+          "name": "[a] 1 [b] 1 = True",
+          "resultVarName": "TestResult_math/ge_[a] 1 [b] 1 = True",
+          "resultVarId": 185,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 184,
+          "successResultVarName": "TestResult_HasPassed_math/ge_[a] 1 [b] 1 = True"
+        }
+      ]
+    },
+    {
+      "name": "math/gt",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/gt",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 = False",
+          "nodeId": 1415
+        },
+        {
+          "name": "[a] 1 [b] 2 = False",
+          "nodeId": 1429
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 = False",
+          "resultVarName": "TestResult_math/gt_[a] 1.00000 [b] 2.00000 = False",
+          "resultVarId": 187,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 186,
+          "successResultVarName": "TestResult_HasPassed_math/gt_[a] 1.00000 [b] 2.00000 = False"
+        },
+        {
+          "name": "[a] 1 [b] 2 = False",
+          "resultVarName": "TestResult_math/gt_[a] 1 [b] 2 = False",
+          "resultVarId": 189,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 188,
+          "successResultVarName": "TestResult_HasPassed_math/gt_[a] 1 [b] 2 = False"
+        }
+      ]
+    },
+    {
+      "name": "math/inf",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/inf",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "= Infinity",
+          "nodeId": 1443
+        }
+      ],
+      "subTests": [
+        {
+          "name": "= Infinity",
+          "resultVarName": "TestResult_math/inf_= Infinity",
+          "resultVarId": 191,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "Infinity"
+          ],
+          "successResultVarId": 190,
+          "successResultVarName": "TestResult_HasPassed_math/inf_= Infinity"
+        }
+      ]
+    },
+    {
+      "name": "math/isinf",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/isinf",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] Infinity = True",
+          "nodeId": 1457
+        },
+        {
+          "name": "[a] -Infinity = True",
+          "nodeId": 1471
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] Infinity = True",
+          "resultVarName": "TestResult_math/isinf_[a] Infinity = True",
+          "resultVarId": 193,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 192,
+          "successResultVarName": "TestResult_HasPassed_math/isinf_[a] Infinity = True"
+        },
+        {
+          "name": "[a] -Infinity = True",
+          "resultVarName": "TestResult_math/isinf_[a] -Infinity = True",
+          "resultVarId": 195,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 194,
+          "successResultVarName": "TestResult_HasPassed_math/isinf_[a] -Infinity = True"
+        }
+      ]
+    },
+    {
+      "name": "math/isnan",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/isnan",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] NaN = True",
+          "nodeId": 1485
+        },
+        {
+          "name": "[a] 1.00000 = False",
+          "nodeId": 1499
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] NaN = True",
+          "resultVarName": "TestResult_math/isnan_[a] NaN = True",
+          "resultVarId": 197,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 196,
+          "successResultVarName": "TestResult_HasPassed_math/isnan_[a] NaN = True"
+        },
+        {
+          "name": "[a] 1.00000 = False",
+          "resultVarName": "TestResult_math/isnan_[a] 1.00000 = False",
+          "resultVarId": 199,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 198,
+          "successResultVarName": "TestResult_HasPassed_math/isnan_[a] 1.00000 = False"
+        }
+      ]
+    },
+    {
+      "name": "math/le",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/le",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.34650 [b] 1.34650 = True",
+          "nodeId": 1513
+        },
+        {
+          "name": "[a] 1 [b] 1 = True",
+          "nodeId": 1527
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.34650 [b] 1.34650 = True",
+          "resultVarName": "TestResult_math/le_[a] 1.34650 [b] 1.34650 = True",
+          "resultVarId": 201,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 200,
+          "successResultVarName": "TestResult_HasPassed_math/le_[a] 1.34650 [b] 1.34650 = True"
+        },
+        {
+          "name": "[a] 1 [b] 1 = True",
+          "resultVarName": "TestResult_math/le_[a] 1 [b] 1 = True",
+          "resultVarId": 203,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 202,
+          "successResultVarName": "TestResult_HasPassed_math/le_[a] 1 [b] 1 = True"
+        }
+      ]
+    },
+    {
+      "name": "math/log",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/log",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 26436.23000 = 10.18249",
+          "nodeId": 1541
+        },
+        {
+          "name": "[a] (26436.23000, 26436.23000) = (10.18249, 10.18249)",
+          "nodeId": 1557
+        },
+        {
+          "name": "[a] (26436.23000, 26436.23000, 26436.23000) = (10.18249, 10.18249, 10.18249)",
+          "nodeId": 1573
+        },
+        {
+          "name": "[a] (26436.23000, 26436.23000, 26436.23000, 26436.23000) = (10.18249, 10.18249, 10.18249, 10.18249)",
+          "nodeId": 1589
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 26436.23000 = 10.18249",
+          "resultVarName": "TestResult_math/log_[a] 26436.23000 = 10.18249",
+          "resultVarId": 205,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            10.1824913
+          ],
+          "successResultVarId": 204,
+          "successResultVarName": "TestResult_HasPassed_math/log_[a] 26436.23000 = 10.18249"
+        },
+        {
+          "name": "[a] (26436.23000, 26436.23000) = (10.18249, 10.18249)",
+          "resultVarName": "TestResult_math/log_[a] (26436.23000, 26436.23000) = (10.18249, 10.18249)",
+          "resultVarId": 207,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            10.1824913,
+            10.1824913
+          ],
+          "successResultVarId": 206,
+          "successResultVarName": "TestResult_HasPassed_math/log_[a] (26436.23000, 26436.23000) = (10.18249, 10.18249)"
+        },
+        {
+          "name": "[a] (26436.23000, 26436.23000, 26436.23000) = (10.18249, 10.18249, 10.18249)",
+          "resultVarName": "TestResult_math/log_[a] (26436.23000, 26436.23000, 26436.23000) = (10.18249, 10.18249, 10.18249)",
+          "resultVarId": 209,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            10.1824913,
+            10.1824913,
+            10.1824913
+          ],
+          "successResultVarId": 208,
+          "successResultVarName": "TestResult_HasPassed_math/log_[a] (26436.23000, 26436.23000, 26436.23000) = (10.18249, 10.18249, 10.18249)"
+        },
+        {
+          "name": "[a] (26436.23000, 26436.23000, 26436.23000, 26436.23000) = (10.18249, 10.18249, 10.18249, 10.18249)",
+          "resultVarName": "TestResult_math/log_[a] (26436.23000, 26436.23000, 26436.23000, 26436.23000) = (10.18249, 10.18249, 10.18249, 10.18249)",
+          "resultVarId": 211,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            10.1824913,
+            10.1824913,
+            10.1824913,
+            10.1824913
+          ],
+          "successResultVarId": 210,
+          "successResultVarName": "TestResult_HasPassed_math/log_[a] (26436.23000, 26436.23000, 26436.23000, 26436.23000) = (10.18249, 10.18249, 10.18249, 10.18249)"
+        }
+      ]
+    },
+    {
+      "name": "math/log10",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/log10",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 8768.24000 = 3.94291",
+          "nodeId": 1605
+        },
+        {
+          "name": "[a] (8768.24000, 8768.24000) = (3.94291, 3.94291)",
+          "nodeId": 1621
+        },
+        {
+          "name": "[a] (8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291)",
+          "nodeId": 1637
+        },
+        {
+          "name": "[a] (8768.24000, 8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291, 3.94291)",
+          "nodeId": 1653
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 8768.24000 = 3.94291",
+          "resultVarName": "TestResult_math/log10_[a] 8768.24000 = 3.94291",
+          "resultVarId": 213,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.94291234
+          ],
+          "successResultVarId": 212,
+          "successResultVarName": "TestResult_HasPassed_math/log10_[a] 8768.24000 = 3.94291"
+        },
+        {
+          "name": "[a] (8768.24000, 8768.24000) = (3.94291, 3.94291)",
+          "resultVarName": "TestResult_math/log10_[a] (8768.24000, 8768.24000) = (3.94291, 3.94291)",
+          "resultVarId": 215,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            3.94291234,
+            3.94291234
+          ],
+          "successResultVarId": 214,
+          "successResultVarName": "TestResult_HasPassed_math/log10_[a] (8768.24000, 8768.24000) = (3.94291, 3.94291)"
+        },
+        {
+          "name": "[a] (8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291)",
+          "resultVarName": "TestResult_math/log10_[a] (8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291)",
+          "resultVarId": 217,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            3.94291234,
+            3.94291234,
+            3.94291234
+          ],
+          "successResultVarId": 216,
+          "successResultVarName": "TestResult_HasPassed_math/log10_[a] (8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291)"
+        },
+        {
+          "name": "[a] (8768.24000, 8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291, 3.94291)",
+          "resultVarName": "TestResult_math/log10_[a] (8768.24000, 8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291, 3.94291)",
+          "resultVarId": 219,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            3.94291234,
+            3.94291234,
+            3.94291234,
+            3.94291234
+          ],
+          "successResultVarId": 218,
+          "successResultVarName": "TestResult_HasPassed_math/log10_[a] (8768.24000, 8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291, 3.94291)"
+        }
+      ]
+    },
+    {
+      "name": "math/log2",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/log2",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 6443.24300 = 12.65357",
+          "nodeId": 1669
+        },
+        {
+          "name": "[a] (6443.24300, 6443.24300) = (12.65357, 12.65357)",
+          "nodeId": 1685
+        },
+        {
+          "name": "[a] (6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357)",
+          "nodeId": 1701
+        },
+        {
+          "name": "[a] (6443.24300, 6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357, 12.65357)",
+          "nodeId": 1717
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 6443.24300 = 12.65357",
+          "resultVarName": "TestResult_math/log2_[a] 6443.24300 = 12.65357",
+          "resultVarId": 221,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            12.6535711
+          ],
+          "successResultVarId": 220,
+          "successResultVarName": "TestResult_HasPassed_math/log2_[a] 6443.24300 = 12.65357"
+        },
+        {
+          "name": "[a] (6443.24300, 6443.24300) = (12.65357, 12.65357)",
+          "resultVarName": "TestResult_math/log2_[a] (6443.24300, 6443.24300) = (12.65357, 12.65357)",
+          "resultVarId": 223,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            12.6535711,
+            12.6535711
+          ],
+          "successResultVarId": 222,
+          "successResultVarName": "TestResult_HasPassed_math/log2_[a] (6443.24300, 6443.24300) = (12.65357, 12.65357)"
+        },
+        {
+          "name": "[a] (6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357)",
+          "resultVarName": "TestResult_math/log2_[a] (6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357)",
+          "resultVarId": 225,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            12.6535711,
+            12.6535711,
+            12.6535711
+          ],
+          "successResultVarId": 224,
+          "successResultVarName": "TestResult_HasPassed_math/log2_[a] (6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357)"
+        },
+        {
+          "name": "[a] (6443.24300, 6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357, 12.65357)",
+          "resultVarName": "TestResult_math/log2_[a] (6443.24300, 6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357, 12.65357)",
+          "resultVarId": 227,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            12.6535711,
+            12.6535711,
+            12.6535711,
+            12.6535711
+          ],
+          "successResultVarId": 226,
+          "successResultVarName": "TestResult_HasPassed_math/log2_[a] (6443.24300, 6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357, 12.65357)"
+        }
+      ]
+    },
+    {
+      "name": "math/lt",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/lt",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 = True",
+          "nodeId": 1733
+        },
+        {
+          "name": "[a] 1 [b] 2 = True",
+          "nodeId": 1747
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 = True",
+          "resultVarName": "TestResult_math/lt_[a] 1.00000 [b] 2.00000 = True",
+          "resultVarId": 229,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 228,
+          "successResultVarName": "TestResult_HasPassed_math/lt_[a] 1.00000 [b] 2.00000 = True"
+        },
+        {
+          "name": "[a] 1 [b] 2 = True",
+          "resultVarName": "TestResult_math/lt_[a] 1 [b] 2 = True",
+          "resultVarId": 231,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 230,
+          "successResultVarName": "TestResult_HasPassed_math/lt_[a] 1 [b] 2 = True"
+        }
+      ]
+    },
+    {
+      "name": "math/max",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/max",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4653.23400 [b] 91293920.00000 = 91293920.00000",
+          "nodeId": 1761
+        },
+        {
+          "name": "[a] (4653.23400, 4653.23400) [b] (91293920.00000, 91293920.00000) = (91293920.00000, 91293920.00000)",
+          "nodeId": 1775
+        },
+        {
+          "name": "[a] (4653.23400, 4653.23400, 4653.23400) [b] (91293920.00000, 91293920.00000, 91293920.00000) = (91293920.00000, 91293920.00000, 91293920.00000)",
+          "nodeId": 1789
+        },
+        {
+          "name": "[a] (4653.23400, 4653.23400, 4653.23400, 4653.23400) [b] (91293920.00000, 91293920.00000, 91293920.00000, 91293920.00000) = (91293920.00000, 91293920.00000, 91293920.00000, 91293920.00000)",
+          "nodeId": 1803
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4653.23400 [b] 91293920.00000 = 91293920.00000",
+          "resultVarName": "TestResult_math/max_[a] 4653.23400 [b] 91293920.00000 = 91293920.00000",
+          "resultVarId": 233,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            9.129392E+07
+          ],
+          "successResultVarId": 232,
+          "successResultVarName": "TestResult_HasPassed_math/max_[a] 4653.23400 [b] 91293920.00000 = 91293920.00000"
+        },
+        {
+          "name": "[a] (4653.23400, 4653.23400) [b] (91293920.00000, 91293920.00000) = (91293920.00000, 91293920.00000)",
+          "resultVarName": "TestResult_math/max_[a] (4653.23400, 4653.23400) [b] (91293920.00000, 91293920.00000) = (91293920.00000, 91293920.00000)",
+          "resultVarId": 235,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            9.129392E+07,
+            9.129392E+07
+          ],
+          "successResultVarId": 234,
+          "successResultVarName": "TestResult_HasPassed_math/max_[a] (4653.23400, 4653.23400) [b] (91293920.00000, 91293920.00000) = (91293920.00000, 91293920.00000)"
+        },
+        {
+          "name": "[a] (4653.23400, 4653.23400, 4653.23400) [b] (91293920.00000, 91293920.00000, 91293920.00000) = (91293920.00000, 91293920.00000, 91293920.00000)",
+          "resultVarName": "TestResult_math/max_[a] (4653.23400, 4653.23400, 4653.23400) [b] (91293920.00000, 91293920.00000, 91293920.00000) = (91293920.00000, 91293920.00000, 91293920.00000)",
+          "resultVarId": 237,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            9.129392E+07,
+            9.129392E+07,
+            9.129392E+07
+          ],
+          "successResultVarId": 236,
+          "successResultVarName": "TestResult_HasPassed_math/max_[a] (4653.23400, 4653.23400, 4653.23400) [b] (91293920.00000, 91293920.00000, 91293920.00000) = (91293920.00000, 91293920.00000, 91293920.00000)"
+        },
+        {
+          "name": "[a] (4653.23400, 4653.23400, 4653.23400, 4653.23400) [b] (91293920.00000, 91293920.00000, 91293920.00000, 91293920.00000) = (91293920.00000, 91293920.00000, 91293920.00000, 91293920.00000)",
+          "resultVarName": "TestResult_math/max_[a] (4653.23400, 4653.23400, 4653.23400, 4653.23400) [b] (91293920.00000, 91293920.00000, 91293920.00000, 91293920.00000) = (91293920.00000, 91293920.00000, 91293920.00000, 91293920.00000)",
+          "resultVarId": 239,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            9.129392E+07,
+            9.129392E+07,
+            9.129392E+07,
+            9.129392E+07
+          ],
+          "successResultVarId": 238,
+          "successResultVarName": "TestResult_HasPassed_math/max_[a] (4653.23400, 4653.23400, 4653.23400, 4653.23400) [b] (91293920.00000, 91293920.00000, 91293920.00000, 91293920.00000) = (91293920.00000, 91293920.00000, 91293920.00000, 91293920.00000)"
+        }
+      ]
+    },
+    {
+      "name": "math/min",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/min",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 17.21323 [b] -324.23400 = -324.23400",
+          "nodeId": 1817
+        },
+        {
+          "name": "[a] (17.21323, 17.21323) [b] (-324.23400, -324.23400) = (-324.23400, -324.23400)",
+          "nodeId": 1831
+        },
+        {
+          "name": "[a] (17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400)",
+          "nodeId": 1845
+        },
+        {
+          "name": "[a] (17.21323, 17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400, -324.23400)",
+          "nodeId": 1859
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 17.21323 [b] -324.23400 = -324.23400",
+          "resultVarName": "TestResult_math/min_[a] 17.21323 [b] -324.23400 = -324.23400",
+          "resultVarId": 241,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -324.234
+          ],
+          "successResultVarId": 240,
+          "successResultVarName": "TestResult_HasPassed_math/min_[a] 17.21323 [b] -324.23400 = -324.23400"
+        },
+        {
+          "name": "[a] (17.21323, 17.21323) [b] (-324.23400, -324.23400) = (-324.23400, -324.23400)",
+          "resultVarName": "TestResult_math/min_[a] (17.21323, 17.21323) [b] (-324.23400, -324.23400) = (-324.23400, -324.23400)",
+          "resultVarId": 243,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            -324.234,
+            -324.234
+          ],
+          "successResultVarId": 242,
+          "successResultVarName": "TestResult_HasPassed_math/min_[a] (17.21323, 17.21323) [b] (-324.23400, -324.23400) = (-324.23400, -324.23400)"
+        },
+        {
+          "name": "[a] (17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400)",
+          "resultVarName": "TestResult_math/min_[a] (17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400)",
+          "resultVarId": 245,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -324.234,
+            -324.234,
+            -324.234
+          ],
+          "successResultVarId": 244,
+          "successResultVarName": "TestResult_HasPassed_math/min_[a] (17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400)"
+        },
+        {
+          "name": "[a] (17.21323, 17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400, -324.23400)",
+          "resultVarName": "TestResult_math/min_[a] (17.21323, 17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400, -324.23400)",
+          "resultVarId": 247,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            -324.234,
+            -324.234,
+            -324.234,
+            -324.234
+          ],
+          "successResultVarId": 246,
+          "successResultVarName": "TestResult_HasPassed_math/min_[a] (17.21323, 17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400, -324.23400)"
+        }
+      ]
+    },
+    {
+      "name": "math/mix",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/mix",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 [c] 2.00000 = 3.00000",
+          "nodeId": 1873
+        },
+        {
+          "name": "[a] (1.00000, 1.00000) [b] (2.00000, 2.00000) [c] (2.00000, 2.00000) = (3.00000, 3.00000)",
+          "nodeId": 1887
+        },
+        {
+          "name": "[a] (1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000)",
+          "nodeId": 1901
+        },
+        {
+          "name": "[a] (1.00000, 1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000, 3.00000)",
+          "nodeId": 1915
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 [c] 2.00000 = 3.00000",
+          "resultVarName": "TestResult_math/mix_[a] 1.00000 [b] 2.00000 [c] 2.00000 = 3.00000",
+          "resultVarId": 249,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.0
+          ],
+          "successResultVarId": 248,
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] 1.00000 [b] 2.00000 [c] 2.00000 = 3.00000"
+        },
+        {
+          "name": "[a] (1.00000, 1.00000) [b] (2.00000, 2.00000) [c] (2.00000, 2.00000) = (3.00000, 3.00000)",
+          "resultVarName": "TestResult_math/mix_[a] (1.00000, 1.00000) [b] (2.00000, 2.00000) [c] (2.00000, 2.00000) = (3.00000, 3.00000)",
+          "resultVarId": 251,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            3.0,
+            3.0
+          ],
+          "successResultVarId": 250,
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1.00000, 1.00000) [b] (2.00000, 2.00000) [c] (2.00000, 2.00000) = (3.00000, 3.00000)"
+        },
+        {
+          "name": "[a] (1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000)",
+          "resultVarName": "TestResult_math/mix_[a] (1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000)",
+          "resultVarId": 253,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            3.0,
+            3.0,
+            3.0
+          ],
+          "successResultVarId": 252,
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000)"
+        },
+        {
+          "name": "[a] (1.00000, 1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000, 3.00000)",
+          "resultVarName": "TestResult_math/mix_[a] (1.00000, 1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000, 3.00000)",
+          "resultVarId": 255,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "successResultVarId": 254,
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1.00000, 1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000, 3.00000)"
+        }
+      ]
+    },
+    {
+      "name": "math/mul",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/add",
+        "math/dot",
+        "math/extract4x4",
+        "math/gt",
+        "math/lt",
+        "math/mul",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 345.23440 [b] 0.00290 = 1.00000",
+          "nodeId": 1929
+        },
+        {
+          "name": "[a] (345.23440, 345.23440) [b] (0.00290, 0.00290) = (1.00000, 1.00000)",
+          "nodeId": 1945
+        },
+        {
+          "name": "[a] (345.23440, 345.23440, 345.23440) [b] (0.00290, 0.00290, 0.00290) = (1.00000, 1.00000, 1.00000)",
+          "nodeId": 1961
+        },
+        {
+          "name": "[a] (345.23440, 345.23440, 345.23440, 345.23440) [b] (0.00290, 0.00290, 0.00290, 0.00290) = (1.00000, 1.00000, 1.00000, 1.00000)",
+          "nodeId": 1977
+        },
+        {
+          "name": "[a] 345.23440\t345.23440\t345.23440\t345.23440\n345.23440\t345.23440\t345.23440\t345.23440\n345.23440\t345.23440\t345.23440\t345.23440\n345.23440\t345.23440\t345.23440\t345.23440\n [b] 0.00290\t0.00290\t0.00290\t0.00290\n0.00290\t0.00290\t0.00290\t0.00290\n0.00290\t0.00290\t0.00290\t0.00290\n0.00290\t0.00290\t0.00290\t0.00290\n = 1.00000\t1.00000\t1.00000\t1.00000\n1.00000\t1.00000\t1.00000\t1.00000\n1.00000\t1.00000\t1.00000\t1.00000\n1.00000\t1.00000\t1.00000\t1.00000\n",
+          "nodeId": 1993
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 345.23440 [b] 0.00290 = 1.00000",
+          "resultVarName": "TestResult_math/mul_[a] 345.23440 [b] 0.00290 = 1.00000",
+          "resultVarId": 257,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 256,
+          "successResultVarName": "TestResult_HasPassed_math/mul_[a] 345.23440 [b] 0.00290 = 1.00000"
+        },
+        {
+          "name": "[a] (345.23440, 345.23440) [b] (0.00290, 0.00290) = (1.00000, 1.00000)",
+          "resultVarName": "TestResult_math/mul_[a] (345.23440, 345.23440) [b] (0.00290, 0.00290) = (1.00000, 1.00000)",
+          "resultVarId": 259,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 258,
+          "successResultVarName": "TestResult_HasPassed_math/mul_[a] (345.23440, 345.23440) [b] (0.00290, 0.00290) = (1.00000, 1.00000)"
+        },
+        {
+          "name": "[a] (345.23440, 345.23440, 345.23440) [b] (0.00290, 0.00290, 0.00290) = (1.00000, 1.00000, 1.00000)",
+          "resultVarName": "TestResult_math/mul_[a] (345.23440, 345.23440, 345.23440) [b] (0.00290, 0.00290, 0.00290) = (1.00000, 1.00000, 1.00000)",
+          "resultVarId": 261,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 260,
+          "successResultVarName": "TestResult_HasPassed_math/mul_[a] (345.23440, 345.23440, 345.23440) [b] (0.00290, 0.00290, 0.00290) = (1.00000, 1.00000, 1.00000)"
+        },
+        {
+          "name": "[a] (345.23440, 345.23440, 345.23440, 345.23440) [b] (0.00290, 0.00290, 0.00290, 0.00290) = (1.00000, 1.00000, 1.00000, 1.00000)",
+          "resultVarName": "TestResult_math/mul_[a] (345.23440, 345.23440, 345.23440, 345.23440) [b] (0.00290, 0.00290, 0.00290, 0.00290) = (1.00000, 1.00000, 1.00000, 1.00000)",
+          "resultVarId": 263,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 262,
+          "successResultVarName": "TestResult_HasPassed_math/mul_[a] (345.23440, 345.23440, 345.23440, 345.23440) [b] (0.00290, 0.00290, 0.00290, 0.00290) = (1.00000, 1.00000, 1.00000, 1.00000)"
+        },
+        {
+          "name": "[a] 345.23440\t345.23440\t345.23440\t345.23440\n345.23440\t345.23440\t345.23440\t345.23440\n345.23440\t345.23440\t345.23440\t345.23440\n345.23440\t345.23440\t345.23440\t345.23440\n [b] 0.00290\t0.00290\t0.00290\t0.00290\n0.00290\t0.00290\t0.00290\t0.00290\n0.00290\t0.00290\t0.00290\t0.00290\n0.00290\t0.00290\t0.00290\t0.00290\n = 1.00000\t1.00000\t1.00000\t1.00000\n1.00000\t1.00000\t1.00000\t1.00000\n1.00000\t1.00000\t1.00000\t1.00000\n1.00000\t1.00000\t1.00000\t1.00000\n",
+          "resultVarName": "TestResult_math/mul_[a] 345.23440\t345.23440\t345.23440\t345.23440\n345.23440\t345.23440\t345.23440\t345.23440\n345.23440\t345.23440\t345.23440\t345.23440\n345.23440\t345.23440\t345.23440\t345.23440\n [b] 0.00290\t0.00290\t0.00290\t0.00290\n0.00290\t0.00290\t0.00290\t0.00290\n0.00290\t0.00290\t0.00290\t0.00290\n0.00290\t0.00290\t0.00290\t0.00290\n = 1.00000\t1.00000\t1.00000\t1.00000\n1.00000\t1.00000\t1.00000\t1.00000\n1.00000\t1.00000\t1.00000\t1.00000\n1.00000\t1.00000\t1.00000\t1.00000\n",
+          "resultVarId": 265,
+          "resultVarType": "float4x4",
+          "expectedResultValue": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 264,
+          "successResultVarName": "TestResult_HasPassed_math/mul_[a] 345.23440\t345.23440\t345.23440\t345.23440\n345.23440\t345.23440\t345.23440\t345.23440\n345.23440\t345.23440\t345.23440\t345.23440\n345.23440\t345.23440\t345.23440\t345.23440\n [b] 0.00290\t0.00290\t0.00290\t0.00290\n0.00290\t0.00290\t0.00290\t0.00290\n0.00290\t0.00290\t0.00290\t0.00290\n0.00290\t0.00290\t0.00290\t0.00290\n = 1.00000\t1.00000\t1.00000\t1.00000\n1.00000\t1.00000\t1.00000\t1.00000\n1.00000\t1.00000\t1.00000\t1.00000\n1.00000\t1.00000\t1.00000\t1.00000\n"
+        }
+      ]
+    },
+    {
+      "name": "math/nan",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/isnan",
+        "math/nan",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "= NaN",
+          "nodeId": 2039
+        }
+      ],
+      "subTests": [
+        {
+          "name": "= NaN",
+          "resultVarName": "TestResult_math/nan_= NaN",
+          "resultVarId": 267,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 266,
+          "successResultVarName": "TestResult_HasPassed_math/nan_= NaN"
+        }
+      ]
+    },
+    {
+      "name": "math/neg",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/neg",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] -8923448.00000 = 8923448.00000",
+          "nodeId": 2053
+        },
+        {
+          "name": "[a] (-8923448.00000, -8923448.00000) = (8923448.00000, 8923448.00000)",
+          "nodeId": 2067
+        },
+        {
+          "name": "[a] (-8923448.00000, -8923448.00000, -8923448.00000) = (8923448.00000, 8923448.00000, 8923448.00000)",
+          "nodeId": 2081
+        },
+        {
+          "name": "[a] (-8923448.00000, -8923448.00000, -8923448.00000, -8923448.00000) = (8923448.00000, 8923448.00000, 8923448.00000, 8923448.00000)",
+          "nodeId": 2095
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] -8923448.00000 = 8923448.00000",
+          "resultVarName": "TestResult_math/neg_[a] -8923448.00000 = 8923448.00000",
+          "resultVarId": 269,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            8923448.0
+          ],
+          "successResultVarId": 268,
+          "successResultVarName": "TestResult_HasPassed_math/neg_[a] -8923448.00000 = 8923448.00000"
+        },
+        {
+          "name": "[a] (-8923448.00000, -8923448.00000) = (8923448.00000, 8923448.00000)",
+          "resultVarName": "TestResult_math/neg_[a] (-8923448.00000, -8923448.00000) = (8923448.00000, 8923448.00000)",
+          "resultVarId": 271,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            8923448.0,
+            8923448.0
+          ],
+          "successResultVarId": 270,
+          "successResultVarName": "TestResult_HasPassed_math/neg_[a] (-8923448.00000, -8923448.00000) = (8923448.00000, 8923448.00000)"
+        },
+        {
+          "name": "[a] (-8923448.00000, -8923448.00000, -8923448.00000) = (8923448.00000, 8923448.00000, 8923448.00000)",
+          "resultVarName": "TestResult_math/neg_[a] (-8923448.00000, -8923448.00000, -8923448.00000) = (8923448.00000, 8923448.00000, 8923448.00000)",
+          "resultVarId": 273,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            8923448.0,
+            8923448.0,
+            8923448.0
+          ],
+          "successResultVarId": 272,
+          "successResultVarName": "TestResult_HasPassed_math/neg_[a] (-8923448.00000, -8923448.00000, -8923448.00000) = (8923448.00000, 8923448.00000, 8923448.00000)"
+        },
+        {
+          "name": "[a] (-8923448.00000, -8923448.00000, -8923448.00000, -8923448.00000) = (8923448.00000, 8923448.00000, 8923448.00000, 8923448.00000)",
+          "resultVarName": "TestResult_math/neg_[a] (-8923448.00000, -8923448.00000, -8923448.00000, -8923448.00000) = (8923448.00000, 8923448.00000, 8923448.00000, 8923448.00000)",
+          "resultVarId": 275,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            8923448.0,
+            8923448.0,
+            8923448.0,
+            8923448.0
+          ],
+          "successResultVarId": 274,
+          "successResultVarName": "TestResult_HasPassed_math/neg_[a] (-8923448.00000, -8923448.00000, -8923448.00000, -8923448.00000) = (8923448.00000, 8923448.00000, 8923448.00000, 8923448.00000)"
+        }
+      ]
+    },
+    {
+      "name": "math/pi",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/lt",
+        "math/pi",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "= 3.14159",
+          "nodeId": 2109
+        }
+      ],
+      "subTests": [
+        {
+          "name": "= 3.14159",
+          "resultVarName": "TestResult_math/pi_= 3.14159",
+          "resultVarId": 277,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.14159274
+          ],
+          "successResultVarId": 276,
+          "successResultVarName": "TestResult_HasPassed_math/pi_= 3.14159"
+        }
+      ]
+    },
+    {
+      "name": "math/pow",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/pow",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 7.76400 [b] 2.34500 = 122.25050",
+          "nodeId": 2125
+        },
+        {
+          "name": "[a] (7.76400, 7.76400) [b] (2.34500, 2.34500) = (122.25050, 122.25050)",
+          "nodeId": 2141
+        },
+        {
+          "name": "[a] (7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050)",
+          "nodeId": 2157
+        },
+        {
+          "name": "[a] (7.76400, 7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050, 122.25050)",
+          "nodeId": 2173
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 7.76400 [b] 2.34500 = 122.25050",
+          "resultVarName": "TestResult_math/pow_[a] 7.76400 [b] 2.34500 = 122.25050",
+          "resultVarId": 279,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            122.250481
+          ],
+          "successResultVarId": 278,
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] 7.76400 [b] 2.34500 = 122.25050"
+        },
+        {
+          "name": "[a] (7.76400, 7.76400) [b] (2.34500, 2.34500) = (122.25050, 122.25050)",
+          "resultVarName": "TestResult_math/pow_[a] (7.76400, 7.76400) [b] (2.34500, 2.34500) = (122.25050, 122.25050)",
+          "resultVarId": 281,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            122.250481,
+            122.250481
+          ],
+          "successResultVarId": 280,
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] (7.76400, 7.76400) [b] (2.34500, 2.34500) = (122.25050, 122.25050)"
+        },
+        {
+          "name": "[a] (7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050)",
+          "resultVarName": "TestResult_math/pow_[a] (7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050)",
+          "resultVarId": 283,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            122.250481,
+            122.250481,
+            122.250481
+          ],
+          "successResultVarId": 282,
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] (7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050)"
+        },
+        {
+          "name": "[a] (7.76400, 7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050, 122.25050)",
+          "resultVarName": "TestResult_math/pow_[a] (7.76400, 7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050, 122.25050)",
+          "resultVarId": 285,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            122.250481,
+            122.250481,
+            122.250481,
+            122.250481
+          ],
+          "successResultVarId": 284,
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] (7.76400, 7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050, 122.25050)"
+        }
+      ]
+    },
+    {
+      "name": "math/rad",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/rad",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 75.00000 = 1.30900",
+          "nodeId": 2189
+        },
+        {
+          "name": "[a] (75.00000, 75.00000) = (1.30900, 1.30900)",
+          "nodeId": 2205
+        },
+        {
+          "name": "[a] (75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900)",
+          "nodeId": 2221
+        },
+        {
+          "name": "[a] (75.00000, 75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900, 1.30900)",
+          "nodeId": 2237
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 75.00000 = 1.30900",
+          "resultVarName": "TestResult_math/rad_[a] 75.00000 = 1.30900",
+          "resultVarId": 287,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.30899692
+          ],
+          "successResultVarId": 286,
+          "successResultVarName": "TestResult_HasPassed_math/rad_[a] 75.00000 = 1.30900"
+        },
+        {
+          "name": "[a] (75.00000, 75.00000) = (1.30900, 1.30900)",
+          "resultVarName": "TestResult_math/rad_[a] (75.00000, 75.00000) = (1.30900, 1.30900)",
+          "resultVarId": 289,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            1.30899692,
+            1.30899692
+          ],
+          "successResultVarId": 288,
+          "successResultVarName": "TestResult_HasPassed_math/rad_[a] (75.00000, 75.00000) = (1.30900, 1.30900)"
+        },
+        {
+          "name": "[a] (75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900)",
+          "resultVarName": "TestResult_math/rad_[a] (75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900)",
+          "resultVarId": 291,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.30899692,
+            1.30899692,
+            1.30899692
+          ],
+          "successResultVarId": 290,
+          "successResultVarName": "TestResult_HasPassed_math/rad_[a] (75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900)"
+        },
+        {
+          "name": "[a] (75.00000, 75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900, 1.30900)",
+          "resultVarName": "TestResult_math/rad_[a] (75.00000, 75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900, 1.30900)",
+          "resultVarId": 293,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            1.30899692,
+            1.30899692,
+            1.30899692,
+            1.30899692
+          ],
+          "successResultVarId": 292,
+          "successResultVarName": "TestResult_HasPassed_math/rad_[a] (75.00000, 75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900, 1.30900)"
+        }
+      ]
+    },
+    {
+      "name": "math/random",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/for",
+        "flow/sequence",
+        "math/abs",
+        "math/add",
+        "math/combine2",
+        "math/div",
+        "math/eq",
+        "math/length",
+        "math/lt",
+        "math/mul",
+        "math/random",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Random (new number in new flow)",
+          "nodeId": 2255
+        },
+        {
+          "name": "Random (same number in current flow)",
+          "nodeId": 2269
+        },
+        {
+          "name": "Monte Carlo 1k(random number distribution)",
+          "nodeId": 2288
+        },
+        {
+          "name": "Monte Carlo 1k(random number distribution)",
+          "nodeId": 2319
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Random (new number in new flow)",
+          "resultVarName": "TestResult_math/random_Random (new number in new flow)",
+          "resultVarId": 295,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 295,
+          "successResultVarName": "TestResult_HasPassed_math/random_Random (new number in new flow)"
+        },
+        {
+          "name": "Random (same number in current flow)",
+          "resultVarName": "TestResult_math/random_Random (same number in current flow)",
+          "resultVarId": 297,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 296,
+          "successResultVarName": "TestResult_HasPassed_math/random_Random (same number in current flow)"
+        },
+        {
+          "name": "Monte Carlo 1k(random number distribution)",
+          "resultVarName": "TestResult_math/random_Monte Carlo 1k(random number distribution)",
+          "resultVarId": 300,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.1415926535897931
+          ],
+          "successResultVarId": 299,
+          "successResultVarName": "TestResult_HasPassed_math/random_Monte Carlo 1k(random number distribution)"
+        },
+        {
+          "name": "Monte Carlo 10k(random number distribution)",
+          "resultVarName": "TestResult_math/random_Monte Carlo 10k(random number distribution)",
+          "resultVarId": 303,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.1415926535897931
+          ],
+          "successResultVarId": 302,
+          "successResultVarName": "TestResult_HasPassed_math/random_Monte Carlo 10k(random number distribution)"
+        }
+      ]
+    },
+    {
+      "name": "math/rem",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/rem",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 19.42353 [b] 2.23400 = 1.55154",
+          "nodeId": 2345
+        },
+        {
+          "name": "[a] (19.42353, 19.42353) [b] (2.23400, 2.23400) = (1.55154, 1.55154)",
+          "nodeId": 2361
+        },
+        {
+          "name": "[a] (19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154)",
+          "nodeId": 2377
+        },
+        {
+          "name": "[a] (19.42353, 19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154, 1.55154)",
+          "nodeId": 2393
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 19.42353 [b] 2.23400 = 1.55154",
+          "resultVarName": "TestResult_math/rem_[a] 19.42353 [b] 2.23400 = 1.55154",
+          "resultVarId": 305,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.55153465
+          ],
+          "successResultVarId": 304,
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] 19.42353 [b] 2.23400 = 1.55154"
+        },
+        {
+          "name": "[a] (19.42353, 19.42353) [b] (2.23400, 2.23400) = (1.55154, 1.55154)",
+          "resultVarName": "TestResult_math/rem_[a] (19.42353, 19.42353) [b] (2.23400, 2.23400) = (1.55154, 1.55154)",
+          "resultVarId": 307,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            1.55153465,
+            1.55153465
+          ],
+          "successResultVarId": 306,
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42353, 19.42353) [b] (2.23400, 2.23400) = (1.55154, 1.55154)"
+        },
+        {
+          "name": "[a] (19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154)",
+          "resultVarName": "TestResult_math/rem_[a] (19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154)",
+          "resultVarId": 309,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.55153465,
+            1.55153465,
+            1.55153465
+          ],
+          "successResultVarId": 308,
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154)"
+        },
+        {
+          "name": "[a] (19.42353, 19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154, 1.55154)",
+          "resultVarName": "TestResult_math/rem_[a] (19.42353, 19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154, 1.55154)",
+          "resultVarId": 311,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            1.55153465,
+            1.55153465,
+            1.55153465,
+            1.55153465
+          ],
+          "successResultVarId": 310,
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42353, 19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154, 1.55154)"
+        }
+      ]
+    },
+    {
+      "name": "math/saturate",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/saturate",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] -1.50000 = 0.00000",
+          "nodeId": 2409
+        },
+        {
+          "name": "[a] (-1.50000, -1.50000) = (0.00000, 0.00000)",
+          "nodeId": 2423
+        },
+        {
+          "name": "[a] (-1.50000, -1.50000, -1.50000) = (0.00000, 0.00000, 0.00000)",
+          "nodeId": 2437
+        },
+        {
+          "name": "[a] (-1.50000, -1.50000, -1.50000, -1.50000) = (0.00000, 0.00000, 0.00000, 0.00000)",
+          "nodeId": 2451
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] -1.50000 = 0.00000",
+          "resultVarName": "TestResult_math/saturate_[a] -1.50000 = 0.00000",
+          "resultVarId": 313,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 312,
+          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] -1.50000 = 0.00000"
+        },
+        {
+          "name": "[a] (-1.50000, -1.50000) = (0.00000, 0.00000)",
+          "resultVarName": "TestResult_math/saturate_[a] (-1.50000, -1.50000) = (0.00000, 0.00000)",
+          "resultVarId": 315,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 314,
+          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.50000, -1.50000) = (0.00000, 0.00000)"
+        },
+        {
+          "name": "[a] (-1.50000, -1.50000, -1.50000) = (0.00000, 0.00000, 0.00000)",
+          "resultVarName": "TestResult_math/saturate_[a] (-1.50000, -1.50000, -1.50000) = (0.00000, 0.00000, 0.00000)",
+          "resultVarId": 317,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 316,
+          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.50000, -1.50000, -1.50000) = (0.00000, 0.00000, 0.00000)"
+        },
+        {
+          "name": "[a] (-1.50000, -1.50000, -1.50000, -1.50000) = (0.00000, 0.00000, 0.00000, 0.00000)",
+          "resultVarName": "TestResult_math/saturate_[a] (-1.50000, -1.50000, -1.50000, -1.50000) = (0.00000, 0.00000, 0.00000, 0.00000)",
+          "resultVarId": 319,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 318,
+          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.50000, -1.50000, -1.50000, -1.50000) = (0.00000, 0.00000, 0.00000, 0.00000)"
+        }
+      ]
+    },
+    {
+      "name": "math/select",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/select",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "When True",
+          "nodeId": 2465
+        },
+        {
+          "name": "When False",
+          "nodeId": 2479
+        }
+      ],
+      "subTests": [
+        {
+          "name": "When True",
+          "resultVarName": "TestResult_math/select_When True",
+          "resultVarId": 321,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.0
+          ],
+          "successResultVarId": 320,
+          "successResultVarName": "TestResult_HasPassed_math/select_When True"
+        },
+        {
+          "name": "When False",
+          "resultVarName": "TestResult_math/select_When False",
+          "resultVarId": 323,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 322,
+          "successResultVarName": "TestResult_HasPassed_math/select_When False"
+        }
+      ]
+    },
+    {
+      "name": "math/sign",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/sign",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] -9.00000 = -1.00000",
+          "nodeId": 2493
+        },
+        {
+          "name": "[a] 9.00000 = 1.00000",
+          "nodeId": 2507
+        },
+        {
+          "name": "[a] (-9.00000, -9.00000) = (-1.00000, -1.00000)",
+          "nodeId": 2521
+        },
+        {
+          "name": "[a] (9.00000, 9.00000) = (1.00000, 1.00000)",
+          "nodeId": 2535
+        },
+        {
+          "name": "[a] (-9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000)",
+          "nodeId": 2549
+        },
+        {
+          "name": "[a] (9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000)",
+          "nodeId": 2563
+        },
+        {
+          "name": "[a] (-9.00000, -9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000, -1.00000)",
+          "nodeId": 2577
+        },
+        {
+          "name": "[a] (9.00000, 9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000, 1.00000)",
+          "nodeId": 2591
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] -9.00000 = -1.00000",
+          "resultVarName": "TestResult_math/sign_[a] -9.00000 = -1.00000",
+          "resultVarId": 325,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -1.0
+          ],
+          "successResultVarId": 324,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] -9.00000 = -1.00000"
+        },
+        {
+          "name": "[a] 9.00000 = 1.00000",
+          "resultVarName": "TestResult_math/sign_[a] 9.00000 = 1.00000",
+          "resultVarId": 327,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 326,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] 9.00000 = 1.00000"
+        },
+        {
+          "name": "[a] (-9.00000, -9.00000) = (-1.00000, -1.00000)",
+          "resultVarName": "TestResult_math/sign_[a] (-9.00000, -9.00000) = (-1.00000, -1.00000)",
+          "resultVarId": 329,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            -1.0,
+            -1.0
+          ],
+          "successResultVarId": 328,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (-9.00000, -9.00000) = (-1.00000, -1.00000)"
+        },
+        {
+          "name": "[a] (9.00000, 9.00000) = (1.00000, 1.00000)",
+          "resultVarName": "TestResult_math/sign_[a] (9.00000, 9.00000) = (1.00000, 1.00000)",
+          "resultVarId": 331,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 330,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (9.00000, 9.00000) = (1.00000, 1.00000)"
+        },
+        {
+          "name": "[a] (-9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000)",
+          "resultVarName": "TestResult_math/sign_[a] (-9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000)",
+          "resultVarId": 333,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "successResultVarId": 332,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (-9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000)"
+        },
+        {
+          "name": "[a] (9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000)",
+          "resultVarName": "TestResult_math/sign_[a] (9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000)",
+          "resultVarId": 335,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 334,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000)"
+        },
+        {
+          "name": "[a] (-9.00000, -9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000, -1.00000)",
+          "resultVarName": "TestResult_math/sign_[a] (-9.00000, -9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000, -1.00000)",
+          "resultVarId": 337,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "successResultVarId": 336,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (-9.00000, -9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000, -1.00000)"
+        },
+        {
+          "name": "[a] (9.00000, 9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000, 1.00000)",
+          "resultVarName": "TestResult_math/sign_[a] (9.00000, 9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000, 1.00000)",
+          "resultVarId": 339,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 338,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (9.00000, 9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000, 1.00000)"
+        }
+      ]
+    },
+    {
+      "name": "math/sin",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sin",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4.32400 = -0.92552",
+          "nodeId": 2605
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (-0.92552, -0.92552)",
+          "nodeId": 2621
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552)",
+          "nodeId": 2637
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552, -0.92552)",
+          "nodeId": 2653
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4.32400 = -0.92552",
+          "resultVarName": "TestResult_math/sin_[a] 4.32400 = -0.92552",
+          "resultVarId": 341,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -0.9255203
+          ],
+          "successResultVarId": 340,
+          "successResultVarName": "TestResult_HasPassed_math/sin_[a] 4.32400 = -0.92552"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (-0.92552, -0.92552)",
+          "resultVarName": "TestResult_math/sin_[a] (4.32400, 4.32400) = (-0.92552, -0.92552)",
+          "resultVarId": 343,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            -0.9255203,
+            -0.9255203
+          ],
+          "successResultVarId": 342,
+          "successResultVarName": "TestResult_HasPassed_math/sin_[a] (4.32400, 4.32400) = (-0.92552, -0.92552)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552)",
+          "resultVarName": "TestResult_math/sin_[a] (4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552)",
+          "resultVarId": 345,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -0.9255203,
+            -0.9255203,
+            -0.9255203
+          ],
+          "successResultVarId": 344,
+          "successResultVarName": "TestResult_HasPassed_math/sin_[a] (4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552, -0.92552)",
+          "resultVarName": "TestResult_math/sin_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552, -0.92552)",
+          "resultVarId": 347,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            -0.9255203,
+            -0.9255203,
+            -0.9255203,
+            -0.9255203
+          ],
+          "successResultVarId": 346,
+          "successResultVarName": "TestResult_HasPassed_math/sin_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552, -0.92552)"
+        }
+      ]
+    },
+    {
+      "name": "math/sinh",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sinh",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4.32400 = 37.73837",
+          "nodeId": 2669
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (37.73837, 37.73837)",
+          "nodeId": 2685
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837)",
+          "nodeId": 2701
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837, 37.73837)",
+          "nodeId": 2717
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4.32400 = 37.73837",
+          "resultVarName": "TestResult_math/sinh_[a] 4.32400 = 37.73837",
+          "resultVarId": 349,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            37.7383652
+          ],
+          "successResultVarId": 348,
+          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] 4.32400 = 37.73837"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (37.73837, 37.73837)",
+          "resultVarName": "TestResult_math/sinh_[a] (4.32400, 4.32400) = (37.73837, 37.73837)",
+          "resultVarId": 351,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            37.7383652,
+            37.7383652
+          ],
+          "successResultVarId": 350,
+          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] (4.32400, 4.32400) = (37.73837, 37.73837)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837)",
+          "resultVarName": "TestResult_math/sinh_[a] (4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837)",
+          "resultVarId": 353,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            37.7383652,
+            37.7383652,
+            37.7383652
+          ],
+          "successResultVarId": 352,
+          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] (4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837, 37.73837)",
+          "resultVarName": "TestResult_math/sinh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837, 37.73837)",
+          "resultVarId": 355,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            37.7383652,
+            37.7383652,
+            37.7383652,
+            37.7383652
+          ],
+          "successResultVarId": 354,
+          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837, 37.73837)"
+        }
+      ]
+    },
+    {
+      "name": "math/sqrt",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sqrt",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4556.23400 = 67.49988",
+          "nodeId": 2733
+        },
+        {
+          "name": "[a] (4556.23400, 4556.23400) = (67.49988, 67.49988)",
+          "nodeId": 2749
+        },
+        {
+          "name": "[a] (4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988)",
+          "nodeId": 2765
+        },
+        {
+          "name": "[a] (4556.23400, 4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988, 67.49988)",
+          "nodeId": 2781
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4556.23400 = 67.49988",
+          "resultVarName": "TestResult_math/sqrt_[a] 4556.23400 = 67.49988",
+          "resultVarId": 357,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            67.49988
+          ],
+          "successResultVarId": 356,
+          "successResultVarName": "TestResult_HasPassed_math/sqrt_[a] 4556.23400 = 67.49988"
+        },
+        {
+          "name": "[a] (4556.23400, 4556.23400) = (67.49988, 67.49988)",
+          "resultVarName": "TestResult_math/sqrt_[a] (4556.23400, 4556.23400) = (67.49988, 67.49988)",
+          "resultVarId": 359,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            67.49988,
+            67.49988
+          ],
+          "successResultVarId": 358,
+          "successResultVarName": "TestResult_HasPassed_math/sqrt_[a] (4556.23400, 4556.23400) = (67.49988, 67.49988)"
+        },
+        {
+          "name": "[a] (4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988)",
+          "resultVarName": "TestResult_math/sqrt_[a] (4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988)",
+          "resultVarId": 361,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            67.49988,
+            67.49988,
+            67.49988
+          ],
+          "successResultVarId": 360,
+          "successResultVarName": "TestResult_HasPassed_math/sqrt_[a] (4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988)"
+        },
+        {
+          "name": "[a] (4556.23400, 4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988, 67.49988)",
+          "resultVarName": "TestResult_math/sqrt_[a] (4556.23400, 4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988, 67.49988)",
+          "resultVarId": 363,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            67.49988,
+            67.49988,
+            67.49988,
+            67.49988
+          ],
+          "successResultVarId": 362,
+          "successResultVarName": "TestResult_HasPassed_math/sqrt_[a] (4556.23400, 4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988, 67.49988)"
+        }
+      ]
+    },
+    {
+      "name": "math/sub",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 7.00000 [b] 9.00000 = -2.00000",
+          "nodeId": 2797
+        },
+        {
+          "name": "[a] (7.00000, 7.00000) [b] (9.00000, 9.00000) = (-2.00000, -2.00000)",
+          "nodeId": 2811
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000)",
+          "nodeId": 2825
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000, -2.00000)",
+          "nodeId": 2839
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 7.00000 [b] 9.00000 = -2.00000",
+          "resultVarName": "TestResult_math/sub_[a] 7.00000 [b] 9.00000 = -2.00000",
+          "resultVarId": 365,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -2.0
+          ],
+          "successResultVarId": 364,
+          "successResultVarName": "TestResult_HasPassed_math/sub_[a] 7.00000 [b] 9.00000 = -2.00000"
+        },
+        {
+          "name": "[a] (7.00000, 7.00000) [b] (9.00000, 9.00000) = (-2.00000, -2.00000)",
+          "resultVarName": "TestResult_math/sub_[a] (7.00000, 7.00000) [b] (9.00000, 9.00000) = (-2.00000, -2.00000)",
+          "resultVarId": 367,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            -2.0,
+            -2.0
+          ],
+          "successResultVarId": 366,
+          "successResultVarName": "TestResult_HasPassed_math/sub_[a] (7.00000, 7.00000) [b] (9.00000, 9.00000) = (-2.00000, -2.00000)"
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000)",
+          "resultVarName": "TestResult_math/sub_[a] (7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000)",
+          "resultVarId": 369,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -2.0,
+            -2.0,
+            -2.0
+          ],
+          "successResultVarId": 368,
+          "successResultVarName": "TestResult_HasPassed_math/sub_[a] (7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000)"
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000, -2.00000)",
+          "resultVarName": "TestResult_math/sub_[a] (7.00000, 7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000, -2.00000)",
+          "resultVarId": 371,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            -2.0,
+            -2.0,
+            -2.0,
+            -2.0
+          ],
+          "successResultVarId": 370,
+          "successResultVarName": "TestResult_HasPassed_math/sub_[a] (7.00000, 7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000, -2.00000)"
+        }
+      ]
+    },
+    {
+      "name": "math/switch",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/switch",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Selection",
+          "nodeId": 2853
+        },
+        {
+          "name": "Default",
+          "nodeId": 2867
+        },
+        {
+          "name": "Negative Cases [-2,-1,0]",
+          "nodeId": 2881
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Selection",
+          "resultVarName": "TestResult_math/switch_Selection",
+          "resultVarId": 373,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            22
+          ],
+          "successResultVarId": 372,
+          "successResultVarName": "TestResult_HasPassed_math/switch_Selection"
+        },
+        {
+          "name": "Default",
+          "resultVarName": "TestResult_math/switch_Default",
+          "resultVarId": 375,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            99
+          ],
+          "successResultVarId": 374,
+          "successResultVarName": "TestResult_HasPassed_math/switch_Default"
+        },
+        {
+          "name": "Negative Cases [-2,-1,0]",
+          "resultVarName": "TestResult_math/switch_Negative Cases [-2,-1,0]",
+          "resultVarId": 377,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            22
+          ],
+          "successResultVarId": 376,
+          "successResultVarName": "TestResult_HasPassed_math/switch_Negative Cases [-2,-1,0]"
+        }
+      ]
+    },
+    {
+      "name": "math/tan",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "math/tan",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4.32400 = 2.44395",
+          "nodeId": 2895
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (2.44395, 2.44395)",
+          "nodeId": 2911
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395)",
+          "nodeId": 2927
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395, 2.44395)",
+          "nodeId": 2943
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4.32400 = 2.44395",
+          "resultVarName": "TestResult_math/tan_[a] 4.32400 = 2.44395",
+          "resultVarId": 379,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.44395351
+          ],
+          "successResultVarId": 378,
+          "successResultVarName": "TestResult_HasPassed_math/tan_[a] 4.32400 = 2.44395"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (2.44395, 2.44395)",
+          "resultVarName": "TestResult_math/tan_[a] (4.32400, 4.32400) = (2.44395, 2.44395)",
+          "resultVarId": 381,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.44395351,
+            2.44395351
+          ],
+          "successResultVarId": 380,
+          "successResultVarName": "TestResult_HasPassed_math/tan_[a] (4.32400, 4.32400) = (2.44395, 2.44395)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395)",
+          "resultVarName": "TestResult_math/tan_[a] (4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395)",
+          "resultVarId": 383,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            2.44395351,
+            2.44395351,
+            2.44395351
+          ],
+          "successResultVarId": 382,
+          "successResultVarName": "TestResult_HasPassed_math/tan_[a] (4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395, 2.44395)",
+          "resultVarName": "TestResult_math/tan_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395, 2.44395)",
+          "resultVarId": 385,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            2.44395351,
+            2.44395351,
+            2.44395351,
+            2.44395351
+          ],
+          "successResultVarId": 384,
+          "successResultVarName": "TestResult_HasPassed_math/tan_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395, 2.44395)"
+        }
+      ]
+    },
+    {
+      "name": "math/tanh",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "math/tanh",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4.32400 = 0.99965",
+          "nodeId": 2959
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (0.99965, 0.99965)",
+          "nodeId": 2975
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965)",
+          "nodeId": 2991
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965, 0.99965)",
+          "nodeId": 3007
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4.32400 = 0.99965",
+          "resultVarName": "TestResult_math/tanh_[a] 4.32400 = 0.99965",
+          "resultVarId": 387,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.9996491
+          ],
+          "successResultVarId": 386,
+          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] 4.32400 = 0.99965"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (0.99965, 0.99965)",
+          "resultVarName": "TestResult_math/tanh_[a] (4.32400, 4.32400) = (0.99965, 0.99965)",
+          "resultVarId": 389,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.9996491,
+            0.9996491
+          ],
+          "successResultVarId": 388,
+          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] (4.32400, 4.32400) = (0.99965, 0.99965)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965)",
+          "resultVarName": "TestResult_math/tanh_[a] (4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965)",
+          "resultVarId": 391,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.9996491,
+            0.9996491,
+            0.9996491
+          ],
+          "successResultVarId": 390,
+          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] (4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965, 0.99965)",
+          "resultVarName": "TestResult_math/tanh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965, 0.99965)",
+          "resultVarId": 393,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.9996491,
+            0.9996491,
+            0.9996491,
+            0.9996491
+          ],
+          "successResultVarId": 392,
+          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965, 0.99965)"
+        }
+      ]
+    },
+    {
+      "name": "math/trunc",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/trunc",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 9.23432 = 9.00000",
+          "nodeId": 3023
+        },
+        {
+          "name": "[a] (9.23432, 9.23432) = (9.00000, 9.00000)",
+          "nodeId": 3037
+        },
+        {
+          "name": "[a] (9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000)",
+          "nodeId": 3051
+        },
+        {
+          "name": "[a] (9.23432, 9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000, 9.00000)",
+          "nodeId": 3065
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 9.23432 = 9.00000",
+          "resultVarName": "TestResult_math/trunc_[a] 9.23432 = 9.00000",
+          "resultVarId": 395,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            9.0
+          ],
+          "successResultVarId": 394,
+          "successResultVarName": "TestResult_HasPassed_math/trunc_[a] 9.23432 = 9.00000"
+        },
+        {
+          "name": "[a] (9.23432, 9.23432) = (9.00000, 9.00000)",
+          "resultVarName": "TestResult_math/trunc_[a] (9.23432, 9.23432) = (9.00000, 9.00000)",
+          "resultVarId": 397,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            9.0,
+            9.0
+          ],
+          "successResultVarId": 396,
+          "successResultVarName": "TestResult_HasPassed_math/trunc_[a] (9.23432, 9.23432) = (9.00000, 9.00000)"
+        },
+        {
+          "name": "[a] (9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000)",
+          "resultVarName": "TestResult_math/trunc_[a] (9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000)",
+          "resultVarId": 399,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            9.0,
+            9.0,
+            9.0
+          ],
+          "successResultVarId": 398,
+          "successResultVarName": "TestResult_HasPassed_math/trunc_[a] (9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000)"
+        },
+        {
+          "name": "[a] (9.23432, 9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000, 9.00000)",
+          "resultVarName": "TestResult_math/trunc_[a] (9.23432, 9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000, 9.00000)",
+          "resultVarId": 401,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            9.0,
+            9.0,
+            9.0,
+            9.0
+          ],
+          "successResultVarId": 400,
+          "successResultVarName": "TestResult_HasPassed_math/trunc_[a] (9.23432, 9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000, 9.00000)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/for",
+    "flow/sequence",
+    "math/abs",
+    "math/acos",
+    "math/acosh",
+    "math/add",
+    "math/asin",
+    "math/asinh",
+    "math/atan",
+    "math/atan2",
+    "math/atanh",
+    "math/cbrt",
+    "math/ceil",
+    "math/clamp",
+    "math/combine2",
+    "math/cos",
+    "math/cosh",
+    "math/deg",
+    "math/div",
+    "math/dot",
+    "math/e",
+    "math/eq",
+    "math/exp",
+    "math/extract4x4",
+    "math/floor",
+    "math/fract",
+    "math/ge",
+    "math/gt",
+    "math/inf",
+    "math/isinf",
+    "math/isnan",
+    "math/le",
+    "math/length",
+    "math/log",
+    "math/log10",
+    "math/log2",
+    "math/lt",
+    "math/max",
+    "math/min",
+    "math/mix",
+    "math/mul",
+    "math/nan",
+    "math/neg",
+    "math/normalize",
+    "math/pi",
+    "math/pow",
+    "math/rad",
+    "math/random",
+    "math/rem",
+    "math/saturate",
+    "math/select",
+    "math/sign",
+    "math/sin",
+    "math/sinh",
+    "math/sqrt",
+    "math/sub",
+    "math/switch",
+    "math/tan",
+    "math/tanh",
+    "math/trunc",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -1,0 +1,24 @@
+Test Sample: math/tan
+Description: 
+
+Tests:
+	**[a] 4.32400 = 2.44395** - Result saved in Variable **TestResult_math/tan_[a] 4.32400 = 2.44395** with Id **1**
+	**[a] (4.32400, 4.32400) = (2.44395, 2.44395)** - Result saved in Variable **TestResult_math/tan_[a] (4.32400, 4.32400) = (2.44395, 2.44395)** with Id **3**
+	**[a] (4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395)** - Result saved in Variable **TestResult_math/tan_[a] (4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395)** with Id **5**
+	**[a] (4.32400, 4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395, 2.44395)** - Result saved in Variable **TestResult_math/tan_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395, 2.44395)** with Id **7**
+
+Schemas used in this test case:
+	debug/log
+	event/onStart
+	flow/branch
+	flow/sequence
+	math/abs
+	math/dot
+	math/gt
+	math/lt
+	math/normalize
+	math/sub
+	math/tan
+	pointer/set
+	variable/get
+	variable/set

@@ -1,0 +1,112 @@
+{
+  "glbFileName": "rem.glb",
+  "name": "math/rem",
+  "tests": [
+    {
+      "name": "math/rem",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/rem",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 19.42353 [b] 2.23400 = 1.55154",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (19.42353, 19.42353) [b] (2.23400, 2.23400) = (1.55154, 1.55154)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154)",
+          "nodeId": 33
+        },
+        {
+          "name": "[a] (19.42353, 19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154, 1.55154)",
+          "nodeId": 49
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 19.42353 [b] 2.23400 = 1.55154",
+          "resultVarName": "TestResult_math/rem_[a] 19.42353 [b] 2.23400 = 1.55154",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.55153465
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] 19.42353 [b] 2.23400 = 1.55154"
+        },
+        {
+          "name": "[a] (19.42353, 19.42353) [b] (2.23400, 2.23400) = (1.55154, 1.55154)",
+          "resultVarName": "TestResult_math/rem_[a] (19.42353, 19.42353) [b] (2.23400, 2.23400) = (1.55154, 1.55154)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            1.55153465,
+            1.55153465
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42353, 19.42353) [b] (2.23400, 2.23400) = (1.55154, 1.55154)"
+        },
+        {
+          "name": "[a] (19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154)",
+          "resultVarName": "TestResult_math/rem_[a] (19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.55153465,
+            1.55153465,
+            1.55153465
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154)"
+        },
+        {
+          "name": "[a] (19.42353, 19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154, 1.55154)",
+          "resultVarName": "TestResult_math/rem_[a] (19.42353, 19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154, 1.55154)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            1.55153465,
+            1.55153465,
+            1.55153465,
+            1.55153465
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42353, 19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154, 1.55154)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/dot",
+    "math/gt",
+    "math/lt",
+    "math/normalize",
+    "math/rem",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

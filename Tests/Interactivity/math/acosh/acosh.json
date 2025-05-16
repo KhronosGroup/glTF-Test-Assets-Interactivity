@@ -1,0 +1,112 @@
+{
+  "glbFileName": "acosh.glb",
+  "name": "math/acosh",
+  "tests": [
+    {
+      "name": "math/acosh",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/acosh",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.50000 = 0.96242",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (1.50000, 1.50000) = (0.96242, 0.96242)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242)",
+          "nodeId": 33
+        },
+        {
+          "name": "[a] (1.50000, 1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242, 0.96242)",
+          "nodeId": 49
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.50000 = 0.96242",
+          "resultVarName": "TestResult_math/acosh_[a] 1.50000 = 0.96242",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.9624236
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] 1.50000 = 0.96242"
+        },
+        {
+          "name": "[a] (1.50000, 1.50000) = (0.96242, 0.96242)",
+          "resultVarName": "TestResult_math/acosh_[a] (1.50000, 1.50000) = (0.96242, 0.96242)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.9624236,
+            0.9624236
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] (1.50000, 1.50000) = (0.96242, 0.96242)"
+        },
+        {
+          "name": "[a] (1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242)",
+          "resultVarName": "TestResult_math/acosh_[a] (1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.9624236,
+            0.9624236,
+            0.9624236
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] (1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242)"
+        },
+        {
+          "name": "[a] (1.50000, 1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242, 0.96242)",
+          "resultVarName": "TestResult_math/acosh_[a] (1.50000, 1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242, 0.96242)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.9624236,
+            0.9624236,
+            0.9624236,
+            0.9624236
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] (1.50000, 1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242, 0.96242)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/acosh",
+    "math/dot",
+    "math/gt",
+    "math/lt",
+    "math/normalize",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

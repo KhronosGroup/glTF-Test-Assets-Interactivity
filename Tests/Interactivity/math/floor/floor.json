@@ -1,0 +1,84 @@
+{
+  "glbFileName": "floor.glb",
+  "name": "math/floor",
+  "tests": [
+    {
+      "name": "math/floor",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/floor",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] -2323.43500 = -2324.00000",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (-2323.43500, -2323.43500) = (-2324.00000, -2324.00000)",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] (-2323.43500, -2323.43500, -2323.43500) = (-2324.00000, -2324.00000, -2324.00000)",
+          "nodeId": 29
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] -2323.43500 = -2324.00000",
+          "resultVarName": "TestResult_math/floor_[a] -2323.43500 = -2324.00000",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -2324.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/floor_[a] -2323.43500 = -2324.00000"
+        },
+        {
+          "name": "[a] (-2323.43500, -2323.43500) = (-2324.00000, -2324.00000)",
+          "resultVarName": "TestResult_math/floor_[a] (-2323.43500, -2323.43500) = (-2324.00000, -2324.00000)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            -2324.0,
+            -2324.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/floor_[a] (-2323.43500, -2323.43500) = (-2324.00000, -2324.00000)"
+        },
+        {
+          "name": "[a] (-2323.43500, -2323.43500, -2323.43500) = (-2324.00000, -2324.00000, -2324.00000)",
+          "resultVarName": "TestResult_math/floor_[a] (-2323.43500, -2323.43500, -2323.43500) = (-2324.00000, -2324.00000, -2324.00000)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -2324.0,
+            -2324.0,
+            -2324.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/floor_[a] (-2323.43500, -2323.43500, -2323.43500) = (-2324.00000, -2324.00000, -2324.00000)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/floor",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

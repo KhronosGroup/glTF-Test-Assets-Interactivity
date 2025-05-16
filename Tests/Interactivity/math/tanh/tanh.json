@@ -1,0 +1,112 @@
+{
+  "glbFileName": "tanh.glb",
+  "name": "math/tanh",
+  "tests": [
+    {
+      "name": "math/tanh",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "math/tanh",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4.32400 = 0.99965",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (0.99965, 0.99965)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965)",
+          "nodeId": 33
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965, 0.99965)",
+          "nodeId": 49
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4.32400 = 0.99965",
+          "resultVarName": "TestResult_math/tanh_[a] 4.32400 = 0.99965",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.9996491
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] 4.32400 = 0.99965"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (0.99965, 0.99965)",
+          "resultVarName": "TestResult_math/tanh_[a] (4.32400, 4.32400) = (0.99965, 0.99965)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.9996491,
+            0.9996491
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] (4.32400, 4.32400) = (0.99965, 0.99965)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965)",
+          "resultVarName": "TestResult_math/tanh_[a] (4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.9996491,
+            0.9996491,
+            0.9996491
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] (4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965, 0.99965)",
+          "resultVarName": "TestResult_math/tanh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965, 0.99965)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.9996491,
+            0.9996491,
+            0.9996491,
+            0.9996491
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (0.99965, 0.99965, 0.99965, 0.99965)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/dot",
+    "math/gt",
+    "math/lt",
+    "math/normalize",
+    "math/sub",
+    "math/tanh",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

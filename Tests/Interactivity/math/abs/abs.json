@@ -1,0 +1,234 @@
+{
+  "glbFileName": "abs.glb",
+  "name": "math/abs",
+  "tests": [
+    {
+      "name": "math/abs",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] -7.00000 = 7.00000",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] 7.00000 = 7.00000",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] 0.00000 = 0.00000",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] (-7.00000, -7.00000) = (7.00000, 7.00000)",
+          "nodeId": 43
+        },
+        {
+          "name": "[a] (7.00000, 7.00000) = (7.00000, 7.00000)",
+          "nodeId": 57
+        },
+        {
+          "name": "[a] (0.00000, 0.00000) = (0.00000, 0.00000)",
+          "nodeId": 71
+        },
+        {
+          "name": "[a] (-7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000)",
+          "nodeId": 85
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000)",
+          "nodeId": 99
+        },
+        {
+          "name": "[a] (0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000)",
+          "nodeId": 113
+        },
+        {
+          "name": "[a] (-7.00000, -7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "nodeId": 127
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "nodeId": 141
+        },
+        {
+          "name": "[a] (0.00000, 0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000, 0.00000)",
+          "nodeId": 155
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] -7.00000 = 7.00000",
+          "resultVarName": "TestResult_math/abs_[a] -7.00000 = 7.00000",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            7.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] -7.00000 = 7.00000"
+        },
+        {
+          "name": "[a] 7.00000 = 7.00000",
+          "resultVarName": "TestResult_math/abs_[a] 7.00000 = 7.00000",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            7.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] 7.00000 = 7.00000"
+        },
+        {
+          "name": "[a] 0.00000 = 0.00000",
+          "resultVarName": "TestResult_math/abs_[a] 0.00000 = 0.00000",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] 0.00000 = 0.00000"
+        },
+        {
+          "name": "[a] (-7.00000, -7.00000) = (7.00000, 7.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (-7.00000, -7.00000) = (7.00000, 7.00000)",
+          "resultVarId": 7,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            7.0,
+            7.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (-7.00000, -7.00000) = (7.00000, 7.00000)"
+        },
+        {
+          "name": "[a] (7.00000, 7.00000) = (7.00000, 7.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (7.00000, 7.00000) = (7.00000, 7.00000)",
+          "resultVarId": 9,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            7.0,
+            7.0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (7.00000, 7.00000) = (7.00000, 7.00000)"
+        },
+        {
+          "name": "[a] (0.00000, 0.00000) = (0.00000, 0.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (0.00000, 0.00000) = (0.00000, 0.00000)",
+          "resultVarId": 11,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (0.00000, 0.00000) = (0.00000, 0.00000)"
+        },
+        {
+          "name": "[a] (-7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (-7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000)",
+          "resultVarId": 13,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            7.0,
+            7.0,
+            7.0
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (-7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000)"
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000)",
+          "resultVarId": 15,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            7.0,
+            7.0,
+            7.0
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000)"
+        },
+        {
+          "name": "[a] (0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000)",
+          "resultVarId": 17,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000)"
+        },
+        {
+          "name": "[a] (-7.00000, -7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (-7.00000, -7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "resultVarId": 19,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (-7.00000, -7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)"
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (7.00000, 7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "resultVarId": 21,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ],
+          "successResultVarId": 20,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (7.00000, 7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)"
+        },
+        {
+          "name": "[a] (0.00000, 0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000, 0.00000)",
+          "resultVarName": "TestResult_math/abs_[a] (0.00000, 0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000, 0.00000)",
+          "resultVarId": 23,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 22,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (0.00000, 0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000, 0.00000)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

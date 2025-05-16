@@ -1,0 +1,84 @@
+{
+  "glbFileName": "ceil.glb",
+  "name": "math/ceil",
+  "tests": [
+    {
+      "name": "math/ceil",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/ceil",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 757.00320 = 758.00000",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (757.00320, 757.00320) = (758.00000, 758.00000)",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] (757.00320, 757.00320, 757.00320) = (758.00000, 758.00000, 758.00000)",
+          "nodeId": 29
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 757.00320 = 758.00000",
+          "resultVarName": "TestResult_math/ceil_[a] 757.00320 = 758.00000",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            758.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/ceil_[a] 757.00320 = 758.00000"
+        },
+        {
+          "name": "[a] (757.00320, 757.00320) = (758.00000, 758.00000)",
+          "resultVarName": "TestResult_math/ceil_[a] (757.00320, 757.00320) = (758.00000, 758.00000)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            758.0,
+            758.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/ceil_[a] (757.00320, 757.00320) = (758.00000, 758.00000)"
+        },
+        {
+          "name": "[a] (757.00320, 757.00320, 757.00320) = (758.00000, 758.00000, 758.00000)",
+          "resultVarName": "TestResult_math/ceil_[a] (757.00320, 757.00320, 757.00320) = (758.00000, 758.00000, 758.00000)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            758.0,
+            758.0,
+            758.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/ceil_[a] (757.00320, 757.00320, 757.00320) = (758.00000, 758.00000, 758.00000)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/ceil",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

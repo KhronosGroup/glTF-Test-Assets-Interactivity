@@ -1,0 +1,112 @@
+{
+  "glbFileName": "sinh.glb",
+  "name": "math/sinh",
+  "tests": [
+    {
+      "name": "math/sinh",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sinh",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4.32400 = 37.73837",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (37.73837, 37.73837)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837)",
+          "nodeId": 33
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837, 37.73837)",
+          "nodeId": 49
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4.32400 = 37.73837",
+          "resultVarName": "TestResult_math/sinh_[a] 4.32400 = 37.73837",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            37.7383652
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] 4.32400 = 37.73837"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (37.73837, 37.73837)",
+          "resultVarName": "TestResult_math/sinh_[a] (4.32400, 4.32400) = (37.73837, 37.73837)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            37.7383652,
+            37.7383652
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] (4.32400, 4.32400) = (37.73837, 37.73837)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837)",
+          "resultVarName": "TestResult_math/sinh_[a] (4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            37.7383652,
+            37.7383652,
+            37.7383652
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] (4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837, 37.73837)",
+          "resultVarName": "TestResult_math/sinh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837, 37.73837)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            37.7383652,
+            37.7383652,
+            37.7383652,
+            37.7383652
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837, 37.73837)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/dot",
+    "math/gt",
+    "math/lt",
+    "math/normalize",
+    "math/sinh",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

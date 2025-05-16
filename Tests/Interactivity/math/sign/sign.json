@@ -1,0 +1,168 @@
+{
+  "glbFileName": "sign.glb",
+  "name": "math/sign",
+  "tests": [
+    {
+      "name": "math/sign",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/sign",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] -9.00000 = -1.00000",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] 9.00000 = 1.00000",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] (-9.00000, -9.00000) = (-1.00000, -1.00000)",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] (9.00000, 9.00000) = (1.00000, 1.00000)",
+          "nodeId": 43
+        },
+        {
+          "name": "[a] (-9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000)",
+          "nodeId": 57
+        },
+        {
+          "name": "[a] (9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000)",
+          "nodeId": 71
+        },
+        {
+          "name": "[a] (-9.00000, -9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000, -1.00000)",
+          "nodeId": 85
+        },
+        {
+          "name": "[a] (9.00000, 9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000, 1.00000)",
+          "nodeId": 99
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] -9.00000 = -1.00000",
+          "resultVarName": "TestResult_math/sign_[a] -9.00000 = -1.00000",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -1.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] -9.00000 = -1.00000"
+        },
+        {
+          "name": "[a] 9.00000 = 1.00000",
+          "resultVarName": "TestResult_math/sign_[a] 9.00000 = 1.00000",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] 9.00000 = 1.00000"
+        },
+        {
+          "name": "[a] (-9.00000, -9.00000) = (-1.00000, -1.00000)",
+          "resultVarName": "TestResult_math/sign_[a] (-9.00000, -9.00000) = (-1.00000, -1.00000)",
+          "resultVarId": 5,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            -1.0,
+            -1.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (-9.00000, -9.00000) = (-1.00000, -1.00000)"
+        },
+        {
+          "name": "[a] (9.00000, 9.00000) = (1.00000, 1.00000)",
+          "resultVarName": "TestResult_math/sign_[a] (9.00000, 9.00000) = (1.00000, 1.00000)",
+          "resultVarId": 7,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (9.00000, 9.00000) = (1.00000, 1.00000)"
+        },
+        {
+          "name": "[a] (-9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000)",
+          "resultVarName": "TestResult_math/sign_[a] (-9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000)",
+          "resultVarId": 9,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (-9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000)"
+        },
+        {
+          "name": "[a] (9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000)",
+          "resultVarName": "TestResult_math/sign_[a] (9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000)",
+          "resultVarId": 11,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000)"
+        },
+        {
+          "name": "[a] (-9.00000, -9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000, -1.00000)",
+          "resultVarName": "TestResult_math/sign_[a] (-9.00000, -9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000, -1.00000)",
+          "resultVarId": 13,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (-9.00000, -9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000, -1.00000)"
+        },
+        {
+          "name": "[a] (9.00000, 9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000, 1.00000)",
+          "resultVarName": "TestResult_math/sign_[a] (9.00000, 9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000, 1.00000)",
+          "resultVarId": 15,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (9.00000, 9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000, 1.00000)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/sign",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

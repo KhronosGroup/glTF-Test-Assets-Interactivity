@@ -1,0 +1,1153 @@
+[
+  {
+    "label": "math/abs",
+    "name": "math/abs",
+    "tags": [
+      "math/abs",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/abs/abs.glb",
+      "test-Json": "math/abs/abs.json"
+    }
+  },
+  {
+    "label": "math/acos",
+    "name": "math/acos",
+    "tags": [
+      "math/acos",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/acos/acos.glb",
+      "test-Json": "math/acos/acos.json"
+    }
+  },
+  {
+    "label": "math/acosh",
+    "name": "math/acosh",
+    "tags": [
+      "math/acosh",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/acosh/acosh.glb",
+      "test-Json": "math/acosh/acosh.json"
+    }
+  },
+  {
+    "label": "math/add",
+    "name": "math/add",
+    "tags": [
+      "math/add",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/add/add.glb",
+      "test-Json": "math/add/add.json"
+    }
+  },
+  {
+    "label": "math/asin",
+    "name": "math/asin",
+    "tags": [
+      "math/asin",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/asin/asin.glb",
+      "test-Json": "math/asin/asin.json"
+    }
+  },
+  {
+    "label": "math/asinh",
+    "name": "math/asinh",
+    "tags": [
+      "math/asinh",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/asinh/asinh.glb",
+      "test-Json": "math/asinh/asinh.json"
+    }
+  },
+  {
+    "label": "math/atan",
+    "name": "math/atan",
+    "tags": [
+      "math/atan",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/atan/atan.glb",
+      "test-Json": "math/atan/atan.json"
+    }
+  },
+  {
+    "label": "math/atan2",
+    "name": "math/atan2",
+    "tags": [
+      "math/atan2",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/atan2/atan2.glb",
+      "test-Json": "math/atan2/atan2.json"
+    }
+  },
+  {
+    "label": "math/atanh",
+    "name": "math/atanh",
+    "tags": [
+      "math/atanh",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/atanh/atanh.glb",
+      "test-Json": "math/atanh/atanh.json"
+    }
+  },
+  {
+    "label": "math/cbrt",
+    "name": "math/cbrt",
+    "tags": [
+      "math/cbrt",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/cbrt/cbrt.glb",
+      "test-Json": "math/cbrt/cbrt.json"
+    }
+  },
+  {
+    "label": "math/ceil",
+    "name": "math/ceil",
+    "tags": [
+      "math/ceil",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/ceil/ceil.glb",
+      "test-Json": "math/ceil/ceil.json"
+    }
+  },
+  {
+    "label": "math/clamp",
+    "name": "math/clamp",
+    "tags": [
+      "math/clamp",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/clamp/clamp.glb",
+      "test-Json": "math/clamp/clamp.json"
+    }
+  },
+  {
+    "label": "math/cos",
+    "name": "math/cos",
+    "tags": [
+      "math/cos",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/cos/cos.glb",
+      "test-Json": "math/cos/cos.json"
+    }
+  },
+  {
+    "label": "math/cosh",
+    "name": "math/cosh",
+    "tags": [
+      "math/cosh",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/cosh/cosh.glb",
+      "test-Json": "math/cosh/cosh.json"
+    }
+  },
+  {
+    "label": "math/deg",
+    "name": "math/deg",
+    "tags": [
+      "math/deg",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/deg/deg.glb",
+      "test-Json": "math/deg/deg.json"
+    }
+  },
+  {
+    "label": "math/div",
+    "name": "math/div",
+    "tags": [
+      "math/div",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/div/div.glb",
+      "test-Json": "math/div/div.json"
+    }
+  },
+  {
+    "label": "math/e",
+    "name": "math/e",
+    "tags": [
+      "math/e",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/e/e.glb",
+      "test-Json": "math/e/e.json"
+    }
+  },
+  {
+    "label": "math/eq",
+    "name": "math/eq",
+    "tags": [
+      "math/eq",
+      "event/onStart",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/eq/eq.glb",
+      "test-Json": "math/eq/eq.json"
+    }
+  },
+  {
+    "label": "math/exp",
+    "name": "math/exp",
+    "tags": [
+      "math/exp",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/exp/exp.glb",
+      "test-Json": "math/exp/exp.json"
+    }
+  },
+  {
+    "label": "math/floor",
+    "name": "math/floor",
+    "tags": [
+      "math/floor",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/floor/floor.glb",
+      "test-Json": "math/floor/floor.json"
+    }
+  },
+  {
+    "label": "math/fract",
+    "name": "math/fract",
+    "tags": [
+      "math/fract",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/fract/fract.glb",
+      "test-Json": "math/fract/fract.json"
+    }
+  },
+  {
+    "label": "math/ge",
+    "name": "math/ge",
+    "tags": [
+      "math/ge",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/ge/ge.glb",
+      "test-Json": "math/ge/ge.json"
+    }
+  },
+  {
+    "label": "math/gt",
+    "name": "math/gt",
+    "tags": [
+      "math/gt",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/gt/gt.glb",
+      "test-Json": "math/gt/gt.json"
+    }
+  },
+  {
+    "label": "math/inf",
+    "name": "math/inf",
+    "tags": [
+      "math/inf",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/inf/inf.glb",
+      "test-Json": "math/inf/inf.json"
+    }
+  },
+  {
+    "label": "math/isinf",
+    "name": "math/isinf",
+    "tags": [
+      "math/isinf",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/isinf/isinf.glb",
+      "test-Json": "math/isinf/isinf.json"
+    }
+  },
+  {
+    "label": "math/isnan",
+    "name": "math/isnan",
+    "tags": [
+      "math/isnan",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/isnan/isnan.glb",
+      "test-Json": "math/isnan/isnan.json"
+    }
+  },
+  {
+    "label": "math/le",
+    "name": "math/le",
+    "tags": [
+      "math/le",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/le/le.glb",
+      "test-Json": "math/le/le.json"
+    }
+  },
+  {
+    "label": "math/log",
+    "name": "math/log",
+    "tags": [
+      "math/log",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/log/log.glb",
+      "test-Json": "math/log/log.json"
+    }
+  },
+  {
+    "label": "math/log10",
+    "name": "math/log10",
+    "tags": [
+      "math/log10",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/log10/log10.glb",
+      "test-Json": "math/log10/log10.json"
+    }
+  },
+  {
+    "label": "math/log2",
+    "name": "math/log2",
+    "tags": [
+      "math/log2",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/log2/log2.glb",
+      "test-Json": "math/log2/log2.json"
+    }
+  },
+  {
+    "label": "math/lt",
+    "name": "math/lt",
+    "tags": [
+      "math/lt",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/lt/lt.glb",
+      "test-Json": "math/lt/lt.json"
+    }
+  },
+  {
+    "label": "math/max",
+    "name": "math/max",
+    "tags": [
+      "math/max",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/max/max.glb",
+      "test-Json": "math/max/max.json"
+    }
+  },
+  {
+    "label": "math/min",
+    "name": "math/min",
+    "tags": [
+      "math/min",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/min/min.glb",
+      "test-Json": "math/min/min.json"
+    }
+  },
+  {
+    "label": "math/mix",
+    "name": "math/mix",
+    "tags": [
+      "math/mix",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/mix/mix.glb",
+      "test-Json": "math/mix/mix.json"
+    }
+  },
+  {
+    "label": "math/mul",
+    "name": "math/mul",
+    "tags": [
+      "math/mul",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/extract4x4",
+      "math/add"
+    ],
+    "variants": {
+      "glTF-Binary": "math/mul/mul.glb",
+      "test-Json": "math/mul/mul.json"
+    }
+  },
+  {
+    "label": "math/nan",
+    "name": "math/nan",
+    "tags": [
+      "math/nan",
+      "event/onStart",
+      "math/isnan",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/nan/nan.glb",
+      "test-Json": "math/nan/nan.json"
+    }
+  },
+  {
+    "label": "math/neg",
+    "name": "math/neg",
+    "tags": [
+      "math/neg",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/neg/neg.glb",
+      "test-Json": "math/neg/neg.json"
+    }
+  },
+  {
+    "label": "math/pi",
+    "name": "math/pi",
+    "tags": [
+      "math/pi",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/pi/pi.glb",
+      "test-Json": "math/pi/pi.json"
+    }
+  },
+  {
+    "label": "math/pow",
+    "name": "math/pow",
+    "tags": [
+      "math/pow",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/pow/pow.glb",
+      "test-Json": "math/pow/pow.json"
+    }
+  },
+  {
+    "label": "math/rad",
+    "name": "math/rad",
+    "tags": [
+      "math/rad",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/rad/rad.glb",
+      "test-Json": "math/rad/rad.json"
+    }
+  },
+  {
+    "label": "math/random",
+    "name": "math/random",
+    "tags": [
+      "math/random",
+      "variable/set",
+      "variable/get",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "flow/sequence",
+      "math/sub",
+      "math/combine2",
+      "math/mul",
+      "flow/for",
+      "math/length",
+      "math/lt",
+      "math/add",
+      "math/div",
+      "math/abs"
+    ],
+    "variants": {
+      "glTF-Binary": "math/random/random.glb",
+      "test-Json": "math/random/random.json"
+    }
+  },
+  {
+    "label": "math/rem",
+    "name": "math/rem",
+    "tags": [
+      "math/rem",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/rem/rem.glb",
+      "test-Json": "math/rem/rem.json"
+    }
+  },
+  {
+    "label": "math/saturate",
+    "name": "math/saturate",
+    "tags": [
+      "math/saturate",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/saturate/saturate.glb",
+      "test-Json": "math/saturate/saturate.json"
+    }
+  },
+  {
+    "label": "math/select",
+    "name": "math/select",
+    "tags": [
+      "math/select",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/select/select.glb",
+      "test-Json": "math/select/select.json"
+    }
+  },
+  {
+    "label": "math/sign",
+    "name": "math/sign",
+    "tags": [
+      "math/sign",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/sign/sign.glb",
+      "test-Json": "math/sign/sign.json"
+    }
+  },
+  {
+    "label": "math/sin",
+    "name": "math/sin",
+    "tags": [
+      "math/sin",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/sin/sin.glb",
+      "test-Json": "math/sin/sin.json"
+    }
+  },
+  {
+    "label": "math/sinh",
+    "name": "math/sinh",
+    "tags": [
+      "math/sinh",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/sinh/sinh.glb",
+      "test-Json": "math/sinh/sinh.json"
+    }
+  },
+  {
+    "label": "math/sqrt",
+    "name": "math/sqrt",
+    "tags": [
+      "math/sqrt",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/sqrt/sqrt.glb",
+      "test-Json": "math/sqrt/sqrt.json"
+    }
+  },
+  {
+    "label": "math/sub",
+    "name": "math/sub",
+    "tags": [
+      "math/sub",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/sub/sub.glb",
+      "test-Json": "math/sub/sub.json"
+    }
+  },
+  {
+    "label": "math/switch",
+    "name": "math/switch",
+    "tags": [
+      "math/switch",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/switch/switch.glb",
+      "test-Json": "math/switch/switch.json"
+    }
+  },
+  {
+    "label": "math/tan",
+    "name": "math/tan",
+    "tags": [
+      "math/tan",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/tan/tan.glb",
+      "test-Json": "math/tan/tan.json"
+    }
+  },
+  {
+    "label": "math/tanh",
+    "name": "math/tanh",
+    "tags": [
+      "math/tanh",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt"
+    ],
+    "variants": {
+      "glTF-Binary": "math/tanh/tanh.glb",
+      "test-Json": "math/tanh/tanh.json"
+    }
+  },
+  {
+    "label": "math/trunc",
+    "name": "math/trunc",
+    "tags": [
+      "math/trunc",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/trunc/trunc.glb",
+      "test-Json": "math/trunc/trunc.json"
+    }
+  }
+]

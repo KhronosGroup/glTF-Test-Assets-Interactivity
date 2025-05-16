@@ -1,0 +1,94 @@
+{
+  "glbFileName": "deg.glb",
+  "name": "math/deg",
+  "tests": [
+    {
+      "name": "math/deg",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/deg",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.09956 = 63.00000",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (1.09956, 1.09956) = (63.00000, 63.00000)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (1.09956, 1.09956, 1.09956) = (63.00000, 63.00000, 63.00000)",
+          "nodeId": 33
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.09956 = 63.00000",
+          "resultVarName": "TestResult_math/deg_[a] 1.09956 = 63.00000",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            62.9999962
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/deg_[a] 1.09956 = 63.00000"
+        },
+        {
+          "name": "[a] (1.09956, 1.09956) = (63.00000, 63.00000)",
+          "resultVarName": "TestResult_math/deg_[a] (1.09956, 1.09956) = (63.00000, 63.00000)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            62.9999962,
+            62.9999962
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/deg_[a] (1.09956, 1.09956) = (63.00000, 63.00000)"
+        },
+        {
+          "name": "[a] (1.09956, 1.09956, 1.09956) = (63.00000, 63.00000, 63.00000)",
+          "resultVarName": "TestResult_math/deg_[a] (1.09956, 1.09956, 1.09956) = (63.00000, 63.00000, 63.00000)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            62.9999962,
+            62.9999962,
+            62.9999962
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/deg_[a] (1.09956, 1.09956, 1.09956) = (63.00000, 63.00000, 63.00000)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/deg",
+    "math/dot",
+    "math/gt",
+    "math/lt",
+    "math/normalize",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

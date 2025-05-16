@@ -1,0 +1,112 @@
+{
+  "glbFileName": "sin.glb",
+  "name": "math/sin",
+  "tests": [
+    {
+      "name": "math/sin",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sin",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4.32400 = -0.92552",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (-0.92552, -0.92552)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552)",
+          "nodeId": 33
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552, -0.92552)",
+          "nodeId": 49
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4.32400 = -0.92552",
+          "resultVarName": "TestResult_math/sin_[a] 4.32400 = -0.92552",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -0.9255203
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/sin_[a] 4.32400 = -0.92552"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (-0.92552, -0.92552)",
+          "resultVarName": "TestResult_math/sin_[a] (4.32400, 4.32400) = (-0.92552, -0.92552)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            -0.9255203,
+            -0.9255203
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/sin_[a] (4.32400, 4.32400) = (-0.92552, -0.92552)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552)",
+          "resultVarName": "TestResult_math/sin_[a] (4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -0.9255203,
+            -0.9255203,
+            -0.9255203
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/sin_[a] (4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552, -0.92552)",
+          "resultVarName": "TestResult_math/sin_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552, -0.92552)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            -0.9255203,
+            -0.9255203,
+            -0.9255203,
+            -0.9255203
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/sin_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.92552, -0.92552, -0.92552, -0.92552)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/dot",
+    "math/gt",
+    "math/lt",
+    "math/normalize",
+    "math/sin",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "glbFileName": "trunc.glb",
+  "name": "math/trunc",
+  "tests": [
+    {
+      "name": "math/trunc",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/trunc",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 9.23432 = 9.00000",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (9.23432, 9.23432) = (9.00000, 9.00000)",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] (9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000)",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] (9.23432, 9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000, 9.00000)",
+          "nodeId": 43
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 9.23432 = 9.00000",
+          "resultVarName": "TestResult_math/trunc_[a] 9.23432 = 9.00000",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            9.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/trunc_[a] 9.23432 = 9.00000"
+        },
+        {
+          "name": "[a] (9.23432, 9.23432) = (9.00000, 9.00000)",
+          "resultVarName": "TestResult_math/trunc_[a] (9.23432, 9.23432) = (9.00000, 9.00000)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            9.0,
+            9.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/trunc_[a] (9.23432, 9.23432) = (9.00000, 9.00000)"
+        },
+        {
+          "name": "[a] (9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000)",
+          "resultVarName": "TestResult_math/trunc_[a] (9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            9.0,
+            9.0,
+            9.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/trunc_[a] (9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000)"
+        },
+        {
+          "name": "[a] (9.23432, 9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000, 9.00000)",
+          "resultVarName": "TestResult_math/trunc_[a] (9.23432, 9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000, 9.00000)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            9.0,
+            9.0,
+            9.0,
+            9.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/trunc_[a] (9.23432, 9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000, 9.00000)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/trunc",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

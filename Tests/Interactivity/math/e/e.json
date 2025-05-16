@@ -1,0 +1,55 @@
+{
+  "glbFileName": "e.glb",
+  "name": "math/e",
+  "tests": [
+    {
+      "name": "math/e",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/e",
+        "math/lt",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "= 2.71828",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "= 2.71828",
+          "resultVarName": "TestResult_math/e_= 2.71828",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.71828175
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/e_= 2.71828"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/e",
+    "math/lt",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

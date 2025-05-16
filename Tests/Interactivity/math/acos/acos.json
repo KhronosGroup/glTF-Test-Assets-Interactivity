@@ -1,0 +1,112 @@
+{
+  "glbFileName": "acos.glb",
+  "name": "math/acos",
+  "tests": [
+    {
+      "name": "math/acos",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/acos",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 0.50000 = 1.04720",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (1.04720, 1.04720)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720)",
+          "nodeId": 33
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720, 1.04720)",
+          "nodeId": 49
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 0.50000 = 1.04720",
+          "resultVarName": "TestResult_math/acos_[a] 0.50000 = 1.04720",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.04719758
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/acos_[a] 0.50000 = 1.04720"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (1.04720, 1.04720)",
+          "resultVarName": "TestResult_math/acos_[a] (0.50000, 0.50000) = (1.04720, 1.04720)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            1.04719758,
+            1.04719758
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/acos_[a] (0.50000, 0.50000) = (1.04720, 1.04720)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720)",
+          "resultVarName": "TestResult_math/acos_[a] (0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.04719758,
+            1.04719758,
+            1.04719758
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/acos_[a] (0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720, 1.04720)",
+          "resultVarName": "TestResult_math/acos_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720, 1.04720)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            1.04719758,
+            1.04719758,
+            1.04719758,
+            1.04719758
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/acos_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720, 1.04720)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/acos",
+    "math/dot",
+    "math/gt",
+    "math/lt",
+    "math/normalize",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

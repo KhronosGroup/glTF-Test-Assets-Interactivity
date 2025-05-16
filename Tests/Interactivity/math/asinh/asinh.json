@@ -1,0 +1,112 @@
+{
+  "glbFileName": "asinh.glb",
+  "name": "math/asinh",
+  "tests": [
+    {
+      "name": "math/asinh",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/asinh",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 0.50000 = 0.48121",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (0.48121, 0.48121)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121)",
+          "nodeId": 33
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121, 0.48121)",
+          "nodeId": 49
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 0.50000 = 0.48121",
+          "resultVarName": "TestResult_math/asinh_[a] 0.50000 = 0.48121",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.4812118
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] 0.50000 = 0.48121"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (0.48121, 0.48121)",
+          "resultVarName": "TestResult_math/asinh_[a] (0.50000, 0.50000) = (0.48121, 0.48121)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.4812118,
+            0.4812118
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] (0.50000, 0.50000) = (0.48121, 0.48121)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121)",
+          "resultVarName": "TestResult_math/asinh_[a] (0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.4812118,
+            0.4812118,
+            0.4812118
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] (0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121, 0.48121)",
+          "resultVarName": "TestResult_math/asinh_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121, 0.48121)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.4812118,
+            0.4812118,
+            0.4812118,
+            0.4812118
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121, 0.48121)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/asinh",
+    "math/dot",
+    "math/gt",
+    "math/lt",
+    "math/normalize",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

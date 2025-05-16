@@ -1,0 +1,24 @@
+Test Sample: math/cos
+Description: 
+
+Tests:
+	**[a] 4.32400 = -0.37870** - Result saved in Variable **TestResult_math/cos_[a] 4.32400 = -0.37870** with Id **1**
+	**[a] (4.32400, 4.32400) = (-0.37870, -0.37870)** - Result saved in Variable **TestResult_math/cos_[a] (4.32400, 4.32400) = (-0.37870, -0.37870)** with Id **3**
+	**[a] (4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870)** - Result saved in Variable **TestResult_math/cos_[a] (4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870)** with Id **5**
+	**[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870, -0.37870)** - Result saved in Variable **TestResult_math/cos_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870, -0.37870)** with Id **7**
+
+Schemas used in this test case:
+	debug/log
+	event/onStart
+	flow/branch
+	flow/sequence
+	math/abs
+	math/cos
+	math/dot
+	math/gt
+	math/lt
+	math/normalize
+	math/sub
+	pointer/set
+	variable/get
+	variable/set

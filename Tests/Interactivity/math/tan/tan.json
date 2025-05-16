@@ -1,0 +1,112 @@
+{
+  "glbFileName": "tan.glb",
+  "name": "math/tan",
+  "tests": [
+    {
+      "name": "math/tan",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "math/tan",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4.32400 = 2.44395",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (2.44395, 2.44395)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395)",
+          "nodeId": 33
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395, 2.44395)",
+          "nodeId": 49
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4.32400 = 2.44395",
+          "resultVarName": "TestResult_math/tan_[a] 4.32400 = 2.44395",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.44395351
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/tan_[a] 4.32400 = 2.44395"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (2.44395, 2.44395)",
+          "resultVarName": "TestResult_math/tan_[a] (4.32400, 4.32400) = (2.44395, 2.44395)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.44395351,
+            2.44395351
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/tan_[a] (4.32400, 4.32400) = (2.44395, 2.44395)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395)",
+          "resultVarName": "TestResult_math/tan_[a] (4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            2.44395351,
+            2.44395351,
+            2.44395351
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/tan_[a] (4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395, 2.44395)",
+          "resultVarName": "TestResult_math/tan_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395, 2.44395)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            2.44395351,
+            2.44395351,
+            2.44395351,
+            2.44395351
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/tan_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (2.44395, 2.44395, 2.44395, 2.44395)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/dot",
+    "math/gt",
+    "math/lt",
+    "math/normalize",
+    "math/sub",
+    "math/tan",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

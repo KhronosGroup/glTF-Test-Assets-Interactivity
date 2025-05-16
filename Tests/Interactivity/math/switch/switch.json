@@ -1,0 +1,81 @@
+{
+  "glbFileName": "switch.glb",
+  "name": "math/switch",
+  "tests": [
+    {
+      "name": "math/switch",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/switch",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Selection",
+          "nodeId": 1
+        },
+        {
+          "name": "Default",
+          "nodeId": 15
+        },
+        {
+          "name": "Negative Cases [-2,-1,0]",
+          "nodeId": 29
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Selection",
+          "resultVarName": "TestResult_math/switch_Selection",
+          "resultVarId": 1,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            22
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/switch_Selection"
+        },
+        {
+          "name": "Default",
+          "resultVarName": "TestResult_math/switch_Default",
+          "resultVarId": 3,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            99
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/switch_Default"
+        },
+        {
+          "name": "Negative Cases [-2,-1,0]",
+          "resultVarName": "TestResult_math/switch_Negative Cases [-2,-1,0]",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            22
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/switch_Negative Cases [-2,-1,0]"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/switch",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

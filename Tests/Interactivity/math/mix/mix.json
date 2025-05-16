@@ -1,0 +1,102 @@
+{
+  "glbFileName": "mix.glb",
+  "name": "math/mix",
+  "tests": [
+    {
+      "name": "math/mix",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/mix",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 [c] 2.00000 = 3.00000",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (1.00000, 1.00000) [b] (2.00000, 2.00000) [c] (2.00000, 2.00000) = (3.00000, 3.00000)",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] (1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000)",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] (1.00000, 1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000, 3.00000)",
+          "nodeId": 43
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 [c] 2.00000 = 3.00000",
+          "resultVarName": "TestResult_math/mix_[a] 1.00000 [b] 2.00000 [c] 2.00000 = 3.00000",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] 1.00000 [b] 2.00000 [c] 2.00000 = 3.00000"
+        },
+        {
+          "name": "[a] (1.00000, 1.00000) [b] (2.00000, 2.00000) [c] (2.00000, 2.00000) = (3.00000, 3.00000)",
+          "resultVarName": "TestResult_math/mix_[a] (1.00000, 1.00000) [b] (2.00000, 2.00000) [c] (2.00000, 2.00000) = (3.00000, 3.00000)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            3.0,
+            3.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1.00000, 1.00000) [b] (2.00000, 2.00000) [c] (2.00000, 2.00000) = (3.00000, 3.00000)"
+        },
+        {
+          "name": "[a] (1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000)",
+          "resultVarName": "TestResult_math/mix_[a] (1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            3.0,
+            3.0,
+            3.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000)"
+        },
+        {
+          "name": "[a] (1.00000, 1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000, 3.00000)",
+          "resultVarName": "TestResult_math/mix_[a] (1.00000, 1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000, 3.00000)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1.00000, 1.00000, 1.00000, 1.00000) [b] (2.00000, 2.00000, 2.00000, 2.00000) [c] (2.00000, 2.00000, 2.00000, 2.00000) = (3.00000, 3.00000, 3.00000, 3.00000)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/mix",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

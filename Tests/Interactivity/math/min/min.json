@@ -1,0 +1,102 @@
+{
+  "glbFileName": "min.glb",
+  "name": "math/min",
+  "tests": [
+    {
+      "name": "math/min",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/min",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 17.21323 [b] -324.23400 = -324.23400",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (17.21323, 17.21323) [b] (-324.23400, -324.23400) = (-324.23400, -324.23400)",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] (17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400)",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] (17.21323, 17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400, -324.23400)",
+          "nodeId": 43
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 17.21323 [b] -324.23400 = -324.23400",
+          "resultVarName": "TestResult_math/min_[a] 17.21323 [b] -324.23400 = -324.23400",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -324.234
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/min_[a] 17.21323 [b] -324.23400 = -324.23400"
+        },
+        {
+          "name": "[a] (17.21323, 17.21323) [b] (-324.23400, -324.23400) = (-324.23400, -324.23400)",
+          "resultVarName": "TestResult_math/min_[a] (17.21323, 17.21323) [b] (-324.23400, -324.23400) = (-324.23400, -324.23400)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            -324.234,
+            -324.234
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/min_[a] (17.21323, 17.21323) [b] (-324.23400, -324.23400) = (-324.23400, -324.23400)"
+        },
+        {
+          "name": "[a] (17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400)",
+          "resultVarName": "TestResult_math/min_[a] (17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -324.234,
+            -324.234,
+            -324.234
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/min_[a] (17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400)"
+        },
+        {
+          "name": "[a] (17.21323, 17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400, -324.23400)",
+          "resultVarName": "TestResult_math/min_[a] (17.21323, 17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400, -324.23400)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            -324.234,
+            -324.234,
+            -324.234,
+            -324.234
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/min_[a] (17.21323, 17.21323, 17.21323, 17.21323) [b] (-324.23400, -324.23400, -324.23400, -324.23400) = (-324.23400, -324.23400, -324.23400, -324.23400)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/min",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

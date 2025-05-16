@@ -1,0 +1,66 @@
+{
+  "glbFileName": "lt.glb",
+  "name": "math/lt",
+  "tests": [
+    {
+      "name": "math/lt",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/lt",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 = True",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] 1 [b] 2 = True",
+          "nodeId": 15
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 = True",
+          "resultVarName": "TestResult_math/lt_[a] 1.00000 [b] 2.00000 = True",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/lt_[a] 1.00000 [b] 2.00000 = True"
+        },
+        {
+          "name": "[a] 1 [b] 2 = True",
+          "resultVarName": "TestResult_math/lt_[a] 1 [b] 2 = True",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/lt_[a] 1 [b] 2 = True"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/lt",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "glbFileName": "eq.glb",
+  "name": "math/eq",
+  "tests": [
+    {
+      "name": "math/eq",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.32400 [b] 2.32423 = False",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] True [b] False = False",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] (4.00000, 5.00000) [b] (4.00000, 5.00000) = True",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] NaN [b] NaN = False",
+          "nodeId": 43
+        },
+        {
+          "name": "[a] NaN [b] 1.00000 = False",
+          "nodeId": 57
+        },
+        {
+          "name": "[a] Infinity [b] Infinity = True",
+          "nodeId": 71
+        },
+        {
+          "name": "[a] Infinity [b] -Infinity = False",
+          "nodeId": 85
+        },
+        {
+          "name": "[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n [b] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = True",
+          "nodeId": 99
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.32400 [b] 2.32423 = False",
+          "resultVarName": "TestResult_math/eq_[a] 1.32400 [b] 2.32423 = False",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] 1.32400 [b] 2.32423 = False"
+        },
+        {
+          "name": "[a] True [b] False = False",
+          "resultVarName": "TestResult_math/eq_[a] True [b] False = False",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] True [b] False = False"
+        },
+        {
+          "name": "[a] (4.00000, 5.00000) [b] (4.00000, 5.00000) = True",
+          "resultVarName": "TestResult_math/eq_[a] (4.00000, 5.00000) [b] (4.00000, 5.00000) = True",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] (4.00000, 5.00000) [b] (4.00000, 5.00000) = True"
+        },
+        {
+          "name": "[a] NaN [b] NaN = False",
+          "resultVarName": "TestResult_math/eq_[a] NaN [b] NaN = False",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] NaN [b] NaN = False"
+        },
+        {
+          "name": "[a] NaN [b] 1.00000 = False",
+          "resultVarName": "TestResult_math/eq_[a] NaN [b] 1.00000 = False",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] NaN [b] 1.00000 = False"
+        },
+        {
+          "name": "[a] Infinity [b] Infinity = True",
+          "resultVarName": "TestResult_math/eq_[a] Infinity [b] Infinity = True",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] Infinity [b] Infinity = True"
+        },
+        {
+          "name": "[a] Infinity [b] -Infinity = False",
+          "resultVarName": "TestResult_math/eq_[a] Infinity [b] -Infinity = False",
+          "resultVarId": 13,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] Infinity [b] -Infinity = False"
+        },
+        {
+          "name": "[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n [b] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = True",
+          "resultVarName": "TestResult_math/eq_[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n [b] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = True",
+          "resultVarId": 15,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n [b] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = True"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

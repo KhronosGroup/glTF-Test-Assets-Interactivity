@@ -1,0 +1,112 @@
+{
+  "glbFileName": "pow.glb",
+  "name": "math/pow",
+  "tests": [
+    {
+      "name": "math/pow",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/dot",
+        "math/gt",
+        "math/lt",
+        "math/normalize",
+        "math/pow",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 7.76400 [b] 2.34500 = 122.25050",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (7.76400, 7.76400) [b] (2.34500, 2.34500) = (122.25050, 122.25050)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050)",
+          "nodeId": 33
+        },
+        {
+          "name": "[a] (7.76400, 7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050, 122.25050)",
+          "nodeId": 49
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 7.76400 [b] 2.34500 = 122.25050",
+          "resultVarName": "TestResult_math/pow_[a] 7.76400 [b] 2.34500 = 122.25050",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            122.250481
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] 7.76400 [b] 2.34500 = 122.25050"
+        },
+        {
+          "name": "[a] (7.76400, 7.76400) [b] (2.34500, 2.34500) = (122.25050, 122.25050)",
+          "resultVarName": "TestResult_math/pow_[a] (7.76400, 7.76400) [b] (2.34500, 2.34500) = (122.25050, 122.25050)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            122.250481,
+            122.250481
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] (7.76400, 7.76400) [b] (2.34500, 2.34500) = (122.25050, 122.25050)"
+        },
+        {
+          "name": "[a] (7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050)",
+          "resultVarName": "TestResult_math/pow_[a] (7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            122.250481,
+            122.250481,
+            122.250481
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] (7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050)"
+        },
+        {
+          "name": "[a] (7.76400, 7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050, 122.25050)",
+          "resultVarName": "TestResult_math/pow_[a] (7.76400, 7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050, 122.25050)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            122.250481,
+            122.250481,
+            122.250481,
+            122.250481
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] (7.76400, 7.76400, 7.76400, 7.76400) [b] (2.34500, 2.34500, 2.34500, 2.34500) = (122.25050, 122.25050, 122.25050, 122.25050)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/dot",
+    "math/gt",
+    "math/lt",
+    "math/normalize",
+    "math/pow",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
