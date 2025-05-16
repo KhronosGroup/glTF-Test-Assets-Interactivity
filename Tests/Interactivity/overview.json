@@ -1,0 +1,1210 @@
+{
+  "glbFileName": "overview.glb",
+  "name": "overview",
+  "tests": [
+    {
+      "name": "Tests required operations",
+      "description": "Testing required operations for proper test execution. This tests should be passed before testing all other tests.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/add",
+        "math/and",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Entry",
+          "nodeId": 0
+        },
+        {
+          "name": "Delayed Check (delayed execution)",
+          "nodeId": 62,
+          "delayedExecutionTime": 1.0
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Flow Checks",
+          "resultVarName": "TestResult_Tests required operations_Flow Checks",
+          "resultVarId": 0,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_Tests required operations_Flow Checks"
+        },
+        {
+          "name": "Value Checks",
+          "resultVarName": "TestResult_Tests required operations_Value Checks",
+          "resultVarId": 2,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_Tests required operations_Value Checks"
+        },
+        {
+          "name": "Value Proximity Checks",
+          "resultVarName": "TestResult_Tests required operations_Value Proximity Checks",
+          "resultVarId": 4,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            33.2114563
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_Tests required operations_Value Proximity Checks"
+        },
+        {
+          "name": "Counter Checks",
+          "resultVarName": "TestResult_Tests required operations_Counter Checks",
+          "resultVarId": 7,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_Tests required operations_Counter Checks"
+        },
+        {
+          "name": "Multi Flow Checks",
+          "resultVarName": "TestResult_Tests required operations_Multi Flow Checks",
+          "resultVarId": 10,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_Tests required operations_Multi Flow Checks"
+        },
+        {
+          "name": "Delayed Checks",
+          "resultVarName": "TestResult_Tests required operations_Delayed Checks",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 11,
+          "successResultVarName": "TestResult_HasPassed_Tests required operations_Delayed Checks"
+        }
+      ]
+    },
+    {
+      "name": "flow/branch",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Branch Condition True",
+          "nodeId": 73
+        },
+        {
+          "name": "Branch Condition False",
+          "nodeId": 90
+        }
+      ],
+      "subTests": [
+        {
+          "name": "True-Condition true-flow",
+          "resultVarName": "TestResult_flow/branch_True-Condition true-flow",
+          "resultVarId": 12,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_flow/branch_True-Condition true-flow"
+        },
+        {
+          "name": "True-Condition false-flow",
+          "resultVarName": "TestResult_flow/branch_True-Condition false-flow",
+          "resultVarId": 13,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 13,
+          "successResultVarName": "TestResult_HasPassed_flow/branch_True-Condition false-flow"
+        },
+        {
+          "name": "False-Condition true-flow",
+          "resultVarName": "TestResult_flow/branch_False-Condition true-flow",
+          "resultVarId": 14,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_flow/branch_False-Condition true-flow"
+        },
+        {
+          "name": "False-Condition false-flow",
+          "resultVarName": "TestResult_flow/branch_False-Condition false-flow",
+          "resultVarId": 15,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 15,
+          "successResultVarName": "TestResult_HasPassed_flow/branch_False-Condition false-flow"
+        }
+      ]
+    },
+    {
+      "name": "flow/doN",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/doN",
+        "flow/sequence",
+        "math/add",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Do N - Iterations",
+          "nodeId": 107
+        },
+        {
+          "name": "Do N - Reset",
+          "nodeId": 147
+        },
+        {
+          "name": "Do N - Max Iteration",
+          "nodeId": 165
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[out] flow",
+          "resultVarName": "TestResult_flow/doN_[out] flow",
+          "resultVarId": 17,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 17,
+          "successResultVarName": "TestResult_HasPassed_flow/doN_[out] flow"
+        },
+        {
+          "name": "[out] iteration (5)",
+          "resultVarName": "TestResult_flow/doN_[out] iteration (5)",
+          "resultVarId": 19,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            5
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_flow/doN_[out] iteration (5)"
+        },
+        {
+          "name": "[currentCount]",
+          "resultVarName": "TestResult_flow/doN_[currentCount]",
+          "resultVarId": 21,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            5
+          ],
+          "successResultVarId": 20,
+          "successResultVarName": "TestResult_HasPassed_flow/doN_[currentCount]"
+        },
+        {
+          "name": "[reset] flow (N = 2, out/out/out/reset/out/out)",
+          "resultVarName": "TestResult_flow/doN_[reset] flow (N = 2, out/out/out/reset/out/out)",
+          "resultVarId": 24,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            4
+          ],
+          "successResultVarId": 23,
+          "successResultVarName": "TestResult_HasPassed_flow/doN_[reset] flow (N = 2, out/out/out/reset/out/out)"
+        },
+        {
+          "name": "Max Iteration flow",
+          "resultVarName": "TestResult_flow/doN_Max Iteration flow",
+          "resultVarId": 27,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 26,
+          "successResultVarName": "TestResult_HasPassed_flow/doN_Max Iteration flow"
+        }
+      ]
+    },
+    {
+      "name": "flow/for",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/for",
+        "flow/sequence",
+        "math/add",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Loop Entry",
+          "nodeId": 183
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[body] flow",
+          "resultVarName": "TestResult_flow/for_[body] flow",
+          "resultVarId": 30,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 30,
+          "successResultVarName": "TestResult_HasPassed_flow/for_[body] flow"
+        },
+        {
+          "name": "Loop range (0..10)",
+          "resultVarName": "TestResult_flow/for_Loop range (0..10)",
+          "resultVarId": 33,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            10
+          ],
+          "successResultVarId": 32,
+          "successResultVarName": "TestResult_HasPassed_flow/for_Loop range (0..10)"
+        },
+        {
+          "name": "[completed] flow",
+          "resultVarName": "TestResult_flow/for_[completed] flow",
+          "resultVarId": 34,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 34,
+          "successResultVarName": "TestResult_HasPassed_flow/for_[completed] flow"
+        },
+        {
+          "name": "Initial index",
+          "resultVarName": "TestResult_flow/for_Initial index",
+          "resultVarId": 29,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ],
+          "successResultVarId": 28,
+          "successResultVarName": "TestResult_HasPassed_flow/for_Initial index"
+        },
+        {
+          "name": "[index] when completed",
+          "resultVarName": "TestResult_flow/for_[index] when completed",
+          "resultVarId": 36,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            10
+          ],
+          "successResultVarId": 35,
+          "successResultVarName": "TestResult_HasPassed_flow/for_[index] when completed"
+        }
+      ]
+    },
+    {
+      "name": "flow/multiGate",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/multiGate",
+        "flow/sequence",
+        "math/add",
+        "math/and",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Order (008, 004, 001) > (001, 004, 008)",
+          "nodeId": 238
+        },
+        {
+          "name": "Random (Check if all out flows are triggered once)",
+          "nodeId": 267
+        },
+        {
+          "name": "Loop",
+          "nodeId": 295
+        },
+        {
+          "name": "Loop",
+          "nodeId": 329
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Loop",
+          "resultVarName": "TestResult_flow/multiGate_Loop",
+          "resultVarId": 48,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 48,
+          "successResultVarName": "TestResult_HasPassed_flow/multiGate_Loop"
+        },
+        {
+          "name": "Random (Check if all out flows are triggered once)",
+          "resultVarName": "TestResult_flow/multiGate_Random (Check if all out flows are triggered once)",
+          "resultVarId": 43,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 43,
+          "successResultVarName": "TestResult_HasPassed_flow/multiGate_Random (Check if all out flows are triggered once)"
+        },
+        {
+          "name": "Order (008, 004, 001) > (001, 004, 008)",
+          "resultVarName": "TestResult_flow/multiGate_Order (008, 004, 001) > (001, 004, 008)",
+          "resultVarId": 38,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 38,
+          "successResultVarName": "TestResult_HasPassed_flow/multiGate_Order (008, 004, 001) > (001, 004, 008)"
+        },
+        {
+          "name": "Reset Loop",
+          "resultVarName": "TestResult_flow/multiGate_Reset Loop",
+          "resultVarId": 53,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 53,
+          "successResultVarName": "TestResult_HasPassed_flow/multiGate_Reset Loop"
+        }
+      ]
+    },
+    {
+      "name": "flow/sequence",
+      "description": "Tests the sequence order of the flow outputs.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/add",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Sequence Order (0,9,10) > (0,10,9)",
+          "nodeId": 360
+        },
+        {
+          "name": "Sequence Order (ccc,aaa,b) > (aaa,b,ccc)",
+          "nodeId": 387
+        },
+        {
+          "name": "Sequence Order (b,B,a,A) > (A,B,a,b)",
+          "nodeId": 414
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Sequence Order (0,9,10) > (0,10,9)",
+          "resultVarName": "TestResult_flow/sequence_Sequence Order (0,9,10) > (0,10,9)",
+          "resultVarId": 56,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 56,
+          "successResultVarName": "TestResult_HasPassed_flow/sequence_Sequence Order (0,9,10) > (0,10,9)"
+        },
+        {
+          "name": "Sequence Order (ccc,aaa,b) > (aaa,b,ccc)",
+          "resultVarName": "TestResult_flow/sequence_Sequence Order (ccc,aaa,b) > (aaa,b,ccc)",
+          "resultVarId": 58,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 58,
+          "successResultVarName": "TestResult_HasPassed_flow/sequence_Sequence Order (ccc,aaa,b) > (aaa,b,ccc)"
+        },
+        {
+          "name": "Sequence Order (b,B,a,A) > (A,B,a,b)",
+          "resultVarName": "TestResult_flow/sequence_Sequence Order (b,B,a,A) > (A,B,a,b)",
+          "resultVarId": 60,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 60,
+          "successResultVarName": "TestResult_HasPassed_flow/sequence_Sequence Order (b,B,a,A) > (A,B,a,b)"
+        }
+      ]
+    },
+    {
+      "name": "flow/setDelay and cancelDelay",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "event/onTick",
+        "flow/branch",
+        "flow/cancelDelay",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/abs",
+        "math/add",
+        "math/eq",
+        "math/lt",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Set Delay (delayed execution)",
+          "nodeId": 445,
+          "delayedExecutionTime": 2.0
+        },
+        {
+          "name": "setDelay [cancel] (delayed execution)",
+          "nodeId": 487,
+          "delayedExecutionTime": 2.0
+        },
+        {
+          "name": "Cancel Delay (delayed execution)",
+          "nodeId": 499,
+          "delayedExecutionTime": 2.0
+        },
+        {
+          "name": "Error (delayed execution)",
+          "nodeId": 520,
+          "delayedExecutionTime": 2.0
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Flow [out]",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_Flow [out]",
+          "resultVarId": 66,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ],
+          "successResultVarId": -1,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_Flow [out]"
+        },
+        {
+          "name": "Flow [done]",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_Flow [done]",
+          "resultVarId": 62,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 62,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_Flow [done]"
+        },
+        {
+          "name": "Flow [done] \nin correct delay",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_Flow [done] \nin correct delay",
+          "resultVarId": 64,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 63,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_Flow [done] \nin correct delay"
+        },
+        {
+          "name": "Flow [err]",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_Flow [err]",
+          "resultVarId": 70,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 70,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_Flow [err]"
+        },
+        {
+          "name": "setDelay [cancel]",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_setDelay [cancel]",
+          "resultVarId": 67,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 67,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_setDelay [cancel]"
+        },
+        {
+          "name": "cancelDelay triggered",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_cancelDelay triggered",
+          "resultVarId": 68,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 68,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_cancelDelay triggered"
+        },
+        {
+          "name": "cancelDelay \nFlow [out]",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_cancelDelay \nFlow [out]",
+          "resultVarId": 69,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 69,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_cancelDelay \nFlow [out]"
+        }
+      ]
+    },
+    {
+      "name": "flow/switch",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/switch",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Switch selection flow",
+          "nodeId": 531
+        },
+        {
+          "name": "Switch default flow",
+          "nodeId": 541
+        },
+        {
+          "name": "Switch empty-cases default flow",
+          "nodeId": 551
+        },
+        {
+          "name": "Switch negate cases flow",
+          "nodeId": 561
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Selection flow",
+          "resultVarName": "TestResult_flow/switch_Selection flow",
+          "resultVarId": 71,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 71,
+          "successResultVarName": "TestResult_HasPassed_flow/switch_Selection flow"
+        },
+        {
+          "name": "Default flow",
+          "resultVarName": "TestResult_flow/switch_Default flow",
+          "resultVarId": 72,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 72,
+          "successResultVarName": "TestResult_HasPassed_flow/switch_Default flow"
+        },
+        {
+          "name": "Empty cases default flow",
+          "resultVarName": "TestResult_flow/switch_Empty cases default flow",
+          "resultVarId": 73,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 73,
+          "successResultVarName": "TestResult_HasPassed_flow/switch_Empty cases default flow"
+        },
+        {
+          "name": "Negate cases flow",
+          "resultVarName": "TestResult_flow/switch_Negate cases flow",
+          "resultVarId": 74,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 74,
+          "successResultVarName": "TestResult_HasPassed_flow/switch_Negate cases flow"
+        }
+      ]
+    },
+    {
+      "name": "flow/throttle",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "flow/throttle",
+        "math/abs",
+        "math/add",
+        "math/eq",
+        "math/lt",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[out] flow",
+          "nodeId": 571
+        },
+        {
+          "name": "Flow Out After Delay (delayed execution)",
+          "nodeId": 597,
+          "delayedExecutionTime": 2.0
+        },
+        {
+          "name": "[err] Flow on -1 Duration",
+          "nodeId": 622
+        },
+        {
+          "name": "[reset]",
+          "nodeId": 639
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[out] flow",
+          "resultVarName": "TestResult_flow/throttle_[out] flow",
+          "resultVarId": 78,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ],
+          "successResultVarId": -1,
+          "successResultVarName": "TestResult_HasPassed_flow/throttle_[out] flow"
+        },
+        {
+          "name": "[lastRemainingTime]",
+          "resultVarName": "TestResult_flow/throttle_[lastRemainingTime]",
+          "resultVarId": 76,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 75,
+          "successResultVarName": "TestResult_HasPassed_flow/throttle_[lastRemainingTime]"
+        },
+        {
+          "name": "Flow Out After Delay",
+          "resultVarName": "TestResult_flow/throttle_Flow Out After Delay",
+          "resultVarId": 81,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": -1,
+          "successResultVarName": "TestResult_HasPassed_flow/throttle_Flow Out After Delay"
+        },
+        {
+          "name": "SubTest: setDelay",
+          "resultVarName": "TestResult_flow/throttle_SubTest: setDelay",
+          "resultVarId": 79,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 79,
+          "successResultVarName": "TestResult_HasPassed_flow/throttle_SubTest: setDelay"
+        },
+        {
+          "name": "[err] Flow on -1 Duration",
+          "resultVarName": "TestResult_flow/throttle_[err] Flow on -1 Duration",
+          "resultVarId": 82,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 82,
+          "successResultVarName": "TestResult_HasPassed_flow/throttle_[err] Flow on -1 Duration"
+        },
+        {
+          "name": "Ignore [out] when error",
+          "resultVarName": "TestResult_flow/throttle_Ignore [out] when error",
+          "resultVarId": 83,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 83,
+          "successResultVarName": "TestResult_HasPassed_flow/throttle_Ignore [out] when error"
+        },
+        {
+          "name": "[reset]",
+          "resultVarName": "TestResult_flow/throttle_[reset]",
+          "resultVarId": 85,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            3
+          ],
+          "successResultVarId": -1,
+          "successResultVarName": "TestResult_HasPassed_flow/throttle_[reset]"
+        }
+      ]
+    },
+    {
+      "name": "flow/waitAll",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/waitAll",
+        "math/add",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Wait All - Completed",
+          "nodeId": 652
+        },
+        {
+          "name": "Wait All - Remaining",
+          "nodeId": 674
+        },
+        {
+          "name": "Wait All - Reset",
+          "nodeId": 690
+        },
+        {
+          "name": "Wait All - Reset Completed",
+          "nodeId": 706
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[completed]",
+          "resultVarName": "TestResult_flow/waitAll_[completed]",
+          "resultVarId": 88,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 88,
+          "successResultVarName": "TestResult_HasPassed_flow/waitAll_[completed]"
+        },
+        {
+          "name": "[remainingInputs] on completed",
+          "resultVarName": "TestResult_flow/waitAll_[remainingInputs] on completed",
+          "resultVarId": 87,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 86,
+          "successResultVarName": "TestResult_HasPassed_flow/waitAll_[remainingInputs] on completed"
+        },
+        {
+          "name": "[remainingInputs]",
+          "resultVarName": "TestResult_flow/waitAll_[remainingInputs]",
+          "resultVarId": 90,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 89,
+          "successResultVarName": "TestResult_HasPassed_flow/waitAll_[remainingInputs]"
+        },
+        {
+          "name": "[reset]",
+          "resultVarName": "TestResult_flow/waitAll_[reset]",
+          "resultVarId": 92,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 91,
+          "successResultVarName": "TestResult_HasPassed_flow/waitAll_[reset]"
+        },
+        {
+          "name": "[reset] [completed]",
+          "resultVarName": "TestResult_flow/waitAll_[reset] [completed]",
+          "resultVarId": 94,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ],
+          "successResultVarId": -1,
+          "successResultVarName": "TestResult_HasPassed_flow/waitAll_[reset] [completed]"
+        }
+      ]
+    },
+    {
+      "name": "flow/while",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/while",
+        "math/add",
+        "math/eq",
+        "math/lt",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "While Loop flowIn",
+          "nodeId": 721
+        },
+        {
+          "name": "While Loop flowIn (false Condition)",
+          "nodeId": 753
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[body] flow",
+          "resultVarName": "TestResult_flow/while_[body] flow",
+          "resultVarId": 96,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 96,
+          "successResultVarName": "TestResult_HasPassed_flow/while_[body] flow"
+        },
+        {
+          "name": "[completed] flow",
+          "resultVarName": "TestResult_flow/while_[completed] flow",
+          "resultVarId": 99,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 99,
+          "successResultVarName": "TestResult_HasPassed_flow/while_[completed] flow"
+        },
+        {
+          "name": "[body] iteration (2)",
+          "resultVarName": "TestResult_flow/while_[body] iteration (2)",
+          "resultVarId": 98,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 97,
+          "successResultVarName": "TestResult_HasPassed_flow/while_[body] iteration (2)"
+        },
+        {
+          "name": "[body] flow when false",
+          "resultVarName": "TestResult_flow/while_[body] flow when false",
+          "resultVarId": 100,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 100,
+          "successResultVarName": "TestResult_HasPassed_flow/while_[body] flow when false"
+        },
+        {
+          "name": "[completed] flow when false",
+          "resultVarName": "TestResult_flow/while_[completed] flow when false",
+          "resultVarId": 101,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 101,
+          "successResultVarName": "TestResult_HasPassed_flow/while_[completed] flow when false"
+        }
+      ]
+    },
+    {
+      "name": "variable/set and get",
+      "description": "Set and Get variable test",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Set Variable bool",
+          "nodeId": 770
+        },
+        {
+          "name": "Set Variable int",
+          "nodeId": 785
+        },
+        {
+          "name": "Set Variable float",
+          "nodeId": 800
+        },
+        {
+          "name": "Set Variable float2",
+          "nodeId": 815
+        },
+        {
+          "name": "Set Variable float3",
+          "nodeId": 830
+        },
+        {
+          "name": "Set Variable float4",
+          "nodeId": 845
+        },
+        {
+          "name": "Get default value from Variable bool",
+          "nodeId": 860
+        },
+        {
+          "name": "Get default value from Variable int",
+          "nodeId": 874
+        },
+        {
+          "name": "Get default value from Variable float",
+          "nodeId": 888
+        },
+        {
+          "name": "Get default value from Variable float2",
+          "nodeId": 902
+        },
+        {
+          "name": "Get default value from Variable float3",
+          "nodeId": 916
+        },
+        {
+          "name": "Get default value from Variable float4",
+          "nodeId": 930
+        }
+      ],
+      "subTests": [
+        {
+          "name": "static bool",
+          "resultVarName": "TestResult_variable/set and get_static bool",
+          "resultVarId": 104,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 103,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_static bool"
+        },
+        {
+          "name": "static int",
+          "resultVarName": "TestResult_variable/set and get_static int",
+          "resultVarId": 107,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ],
+          "successResultVarId": 106,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_static int"
+        },
+        {
+          "name": "static float",
+          "resultVarName": "TestResult_variable/set and get_static float",
+          "resultVarId": 110,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 109,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_static float"
+        },
+        {
+          "name": "static float2",
+          "resultVarName": "TestResult_variable/set and get_static float2",
+          "resultVarId": 113,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 112,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_static float2"
+        },
+        {
+          "name": "static float3",
+          "resultVarName": "TestResult_variable/set and get_static float3",
+          "resultVarId": 116,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 115,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_static float3"
+        },
+        {
+          "name": "static float4",
+          "resultVarName": "TestResult_variable/set and get_static float4",
+          "resultVarId": 119,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 118,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_static float4"
+        },
+        {
+          "name": "default bool",
+          "resultVarName": "TestResult_variable/set and get_default bool",
+          "resultVarId": 122,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 121,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_default bool"
+        },
+        {
+          "name": "default int",
+          "resultVarName": "TestResult_variable/set and get_default int",
+          "resultVarId": 125,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ],
+          "successResultVarId": 124,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_default int"
+        },
+        {
+          "name": "default float",
+          "resultVarName": "TestResult_variable/set and get_default float",
+          "resultVarId": 128,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 127,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_default float"
+        },
+        {
+          "name": "default float2",
+          "resultVarName": "TestResult_variable/set and get_default float2",
+          "resultVarId": 131,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 130,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_default float2"
+        },
+        {
+          "name": "default float3",
+          "resultVarName": "TestResult_variable/set and get_default float3",
+          "resultVarId": 134,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 133,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_default float3"
+        },
+        {
+          "name": "default float4",
+          "resultVarName": "TestResult_variable/set and get_default float4",
+          "resultVarId": 137,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 136,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_default float4"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "event/onTick",
+    "flow/branch",
+    "flow/cancelDelay",
+    "flow/doN",
+    "flow/for",
+    "flow/multiGate",
+    "flow/sequence",
+    "flow/setDelay",
+    "flow/switch",
+    "flow/throttle",
+    "flow/waitAll",
+    "flow/while",
+    "math/abs",
+    "math/add",
+    "math/and",
+    "math/eq",
+    "math/lt",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
