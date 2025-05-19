@@ -12,7 +12,7 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "flow/branch/branch.glb",
+      "glTF-Binary": "flow/branch/glTF-Binary/branch.glb",
       "test-Json": "flow/branch/test-Json/branch.json"
     }
   },
@@ -32,7 +32,7 @@
       "math/eq"
     ],
     "variants": {
-      "glTF-Binary": "flow/doN/doN.glb",
+      "glTF-Binary": "flow/doN/glTF-Binary/doN.glb",
       "test-Json": "flow/doN/test-Json/doN.json"
     }
   },
@@ -52,7 +52,7 @@
       "math/add"
     ],
     "variants": {
-      "glTF-Binary": "flow/for/for.glb",
+      "glTF-Binary": "flow/for/glTF-Binary/for.glb",
       "test-Json": "flow/for/test-Json/for.json"
     }
   },
@@ -73,7 +73,7 @@
       "math/and"
     ],
     "variants": {
-      "glTF-Binary": "flow/multiGate/multiGate.glb",
+      "glTF-Binary": "flow/multiGate/glTF-Binary/multiGate.glb",
       "test-Json": "flow/multiGate/test-Json/multiGate.json"
     }
   },
@@ -92,7 +92,7 @@
       "pointer/set"
     ],
     "variants": {
-      "glTF-Binary": "flow/sequence/sequence.glb",
+      "glTF-Binary": "flow/sequence/glTF-Binary/sequence.glb",
       "test-Json": "flow/sequence/test-Json/sequence.json"
     }
   },
@@ -119,7 +119,7 @@
       "flow/cancelDelay"
     ],
     "variants": {
-      "glTF-Binary": "flow/setDelay and cancelDelay/setDelay and cancelDelay.glb",
+      "glTF-Binary": "flow/setDelay and cancelDelay/glTF-Binary/setDelay and cancelDelay.glb",
       "test-Json": "flow/setDelay and cancelDelay/test-Json/setDelay and cancelDelay.json"
     }
   },
@@ -137,7 +137,7 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "flow/switch/switch.glb",
+      "glTF-Binary": "flow/switch/glTF-Binary/switch.glb",
       "test-Json": "flow/switch/test-Json/switch.json"
     }
   },
@@ -161,7 +161,7 @@
       "flow/setDelay"
     ],
     "variants": {
-      "glTF-Binary": "flow/throttle/throttle.glb",
+      "glTF-Binary": "flow/throttle/glTF-Binary/throttle.glb",
       "test-Json": "flow/throttle/test-Json/throttle.json"
     }
   },
@@ -181,7 +181,7 @@
       "math/add"
     ],
     "variants": {
-      "glTF-Binary": "flow/waitAll/waitAll.glb",
+      "glTF-Binary": "flow/waitAll/glTF-Binary/waitAll.glb",
       "test-Json": "flow/waitAll/test-Json/waitAll.json"
     }
   },
@@ -202,7 +202,7 @@
       "math/eq"
     ],
     "variants": {
-      "glTF-Binary": "flow/while/while.glb",
+      "glTF-Binary": "flow/while/glTF-Binary/while.glb",
       "test-Json": "flow/while/test-Json/while.json"
     }
   },
@@ -223,7 +223,7 @@
       "flow/setDelay"
     ],
     "variants": {
-      "glTF-Binary": "prerequisites/Tests required operations/Tests required operations.glb",
+      "glTF-Binary": "prerequisites/Tests required operations/glTF-Binary/Tests required operations.glb",
       "test-Json": "prerequisites/Tests required operations/test-Json/Tests required operations.json"
     }
   },
@@ -246,7 +246,7 @@
       "math/eq"
     ],
     "variants": {
-      "glTF-Binary": "variable/interpolate/interpolate.glb",
+      "glTF-Binary": "variable/interpolate/glTF-Binary/interpolate.glb",
       "test-Json": "variable/interpolate/test-Json/interpolate.json"
     }
   },
@@ -264,7 +264,7 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "variable/set and get/set and get.glb",
+      "glTF-Binary": "variable/set and get/glTF-Binary/set and get.glb",
       "test-Json": "variable/set and get/test-Json/set and get.json"
     }
   },
@@ -283,7 +283,7 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "variable/setMultiple/setMultiple.glb",
+      "glTF-Binary": "variable/setMultiple/glTF-Binary/setMultiple.glb",
       "test-Json": "variable/setMultiple/test-Json/setMultiple.json"
     }
   }

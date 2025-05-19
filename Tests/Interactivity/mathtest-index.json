@@ -14,8 +14,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/abs/abs.glb",
-      "test-Json": "math/abs/abs.json"
+      "glTF-Binary": "math/abs/glTF-Binary/abs.glb",
+      "test-Json": "math/abs/test-Json/abs.json"
     }
   },
   {
@@ -35,11 +35,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/acos/acos.glb",
-      "test-Json": "math/acos/acos.json"
+      "glTF-Binary": "math/acos/glTF-Binary/acos.glb",
+      "test-Json": "math/acos/test-Json/acos.json"
     }
   },
   {
@@ -59,11 +61,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/acosh/acosh.glb",
-      "test-Json": "math/acosh/acosh.json"
+      "glTF-Binary": "math/acosh/glTF-Binary/acosh.glb",
+      "test-Json": "math/acosh/test-Json/acosh.json"
     }
   },
   {
@@ -81,8 +85,27 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/add/add.glb",
-      "test-Json": "math/add/add.json"
+      "glTF-Binary": "math/add/glTF-Binary/add.glb",
+      "test-Json": "math/add/test-Json/add.json"
+    }
+  },
+  {
+    "label": "math/and",
+    "name": "math/and",
+    "tags": [
+      "math/and",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/and/glTF-Binary/and.glb",
+      "test-Json": "math/and/test-Json/and.json"
     }
   },
   {
@@ -102,11 +125,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/asin/asin.glb",
-      "test-Json": "math/asin/asin.json"
+      "glTF-Binary": "math/asin/glTF-Binary/asin.glb",
+      "test-Json": "math/asin/test-Json/asin.json"
     }
   },
   {
@@ -126,11 +151,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/asinh/asinh.glb",
-      "test-Json": "math/asinh/asinh.json"
+      "glTF-Binary": "math/asinh/glTF-Binary/asinh.glb",
+      "test-Json": "math/asinh/test-Json/asinh.json"
     }
   },
   {
@@ -150,11 +177,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/atan/atan.glb",
-      "test-Json": "math/atan/atan.json"
+      "glTF-Binary": "math/atan/glTF-Binary/atan.glb",
+      "test-Json": "math/atan/test-Json/atan.json"
     }
   },
   {
@@ -174,11 +203,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/atan2/atan2.glb",
-      "test-Json": "math/atan2/atan2.json"
+      "glTF-Binary": "math/atan2/glTF-Binary/atan2.glb",
+      "test-Json": "math/atan2/test-Json/atan2.json"
     }
   },
   {
@@ -198,11 +229,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/atanh/atanh.glb",
-      "test-Json": "math/atanh/atanh.json"
+      "glTF-Binary": "math/atanh/glTF-Binary/atanh.glb",
+      "test-Json": "math/atanh/test-Json/atanh.json"
     }
   },
   {
@@ -222,11 +255,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/cbrt/cbrt.glb",
-      "test-Json": "math/cbrt/cbrt.json"
+      "glTF-Binary": "math/cbrt/glTF-Binary/cbrt.glb",
+      "test-Json": "math/cbrt/test-Json/cbrt.json"
     }
   },
   {
@@ -244,8 +279,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/ceil/ceil.glb",
-      "test-Json": "math/ceil/ceil.json"
+      "glTF-Binary": "math/ceil/glTF-Binary/ceil.glb",
+      "test-Json": "math/ceil/test-Json/ceil.json"
     }
   },
   {
@@ -263,8 +298,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/clamp/clamp.glb",
-      "test-Json": "math/clamp/clamp.json"
+      "glTF-Binary": "math/clamp/glTF-Binary/clamp.glb",
+      "test-Json": "math/clamp/test-Json/clamp.json"
     }
   },
   {
@@ -284,11 +319,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/cos/cos.glb",
-      "test-Json": "math/cos/cos.json"
+      "glTF-Binary": "math/cos/glTF-Binary/cos.glb",
+      "test-Json": "math/cos/test-Json/cos.json"
     }
   },
   {
@@ -308,11 +345,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/cosh/cosh.glb",
-      "test-Json": "math/cosh/cosh.json"
+      "glTF-Binary": "math/cosh/glTF-Binary/cosh.glb",
+      "test-Json": "math/cosh/test-Json/cosh.json"
     }
   },
   {
@@ -332,11 +371,34 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/deg/deg.glb",
-      "test-Json": "math/deg/deg.json"
+      "glTF-Binary": "math/deg/glTF-Binary/deg.glb",
+      "test-Json": "math/deg/test-Json/deg.json"
+    }
+  },
+  {
+    "label": "math/determinant",
+    "name": "math/determinant",
+    "tags": [
+      "math/determinant",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/determinant/glTF-Binary/determinant.glb",
+      "test-Json": "math/determinant/test-Json/determinant.json"
     }
   },
   {
@@ -356,11 +418,34 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/div/div.glb",
-      "test-Json": "math/div/div.json"
+      "glTF-Binary": "math/div/glTF-Binary/div.glb",
+      "test-Json": "math/div/test-Json/div.json"
+    }
+  },
+  {
+    "label": "math/dot",
+    "name": "math/dot",
+    "tags": [
+      "math/dot",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/dot/glTF-Binary/dot.glb",
+      "test-Json": "math/dot/test-Json/dot.json"
     }
   },
   {
@@ -380,8 +465,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/e/e.glb",
-      "test-Json": "math/e/e.json"
+      "glTF-Binary": "math/e/glTF-Binary/e.glb",
+      "test-Json": "math/e/test-Json/e.json"
     }
   },
   {
@@ -398,8 +483,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/eq/eq.glb",
-      "test-Json": "math/eq/eq.json"
+      "glTF-Binary": "math/eq/glTF-Binary/eq.glb",
+      "test-Json": "math/eq/test-Json/eq.json"
     }
   },
   {
@@ -419,11 +504,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/exp/exp.glb",
-      "test-Json": "math/exp/exp.json"
+      "glTF-Binary": "math/exp/glTF-Binary/exp.glb",
+      "test-Json": "math/exp/test-Json/exp.json"
     }
   },
   {
@@ -441,8 +528,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/floor/floor.glb",
-      "test-Json": "math/floor/floor.json"
+      "glTF-Binary": "math/floor/glTF-Binary/floor.glb",
+      "test-Json": "math/floor/test-Json/floor.json"
     }
   },
   {
@@ -462,11 +549,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/fract/fract.glb",
-      "test-Json": "math/fract/fract.json"
+      "glTF-Binary": "math/fract/glTF-Binary/fract.glb",
+      "test-Json": "math/fract/test-Json/fract.json"
     }
   },
   {
@@ -484,8 +573,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/ge/ge.glb",
-      "test-Json": "math/ge/ge.json"
+      "glTF-Binary": "math/ge/glTF-Binary/ge.glb",
+      "test-Json": "math/ge/test-Json/ge.json"
     }
   },
   {
@@ -503,8 +592,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/gt/gt.glb",
-      "test-Json": "math/gt/gt.json"
+      "glTF-Binary": "math/gt/glTF-Binary/gt.glb",
+      "test-Json": "math/gt/test-Json/gt.json"
     }
   },
   {
@@ -522,8 +611,30 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/inf/inf.glb",
-      "test-Json": "math/inf/inf.json"
+      "glTF-Binary": "math/inf/glTF-Binary/inf.glb",
+      "test-Json": "math/inf/test-Json/inf.json"
+    }
+  },
+  {
+    "label": "math/inverse",
+    "name": "math/inverse",
+    "tags": [
+      "math/inverse",
+      "event/onStart",
+      "math/extract4x4",
+      "math/mul",
+      "math/add",
+      "math/gt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/inverse/glTF-Binary/inverse.glb",
+      "test-Json": "math/inverse/test-Json/inverse.json"
     }
   },
   {
@@ -541,8 +652,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/isinf/isinf.glb",
-      "test-Json": "math/isinf/isinf.json"
+      "glTF-Binary": "math/isinf/glTF-Binary/isinf.glb",
+      "test-Json": "math/isinf/test-Json/isinf.json"
     }
   },
   {
@@ -560,8 +671,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/isnan/isnan.glb",
-      "test-Json": "math/isnan/isnan.json"
+      "glTF-Binary": "math/isnan/glTF-Binary/isnan.glb",
+      "test-Json": "math/isnan/test-Json/isnan.json"
     }
   },
   {
@@ -579,8 +690,29 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/le/le.glb",
-      "test-Json": "math/le/le.json"
+      "glTF-Binary": "math/le/glTF-Binary/le.glb",
+      "test-Json": "math/le/test-Json/le.json"
+    }
+  },
+  {
+    "label": "math/length",
+    "name": "math/length",
+    "tags": [
+      "math/length",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/length/glTF-Binary/length.glb",
+      "test-Json": "math/length/test-Json/length.json"
     }
   },
   {
@@ -600,11 +732,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/log/log.glb",
-      "test-Json": "math/log/log.json"
+      "glTF-Binary": "math/log/glTF-Binary/log.glb",
+      "test-Json": "math/log/test-Json/log.json"
     }
   },
   {
@@ -624,11 +758,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/log10/log10.glb",
-      "test-Json": "math/log10/log10.json"
+      "glTF-Binary": "math/log10/glTF-Binary/log10.glb",
+      "test-Json": "math/log10/test-Json/log10.json"
     }
   },
   {
@@ -648,11 +784,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/log2/log2.glb",
-      "test-Json": "math/log2/log2.json"
+      "glTF-Binary": "math/log2/glTF-Binary/log2.glb",
+      "test-Json": "math/log2/test-Json/log2.json"
     }
   },
   {
@@ -670,8 +808,76 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/lt/lt.glb",
-      "test-Json": "math/lt/lt.json"
+      "glTF-Binary": "math/lt/glTF-Binary/lt.glb",
+      "test-Json": "math/lt/test-Json/lt.json"
+    }
+  },
+  {
+    "label": "math/matCompose",
+    "name": "math/matCompose",
+    "tags": [
+      "math/matCompose",
+      "event/onStart",
+      "math/extract4x4",
+      "math/mul",
+      "math/add",
+      "math/gt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/matCompose/glTF-Binary/matCompose.glb",
+      "test-Json": "math/matCompose/test-Json/matCompose.json"
+    }
+  },
+  {
+    "label": "math/matDecompose",
+    "name": "math/matDecompose",
+    "tags": [
+      "math/matCompose",
+      "math/matDecompose",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/matDecompose/glTF-Binary/matDecompose.glb",
+      "test-Json": "math/matDecompose/test-Json/matDecompose.json"
+    }
+  },
+  {
+    "label": "math/matmul",
+    "name": "math/matmul",
+    "tags": [
+      "math/matmul",
+      "event/onStart",
+      "math/extract4x4",
+      "math/mul",
+      "math/add",
+      "math/gt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/matmul/glTF-Binary/matmul.glb",
+      "test-Json": "math/matmul/test-Json/matmul.json"
     }
   },
   {
@@ -689,8 +895,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/max/max.glb",
-      "test-Json": "math/max/max.json"
+      "glTF-Binary": "math/max/glTF-Binary/max.glb",
+      "test-Json": "math/max/test-Json/max.json"
     }
   },
   {
@@ -708,8 +914,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/min/min.glb",
-      "test-Json": "math/min/min.json"
+      "glTF-Binary": "math/min/glTF-Binary/min.glb",
+      "test-Json": "math/min/test-Json/min.json"
     }
   },
   {
@@ -727,8 +933,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/mix/mix.glb",
-      "test-Json": "math/mix/mix.json"
+      "glTF-Binary": "math/mix/glTF-Binary/mix.glb",
+      "test-Json": "math/mix/test-Json/mix.json"
     }
   },
   {
@@ -749,12 +955,14 @@
       "math/dot",
       "math/normalize",
       "math/gt",
+      "math/length",
+      "math/and",
       "math/extract4x4",
       "math/add"
     ],
     "variants": {
-      "glTF-Binary": "math/mul/mul.glb",
-      "test-Json": "math/mul/mul.json"
+      "glTF-Binary": "math/mul/glTF-Binary/mul.glb",
+      "test-Json": "math/mul/test-Json/mul.json"
     }
   },
   {
@@ -772,8 +980,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/nan/nan.glb",
-      "test-Json": "math/nan/nan.json"
+      "glTF-Binary": "math/nan/glTF-Binary/nan.glb",
+      "test-Json": "math/nan/test-Json/nan.json"
     }
   },
   {
@@ -791,8 +999,46 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/neg/neg.glb",
-      "test-Json": "math/neg/neg.json"
+      "glTF-Binary": "math/neg/glTF-Binary/neg.glb",
+      "test-Json": "math/neg/test-Json/neg.json"
+    }
+  },
+  {
+    "label": "math/not",
+    "name": "math/not",
+    "tags": [
+      "math/not",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/not/glTF-Binary/not.glb",
+      "test-Json": "math/not/test-Json/not.json"
+    }
+  },
+  {
+    "label": "math/or",
+    "name": "math/or",
+    "tags": [
+      "math/or",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/or/glTF-Binary/or.glb",
+      "test-Json": "math/or/test-Json/or.json"
     }
   },
   {
@@ -812,8 +1058,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/pi/pi.glb",
-      "test-Json": "math/pi/pi.json"
+      "glTF-Binary": "math/pi/glTF-Binary/pi.glb",
+      "test-Json": "math/pi/test-Json/pi.json"
     }
   },
   {
@@ -833,11 +1079,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/pow/pow.glb",
-      "test-Json": "math/pow/pow.json"
+      "glTF-Binary": "math/pow/glTF-Binary/pow.glb",
+      "test-Json": "math/pow/test-Json/pow.json"
     }
   },
   {
@@ -857,11 +1105,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/rad/rad.glb",
-      "test-Json": "math/rad/rad.json"
+      "glTF-Binary": "math/rad/glTF-Binary/rad.glb",
+      "test-Json": "math/rad/test-Json/rad.json"
     }
   },
   {
@@ -888,8 +1138,8 @@
       "math/abs"
     ],
     "variants": {
-      "glTF-Binary": "math/random/random.glb",
-      "test-Json": "math/random/random.json"
+      "glTF-Binary": "math/random/glTF-Binary/random.glb",
+      "test-Json": "math/random/test-Json/random.json"
     }
   },
   {
@@ -909,11 +1159,59 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/rem/rem.glb",
-      "test-Json": "math/rem/rem.json"
+      "glTF-Binary": "math/rem/glTF-Binary/rem.glb",
+      "test-Json": "math/rem/test-Json/rem.json"
+    }
+  },
+  {
+    "label": "math/rotate2d",
+    "name": "math/rotate2d",
+    "tags": [
+      "math/rotate2d",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/rotate2d/glTF-Binary/rotate2d.glb",
+      "test-Json": "math/rotate2d/test-Json/rotate2d.json"
+    }
+  },
+  {
+    "label": "math/rotate3d",
+    "name": "math/rotate3d",
+    "tags": [
+      "math/rotate3d",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/rotate3d/glTF-Binary/rotate3d.glb",
+      "test-Json": "math/rotate3d/test-Json/rotate3d.json"
     }
   },
   {
@@ -931,8 +1229,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/saturate/saturate.glb",
-      "test-Json": "math/saturate/saturate.json"
+      "glTF-Binary": "math/saturate/glTF-Binary/saturate.glb",
+      "test-Json": "math/saturate/test-Json/saturate.json"
     }
   },
   {
@@ -950,8 +1248,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/select/select.glb",
-      "test-Json": "math/select/select.json"
+      "glTF-Binary": "math/select/glTF-Binary/select.glb",
+      "test-Json": "math/select/test-Json/select.json"
     }
   },
   {
@@ -969,8 +1267,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/sign/sign.glb",
-      "test-Json": "math/sign/sign.json"
+      "glTF-Binary": "math/sign/glTF-Binary/sign.glb",
+      "test-Json": "math/sign/test-Json/sign.json"
     }
   },
   {
@@ -990,11 +1288,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/sin/sin.glb",
-      "test-Json": "math/sin/sin.json"
+      "glTF-Binary": "math/sin/glTF-Binary/sin.glb",
+      "test-Json": "math/sin/test-Json/sin.json"
     }
   },
   {
@@ -1014,11 +1314,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/sinh/sinh.glb",
-      "test-Json": "math/sinh/sinh.json"
+      "glTF-Binary": "math/sinh/glTF-Binary/sinh.glb",
+      "test-Json": "math/sinh/test-Json/sinh.json"
     }
   },
   {
@@ -1038,11 +1340,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/sqrt/sqrt.glb",
-      "test-Json": "math/sqrt/sqrt.json"
+      "glTF-Binary": "math/sqrt/glTF-Binary/sqrt.glb",
+      "test-Json": "math/sqrt/test-Json/sqrt.json"
     }
   },
   {
@@ -1060,8 +1364,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/sub/sub.glb",
-      "test-Json": "math/sub/sub.json"
+      "glTF-Binary": "math/sub/glTF-Binary/sub.glb",
+      "test-Json": "math/sub/test-Json/sub.json"
     }
   },
   {
@@ -1079,8 +1383,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/switch/switch.glb",
-      "test-Json": "math/switch/switch.json"
+      "glTF-Binary": "math/switch/glTF-Binary/switch.glb",
+      "test-Json": "math/switch/test-Json/switch.json"
     }
   },
   {
@@ -1100,11 +1404,13 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/tan/tan.glb",
-      "test-Json": "math/tan/tan.json"
+      "glTF-Binary": "math/tan/glTF-Binary/tan.glb",
+      "test-Json": "math/tan/test-Json/tan.json"
     }
   },
   {
@@ -1124,11 +1430,58 @@
       "flow/sequence",
       "math/dot",
       "math/normalize",
-      "math/gt"
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
-      "glTF-Binary": "math/tanh/tanh.glb",
-      "test-Json": "math/tanh/tanh.json"
+      "glTF-Binary": "math/tanh/glTF-Binary/tanh.glb",
+      "test-Json": "math/tanh/test-Json/tanh.json"
+    }
+  },
+  {
+    "label": "math/transform",
+    "name": "math/transform",
+    "tags": [
+      "math/transform",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/transform/glTF-Binary/transform.glb",
+      "test-Json": "math/transform/test-Json/transform.json"
+    }
+  },
+  {
+    "label": "math/transpose",
+    "name": "math/transpose",
+    "tags": [
+      "math/transpose",
+      "event/onStart",
+      "math/extract4x4",
+      "math/mul",
+      "math/add",
+      "math/gt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/transpose/glTF-Binary/transpose.glb",
+      "test-Json": "math/transpose/test-Json/transpose.json"
     }
   },
   {
@@ -1146,8 +1499,27 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "math/trunc/trunc.glb",
-      "test-Json": "math/trunc/trunc.json"
+      "glTF-Binary": "math/trunc/glTF-Binary/trunc.glb",
+      "test-Json": "math/trunc/test-Json/trunc.json"
+    }
+  },
+  {
+    "label": "math/xor",
+    "name": "math/xor",
+    "tags": [
+      "math/xor",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "math/xor/glTF-Binary/xor.glb",
+      "test-Json": "math/xor/test-Json/xor.json"
     }
   }
 ]
