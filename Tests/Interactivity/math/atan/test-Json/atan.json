@@ -1,0 +1,116 @@
+{
+  "glbFileName": "atan.glb",
+  "name": "math/atan",
+  "tests": [
+    {
+      "name": "math/atan",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/and",
+        "math/atan",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 0.50000 = 0.46365",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (0.46365, 0.46365)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365)",
+          "nodeId": 36
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365, 0.46365)",
+          "nodeId": 56
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 0.50000 = 0.46365",
+          "resultVarName": "TestResult_math/atan_[a] 0.50000 = 0.46365",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.4636476
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/atan_[a] 0.50000 = 0.46365"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000) = (0.46365, 0.46365)",
+          "resultVarName": "TestResult_math/atan_[a] (0.50000, 0.50000) = (0.46365, 0.46365)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.4636476,
+            0.4636476
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/atan_[a] (0.50000, 0.50000) = (0.46365, 0.46365)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365)",
+          "resultVarName": "TestResult_math/atan_[a] (0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.4636476,
+            0.4636476,
+            0.4636476
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/atan_[a] (0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365)"
+        },
+        {
+          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365, 0.46365)",
+          "resultVarName": "TestResult_math/atan_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365, 0.46365)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.4636476,
+            0.4636476,
+            0.4636476,
+            0.4636476
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/atan_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.46365, 0.46365, 0.46365, 0.46365)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/and",
+    "math/atan",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/lt",
+    "math/normalize",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -24,62 +24,72 @@
         },
         {
           "name": "Wait All - Remaining",
-          "nodeId": 22
+          "nodeId": 24
         },
         {
           "name": "Wait All - Reset",
-          "nodeId": 37
+          "nodeId": 40
         },
         {
           "name": "Wait All - Reset Completed",
-          "nodeId": 52
+          "nodeId": 56
         }
       ],
       "subTests": [
         {
           "name": "[completed]",
           "resultVarName": "TestResult_flow/waitAll_[completed]",
-          "resultVarId": 1,
+          "resultVarId": 2,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_flow/waitAll_[completed]"
         },
         {
           "name": "[remainingInputs] on completed",
           "resultVarName": "TestResult_flow/waitAll_[remainingInputs] on completed",
-          "resultVarId": 0,
+          "resultVarId": 1,
           "resultVarType": "int",
           "expectedResultValue": [
             0
-          ]
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_flow/waitAll_[remainingInputs] on completed"
         },
         {
           "name": "[remainingInputs]",
           "resultVarName": "TestResult_flow/waitAll_[remainingInputs]",
-          "resultVarId": 2,
+          "resultVarId": 4,
           "resultVarType": "int",
           "expectedResultValue": [
             2
-          ]
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_flow/waitAll_[remainingInputs]"
         },
         {
           "name": "[reset]",
           "resultVarName": "TestResult_flow/waitAll_[reset]",
-          "resultVarId": 3,
+          "resultVarId": 6,
           "resultVarType": "int",
           "expectedResultValue": [
             2
-          ]
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_flow/waitAll_[reset]"
         },
         {
           "name": "[reset] [completed]",
           "resultVarName": "TestResult_flow/waitAll_[reset] [completed]",
-          "resultVarId": 5,
+          "resultVarId": 8,
           "resultVarType": "int",
           "expectedResultValue": [
             1
-          ]
+          ],
+          "successResultVarId": -1,
+          "successResultVarName": "TestResult_HasPassed_flow/waitAll_[reset] [completed]"
         }
       ]
     }

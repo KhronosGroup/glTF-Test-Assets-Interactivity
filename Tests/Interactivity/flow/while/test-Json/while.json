@@ -25,7 +25,7 @@
         },
         {
           "name": "While Loop flowIn (false Condition)",
-          "nodeId": 34
+          "nodeId": 35
         }
       ],
       "subTests": [
@@ -36,43 +36,53 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_flow/while_[body] flow"
         },
         {
           "name": "[completed] flow",
           "resultVarName": "TestResult_flow/while_[completed] flow",
-          "resultVarId": 3,
+          "resultVarId": 4,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_flow/while_[completed] flow"
         },
         {
           "name": "[body] iteration (2)",
           "resultVarName": "TestResult_flow/while_[body] iteration (2)",
-          "resultVarId": 2,
+          "resultVarId": 3,
           "resultVarType": "int",
           "expectedResultValue": [
             2
-          ]
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_flow/while_[body] iteration (2)"
         },
         {
           "name": "[body] flow when false",
           "resultVarName": "TestResult_flow/while_[body] flow when false",
-          "resultVarId": 4,
+          "resultVarId": 5,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
-          ]
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_flow/while_[body] flow when false"
         },
         {
           "name": "[completed] flow when false",
           "resultVarName": "TestResult_flow/while_[completed] flow when false",
-          "resultVarId": 5,
+          "resultVarId": 6,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_flow/while_[completed] flow when false"
         }
       ]
     }

@@ -1,0 +1,66 @@
+{
+  "glbFileName": "not.glb",
+  "name": "math/not",
+  "tests": [
+    {
+      "name": "math/not",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/not",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] True = False",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] False = True",
+          "nodeId": 15
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] True = False",
+          "resultVarName": "TestResult_math/not_[a] True = False",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/not_[a] True = False"
+        },
+        {
+          "name": "[a] False = True",
+          "resultVarName": "TestResult_math/not_[a] False = True",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/not_[a] False = True"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/not",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

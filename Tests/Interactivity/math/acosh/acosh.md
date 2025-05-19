@@ -14,8 +14,10 @@ Schemas used in this test case:
 	flow/sequence
 	math/abs
 	math/acosh
+	math/and
 	math/dot
 	math/gt
+	math/length
 	math/lt
 	math/normalize
 	math/sub

@@ -1,0 +1,66 @@
+{
+  "glbFileName": "select.glb",
+  "name": "math/select",
+  "tests": [
+    {
+      "name": "math/select",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/select",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "When True",
+          "nodeId": 1
+        },
+        {
+          "name": "When False",
+          "nodeId": 15
+        }
+      ],
+      "subTests": [
+        {
+          "name": "When True",
+          "resultVarName": "TestResult_math/select_When True",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/select_When True"
+        },
+        {
+          "name": "When False",
+          "resultVarName": "TestResult_math/select_When False",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/select_When False"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/select",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

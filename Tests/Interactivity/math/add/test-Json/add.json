@@ -1,0 +1,117 @@
+{
+  "glbFileName": "add.glb",
+  "name": "math/add",
+  "tests": [
+    {
+      "name": "math/add",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/add",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] -1.00000 [b] 3.00000 = 2.00000",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] -1 [b] 3 = 2",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] (-1.00000, -1.00000) [b] (3.00000, 3.00000) = (2.00000, 2.00000)",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] (-1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000)",
+          "nodeId": 44
+        },
+        {
+          "name": "[a] (-1.00000, -1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000, 2.00000)",
+          "nodeId": 57
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] -1.00000 [b] 3.00000 = 2.00000",
+          "resultVarName": "TestResult_math/add_[a] -1.00000 [b] 3.00000 = 2.00000",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/add_[a] -1.00000 [b] 3.00000 = 2.00000"
+        },
+        {
+          "name": "[a] -1 [b] 3 = 2",
+          "resultVarName": "TestResult_math/add_[a] -1 [b] 3 = 2",
+          "resultVarId": 3,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/add_[a] -1 [b] 3 = 2"
+        },
+        {
+          "name": "[a] (-1.00000, -1.00000) [b] (3.00000, 3.00000) = (2.00000, 2.00000)",
+          "resultVarName": "TestResult_math/add_[a] (-1.00000, -1.00000) [b] (3.00000, 3.00000) = (2.00000, 2.00000)",
+          "resultVarId": 5,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.0,
+            2.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/add_[a] (-1.00000, -1.00000) [b] (3.00000, 3.00000) = (2.00000, 2.00000)"
+        },
+        {
+          "name": "[a] (-1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000)",
+          "resultVarName": "TestResult_math/add_[a] (-1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000)",
+          "resultVarId": 7,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/add_[a] (-1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000)"
+        },
+        {
+          "name": "[a] (-1.00000, -1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000, 2.00000)",
+          "resultVarName": "TestResult_math/add_[a] (-1.00000, -1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000, 2.00000)",
+          "resultVarId": 9,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/add_[a] (-1.00000, -1.00000, -1.00000, -1.00000) [b] (3.00000, 3.00000, 3.00000, 3.00000) = (2.00000, 2.00000, 2.00000, 2.00000)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/add",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

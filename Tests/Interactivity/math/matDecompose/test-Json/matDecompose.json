@@ -1,0 +1,90 @@
+{
+  "glbFileName": "matDecompose.glb",
+  "name": "math/matDecompose",
+  "tests": [
+    {
+      "name": "math/matDecompose",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/matCompose",
+        "math/matDecompose",
+        "math/normalize",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "matDecompose",
+          "nodeId": 2
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Translate",
+          "resultVarName": "TestResult_math/matDecompose_Translate",
+          "resultVarId": 1,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/matDecompose_Translate"
+        },
+        {
+          "name": "Rotate",
+          "resultVarName": "TestResult_math/matDecompose_Rotate",
+          "resultVarId": 3,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.391903818,
+            0.200562149,
+            0.3604234,
+            0.822363138
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/matDecompose_Rotate"
+        },
+        {
+          "name": "Scale",
+          "resultVarName": "TestResult_math/matDecompose_Scale",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/matDecompose_Scale"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/matCompose",
+    "math/matDecompose",
+    "math/normalize",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

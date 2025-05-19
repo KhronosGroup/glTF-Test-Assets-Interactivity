@@ -33,7 +33,7 @@
         },
         {
           "name": "Loop",
-          "nodeId": 91
+          "nodeId": 93
         }
       ],
       "subTests": [
@@ -44,7 +44,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 11,
+          "successResultVarName": "TestResult_HasPassed_flow/multiGate_Loop"
         },
         {
           "name": "Random (Check if all out flows are triggered once)",
@@ -53,7 +55,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_flow/multiGate_Random (Check if all out flows are triggered once)"
         },
         {
           "name": "Order (008, 004, 001) > (001, 004, 008)",
@@ -62,7 +66,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_flow/multiGate_Order (008, 004, 001) > (001, 004, 008)"
         },
         {
           "name": "Reset Loop",
@@ -71,7 +77,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_flow/multiGate_Reset Loop"
         }
       ]
     }

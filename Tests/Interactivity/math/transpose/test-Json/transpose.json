@@ -1,0 +1,72 @@
+{
+  "glbFileName": "transpose.glb",
+  "name": "math/transpose",
+  "tests": [
+    {
+      "name": "math/transpose",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/add",
+        "math/extract4x4",
+        "math/gt",
+        "math/mul",
+        "math/transpose",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = 0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t1.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n1.00000\t1.00000\t1.00000\t1.00000\n",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = 0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t1.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n1.00000\t1.00000\t1.00000\t1.00000\n",
+          "resultVarName": "TestResult_math/transpose_[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = 0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t1.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n1.00000\t1.00000\t1.00000\t1.00000\n",
+          "resultVarId": 1,
+          "resultVarType": "float4x4",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/transpose_[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = 0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t1.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n1.00000\t1.00000\t1.00000\t1.00000\n"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/add",
+    "math/extract4x4",
+    "math/gt",
+    "math/mul",
+    "math/transpose",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

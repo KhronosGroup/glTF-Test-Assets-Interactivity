@@ -12,7 +12,6 @@ Schemas used in this test case:
 	event/onStart
 	flow/branch
 	flow/sequence
-	math/eq
 	pointer/set
 	variable/get
 	variable/set

@@ -28,7 +28,7 @@
         },
         {
           "name": "Flow Out After Delay (delayed execution)",
-          "nodeId": 28,
+          "nodeId": 27,
           "delayedExecutionTime": 2.0
         },
         {
@@ -44,65 +44,79 @@
         {
           "name": "[out] flow",
           "resultVarName": "TestResult_flow/throttle_[out] flow",
-          "resultVarId": 2,
+          "resultVarId": 3,
           "resultVarType": "int",
           "expectedResultValue": [
             1
-          ]
+          ],
+          "successResultVarId": -1,
+          "successResultVarName": "TestResult_HasPassed_flow/throttle_[out] flow"
         },
         {
           "name": "[lastRemainingTime]",
           "resultVarName": "TestResult_flow/throttle_[lastRemainingTime]",
-          "resultVarId": 0,
+          "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
-          ]
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_flow/throttle_[lastRemainingTime]"
         },
         {
           "name": "Flow Out After Delay",
           "resultVarName": "TestResult_flow/throttle_Flow Out After Delay",
-          "resultVarId": 5,
+          "resultVarId": 6,
           "resultVarType": "int",
           "expectedResultValue": [
             2
-          ]
+          ],
+          "successResultVarId": -1,
+          "successResultVarName": "TestResult_HasPassed_flow/throttle_Flow Out After Delay"
         },
         {
           "name": "SubTest: setDelay",
           "resultVarName": "TestResult_flow/throttle_SubTest: setDelay",
-          "resultVarId": 3,
+          "resultVarId": 4,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_flow/throttle_SubTest: setDelay"
         },
         {
           "name": "[err] Flow on -1 Duration",
           "resultVarName": "TestResult_flow/throttle_[err] Flow on -1 Duration",
-          "resultVarId": 6,
+          "resultVarId": 7,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 7,
+          "successResultVarName": "TestResult_HasPassed_flow/throttle_[err] Flow on -1 Duration"
         },
         {
           "name": "Ignore [out] when error",
           "resultVarName": "TestResult_flow/throttle_Ignore [out] when error",
-          "resultVarId": 7,
+          "resultVarId": 8,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
-          ]
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_flow/throttle_Ignore [out] when error"
         },
         {
           "name": "[reset]",
           "resultVarName": "TestResult_flow/throttle_[reset]",
-          "resultVarId": 9,
+          "resultVarId": 10,
           "resultVarType": "int",
           "expectedResultValue": [
             3
-          ]
+          ],
+          "successResultVarId": -1,
+          "successResultVarName": "TestResult_HasPassed_flow/throttle_[reset]"
         }
       ]
     }

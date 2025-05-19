@@ -1,0 +1,73 @@
+{
+  "glbFileName": "setMultiple.glb",
+  "name": "variable/setMultiple",
+  "tests": [
+    {
+      "name": "variable/setMultiple",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set",
+        "variable/setMultiple"
+      ],
+      "entryPoints": [
+        {
+          "name": "Set multiple variables",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[var1]",
+          "resultVarName": "TestResult_variable/setMultiple_[var1]",
+          "resultVarId": 4,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            11
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_variable/setMultiple_[var1]"
+        },
+        {
+          "name": "[var2]",
+          "resultVarName": "TestResult_variable/setMultiple_[var2]",
+          "resultVarId": 6,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            22
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_variable/setMultiple_[var2]"
+        },
+        {
+          "name": "[var3]",
+          "resultVarName": "TestResult_variable/setMultiple_[var3]",
+          "resultVarId": 8,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            33
+          ],
+          "successResultVarId": 7,
+          "successResultVarName": "TestResult_HasPassed_variable/setMultiple_[var3]"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set",
+    "variable/setMultiple"
+  ]
+}

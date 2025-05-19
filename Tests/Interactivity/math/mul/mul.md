@@ -39,9 +39,11 @@ Schemas used in this test case:
 	flow/sequence
 	math/abs
 	math/add
+	math/and
 	math/dot
 	math/extract4x4
 	math/gt
+	math/length
 	math/lt
 	math/mul
 	math/normalize

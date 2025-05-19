@@ -11,7 +11,6 @@
         "flow/branch",
         "flow/sequence",
         "flow/switch",
-        "math/eq",
         "pointer/set",
         "variable/get",
         "variable/set"
@@ -31,7 +30,7 @@
         },
         {
           "name": "Switch negate cases flow",
-          "nodeId": 31
+          "nodeId": 32
         }
       ],
       "subTests": [
@@ -42,7 +41,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_flow/switch_Selection flow"
         },
         {
           "name": "Default flow",
@@ -51,7 +52,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_flow/switch_Default flow"
         },
         {
           "name": "Empty cases default flow",
@@ -60,7 +63,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_flow/switch_Empty cases default flow"
         },
         {
           "name": "Negate cases flow",
@@ -69,7 +74,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_flow/switch_Negate cases flow"
         }
       ]
     }
@@ -80,7 +87,6 @@
     "flow/branch",
     "flow/sequence",
     "flow/switch",
-    "math/eq",
     "pointer/set",
     "variable/get",
     "variable/set"

@@ -1,0 +1,62 @@
+{
+  "glbFileName": "transform.glb",
+  "name": "math/transform",
+  "tests": [
+    {
+      "name": "math/transform",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/normalize",
+        "math/transform",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] (1.00000, 2.00000, 3.00000, 4.00000) [b] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = (4.00000, 2.00000, 0.00000, 4.00000)",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] (1.00000, 2.00000, 3.00000, 4.00000) [b] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = (4.00000, 2.00000, 0.00000, 4.00000)",
+          "resultVarName": "TestResult_math/transform_[a] (1.00000, 2.00000, 3.00000, 4.00000) [b] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = (4.00000, 2.00000, 0.00000, 4.00000)",
+          "resultVarId": 1,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            4.0,
+            2.0,
+            0.0,
+            4.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/transform_[a] (1.00000, 2.00000, 3.00000, 4.00000) [b] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = (4.00000, 2.00000, 0.00000, 4.00000)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/normalize",
+    "math/transform",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

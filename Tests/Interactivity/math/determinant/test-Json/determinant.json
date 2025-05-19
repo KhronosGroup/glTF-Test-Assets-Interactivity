@@ -1,0 +1,55 @@
+{
+  "glbFileName": "determinant.glb",
+  "name": "math/determinant",
+  "tests": [
+    {
+      "name": "math/determinant",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/determinant",
+        "math/lt",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = 0.00000",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = 0.00000",
+          "resultVarName": "TestResult_math/determinant_[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = 0.00000",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/determinant_[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = 0.00000"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/determinant",
+    "math/lt",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

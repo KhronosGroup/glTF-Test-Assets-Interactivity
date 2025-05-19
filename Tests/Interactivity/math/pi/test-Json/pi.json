@@ -1,0 +1,55 @@
+{
+  "glbFileName": "pi.glb",
+  "name": "math/pi",
+  "tests": [
+    {
+      "name": "math/pi",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/lt",
+        "math/pi",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "= 3.14159",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "= 3.14159",
+          "resultVarName": "TestResult_math/pi_= 3.14159",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.14159274
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/pi_= 3.14159"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/lt",
+    "math/pi",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

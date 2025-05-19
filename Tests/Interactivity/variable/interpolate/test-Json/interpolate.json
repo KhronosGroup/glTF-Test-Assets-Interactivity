@@ -1,0 +1,153 @@
+{
+  "glbFileName": "interpolate.glb",
+  "name": "variable/interpolate",
+  "tests": [
+    {
+      "name": "variable/interpolate",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/abs",
+        "math/eq",
+        "math/lt",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/interpolate",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Interpolate (delayed execution)",
+          "nodeId": 1,
+          "delayedExecutionTime": 4.5
+        },
+        {
+          "name": "[Err] flow (duration -1f",
+          "nodeId": 49
+        },
+        {
+          "name": "[Err] flow (duration infinite",
+          "nodeId": 59
+        },
+        {
+          "name": "[Err] flow (p1 NaN)",
+          "nodeId": 69
+        },
+        {
+          "name": "[Err] flow (p2 NaN)",
+          "nodeId": 79
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Flow [out]",
+          "resultVarName": "TestResult_variable/interpolate_Flow [out]",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Flow [out]"
+        },
+        {
+          "name": "Value at 50%",
+          "resultVarName": "TestResult_variable/interpolate_Value at 50%",
+          "resultVarId": 4,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            8.75
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Value at 50%"
+        },
+        {
+          "name": "Flow [done]",
+          "resultVarName": "TestResult_variable/interpolate_Flow [done]",
+          "resultVarId": 2,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Flow [done]"
+        },
+        {
+          "name": "Value at 100%",
+          "resultVarName": "TestResult_variable/interpolate_Value at 100%",
+          "resultVarId": 6,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            10.0
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Value at 100%"
+        },
+        {
+          "name": "[Err] flow (duration -1f",
+          "resultVarName": "TestResult_variable/interpolate_[Err] flow (duration -1f",
+          "resultVarId": 8,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (duration -1f"
+        },
+        {
+          "name": "[Err] flow (duration infinite",
+          "resultVarName": "TestResult_variable/interpolate_[Err] flow (duration infinite",
+          "resultVarId": 10,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (duration infinite"
+        },
+        {
+          "name": "[Err] flow (p1 NaN)",
+          "resultVarName": "TestResult_variable/interpolate_[Err] flow (p1 NaN)",
+          "resultVarId": 12,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (p1 NaN)"
+        },
+        {
+          "name": "[Err] flow (p2 NaN)",
+          "resultVarName": "TestResult_variable/interpolate_[Err] flow (p2 NaN)",
+          "resultVarId": 14,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (p2 NaN)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/abs",
+    "math/eq",
+    "math/lt",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/interpolate",
+    "variable/set"
+  ]
+}

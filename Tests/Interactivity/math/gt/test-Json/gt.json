@@ -1,0 +1,66 @@
+{
+  "glbFileName": "gt.glb",
+  "name": "math/gt",
+  "tests": [
+    {
+      "name": "math/gt",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/gt",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 = False",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] 1 [b] 2 = False",
+          "nodeId": 15
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 = False",
+          "resultVarName": "TestResult_math/gt_[a] 1.00000 [b] 2.00000 = False",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/gt_[a] 1.00000 [b] 2.00000 = False"
+        },
+        {
+          "name": "[a] 1 [b] 2 = False",
+          "resultVarName": "TestResult_math/gt_[a] 1 [b] 2 = False",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/gt_[a] 1 [b] 2 = False"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/gt",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

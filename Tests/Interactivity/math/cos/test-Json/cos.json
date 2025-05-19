@@ -1,0 +1,116 @@
+{
+  "glbFileName": "cos.glb",
+  "name": "math/cos",
+  "tests": [
+    {
+      "name": "math/cos",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/and",
+        "math/cos",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4.32400 = -0.37870",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (-0.37870, -0.37870)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870)",
+          "nodeId": 36
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870, -0.37870)",
+          "nodeId": 56
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4.32400 = -0.37870",
+          "resultVarName": "TestResult_math/cos_[a] 4.32400 = -0.37870",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -0.378698
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/cos_[a] 4.32400 = -0.37870"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (-0.37870, -0.37870)",
+          "resultVarName": "TestResult_math/cos_[a] (4.32400, 4.32400) = (-0.37870, -0.37870)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            -0.378698,
+            -0.378698
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/cos_[a] (4.32400, 4.32400) = (-0.37870, -0.37870)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870)",
+          "resultVarName": "TestResult_math/cos_[a] (4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -0.378698,
+            -0.378698,
+            -0.378698
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/cos_[a] (4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870, -0.37870)",
+          "resultVarName": "TestResult_math/cos_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870, -0.37870)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            -0.378698,
+            -0.378698,
+            -0.378698,
+            -0.378698
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/cos_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870, -0.37870)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/and",
+    "math/cos",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/lt",
+    "math/normalize",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

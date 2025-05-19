@@ -1,0 +1,81 @@
+{
+  "glbFileName": "and.glb",
+  "name": "math/and",
+  "tests": [
+    {
+      "name": "math/and",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] True [b] False = False",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] True [b] True = True",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] False [b] False = False",
+          "nodeId": 29
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] True [b] False = False",
+          "resultVarName": "TestResult_math/and_[a] True [b] False = False",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/and_[a] True [b] False = False"
+        },
+        {
+          "name": "[a] True [b] True = True",
+          "resultVarName": "TestResult_math/and_[a] True [b] True = True",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/and_[a] True [b] True = True"
+        },
+        {
+          "name": "[a] False [b] False = False",
+          "resultVarName": "TestResult_math/and_[a] False [b] False = False",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/and_[a] False [b] False = False"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -38,7 +38,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_flow/sequence_Sequence Order (0,9,10) > (0,10,9)"
         },
         {
           "name": "Sequence Order (ccc,aaa,b) > (aaa,b,ccc)",
@@ -47,7 +49,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_flow/sequence_Sequence Order (ccc,aaa,b) > (aaa,b,ccc)"
         },
         {
           "name": "Sequence Order (b,B,a,A) > (A,B,a,b)",
@@ -56,7 +60,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_flow/sequence_Sequence Order (b,B,a,A) > (A,B,a,b)"
         }
       ]
     }

@@ -13,7 +13,6 @@ Schemas used in this test case:
 	flow/branch
 	flow/sequence
 	flow/switch
-	math/eq
 	pointer/set
 	variable/get
 	variable/set

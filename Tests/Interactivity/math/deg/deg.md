@@ -12,9 +12,11 @@ Schemas used in this test case:
 	flow/branch
 	flow/sequence
 	math/abs
+	math/and
 	math/deg
 	math/dot
 	math/gt
+	math/length
 	math/lt
 	math/normalize
 	math/sub

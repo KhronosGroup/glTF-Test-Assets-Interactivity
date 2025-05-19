@@ -1,0 +1,85 @@
+{
+  "glbFileName": "length.glb",
+  "name": "math/length",
+  "tests": [
+    {
+      "name": "math/length",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/length",
+        "math/lt",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] (13.00000, 2.00000) = 13.15295",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (13.00000, 2.00000, 15.00000) = 19.94994",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (13.00000, 2.00000, 23.00000, 123.00000) = 125.82130",
+          "nodeId": 33
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] (13.00000, 2.00000) = 13.15295",
+          "resultVarName": "TestResult_math/length_[a] (13.00000, 2.00000) = 13.15295",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            13.1529465
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13.00000, 2.00000) = 13.15295"
+        },
+        {
+          "name": "[a] (13.00000, 2.00000, 15.00000) = 19.94994",
+          "resultVarName": "TestResult_math/length_[a] (13.00000, 2.00000, 15.00000) = 19.94994",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            19.9499378
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13.00000, 2.00000, 15.00000) = 19.94994"
+        },
+        {
+          "name": "[a] (13.00000, 2.00000, 23.00000, 123.00000) = 125.82130",
+          "resultVarName": "TestResult_math/length_[a] (13.00000, 2.00000, 23.00000, 123.00000) = 125.82130",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            125.821304
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13.00000, 2.00000, 23.00000, 123.00000) = 125.82130"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/length",
+    "math/lt",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

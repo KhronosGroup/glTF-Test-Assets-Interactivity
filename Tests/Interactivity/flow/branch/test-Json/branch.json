@@ -10,7 +10,6 @@
         "event/onStart",
         "flow/branch",
         "flow/sequence",
-        "math/eq",
         "pointer/set",
         "variable/get",
         "variable/set"
@@ -22,7 +21,7 @@
         },
         {
           "name": "Branch Condition False",
-          "nodeId": 18
+          "nodeId": 19
         }
       ],
       "subTests": [
@@ -33,7 +32,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_flow/branch_True-Condition true-flow"
         },
         {
           "name": "True-Condition false-flow",
@@ -42,7 +43,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             false
-          ]
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_flow/branch_True-Condition false-flow"
         },
         {
           "name": "False-Condition true-flow",
@@ -51,7 +54,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             false
-          ]
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_flow/branch_False-Condition true-flow"
         },
         {
           "name": "False-Condition false-flow",
@@ -60,7 +65,9 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_flow/branch_False-Condition false-flow"
         }
       ]
     }
@@ -70,7 +77,6 @@
     "event/onStart",
     "flow/branch",
     "flow/sequence",
-    "math/eq",
     "pointer/set",
     "variable/get",
     "variable/set"

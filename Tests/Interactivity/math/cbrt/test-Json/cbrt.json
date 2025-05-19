@@ -1,0 +1,116 @@
+{
+  "glbFileName": "cbrt.glb",
+  "name": "math/cbrt",
+  "tests": [
+    {
+      "name": "math/cbrt",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/and",
+        "math/cbrt",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 9769.23400 = 21.37733",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (9769.23400, 9769.23400) = (21.37733, 21.37733)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733)",
+          "nodeId": 36
+        },
+        {
+          "name": "[a] (9769.23400, 9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733, 21.37733)",
+          "nodeId": 56
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 9769.23400 = 21.37733",
+          "resultVarName": "TestResult_math/cbrt_[a] 9769.23400 = 21.37733",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            21.3773346
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/cbrt_[a] 9769.23400 = 21.37733"
+        },
+        {
+          "name": "[a] (9769.23400, 9769.23400) = (21.37733, 21.37733)",
+          "resultVarName": "TestResult_math/cbrt_[a] (9769.23400, 9769.23400) = (21.37733, 21.37733)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            21.3773346,
+            21.3773346
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/cbrt_[a] (9769.23400, 9769.23400) = (21.37733, 21.37733)"
+        },
+        {
+          "name": "[a] (9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733)",
+          "resultVarName": "TestResult_math/cbrt_[a] (9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            21.3773346,
+            21.3773346,
+            21.3773346
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/cbrt_[a] (9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733)"
+        },
+        {
+          "name": "[a] (9769.23400, 9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733, 21.37733)",
+          "resultVarName": "TestResult_math/cbrt_[a] (9769.23400, 9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733, 21.37733)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            21.3773346,
+            21.3773346,
+            21.3773346,
+            21.3773346
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/cbrt_[a] (9769.23400, 9769.23400, 9769.23400, 9769.23400) = (21.37733, 21.37733, 21.37733, 21.37733)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/and",
+    "math/cbrt",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/lt",
+    "math/normalize",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

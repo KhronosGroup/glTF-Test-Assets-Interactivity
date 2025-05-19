@@ -1,0 +1,116 @@
+{
+  "glbFileName": "div.glb",
+  "name": "math/div",
+  "tests": [
+    {
+      "name": "math/div",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/and",
+        "math/div",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 8989.32400 [b] 2134.23400 = 4.21197",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (8989.32400, 8989.32400) [b] (2134.23400, 2134.23400) = (4.21197, 4.21197)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197)",
+          "nodeId": 36
+        },
+        {
+          "name": "[a] (8989.32400, 8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197, 4.21197)",
+          "nodeId": 56
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 8989.32400 [b] 2134.23400 = 4.21197",
+          "resultVarName": "TestResult_math/div_[a] 8989.32400 [b] 2134.23400 = 4.21197",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            4.211968
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] 8989.32400 [b] 2134.23400 = 4.21197"
+        },
+        {
+          "name": "[a] (8989.32400, 8989.32400) [b] (2134.23400, 2134.23400) = (4.21197, 4.21197)",
+          "resultVarName": "TestResult_math/div_[a] (8989.32400, 8989.32400) [b] (2134.23400, 2134.23400) = (4.21197, 4.21197)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            4.211968,
+            4.211968
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] (8989.32400, 8989.32400) [b] (2134.23400, 2134.23400) = (4.21197, 4.21197)"
+        },
+        {
+          "name": "[a] (8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197)",
+          "resultVarName": "TestResult_math/div_[a] (8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            4.211968,
+            4.211968,
+            4.211968
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] (8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197)"
+        },
+        {
+          "name": "[a] (8989.32400, 8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197, 4.21197)",
+          "resultVarName": "TestResult_math/div_[a] (8989.32400, 8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197, 4.21197)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            4.211968,
+            4.211968,
+            4.211968,
+            4.211968
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] (8989.32400, 8989.32400, 8989.32400, 8989.32400) [b] (2134.23400, 2134.23400, 2134.23400, 2134.23400) = (4.21197, 4.21197, 4.21197, 4.21197)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/and",
+    "math/div",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/lt",
+    "math/normalize",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "glbFileName": "or.glb",
+  "name": "math/or",
+  "tests": [
+    {
+      "name": "math/or",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/or",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] True [b] False = True",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] False [b] False = False",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] True [b] True = True",
+          "nodeId": 29
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] True [b] False = True",
+          "resultVarName": "TestResult_math/or_[a] True [b] False = True",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/or_[a] True [b] False = True"
+        },
+        {
+          "name": "[a] False [b] False = False",
+          "resultVarName": "TestResult_math/or_[a] False [b] False = False",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/or_[a] False [b] False = False"
+        },
+        {
+          "name": "[a] True [b] True = True",
+          "resultVarName": "TestResult_math/or_[a] True [b] True = True",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/or_[a] True [b] True = True"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/or",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

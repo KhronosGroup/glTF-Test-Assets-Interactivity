@@ -1,0 +1,102 @@
+{
+  "glbFileName": "sub.glb",
+  "name": "math/sub",
+  "tests": [
+    {
+      "name": "math/sub",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 7.00000 [b] 9.00000 = -2.00000",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (7.00000, 7.00000) [b] (9.00000, 9.00000) = (-2.00000, -2.00000)",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000)",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000, -2.00000)",
+          "nodeId": 44
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 7.00000 [b] 9.00000 = -2.00000",
+          "resultVarName": "TestResult_math/sub_[a] 7.00000 [b] 9.00000 = -2.00000",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -2.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/sub_[a] 7.00000 [b] 9.00000 = -2.00000"
+        },
+        {
+          "name": "[a] (7.00000, 7.00000) [b] (9.00000, 9.00000) = (-2.00000, -2.00000)",
+          "resultVarName": "TestResult_math/sub_[a] (7.00000, 7.00000) [b] (9.00000, 9.00000) = (-2.00000, -2.00000)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            -2.0,
+            -2.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/sub_[a] (7.00000, 7.00000) [b] (9.00000, 9.00000) = (-2.00000, -2.00000)"
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000)",
+          "resultVarName": "TestResult_math/sub_[a] (7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -2.0,
+            -2.0,
+            -2.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/sub_[a] (7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000)"
+        },
+        {
+          "name": "[a] (7.00000, 7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000, -2.00000)",
+          "resultVarName": "TestResult_math/sub_[a] (7.00000, 7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000, -2.00000)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            -2.0,
+            -2.0,
+            -2.0,
+            -2.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/sub_[a] (7.00000, 7.00000, 7.00000, 7.00000) [b] (9.00000, 9.00000, 9.00000, 9.00000) = (-2.00000, -2.00000, -2.00000, -2.00000)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

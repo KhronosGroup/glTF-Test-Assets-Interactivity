@@ -1,0 +1,116 @@
+{
+  "glbFileName": "log2.glb",
+  "name": "math/log2",
+  "tests": [
+    {
+      "name": "math/log2",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/log2",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 6443.24300 = 12.65357",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (6443.24300, 6443.24300) = (12.65357, 12.65357)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357)",
+          "nodeId": 36
+        },
+        {
+          "name": "[a] (6443.24300, 6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357, 12.65357)",
+          "nodeId": 56
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 6443.24300 = 12.65357",
+          "resultVarName": "TestResult_math/log2_[a] 6443.24300 = 12.65357",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            12.6535711
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/log2_[a] 6443.24300 = 12.65357"
+        },
+        {
+          "name": "[a] (6443.24300, 6443.24300) = (12.65357, 12.65357)",
+          "resultVarName": "TestResult_math/log2_[a] (6443.24300, 6443.24300) = (12.65357, 12.65357)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            12.6535711,
+            12.6535711
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/log2_[a] (6443.24300, 6443.24300) = (12.65357, 12.65357)"
+        },
+        {
+          "name": "[a] (6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357)",
+          "resultVarName": "TestResult_math/log2_[a] (6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            12.6535711,
+            12.6535711,
+            12.6535711
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/log2_[a] (6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357)"
+        },
+        {
+          "name": "[a] (6443.24300, 6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357, 12.65357)",
+          "resultVarName": "TestResult_math/log2_[a] (6443.24300, 6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357, 12.65357)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            12.6535711,
+            12.6535711,
+            12.6535711,
+            12.6535711
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/log2_[a] (6443.24300, 6443.24300, 6443.24300, 6443.24300) = (12.65357, 12.65357, 12.65357, 12.65357)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/log2",
+    "math/lt",
+    "math/normalize",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

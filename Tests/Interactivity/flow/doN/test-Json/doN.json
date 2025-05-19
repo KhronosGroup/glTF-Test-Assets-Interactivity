@@ -24,11 +24,11 @@
         },
         {
           "name": "Do N - Reset",
-          "nodeId": 39
+          "nodeId": 41
         },
         {
           "name": "Do N - Max Iteration",
-          "nodeId": 56
+          "nodeId": 60
         }
       ],
       "subTests": [
@@ -39,43 +39,53 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_flow/doN_[out] flow"
         },
         {
           "name": "[out] iteration (5)",
           "resultVarName": "TestResult_flow/doN_[out] iteration (5)",
-          "resultVarId": 2,
-          "resultVarType": "int",
-          "expectedResultValue": [
-            5
-          ]
-        },
-        {
-          "name": "[currentCount]",
-          "resultVarName": "TestResult_flow/doN_[currentCount]",
           "resultVarId": 3,
           "resultVarType": "int",
           "expectedResultValue": [
             5
-          ]
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_flow/doN_[out] iteration (5)"
+        },
+        {
+          "name": "[currentCount]",
+          "resultVarName": "TestResult_flow/doN_[currentCount]",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            5
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_flow/doN_[currentCount]"
         },
         {
           "name": "[reset] flow (N = 2, out/out/out/reset/out/out)",
           "resultVarName": "TestResult_flow/doN_[reset] flow (N = 2, out/out/out/reset/out/out)",
-          "resultVarId": 5,
+          "resultVarId": 8,
           "resultVarType": "int",
           "expectedResultValue": [
             4
-          ]
+          ],
+          "successResultVarId": 7,
+          "successResultVarName": "TestResult_HasPassed_flow/doN_[reset] flow (N = 2, out/out/out/reset/out/out)"
         },
         {
           "name": "Max Iteration flow",
           "resultVarName": "TestResult_flow/doN_Max Iteration flow",
-          "resultVarId": 7,
+          "resultVarId": 11,
           "resultVarType": "int",
           "expectedResultValue": [
             2
-          ]
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_flow/doN_Max Iteration flow"
         }
       ]
     }

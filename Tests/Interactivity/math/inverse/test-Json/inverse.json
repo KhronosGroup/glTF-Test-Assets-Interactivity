@@ -1,0 +1,72 @@
+{
+  "glbFileName": "inverse.glb",
+  "name": "math/inverse",
+  "tests": [
+    {
+      "name": "math/inverse",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/add",
+        "math/extract4x4",
+        "math/gt",
+        "math/inverse",
+        "math/mul",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = 0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = 0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n",
+          "resultVarName": "TestResult_math/inverse_[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = 0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n",
+          "resultVarId": 1,
+          "resultVarType": "float4x4",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/inverse_[a] 0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t1.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n0.00000\t0.00000\t0.00000\t1.00000\n = 0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n0.00000\t0.00000\t0.00000\t0.00000\n"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/add",
+    "math/extract4x4",
+    "math/gt",
+    "math/inverse",
+    "math/mul",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -13,8 +13,10 @@ Schemas used in this test case:
 	flow/branch
 	flow/sequence
 	math/abs
+	math/and
 	math/dot
 	math/gt
+	math/length
 	math/log10
 	math/lt
 	math/normalize

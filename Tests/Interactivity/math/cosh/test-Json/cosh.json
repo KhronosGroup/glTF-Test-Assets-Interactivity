@@ -1,0 +1,116 @@
+{
+  "glbFileName": "cosh.glb",
+  "name": "math/cosh",
+  "tests": [
+    {
+      "name": "math/cosh",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/and",
+        "math/cosh",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/lt",
+        "math/normalize",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4.32400 = 37.75161",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (37.75161, 37.75161)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161)",
+          "nodeId": 36
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161, 37.75161)",
+          "nodeId": 56
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4.32400 = 37.75161",
+          "resultVarName": "TestResult_math/cosh_[a] 4.32400 = 37.75161",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            37.75161
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] 4.32400 = 37.75161"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400) = (37.75161, 37.75161)",
+          "resultVarName": "TestResult_math/cosh_[a] (4.32400, 4.32400) = (37.75161, 37.75161)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            37.75161,
+            37.75161
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] (4.32400, 4.32400) = (37.75161, 37.75161)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161)",
+          "resultVarName": "TestResult_math/cosh_[a] (4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            37.75161,
+            37.75161,
+            37.75161
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] (4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161)"
+        },
+        {
+          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161, 37.75161)",
+          "resultVarName": "TestResult_math/cosh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161, 37.75161)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            37.75161,
+            37.75161,
+            37.75161,
+            37.75161
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161, 37.75161)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/and",
+    "math/cosh",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/lt",
+    "math/normalize",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

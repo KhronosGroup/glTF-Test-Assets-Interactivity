@@ -1,9 +1,9 @@
 {
   "glbFileName": "Tests required operations.glb",
-  "name": "Tests required operations",
+  "name": "prerequisites/Tests required operations",
   "tests": [
     {
-      "name": "Tests required operations",
+      "name": "prerequisites/Tests required operations",
       "description": "Testing required operations for proper test execution. This tests should be passed before testing all other tests.",
       "usedSchemas": [
         "debug/log",
@@ -25,64 +25,76 @@
         },
         {
           "name": "Delayed Check (delayed execution)",
-          "nodeId": 59,
+          "nodeId": 62,
           "delayedExecutionTime": 1.0
         }
       ],
       "subTests": [
         {
           "name": "Flow Checks",
-          "resultVarName": "TestResult_Tests required operations_Flow Checks",
+          "resultVarName": "TestResult_prerequisites/Tests required operations_Flow Checks",
           "resultVarId": 0,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Flow Checks"
         },
         {
           "name": "Value Checks",
-          "resultVarName": "TestResult_Tests required operations_Value Checks",
-          "resultVarId": 1,
+          "resultVarName": "TestResult_prerequisites/Tests required operations_Value Checks",
+          "resultVarId": 2,
           "resultVarType": "int",
           "expectedResultValue": [
             1
-          ]
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Value Checks"
         },
         {
           "name": "Value Proximity Checks",
-          "resultVarName": "TestResult_Tests required operations_Value Proximity Checks",
-          "resultVarId": 2,
+          "resultVarName": "TestResult_prerequisites/Tests required operations_Value Proximity Checks",
+          "resultVarId": 4,
           "resultVarType": "float",
           "expectedResultValue": [
             33.2114563
-          ]
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Value Proximity Checks"
         },
         {
           "name": "Counter Checks",
-          "resultVarName": "TestResult_Tests required operations_Counter Checks",
-          "resultVarId": 4,
+          "resultVarName": "TestResult_prerequisites/Tests required operations_Counter Checks",
+          "resultVarId": 7,
           "resultVarType": "int",
           "expectedResultValue": [
             2
-          ]
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Counter Checks"
         },
         {
           "name": "Multi Flow Checks",
-          "resultVarName": "TestResult_Tests required operations_Multi Flow Checks",
-          "resultVarId": 7,
+          "resultVarName": "TestResult_prerequisites/Tests required operations_Multi Flow Checks",
+          "resultVarId": 10,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Multi Flow Checks"
         },
         {
           "name": "Delayed Checks",
-          "resultVarName": "TestResult_Tests required operations_Delayed Checks",
-          "resultVarId": 8,
+          "resultVarName": "TestResult_prerequisites/Tests required operations_Delayed Checks",
+          "resultVarId": 11,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 11,
+          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Delayed Checks"
         }
       ]
     }

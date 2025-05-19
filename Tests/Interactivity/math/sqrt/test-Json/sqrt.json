@@ -1,0 +1,116 @@
+{
+  "glbFileName": "sqrt.glb",
+  "name": "math/sqrt",
+  "tests": [
+    {
+      "name": "math/sqrt",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/lt",
+        "math/normalize",
+        "math/sqrt",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 4556.23400 = 67.49988",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (4556.23400, 4556.23400) = (67.49988, 67.49988)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988)",
+          "nodeId": 36
+        },
+        {
+          "name": "[a] (4556.23400, 4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988, 67.49988)",
+          "nodeId": 56
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 4556.23400 = 67.49988",
+          "resultVarName": "TestResult_math/sqrt_[a] 4556.23400 = 67.49988",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            67.49988
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/sqrt_[a] 4556.23400 = 67.49988"
+        },
+        {
+          "name": "[a] (4556.23400, 4556.23400) = (67.49988, 67.49988)",
+          "resultVarName": "TestResult_math/sqrt_[a] (4556.23400, 4556.23400) = (67.49988, 67.49988)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            67.49988,
+            67.49988
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/sqrt_[a] (4556.23400, 4556.23400) = (67.49988, 67.49988)"
+        },
+        {
+          "name": "[a] (4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988)",
+          "resultVarName": "TestResult_math/sqrt_[a] (4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            67.49988,
+            67.49988,
+            67.49988
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/sqrt_[a] (4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988)"
+        },
+        {
+          "name": "[a] (4556.23400, 4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988, 67.49988)",
+          "resultVarName": "TestResult_math/sqrt_[a] (4556.23400, 4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988, 67.49988)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            67.49988,
+            67.49988,
+            67.49988,
+            67.49988
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/sqrt_[a] (4556.23400, 4556.23400, 4556.23400, 4556.23400) = (67.49988, 67.49988, 67.49988, 67.49988)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/lt",
+    "math/normalize",
+    "math/sqrt",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -16,7 +16,9 @@
         "math/abs",
         "math/add",
         "math/eq",
+        "math/isnan",
         "math/lt",
+        "math/select",
         "math/sub",
         "pointer/set",
         "variable/get",
@@ -30,17 +32,17 @@
         },
         {
           "name": "setDelay [cancel] (delayed execution)",
-          "nodeId": 43,
+          "nodeId": 44,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "Cancel Delay (delayed execution)",
-          "nodeId": 55,
+          "nodeId": 57,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "Error (delayed execution)",
-          "nodeId": 76,
+          "nodeId": 77,
           "delayedExecutionTime": 2.0
         }
       ],
@@ -48,11 +50,13 @@
         {
           "name": "Flow [out]",
           "resultVarName": "TestResult_flow/setDelay and cancelDelay_Flow [out]",
-          "resultVarId": 4,
+          "resultVarId": 5,
           "resultVarType": "int",
           "expectedResultValue": [
             1
-          ]
+          ],
+          "successResultVarId": -1,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_Flow [out]"
         },
         {
           "name": "Flow [done]",
@@ -61,52 +65,64 @@
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_Flow [done]"
         },
         {
           "name": "Flow [done] \nin correct delay",
           "resultVarName": "TestResult_flow/setDelay and cancelDelay_Flow [done] \nin correct delay",
-          "resultVarId": 2,
+          "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
-          ]
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_Flow [done] \nin correct delay"
         },
         {
           "name": "Flow [err]",
           "resultVarName": "TestResult_flow/setDelay and cancelDelay_Flow [err]",
-          "resultVarId": 8,
+          "resultVarId": 9,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 9,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_Flow [err]"
         },
         {
           "name": "setDelay [cancel]",
           "resultVarName": "TestResult_flow/setDelay and cancelDelay_setDelay [cancel]",
-          "resultVarId": 5,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            false
-          ]
-        },
-        {
-          "name": "cancelDelay triggered",
-          "resultVarName": "TestResult_flow/setDelay and cancelDelay_cancelDelay triggered",
           "resultVarId": 6,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
-          ]
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_setDelay [cancel]"
+        },
+        {
+          "name": "cancelDelay triggered",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_cancelDelay triggered",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 7,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_cancelDelay triggered"
         },
         {
           "name": "cancelDelay \nFlow [out]",
           "resultVarName": "TestResult_flow/setDelay and cancelDelay_cancelDelay \nFlow [out]",
-          "resultVarId": 7,
+          "resultVarId": 8,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
-          ]
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_cancelDelay \nFlow [out]"
         }
       ]
     }
@@ -122,7 +138,9 @@
     "math/abs",
     "math/add",
     "math/eq",
+    "math/isnan",
     "math/lt",
+    "math/select",
     "math/sub",
     "pointer/set",
     "variable/get",

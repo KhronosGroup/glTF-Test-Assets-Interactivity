@@ -1,0 +1,114 @@
+{
+  "glbFileName": "random.glb",
+  "name": "math/random",
+  "tests": [
+    {
+      "name": "math/random",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/for",
+        "flow/sequence",
+        "math/abs",
+        "math/add",
+        "math/combine2",
+        "math/div",
+        "math/eq",
+        "math/length",
+        "math/lt",
+        "math/mul",
+        "math/random",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Random (new number in new flow)",
+          "nodeId": 3
+        },
+        {
+          "name": "Random (same number in current flow)",
+          "nodeId": 18
+        },
+        {
+          "name": "Monte Carlo 1k(random number distribution)",
+          "nodeId": 37
+        },
+        {
+          "name": "Monte Carlo 1k(random number distribution)",
+          "nodeId": 68
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Random (new number in new flow)",
+          "resultVarName": "TestResult_math/random_Random (new number in new flow)",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_math/random_Random (new number in new flow)"
+        },
+        {
+          "name": "Random (same number in current flow)",
+          "resultVarName": "TestResult_math/random_Random (same number in current flow)",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/random_Random (same number in current flow)"
+        },
+        {
+          "name": "Monte Carlo 1k(random number distribution)",
+          "resultVarName": "TestResult_math/random_Monte Carlo 1k(random number distribution)",
+          "resultVarId": 6,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.1415926535897931
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_math/random_Monte Carlo 1k(random number distribution)"
+        },
+        {
+          "name": "Monte Carlo 10k(random number distribution)",
+          "resultVarName": "TestResult_math/random_Monte Carlo 10k(random number distribution)",
+          "resultVarId": 9,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.1415926535897931
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/random_Monte Carlo 10k(random number distribution)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/for",
+    "flow/sequence",
+    "math/abs",
+    "math/add",
+    "math/combine2",
+    "math/div",
+    "math/eq",
+    "math/length",
+    "math/lt",
+    "math/mul",
+    "math/random",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
