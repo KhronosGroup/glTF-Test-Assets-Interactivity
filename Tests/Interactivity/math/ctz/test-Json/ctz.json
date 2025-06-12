@@ -1,0 +1,51 @@
+{
+  "glbFileName": "ctz.glb",
+  "name": "math/ctz",
+  "tests": [
+    {
+      "name": "math/ctz",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/ctz",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 20 = 2",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 20 = 2",
+          "resultVarName": "TestResult_math/ctz_[a] 20 = 2",
+          "resultVarId": 1,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/ctz_[a] 20 = 2"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/ctz",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

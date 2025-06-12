@@ -1,0 +1,51 @@
+{
+  "glbFileName": "asr.glb",
+  "name": "math/asr",
+  "tests": [
+    {
+      "name": "math/asr",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/asr",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 14 [b] 2 = 3",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 14 [b] 2 = 3",
+          "resultVarName": "TestResult_math/asr_[a] 14 [b] 2 = 3",
+          "resultVarId": 1,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            3
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/asr_[a] 14 [b] 2 = 3"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/asr",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

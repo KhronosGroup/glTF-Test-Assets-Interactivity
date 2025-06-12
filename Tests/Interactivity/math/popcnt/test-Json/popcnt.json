@@ -1,0 +1,51 @@
+{
+  "glbFileName": "popcnt.glb",
+  "name": "math/popcnt",
+  "tests": [
+    {
+      "name": "math/popcnt",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/popcnt",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 23 = 4",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 23 = 4",
+          "resultVarName": "TestResult_math/popcnt_[a] 23 = 4",
+          "resultVarId": 1,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            4
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/popcnt_[a] 23 = 4"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/popcnt",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

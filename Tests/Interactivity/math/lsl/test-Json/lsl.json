@@ -1,0 +1,51 @@
+{
+  "glbFileName": "lsl.glb",
+  "name": "math/lsl",
+  "tests": [
+    {
+      "name": "math/lsl",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/lsl",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 20 [b] 2 = 80",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 20 [b] 2 = 80",
+          "resultVarName": "TestResult_math/lsl_[a] 20 [b] 2 = 80",
+          "resultVarId": 1,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            80
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/lsl_[a] 20 [b] 2 = 80"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/lsl",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

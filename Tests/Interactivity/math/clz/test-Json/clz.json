@@ -1,0 +1,51 @@
+{
+  "glbFileName": "clz.glb",
+  "name": "math/clz",
+  "tests": [
+    {
+      "name": "math/clz",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/clz",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 20 = 27",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 20 = 27",
+          "resultVarName": "TestResult_math/clz_[a] 20 = 27",
+          "resultVarId": 1,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            27
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/clz_[a] 20 = 27"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/clz",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
