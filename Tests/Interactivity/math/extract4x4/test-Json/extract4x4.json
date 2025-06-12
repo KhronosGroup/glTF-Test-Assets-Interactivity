@@ -1,0 +1,216 @@
+{
+  "glbFileName": "extract4x4.glb",
+  "name": "math/extract4x4",
+  "tests": [
+    {
+      "name": "math/extract4x4",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/extract4x4",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "math/extract4x4",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "0",
+          "resultVarName": "TestResult_math/extract4x4_0",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_0"
+        },
+        {
+          "name": "1",
+          "resultVarName": "TestResult_math/extract4x4_1",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            4.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_1"
+        },
+        {
+          "name": "2",
+          "resultVarName": "TestResult_math/extract4x4_2",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            8.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_2"
+        },
+        {
+          "name": "3",
+          "resultVarName": "TestResult_math/extract4x4_3",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            12.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_3"
+        },
+        {
+          "name": "4",
+          "resultVarName": "TestResult_math/extract4x4_4",
+          "resultVarId": 9,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_4"
+        },
+        {
+          "name": "5",
+          "resultVarName": "TestResult_math/extract4x4_5",
+          "resultVarId": 11,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            5.0
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_5"
+        },
+        {
+          "name": "6",
+          "resultVarName": "TestResult_math/extract4x4_6",
+          "resultVarId": 13,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            9.0
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_6"
+        },
+        {
+          "name": "7",
+          "resultVarName": "TestResult_math/extract4x4_7",
+          "resultVarId": 15,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            13.0
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_7"
+        },
+        {
+          "name": "8",
+          "resultVarName": "TestResult_math/extract4x4_8",
+          "resultVarId": 17,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_8"
+        },
+        {
+          "name": "9",
+          "resultVarName": "TestResult_math/extract4x4_9",
+          "resultVarId": 19,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            6.0
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_9"
+        },
+        {
+          "name": "10",
+          "resultVarName": "TestResult_math/extract4x4_10",
+          "resultVarId": 21,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            10.0
+          ],
+          "successResultVarId": 20,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_10"
+        },
+        {
+          "name": "11",
+          "resultVarName": "TestResult_math/extract4x4_11",
+          "resultVarId": 23,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            14.0
+          ],
+          "successResultVarId": 22,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_11"
+        },
+        {
+          "name": "12",
+          "resultVarName": "TestResult_math/extract4x4_12",
+          "resultVarId": 25,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.0
+          ],
+          "successResultVarId": 24,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_12"
+        },
+        {
+          "name": "13",
+          "resultVarName": "TestResult_math/extract4x4_13",
+          "resultVarId": 27,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            7.0
+          ],
+          "successResultVarId": 26,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_13"
+        },
+        {
+          "name": "14",
+          "resultVarName": "TestResult_math/extract4x4_14",
+          "resultVarId": 29,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            11.0
+          ],
+          "successResultVarId": 28,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_14"
+        },
+        {
+          "name": "15",
+          "resultVarName": "TestResult_math/extract4x4_15",
+          "resultVarId": 31,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            15.0
+          ],
+          "successResultVarId": 30,
+          "successResultVarName": "TestResult_HasPassed_math/extract4x4_15"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/extract4x4",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

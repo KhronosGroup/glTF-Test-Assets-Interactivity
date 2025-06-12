@@ -1,0 +1,78 @@
+{
+  "glbFileName": "quatToAxisAngle.glb",
+  "name": "math/quatToAxisAngle",
+  "tests": [
+    {
+      "name": "math/quatToAxisAngle",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/lt",
+        "math/normalize",
+        "math/quatToAxisAngle",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "quatToAxisAngle",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Axis",
+          "resultVarName": "TestResult_math/quatToAxisAngle_Axis",
+          "resultVarId": 1,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.688803852,
+            0.3525048,
+            0.63347435
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/quatToAxisAngle_Axis"
+        },
+        {
+          "name": "Angle",
+          "resultVarName": "TestResult_math/quatToAxisAngle_Angle",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.21048832
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/quatToAxisAngle_Angle"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/lt",
+    "math/normalize",
+    "math/quatToAxisAngle",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

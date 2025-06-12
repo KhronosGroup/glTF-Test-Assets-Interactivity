@@ -1,0 +1,54 @@
+{
+  "glbFileName": "combine4.glb",
+  "name": "math/combine4",
+  "tests": [
+    {
+      "name": "math/combine4",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/combine4",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 [c] 3.00000 [d] 4.00000 = (1.00000, 2.00000, 3.00000, 4.00000)",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 [c] 3.00000 [d] 4.00000 = (1.00000, 2.00000, 3.00000, 4.00000)",
+          "resultVarName": "TestResult_math/combine4_[a] 1.00000 [b] 2.00000 [c] 3.00000 [d] 4.00000 = (1.00000, 2.00000, 3.00000, 4.00000)",
+          "resultVarId": 1,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/combine4_[a] 1.00000 [b] 2.00000 [c] 3.00000 [d] 4.00000 = (1.00000, 2.00000, 3.00000, 4.00000)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/combine4",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

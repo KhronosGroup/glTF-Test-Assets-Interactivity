@@ -1,9 +1,9 @@
 {
-  "glbFileName": "rotate2d.glb",
-  "name": "math/rotate2d",
+  "glbFileName": "rotate2D.glb",
+  "name": "math/rotate2D",
   "tests": [
     {
-      "name": "math/rotate2d",
+      "name": "math/rotate2D",
       "description": "",
       "usedSchemas": [
         "debug/log",
@@ -15,7 +15,7 @@
         "math/gt",
         "math/length",
         "math/normalize",
-        "math/rotate2d",
+        "math/rotate2D",
         "pointer/set",
         "variable/get",
         "variable/set"
@@ -37,7 +37,7 @@
       "subTests": [
         {
           "name": "[a] (1.00000, 2.00000) [b] 0.50000 = (-0.08127, 2.23459)",
-          "resultVarName": "TestResult_math/rotate2d_[a] (1.00000, 2.00000) [b] 0.50000 = (-0.08127, 2.23459)",
+          "resultVarName": "TestResult_math/rotate2D_[a] (1.00000, 2.00000) [b] 0.50000 = (-0.08127, 2.23459)",
           "resultVarId": 1,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -45,11 +45,11 @@
             2.23459077
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/rotate2d_[a] (1.00000, 2.00000) [b] 0.50000 = (-0.08127, 2.23459)"
+          "successResultVarName": "TestResult_HasPassed_math/rotate2D_[a] (1.00000, 2.00000) [b] 0.50000 = (-0.08127, 2.23459)"
         },
         {
           "name": "[a] (0.00000, 1.00000) [b] 0.50000 = (-0.47943, 0.87758)",
-          "resultVarName": "TestResult_math/rotate2d_[a] (0.00000, 1.00000) [b] 0.50000 = (-0.47943, 0.87758)",
+          "resultVarName": "TestResult_math/rotate2D_[a] (0.00000, 1.00000) [b] 0.50000 = (-0.47943, 0.87758)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -57,11 +57,11 @@
             0.87758255
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/rotate2d_[a] (0.00000, 1.00000) [b] 0.50000 = (-0.47943, 0.87758)"
+          "successResultVarName": "TestResult_HasPassed_math/rotate2D_[a] (0.00000, 1.00000) [b] 0.50000 = (-0.47943, 0.87758)"
         },
         {
           "name": "[a] (1.00000, 2.00000) [b] -0.30000 = (1.54638, 1.61515)",
-          "resultVarName": "TestResult_math/rotate2d_[a] (1.00000, 2.00000) [b] -0.30000 = (1.54638, 1.61515)",
+          "resultVarName": "TestResult_math/rotate2D_[a] (1.00000, 2.00000) [b] -0.30000 = (1.54638, 1.61515)",
           "resultVarId": 5,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -69,7 +69,7 @@
             1.61515272
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/rotate2d_[a] (1.00000, 2.00000) [b] -0.30000 = (1.54638, 1.61515)"
+          "successResultVarName": "TestResult_HasPassed_math/rotate2D_[a] (1.00000, 2.00000) [b] -0.30000 = (1.54638, 1.61515)"
         }
       ]
     }
@@ -84,7 +84,7 @@
     "math/gt",
     "math/length",
     "math/normalize",
-    "math/rotate2d",
+    "math/rotate2D",
     "pointer/set",
     "variable/get",
     "variable/set"

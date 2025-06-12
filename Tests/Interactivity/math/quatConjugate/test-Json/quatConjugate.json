@@ -1,0 +1,62 @@
+{
+  "glbFileName": "quatConjugate.glb",
+  "name": "math/quatConjugate",
+  "tests": [
+    {
+      "name": "math/quatConjugate",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/normalize",
+        "math/quatConjugate",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] (0.00000, 1.00000, 0.00000, 0.00000) = (0.00000, -1.00000, 0.00000, 0.00000)",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] (0.00000, 1.00000, 0.00000, 0.00000) = (0.00000, -1.00000, 0.00000, 0.00000)",
+          "resultVarName": "TestResult_math/quatConjugate_[a] (0.00000, 1.00000, 0.00000, 0.00000) = (0.00000, -1.00000, 0.00000, 0.00000)",
+          "resultVarId": 1,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0,
+            -1.0,
+            0.0,
+            -4.371139E-08
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/quatConjugate_[a] (0.00000, 1.00000, 0.00000, 0.00000) = (0.00000, -1.00000, 0.00000, 0.00000)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/normalize",
+    "math/quatConjugate",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

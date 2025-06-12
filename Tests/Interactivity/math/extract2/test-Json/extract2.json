@@ -1,0 +1,62 @@
+{
+  "glbFileName": "extract2.glb",
+  "name": "math/extract2",
+  "tests": [
+    {
+      "name": "math/extract2",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/extract2",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "math/extract2",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "0",
+          "resultVarName": "TestResult_math/extract2_0",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/extract2_0"
+        },
+        {
+          "name": "1",
+          "resultVarName": "TestResult_math/extract2_1",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            4.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/extract2_1"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/extract2",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

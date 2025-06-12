@@ -207,6 +207,25 @@
     }
   },
   {
+    "label": "pointer/set and get",
+    "name": "pointer/set_and_get",
+    "tags": [
+      "event/onStart",
+      "pointer/set",
+      "pointer/get",
+      "debug/log",
+      "math/eq",
+      "flow/branch",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "set_and_get.glb",
+      "test-Json": "set_and_get.json"
+    }
+  },
+  {
     "label": "prerequisites/Tests required operations",
     "name": "prerequisites/Tests_required_operations",
     "tags": [

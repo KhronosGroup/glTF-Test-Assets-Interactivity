@@ -161,6 +161,25 @@
     }
   },
   {
+    "label": "math/asr",
+    "name": "math/asr",
+    "tags": [
+      "math/asr",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "asr.glb",
+      "test-Json": "asr.json"
+    }
+  },
+  {
     "label": "math/atan",
     "name": "math/atan",
     "tags": [
@@ -303,6 +322,101 @@
     }
   },
   {
+    "label": "math/clz",
+    "name": "math/clz",
+    "tags": [
+      "math/clz",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "clz.glb",
+      "test-Json": "clz.json"
+    }
+  },
+  {
+    "label": "math/combine2",
+    "name": "math/combine2",
+    "tags": [
+      "math/combine2",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "combine2.glb",
+      "test-Json": "combine2.json"
+    }
+  },
+  {
+    "label": "math/combine3",
+    "name": "math/combine3",
+    "tags": [
+      "math/combine3",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "combine3.glb",
+      "test-Json": "combine3.json"
+    }
+  },
+  {
+    "label": "math/combine4",
+    "name": "math/combine4",
+    "tags": [
+      "math/combine4",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "combine4.glb",
+      "test-Json": "combine4.json"
+    }
+  },
+  {
+    "label": "math/combine4x4",
+    "name": "math/combine4x4",
+    "tags": [
+      "math/combine4x4",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "combine4x4.glb",
+      "test-Json": "combine4x4.json"
+    }
+  },
+  {
     "label": "math/cos",
     "name": "math/cos",
     "tags": [
@@ -352,6 +466,25 @@
     "variants": {
       "glTF-Binary": "cosh.glb",
       "test-Json": "cosh.json"
+    }
+  },
+  {
+    "label": "math/ctz",
+    "name": "math/ctz",
+    "tags": [
+      "math/ctz",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "ctz.glb",
+      "test-Json": "ctz.json"
     }
   },
   {
@@ -511,6 +644,82 @@
     "variants": {
       "glTF-Binary": "exp.glb",
       "test-Json": "exp.json"
+    }
+  },
+  {
+    "label": "math/extract2",
+    "name": "math/extract2",
+    "tags": [
+      "math/extract2",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "extract2.glb",
+      "test-Json": "extract2.json"
+    }
+  },
+  {
+    "label": "math/extract3",
+    "name": "math/extract3",
+    "tags": [
+      "math/extract3",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "extract3.glb",
+      "test-Json": "extract3.json"
+    }
+  },
+  {
+    "label": "math/extract4",
+    "name": "math/extract4",
+    "tags": [
+      "math/extract4",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "extract4.glb",
+      "test-Json": "extract4.json"
+    }
+  },
+  {
+    "label": "math/extract4x4",
+    "name": "math/extract4x4",
+    "tags": [
+      "math/extract4x4",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "extract4x4.glb",
+      "test-Json": "extract4x4.json"
     }
   },
   {
@@ -794,6 +1003,25 @@
     }
   },
   {
+    "label": "math/lsl",
+    "name": "math/lsl",
+    "tags": [
+      "math/lsl",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "lsl.glb",
+      "test-Json": "lsl.json"
+    }
+  },
+  {
     "label": "math/lt",
     "name": "math/lt",
     "tags": [
@@ -1063,6 +1291,25 @@
     }
   },
   {
+    "label": "math/popcnt",
+    "name": "math/popcnt",
+    "tags": [
+      "math/popcnt",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "popcnt.glb",
+      "test-Json": "popcnt.json"
+    }
+  },
+  {
     "label": "math/pow",
     "name": "math/pow",
     "tags": [
@@ -1086,6 +1333,145 @@
     "variants": {
       "glTF-Binary": "pow.glb",
       "test-Json": "pow.json"
+    }
+  },
+  {
+    "label": "math/quatAngleBetween",
+    "name": "math/quatAngleBetween",
+    "tags": [
+      "math/quatAngleBetween",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "quatAngleBetween.glb",
+      "test-Json": "quatAngleBetween.json"
+    }
+  },
+  {
+    "label": "math/quatConjugate",
+    "name": "math/quatConjugate",
+    "tags": [
+      "math/quatConjugate",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "quatConjugate.glb",
+      "test-Json": "quatConjugate.json"
+    }
+  },
+  {
+    "label": "math/quatFromAxisAngle",
+    "name": "math/quatFromAxisAngle",
+    "tags": [
+      "math/quatFromAxisAngle",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "quatFromAxisAngle.glb",
+      "test-Json": "quatFromAxisAngle.json"
+    }
+  },
+  {
+    "label": "math/quatFromDirections",
+    "name": "math/quatFromDirections",
+    "tags": [
+      "math/quatFromDirections",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "quatFromDirections.glb",
+      "test-Json": "quatFromDirections.json"
+    }
+  },
+  {
+    "label": "math/quatMul",
+    "name": "math/quatMul",
+    "tags": [
+      "math/quatMul",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "quatMul.glb",
+      "test-Json": "quatMul.json"
+    }
+  },
+  {
+    "label": "math/quatToAxisAngle",
+    "name": "math/quatToAxisAngle",
+    "tags": [
+      "math/quatToAxisAngle",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/sub",
+      "math/abs",
+      "math/lt"
+    ],
+    "variants": {
+      "glTF-Binary": "quatToAxisAngle.glb",
+      "test-Json": "quatToAxisAngle.json"
     }
   },
   {
@@ -1169,10 +1555,10 @@
     }
   },
   {
-    "label": "math/rotate2d",
-    "name": "math/rotate2d",
+    "label": "math/rotate2D",
+    "name": "math/rotate2D",
     "tags": [
-      "math/rotate2d",
+      "math/rotate2D",
       "event/onStart",
       "math/dot",
       "math/normalize",
@@ -1187,15 +1573,15 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "rotate2d.glb",
-      "test-Json": "rotate2d.json"
+      "glTF-Binary": "rotate2D.glb",
+      "test-Json": "rotate2D.json"
     }
   },
   {
-    "label": "math/rotate3d",
-    "name": "math/rotate3d",
+    "label": "math/rotate3D",
+    "name": "math/rotate3D",
     "tags": [
-      "math/rotate3d",
+      "math/rotate3D",
       "event/onStart",
       "math/dot",
       "math/normalize",
@@ -1210,8 +1596,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "rotate3d.glb",
-      "test-Json": "rotate3d.json"
+      "glTF-Binary": "rotate3D.glb",
+      "test-Json": "rotate3D.json"
     }
   },
   {

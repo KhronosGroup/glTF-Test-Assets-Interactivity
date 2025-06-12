@@ -1,0 +1,53 @@
+{
+  "glbFileName": "combine3.glb",
+  "name": "math/combine3",
+  "tests": [
+    {
+      "name": "math/combine3",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/combine3",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 [c] 3.00000 = (1.00000, 2.00000, 3.00000)",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 1.00000 [b] 2.00000 [c] 3.00000 = (1.00000, 2.00000, 3.00000)",
+          "resultVarName": "TestResult_math/combine3_[a] 1.00000 [b] 2.00000 [c] 3.00000 = (1.00000, 2.00000, 3.00000)",
+          "resultVarId": 1,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/combine3_[a] 1.00000 [b] 2.00000 [c] 3.00000 = (1.00000, 2.00000, 3.00000)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/combine3",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

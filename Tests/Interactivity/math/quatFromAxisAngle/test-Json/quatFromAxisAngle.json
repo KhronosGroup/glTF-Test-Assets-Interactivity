@@ -1,0 +1,62 @@
+{
+  "glbFileName": "quatFromAxisAngle.glb",
+  "name": "math/quatFromAxisAngle",
+  "tests": [
+    {
+      "name": "math/quatFromAxisAngle",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/normalize",
+        "math/quatFromAxisAngle",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "quatFromAxisAngle",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "quatFromAxisAngle",
+          "resultVarName": "TestResult_math/quatFromAxisAngle_quatFromAxisAngle",
+          "resultVarId": 1,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0,
+            0.707106769,
+            0.0,
+            0.707106769
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromAxisAngle_quatFromAxisAngle"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/normalize",
+    "math/quatFromAxisAngle",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

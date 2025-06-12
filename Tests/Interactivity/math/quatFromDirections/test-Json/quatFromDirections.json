@@ -1,0 +1,62 @@
+{
+  "glbFileName": "quatFromDirections.glb",
+  "name": "math/quatFromDirections",
+  "tests": [
+    {
+      "name": "math/quatFromDirections",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/normalize",
+        "math/quatFromDirections",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] (1.00000, 0.00000, 0.00000) [b] (0.00000, 1.00000, 0.00000) = (0.00000, 0.00000, 0.70711, 0.70711)",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] (1.00000, 0.00000, 0.00000) [b] (0.00000, 1.00000, 0.00000) = (0.00000, 0.00000, 0.70711, 0.70711)",
+          "resultVarName": "TestResult_math/quatFromDirections_[a] (1.00000, 0.00000, 0.00000) [b] (0.00000, 1.00000, 0.00000) = (0.00000, 0.00000, 0.70711, 0.70711)",
+          "resultVarId": 1,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.7071068,
+            0.7071068
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromDirections_[a] (1.00000, 0.00000, 0.00000) [b] (0.00000, 1.00000, 0.00000) = (0.00000, 0.00000, 0.70711, 0.70711)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/normalize",
+    "math/quatFromDirections",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

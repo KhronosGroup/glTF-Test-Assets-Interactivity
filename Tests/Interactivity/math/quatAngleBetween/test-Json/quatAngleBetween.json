@@ -1,0 +1,55 @@
+{
+  "glbFileName": "quatAngleBetween.glb",
+  "name": "math/quatAngleBetween",
+  "tests": [
+    {
+      "name": "math/quatAngleBetween",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/lt",
+        "math/quatAngleBetween",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] (0.00000, 1.00000, 0.00000, 0.00000) [b] (0.00000, 0.70711, 0.00000, 0.70711) = 1.57080",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] (0.00000, 1.00000, 0.00000, 0.00000) [b] (0.00000, 0.70711, 0.00000, 0.70711) = 1.57080",
+          "resultVarName": "TestResult_math/quatAngleBetween_[a] (0.00000, 1.00000, 0.00000, 0.00000) [b] (0.00000, 0.70711, 0.00000, 0.70711) = 1.57080",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.57079649
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/quatAngleBetween_[a] (0.00000, 1.00000, 0.00000, 0.00000) [b] (0.00000, 0.70711, 0.00000, 0.70711) = 1.57080"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/lt",
+    "math/quatAngleBetween",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
