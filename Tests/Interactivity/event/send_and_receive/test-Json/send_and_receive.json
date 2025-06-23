@@ -1,0 +1,138 @@
+{
+  "glbFileName": "send_and_receive.glb",
+  "name": "event/send and receive",
+  "tests": [
+    {
+      "name": "event/send and receive",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "event/receive",
+        "event/send",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Without Parameters (delayed execution)",
+          "nodeId": 1,
+          "delayedExecutionTime": 1.0
+        },
+        {
+          "name": "With Parameters (flow received) (delayed execution)",
+          "nodeId": 50,
+          "delayedExecutionTime": 1.0
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Without Parameters",
+          "resultVarName": "TestResult_event/send and receive_Without Parameters",
+          "resultVarId": 0,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_event/send and receive_Without Parameters"
+        },
+        {
+          "name": "With Parameters (flow received)",
+          "resultVarName": "TestResult_event/send and receive_With Parameters (flow received)",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 7,
+          "successResultVarName": "TestResult_HasPassed_event/send and receive_With Parameters (flow received)"
+        },
+        {
+          "name": "Default Event Value (Int)",
+          "resultVarName": "TestResult_event/send and receive_Default Event Value (Int)",
+          "resultVarId": 2,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_event/send and receive_Default Event Value (Int)"
+        },
+        {
+          "name": "Default Event Value (Bool)",
+          "resultVarName": "TestResult_event/send and receive_Default Event Value (Bool)",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_event/send and receive_Default Event Value (Bool)"
+        },
+        {
+          "name": "Default Event Value (Float)",
+          "resultVarName": "TestResult_event/send and receive_Default Event Value (Float)",
+          "resultVarId": 6,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_event/send and receive_Default Event Value (Float)"
+        },
+        {
+          "name": "Rcv Parameter Int",
+          "resultVarName": "TestResult_event/send and receive_Rcv Parameter Int",
+          "resultVarId": 9,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_event/send and receive_Rcv Parameter Int"
+        },
+        {
+          "name": "Rcv Parameter Bool",
+          "resultVarName": "TestResult_event/send and receive_Rcv Parameter Bool",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_event/send and receive_Rcv Parameter Bool"
+        },
+        {
+          "name": "Rcv Parameter Float",
+          "resultVarName": "TestResult_event/send and receive_Rcv Parameter Float",
+          "resultVarId": 13,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_event/send and receive_Rcv Parameter Float"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "event/receive",
+    "event/send",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
