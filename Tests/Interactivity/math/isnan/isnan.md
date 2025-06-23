@@ -1,17 +1,19 @@
-Test Sample: math/isnan
-Description: 
+### **Test Sample:** math/isnan
+### **Description:** 
 
-Tests:
-	**[a] NaN = True** - Result saved in Variable **TestResult_math/isnan_[a] NaN = True** with Id **1**
-	**[a] 1.00000 = False** - Result saved in Variable **TestResult_math/isnan_[a] 1.00000 = False** with Id **3**
+### Tests:
+| Sub Test | Result Var.Name | Result Var.Id | Expected Value
+| ----------- | ----------- | ----------- |----------- |
+| [a] NaN = True | TestResult_math/isnan_[a] NaN = True | 1 | True
+| [a] 1.00000 = False | TestResult_math/isnan_[a] 1.00000 = False | 3 | False
 
 Schemas used in this test case:
-	debug/log
-	event/onStart
-	flow/branch
-	flow/sequence
-	math/eq
-	math/isnan
-	pointer/set
-	variable/get
-	variable/set
+- debug/log
+- event/onStart
+- flow/branch
+- flow/sequence
+- math/eq
+- math/isnan
+- pointer/set
+- variable/get
+- variable/set

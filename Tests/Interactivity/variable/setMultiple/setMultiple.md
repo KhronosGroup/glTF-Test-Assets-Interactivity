@@ -1,18 +1,20 @@
-Test Sample: variable/setMultiple
-Description: 
+### **Test Sample:** variable/setMultiple
+### **Description:** 
 
-Tests:
-	**[var1]** - Result saved in Variable **TestResult_variable/setMultiple_[var1]** with Id **4**
-	**[var2]** - Result saved in Variable **TestResult_variable/setMultiple_[var2]** with Id **6**
-	**[var3]** - Result saved in Variable **TestResult_variable/setMultiple_[var3]** with Id **8**
+### Tests:
+| Sub Test | Result Var.Name | Result Var.Id | Expected Value
+| ----------- | ----------- | ----------- |----------- |
+| [var1] | TestResult_variable/setMultiple_[var1] | 4 | 11
+| [var2] | TestResult_variable/setMultiple_[var2] | 6 | 22
+| [var3] | TestResult_variable/setMultiple_[var3] | 8 | 33
 
 Schemas used in this test case:
-	debug/log
-	event/onStart
-	flow/branch
-	flow/sequence
-	math/eq
-	pointer/set
-	variable/get
-	variable/set
-	variable/setMultiple
+- debug/log
+- event/onStart
+- flow/branch
+- flow/sequence
+- math/eq
+- pointer/set
+- variable/get
+- variable/set
+- variable/setMultiple

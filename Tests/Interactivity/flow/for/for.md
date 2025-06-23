@@ -1,21 +1,23 @@
-Test Sample: flow/for
-Description: 
+### **Test Sample:** flow/for
+### **Description:** 
 
-Tests:
-	**[body] flow** - Result saved in Variable **TestResult_flow/for_[body] flow** with Id **2**
-	**Loop range (0..10)** - Result saved in Variable **TestResult_flow/for_Loop range (0..10)** with Id **5**
-	**[completed] flow** - Result saved in Variable **TestResult_flow/for_[completed] flow** with Id **6**
-	**Initial index** - Result saved in Variable **TestResult_flow/for_Initial index** with Id **1**
-	**[index] when completed** - Result saved in Variable **TestResult_flow/for_[index] when completed** with Id **8**
+### Tests:
+| Sub Test | Result Var.Name | Result Var.Id | Expected Value
+| ----------- | ----------- | ----------- |----------- |
+| [body] flow | TestResult_flow/for_[body] flow | 2 | True
+| Loop range (0..10) | TestResult_flow/for_Loop range (0..10) | 5 | 10
+| [completed] flow | TestResult_flow/for_[completed] flow | 6 | True
+| Initial index | TestResult_flow/for_Initial index | 1 | 1
+| [index] when completed | TestResult_flow/for_[index] when completed | 8 | 10
 
 Schemas used in this test case:
-	debug/log
-	event/onStart
-	flow/branch
-	flow/for
-	flow/sequence
-	math/add
-	math/eq
-	pointer/set
-	variable/get
-	variable/set
+- debug/log
+- event/onStart
+- flow/branch
+- flow/for
+- flow/sequence
+- math/add
+- math/eq
+- pointer/set
+- variable/get
+- variable/set

@@ -1,95 +1,97 @@
-Test Sample: pointer/set and get
-Description: 
+### **Test Sample:** pointer/set and get
+### **Description:** 
 
-Tests:
-	**/extensions/KHR_lights_punctual/lights/{lightIndex}/color** - Result saved in Variable **TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/color** with Id **1**
-	**/extensions/KHR_lights_punctual/lights/{lightIndex}/intensity** - Result saved in Variable **TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/intensity** with Id **3**
-	**/extensions/KHR_lights_punctual/lights/{lightIndex}/range** - Result saved in Variable **TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/range** with Id **5**
-	**/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/innerConeAngle** - Result saved in Variable **TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/innerConeAngle** with Id **7**
-	**/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/outerConeAngle** - Result saved in Variable **TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/outerConeAngle** with Id **9**
-	**/alphaCutoff** - Result saved in Variable **TestResult_pointer/set and get_/alphaCutoff** with Id **11**
-	**/emissiveFactor** - Result saved in Variable **TestResult_pointer/set and get_/emissiveFactor** with Id **13**
-	**/normalTexture/scale** - Result saved in Variable **TestResult_pointer/set and get_/normalTexture/scale** with Id **15**
-	**/occlusionTexture/strength** - Result saved in Variable **TestResult_pointer/set and get_/occlusionTexture/strength** with Id **17**
-	**/normalTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_/normalTexture texture offset** with Id **19**
-	**/normalTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_/normalTexture texture rotation** with Id **21**
-	**/normalTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_/normalTexture texture scale** with Id **23**
-	**/occlusionTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_/occlusionTexture texture offset** with Id **25**
-	**/occlusionTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_/occlusionTexture texture rotation** with Id **27**
-	**/occlusionTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_/occlusionTexture texture scale** with Id **29**
-	**/emissiveTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_/emissiveTexture texture offset** with Id **31**
-	**/emissiveTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_/emissiveTexture texture rotation** with Id **33**
-	**/emissiveTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_/emissiveTexture texture scale** with Id **35**
-	**pbrMetallicRoughness/baseColorFactor** - Result saved in Variable **TestResult_pointer/set and get_pbrMetallicRoughness/baseColorFactor** with Id **37**
-	**pbrMetallicRoughness/metallicFactor** - Result saved in Variable **TestResult_pointer/set and get_pbrMetallicRoughness/metallicFactor** with Id **39**
-	**pbrMetallicRoughness/roughnessFactor** - Result saved in Variable **TestResult_pointer/set and get_pbrMetallicRoughness/roughnessFactor** with Id **41**
-	**pbrMetallicRoughness/baseColorTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture offset** with Id **43**
-	**pbrMetallicRoughness/baseColorTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture rotation** with Id **45**
-	**pbrMetallicRoughness/baseColorTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture scale** with Id **47**
-	**pbrMetallicRoughness/metallicRoughnessTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture offset** with Id **49**
-	**pbrMetallicRoughness/metallicRoughnessTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture rotation** with Id **51**
-	**pbrMetallicRoughness/metallicRoughnessTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture scale** with Id **53**
-	**KHR_materials_anisotropy/anisotropyStrength** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyStrength** with Id **55**
-	**KHR_materials_anisotropy/anisotropyRotation** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyRotation** with Id **57**
-	**KHR_materials_anisotropy/anisotropyTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture offset** with Id **59**
-	**KHR_materials_anisotropy/anisotropyTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture rotation** with Id **61**
-	**KHR_materials_anisotropy/anisotropyTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture scale** with Id **63**
-	**KHR_materials_clearcoat/clearcoatTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture offset** with Id **65**
-	**KHR_materials_clearcoat/clearcoatTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture rotation** with Id **67**
-	**KHR_materials_clearcoat/clearcoatTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture scale** with Id **69**
-	**KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset** with Id **71**
-	**KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation** with Id **73**
-	**KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale** with Id **75**
-	**KHR_materials_clearcoat/clearcoatNormalTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatNormalTexture texture offset** with Id **77**
-	**KHR_materials_clearcoat/clearcoatNormalTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatNormalTexture texture rotation** with Id **79**
-	**KHR_materials_clearcoat/clearcoatNormalTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatNormalTexture texture scale** with Id **81**
-	**KHR_materials_dispersion/dispersion** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_dispersion/dispersion** with Id **83**
-	**KHR_materials_emissive_strength/emissiveStrength** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_emissive_strength/emissiveStrength** with Id **85**
-	**KHR_materials_ior/ior** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_ior/ior** with Id **87**
-	**KHR_materials_iridescence/iridescenceFactor** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceFactor** with Id **89**
-	**KHR_materials_iridescence/iridescenceIor** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceIor** with Id **91**
-	**KHR_materials_iridescence/iridescenceThicknessMinimum** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessMinimum** with Id **93**
-	**KHR_materials_iridescence/iridescenceThicknessMaximum** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessMaximum** with Id **95**
-	**KHR_materials_iridescence/iridescenceTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture offset** with Id **97**
-	**KHR_materials_iridescence/iridescenceTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture rotation** with Id **99**
-	**KHR_materials_iridescence/iridescenceTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture scale** with Id **101**
-	**KHR_materials_iridescence/iridescenceThicknessTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture offset** with Id **103**
-	**KHR_materials_iridescence/iridescenceThicknessTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture rotation** with Id **105**
-	**KHR_materials_iridescence/iridescenceThicknessTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture scale** with Id **107**
-	**KHR_materials_sheen/sheenColorFactor** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_sheen/sheenColorFactor** with Id **109**
-	**KHR_materials_sheen/sheenRoughnessFactor** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessFactor** with Id **111**
-	**KHR_materials_sheen/sheenColorTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture offset** with Id **113**
-	**KHR_materials_sheen/sheenColorTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture rotation** with Id **115**
-	**KHR_materials_sheen/sheenColorTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture scale** with Id **117**
-	**KHR_materials_sheen/sheenRoughnessTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture offset** with Id **119**
-	**KHR_materials_sheen/sheenRoughnessTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture rotation** with Id **121**
-	**KHR_materials_sheen/sheenRoughnessTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture scale** with Id **123**
-	**KHR_materials_specular/specularFactor** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_specular/specularFactor** with Id **125**
-	**KHR_materials_specular/specularColorFactor** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_specular/specularColorFactor** with Id **127**
-	**KHR_materials_specular/specularTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture offset** with Id **129**
-	**KHR_materials_specular/specularTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture rotation** with Id **131**
-	**KHR_materials_specular/specularTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture scale** with Id **133**
-	**KHR_materials_specular/specularColorTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture offset** with Id **135**
-	**KHR_materials_specular/specularColorTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture rotation** with Id **137**
-	**KHR_materials_specular/specularColorTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture scale** with Id **139**
-	**KHR_materials_transmission/transmissionFactor** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_transmission/transmissionFactor** with Id **141**
-	**KHR_materials_transmission/transmissionTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture offset** with Id **143**
-	**KHR_materials_transmission/transmissionTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture rotation** with Id **145**
-	**KHR_materials_transmission/transmissionTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture scale** with Id **147**
-	**KHR_materials_volume/thicknessFactor** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_volume/thicknessFactor** with Id **149**
-	**KHR_materials_volume/attenuationDistance** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_volume/attenuationDistance** with Id **151**
-	**KHR_materials_volume/attenuationColor** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_volume/attenuationColor** with Id **153**
-	**KHR_materials_volume/thicknessTexture texture offset** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_volume/thicknessTexture texture offset** with Id **155**
-	**KHR_materials_volume/thicknessTexture texture rotation** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_volume/thicknessTexture texture rotation** with Id **157**
-	**KHR_materials_volume/thicknessTexture texture scale** - Result saved in Variable **TestResult_pointer/set and get_KHR_materials_volume/thicknessTexture texture scale** with Id **159**
+### Tests:
+| Sub Test | Result Var.Name | Result Var.Id | Expected Value
+| ----------- | ----------- | ----------- |----------- |
+| /extensions/KHR_lights_punctual/lights/{lightIndex}/color | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/color | 1 | (1.00000, 0.00000, 0.00000)
+| /extensions/KHR_lights_punctual/lights/{lightIndex}/intensity | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/intensity | 3 | 4.00000
+| /extensions/KHR_lights_punctual/lights/{lightIndex}/range | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/range | 5 | 9.00000
+| /extensions/KHR_lights_punctual/lights/{lightIndex}/spot/innerConeAngle | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/innerConeAngle | 7 | 2.00000
+| /extensions/KHR_lights_punctual/lights/{lightIndex}/spot/outerConeAngle | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/outerConeAngle | 9 | 5.00000
+| /alphaCutoff | TestResult_pointer/set and get_/alphaCutoff | 11 | 0.50000
+| /emissiveFactor | TestResult_pointer/set and get_/emissiveFactor | 13 | (1.00000, 0.00000, 0.00000)
+| /normalTexture/scale | TestResult_pointer/set and get_/normalTexture/scale | 15 | 0.50000
+| /occlusionTexture/strength | TestResult_pointer/set and get_/occlusionTexture/strength | 17 | 0.50000
+| /normalTexture texture offset | TestResult_pointer/set and get_/normalTexture texture offset | 19 | (2.00000, 3.00000)
+| /normalTexture texture rotation | TestResult_pointer/set and get_/normalTexture texture rotation | 21 | 45.00000
+| /normalTexture texture scale | TestResult_pointer/set and get_/normalTexture texture scale | 23 | (2.00000, 3.00000)
+| /occlusionTexture texture offset | TestResult_pointer/set and get_/occlusionTexture texture offset | 25 | (2.00000, 3.00000)
+| /occlusionTexture texture rotation | TestResult_pointer/set and get_/occlusionTexture texture rotation | 27 | 45.00000
+| /occlusionTexture texture scale | TestResult_pointer/set and get_/occlusionTexture texture scale | 29 | (2.00000, 3.00000)
+| /emissiveTexture texture offset | TestResult_pointer/set and get_/emissiveTexture texture offset | 31 | (2.00000, 3.00000)
+| /emissiveTexture texture rotation | TestResult_pointer/set and get_/emissiveTexture texture rotation | 33 | 45.00000
+| /emissiveTexture texture scale | TestResult_pointer/set and get_/emissiveTexture texture scale | 35 | (2.00000, 3.00000)
+| pbrMetallicRoughness/baseColorFactor | TestResult_pointer/set and get_pbrMetallicRoughness/baseColorFactor | 37 | RGBA(0.000, 0.000, 1.000, 1.000)
+| pbrMetallicRoughness/metallicFactor | TestResult_pointer/set and get_pbrMetallicRoughness/metallicFactor | 39 | 0.50000
+| pbrMetallicRoughness/roughnessFactor | TestResult_pointer/set and get_pbrMetallicRoughness/roughnessFactor | 41 | 0.50000
+| pbrMetallicRoughness/baseColorTexture texture offset | TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture offset | 43 | (2.00000, 3.00000)
+| pbrMetallicRoughness/baseColorTexture texture rotation | TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture rotation | 45 | 45.00000
+| pbrMetallicRoughness/baseColorTexture texture scale | TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture scale | 47 | (2.00000, 3.00000)
+| pbrMetallicRoughness/metallicRoughnessTexture texture offset | TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture offset | 49 | (2.00000, 3.00000)
+| pbrMetallicRoughness/metallicRoughnessTexture texture rotation | TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture rotation | 51 | 45.00000
+| pbrMetallicRoughness/metallicRoughnessTexture texture scale | TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture scale | 53 | (2.00000, 3.00000)
+| KHR_materials_anisotropy/anisotropyStrength | TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyStrength | 55 | 2.00000
+| KHR_materials_anisotropy/anisotropyRotation | TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyRotation | 57 | 30.00000
+| KHR_materials_anisotropy/anisotropyTexture texture offset | TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture offset | 59 | (2.00000, 3.00000)
+| KHR_materials_anisotropy/anisotropyTexture texture rotation | TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture rotation | 61 | 45.00000
+| KHR_materials_anisotropy/anisotropyTexture texture scale | TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture scale | 63 | (2.00000, 3.00000)
+| KHR_materials_clearcoat/clearcoatTexture texture offset | TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture offset | 65 | (2.00000, 3.00000)
+| KHR_materials_clearcoat/clearcoatTexture texture rotation | TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture rotation | 67 | 45.00000
+| KHR_materials_clearcoat/clearcoatTexture texture scale | TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture scale | 69 | (2.00000, 3.00000)
+| KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset | TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset | 71 | (2.00000, 3.00000)
+| KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation | TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation | 73 | 45.00000
+| KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale | TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale | 75 | (2.00000, 3.00000)
+| KHR_materials_clearcoat/clearcoatNormalTexture texture offset | TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatNormalTexture texture offset | 77 | (2.00000, 3.00000)
+| KHR_materials_clearcoat/clearcoatNormalTexture texture rotation | TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatNormalTexture texture rotation | 79 | 45.00000
+| KHR_materials_clearcoat/clearcoatNormalTexture texture scale | TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatNormalTexture texture scale | 81 | (2.00000, 3.00000)
+| KHR_materials_dispersion/dispersion | TestResult_pointer/set and get_KHR_materials_dispersion/dispersion | 83 | 2.00000
+| KHR_materials_emissive_strength/emissiveStrength | TestResult_pointer/set and get_KHR_materials_emissive_strength/emissiveStrength | 85 | 2.00000
+| KHR_materials_ior/ior | TestResult_pointer/set and get_KHR_materials_ior/ior | 87 | 3.00000
+| KHR_materials_iridescence/iridescenceFactor | TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceFactor | 89 | 1.20000
+| KHR_materials_iridescence/iridescenceIor | TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceIor | 91 | 2.30000
+| KHR_materials_iridescence/iridescenceThicknessMinimum | TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessMinimum | 93 | 0.50000
+| KHR_materials_iridescence/iridescenceThicknessMaximum | TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessMaximum | 95 | 1.20000
+| KHR_materials_iridescence/iridescenceTexture texture offset | TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture offset | 97 | (2.00000, 3.00000)
+| KHR_materials_iridescence/iridescenceTexture texture rotation | TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture rotation | 99 | 45.00000
+| KHR_materials_iridescence/iridescenceTexture texture scale | TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture scale | 101 | (2.00000, 3.00000)
+| KHR_materials_iridescence/iridescenceThicknessTexture texture offset | TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture offset | 103 | (2.00000, 3.00000)
+| KHR_materials_iridescence/iridescenceThicknessTexture texture rotation | TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture rotation | 105 | 45.00000
+| KHR_materials_iridescence/iridescenceThicknessTexture texture scale | TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture scale | 107 | (2.00000, 3.00000)
+| KHR_materials_sheen/sheenColorFactor | TestResult_pointer/set and get_KHR_materials_sheen/sheenColorFactor | 109 | (0.00000, 0.00000, 1.00000)
+| KHR_materials_sheen/sheenRoughnessFactor | TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessFactor | 111 | 2.30000
+| KHR_materials_sheen/sheenColorTexture texture offset | TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture offset | 113 | (2.00000, 3.00000)
+| KHR_materials_sheen/sheenColorTexture texture rotation | TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture rotation | 115 | 45.00000
+| KHR_materials_sheen/sheenColorTexture texture scale | TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture scale | 117 | (2.00000, 3.00000)
+| KHR_materials_sheen/sheenRoughnessTexture texture offset | TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture offset | 119 | (2.00000, 3.00000)
+| KHR_materials_sheen/sheenRoughnessTexture texture rotation | TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture rotation | 121 | 45.00000
+| KHR_materials_sheen/sheenRoughnessTexture texture scale | TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture scale | 123 | (2.00000, 3.00000)
+| KHR_materials_specular/specularFactor | TestResult_pointer/set and get_KHR_materials_specular/specularFactor | 125 | 1.20000
+| KHR_materials_specular/specularColorFactor | TestResult_pointer/set and get_KHR_materials_specular/specularColorFactor | 127 | (1.00000, 0.00000, 0.00000)
+| KHR_materials_specular/specularTexture texture offset | TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture offset | 129 | (2.00000, 3.00000)
+| KHR_materials_specular/specularTexture texture rotation | TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture rotation | 131 | 45.00000
+| KHR_materials_specular/specularTexture texture scale | TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture scale | 133 | (2.00000, 3.00000)
+| KHR_materials_specular/specularColorTexture texture offset | TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture offset | 135 | (2.00000, 3.00000)
+| KHR_materials_specular/specularColorTexture texture rotation | TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture rotation | 137 | 45.00000
+| KHR_materials_specular/specularColorTexture texture scale | TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture scale | 139 | (2.00000, 3.00000)
+| KHR_materials_transmission/transmissionFactor | TestResult_pointer/set and get_KHR_materials_transmission/transmissionFactor | 141 | 1.20000
+| KHR_materials_transmission/transmissionTexture texture offset | TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture offset | 143 | (2.00000, 3.00000)
+| KHR_materials_transmission/transmissionTexture texture rotation | TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture rotation | 145 | 45.00000
+| KHR_materials_transmission/transmissionTexture texture scale | TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture scale | 147 | (2.00000, 3.00000)
+| KHR_materials_volume/thicknessFactor | TestResult_pointer/set and get_KHR_materials_volume/thicknessFactor | 149 | 1.20000
+| KHR_materials_volume/attenuationDistance | TestResult_pointer/set and get_KHR_materials_volume/attenuationDistance | 151 | 2.20000
+| KHR_materials_volume/attenuationColor | TestResult_pointer/set and get_KHR_materials_volume/attenuationColor | 153 | (1.00000, 0.00000, 0.00000)
+| KHR_materials_volume/thicknessTexture texture offset | TestResult_pointer/set and get_KHR_materials_volume/thicknessTexture texture offset | 155 | (2.00000, 3.00000)
+| KHR_materials_volume/thicknessTexture texture rotation | TestResult_pointer/set and get_KHR_materials_volume/thicknessTexture texture rotation | 157 | 45.00000
+| KHR_materials_volume/thicknessTexture texture scale | TestResult_pointer/set and get_KHR_materials_volume/thicknessTexture texture scale | 159 | (2.00000, 3.00000)
 
 Schemas used in this test case:
-	debug/log
-	event/onStart
-	flow/branch
-	flow/sequence
-	math/eq
-	pointer/get
-	pointer/set
-	variable/get
-	variable/set
+- debug/log
+- event/onStart
+- flow/branch
+- flow/sequence
+- math/eq
+- pointer/get
+- pointer/set
+- variable/get
+- variable/set

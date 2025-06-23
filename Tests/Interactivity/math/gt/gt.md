@@ -1,17 +1,19 @@
-Test Sample: math/gt
-Description: 
+### **Test Sample:** math/gt
+### **Description:** 
 
-Tests:
-	**[a] 1.00000 [b] 2.00000 = False** - Result saved in Variable **TestResult_math/gt_[a] 1.00000 [b] 2.00000 = False** with Id **1**
-	**[a] 1 [b] 2 = False** - Result saved in Variable **TestResult_math/gt_[a] 1 [b] 2 = False** with Id **3**
+### Tests:
+| Sub Test | Result Var.Name | Result Var.Id | Expected Value
+| ----------- | ----------- | ----------- |----------- |
+| [a] 1.00000 [b] 2.00000 = False | TestResult_math/gt_[a] 1.00000 [b] 2.00000 = False | 1 | False
+| [a] 1 [b] 2 = False | TestResult_math/gt_[a] 1 [b] 2 = False | 3 | False
 
 Schemas used in this test case:
-	debug/log
-	event/onStart
-	flow/branch
-	flow/sequence
-	math/eq
-	math/gt
-	pointer/set
-	variable/get
-	variable/set
+- debug/log
+- event/onStart
+- flow/branch
+- flow/sequence
+- math/eq
+- math/gt
+- pointer/set
+- variable/get
+- variable/set

@@ -1,17 +1,19 @@
-Test Sample: math/select
-Description: 
+### **Test Sample:** math/select
+### **Description:** 
 
-Tests:
-	**When True** - Result saved in Variable **TestResult_math/select_When True** with Id **1**
-	**When False** - Result saved in Variable **TestResult_math/select_When False** with Id **3**
+### Tests:
+| Sub Test | Result Var.Name | Result Var.Id | Expected Value
+| ----------- | ----------- | ----------- |----------- |
+| When True | TestResult_math/select_When True | 1 | 3.00000
+| When False | TestResult_math/select_When False | 3 | 1.00000
 
 Schemas used in this test case:
-	debug/log
-	event/onStart
-	flow/branch
-	flow/sequence
-	math/eq
-	math/select
-	pointer/set
-	variable/get
-	variable/set
+- debug/log
+- event/onStart
+- flow/branch
+- flow/sequence
+- math/eq
+- math/select
+- pointer/set
+- variable/get
+- variable/set

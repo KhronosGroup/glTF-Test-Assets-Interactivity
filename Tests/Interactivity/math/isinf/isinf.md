@@ -1,17 +1,19 @@
-Test Sample: math/isinf
-Description: 
+### **Test Sample:** math/isinf
+### **Description:** 
 
-Tests:
-	**[a] Infinity = True** - Result saved in Variable **TestResult_math/isinf_[a] Infinity = True** with Id **1**
-	**[a] -Infinity = True** - Result saved in Variable **TestResult_math/isinf_[a] -Infinity = True** with Id **3**
+### Tests:
+| Sub Test | Result Var.Name | Result Var.Id | Expected Value
+| ----------- | ----------- | ----------- |----------- |
+| [a] Infinity = True | TestResult_math/isinf_[a] Infinity = True | 1 | True
+| [a] -Infinity = True | TestResult_math/isinf_[a] -Infinity = True | 3 | True
 
 Schemas used in this test case:
-	debug/log
-	event/onStart
-	flow/branch
-	flow/sequence
-	math/eq
-	math/isinf
-	pointer/set
-	variable/get
-	variable/set
+- debug/log
+- event/onStart
+- flow/branch
+- flow/sequence
+- math/eq
+- math/isinf
+- pointer/set
+- variable/get
+- variable/set

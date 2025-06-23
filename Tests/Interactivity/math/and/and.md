@@ -1,18 +1,20 @@
-Test Sample: math/and
-Description: 
+### **Test Sample:** math/and
+### **Description:** 
 
-Tests:
-	**[a] True [b] False = False** - Result saved in Variable **TestResult_math/and_[a] True [b] False = False** with Id **1**
-	**[a] True [b] True = True** - Result saved in Variable **TestResult_math/and_[a] True [b] True = True** with Id **3**
-	**[a] False [b] False = False** - Result saved in Variable **TestResult_math/and_[a] False [b] False = False** with Id **5**
+### Tests:
+| Sub Test | Result Var.Name | Result Var.Id | Expected Value
+| ----------- | ----------- | ----------- |----------- |
+| [a] True [b] False = False | TestResult_math/and_[a] True [b] False = False | 1 | False
+| [a] True [b] True = True | TestResult_math/and_[a] True [b] True = True | 3 | True
+| [a] False [b] False = False | TestResult_math/and_[a] False [b] False = False | 5 | False
 
 Schemas used in this test case:
-	debug/log
-	event/onStart
-	flow/branch
-	flow/sequence
-	math/and
-	math/eq
-	pointer/set
-	variable/get
-	variable/set
+- debug/log
+- event/onStart
+- flow/branch
+- flow/sequence
+- math/and
+- math/eq
+- pointer/set
+- variable/get
+- variable/set

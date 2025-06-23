@@ -1,26 +1,28 @@
-Test Sample: math/fract
-Description: 
+### **Test Sample:** math/fract
+### **Description:** 
 
-Tests:
-	**[a] -32434.97000 = 0.03125** - Result saved in Variable **TestResult_math/fract_[a] -32434.97000 = 0.03125** with Id **1**
-	**[a] (-32434.97000, -32434.97000) = (0.03125, 0.03125)** - Result saved in Variable **TestResult_math/fract_[a] (-32434.97000, -32434.97000) = (0.03125, 0.03125)** with Id **3**
-	**[a] (-32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125)** - Result saved in Variable **TestResult_math/fract_[a] (-32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125)** with Id **5**
-	**[a] (-32434.97000, -32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125, 0.03125)** - Result saved in Variable **TestResult_math/fract_[a] (-32434.97000, -32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125, 0.03125)** with Id **7**
+### Tests:
+| Sub Test | Result Var.Name | Result Var.Id | Expected Value
+| ----------- | ----------- | ----------- |----------- |
+| [a] -32434.97000 = 0.03125 | TestResult_math/fract_[a] -32434.97000 = 0.03125 | 1 | 0.03125
+| [a] (-32434.97000, -32434.97000) = (0.03125, 0.03125) | TestResult_math/fract_[a] (-32434.97000, -32434.97000) = (0.03125, 0.03125) | 3 | (0.03125, 0.03125)
+| [a] (-32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125) | TestResult_math/fract_[a] (-32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125) | 5 | (0.03125, 0.03125, 0.03125)
+| [a] (-32434.97000, -32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125, 0.03125) | TestResult_math/fract_[a] (-32434.97000, -32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125, 0.03125) | 7 | (0.03125, 0.03125, 0.03125, 0.03125)
 
 Schemas used in this test case:
-	debug/log
-	event/onStart
-	flow/branch
-	flow/sequence
-	math/abs
-	math/and
-	math/dot
-	math/fract
-	math/gt
-	math/length
-	math/lt
-	math/normalize
-	math/sub
-	pointer/set
-	variable/get
-	variable/set
+- debug/log
+- event/onStart
+- flow/branch
+- flow/sequence
+- math/abs
+- math/and
+- math/dot
+- math/fract
+- math/gt
+- math/length
+- math/lt
+- math/normalize
+- math/sub
+- pointer/set
+- variable/get
+- variable/set

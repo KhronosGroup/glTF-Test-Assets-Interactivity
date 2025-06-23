@@ -1,27 +1,29 @@
-Test Sample: flow/throttle
-Description: 
+### **Test Sample:** flow/throttle
+### **Description:** 
 
-Tests:
-	**[out] flow** - Result saved in Variable **TestResult_flow/throttle_[out] flow** with Id **3**
-	**[lastRemainingTime]** - Result saved in Variable **TestResult_flow/throttle_[lastRemainingTime]** with Id **1**
-	**Flow Out After Delay** - Result saved in Variable **TestResult_flow/throttle_Flow Out After Delay** with Id **6**
-	**SubTest: setDelay** - Result saved in Variable **TestResult_flow/throttle_SubTest: setDelay** with Id **4**
-	**[err] Flow on -1 Duration** - Result saved in Variable **TestResult_flow/throttle_[err] Flow on -1 Duration** with Id **7**
-	**Ignore [out] when error** - Result saved in Variable **TestResult_flow/throttle_Ignore [out] when error** with Id **8**
-	**[reset]** - Result saved in Variable **TestResult_flow/throttle_[reset]** with Id **10**
+### Tests:
+| Sub Test | Result Var.Name | Result Var.Id | Expected Value
+| ----------- | ----------- | ----------- |----------- |
+| [out] flow | TestResult_flow/throttle_[out] flow | 3 | 1
+| [lastRemainingTime] | TestResult_flow/throttle_[lastRemainingTime] | 1 | 1.00000
+| Flow Out After Delay | TestResult_flow/throttle_Flow Out After Delay | 6 | 2
+| SubTest: setDelay | TestResult_flow/throttle_SubTest: setDelay | 4 | True
+| [err] Flow on -1 Duration | TestResult_flow/throttle_[err] Flow on -1 Duration | 7 | True
+| Ignore [out] when error | TestResult_flow/throttle_Ignore [out] when error | 8 | False
+| [reset] | TestResult_flow/throttle_[reset] | 10 | 3
 
 Schemas used in this test case:
-	debug/log
-	event/onStart
-	flow/branch
-	flow/sequence
-	flow/setDelay
-	flow/throttle
-	math/abs
-	math/add
-	math/eq
-	math/lt
-	math/sub
-	pointer/set
-	variable/get
-	variable/set
+- debug/log
+- event/onStart
+- flow/branch
+- flow/sequence
+- flow/setDelay
+- flow/throttle
+- math/abs
+- math/add
+- math/eq
+- math/lt
+- math/sub
+- pointer/set
+- variable/get
+- variable/set

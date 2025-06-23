@@ -1,19 +1,21 @@
-Test Sample: math/trunc
-Description: 
+### **Test Sample:** math/trunc
+### **Description:** 
 
-Tests:
-	**[a] 9.23432 = 9.00000** - Result saved in Variable **TestResult_math/trunc_[a] 9.23432 = 9.00000** with Id **1**
-	**[a] (9.23432, 9.23432) = (9.00000, 9.00000)** - Result saved in Variable **TestResult_math/trunc_[a] (9.23432, 9.23432) = (9.00000, 9.00000)** with Id **3**
-	**[a] (9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000)** - Result saved in Variable **TestResult_math/trunc_[a] (9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000)** with Id **5**
-	**[a] (9.23432, 9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000, 9.00000)** - Result saved in Variable **TestResult_math/trunc_[a] (9.23432, 9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000, 9.00000)** with Id **7**
+### Tests:
+| Sub Test | Result Var.Name | Result Var.Id | Expected Value
+| ----------- | ----------- | ----------- |----------- |
+| [a] 9.23432 = 9.00000 | TestResult_math/trunc_[a] 9.23432 = 9.00000 | 1 | 9.00000
+| [a] (9.23432, 9.23432) = (9.00000, 9.00000) | TestResult_math/trunc_[a] (9.23432, 9.23432) = (9.00000, 9.00000) | 3 | (9.00000, 9.00000)
+| [a] (9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000) | TestResult_math/trunc_[a] (9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000) | 5 | (9.00000, 9.00000, 9.00000)
+| [a] (9.23432, 9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000, 9.00000) | TestResult_math/trunc_[a] (9.23432, 9.23432, 9.23432, 9.23432) = (9.00000, 9.00000, 9.00000, 9.00000) | 7 | (9.00000, 9.00000, 9.00000, 9.00000)
 
 Schemas used in this test case:
-	debug/log
-	event/onStart
-	flow/branch
-	flow/sequence
-	math/eq
-	math/trunc
-	pointer/set
-	variable/get
-	variable/set
+- debug/log
+- event/onStart
+- flow/branch
+- flow/sequence
+- math/eq
+- math/trunc
+- pointer/set
+- variable/get
+- variable/set
