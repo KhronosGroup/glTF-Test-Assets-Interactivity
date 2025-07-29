@@ -18,33 +18,33 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] -2323.43500 = -2324.00000",
+          "name": "[a] -2323.44 = -2324.00",
           "nodeId": 1
         },
         {
-          "name": "[a] (-2323.43500, -2323.43500) = (-2324.00000, -2324.00000)",
+          "name": "[a] (-2323.44, -2323.44) = (-2324.00, -2324.00)",
           "nodeId": 15
         },
         {
-          "name": "[a] (-2323.43500, -2323.43500, -2323.43500) = (-2324.00000, -2324.00000, -2324.00000)",
+          "name": "[a] (-2323.44, -2323.44, -2323.44) = (-2324.00, -2324.00, -2324.00)",
           "nodeId": 29
         }
       ],
       "subTests": [
         {
-          "name": "[a] -2323.43500 = -2324.00000",
-          "resultVarName": "TestResult_math/floor_[a] -2323.43500 = -2324.00000",
+          "name": "[a] -2323.44 = -2324.00",
+          "resultVarName": "TestResult_math/floor_[a] -2323.44 = -2324.00",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             -2324.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/floor_[a] -2323.43500 = -2324.00000"
+          "successResultVarName": "TestResult_HasPassed_math/floor_[a] -2323.44 = -2324.00"
         },
         {
-          "name": "[a] (-2323.43500, -2323.43500) = (-2324.00000, -2324.00000)",
-          "resultVarName": "TestResult_math/floor_[a] (-2323.43500, -2323.43500) = (-2324.00000, -2324.00000)",
+          "name": "[a] (-2323.44, -2323.44) = (-2324.00, -2324.00)",
+          "resultVarName": "TestResult_math/floor_[a] (-2323.44, -2323.44) = (-2324.00, -2324.00)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -52,11 +52,11 @@
             -2324.0
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/floor_[a] (-2323.43500, -2323.43500) = (-2324.00000, -2324.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/floor_[a] (-2323.44, -2323.44) = (-2324.00, -2324.00)"
         },
         {
-          "name": "[a] (-2323.43500, -2323.43500, -2323.43500) = (-2324.00000, -2324.00000, -2324.00000)",
-          "resultVarName": "TestResult_math/floor_[a] (-2323.43500, -2323.43500, -2323.43500) = (-2324.00000, -2324.00000, -2324.00000)",
+          "name": "[a] (-2323.44, -2323.44, -2323.44) = (-2324.00, -2324.00, -2324.00)",
+          "resultVarName": "TestResult_math/floor_[a] (-2323.44, -2323.44, -2323.44) = (-2324.00, -2324.00, -2324.00)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -65,7 +65,7 @@
             -2324.0
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/floor_[a] (-2323.43500, -2323.43500, -2323.43500) = (-2324.00000, -2324.00000, -2324.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/floor_[a] (-2323.44, -2323.44, -2323.44) = (-2324.00, -2324.00, -2324.00)"
         }
       ]
     }

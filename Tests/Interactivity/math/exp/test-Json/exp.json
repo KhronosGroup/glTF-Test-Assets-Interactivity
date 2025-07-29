@@ -25,37 +25,37 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 1.21320 = 3.36423",
+          "name": "[a] 1.21 = 3.36",
           "nodeId": 1
         },
         {
-          "name": "[a] (1.21320, 1.21320) = (3.36423, 3.36423)",
+          "name": "[a] (1.21, 1.21) = (3.36, 3.36)",
           "nodeId": 17
         },
         {
-          "name": "[a] (1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423)",
+          "name": "[a] (1.21, 1.21, 1.21) = (3.36, 3.36, 3.36)",
           "nodeId": 36
         },
         {
-          "name": "[a] (1.21320, 1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423, 3.36423)",
+          "name": "[a] (1.21, 1.21, 1.21, 1.21) = (3.36, 3.36, 3.36, 3.36)",
           "nodeId": 56
         }
       ],
       "subTests": [
         {
-          "name": "[a] 1.21320 = 3.36423",
-          "resultVarName": "TestResult_math/exp_[a] 1.21320 = 3.36423",
+          "name": "[a] 1.21 = 3.36",
+          "resultVarName": "TestResult_math/exp_[a] 1.21 = 3.36",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             3.364233
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/exp_[a] 1.21320 = 3.36423"
+          "successResultVarName": "TestResult_HasPassed_math/exp_[a] 1.21 = 3.36"
         },
         {
-          "name": "[a] (1.21320, 1.21320) = (3.36423, 3.36423)",
-          "resultVarName": "TestResult_math/exp_[a] (1.21320, 1.21320) = (3.36423, 3.36423)",
+          "name": "[a] (1.21, 1.21) = (3.36, 3.36)",
+          "resultVarName": "TestResult_math/exp_[a] (1.21, 1.21) = (3.36, 3.36)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -63,11 +63,11 @@
             3.364233
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/exp_[a] (1.21320, 1.21320) = (3.36423, 3.36423)"
+          "successResultVarName": "TestResult_HasPassed_math/exp_[a] (1.21, 1.21) = (3.36, 3.36)"
         },
         {
-          "name": "[a] (1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423)",
-          "resultVarName": "TestResult_math/exp_[a] (1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423)",
+          "name": "[a] (1.21, 1.21, 1.21) = (3.36, 3.36, 3.36)",
+          "resultVarName": "TestResult_math/exp_[a] (1.21, 1.21, 1.21) = (3.36, 3.36, 3.36)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -76,11 +76,11 @@
             3.364233
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/exp_[a] (1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423)"
+          "successResultVarName": "TestResult_HasPassed_math/exp_[a] (1.21, 1.21, 1.21) = (3.36, 3.36, 3.36)"
         },
         {
-          "name": "[a] (1.21320, 1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423, 3.36423)",
-          "resultVarName": "TestResult_math/exp_[a] (1.21320, 1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423, 3.36423)",
+          "name": "[a] (1.21, 1.21, 1.21, 1.21) = (3.36, 3.36, 3.36, 3.36)",
+          "resultVarName": "TestResult_math/exp_[a] (1.21, 1.21, 1.21, 1.21) = (3.36, 3.36, 3.36, 3.36)",
           "resultVarId": 7,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -90,7 +90,7 @@
             3.364233
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/exp_[a] (1.21320, 1.21320, 1.21320, 1.21320) = (3.36423, 3.36423, 3.36423, 3.36423)"
+          "successResultVarName": "TestResult_HasPassed_math/exp_[a] (1.21, 1.21, 1.21, 1.21) = (3.36, 3.36, 3.36, 3.36)"
         }
       ]
     }

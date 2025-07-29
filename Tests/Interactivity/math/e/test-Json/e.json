@@ -1,9 +1,9 @@
 {
-  "glbFileName": "e.glb",
-  "name": "math/e",
+  "glbFileName": "E.glb",
+  "name": "math/E",
   "tests": [
     {
-      "name": "math/e",
+      "name": "math/E",
       "description": "",
       "usedSchemas": [
         "debug/log",
@@ -11,7 +11,7 @@
         "flow/branch",
         "flow/sequence",
         "math/abs",
-        "math/e",
+        "math/E",
         "math/lt",
         "math/sub",
         "pointer/set",
@@ -20,21 +20,21 @@
       ],
       "entryPoints": [
         {
-          "name": "= 2.71828",
+          "name": "= 2.72",
           "nodeId": 1
         }
       ],
       "subTests": [
         {
-          "name": "= 2.71828",
-          "resultVarName": "TestResult_math/e_= 2.71828",
+          "name": "= 2.72",
+          "resultVarName": "TestResult_math/E_= 2.72",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             2.71828175
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/e_= 2.71828"
+          "successResultVarName": "TestResult_HasPassed_math/E_= 2.72"
         }
       ]
     }
@@ -45,7 +45,7 @@
     "flow/branch",
     "flow/sequence",
     "math/abs",
-    "math/e",
+    "math/E",
     "math/lt",
     "math/sub",
     "pointer/set",

@@ -18,91 +18,91 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] -7.00000 = 7.00000",
+          "name": "[a] -7.00 = 7.00",
           "nodeId": 1
         },
         {
-          "name": "[a] 7.00000 = 7.00000",
+          "name": "[a] 7.00 = 7.00",
           "nodeId": 15
         },
         {
-          "name": "[a] 0.00000 = 0.00000",
+          "name": "[a] 0.00 = 0.00",
           "nodeId": 29
         },
         {
-          "name": "[a] (-7.00000, -7.00000) = (7.00000, 7.00000)",
+          "name": "[a] (-7.00, -7.00) = (7.00, 7.00)",
           "nodeId": 44
         },
         {
-          "name": "[a] (7.00000, 7.00000) = (7.00000, 7.00000)",
+          "name": "[a] (7.00, 7.00) = (7.00, 7.00)",
           "nodeId": 57
         },
         {
-          "name": "[a] (0.00000, 0.00000) = (0.00000, 0.00000)",
+          "name": "[a] (0.00, 0.00) = (0.00, 0.00)",
           "nodeId": 72
         },
         {
-          "name": "[a] (-7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000)",
+          "name": "[a] (-7.00, -7.00, -7.00) = (7.00, 7.00, 7.00)",
           "nodeId": 86
         },
         {
-          "name": "[a] (7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000)",
+          "name": "[a] (7.00, 7.00, 7.00) = (7.00, 7.00, 7.00)",
           "nodeId": 100
         },
         {
-          "name": "[a] (0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000)",
+          "name": "[a] (0.00, 0.00, 0.00) = (0.00, 0.00, 0.00)",
           "nodeId": 114
         },
         {
-          "name": "[a] (-7.00000, -7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "name": "[a] (-7.00, -7.00, -7.00, -7.00) = (7.00, 7.00, 7.00, 7.00)",
           "nodeId": 128
         },
         {
-          "name": "[a] (7.00000, 7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "name": "[a] (7.00, 7.00, 7.00, 7.00) = (7.00, 7.00, 7.00, 7.00)",
           "nodeId": 142
         },
         {
-          "name": "[a] (0.00000, 0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000, 0.00000)",
+          "name": "[a] (0.00, 0.00, 0.00, 0.00) = (0.00, 0.00, 0.00, 0.00)",
           "nodeId": 155
         }
       ],
       "subTests": [
         {
-          "name": "[a] -7.00000 = 7.00000",
-          "resultVarName": "TestResult_math/abs_[a] -7.00000 = 7.00000",
+          "name": "[a] -7.00 = 7.00",
+          "resultVarName": "TestResult_math/abs_[a] -7.00 = 7.00",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             7.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] -7.00000 = 7.00000"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] -7.00 = 7.00"
         },
         {
-          "name": "[a] 7.00000 = 7.00000",
-          "resultVarName": "TestResult_math/abs_[a] 7.00000 = 7.00000",
+          "name": "[a] 7.00 = 7.00",
+          "resultVarName": "TestResult_math/abs_[a] 7.00 = 7.00",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             7.0
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] 7.00000 = 7.00000"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] 7.00 = 7.00"
         },
         {
-          "name": "[a] 0.00000 = 0.00000",
-          "resultVarName": "TestResult_math/abs_[a] 0.00000 = 0.00000",
+          "name": "[a] 0.00 = 0.00",
+          "resultVarName": "TestResult_math/abs_[a] 0.00 = 0.00",
           "resultVarId": 5,
           "resultVarType": "float",
           "expectedResultValue": [
             0.0
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] 0.00000 = 0.00000"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] 0.00 = 0.00"
         },
         {
-          "name": "[a] (-7.00000, -7.00000) = (7.00000, 7.00000)",
-          "resultVarName": "TestResult_math/abs_[a] (-7.00000, -7.00000) = (7.00000, 7.00000)",
+          "name": "[a] (-7.00, -7.00) = (7.00, 7.00)",
+          "resultVarName": "TestResult_math/abs_[a] (-7.00, -7.00) = (7.00, 7.00)",
           "resultVarId": 7,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -110,11 +110,11 @@
             7.0
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (-7.00000, -7.00000) = (7.00000, 7.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (-7.00, -7.00) = (7.00, 7.00)"
         },
         {
-          "name": "[a] (7.00000, 7.00000) = (7.00000, 7.00000)",
-          "resultVarName": "TestResult_math/abs_[a] (7.00000, 7.00000) = (7.00000, 7.00000)",
+          "name": "[a] (7.00, 7.00) = (7.00, 7.00)",
+          "resultVarName": "TestResult_math/abs_[a] (7.00, 7.00) = (7.00, 7.00)",
           "resultVarId": 9,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -122,11 +122,11 @@
             7.0
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (7.00000, 7.00000) = (7.00000, 7.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (7.00, 7.00) = (7.00, 7.00)"
         },
         {
-          "name": "[a] (0.00000, 0.00000) = (0.00000, 0.00000)",
-          "resultVarName": "TestResult_math/abs_[a] (0.00000, 0.00000) = (0.00000, 0.00000)",
+          "name": "[a] (0.00, 0.00) = (0.00, 0.00)",
+          "resultVarName": "TestResult_math/abs_[a] (0.00, 0.00) = (0.00, 0.00)",
           "resultVarId": 11,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -134,11 +134,11 @@
             0.0
           ],
           "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (0.00000, 0.00000) = (0.00000, 0.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (0.00, 0.00) = (0.00, 0.00)"
         },
         {
-          "name": "[a] (-7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000)",
-          "resultVarName": "TestResult_math/abs_[a] (-7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000)",
+          "name": "[a] (-7.00, -7.00, -7.00) = (7.00, 7.00, 7.00)",
+          "resultVarName": "TestResult_math/abs_[a] (-7.00, -7.00, -7.00) = (7.00, 7.00, 7.00)",
           "resultVarId": 13,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -147,11 +147,11 @@
             7.0
           ],
           "successResultVarId": 12,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (-7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (-7.00, -7.00, -7.00) = (7.00, 7.00, 7.00)"
         },
         {
-          "name": "[a] (7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000)",
-          "resultVarName": "TestResult_math/abs_[a] (7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000)",
+          "name": "[a] (7.00, 7.00, 7.00) = (7.00, 7.00, 7.00)",
+          "resultVarName": "TestResult_math/abs_[a] (7.00, 7.00, 7.00) = (7.00, 7.00, 7.00)",
           "resultVarId": 15,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -160,11 +160,11 @@
             7.0
           ],
           "successResultVarId": 14,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (7.00, 7.00, 7.00) = (7.00, 7.00, 7.00)"
         },
         {
-          "name": "[a] (0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000)",
-          "resultVarName": "TestResult_math/abs_[a] (0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000)",
+          "name": "[a] (0.00, 0.00, 0.00) = (0.00, 0.00, 0.00)",
+          "resultVarName": "TestResult_math/abs_[a] (0.00, 0.00, 0.00) = (0.00, 0.00, 0.00)",
           "resultVarId": 17,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -173,11 +173,11 @@
             0.0
           ],
           "successResultVarId": 16,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (0.00, 0.00, 0.00) = (0.00, 0.00, 0.00)"
         },
         {
-          "name": "[a] (-7.00000, -7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
-          "resultVarName": "TestResult_math/abs_[a] (-7.00000, -7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "name": "[a] (-7.00, -7.00, -7.00, -7.00) = (7.00, 7.00, 7.00, 7.00)",
+          "resultVarName": "TestResult_math/abs_[a] (-7.00, -7.00, -7.00, -7.00) = (7.00, 7.00, 7.00, 7.00)",
           "resultVarId": 19,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -187,11 +187,11 @@
             7.0
           ],
           "successResultVarId": 18,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (-7.00000, -7.00000, -7.00000, -7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (-7.00, -7.00, -7.00, -7.00) = (7.00, 7.00, 7.00, 7.00)"
         },
         {
-          "name": "[a] (7.00000, 7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
-          "resultVarName": "TestResult_math/abs_[a] (7.00000, 7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)",
+          "name": "[a] (7.00, 7.00, 7.00, 7.00) = (7.00, 7.00, 7.00, 7.00)",
+          "resultVarName": "TestResult_math/abs_[a] (7.00, 7.00, 7.00, 7.00) = (7.00, 7.00, 7.00, 7.00)",
           "resultVarId": 21,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -201,11 +201,11 @@
             7.0
           ],
           "successResultVarId": 20,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (7.00000, 7.00000, 7.00000, 7.00000) = (7.00000, 7.00000, 7.00000, 7.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (7.00, 7.00, 7.00, 7.00) = (7.00, 7.00, 7.00, 7.00)"
         },
         {
-          "name": "[a] (0.00000, 0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000, 0.00000)",
-          "resultVarName": "TestResult_math/abs_[a] (0.00000, 0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000, 0.00000)",
+          "name": "[a] (0.00, 0.00, 0.00, 0.00) = (0.00, 0.00, 0.00, 0.00)",
+          "resultVarName": "TestResult_math/abs_[a] (0.00, 0.00, 0.00, 0.00) = (0.00, 0.00, 0.00, 0.00)",
           "resultVarId": 23,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -215,7 +215,7 @@
             0.0
           ],
           "successResultVarId": 22,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (0.00000, 0.00000, 0.00000, 0.00000) = (0.00000, 0.00000, 0.00000, 0.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] (0.00, 0.00, 0.00, 0.00) = (0.00, 0.00, 0.00, 0.00)"
         }
       ]
     }

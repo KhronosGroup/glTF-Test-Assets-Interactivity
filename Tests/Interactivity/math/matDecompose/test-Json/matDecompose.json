@@ -12,6 +12,7 @@
         "flow/sequence",
         "math/and",
         "math/dot",
+        "math/eq",
         "math/gt",
         "math/length",
         "math/matCompose",
@@ -25,6 +26,10 @@
         {
           "name": "matDecompose",
           "nodeId": 2
+        },
+        {
+          "name": "matDecompose - invalid result",
+          "nodeId": 66
         }
       ],
       "subTests": [
@@ -67,6 +72,68 @@
           ],
           "successResultVarId": 4,
           "successResultVarName": "TestResult_HasPassed_math/matDecompose_Scale"
+        },
+        {
+          "name": "isValid",
+          "resultVarName": "TestResult_math/matDecompose_isValid",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/matDecompose_isValid"
+        },
+        {
+          "name": "invalid, Translate",
+          "resultVarName": "TestResult_math/matDecompose_invalid, Translate",
+          "resultVarId": 9,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/matDecompose_invalid, Translate"
+        },
+        {
+          "name": "invalid, Rotate",
+          "resultVarName": "TestResult_math/matDecompose_invalid, Rotate",
+          "resultVarId": 11,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/matDecompose_invalid, Rotate"
+        },
+        {
+          "name": "invalid, Scale",
+          "resultVarName": "TestResult_math/matDecompose_invalid, Scale",
+          "resultVarId": 13,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/matDecompose_invalid, Scale"
+        },
+        {
+          "name": "invalid. isValid",
+          "resultVarName": "TestResult_math/matDecompose_invalid. isValid",
+          "resultVarId": 15,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_math/matDecompose_invalid. isValid"
         }
       ]
     }
@@ -78,6 +145,7 @@
     "flow/sequence",
     "math/and",
     "math/dot",
+    "math/eq",
     "math/gt",
     "math/length",
     "math/matCompose",

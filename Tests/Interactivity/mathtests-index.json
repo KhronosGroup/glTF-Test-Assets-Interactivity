@@ -582,10 +582,10 @@
     }
   },
   {
-    "label": "math/e",
-    "name": "math/e",
+    "label": "math/E",
+    "name": "math/E",
     "tags": [
-      "math/e",
+      "math/E",
       "event/onStart",
       "math/sub",
       "math/abs",
@@ -598,8 +598,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "e.glb",
-      "test-Json": "e.json"
+      "glTF-Binary": "E.glb",
+      "test-Json": "E.json"
     }
   },
   {
@@ -806,10 +806,10 @@
     }
   },
   {
-    "label": "math/inf",
-    "name": "math/inf",
+    "label": "math/Inf",
+    "name": "math/Inf",
     "tags": [
-      "math/inf",
+      "math/Inf",
       "event/onStart",
       "math/eq",
       "flow/branch",
@@ -820,8 +820,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "inf.glb",
-      "test-Json": "inf.json"
+      "glTF-Binary": "Inf.glb",
+      "test-Json": "Inf.json"
     }
   },
   {
@@ -839,7 +839,8 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence"
+      "flow/sequence",
+      "math/eq"
     ],
     "variants": {
       "glTF-Binary": "inverse.glb",
@@ -847,10 +848,10 @@
     }
   },
   {
-    "label": "math/isinf",
-    "name": "math/isinf",
+    "label": "math/isInf",
+    "name": "math/isInf",
     "tags": [
-      "math/isinf",
+      "math/isInf",
       "event/onStart",
       "math/eq",
       "flow/branch",
@@ -861,15 +862,15 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "isinf.glb",
-      "test-Json": "isinf.json"
+      "glTF-Binary": "isInf.glb",
+      "test-Json": "isInf.json"
     }
   },
   {
-    "label": "math/isnan",
-    "name": "math/isnan",
+    "label": "math/isNaN",
+    "name": "math/isNaN",
     "tags": [
-      "math/isnan",
+      "math/isNaN",
       "event/onStart",
       "math/eq",
       "flow/branch",
@@ -880,8 +881,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "isnan.glb",
-      "test-Json": "isnan.json"
+      "glTF-Binary": "isNaN.glb",
+      "test-Json": "isNaN.json"
     }
   },
   {
@@ -1079,7 +1080,8 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence"
+      "flow/sequence",
+      "math/eq"
     ],
     "variants": {
       "glTF-Binary": "matDecompose.glb",
@@ -1087,10 +1089,10 @@
     }
   },
   {
-    "label": "math/matmul",
-    "name": "math/matmul",
+    "label": "math/matMul",
+    "name": "math/matMul",
     "tags": [
-      "math/matmul",
+      "math/matMul",
       "event/onStart",
       "math/extract4x4",
       "math/mul",
@@ -1104,8 +1106,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "matmul.glb",
-      "test-Json": "matmul.json"
+      "glTF-Binary": "matMul.glb",
+      "test-Json": "matMul.json"
     }
   },
   {
@@ -1194,12 +1196,12 @@
     }
   },
   {
-    "label": "math/nan",
-    "name": "math/nan",
+    "label": "math/NaN",
+    "name": "math/NaN",
     "tags": [
-      "math/nan",
+      "math/NaN",
       "event/onStart",
-      "math/isnan",
+      "math/isNaN",
       "flow/branch",
       "pointer/set",
       "debug/log",
@@ -1208,8 +1210,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "nan.glb",
-      "test-Json": "nan.json"
+      "glTF-Binary": "NaN.glb",
+      "test-Json": "NaN.json"
     }
   },
   {
@@ -1229,6 +1231,29 @@
     "variants": {
       "glTF-Binary": "neg.glb",
       "test-Json": "neg.json"
+    }
+  },
+  {
+    "label": "math/normalize",
+    "name": "math/normalize",
+    "tags": [
+      "math/normalize",
+      "event/onStart",
+      "math/dot",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/eq"
+    ],
+    "variants": {
+      "glTF-Binary": "normalize.glb",
+      "test-Json": "normalize.json"
     }
   },
   {
@@ -1270,10 +1295,10 @@
     }
   },
   {
-    "label": "math/pi",
-    "name": "math/pi",
+    "label": "math/Pi",
+    "name": "math/Pi",
     "tags": [
-      "math/pi",
+      "math/Pi",
       "event/onStart",
       "math/sub",
       "math/abs",
@@ -1286,8 +1311,8 @@
       "flow/sequence"
     ],
     "variants": {
-      "glTF-Binary": "pi.glb",
-      "test-Json": "pi.json"
+      "glTF-Binary": "Pi.glb",
+      "test-Json": "Pi.json"
     }
   },
   {

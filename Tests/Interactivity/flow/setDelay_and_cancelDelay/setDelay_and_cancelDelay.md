@@ -23,7 +23,7 @@ Schemas used in this test case:
 - math/abs
 - math/add
 - math/eq
-- math/isnan
+- math/isNaN
 - math/lt
 - math/select
 - math/sub

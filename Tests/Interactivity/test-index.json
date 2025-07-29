@@ -1,5 +1,54 @@
 [
   {
+    "label": "Extras/Matrix Updates",
+    "name": "Extras/Matrix_Updates",
+    "tags": [
+      "event/onStart",
+      "pointer/set",
+      "pointer/get",
+      "math/inverse",
+      "math/matMul",
+      "math/matCompose",
+      "math/matDecompose",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/sub"
+    ],
+    "variants": {
+      "glTF-Binary": "Matrix_Updates.glb",
+      "test-Json": "Matrix_Updates.json"
+    }
+  },
+  {
+    "label": "event/send and receive",
+    "name": "event/send_and_receive",
+    "tags": [
+      "event/send",
+      "event/onStart",
+      "event/receive",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/branch",
+      "flow/setDelay",
+      "math/eq",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "send_and_receive.glb",
+      "test-Json": "send_and_receive.json"
+    }
+  },
+  {
     "label": "flow/branch",
     "name": "flow/branch",
     "tags": [
@@ -103,7 +152,7 @@
       "event/onStart",
       "flow/setDelay",
       "event/onTick",
-      "math/isnan",
+      "math/isNaN",
       "math/select",
       "variable/set",
       "flow/sequence",

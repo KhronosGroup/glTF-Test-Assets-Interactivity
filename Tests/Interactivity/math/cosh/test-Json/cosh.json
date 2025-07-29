@@ -25,37 +25,37 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 4.32400 = 37.75161",
+          "name": "[a] 4.32 = 37.75",
           "nodeId": 1
         },
         {
-          "name": "[a] (4.32400, 4.32400) = (37.75161, 37.75161)",
+          "name": "[a] (4.32, 4.32) = (37.75, 37.75)",
           "nodeId": 17
         },
         {
-          "name": "[a] (4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161)",
+          "name": "[a] (4.32, 4.32, 4.32) = (37.75, 37.75, 37.75)",
           "nodeId": 36
         },
         {
-          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161, 37.75161)",
+          "name": "[a] (4.32, 4.32, 4.32, 4.32) = (37.75, 37.75, 37.75, 37.75)",
           "nodeId": 56
         }
       ],
       "subTests": [
         {
-          "name": "[a] 4.32400 = 37.75161",
-          "resultVarName": "TestResult_math/cosh_[a] 4.32400 = 37.75161",
+          "name": "[a] 4.32 = 37.75",
+          "resultVarName": "TestResult_math/cosh_[a] 4.32 = 37.75",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             37.75161
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] 4.32400 = 37.75161"
+          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] 4.32 = 37.75"
         },
         {
-          "name": "[a] (4.32400, 4.32400) = (37.75161, 37.75161)",
-          "resultVarName": "TestResult_math/cosh_[a] (4.32400, 4.32400) = (37.75161, 37.75161)",
+          "name": "[a] (4.32, 4.32) = (37.75, 37.75)",
+          "resultVarName": "TestResult_math/cosh_[a] (4.32, 4.32) = (37.75, 37.75)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -63,11 +63,11 @@
             37.75161
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] (4.32400, 4.32400) = (37.75161, 37.75161)"
+          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] (4.32, 4.32) = (37.75, 37.75)"
         },
         {
-          "name": "[a] (4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161)",
-          "resultVarName": "TestResult_math/cosh_[a] (4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161)",
+          "name": "[a] (4.32, 4.32, 4.32) = (37.75, 37.75, 37.75)",
+          "resultVarName": "TestResult_math/cosh_[a] (4.32, 4.32, 4.32) = (37.75, 37.75, 37.75)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -76,11 +76,11 @@
             37.75161
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] (4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161)"
+          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] (4.32, 4.32, 4.32) = (37.75, 37.75, 37.75)"
         },
         {
-          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161, 37.75161)",
-          "resultVarName": "TestResult_math/cosh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161, 37.75161)",
+          "name": "[a] (4.32, 4.32, 4.32, 4.32) = (37.75, 37.75, 37.75, 37.75)",
+          "resultVarName": "TestResult_math/cosh_[a] (4.32, 4.32, 4.32, 4.32) = (37.75, 37.75, 37.75, 37.75)",
           "resultVarId": 7,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -90,7 +90,7 @@
             37.75161
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.75161, 37.75161, 37.75161, 37.75161)"
+          "successResultVarName": "TestResult_HasPassed_math/cosh_[a] (4.32, 4.32, 4.32, 4.32) = (37.75, 37.75, 37.75, 37.75)"
         }
       ]
     }

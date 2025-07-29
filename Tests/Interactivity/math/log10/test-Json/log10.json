@@ -25,37 +25,37 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 8768.24000 = 3.94291",
+          "name": "[a] 8768.24 = 3.94",
           "nodeId": 1
         },
         {
-          "name": "[a] (8768.24000, 8768.24000) = (3.94291, 3.94291)",
+          "name": "[a] (8768.24, 8768.24) = (3.94, 3.94)",
           "nodeId": 17
         },
         {
-          "name": "[a] (8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291)",
+          "name": "[a] (8768.24, 8768.24, 8768.24) = (3.94, 3.94, 3.94)",
           "nodeId": 36
         },
         {
-          "name": "[a] (8768.24000, 8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291, 3.94291)",
+          "name": "[a] (8768.24, 8768.24, 8768.24, 8768.24) = (3.94, 3.94, 3.94, 3.94)",
           "nodeId": 56
         }
       ],
       "subTests": [
         {
-          "name": "[a] 8768.24000 = 3.94291",
-          "resultVarName": "TestResult_math/log10_[a] 8768.24000 = 3.94291",
+          "name": "[a] 8768.24 = 3.94",
+          "resultVarName": "TestResult_math/log10_[a] 8768.24 = 3.94",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             3.94291234
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/log10_[a] 8768.24000 = 3.94291"
+          "successResultVarName": "TestResult_HasPassed_math/log10_[a] 8768.24 = 3.94"
         },
         {
-          "name": "[a] (8768.24000, 8768.24000) = (3.94291, 3.94291)",
-          "resultVarName": "TestResult_math/log10_[a] (8768.24000, 8768.24000) = (3.94291, 3.94291)",
+          "name": "[a] (8768.24, 8768.24) = (3.94, 3.94)",
+          "resultVarName": "TestResult_math/log10_[a] (8768.24, 8768.24) = (3.94, 3.94)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -63,11 +63,11 @@
             3.94291234
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/log10_[a] (8768.24000, 8768.24000) = (3.94291, 3.94291)"
+          "successResultVarName": "TestResult_HasPassed_math/log10_[a] (8768.24, 8768.24) = (3.94, 3.94)"
         },
         {
-          "name": "[a] (8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291)",
-          "resultVarName": "TestResult_math/log10_[a] (8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291)",
+          "name": "[a] (8768.24, 8768.24, 8768.24) = (3.94, 3.94, 3.94)",
+          "resultVarName": "TestResult_math/log10_[a] (8768.24, 8768.24, 8768.24) = (3.94, 3.94, 3.94)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -76,11 +76,11 @@
             3.94291234
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/log10_[a] (8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291)"
+          "successResultVarName": "TestResult_HasPassed_math/log10_[a] (8768.24, 8768.24, 8768.24) = (3.94, 3.94, 3.94)"
         },
         {
-          "name": "[a] (8768.24000, 8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291, 3.94291)",
-          "resultVarName": "TestResult_math/log10_[a] (8768.24000, 8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291, 3.94291)",
+          "name": "[a] (8768.24, 8768.24, 8768.24, 8768.24) = (3.94, 3.94, 3.94, 3.94)",
+          "resultVarName": "TestResult_math/log10_[a] (8768.24, 8768.24, 8768.24, 8768.24) = (3.94, 3.94, 3.94, 3.94)",
           "resultVarId": 7,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -90,7 +90,7 @@
             3.94291234
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/log10_[a] (8768.24000, 8768.24000, 8768.24000, 8768.24000) = (3.94291, 3.94291, 3.94291, 3.94291)"
+          "successResultVarName": "TestResult_HasPassed_math/log10_[a] (8768.24, 8768.24, 8768.24, 8768.24) = (3.94, 3.94, 3.94, 3.94)"
         }
       ]
     }

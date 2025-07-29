@@ -25,37 +25,37 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 19.42353 [b] 2.23400 = 1.55154",
+          "name": "[a] 19.42 [b] 2.23 = 1.55",
           "nodeId": 1
         },
         {
-          "name": "[a] (19.42353, 19.42353) [b] (2.23400, 2.23400) = (1.55154, 1.55154)",
+          "name": "[a] (19.42, 19.42) [b] (2.23, 2.23) = (1.55, 1.55)",
           "nodeId": 17
         },
         {
-          "name": "[a] (19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154)",
+          "name": "[a] (19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23) = (1.55, 1.55, 1.55)",
           "nodeId": 36
         },
         {
-          "name": "[a] (19.42353, 19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154, 1.55154)",
+          "name": "[a] (19.42, 19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23, 2.23) = (1.55, 1.55, 1.55, 1.55)",
           "nodeId": 56
         }
       ],
       "subTests": [
         {
-          "name": "[a] 19.42353 [b] 2.23400 = 1.55154",
-          "resultVarName": "TestResult_math/rem_[a] 19.42353 [b] 2.23400 = 1.55154",
+          "name": "[a] 19.42 [b] 2.23 = 1.55",
+          "resultVarName": "TestResult_math/rem_[a] 19.42 [b] 2.23 = 1.55",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             1.55153465
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/rem_[a] 19.42353 [b] 2.23400 = 1.55154"
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] 19.42 [b] 2.23 = 1.55"
         },
         {
-          "name": "[a] (19.42353, 19.42353) [b] (2.23400, 2.23400) = (1.55154, 1.55154)",
-          "resultVarName": "TestResult_math/rem_[a] (19.42353, 19.42353) [b] (2.23400, 2.23400) = (1.55154, 1.55154)",
+          "name": "[a] (19.42, 19.42) [b] (2.23, 2.23) = (1.55, 1.55)",
+          "resultVarName": "TestResult_math/rem_[a] (19.42, 19.42) [b] (2.23, 2.23) = (1.55, 1.55)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -63,11 +63,11 @@
             1.55153465
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42353, 19.42353) [b] (2.23400, 2.23400) = (1.55154, 1.55154)"
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42, 19.42) [b] (2.23, 2.23) = (1.55, 1.55)"
         },
         {
-          "name": "[a] (19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154)",
-          "resultVarName": "TestResult_math/rem_[a] (19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154)",
+          "name": "[a] (19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23) = (1.55, 1.55, 1.55)",
+          "resultVarName": "TestResult_math/rem_[a] (19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23) = (1.55, 1.55, 1.55)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -76,11 +76,11 @@
             1.55153465
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154)"
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23) = (1.55, 1.55, 1.55)"
         },
         {
-          "name": "[a] (19.42353, 19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154, 1.55154)",
-          "resultVarName": "TestResult_math/rem_[a] (19.42353, 19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154, 1.55154)",
+          "name": "[a] (19.42, 19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23, 2.23) = (1.55, 1.55, 1.55, 1.55)",
+          "resultVarName": "TestResult_math/rem_[a] (19.42, 19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23, 2.23) = (1.55, 1.55, 1.55, 1.55)",
           "resultVarId": 7,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -90,7 +90,7 @@
             1.55153465
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42353, 19.42353, 19.42353, 19.42353) [b] (2.23400, 2.23400, 2.23400, 2.23400) = (1.55154, 1.55154, 1.55154, 1.55154)"
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42, 19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23, 2.23) = (1.55, 1.55, 1.55, 1.55)"
         }
       ]
     }

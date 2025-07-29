@@ -1,9 +1,9 @@
 {
-  "glbFileName": "isnan.glb",
-  "name": "math/isnan",
+  "glbFileName": "isNaN.glb",
+  "name": "math/isNaN",
   "tests": [
     {
-      "name": "math/isnan",
+      "name": "math/isNaN",
       "description": "",
       "usedSchemas": [
         "debug/log",
@@ -11,7 +11,7 @@
         "flow/branch",
         "flow/sequence",
         "math/eq",
-        "math/isnan",
+        "math/isNaN",
         "pointer/set",
         "variable/get",
         "variable/set"
@@ -22,32 +22,32 @@
           "nodeId": 1
         },
         {
-          "name": "[a] 1.00000 = False",
+          "name": "[a] 1.00 = False",
           "nodeId": 15
         }
       ],
       "subTests": [
         {
           "name": "[a] NaN = True",
-          "resultVarName": "TestResult_math/isnan_[a] NaN = True",
+          "resultVarName": "TestResult_math/isNaN_[a] NaN = True",
           "resultVarId": 1,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/isnan_[a] NaN = True"
+          "successResultVarName": "TestResult_HasPassed_math/isNaN_[a] NaN = True"
         },
         {
-          "name": "[a] 1.00000 = False",
-          "resultVarName": "TestResult_math/isnan_[a] 1.00000 = False",
+          "name": "[a] 1.00 = False",
+          "resultVarName": "TestResult_math/isNaN_[a] 1.00 = False",
           "resultVarId": 3,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/isnan_[a] 1.00000 = False"
+          "successResultVarName": "TestResult_HasPassed_math/isNaN_[a] 1.00 = False"
         }
       ]
     }
@@ -58,7 +58,7 @@
     "flow/branch",
     "flow/sequence",
     "math/eq",
-    "math/isnan",
+    "math/isNaN",
     "pointer/set",
     "variable/get",
     "variable/set"

@@ -1,9 +1,9 @@
 {
-  "glbFileName": "inf.glb",
-  "name": "math/inf",
+  "glbFileName": "Inf.glb",
+  "name": "math/Inf",
   "tests": [
     {
-      "name": "math/inf",
+      "name": "math/Inf",
       "description": "",
       "usedSchemas": [
         "debug/log",
@@ -11,7 +11,7 @@
         "flow/branch",
         "flow/sequence",
         "math/eq",
-        "math/inf",
+        "math/Inf",
         "pointer/set",
         "variable/get",
         "variable/set"
@@ -25,14 +25,14 @@
       "subTests": [
         {
           "name": "= Infinity",
-          "resultVarName": "TestResult_math/inf_= Infinity",
+          "resultVarName": "TestResult_math/Inf_= Infinity",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             "Infinity"
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/inf_= Infinity"
+          "successResultVarName": "TestResult_HasPassed_math/Inf_= Infinity"
         }
       ]
     }
@@ -43,7 +43,7 @@
     "flow/branch",
     "flow/sequence",
     "math/eq",
-    "math/inf",
+    "math/Inf",
     "pointer/set",
     "variable/get",
     "variable/set"

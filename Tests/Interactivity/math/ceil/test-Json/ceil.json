@@ -18,33 +18,33 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 757.00320 = 758.00000",
+          "name": "[a] 757.00 = 758.00",
           "nodeId": 1
         },
         {
-          "name": "[a] (757.00320, 757.00320) = (758.00000, 758.00000)",
+          "name": "[a] (757.00, 757.00) = (758.00, 758.00)",
           "nodeId": 15
         },
         {
-          "name": "[a] (757.00320, 757.00320, 757.00320) = (758.00000, 758.00000, 758.00000)",
+          "name": "[a] (757.00, 757.00, 757.00) = (758.00, 758.00, 758.00)",
           "nodeId": 29
         }
       ],
       "subTests": [
         {
-          "name": "[a] 757.00320 = 758.00000",
-          "resultVarName": "TestResult_math/ceil_[a] 757.00320 = 758.00000",
+          "name": "[a] 757.00 = 758.00",
+          "resultVarName": "TestResult_math/ceil_[a] 757.00 = 758.00",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             758.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/ceil_[a] 757.00320 = 758.00000"
+          "successResultVarName": "TestResult_HasPassed_math/ceil_[a] 757.00 = 758.00"
         },
         {
-          "name": "[a] (757.00320, 757.00320) = (758.00000, 758.00000)",
-          "resultVarName": "TestResult_math/ceil_[a] (757.00320, 757.00320) = (758.00000, 758.00000)",
+          "name": "[a] (757.00, 757.00) = (758.00, 758.00)",
+          "resultVarName": "TestResult_math/ceil_[a] (757.00, 757.00) = (758.00, 758.00)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -52,11 +52,11 @@
             758.0
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/ceil_[a] (757.00320, 757.00320) = (758.00000, 758.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/ceil_[a] (757.00, 757.00) = (758.00, 758.00)"
         },
         {
-          "name": "[a] (757.00320, 757.00320, 757.00320) = (758.00000, 758.00000, 758.00000)",
-          "resultVarName": "TestResult_math/ceil_[a] (757.00320, 757.00320, 757.00320) = (758.00000, 758.00000, 758.00000)",
+          "name": "[a] (757.00, 757.00, 757.00) = (758.00, 758.00, 758.00)",
+          "resultVarName": "TestResult_math/ceil_[a] (757.00, 757.00, 757.00) = (758.00, 758.00, 758.00)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -65,7 +65,7 @@
             758.0
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/ceil_[a] (757.00320, 757.00320, 757.00320) = (758.00000, 758.00000, 758.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/ceil_[a] (757.00, 757.00, 757.00) = (758.00, 758.00, 758.00)"
         }
       ]
     }

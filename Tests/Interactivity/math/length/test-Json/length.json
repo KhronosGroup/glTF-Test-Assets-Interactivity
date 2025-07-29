@@ -20,51 +20,51 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] (13.00000, 2.00000) = 13.15295",
+          "name": "[a] (13.00, 2.00) = 13.15",
           "nodeId": 1
         },
         {
-          "name": "[a] (13.00000, 2.00000, 15.00000) = 19.94994",
+          "name": "[a] (13.00, 2.00, 15.00) = 19.95",
           "nodeId": 17
         },
         {
-          "name": "[a] (13.00000, 2.00000, 23.00000, 123.00000) = 125.82130",
+          "name": "[a] (13.00, 2.00, 23.00, 123.00) = 125.82",
           "nodeId": 33
         }
       ],
       "subTests": [
         {
-          "name": "[a] (13.00000, 2.00000) = 13.15295",
-          "resultVarName": "TestResult_math/length_[a] (13.00000, 2.00000) = 13.15295",
+          "name": "[a] (13.00, 2.00) = 13.15",
+          "resultVarName": "TestResult_math/length_[a] (13.00, 2.00) = 13.15",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             13.1529465
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13.00000, 2.00000) = 13.15295"
+          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13.00, 2.00) = 13.15"
         },
         {
-          "name": "[a] (13.00000, 2.00000, 15.00000) = 19.94994",
-          "resultVarName": "TestResult_math/length_[a] (13.00000, 2.00000, 15.00000) = 19.94994",
+          "name": "[a] (13.00, 2.00, 15.00) = 19.95",
+          "resultVarName": "TestResult_math/length_[a] (13.00, 2.00, 15.00) = 19.95",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             19.9499378
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13.00000, 2.00000, 15.00000) = 19.94994"
+          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13.00, 2.00, 15.00) = 19.95"
         },
         {
-          "name": "[a] (13.00000, 2.00000, 23.00000, 123.00000) = 125.82130",
-          "resultVarName": "TestResult_math/length_[a] (13.00000, 2.00000, 23.00000, 123.00000) = 125.82130",
+          "name": "[a] (13.00, 2.00, 23.00, 123.00) = 125.82",
+          "resultVarName": "TestResult_math/length_[a] (13.00, 2.00, 23.00, 123.00) = 125.82",
           "resultVarId": 5,
           "resultVarType": "float",
           "expectedResultValue": [
             125.821304
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13.00000, 2.00000, 23.00000, 123.00000) = 125.82130"
+          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13.00, 2.00, 23.00, 123.00) = 125.82"
         }
       ]
     }

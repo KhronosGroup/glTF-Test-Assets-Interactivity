@@ -25,37 +25,37 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 0.50000 = 0.48121",
+          "name": "[a] 0.50 = 0.48",
           "nodeId": 1
         },
         {
-          "name": "[a] (0.50000, 0.50000) = (0.48121, 0.48121)",
+          "name": "[a] (0.50, 0.50) = (0.48, 0.48)",
           "nodeId": 17
         },
         {
-          "name": "[a] (0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121)",
+          "name": "[a] (0.50, 0.50, 0.50) = (0.48, 0.48, 0.48)",
           "nodeId": 36
         },
         {
-          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121, 0.48121)",
+          "name": "[a] (0.50, 0.50, 0.50, 0.50) = (0.48, 0.48, 0.48, 0.48)",
           "nodeId": 56
         }
       ],
       "subTests": [
         {
-          "name": "[a] 0.50000 = 0.48121",
-          "resultVarName": "TestResult_math/asinh_[a] 0.50000 = 0.48121",
+          "name": "[a] 0.50 = 0.48",
+          "resultVarName": "TestResult_math/asinh_[a] 0.50 = 0.48",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             0.4812118
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] 0.50000 = 0.48121"
+          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] 0.50 = 0.48"
         },
         {
-          "name": "[a] (0.50000, 0.50000) = (0.48121, 0.48121)",
-          "resultVarName": "TestResult_math/asinh_[a] (0.50000, 0.50000) = (0.48121, 0.48121)",
+          "name": "[a] (0.50, 0.50) = (0.48, 0.48)",
+          "resultVarName": "TestResult_math/asinh_[a] (0.50, 0.50) = (0.48, 0.48)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -63,11 +63,11 @@
             0.4812118
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] (0.50000, 0.50000) = (0.48121, 0.48121)"
+          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] (0.50, 0.50) = (0.48, 0.48)"
         },
         {
-          "name": "[a] (0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121)",
-          "resultVarName": "TestResult_math/asinh_[a] (0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121)",
+          "name": "[a] (0.50, 0.50, 0.50) = (0.48, 0.48, 0.48)",
+          "resultVarName": "TestResult_math/asinh_[a] (0.50, 0.50, 0.50) = (0.48, 0.48, 0.48)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -76,11 +76,11 @@
             0.4812118
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] (0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121)"
+          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] (0.50, 0.50, 0.50) = (0.48, 0.48, 0.48)"
         },
         {
-          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121, 0.48121)",
-          "resultVarName": "TestResult_math/asinh_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121, 0.48121)",
+          "name": "[a] (0.50, 0.50, 0.50, 0.50) = (0.48, 0.48, 0.48, 0.48)",
+          "resultVarName": "TestResult_math/asinh_[a] (0.50, 0.50, 0.50, 0.50) = (0.48, 0.48, 0.48, 0.48)",
           "resultVarId": 7,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -90,7 +90,7 @@
             0.4812118
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (0.48121, 0.48121, 0.48121, 0.48121)"
+          "successResultVarName": "TestResult_HasPassed_math/asinh_[a] (0.50, 0.50, 0.50, 0.50) = (0.48, 0.48, 0.48, 0.48)"
         }
       ]
     }

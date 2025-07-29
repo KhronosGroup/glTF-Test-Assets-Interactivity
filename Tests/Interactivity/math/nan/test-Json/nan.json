@@ -1,17 +1,17 @@
 {
-  "glbFileName": "nan.glb",
-  "name": "math/nan",
+  "glbFileName": "NaN.glb",
+  "name": "math/NaN",
   "tests": [
     {
-      "name": "math/nan",
+      "name": "math/NaN",
       "description": "",
       "usedSchemas": [
         "debug/log",
         "event/onStart",
         "flow/branch",
         "flow/sequence",
-        "math/isnan",
-        "math/nan",
+        "math/isNaN",
+        "math/NaN",
         "pointer/set",
         "variable/get",
         "variable/set"
@@ -25,14 +25,14 @@
       "subTests": [
         {
           "name": "= NaN",
-          "resultVarName": "TestResult_math/nan_= NaN",
+          "resultVarName": "TestResult_math/NaN_= NaN",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/nan_= NaN"
+          "successResultVarName": "TestResult_HasPassed_math/NaN_= NaN"
         }
       ]
     }
@@ -42,8 +42,8 @@
     "event/onStart",
     "flow/branch",
     "flow/sequence",
-    "math/isnan",
-    "math/nan",
+    "math/isNaN",
+    "math/NaN",
     "pointer/set",
     "variable/get",
     "variable/set"

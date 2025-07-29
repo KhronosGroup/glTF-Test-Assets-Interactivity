@@ -4,7 +4,7 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| [a] 1.34650 [b] 1.34650 = True | TestResult_math/le_[a] 1.34650 [b] 1.34650 = True | 1 | True
+| [a] 1.35 [b] 1.35 = True | TestResult_math/le_[a] 1.35 [b] 1.35 = True | 1 | True
 | [a] 1 [b] 1 = True | TestResult_math/le_[a] 1 [b] 1 = True | 3 | True
 
 Schemas used in this test case:

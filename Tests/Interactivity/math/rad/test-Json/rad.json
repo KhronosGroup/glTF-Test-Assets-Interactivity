@@ -25,37 +25,37 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 75.00000 = 1.30900",
+          "name": "[a] 75.00 = 1.31",
           "nodeId": 1
         },
         {
-          "name": "[a] (75.00000, 75.00000) = (1.30900, 1.30900)",
+          "name": "[a] (75.00, 75.00) = (1.31, 1.31)",
           "nodeId": 17
         },
         {
-          "name": "[a] (75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900)",
+          "name": "[a] (75.00, 75.00, 75.00) = (1.31, 1.31, 1.31)",
           "nodeId": 36
         },
         {
-          "name": "[a] (75.00000, 75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900, 1.30900)",
+          "name": "[a] (75.00, 75.00, 75.00, 75.00) = (1.31, 1.31, 1.31, 1.31)",
           "nodeId": 56
         }
       ],
       "subTests": [
         {
-          "name": "[a] 75.00000 = 1.30900",
-          "resultVarName": "TestResult_math/rad_[a] 75.00000 = 1.30900",
+          "name": "[a] 75.00 = 1.31",
+          "resultVarName": "TestResult_math/rad_[a] 75.00 = 1.31",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             1.30899692
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/rad_[a] 75.00000 = 1.30900"
+          "successResultVarName": "TestResult_HasPassed_math/rad_[a] 75.00 = 1.31"
         },
         {
-          "name": "[a] (75.00000, 75.00000) = (1.30900, 1.30900)",
-          "resultVarName": "TestResult_math/rad_[a] (75.00000, 75.00000) = (1.30900, 1.30900)",
+          "name": "[a] (75.00, 75.00) = (1.31, 1.31)",
+          "resultVarName": "TestResult_math/rad_[a] (75.00, 75.00) = (1.31, 1.31)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -63,11 +63,11 @@
             1.30899692
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/rad_[a] (75.00000, 75.00000) = (1.30900, 1.30900)"
+          "successResultVarName": "TestResult_HasPassed_math/rad_[a] (75.00, 75.00) = (1.31, 1.31)"
         },
         {
-          "name": "[a] (75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900)",
-          "resultVarName": "TestResult_math/rad_[a] (75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900)",
+          "name": "[a] (75.00, 75.00, 75.00) = (1.31, 1.31, 1.31)",
+          "resultVarName": "TestResult_math/rad_[a] (75.00, 75.00, 75.00) = (1.31, 1.31, 1.31)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -76,11 +76,11 @@
             1.30899692
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/rad_[a] (75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900)"
+          "successResultVarName": "TestResult_HasPassed_math/rad_[a] (75.00, 75.00, 75.00) = (1.31, 1.31, 1.31)"
         },
         {
-          "name": "[a] (75.00000, 75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900, 1.30900)",
-          "resultVarName": "TestResult_math/rad_[a] (75.00000, 75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900, 1.30900)",
+          "name": "[a] (75.00, 75.00, 75.00, 75.00) = (1.31, 1.31, 1.31, 1.31)",
+          "resultVarName": "TestResult_math/rad_[a] (75.00, 75.00, 75.00, 75.00) = (1.31, 1.31, 1.31, 1.31)",
           "resultVarId": 7,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -90,7 +90,7 @@
             1.30899692
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/rad_[a] (75.00000, 75.00000, 75.00000, 75.00000) = (1.30900, 1.30900, 1.30900, 1.30900)"
+          "successResultVarName": "TestResult_HasPassed_math/rad_[a] (75.00, 75.00, 75.00, 75.00) = (1.31, 1.31, 1.31, 1.31)"
         }
       ]
     }

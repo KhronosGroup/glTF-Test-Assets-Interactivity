@@ -25,37 +25,37 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 4.32400 = -0.37870",
+          "name": "[a] 4.32 = -0.38",
           "nodeId": 1
         },
         {
-          "name": "[a] (4.32400, 4.32400) = (-0.37870, -0.37870)",
+          "name": "[a] (4.32, 4.32) = (-0.38, -0.38)",
           "nodeId": 17
         },
         {
-          "name": "[a] (4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870)",
+          "name": "[a] (4.32, 4.32, 4.32) = (-0.38, -0.38, -0.38)",
           "nodeId": 36
         },
         {
-          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870, -0.37870)",
+          "name": "[a] (4.32, 4.32, 4.32, 4.32) = (-0.38, -0.38, -0.38, -0.38)",
           "nodeId": 56
         }
       ],
       "subTests": [
         {
-          "name": "[a] 4.32400 = -0.37870",
-          "resultVarName": "TestResult_math/cos_[a] 4.32400 = -0.37870",
+          "name": "[a] 4.32 = -0.38",
+          "resultVarName": "TestResult_math/cos_[a] 4.32 = -0.38",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             -0.378698
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/cos_[a] 4.32400 = -0.37870"
+          "successResultVarName": "TestResult_HasPassed_math/cos_[a] 4.32 = -0.38"
         },
         {
-          "name": "[a] (4.32400, 4.32400) = (-0.37870, -0.37870)",
-          "resultVarName": "TestResult_math/cos_[a] (4.32400, 4.32400) = (-0.37870, -0.37870)",
+          "name": "[a] (4.32, 4.32) = (-0.38, -0.38)",
+          "resultVarName": "TestResult_math/cos_[a] (4.32, 4.32) = (-0.38, -0.38)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -63,11 +63,11 @@
             -0.378698
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/cos_[a] (4.32400, 4.32400) = (-0.37870, -0.37870)"
+          "successResultVarName": "TestResult_HasPassed_math/cos_[a] (4.32, 4.32) = (-0.38, -0.38)"
         },
         {
-          "name": "[a] (4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870)",
-          "resultVarName": "TestResult_math/cos_[a] (4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870)",
+          "name": "[a] (4.32, 4.32, 4.32) = (-0.38, -0.38, -0.38)",
+          "resultVarName": "TestResult_math/cos_[a] (4.32, 4.32, 4.32) = (-0.38, -0.38, -0.38)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -76,11 +76,11 @@
             -0.378698
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/cos_[a] (4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870)"
+          "successResultVarName": "TestResult_HasPassed_math/cos_[a] (4.32, 4.32, 4.32) = (-0.38, -0.38, -0.38)"
         },
         {
-          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870, -0.37870)",
-          "resultVarName": "TestResult_math/cos_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870, -0.37870)",
+          "name": "[a] (4.32, 4.32, 4.32, 4.32) = (-0.38, -0.38, -0.38, -0.38)",
+          "resultVarName": "TestResult_math/cos_[a] (4.32, 4.32, 4.32, 4.32) = (-0.38, -0.38, -0.38, -0.38)",
           "resultVarId": 7,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -90,7 +90,7 @@
             -0.378698
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/cos_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (-0.37870, -0.37870, -0.37870, -0.37870)"
+          "successResultVarName": "TestResult_HasPassed_math/cos_[a] (4.32, 4.32, 4.32, 4.32) = (-0.38, -0.38, -0.38, -0.38)"
         }
       ]
     }

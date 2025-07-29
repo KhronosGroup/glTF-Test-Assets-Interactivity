@@ -1,0 +1,140 @@
+{
+  "glbFileName": "normalize.glb",
+  "name": "math/normalize",
+  "tests": [
+    {
+      "name": "math/normalize",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/dot",
+        "math/eq",
+        "math/gt",
+        "math/length",
+        "math/normalize",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] (1.00, 2.00) = (0.45, 0.89)",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (1.00, 2.00, 3.00) = (0.27, 0.53, 0.80)",
+          "nodeId": 20
+        },
+        {
+          "name": "[a] (1.00, 2.00, 3.00, 4.00) = (0.18, 0.37, 0.55, 0.73)",
+          "nodeId": 39
+        },
+        {
+          "name": "Invalid:[a] (0.00, 0.00, 0.00) ",
+          "nodeId": 59
+        },
+        {
+          "name": "Invalid:[a] (NaN, 0.00, 0.00) ",
+          "nodeId": 72
+        },
+        {
+          "name": "Invalid:[a] (Infinity, 0.00, 0.00) ",
+          "nodeId": 86
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] (1.00, 2.00) = (0.45, 0.89)",
+          "resultVarName": "TestResult_math/normalize_[a] (1.00, 2.00) = (0.45, 0.89)",
+          "resultVarId": 1,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.4472136,
+            0.8944272
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/normalize_[a] (1.00, 2.00) = (0.45, 0.89)"
+        },
+        {
+          "name": "[a] (1.00, 2.00, 3.00) = (0.27, 0.53, 0.80)",
+          "resultVarName": "TestResult_math/normalize_[a] (1.00, 2.00, 3.00) = (0.27, 0.53, 0.80)",
+          "resultVarId": 3,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.267261237,
+            0.5345225,
+            0.8017837
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/normalize_[a] (1.00, 2.00, 3.00) = (0.27, 0.53, 0.80)"
+        },
+        {
+          "name": "[a] (1.00, 2.00, 3.00, 4.00) = (0.18, 0.37, 0.55, 0.73)",
+          "resultVarName": "TestResult_math/normalize_[a] (1.00, 2.00, 3.00, 4.00) = (0.18, 0.37, 0.55, 0.73)",
+          "resultVarId": 5,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.182574183,
+            0.365148365,
+            0.5477225,
+            0.730296731
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/normalize_[a] (1.00, 2.00, 3.00, 4.00) = (0.18, 0.37, 0.55, 0.73)"
+        },
+        {
+          "name": "Invalid:[a] (0.00, 0.00, 0.00) ",
+          "resultVarName": "TestResult_math/normalize_Invalid:[a] (0.00, 0.00, 0.00) ",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/normalize_Invalid:[a] (0.00, 0.00, 0.00) "
+        },
+        {
+          "name": "Invalid:[a] (NaN, 0.00, 0.00) ",
+          "resultVarName": "TestResult_math/normalize_Invalid:[a] (NaN, 0.00, 0.00) ",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/normalize_Invalid:[a] (NaN, 0.00, 0.00) "
+        },
+        {
+          "name": "Invalid:[a] (Infinity, 0.00, 0.00) ",
+          "resultVarName": "TestResult_math/normalize_Invalid:[a] (Infinity, 0.00, 0.00) ",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/normalize_Invalid:[a] (Infinity, 0.00, 0.00) "
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/dot",
+    "math/eq",
+    "math/gt",
+    "math/length",
+    "math/normalize",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

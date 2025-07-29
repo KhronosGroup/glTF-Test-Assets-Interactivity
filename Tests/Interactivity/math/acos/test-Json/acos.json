@@ -25,37 +25,37 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 0.50000 = 1.04720",
+          "name": "[a] 0.50 = 1.05",
           "nodeId": 1
         },
         {
-          "name": "[a] (0.50000, 0.50000) = (1.04720, 1.04720)",
+          "name": "[a] (0.50, 0.50) = (1.05, 1.05)",
           "nodeId": 17
         },
         {
-          "name": "[a] (0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720)",
+          "name": "[a] (0.50, 0.50, 0.50) = (1.05, 1.05, 1.05)",
           "nodeId": 36
         },
         {
-          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720, 1.04720)",
+          "name": "[a] (0.50, 0.50, 0.50, 0.50) = (1.05, 1.05, 1.05, 1.05)",
           "nodeId": 56
         }
       ],
       "subTests": [
         {
-          "name": "[a] 0.50000 = 1.04720",
-          "resultVarName": "TestResult_math/acos_[a] 0.50000 = 1.04720",
+          "name": "[a] 0.50 = 1.05",
+          "resultVarName": "TestResult_math/acos_[a] 0.50 = 1.05",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             1.04719758
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/acos_[a] 0.50000 = 1.04720"
+          "successResultVarName": "TestResult_HasPassed_math/acos_[a] 0.50 = 1.05"
         },
         {
-          "name": "[a] (0.50000, 0.50000) = (1.04720, 1.04720)",
-          "resultVarName": "TestResult_math/acos_[a] (0.50000, 0.50000) = (1.04720, 1.04720)",
+          "name": "[a] (0.50, 0.50) = (1.05, 1.05)",
+          "resultVarName": "TestResult_math/acos_[a] (0.50, 0.50) = (1.05, 1.05)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -63,11 +63,11 @@
             1.04719758
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/acos_[a] (0.50000, 0.50000) = (1.04720, 1.04720)"
+          "successResultVarName": "TestResult_HasPassed_math/acos_[a] (0.50, 0.50) = (1.05, 1.05)"
         },
         {
-          "name": "[a] (0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720)",
-          "resultVarName": "TestResult_math/acos_[a] (0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720)",
+          "name": "[a] (0.50, 0.50, 0.50) = (1.05, 1.05, 1.05)",
+          "resultVarName": "TestResult_math/acos_[a] (0.50, 0.50, 0.50) = (1.05, 1.05, 1.05)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -76,11 +76,11 @@
             1.04719758
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/acos_[a] (0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720)"
+          "successResultVarName": "TestResult_HasPassed_math/acos_[a] (0.50, 0.50, 0.50) = (1.05, 1.05, 1.05)"
         },
         {
-          "name": "[a] (0.50000, 0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720, 1.04720)",
-          "resultVarName": "TestResult_math/acos_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720, 1.04720)",
+          "name": "[a] (0.50, 0.50, 0.50, 0.50) = (1.05, 1.05, 1.05, 1.05)",
+          "resultVarName": "TestResult_math/acos_[a] (0.50, 0.50, 0.50, 0.50) = (1.05, 1.05, 1.05, 1.05)",
           "resultVarId": 7,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -90,7 +90,7 @@
             1.04719758
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/acos_[a] (0.50000, 0.50000, 0.50000, 0.50000) = (1.04720, 1.04720, 1.04720, 1.04720)"
+          "successResultVarName": "TestResult_HasPassed_math/acos_[a] (0.50, 0.50, 0.50, 0.50) = (1.05, 1.05, 1.05, 1.05)"
         }
       ]
     }

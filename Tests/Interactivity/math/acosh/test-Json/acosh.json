@@ -25,37 +25,37 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 1.50000 = 0.96242",
+          "name": "[a] 1.50 = 0.96",
           "nodeId": 1
         },
         {
-          "name": "[a] (1.50000, 1.50000) = (0.96242, 0.96242)",
+          "name": "[a] (1.50, 1.50) = (0.96, 0.96)",
           "nodeId": 17
         },
         {
-          "name": "[a] (1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242)",
+          "name": "[a] (1.50, 1.50, 1.50) = (0.96, 0.96, 0.96)",
           "nodeId": 36
         },
         {
-          "name": "[a] (1.50000, 1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242, 0.96242)",
+          "name": "[a] (1.50, 1.50, 1.50, 1.50) = (0.96, 0.96, 0.96, 0.96)",
           "nodeId": 56
         }
       ],
       "subTests": [
         {
-          "name": "[a] 1.50000 = 0.96242",
-          "resultVarName": "TestResult_math/acosh_[a] 1.50000 = 0.96242",
+          "name": "[a] 1.50 = 0.96",
+          "resultVarName": "TestResult_math/acosh_[a] 1.50 = 0.96",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             0.9624236
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] 1.50000 = 0.96242"
+          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] 1.50 = 0.96"
         },
         {
-          "name": "[a] (1.50000, 1.50000) = (0.96242, 0.96242)",
-          "resultVarName": "TestResult_math/acosh_[a] (1.50000, 1.50000) = (0.96242, 0.96242)",
+          "name": "[a] (1.50, 1.50) = (0.96, 0.96)",
+          "resultVarName": "TestResult_math/acosh_[a] (1.50, 1.50) = (0.96, 0.96)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -63,11 +63,11 @@
             0.9624236
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] (1.50000, 1.50000) = (0.96242, 0.96242)"
+          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] (1.50, 1.50) = (0.96, 0.96)"
         },
         {
-          "name": "[a] (1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242)",
-          "resultVarName": "TestResult_math/acosh_[a] (1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242)",
+          "name": "[a] (1.50, 1.50, 1.50) = (0.96, 0.96, 0.96)",
+          "resultVarName": "TestResult_math/acosh_[a] (1.50, 1.50, 1.50) = (0.96, 0.96, 0.96)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -76,11 +76,11 @@
             0.9624236
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] (1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242)"
+          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] (1.50, 1.50, 1.50) = (0.96, 0.96, 0.96)"
         },
         {
-          "name": "[a] (1.50000, 1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242, 0.96242)",
-          "resultVarName": "TestResult_math/acosh_[a] (1.50000, 1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242, 0.96242)",
+          "name": "[a] (1.50, 1.50, 1.50, 1.50) = (0.96, 0.96, 0.96, 0.96)",
+          "resultVarName": "TestResult_math/acosh_[a] (1.50, 1.50, 1.50, 1.50) = (0.96, 0.96, 0.96, 0.96)",
           "resultVarId": 7,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -90,7 +90,7 @@
             0.9624236
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] (1.50000, 1.50000, 1.50000, 1.50000) = (0.96242, 0.96242, 0.96242, 0.96242)"
+          "successResultVarName": "TestResult_HasPassed_math/acosh_[a] (1.50, 1.50, 1.50, 1.50) = (0.96, 0.96, 0.96, 0.96)"
         }
       ]
     }

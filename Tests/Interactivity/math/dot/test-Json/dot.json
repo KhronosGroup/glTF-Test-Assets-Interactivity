@@ -20,51 +20,51 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] (1.00000, 2.00000) [b] (3.00000, 4.00000) = 11.00000",
+          "name": "[a] (1.00, 2.00) [b] (3.00, 4.00) = 11.00",
           "nodeId": 1
         },
         {
-          "name": "[a] (1.00000, 2.00000, 3.00000) [b] (4.00000, 5.00000, 6.00000) = 32.00000",
+          "name": "[a] (1.00, 2.00, 3.00) [b] (4.00, 5.00, 6.00) = 32.00",
           "nodeId": 17
         },
         {
-          "name": "[a] (1.00000, 2.00000, 3.00000, 4.00000) [b] (5.00000, 6.00000, 7.00000, 8.00000) = 70.00000",
+          "name": "[a] (1.00, 2.00, 3.00, 4.00) [b] (5.00, 6.00, 7.00, 8.00) = 70.00",
           "nodeId": 33
         }
       ],
       "subTests": [
         {
-          "name": "[a] (1.00000, 2.00000) [b] (3.00000, 4.00000) = 11.00000",
-          "resultVarName": "TestResult_math/dot_[a] (1.00000, 2.00000) [b] (3.00000, 4.00000) = 11.00000",
+          "name": "[a] (1.00, 2.00) [b] (3.00, 4.00) = 11.00",
+          "resultVarName": "TestResult_math/dot_[a] (1.00, 2.00) [b] (3.00, 4.00) = 11.00",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             11.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/dot_[a] (1.00000, 2.00000) [b] (3.00000, 4.00000) = 11.00000"
+          "successResultVarName": "TestResult_HasPassed_math/dot_[a] (1.00, 2.00) [b] (3.00, 4.00) = 11.00"
         },
         {
-          "name": "[a] (1.00000, 2.00000, 3.00000) [b] (4.00000, 5.00000, 6.00000) = 32.00000",
-          "resultVarName": "TestResult_math/dot_[a] (1.00000, 2.00000, 3.00000) [b] (4.00000, 5.00000, 6.00000) = 32.00000",
+          "name": "[a] (1.00, 2.00, 3.00) [b] (4.00, 5.00, 6.00) = 32.00",
+          "resultVarName": "TestResult_math/dot_[a] (1.00, 2.00, 3.00) [b] (4.00, 5.00, 6.00) = 32.00",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             32.0
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/dot_[a] (1.00000, 2.00000, 3.00000) [b] (4.00000, 5.00000, 6.00000) = 32.00000"
+          "successResultVarName": "TestResult_HasPassed_math/dot_[a] (1.00, 2.00, 3.00) [b] (4.00, 5.00, 6.00) = 32.00"
         },
         {
-          "name": "[a] (1.00000, 2.00000, 3.00000, 4.00000) [b] (5.00000, 6.00000, 7.00000, 8.00000) = 70.00000",
-          "resultVarName": "TestResult_math/dot_[a] (1.00000, 2.00000, 3.00000, 4.00000) [b] (5.00000, 6.00000, 7.00000, 8.00000) = 70.00000",
+          "name": "[a] (1.00, 2.00, 3.00, 4.00) [b] (5.00, 6.00, 7.00, 8.00) = 70.00",
+          "resultVarName": "TestResult_math/dot_[a] (1.00, 2.00, 3.00, 4.00) [b] (5.00, 6.00, 7.00, 8.00) = 70.00",
           "resultVarId": 5,
           "resultVarType": "float",
           "expectedResultValue": [
             70.0
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/dot_[a] (1.00000, 2.00000, 3.00000, 4.00000) [b] (5.00000, 6.00000, 7.00000, 8.00000) = 70.00000"
+          "successResultVarName": "TestResult_HasPassed_math/dot_[a] (1.00, 2.00, 3.00, 4.00) [b] (5.00, 6.00, 7.00, 8.00) = 70.00"
         }
       ]
     }

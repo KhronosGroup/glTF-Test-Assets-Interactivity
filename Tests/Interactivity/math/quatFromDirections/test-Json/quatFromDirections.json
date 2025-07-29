@@ -22,14 +22,14 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] (1.00000, 0.00000, 0.00000) [b] (0.00000, 1.00000, 0.00000) = (0.00000, 0.00000, 0.70711, 0.70711)",
+          "name": "[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.71, 0.71)",
           "nodeId": 1
         }
       ],
       "subTests": [
         {
-          "name": "[a] (1.00000, 0.00000, 0.00000) [b] (0.00000, 1.00000, 0.00000) = (0.00000, 0.00000, 0.70711, 0.70711)",
-          "resultVarName": "TestResult_math/quatFromDirections_[a] (1.00000, 0.00000, 0.00000) [b] (0.00000, 1.00000, 0.00000) = (0.00000, 0.00000, 0.70711, 0.70711)",
+          "name": "[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.71, 0.71)",
+          "resultVarName": "TestResult_math/quatFromDirections_[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.71, 0.71)",
           "resultVarId": 1,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -39,7 +39,7 @@
             0.7071068
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/quatFromDirections_[a] (1.00000, 0.00000, 0.00000) [b] (0.00000, 1.00000, 0.00000) = (0.00000, 0.00000, 0.70711, 0.70711)"
+          "successResultVarName": "TestResult_HasPassed_math/quatFromDirections_[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.71, 0.71)"
         }
       ]
     }

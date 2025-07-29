@@ -20,21 +20,21 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] (0.00000, 1.00000, 0.00000, 0.00000) [b] (0.00000, 0.70711, 0.00000, 0.70711) = 1.57080",
+          "name": "[a] (0.00, 1.00, 0.00, 0.00) [b] (0.00, 0.71, 0.00, 0.71) = 1.57",
           "nodeId": 1
         }
       ],
       "subTests": [
         {
-          "name": "[a] (0.00000, 1.00000, 0.00000, 0.00000) [b] (0.00000, 0.70711, 0.00000, 0.70711) = 1.57080",
-          "resultVarName": "TestResult_math/quatAngleBetween_[a] (0.00000, 1.00000, 0.00000, 0.00000) [b] (0.00000, 0.70711, 0.00000, 0.70711) = 1.57080",
+          "name": "[a] (0.00, 1.00, 0.00, 0.00) [b] (0.00, 0.71, 0.00, 0.71) = 1.57",
+          "resultVarName": "TestResult_math/quatAngleBetween_[a] (0.00, 1.00, 0.00, 0.00) [b] (0.00, 0.71, 0.00, 0.71) = 1.57",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             1.57079649
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/quatAngleBetween_[a] (0.00000, 1.00000, 0.00000, 0.00000) [b] (0.00000, 0.70711, 0.00000, 0.70711) = 1.57080"
+          "successResultVarName": "TestResult_HasPassed_math/quatAngleBetween_[a] (0.00, 1.00, 0.00, 0.00) [b] (0.00, 0.71, 0.00, 0.71) = 1.57"
         }
       ]
     }

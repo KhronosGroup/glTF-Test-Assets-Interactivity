@@ -25,33 +25,33 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 1.09956 = 63.00000",
+          "name": "[a] 1.10 = 63.00",
           "nodeId": 1
         },
         {
-          "name": "[a] (1.09956, 1.09956) = (63.00000, 63.00000)",
+          "name": "[a] (1.10, 1.10) = (63.00, 63.00)",
           "nodeId": 17
         },
         {
-          "name": "[a] (1.09956, 1.09956, 1.09956) = (63.00000, 63.00000, 63.00000)",
+          "name": "[a] (1.10, 1.10, 1.10) = (63.00, 63.00, 63.00)",
           "nodeId": 36
         }
       ],
       "subTests": [
         {
-          "name": "[a] 1.09956 = 63.00000",
-          "resultVarName": "TestResult_math/deg_[a] 1.09956 = 63.00000",
+          "name": "[a] 1.10 = 63.00",
+          "resultVarName": "TestResult_math/deg_[a] 1.10 = 63.00",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             62.9999962
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/deg_[a] 1.09956 = 63.00000"
+          "successResultVarName": "TestResult_HasPassed_math/deg_[a] 1.10 = 63.00"
         },
         {
-          "name": "[a] (1.09956, 1.09956) = (63.00000, 63.00000)",
-          "resultVarName": "TestResult_math/deg_[a] (1.09956, 1.09956) = (63.00000, 63.00000)",
+          "name": "[a] (1.10, 1.10) = (63.00, 63.00)",
+          "resultVarName": "TestResult_math/deg_[a] (1.10, 1.10) = (63.00, 63.00)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -59,11 +59,11 @@
             62.9999962
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/deg_[a] (1.09956, 1.09956) = (63.00000, 63.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/deg_[a] (1.10, 1.10) = (63.00, 63.00)"
         },
         {
-          "name": "[a] (1.09956, 1.09956, 1.09956) = (63.00000, 63.00000, 63.00000)",
-          "resultVarName": "TestResult_math/deg_[a] (1.09956, 1.09956, 1.09956) = (63.00000, 63.00000, 63.00000)",
+          "name": "[a] (1.10, 1.10, 1.10) = (63.00, 63.00, 63.00)",
+          "resultVarName": "TestResult_math/deg_[a] (1.10, 1.10, 1.10) = (63.00, 63.00, 63.00)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -72,7 +72,7 @@
             62.9999962
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/deg_[a] (1.09956, 1.09956, 1.09956) = (63.00000, 63.00000, 63.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/deg_[a] (1.10, 1.10, 1.10) = (63.00, 63.00, 63.00)"
         }
       ]
     }

@@ -18,14 +18,14 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 1.00000 [b] 2.00000 = (1.00000, 2.00000)",
+          "name": "[a] 1.00 [b] 2.00 = (1.00, 2.00)",
           "nodeId": 1
         }
       ],
       "subTests": [
         {
-          "name": "[a] 1.00000 [b] 2.00000 = (1.00000, 2.00000)",
-          "resultVarName": "TestResult_math/combine2_[a] 1.00000 [b] 2.00000 = (1.00000, 2.00000)",
+          "name": "[a] 1.00 [b] 2.00 = (1.00, 2.00)",
+          "resultVarName": "TestResult_math/combine2_[a] 1.00 [b] 2.00 = (1.00, 2.00)",
           "resultVarId": 1,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -33,7 +33,7 @@
             2.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/combine2_[a] 1.00000 [b] 2.00000 = (1.00000, 2.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/combine2_[a] 1.00 [b] 2.00 = (1.00, 2.00)"
         }
       ]
     }

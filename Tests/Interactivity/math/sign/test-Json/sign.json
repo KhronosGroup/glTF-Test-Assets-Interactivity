@@ -18,64 +18,64 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] -9.00000 = -1.00000",
+          "name": "[a] -9.00 = -1.00",
           "nodeId": 1
         },
         {
-          "name": "[a] 9.00000 = 1.00000",
+          "name": "[a] 9.00 = 1.00",
           "nodeId": 15
         },
         {
-          "name": "[a] (-9.00000, -9.00000) = (-1.00000, -1.00000)",
+          "name": "[a] (-9.00, -9.00) = (-1.00, -1.00)",
           "nodeId": 29
         },
         {
-          "name": "[a] (9.00000, 9.00000) = (1.00000, 1.00000)",
+          "name": "[a] (9.00, 9.00) = (1.00, 1.00)",
           "nodeId": 44
         },
         {
-          "name": "[a] (-9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000)",
+          "name": "[a] (-9.00, -9.00, -9.00) = (-1.00, -1.00, -1.00)",
           "nodeId": 57
         },
         {
-          "name": "[a] (9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000)",
+          "name": "[a] (9.00, 9.00, 9.00) = (1.00, 1.00, 1.00)",
           "nodeId": 71
         },
         {
-          "name": "[a] (-9.00000, -9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000, -1.00000)",
+          "name": "[a] (-9.00, -9.00, -9.00, -9.00) = (-1.00, -1.00, -1.00, -1.00)",
           "nodeId": 86
         },
         {
-          "name": "[a] (9.00000, 9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000, 1.00000)",
+          "name": "[a] (9.00, 9.00, 9.00, 9.00) = (1.00, 1.00, 1.00, 1.00)",
           "nodeId": 100
         }
       ],
       "subTests": [
         {
-          "name": "[a] -9.00000 = -1.00000",
-          "resultVarName": "TestResult_math/sign_[a] -9.00000 = -1.00000",
+          "name": "[a] -9.00 = -1.00",
+          "resultVarName": "TestResult_math/sign_[a] -9.00 = -1.00",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             -1.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/sign_[a] -9.00000 = -1.00000"
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] -9.00 = -1.00"
         },
         {
-          "name": "[a] 9.00000 = 1.00000",
-          "resultVarName": "TestResult_math/sign_[a] 9.00000 = 1.00000",
+          "name": "[a] 9.00 = 1.00",
+          "resultVarName": "TestResult_math/sign_[a] 9.00 = 1.00",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/sign_[a] 9.00000 = 1.00000"
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] 9.00 = 1.00"
         },
         {
-          "name": "[a] (-9.00000, -9.00000) = (-1.00000, -1.00000)",
-          "resultVarName": "TestResult_math/sign_[a] (-9.00000, -9.00000) = (-1.00000, -1.00000)",
+          "name": "[a] (-9.00, -9.00) = (-1.00, -1.00)",
+          "resultVarName": "TestResult_math/sign_[a] (-9.00, -9.00) = (-1.00, -1.00)",
           "resultVarId": 5,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -83,11 +83,11 @@
             -1.0
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (-9.00000, -9.00000) = (-1.00000, -1.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (-9.00, -9.00) = (-1.00, -1.00)"
         },
         {
-          "name": "[a] (9.00000, 9.00000) = (1.00000, 1.00000)",
-          "resultVarName": "TestResult_math/sign_[a] (9.00000, 9.00000) = (1.00000, 1.00000)",
+          "name": "[a] (9.00, 9.00) = (1.00, 1.00)",
+          "resultVarName": "TestResult_math/sign_[a] (9.00, 9.00) = (1.00, 1.00)",
           "resultVarId": 7,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -95,11 +95,11 @@
             1.0
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (9.00000, 9.00000) = (1.00000, 1.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (9.00, 9.00) = (1.00, 1.00)"
         },
         {
-          "name": "[a] (-9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000)",
-          "resultVarName": "TestResult_math/sign_[a] (-9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000)",
+          "name": "[a] (-9.00, -9.00, -9.00) = (-1.00, -1.00, -1.00)",
+          "resultVarName": "TestResult_math/sign_[a] (-9.00, -9.00, -9.00) = (-1.00, -1.00, -1.00)",
           "resultVarId": 9,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -108,11 +108,11 @@
             -1.0
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (-9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (-9.00, -9.00, -9.00) = (-1.00, -1.00, -1.00)"
         },
         {
-          "name": "[a] (9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000)",
-          "resultVarName": "TestResult_math/sign_[a] (9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000)",
+          "name": "[a] (9.00, 9.00, 9.00) = (1.00, 1.00, 1.00)",
+          "resultVarName": "TestResult_math/sign_[a] (9.00, 9.00, 9.00) = (1.00, 1.00, 1.00)",
           "resultVarId": 11,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -121,11 +121,11 @@
             1.0
           ],
           "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (9.00, 9.00, 9.00) = (1.00, 1.00, 1.00)"
         },
         {
-          "name": "[a] (-9.00000, -9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000, -1.00000)",
-          "resultVarName": "TestResult_math/sign_[a] (-9.00000, -9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000, -1.00000)",
+          "name": "[a] (-9.00, -9.00, -9.00, -9.00) = (-1.00, -1.00, -1.00, -1.00)",
+          "resultVarName": "TestResult_math/sign_[a] (-9.00, -9.00, -9.00, -9.00) = (-1.00, -1.00, -1.00, -1.00)",
           "resultVarId": 13,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -135,11 +135,11 @@
             -1.0
           ],
           "successResultVarId": 12,
-          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (-9.00000, -9.00000, -9.00000, -9.00000) = (-1.00000, -1.00000, -1.00000, -1.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (-9.00, -9.00, -9.00, -9.00) = (-1.00, -1.00, -1.00, -1.00)"
         },
         {
-          "name": "[a] (9.00000, 9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000, 1.00000)",
-          "resultVarName": "TestResult_math/sign_[a] (9.00000, 9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000, 1.00000)",
+          "name": "[a] (9.00, 9.00, 9.00, 9.00) = (1.00, 1.00, 1.00, 1.00)",
+          "resultVarName": "TestResult_math/sign_[a] (9.00, 9.00, 9.00, 9.00) = (1.00, 1.00, 1.00, 1.00)",
           "resultVarId": 15,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -149,7 +149,7 @@
             1.0
           ],
           "successResultVarId": 14,
-          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (9.00000, 9.00000, 9.00000, 9.00000) = (1.00000, 1.00000, 1.00000, 1.00000)"
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] (9.00, 9.00, 9.00, 9.00) = (1.00, 1.00, 1.00, 1.00)"
         }
       ]
     }

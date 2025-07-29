@@ -25,37 +25,37 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 4.32400 = 37.73837",
+          "name": "[a] 4.32 = 37.74",
           "nodeId": 1
         },
         {
-          "name": "[a] (4.32400, 4.32400) = (37.73837, 37.73837)",
+          "name": "[a] (4.32, 4.32) = (37.74, 37.74)",
           "nodeId": 17
         },
         {
-          "name": "[a] (4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837)",
+          "name": "[a] (4.32, 4.32, 4.32) = (37.74, 37.74, 37.74)",
           "nodeId": 36
         },
         {
-          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837, 37.73837)",
+          "name": "[a] (4.32, 4.32, 4.32, 4.32) = (37.74, 37.74, 37.74, 37.74)",
           "nodeId": 56
         }
       ],
       "subTests": [
         {
-          "name": "[a] 4.32400 = 37.73837",
-          "resultVarName": "TestResult_math/sinh_[a] 4.32400 = 37.73837",
+          "name": "[a] 4.32 = 37.74",
+          "resultVarName": "TestResult_math/sinh_[a] 4.32 = 37.74",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             37.7383652
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] 4.32400 = 37.73837"
+          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] 4.32 = 37.74"
         },
         {
-          "name": "[a] (4.32400, 4.32400) = (37.73837, 37.73837)",
-          "resultVarName": "TestResult_math/sinh_[a] (4.32400, 4.32400) = (37.73837, 37.73837)",
+          "name": "[a] (4.32, 4.32) = (37.74, 37.74)",
+          "resultVarName": "TestResult_math/sinh_[a] (4.32, 4.32) = (37.74, 37.74)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -63,11 +63,11 @@
             37.7383652
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] (4.32400, 4.32400) = (37.73837, 37.73837)"
+          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] (4.32, 4.32) = (37.74, 37.74)"
         },
         {
-          "name": "[a] (4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837)",
-          "resultVarName": "TestResult_math/sinh_[a] (4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837)",
+          "name": "[a] (4.32, 4.32, 4.32) = (37.74, 37.74, 37.74)",
+          "resultVarName": "TestResult_math/sinh_[a] (4.32, 4.32, 4.32) = (37.74, 37.74, 37.74)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -76,11 +76,11 @@
             37.7383652
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] (4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837)"
+          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] (4.32, 4.32, 4.32) = (37.74, 37.74, 37.74)"
         },
         {
-          "name": "[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837, 37.73837)",
-          "resultVarName": "TestResult_math/sinh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837, 37.73837)",
+          "name": "[a] (4.32, 4.32, 4.32, 4.32) = (37.74, 37.74, 37.74, 37.74)",
+          "resultVarName": "TestResult_math/sinh_[a] (4.32, 4.32, 4.32, 4.32) = (37.74, 37.74, 37.74, 37.74)",
           "resultVarId": 7,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -90,7 +90,7 @@
             37.7383652
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] (4.32400, 4.32400, 4.32400, 4.32400) = (37.73837, 37.73837, 37.73837, 37.73837)"
+          "successResultVarName": "TestResult_HasPassed_math/sinh_[a] (4.32, 4.32, 4.32, 4.32) = (37.74, 37.74, 37.74, 37.74)"
         }
       ]
     }

@@ -25,37 +25,37 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] -32434.97000 = 0.03125",
+          "name": "[a] -32434.97 = 0.03",
           "nodeId": 1
         },
         {
-          "name": "[a] (-32434.97000, -32434.97000) = (0.03125, 0.03125)",
+          "name": "[a] (-32434.97, -32434.97) = (0.03, 0.03)",
           "nodeId": 17
         },
         {
-          "name": "[a] (-32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125)",
+          "name": "[a] (-32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03)",
           "nodeId": 36
         },
         {
-          "name": "[a] (-32434.97000, -32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125, 0.03125)",
+          "name": "[a] (-32434.97, -32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03, 0.03)",
           "nodeId": 56
         }
       ],
       "subTests": [
         {
-          "name": "[a] -32434.97000 = 0.03125",
-          "resultVarName": "TestResult_math/fract_[a] -32434.97000 = 0.03125",
+          "name": "[a] -32434.97 = 0.03",
+          "resultVarName": "TestResult_math/fract_[a] -32434.97 = 0.03",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             0.03125
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/fract_[a] -32434.97000 = 0.03125"
+          "successResultVarName": "TestResult_HasPassed_math/fract_[a] -32434.97 = 0.03"
         },
         {
-          "name": "[a] (-32434.97000, -32434.97000) = (0.03125, 0.03125)",
-          "resultVarName": "TestResult_math/fract_[a] (-32434.97000, -32434.97000) = (0.03125, 0.03125)",
+          "name": "[a] (-32434.97, -32434.97) = (0.03, 0.03)",
+          "resultVarName": "TestResult_math/fract_[a] (-32434.97, -32434.97) = (0.03, 0.03)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -63,11 +63,11 @@
             0.03125
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/fract_[a] (-32434.97000, -32434.97000) = (0.03125, 0.03125)"
+          "successResultVarName": "TestResult_HasPassed_math/fract_[a] (-32434.97, -32434.97) = (0.03, 0.03)"
         },
         {
-          "name": "[a] (-32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125)",
-          "resultVarName": "TestResult_math/fract_[a] (-32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125)",
+          "name": "[a] (-32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03)",
+          "resultVarName": "TestResult_math/fract_[a] (-32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -76,11 +76,11 @@
             0.03125
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/fract_[a] (-32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125)"
+          "successResultVarName": "TestResult_HasPassed_math/fract_[a] (-32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03)"
         },
         {
-          "name": "[a] (-32434.97000, -32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125, 0.03125)",
-          "resultVarName": "TestResult_math/fract_[a] (-32434.97000, -32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125, 0.03125)",
+          "name": "[a] (-32434.97, -32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03, 0.03)",
+          "resultVarName": "TestResult_math/fract_[a] (-32434.97, -32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03, 0.03)",
           "resultVarId": 7,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -90,7 +90,7 @@
             0.03125
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/fract_[a] (-32434.97000, -32434.97000, -32434.97000, -32434.97000) = (0.03125, 0.03125, 0.03125, 0.03125)"
+          "successResultVarName": "TestResult_HasPassed_math/fract_[a] (-32434.97, -32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03, 0.03)"
         }
       ]
     }

@@ -18,7 +18,7 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 1.00000 [b] 2.00000 = False",
+          "name": "[a] 1.00 [b] 2.00 = False",
           "nodeId": 1
         },
         {
@@ -28,15 +28,15 @@
       ],
       "subTests": [
         {
-          "name": "[a] 1.00000 [b] 2.00000 = False",
-          "resultVarName": "TestResult_math/gt_[a] 1.00000 [b] 2.00000 = False",
+          "name": "[a] 1.00 [b] 2.00 = False",
+          "resultVarName": "TestResult_math/gt_[a] 1.00 [b] 2.00 = False",
           "resultVarId": 1,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/gt_[a] 1.00000 [b] 2.00000 = False"
+          "successResultVarName": "TestResult_HasPassed_math/gt_[a] 1.00 [b] 2.00 = False"
         },
         {
           "name": "[a] 1 [b] 2 = False",
