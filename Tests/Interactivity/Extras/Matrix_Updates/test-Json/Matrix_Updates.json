@@ -1,0 +1,123 @@
+{
+  "glbFileName": "Matrix_Updates.glb",
+  "name": "Extras/Matrix Updates",
+  "tests": [
+    {
+      "name": "Extras/Matrix Updates",
+      "description": "Testing if globalMatrix and matrix will be updated in current frame/flow processing",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/inverse",
+        "math/length",
+        "math/matCompose",
+        "math/matDecompose",
+        "math/matMul",
+        "math/normalize",
+        "math/sub",
+        "pointer/get",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Matrix Update",
+          "nodeId": 0
+        }
+      ],
+      "subTests": [
+        {
+          "name": "matrix",
+          "resultVarName": "TestResult_Extras/Matrix Updates_matrix",
+          "resultVarId": 1,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_Extras/Matrix Updates_matrix"
+        },
+        {
+          "name": "globalMatrix",
+          "resultVarName": "TestResult_Extras/Matrix Updates_globalMatrix",
+          "resultVarId": 3,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_Extras/Matrix Updates_globalMatrix"
+        },
+        {
+          "name": "globalMatrix from Child 1",
+          "resultVarName": "TestResult_Extras/Matrix Updates_globalMatrix from Child 1",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_Extras/Matrix Updates_globalMatrix from Child 1"
+        },
+        {
+          "name": "globalMatrix from Child 2",
+          "resultVarName": "TestResult_Extras/Matrix Updates_globalMatrix from Child 2",
+          "resultVarId": 7,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.0,
+            1.0,
+            2.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_Extras/Matrix Updates_globalMatrix from Child 2"
+        },
+        {
+          "name": "globalMatrix from Child 3",
+          "resultVarName": "TestResult_Extras/Matrix Updates_globalMatrix from Child 3",
+          "resultVarId": 9,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.0,
+            1.0,
+            2.0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_Extras/Matrix Updates_globalMatrix from Child 3"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/inverse",
+    "math/length",
+    "math/matCompose",
+    "math/matDecompose",
+    "math/matMul",
+    "math/normalize",
+    "math/sub",
+    "pointer/get",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
