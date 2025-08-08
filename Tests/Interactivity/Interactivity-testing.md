@@ -27,6 +27,10 @@ The following nodes are considered foundational:
 
 ---
 
+## Automatic Testing
+
+Each test *.glb file, will trigger the custom event "test/onStart" with the float parameter "expectedDuration", which submit a 0, when the tests gets completed without a frame delay. Otherwise, it returns the seconds that are required to wait until all tests are completed. When the tests are done, the custom event "test/onFail" or "test/onSuccess" will be triggered.   
+
 ### Copyright
 
 &copy; 2025, The Khronos Group and Needle.
