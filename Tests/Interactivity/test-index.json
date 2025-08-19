@@ -1,5 +1,27 @@
 [
   {
+    "label": "Extras/Loop in Loop Tests",
+    "name": "Extras/Loop_in_Loop_Tests",
+    "tags": [
+      "flow/while",
+      "variable/get",
+      "math/add",
+      "variable/set",
+      "math/lt",
+      "flow/for",
+      "flow/sequence",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log"
+    ],
+    "variants": {
+      "glTF-Binary": "Loop_in_Loop_Tests.glb",
+      "test-Json": "Loop_in_Loop_Tests.json"
+    }
+  },
+  {
     "label": "Extras/Matrix Updates",
     "name": "Extras/Matrix_Updates",
     "tags": [

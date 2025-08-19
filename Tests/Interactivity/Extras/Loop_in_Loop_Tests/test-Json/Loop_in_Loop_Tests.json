@@ -1,0 +1,68 @@
+{
+  "glbFileName": "Loop_in_Loop_Tests.glb",
+  "name": "Extras/Loop in Loop Tests",
+  "tests": [
+    {
+      "name": "Extras/Loop in Loop Tests",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/for",
+        "flow/sequence",
+        "flow/while",
+        "math/add",
+        "math/eq",
+        "math/lt",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Loop in Loop",
+          "nodeId": 13
+        }
+      ],
+      "subTests": [
+        {
+          "name": "For-Loop in While-Loop-Body (Complete Count equal)",
+          "resultVarName": "TestResult_Extras/Loop in Loop Tests_For-Loop in While-Loop-Body (Complete Count equal)",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_Extras/Loop in Loop Tests_For-Loop in While-Loop-Body (Complete Count equal)"
+        },
+        {
+          "name": "For-Loop in While-Loop-Body (For-Body count)",
+          "resultVarName": "TestResult_Extras/Loop in Loop Tests_For-Loop in While-Loop-Body (For-Body count)",
+          "resultVarId": 6,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            15
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_Extras/Loop in Loop Tests_For-Loop in While-Loop-Body (For-Body count)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/for",
+    "flow/sequence",
+    "flow/while",
+    "math/add",
+    "math/eq",
+    "math/lt",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
