@@ -38,7 +38,7 @@
 | /scene isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/scene isValid | 63 | True
 | /scenes.length | TestResult_pointer/CoreReadOnlyPointers_GetTests_/scenes.length | 65 | 1
 | /scenes.length isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/scenes.length isValid | 67 | True
-| /scenes/0/nodes.length | TestResult_pointer/CoreReadOnlyPointers_GetTests_/scenes/0/nodes.length | 69 | 55
+| /scenes/0/nodes.length | TestResult_pointer/CoreReadOnlyPointers_GetTests_/scenes/0/nodes.length | 69 | 1
 | /scenes/0/nodes.length isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/scenes/0/nodes.length isValid | 71 | True
 | /scenes/0/nodes/0 | TestResult_pointer/CoreReadOnlyPointers_GetTests_/scenes/0/nodes/0 | 73 | 0
 | /scenes/0/nodes/0 isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/scenes/0/nodes/0 isValid | 75 | True
