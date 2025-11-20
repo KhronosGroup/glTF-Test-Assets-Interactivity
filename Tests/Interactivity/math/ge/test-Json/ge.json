@@ -22,8 +22,16 @@
           "nodeId": 1
         },
         {
-          "name": "[a] 1 [b] 1 = True",
+          "name": "[a] 2 [b] 2 = True",
           "nodeId": 15
+        },
+        {
+          "name": "[a] 4 [b] 2 = True",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] 1 [b] 2 = False",
+          "nodeId": 50
         }
       ],
       "subTests": [
@@ -39,15 +47,37 @@
           "successResultVarName": "TestResult_HasPassed_math/ge_[a] 1.35 [b] 1.35 = True"
         },
         {
-          "name": "[a] 1 [b] 1 = True",
-          "resultVarName": "TestResult_math/ge_[a] 1 [b] 1 = True",
+          "name": "[a] 2 [b] 2 = True",
+          "resultVarName": "TestResult_math/ge_[a] 2 [b] 2 = True",
           "resultVarId": 3,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/ge_[a] 1 [b] 1 = True"
+          "successResultVarName": "TestResult_HasPassed_math/ge_[a] 2 [b] 2 = True"
+        },
+        {
+          "name": "[a] 4 [b] 2 = True",
+          "resultVarName": "TestResult_math/ge_[a] 4 [b] 2 = True",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/ge_[a] 4 [b] 2 = True"
+        },
+        {
+          "name": "[a] 1 [b] 2 = False",
+          "resultVarName": "TestResult_math/ge_[a] 1 [b] 2 = False",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/ge_[a] 1 [b] 2 = False"
         }
       ]
     }

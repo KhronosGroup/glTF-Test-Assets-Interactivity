@@ -24,6 +24,10 @@
         {
           "name": "[a] 1 [b] 2 = True",
           "nodeId": 15
+        },
+        {
+          "name": "[a] 7 [b] 2 = False",
+          "nodeId": 29
         }
       ],
       "subTests": [
@@ -48,6 +52,17 @@
           ],
           "successResultVarId": 2,
           "successResultVarName": "TestResult_HasPassed_math/lt_[a] 1 [b] 2 = True"
+        },
+        {
+          "name": "[a] 7 [b] 2 = False",
+          "resultVarName": "TestResult_math/lt_[a] 7 [b] 2 = False",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/lt_[a] 7 [b] 2 = False"
         }
       ]
     }

@@ -24,6 +24,10 @@
         {
           "name": "[a] 1 [b] 2 = False",
           "nodeId": 15
+        },
+        {
+          "name": "[a] 3 [b] 2 = True",
+          "nodeId": 29
         }
       ],
       "subTests": [
@@ -48,6 +52,17 @@
           ],
           "successResultVarId": 2,
           "successResultVarName": "TestResult_HasPassed_math/gt_[a] 1 [b] 2 = False"
+        },
+        {
+          "name": "[a] 3 [b] 2 = True",
+          "resultVarName": "TestResult_math/gt_[a] 3 [b] 2 = True",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/gt_[a] 3 [b] 2 = True"
         }
       ]
     }

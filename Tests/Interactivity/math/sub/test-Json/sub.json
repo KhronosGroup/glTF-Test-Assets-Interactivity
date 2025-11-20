@@ -22,24 +22,8 @@
           "nodeId": 1
         },
         {
-          "name": "[a] 7 [b] 9 = -2",
+          "name": "[a] 10 [b] 4 = 6",
           "nodeId": 15
-        },
-        {
-          "name": "[a] (7.00, 7.00) [b] (9.00, 9.00) = (-2.00, -2.00)",
-          "nodeId": 29
-        },
-        {
-          "name": "[a] (7.00, 7.00, 7.00) [b] (9.00, 9.00, 9.00) = (-2.00, -2.00, -2.00)",
-          "nodeId": 54
-        },
-        {
-          "name": "[a] (7.00, 7.00, 7.00, 7.00) [b] (9.00, 9.00, 9.00, 9.00) = (-2.00, -2.00, -2.00, -2.00)",
-          "nodeId": 67
-        },
-        {
-          "name": "[a] [7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0] [b] [9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0] = [-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0]",
-          "nodeId": 80
         }
       ],
       "subTests": [
@@ -55,80 +39,15 @@
           "successResultVarName": "TestResult_HasPassed_math/sub_[a] 7.00 [b] 9.00 = -2.00"
         },
         {
-          "name": "[a] 7 [b] 9 = -2",
-          "resultVarName": "TestResult_math/sub_[a] 7 [b] 9 = -2",
+          "name": "[a] 10 [b] 4 = 6",
+          "resultVarName": "TestResult_math/sub_[a] 10 [b] 4 = 6",
           "resultVarId": 3,
           "resultVarType": "int",
           "expectedResultValue": [
-            -2
+            6
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/sub_[a] 7 [b] 9 = -2"
-        },
-        {
-          "name": "[a] (7.00, 7.00) [b] (9.00, 9.00) = (-2.00, -2.00)",
-          "resultVarName": "TestResult_math/sub_[a] (7.00, 7.00) [b] (9.00, 9.00) = (-2.00, -2.00)",
-          "resultVarId": 5,
-          "resultVarType": "float2",
-          "expectedResultValue": [
-            -2.0,
-            -2.0
-          ],
-          "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/sub_[a] (7.00, 7.00) [b] (9.00, 9.00) = (-2.00, -2.00)"
-        },
-        {
-          "name": "[a] (7.00, 7.00, 7.00) [b] (9.00, 9.00, 9.00) = (-2.00, -2.00, -2.00)",
-          "resultVarName": "TestResult_math/sub_[a] (7.00, 7.00, 7.00) [b] (9.00, 9.00, 9.00) = (-2.00, -2.00, -2.00)",
-          "resultVarId": 7,
-          "resultVarType": "float3",
-          "expectedResultValue": [
-            -2.0,
-            -2.0,
-            -2.0
-          ],
-          "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/sub_[a] (7.00, 7.00, 7.00) [b] (9.00, 9.00, 9.00) = (-2.00, -2.00, -2.00)"
-        },
-        {
-          "name": "[a] (7.00, 7.00, 7.00, 7.00) [b] (9.00, 9.00, 9.00, 9.00) = (-2.00, -2.00, -2.00, -2.00)",
-          "resultVarName": "TestResult_math/sub_[a] (7.00, 7.00, 7.00, 7.00) [b] (9.00, 9.00, 9.00, 9.00) = (-2.00, -2.00, -2.00, -2.00)",
-          "resultVarId": 9,
-          "resultVarType": "float4",
-          "expectedResultValue": [
-            -2.0,
-            -2.0,
-            -2.0,
-            -2.0
-          ],
-          "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/sub_[a] (7.00, 7.00, 7.00, 7.00) [b] (9.00, 9.00, 9.00, 9.00) = (-2.00, -2.00, -2.00, -2.00)"
-        },
-        {
-          "name": "[a] [7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0] [b] [9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0] = [-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0]",
-          "resultVarName": "TestResult_math/sub_[a] [7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0] [b] [9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0] = [-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0]",
-          "resultVarId": 11,
-          "resultVarType": "float4x4",
-          "expectedResultValue": [
-            -2.0,
-            -2.0,
-            -2.0,
-            -2.0,
-            -2.0,
-            -2.0,
-            -2.0,
-            -2.0,
-            -2.0,
-            -2.0,
-            -2.0,
-            -2.0,
-            -2.0,
-            -2.0,
-            -2.0,
-            -2.0
-          ],
-          "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_math/sub_[a] [7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0] [b] [9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0] = [-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0]"
+          "successResultVarName": "TestResult_HasPassed_math/sub_[a] 10 [b] 4 = 6"
         }
       ]
     }

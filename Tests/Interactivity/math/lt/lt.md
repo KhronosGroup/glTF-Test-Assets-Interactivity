@@ -6,6 +6,7 @@
 | ----------- | ----------- | ----------- |----------- |
 | [a] 1.00 [b] 2.00 = True | TestResult_math/lt_[a] 1.00 [b] 2.00 = True | 1 | True
 | [a] 1 [b] 2 = True | TestResult_math/lt_[a] 1 [b] 2 = True | 3 | True
+| [a] 7 [b] 2 = False | TestResult_math/lt_[a] 7 [b] 2 = False | 5 | False
 
 Schemas used in this test case:
 - debug/log

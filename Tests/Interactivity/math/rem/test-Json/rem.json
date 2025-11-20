@@ -11,15 +11,7 @@
         "flow/branch",
         "flow/sequence",
         "math/abs",
-        "math/add",
-        "math/and",
-        "math/dot",
-        "math/extract4x4",
-        "math/gt",
-        "math/length",
         "math/lt",
-        "math/mul",
-        "math/normalize",
         "math/rem",
         "math/sub",
         "pointer/set",
@@ -32,24 +24,8 @@
           "nodeId": 1
         },
         {
-          "name": "[a] 19 [b] 2 = 2",
+          "name": "[a] 13 [b] 2 = 1",
           "nodeId": 17
-        },
-        {
-          "name": "[a] (19.42, 19.42) [b] (2.23, 2.23) = (1.55, 1.55)",
-          "nodeId": 34
-        },
-        {
-          "name": "[a] (19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23) = (1.55, 1.55, 1.55)",
-          "nodeId": 64
-        },
-        {
-          "name": "[a] (19.42, 19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23, 2.23) = (1.55, 1.55, 1.55, 1.55)",
-          "nodeId": 82
-        },
-        {
-          "name": "[a] [19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4] [b] [2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2] = [1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6]",
-          "nodeId": 100
         }
       ],
       "subTests": [
@@ -65,80 +41,15 @@
           "successResultVarName": "TestResult_HasPassed_math/rem_[a] 19.42 [b] 2.23 = 1.55"
         },
         {
-          "name": "[a] 19 [b] 2 = 2",
-          "resultVarName": "TestResult_math/rem_[a] 19 [b] 2 = 2",
+          "name": "[a] 13 [b] 2 = 1",
+          "resultVarName": "TestResult_math/rem_[a] 13 [b] 2 = 1",
           "resultVarId": 3,
           "resultVarType": "int",
           "expectedResultValue": [
-            2
+            1
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/rem_[a] 19 [b] 2 = 2"
-        },
-        {
-          "name": "[a] (19.42, 19.42) [b] (2.23, 2.23) = (1.55, 1.55)",
-          "resultVarName": "TestResult_math/rem_[a] (19.42, 19.42) [b] (2.23, 2.23) = (1.55, 1.55)",
-          "resultVarId": 5,
-          "resultVarType": "float2",
-          "expectedResultValue": [
-            1.55153465,
-            1.55153465
-          ],
-          "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42, 19.42) [b] (2.23, 2.23) = (1.55, 1.55)"
-        },
-        {
-          "name": "[a] (19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23) = (1.55, 1.55, 1.55)",
-          "resultVarName": "TestResult_math/rem_[a] (19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23) = (1.55, 1.55, 1.55)",
-          "resultVarId": 7,
-          "resultVarType": "float3",
-          "expectedResultValue": [
-            1.55153465,
-            1.55153465,
-            1.55153465
-          ],
-          "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23) = (1.55, 1.55, 1.55)"
-        },
-        {
-          "name": "[a] (19.42, 19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23, 2.23) = (1.55, 1.55, 1.55, 1.55)",
-          "resultVarName": "TestResult_math/rem_[a] (19.42, 19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23, 2.23) = (1.55, 1.55, 1.55, 1.55)",
-          "resultVarId": 9,
-          "resultVarType": "float4",
-          "expectedResultValue": [
-            1.55153465,
-            1.55153465,
-            1.55153465,
-            1.55153465
-          ],
-          "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/rem_[a] (19.42, 19.42, 19.42, 19.42) [b] (2.23, 2.23, 2.23, 2.23) = (1.55, 1.55, 1.55, 1.55)"
-        },
-        {
-          "name": "[a] [19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4] [b] [2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2] = [1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6]",
-          "resultVarName": "TestResult_math/rem_[a] [19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4] [b] [2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2] = [1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6]",
-          "resultVarId": 11,
-          "resultVarType": "float4x4",
-          "expectedResultValue": [
-            1.55153465,
-            1.55153465,
-            1.55153465,
-            1.55153465,
-            1.55153465,
-            1.55153465,
-            1.55153465,
-            1.55153465,
-            1.55153465,
-            1.55153465,
-            1.55153465,
-            1.55153465,
-            1.55153465,
-            1.55153465,
-            1.55153465,
-            1.55153465
-          ],
-          "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_math/rem_[a] [19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4,19.4] [b] [2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2,2.2] = [1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6]"
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] 13 [b] 2 = 1"
         }
       ]
     }
@@ -149,15 +60,7 @@
     "flow/branch",
     "flow/sequence",
     "math/abs",
-    "math/add",
-    "math/and",
-    "math/dot",
-    "math/extract4x4",
-    "math/gt",
-    "math/length",
     "math/lt",
-    "math/mul",
-    "math/normalize",
     "math/rem",
     "math/sub",
     "pointer/set",

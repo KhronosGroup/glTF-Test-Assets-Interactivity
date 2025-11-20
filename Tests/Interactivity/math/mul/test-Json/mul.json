@@ -11,15 +11,8 @@
         "flow/branch",
         "flow/sequence",
         "math/abs",
-        "math/add",
-        "math/and",
-        "math/dot",
-        "math/extract4x4",
-        "math/gt",
-        "math/length",
         "math/lt",
         "math/mul",
-        "math/normalize",
         "math/sub",
         "pointer/set",
         "variable/get",
@@ -31,24 +24,8 @@
           "nodeId": 1
         },
         {
-          "name": "[a] 345 [b] 0 = 1",
+          "name": "[a] 2 [b] 3 = 6",
           "nodeId": 17
-        },
-        {
-          "name": "[a] (345.23, 345.23) [b] (0.00, 0.00) = (1.00, 1.00)",
-          "nodeId": 34
-        },
-        {
-          "name": "[a] (345.23, 345.23, 345.23) [b] (0.00, 0.00, 0.00) = (1.00, 1.00, 1.00)",
-          "nodeId": 64
-        },
-        {
-          "name": "[a] (345.23, 345.23, 345.23, 345.23) [b] (0.00, 0.00, 0.00, 0.00) = (1.00, 1.00, 1.00, 1.00)",
-          "nodeId": 82
-        },
-        {
-          "name": "[a] [345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2] [b] [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0] = [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0]",
-          "nodeId": 100
         }
       ],
       "subTests": [
@@ -64,80 +41,15 @@
           "successResultVarName": "TestResult_HasPassed_math/mul_[a] 345.23 [b] 0.00 = 1.00"
         },
         {
-          "name": "[a] 345 [b] 0 = 1",
-          "resultVarName": "TestResult_math/mul_[a] 345 [b] 0 = 1",
+          "name": "[a] 2 [b] 3 = 6",
+          "resultVarName": "TestResult_math/mul_[a] 2 [b] 3 = 6",
           "resultVarId": 3,
           "resultVarType": "int",
           "expectedResultValue": [
-            1
+            6
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/mul_[a] 345 [b] 0 = 1"
-        },
-        {
-          "name": "[a] (345.23, 345.23) [b] (0.00, 0.00) = (1.00, 1.00)",
-          "resultVarName": "TestResult_math/mul_[a] (345.23, 345.23) [b] (0.00, 0.00) = (1.00, 1.00)",
-          "resultVarId": 5,
-          "resultVarType": "float2",
-          "expectedResultValue": [
-            1.0,
-            1.0
-          ],
-          "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/mul_[a] (345.23, 345.23) [b] (0.00, 0.00) = (1.00, 1.00)"
-        },
-        {
-          "name": "[a] (345.23, 345.23, 345.23) [b] (0.00, 0.00, 0.00) = (1.00, 1.00, 1.00)",
-          "resultVarName": "TestResult_math/mul_[a] (345.23, 345.23, 345.23) [b] (0.00, 0.00, 0.00) = (1.00, 1.00, 1.00)",
-          "resultVarId": 7,
-          "resultVarType": "float3",
-          "expectedResultValue": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/mul_[a] (345.23, 345.23, 345.23) [b] (0.00, 0.00, 0.00) = (1.00, 1.00, 1.00)"
-        },
-        {
-          "name": "[a] (345.23, 345.23, 345.23, 345.23) [b] (0.00, 0.00, 0.00, 0.00) = (1.00, 1.00, 1.00, 1.00)",
-          "resultVarName": "TestResult_math/mul_[a] (345.23, 345.23, 345.23, 345.23) [b] (0.00, 0.00, 0.00, 0.00) = (1.00, 1.00, 1.00, 1.00)",
-          "resultVarId": 9,
-          "resultVarType": "float4",
-          "expectedResultValue": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/mul_[a] (345.23, 345.23, 345.23, 345.23) [b] (0.00, 0.00, 0.00, 0.00) = (1.00, 1.00, 1.00, 1.00)"
-        },
-        {
-          "name": "[a] [345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2] [b] [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0] = [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0]",
-          "resultVarName": "TestResult_math/mul_[a] [345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2] [b] [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0] = [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0]",
-          "resultVarId": 11,
-          "resultVarType": "float4x4",
-          "expectedResultValue": [
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_math/mul_[a] [345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2,345.2] [b] [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0] = [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0]"
+          "successResultVarName": "TestResult_HasPassed_math/mul_[a] 2 [b] 3 = 6"
         }
       ]
     }
@@ -148,15 +60,8 @@
     "flow/branch",
     "flow/sequence",
     "math/abs",
-    "math/add",
-    "math/and",
-    "math/dot",
-    "math/extract4x4",
-    "math/gt",
-    "math/length",
     "math/lt",
     "math/mul",
-    "math/normalize",
     "math/sub",
     "pointer/set",
     "variable/get",

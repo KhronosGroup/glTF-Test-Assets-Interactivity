@@ -548,15 +548,7 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence",
-      "math/dot",
-      "math/normalize",
-      "math/gt",
-      "math/length",
-      "math/and",
-      "math/extract4x4",
-      "math/mul",
-      "math/add"
+      "flow/sequence"
     ],
     "variants": {
       "glTF-Binary": "div.glb",
@@ -1187,14 +1179,7 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence",
-      "math/dot",
-      "math/normalize",
-      "math/gt",
-      "math/length",
-      "math/and",
-      "math/extract4x4",
-      "math/add"
+      "flow/sequence"
     ],
     "variants": {
       "glTF-Binary": "mul.glb",
@@ -1457,6 +1442,29 @@
     }
   },
   {
+    "label": "math/quatFromUpForward",
+    "name": "math/quatFromUpForward",
+    "tags": [
+      "math/quatFromUpForward",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "quatFromUpForward.glb",
+      "test-Json": "quatFromUpForward.json"
+    }
+  },
+  {
     "label": "math/quatMul",
     "name": "math/quatMul",
     "tags": [
@@ -1573,15 +1581,7 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence",
-      "math/dot",
-      "math/normalize",
-      "math/gt",
-      "math/length",
-      "math/and",
-      "math/extract4x4",
-      "math/mul",
-      "math/add"
+      "flow/sequence"
     ],
     "variants": {
       "glTF-Binary": "rem.glb",

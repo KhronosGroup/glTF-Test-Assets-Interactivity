@@ -1,0 +1,80 @@
+{
+  "glbFileName": "quatFromUpForward.glb",
+  "name": "math/quatFromUpForward",
+  "tests": [
+    {
+      "name": "math/quatFromUpForward",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/normalize",
+        "math/quatFromUpForward",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "= (0.00, 0.00, 0.00, 1.00)",
+          "nodeId": 1
+        },
+        {
+          "name": "= (1.00, 0.00, 0.00, 0.00)",
+          "nodeId": 20
+        }
+      ],
+      "subTests": [
+        {
+          "name": "= (0.00, 0.00, 0.00, 1.00)",
+          "resultVarName": "TestResult_math/quatFromUpForward_= (0.00, 0.00, 0.00, 1.00)",
+          "resultVarId": 1,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_= (0.00, 0.00, 0.00, 1.00)"
+        },
+        {
+          "name": "= (1.00, 0.00, 0.00, 0.00)",
+          "resultVarName": "TestResult_math/quatFromUpForward_= (1.00, 0.00, 0.00, 0.00)",
+          "resultVarId": 3,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_= (1.00, 0.00, 0.00, 0.00)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/normalize",
+    "math/quatFromUpForward",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
