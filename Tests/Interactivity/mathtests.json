@@ -4769,18 +4769,18 @@
       ],
       "entryPoints": [
         {
-          "name": "= (0.00, 0.00, 0.00, 1.00)",
+          "name": "[forward] (0.00, 0.00, 1.00) [up] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.00, 1.00)",
           "nodeId": 3667
         },
         {
-          "name": "= (1.00, 0.00, 0.00, 0.00)",
+          "name": "[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)",
           "nodeId": 3685
         }
       ],
       "subTests": [
         {
-          "name": "= (0.00, 0.00, 0.00, 1.00)",
-          "resultVarName": "TestResult_math/quatFromUpForward_= (0.00, 0.00, 0.00, 1.00)",
+          "name": "[forward] (0.00, 0.00, 1.00) [up] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.00, 1.00)",
+          "resultVarName": "TestResult_math/quatFromUpForward_[forward] (0.00, 0.00, 1.00) [up] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.00, 1.00)",
           "resultVarId": 417,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -4790,11 +4790,11 @@
             1.0
           ],
           "successResultVarId": 416,
-          "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_= (0.00, 0.00, 0.00, 1.00)"
+          "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_[forward] (0.00, 0.00, 1.00) [up] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.00, 1.00)"
         },
         {
-          "name": "= (1.00, 0.00, 0.00, 0.00)",
-          "resultVarName": "TestResult_math/quatFromUpForward_= (1.00, 0.00, 0.00, 0.00)",
+          "name": "[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)",
+          "resultVarName": "TestResult_math/quatFromUpForward_[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)",
           "resultVarId": 419,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -4804,7 +4804,7 @@
             0.0
           ],
           "successResultVarId": 418,
-          "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_= (1.00, 0.00, 0.00, 0.00)"
+          "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)"
         }
       ]
     },
