@@ -13,12 +13,13 @@ Schemas used in this test case:
 - event/onStart
 - flow/branch
 - flow/sequence
-- math/add
+- math/abs
+- math/and
 - math/eq
 - math/extract4x4
-- math/gt
 - math/inverse
-- math/mul
+- math/lt
+- math/sub
 - pointer/set
 - variable/get
 - variable/set

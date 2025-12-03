@@ -10,12 +10,13 @@
         "event/onStart",
         "flow/branch",
         "flow/sequence",
-        "math/add",
+        "math/abs",
+        "math/and",
         "math/eq",
         "math/extract4x4",
-        "math/gt",
         "math/inverse",
-        "math/mul",
+        "math/lt",
+        "math/sub",
         "pointer/set",
         "variable/get",
         "variable/set"
@@ -27,11 +28,11 @@
         },
         {
           "name": "Invalid:[a] [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0] ",
-          "nodeId": 47
+          "nodeId": 78
         },
         {
           "name": "Invalid:[a] [Infinity,-Infinity,0.0,0.0,Infinity,NaN,1.0,0.0,Infinity,0.0,0.0,0.0,0.0,0.0,0.0,0.0] ",
-          "nodeId": 61
+          "nodeId": 92
         }
       ],
       "subTests": [
@@ -91,12 +92,13 @@
     "event/onStart",
     "flow/branch",
     "flow/sequence",
-    "math/add",
+    "math/abs",
+    "math/and",
     "math/eq",
     "math/extract4x4",
-    "math/gt",
     "math/inverse",
-    "math/mul",
+    "math/lt",
+    "math/sub",
     "pointer/set",
     "variable/get",
     "variable/set"

@@ -11,10 +11,11 @@ Schemas used in this test case:
 - event/onStart
 - flow/branch
 - flow/sequence
-- math/add
+- math/abs
+- math/and
 - math/extract4x4
-- math/gt
-- math/mul
+- math/lt
+- math/sub
 - math/transpose
 - pointer/set
 - variable/get

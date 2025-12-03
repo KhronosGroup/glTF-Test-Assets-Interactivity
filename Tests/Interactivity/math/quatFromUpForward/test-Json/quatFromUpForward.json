@@ -26,8 +26,12 @@
           "nodeId": 1
         },
         {
-          "name": "[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)",
+          "name": "[forward] (0.58, 0.58, 0.58) [up] (0.50, 0.71, 0.50) = (-0.28, 0.36, 0.12, 0.88)",
           "nodeId": 20
+        },
+        {
+          "name": "[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)",
+          "nodeId": 39
         }
       ],
       "subTests": [
@@ -46,9 +50,23 @@
           "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_[forward] (0.00, 0.00, 1.00) [up] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.00, 1.00)"
         },
         {
+          "name": "[forward] (0.58, 0.58, 0.58) [up] (0.50, 0.71, 0.50) = (-0.28, 0.36, 0.12, 0.88)",
+          "resultVarName": "TestResult_math/quatFromUpForward_[forward] (0.58, 0.58, 0.58) [up] (0.50, 0.71, 0.50) = (-0.28, 0.36, 0.12, 0.88)",
+          "resultVarId": 3,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            -0.279848158,
+            0.3647052,
+            0.1159169,
+            0.8804763
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_[forward] (0.58, 0.58, 0.58) [up] (0.50, 0.71, 0.50) = (-0.28, 0.36, 0.12, 0.88)"
+        },
+        {
           "name": "[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)",
           "resultVarName": "TestResult_math/quatFromUpForward_[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)",
-          "resultVarId": 3,
+          "resultVarId": 5,
           "resultVarType": "float4",
           "expectedResultValue": [
             1.0,
@@ -56,7 +74,7 @@
             0.0,
             0.0
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 4,
           "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)"
         }
       ]

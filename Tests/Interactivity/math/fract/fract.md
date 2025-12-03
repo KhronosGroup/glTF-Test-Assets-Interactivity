@@ -16,7 +16,6 @@ Schemas used in this test case:
 - flow/branch
 - flow/sequence
 - math/abs
-- math/add
 - math/and
 - math/dot
 - math/extract4x4
@@ -24,7 +23,6 @@ Schemas used in this test case:
 - math/gt
 - math/length
 - math/lt
-- math/mul
 - math/normalize
 - math/sub
 - pointer/set
