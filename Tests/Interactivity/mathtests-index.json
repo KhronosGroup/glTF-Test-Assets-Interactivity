@@ -1039,6 +1039,31 @@
     }
   },
   {
+    "label": "math/matComp-Dec-Comp",
+    "name": "math/matComp-Dec-Comp",
+    "tags": [
+      "event/onStart",
+      "math/matCompose",
+      "math/matDecompose",
+      "math/extract4x4",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "math/and",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "matComp-Dec-Comp.glb",
+      "test-Json": "matComp-Dec-Comp.json"
+    }
+  },
+  {
     "label": "math/matCompose",
     "name": "math/matCompose",
     "tags": [

@@ -1,0 +1,74 @@
+{
+  "glbFileName": "matComp-Dec-Comp.glb",
+  "name": "math/matComp-Dec-Comp",
+  "tests": [
+    {
+      "name": "math/matComp-Dec-Comp",
+      "description": "Matrix Composing [A] > Decomposing > Composing [B] = A==B",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/and",
+        "math/eq",
+        "math/extract4x4",
+        "math/lt",
+        "math/matCompose",
+        "math/matDecompose",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "comp-dec-comp",
+          "nodeId": 0
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Test 1",
+          "resultVarName": "TestResult_math/matComp-Dec-Comp_Test 1",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/matComp-Dec-Comp_Test 1"
+        },
+        {
+          "name": "Test 2",
+          "resultVarName": "TestResult_math/matComp-Dec-Comp_Test 2",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/matComp-Dec-Comp_Test 2"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/and",
+    "math/eq",
+    "math/extract4x4",
+    "math/lt",
+    "math/matCompose",
+    "math/matDecompose",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
