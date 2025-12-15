@@ -1,0 +1,87 @@
+{
+  "glbFileName": "matDecomp-Shear.glb",
+  "name": "math/matDecomp-Shear",
+  "tests": [
+    {
+      "name": "math/matDecomp-Shear",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/and",
+        "math/eq",
+        "math/extract4x4",
+        "math/lt",
+        "math/matCompose",
+        "math/matDecompose",
+        "math/sub",
+        "pointer/get",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "matDecompose - shear",
+          "nodeId": 0
+        }
+      ],
+      "subTests": [
+        {
+          "name": "decomp.isValid",
+          "resultVarName": "TestResult_math/matDecomp-Shear_decomp.isValid",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/matDecomp-Shear_decomp.isValid"
+        },
+        {
+          "name": "comp>decomp.isValid",
+          "resultVarName": "TestResult_math/matDecomp-Shear_comp>decomp.isValid",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/matDecomp-Shear_comp>decomp.isValid"
+        },
+        {
+          "name": "Stable (>Decomp>Comp[A]>Decom>Comp[B]= A==B",
+          "resultVarName": "TestResult_math/matDecomp-Shear_Stable (>Decomp>Comp[A]>Decom>Comp[B]= A==B",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/matDecomp-Shear_Stable (>Decomp>Comp[A]>Decom>Comp[B]= A==B"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/and",
+    "math/eq",
+    "math/extract4x4",
+    "math/lt",
+    "math/matCompose",
+    "math/matDecompose",
+    "math/sub",
+    "pointer/get",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -1112,6 +1112,32 @@
     }
   },
   {
+    "label": "math/matDecomp-Shear",
+    "name": "math/matDecomp-Shear",
+    "tags": [
+      "event/onStart",
+      "pointer/get",
+      "math/matDecompose",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/matCompose",
+      "math/and",
+      "math/extract4x4",
+      "math/sub",
+      "math/abs",
+      "math/lt"
+    ],
+    "variants": {
+      "glTF-Binary": "matDecomp-Shear.glb",
+      "test-Json": "matDecomp-Shear.json"
+    }
+  },
+  {
     "label": "math/matMul",
     "name": "math/matMul",
     "tags": [
