@@ -1298,20 +1298,20 @@
           "resultVarType": "float4x4",
           "expectedResultValue": [
             0.0,
-            4.0,
-            8.0,
-            12.0,
             1.0,
-            5.0,
-            9.0,
-            13.0,
             2.0,
-            6.0,
-            10.0,
-            14.0,
             3.0,
+            4.0,
+            5.0,
+            6.0,
             7.0,
+            8.0,
+            9.0,
+            10.0,
             11.0,
+            12.0,
+            13.0,
+            14.0,
             15.0
           ],
           "successResultVarId": 106,
@@ -2266,7 +2266,7 @@
           "resultVarId": 195,
           "resultVarType": "float",
           "expectedResultValue": [
-            4.0
+            1.0
           ],
           "successResultVarId": 194,
           "successResultVarName": "TestResult_HasPassed_math/extract4x4_1"
@@ -2277,7 +2277,7 @@
           "resultVarId": 197,
           "resultVarType": "float",
           "expectedResultValue": [
-            8.0
+            2.0
           ],
           "successResultVarId": 196,
           "successResultVarName": "TestResult_HasPassed_math/extract4x4_2"
@@ -2288,7 +2288,7 @@
           "resultVarId": 199,
           "resultVarType": "float",
           "expectedResultValue": [
-            12.0
+            3.0
           ],
           "successResultVarId": 198,
           "successResultVarName": "TestResult_HasPassed_math/extract4x4_3"
@@ -2299,7 +2299,7 @@
           "resultVarId": 201,
           "resultVarType": "float",
           "expectedResultValue": [
-            1.0
+            4.0
           ],
           "successResultVarId": 200,
           "successResultVarName": "TestResult_HasPassed_math/extract4x4_4"
@@ -2321,7 +2321,7 @@
           "resultVarId": 205,
           "resultVarType": "float",
           "expectedResultValue": [
-            9.0
+            6.0
           ],
           "successResultVarId": 204,
           "successResultVarName": "TestResult_HasPassed_math/extract4x4_6"
@@ -2332,7 +2332,7 @@
           "resultVarId": 207,
           "resultVarType": "float",
           "expectedResultValue": [
-            13.0
+            7.0
           ],
           "successResultVarId": 206,
           "successResultVarName": "TestResult_HasPassed_math/extract4x4_7"
@@ -2343,7 +2343,7 @@
           "resultVarId": 209,
           "resultVarType": "float",
           "expectedResultValue": [
-            2.0
+            8.0
           ],
           "successResultVarId": 208,
           "successResultVarName": "TestResult_HasPassed_math/extract4x4_8"
@@ -2354,7 +2354,7 @@
           "resultVarId": 211,
           "resultVarType": "float",
           "expectedResultValue": [
-            6.0
+            9.0
           ],
           "successResultVarId": 210,
           "successResultVarName": "TestResult_HasPassed_math/extract4x4_9"
@@ -2376,7 +2376,7 @@
           "resultVarId": 215,
           "resultVarType": "float",
           "expectedResultValue": [
-            14.0
+            11.0
           ],
           "successResultVarId": 214,
           "successResultVarName": "TestResult_HasPassed_math/extract4x4_11"
@@ -2387,7 +2387,7 @@
           "resultVarId": 217,
           "resultVarType": "float",
           "expectedResultValue": [
-            3.0
+            12.0
           ],
           "successResultVarId": 216,
           "successResultVarName": "TestResult_HasPassed_math/extract4x4_12"
@@ -2398,7 +2398,7 @@
           "resultVarId": 219,
           "resultVarType": "float",
           "expectedResultValue": [
-            7.0
+            13.0
           ],
           "successResultVarId": 218,
           "successResultVarName": "TestResult_HasPassed_math/extract4x4_13"
@@ -2409,7 +2409,7 @@
           "resultVarId": 221,
           "resultVarType": "float",
           "expectedResultValue": [
-            11.0
+            14.0
           ],
           "successResultVarId": 220,
           "successResultVarName": "TestResult_HasPassed_math/extract4x4_14"
@@ -2883,20 +2883,20 @@
           "resultVarType": "float4x4",
           "expectedResultValue": [
             2.80979044E-08,
-            -2.80979044E-08,
-            -0.333333373,
-            0.6666667,
             0.235702276,
-            0.235702261,
-            2.8097908E-08,
-            -0.9428092,
             0.7071068,
+            0.0,
+            -2.80979044E-08,
+            0.235702261,
             -0.7071068,
+            0.0,
+            -0.333333373,
+            2.8097908E-08,
             8.429371E-08,
+            0.0,
+            0.6666667,
+            -0.9428092,
             -1.41421378,
-            0.0,
-            0.0,
-            0.0,
             1.0
           ],
           "successResultVarId": 260,
@@ -3628,18 +3628,18 @@
             1.0,
             0.0,
             0.0,
-            1.0,
-            0.0,
-            1.0,
-            0.0,
-            1.0,
             0.0,
             0.0,
             1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
             1.0,
             0.0,
-            0.0,
-            0.0,
+            1.0,
+            1.0,
+            1.0,
             1.0
           ],
           "successResultVarId": 324,
@@ -3879,18 +3879,18 @@
             1.0,
             0.0,
             0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
             2.0,
-            0.0,
-            1.0,
-            0.0,
-            1.0,
-            0.0,
-            0.0,
             1.0,
             1.0,
-            0.0,
-            0.0,
-            0.0,
             1.0
           ],
           "successResultVarId": 348,
@@ -6269,18 +6269,18 @@
             1.0,
             0.0,
             0.0,
+            1.0,
             0.0,
+            1.0,
             0.0,
             1.0,
             0.0,
             0.0,
+            1.0,
+            1.0,
             0.0,
             0.0,
-            1.0,
             0.0,
-            1.0,
-            1.0,
-            1.0,
             1.0
           ],
           "successResultVarId": 542,
