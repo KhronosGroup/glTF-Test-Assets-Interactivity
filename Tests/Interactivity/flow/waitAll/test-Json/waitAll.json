@@ -28,11 +28,11 @@
         },
         {
           "name": "Wait All - Reset",
-          "nodeId": 46
+          "nodeId": 48
         },
         {
           "name": "Wait All - Reset Completed",
-          "nodeId": 61
+          "nodeId": 63
         }
       ],
       "subTests": [
@@ -83,12 +83,12 @@
         {
           "name": "[reset] [completed]",
           "resultVarName": "TestResult_flow/waitAll_[reset] [completed]",
-          "resultVarId": 8,
+          "resultVarId": 9,
           "resultVarType": "int",
           "expectedResultValue": [
             1
           ],
-          "successResultVarId": -1,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_flow/waitAll_[reset] [completed]"
         }
       ]

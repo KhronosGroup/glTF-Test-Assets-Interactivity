@@ -8,7 +8,7 @@
 | [remainingInputs] on completed | TestResult_flow/waitAll_[remainingInputs] on completed | 1 | 0
 | [remainingInputs] | TestResult_flow/waitAll_[remainingInputs] | 4 | 2
 | [reset] | TestResult_flow/waitAll_[reset] | 6 | 2
-| [reset] [completed] | TestResult_flow/waitAll_[reset] [completed] | 8 | 1
+| [reset] [completed] | TestResult_flow/waitAll_[reset] [completed] | 9 | 1
 
 Schemas used in this test case:
 - debug/log
