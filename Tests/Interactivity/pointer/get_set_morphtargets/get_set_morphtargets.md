@@ -4,7 +4,7 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| weights.length from Node without Mesh (isValid == false) | TestResult_pointer/get_set_morphtargets_weights.length from Node without Mesh (isValid == false) | 1 | False
+| weights.length from Node without Mesh (isValid == false) | TestResult_pointer/get_set_morphtargets_weights.length from Node without Mesh (isValid == false) | 1 | True
 | weights.length from Node without morph (isValid == true) | TestResult_pointer/get_set_morphtargets_weights.length from Node without morph (isValid == true) | 3 | True
 | weights.length from Node without morph (length == 0) | TestResult_pointer/get_set_morphtargets_weights.length from Node without morph (length == 0) | 5 | 0
 | weights.Length from Node with Mesh with static-Morph Targets (length == 2) | TestResult_pointer/get_set_morphtargets_weights.Length from Node with Mesh with static-Morph Targets (length == 2) | 7 | 2
