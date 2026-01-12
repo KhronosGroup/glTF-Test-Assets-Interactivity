@@ -1,0 +1,219 @@
+{
+  "glbFileName": "get_set_morphtargets.glb",
+  "name": "pointer/get_set_morphtargets",
+  "tests": [
+    {
+      "name": "pointer/get_set_morphtargets",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "pointer/get",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Get weights.length - Without Mesh",
+          "nodeId": 0
+        },
+        {
+          "name": "Get weights.length - Without Morph Targets",
+          "nodeId": 14
+        },
+        {
+          "name": "Get weights.length - With static-Morph Targets",
+          "nodeId": 65
+        },
+        {
+          "name": "Get weights.length - With nonStatic-Morph Targets",
+          "nodeId": 78
+        },
+        {
+          "name": "Get node/{}/weights/0 - Without Mesh",
+          "nodeId": 91
+        },
+        {
+          "name": "Get node/{}/weights/0 - Without Morph Targets",
+          "nodeId": 104
+        },
+        {
+          "name": "Get node/{}/weights/0 - With static Morph Targets",
+          "nodeId": 117
+        },
+        {
+          "name": "Get node/{}/weights/0 - With nonStatic Morph Targets",
+          "nodeId": 141
+        },
+        {
+          "name": "Get node/{}/weights/0 - With mesh and node weights",
+          "nodeId": 165
+        },
+        {
+          "name": "Set weight and read back",
+          "nodeId": 178
+        }
+      ],
+      "subTests": [
+        {
+          "name": "weights.length from Node without Mesh (isValid == false)",
+          "resultVarName": "TestResult_pointer/get_set_morphtargets_weights.length from Node without Mesh (isValid == false)",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_weights.length from Node without Mesh (isValid == false)"
+        },
+        {
+          "name": "weights.length from Node without morph (isValid == true)",
+          "resultVarName": "TestResult_pointer/get_set_morphtargets_weights.length from Node without morph (isValid == true)",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_weights.length from Node without morph (isValid == true)"
+        },
+        {
+          "name": "weights.length from Node without morph (length == 0)",
+          "resultVarName": "TestResult_pointer/get_set_morphtargets_weights.length from Node without morph (length == 0)",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_weights.length from Node without morph (length == 0)"
+        },
+        {
+          "name": "weights.Length from Node with Mesh with static-Morph Targets (length == 2)",
+          "resultVarName": "TestResult_pointer/get_set_morphtargets_weights.Length from Node with Mesh with static-Morph Targets (length == 2)",
+          "resultVarId": 7,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_weights.Length from Node with Mesh with static-Morph Targets (length == 2)"
+        },
+        {
+          "name": "weights.Length from Node with Mesh with nonStatic-Morph Targets (length == 2)",
+          "resultVarName": "TestResult_pointer/get_set_morphtargets_weights.Length from Node with Mesh with nonStatic-Morph Targets (length == 2)",
+          "resultVarId": 9,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_weights.Length from Node with Mesh with nonStatic-Morph Targets (length == 2)"
+        },
+        {
+          "name": "weights[0] from Node without Mesh (isValid == false)",
+          "resultVarName": "TestResult_pointer/get_set_morphtargets_weights[0] from Node without Mesh (isValid == false)",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_weights[0] from Node without Mesh (isValid == false)"
+        },
+        {
+          "name": "weights[0] from Node without morph (isValid == false)",
+          "resultVarName": "TestResult_pointer/get_set_morphtargets_weights[0] from Node without morph (isValid == false)",
+          "resultVarId": 13,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_weights[0] from Node without morph (isValid == false)"
+        },
+        {
+          "name": "static weights[0] from Node with Mesh with Morph Targets (isValid == true)",
+          "resultVarName": "TestResult_pointer/get_set_morphtargets_static weights[0] from Node with Mesh with Morph Targets (isValid == true)",
+          "resultVarId": 15,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_static weights[0] from Node with Mesh with Morph Targets (isValid == true)"
+        },
+        {
+          "name": "static weights[0] from Node with Mesh with Morph Targets (value == 0.1)",
+          "resultVarName": "TestResult_pointer/get_set_morphtargets_static weights[0] from Node with Mesh with Morph Targets (value == 0.1)",
+          "resultVarId": 17,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.1
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_static weights[0] from Node with Mesh with Morph Targets (value == 0.1)"
+        },
+        {
+          "name": "nonStatic weights[0] from Node with Mesh with Morph Targets (isValid == true)",
+          "resultVarName": "TestResult_pointer/get_set_morphtargets_nonStatic weights[0] from Node with Mesh with Morph Targets (isValid == true)",
+          "resultVarId": 19,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_nonStatic weights[0] from Node with Mesh with Morph Targets (isValid == true)"
+        },
+        {
+          "name": "nonStatic weights[0] from Node with Mesh with Morph Targets (value == 0.5)",
+          "resultVarName": "TestResult_pointer/get_set_morphtargets_nonStatic weights[0] from Node with Mesh with Morph Targets (value == 0.5)",
+          "resultVarId": 21,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.5
+          ],
+          "successResultVarId": 20,
+          "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_nonStatic weights[0] from Node with Mesh with Morph Targets (value == 0.5)"
+        },
+        {
+          "name": "mesh and node weights[0] (value == 0.6)",
+          "resultVarName": "TestResult_pointer/get_set_morphtargets_mesh and node weights[0] (value == 0.6)",
+          "resultVarId": 23,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.6
+          ],
+          "successResultVarId": 22,
+          "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_mesh and node weights[0] (value == 0.6)"
+        },
+        {
+          "name": "Set weight and read back",
+          "resultVarName": "TestResult_pointer/get_set_morphtargets_Set weight and read back",
+          "resultVarId": 25,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.9
+          ],
+          "successResultVarId": 24,
+          "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_Set weight and read back"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "pointer/get",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

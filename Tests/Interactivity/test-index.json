@@ -297,6 +297,25 @@
     }
   },
   {
+    "label": "pointer/get_set_morphtargets",
+    "name": "pointer/get_set_morphtargets",
+    "tags": [
+      "event/onStart",
+      "pointer/get",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "get_set_morphtargets.glb",
+      "test-Json": "get_set_morphtargets.json"
+    }
+  },
+  {
     "label": "pointer/set and get",
     "name": "pointer/set_and_get",
     "tags": [
