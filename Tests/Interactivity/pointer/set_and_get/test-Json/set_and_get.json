@@ -21,318 +21,338 @@
       ],
       "entryPoints": [
         {
-          "name": "/extensions/KHR_lights_punctual/lights/[]/color",
+          "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/color",
           "nodeId": 0
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/[]/intensity",
+          "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/intensity",
           "nodeId": 16
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/[]/range",
+          "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/range",
           "nodeId": 32
         },
         {
+          "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/innerConeAngle",
+          "nodeId": 211
+        },
+        {
+          "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/outerConeAngle",
+          "nodeId": 226
+        },
+        {
+          "name": "/extensions/KHR_lights_punctual/lights/[]/color",
+          "nodeId": 241
+        },
+        {
+          "name": "/extensions/KHR_lights_punctual/lights/[]/intensity",
+          "nodeId": 256
+        },
+        {
+          "name": "/extensions/KHR_lights_punctual/lights/[]/range",
+          "nodeId": 271
+        },
+        {
           "name": "/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
-          "nodeId": 201
+          "nodeId": 286
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
-          "nodeId": 216
+          "nodeId": 301
         },
         {
           "name": "/alphaCutoff",
-          "nodeId": 231
+          "nodeId": 316
         },
         {
           "name": "/emissiveFactor",
-          "nodeId": 246
+          "nodeId": 331
         },
         {
           "name": "/normalTexture/scale",
-          "nodeId": 261
+          "nodeId": 346
         },
         {
           "name": "/occlusionTexture/strength",
-          "nodeId": 276
+          "nodeId": 361
         },
         {
           "name": "/normalTexture texture offset",
-          "nodeId": 291
+          "nodeId": 376
         },
         {
           "name": "/normalTexture texture rotation",
-          "nodeId": 306
+          "nodeId": 391
         },
         {
           "name": "/normalTexture texture scale",
-          "nodeId": 323
+          "nodeId": 408
         },
         {
           "name": "/occlusionTexture texture offset",
-          "nodeId": 338
+          "nodeId": 423
         },
         {
           "name": "/occlusionTexture texture rotation",
-          "nodeId": 353
+          "nodeId": 438
         },
         {
           "name": "/occlusionTexture texture scale",
-          "nodeId": 370
+          "nodeId": 455
         },
         {
           "name": "/emissiveTexture texture offset",
-          "nodeId": 385
+          "nodeId": 470
         },
         {
           "name": "/emissiveTexture texture rotation",
-          "nodeId": 400
+          "nodeId": 485
         },
         {
           "name": "/emissiveTexture texture scale",
-          "nodeId": 417
+          "nodeId": 502
         },
         {
           "name": "pbrMetallicRoughness/baseColorFactor",
-          "nodeId": 432
+          "nodeId": 517
         },
         {
           "name": "pbrMetallicRoughness/metallicFactor",
-          "nodeId": 447
+          "nodeId": 532
         },
         {
           "name": "pbrMetallicRoughness/roughnessFactor",
-          "nodeId": 462
+          "nodeId": 547
         },
         {
           "name": "pbrMetallicRoughness/baseColorTexture texture offset",
-          "nodeId": 477
+          "nodeId": 562
         },
         {
           "name": "pbrMetallicRoughness/baseColorTexture texture rotation",
-          "nodeId": 492
+          "nodeId": 577
         },
         {
           "name": "pbrMetallicRoughness/baseColorTexture texture scale",
-          "nodeId": 509
+          "nodeId": 594
         },
         {
           "name": "pbrMetallicRoughness/metallicRoughnessTexture texture offset",
-          "nodeId": 524
+          "nodeId": 609
         },
         {
           "name": "pbrMetallicRoughness/metallicRoughnessTexture texture rotation",
-          "nodeId": 539
+          "nodeId": 624
         },
         {
           "name": "pbrMetallicRoughness/metallicRoughnessTexture texture scale",
-          "nodeId": 556
+          "nodeId": 641
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyStrength",
-          "nodeId": 571
+          "nodeId": 656
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyRotation",
-          "nodeId": 586
+          "nodeId": 671
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture offset",
-          "nodeId": 603
+          "nodeId": 688
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture rotation",
-          "nodeId": 618
+          "nodeId": 703
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture scale",
-          "nodeId": 635
+          "nodeId": 720
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture offset",
-          "nodeId": 650
+          "nodeId": 735
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture rotation",
-          "nodeId": 665
+          "nodeId": 750
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture scale",
-          "nodeId": 682
+          "nodeId": 767
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset",
-          "nodeId": 697
+          "nodeId": 782
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation",
-          "nodeId": 712
+          "nodeId": 797
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale",
-          "nodeId": 729
+          "nodeId": 814
         },
         {
           "name": "KHR_materials_dispersion/dispersion",
-          "nodeId": 744
+          "nodeId": 829
         },
         {
           "name": "KHR_materials_emissive_strength/emissiveStrength",
-          "nodeId": 759
+          "nodeId": 844
         },
         {
           "name": "KHR_materials_ior/ior",
-          "nodeId": 774
+          "nodeId": 859
         },
         {
           "name": "KHR_materials_iridescence/iridescenceFactor",
-          "nodeId": 789
+          "nodeId": 874
         },
         {
           "name": "KHR_materials_iridescence/iridescenceIor",
-          "nodeId": 804
+          "nodeId": 889
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessMinimum",
-          "nodeId": 819
+          "nodeId": 904
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessMaximum",
-          "nodeId": 834
+          "nodeId": 919
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture offset",
-          "nodeId": 849
+          "nodeId": 934
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture rotation",
-          "nodeId": 864
+          "nodeId": 949
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture scale",
-          "nodeId": 881
+          "nodeId": 966
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture offset",
-          "nodeId": 896
+          "nodeId": 981
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture rotation",
-          "nodeId": 911
+          "nodeId": 996
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture scale",
-          "nodeId": 928
+          "nodeId": 1013
         },
         {
           "name": "KHR_materials_sheen/sheenColorFactor",
-          "nodeId": 943
+          "nodeId": 1028
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessFactor",
-          "nodeId": 958
+          "nodeId": 1043
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture offset",
-          "nodeId": 973
+          "nodeId": 1058
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture rotation",
-          "nodeId": 988
+          "nodeId": 1073
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture scale",
-          "nodeId": 1005
+          "nodeId": 1090
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture offset",
-          "nodeId": 1020
+          "nodeId": 1105
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture rotation",
-          "nodeId": 1035
+          "nodeId": 1120
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture scale",
-          "nodeId": 1052
+          "nodeId": 1137
         },
         {
           "name": "KHR_materials_specular/specularFactor",
-          "nodeId": 1067
+          "nodeId": 1152
         },
         {
           "name": "KHR_materials_specular/specularColorFactor",
-          "nodeId": 1082
+          "nodeId": 1167
         },
         {
           "name": "KHR_materials_specular/specularTexture texture offset",
-          "nodeId": 1097
+          "nodeId": 1182
         },
         {
           "name": "KHR_materials_specular/specularTexture texture rotation",
-          "nodeId": 1112
+          "nodeId": 1197
         },
         {
           "name": "KHR_materials_specular/specularTexture texture scale",
-          "nodeId": 1129
+          "nodeId": 1214
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture offset",
-          "nodeId": 1144
+          "nodeId": 1229
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture rotation",
-          "nodeId": 1159
+          "nodeId": 1244
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture scale",
-          "nodeId": 1176
+          "nodeId": 1261
         },
         {
           "name": "KHR_materials_transmission/transmissionFactor",
-          "nodeId": 1191
+          "nodeId": 1276
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture offset",
-          "nodeId": 1206
+          "nodeId": 1291
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture rotation",
-          "nodeId": 1221
+          "nodeId": 1306
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture scale",
-          "nodeId": 1238
+          "nodeId": 1323
         },
         {
           "name": "KHR_materials_volume/thicknessFactor",
-          "nodeId": 1253
+          "nodeId": 1338
         },
         {
           "name": "KHR_materials_volume/attenuationDistance",
-          "nodeId": 1268
+          "nodeId": 1353
         },
         {
           "name": "KHR_materials_volume/attenuationColor",
-          "nodeId": 1283
+          "nodeId": 1368
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture offset",
-          "nodeId": 1298
+          "nodeId": 1383
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture rotation",
-          "nodeId": 1313
+          "nodeId": 1398
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture scale",
-          "nodeId": 1330
+          "nodeId": 1415
         }
       ],
       "subTests": [
         {
-          "name": "/extensions/KHR_lights_punctual/lights/[]/color",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/color",
+          "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/color",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/color",
           "resultVarId": 1,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -341,159 +361,158 @@
             0.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/color"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/color"
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/[]/intensity",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/intensity",
+          "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/intensity",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/intensity",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             4.0
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/intensity"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/intensity"
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/[]/range",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/range",
+          "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/range",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/range",
           "resultVarId": 5,
           "resultVarType": "float",
           "expectedResultValue": [
             9.0
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/range"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/range"
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
+          "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/innerConeAngle",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/innerConeAngle",
           "resultVarId": 7,
           "resultVarType": "float",
           "expectedResultValue": [
             2.0
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/innerConeAngle"
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
+          "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/outerConeAngle",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/outerConeAngle",
           "resultVarId": 9,
           "resultVarType": "float",
           "expectedResultValue": [
             5.0
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/outerConeAngle"
         },
         {
-          "name": "/alphaCutoff",
-          "resultVarName": "TestResult_pointer/set and get_/alphaCutoff",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/color",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/color",
           "resultVarId": 11,
-          "resultVarType": "float",
-          "expectedResultValue": [
-            0.5
-          ],
-          "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/alphaCutoff"
-        },
-        {
-          "name": "/emissiveFactor",
-          "resultVarName": "TestResult_pointer/set and get_/emissiveFactor",
-          "resultVarId": 13,
           "resultVarType": "float3",
           "expectedResultValue": [
             1.0,
             0.0,
             0.0
           ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/color"
+        },
+        {
+          "name": "/extensions/KHR_lights_punctual/lights/[]/intensity",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/intensity",
+          "resultVarId": 13,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            4.0
+          ],
           "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/intensity"
+        },
+        {
+          "name": "/extensions/KHR_lights_punctual/lights/[]/range",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/range",
+          "resultVarId": 15,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            9.0
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/range"
+        },
+        {
+          "name": "/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
+          "resultVarId": 17,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle"
+        },
+        {
+          "name": "/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
+          "resultVarId": 19,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            5.0
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle"
+        },
+        {
+          "name": "/alphaCutoff",
+          "resultVarName": "TestResult_pointer/set and get_/alphaCutoff",
+          "resultVarId": 21,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.5
+          ],
+          "successResultVarId": 20,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/alphaCutoff"
+        },
+        {
+          "name": "/emissiveFactor",
+          "resultVarName": "TestResult_pointer/set and get_/emissiveFactor",
+          "resultVarId": 23,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 22,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/emissiveFactor"
         },
         {
           "name": "/normalTexture/scale",
           "resultVarName": "TestResult_pointer/set and get_/normalTexture/scale",
-          "resultVarId": 15,
+          "resultVarId": 25,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5
           ],
-          "successResultVarId": 14,
+          "successResultVarId": 24,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/normalTexture/scale"
         },
         {
           "name": "/occlusionTexture/strength",
           "resultVarName": "TestResult_pointer/set and get_/occlusionTexture/strength",
-          "resultVarId": 17,
+          "resultVarId": 27,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5
           ],
-          "successResultVarId": 16,
+          "successResultVarId": 26,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/occlusionTexture/strength"
         },
         {
           "name": "/normalTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_/normalTexture texture offset",
-          "resultVarId": 19,
-          "resultVarType": "float2",
-          "expectedResultValue": [
-            2.0,
-            3.0
-          ],
-          "successResultVarId": 18,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/normalTexture texture offset"
-        },
-        {
-          "name": "/normalTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_/normalTexture texture rotation",
-          "resultVarId": 21,
-          "resultVarType": "float",
-          "expectedResultValue": [
-            0.7853982
-          ],
-          "successResultVarId": 20,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/normalTexture texture rotation"
-        },
-        {
-          "name": "/normalTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_/normalTexture texture scale",
-          "resultVarId": 23,
-          "resultVarType": "float2",
-          "expectedResultValue": [
-            2.0,
-            3.0
-          ],
-          "successResultVarId": 22,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/normalTexture texture scale"
-        },
-        {
-          "name": "/occlusionTexture texture offset",
-          "resultVarName": "TestResult_pointer/set and get_/occlusionTexture texture offset",
-          "resultVarId": 25,
-          "resultVarType": "float2",
-          "expectedResultValue": [
-            2.0,
-            3.0
-          ],
-          "successResultVarId": 24,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/occlusionTexture texture offset"
-        },
-        {
-          "name": "/occlusionTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_/occlusionTexture texture rotation",
-          "resultVarId": 27,
-          "resultVarType": "float",
-          "expectedResultValue": [
-            0.7853982
-          ],
-          "successResultVarId": 26,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/occlusionTexture texture rotation"
-        },
-        {
-          "name": "/occlusionTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_/occlusionTexture texture scale",
           "resultVarId": 29,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -501,34 +520,34 @@
             3.0
           ],
           "successResultVarId": 28,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/occlusionTexture texture scale"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/normalTexture texture offset"
         },
         {
-          "name": "/emissiveTexture texture offset",
-          "resultVarName": "TestResult_pointer/set and get_/emissiveTexture texture offset",
+          "name": "/normalTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_/normalTexture texture rotation",
           "resultVarId": 31,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.7853982
+          ],
+          "successResultVarId": 30,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/normalTexture texture rotation"
+        },
+        {
+          "name": "/normalTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_/normalTexture texture scale",
+          "resultVarId": 33,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 30,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/emissiveTexture texture offset"
-        },
-        {
-          "name": "/emissiveTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_/emissiveTexture texture rotation",
-          "resultVarId": 33,
-          "resultVarType": "float",
-          "expectedResultValue": [
-            0.7853982
-          ],
           "successResultVarId": 32,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/emissiveTexture texture rotation"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/normalTexture texture scale"
         },
         {
-          "name": "/emissiveTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_/emissiveTexture texture scale",
+          "name": "/occlusionTexture texture offset",
+          "resultVarName": "TestResult_pointer/set and get_/occlusionTexture texture offset",
           "resultVarId": 35,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -536,12 +555,70 @@
             3.0
           ],
           "successResultVarId": 34,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/occlusionTexture texture offset"
+        },
+        {
+          "name": "/occlusionTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_/occlusionTexture texture rotation",
+          "resultVarId": 37,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.7853982
+          ],
+          "successResultVarId": 36,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/occlusionTexture texture rotation"
+        },
+        {
+          "name": "/occlusionTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_/occlusionTexture texture scale",
+          "resultVarId": 39,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 38,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/occlusionTexture texture scale"
+        },
+        {
+          "name": "/emissiveTexture texture offset",
+          "resultVarName": "TestResult_pointer/set and get_/emissiveTexture texture offset",
+          "resultVarId": 41,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 40,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/emissiveTexture texture offset"
+        },
+        {
+          "name": "/emissiveTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_/emissiveTexture texture rotation",
+          "resultVarId": 43,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.7853982
+          ],
+          "successResultVarId": 42,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/emissiveTexture texture rotation"
+        },
+        {
+          "name": "/emissiveTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_/emissiveTexture texture scale",
+          "resultVarId": 45,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 44,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/emissiveTexture texture scale"
         },
         {
           "name": "pbrMetallicRoughness/baseColorFactor",
           "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/baseColorFactor",
-          "resultVarId": 37,
+          "resultVarId": 47,
           "resultVarType": "float4",
           "expectedResultValue": [
             0.0,
@@ -549,92 +626,34 @@
             1.0,
             1.0
           ],
-          "successResultVarId": 36,
+          "successResultVarId": 46,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorFactor"
         },
         {
           "name": "pbrMetallicRoughness/metallicFactor",
           "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicFactor",
-          "resultVarId": 39,
+          "resultVarId": 49,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5
           ],
-          "successResultVarId": 38,
+          "successResultVarId": 48,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicFactor"
         },
         {
           "name": "pbrMetallicRoughness/roughnessFactor",
           "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/roughnessFactor",
-          "resultVarId": 41,
+          "resultVarId": 51,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5
           ],
-          "successResultVarId": 40,
+          "successResultVarId": 50,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/roughnessFactor"
         },
         {
           "name": "pbrMetallicRoughness/baseColorTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture offset",
-          "resultVarId": 43,
-          "resultVarType": "float2",
-          "expectedResultValue": [
-            2.0,
-            3.0
-          ],
-          "successResultVarId": 42,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture offset"
-        },
-        {
-          "name": "pbrMetallicRoughness/baseColorTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture rotation",
-          "resultVarId": 45,
-          "resultVarType": "float",
-          "expectedResultValue": [
-            0.7853982
-          ],
-          "successResultVarId": 44,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture rotation"
-        },
-        {
-          "name": "pbrMetallicRoughness/baseColorTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture scale",
-          "resultVarId": 47,
-          "resultVarType": "float2",
-          "expectedResultValue": [
-            2.0,
-            3.0
-          ],
-          "successResultVarId": 46,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture scale"
-        },
-        {
-          "name": "pbrMetallicRoughness/metallicRoughnessTexture texture offset",
-          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture offset",
-          "resultVarId": 49,
-          "resultVarType": "float2",
-          "expectedResultValue": [
-            2.0,
-            3.0
-          ],
-          "successResultVarId": 48,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture offset"
-        },
-        {
-          "name": "pbrMetallicRoughness/metallicRoughnessTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture rotation",
-          "resultVarId": 51,
-          "resultVarType": "float",
-          "expectedResultValue": [
-            0.7853982
-          ],
-          "successResultVarId": 50,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture rotation"
-        },
-        {
-          "name": "pbrMetallicRoughness/metallicRoughnessTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture scale",
           "resultVarId": 53,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -642,33 +661,34 @@
             3.0
           ],
           "successResultVarId": 52,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture scale"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture offset"
         },
         {
-          "name": "KHR_materials_anisotropy/anisotropyStrength",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyStrength",
+          "name": "pbrMetallicRoughness/baseColorTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture rotation",
           "resultVarId": 55,
           "resultVarType": "float",
           "expectedResultValue": [
-            2.0
+            0.7853982
           ],
           "successResultVarId": 54,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyStrength"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture rotation"
         },
         {
-          "name": "KHR_materials_anisotropy/anisotropyRotation",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyRotation",
+          "name": "pbrMetallicRoughness/baseColorTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture scale",
           "resultVarId": 57,
-          "resultVarType": "float",
+          "resultVarType": "float2",
           "expectedResultValue": [
-            0.5235988
+            2.0,
+            3.0
           ],
           "successResultVarId": 56,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyRotation"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture scale"
         },
         {
-          "name": "KHR_materials_anisotropy/anisotropyTexture texture offset",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture offset",
+          "name": "pbrMetallicRoughness/metallicRoughnessTexture texture offset",
+          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture offset",
           "resultVarId": 59,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -676,22 +696,22 @@
             3.0
           ],
           "successResultVarId": 58,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture offset"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture offset"
         },
         {
-          "name": "KHR_materials_anisotropy/anisotropyTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture rotation",
+          "name": "pbrMetallicRoughness/metallicRoughnessTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture rotation",
           "resultVarId": 61,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
           "successResultVarId": 60,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture rotation"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture rotation"
         },
         {
-          "name": "KHR_materials_anisotropy/anisotropyTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture scale",
+          "name": "pbrMetallicRoughness/metallicRoughnessTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture scale",
           "resultVarId": 63,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -699,34 +719,33 @@
             3.0
           ],
           "successResultVarId": 62,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture scale"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture scale"
         },
         {
-          "name": "KHR_materials_clearcoat/clearcoatTexture texture offset",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture offset",
+          "name": "KHR_materials_anisotropy/anisotropyStrength",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyStrength",
           "resultVarId": 65,
-          "resultVarType": "float2",
+          "resultVarType": "float",
           "expectedResultValue": [
-            2.0,
-            3.0
+            2.0
           ],
           "successResultVarId": 64,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture offset"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyStrength"
         },
         {
-          "name": "KHR_materials_clearcoat/clearcoatTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture rotation",
+          "name": "KHR_materials_anisotropy/anisotropyRotation",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyRotation",
           "resultVarId": 67,
           "resultVarType": "float",
           "expectedResultValue": [
-            0.7853982
+            0.5235988
           ],
           "successResultVarId": 66,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture rotation"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyRotation"
         },
         {
-          "name": "KHR_materials_clearcoat/clearcoatTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture scale",
+          "name": "KHR_materials_anisotropy/anisotropyTexture texture offset",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture offset",
           "resultVarId": 69,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -734,34 +753,34 @@
             3.0
           ],
           "successResultVarId": 68,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture scale"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture offset"
         },
         {
-          "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset",
+          "name": "KHR_materials_anisotropy/anisotropyTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture rotation",
           "resultVarId": 71,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.7853982
+          ],
+          "successResultVarId": 70,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture rotation"
+        },
+        {
+          "name": "KHR_materials_anisotropy/anisotropyTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture scale",
+          "resultVarId": 73,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 70,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset"
-        },
-        {
-          "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation",
-          "resultVarId": 73,
-          "resultVarType": "float",
-          "expectedResultValue": [
-            0.7853982
-          ],
           "successResultVarId": 72,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture scale"
         },
         {
-          "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale",
+          "name": "KHR_materials_clearcoat/clearcoatTexture texture offset",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture offset",
           "resultVarId": 75,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -769,146 +788,146 @@
             3.0
           ],
           "successResultVarId": 74,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture offset"
+        },
+        {
+          "name": "KHR_materials_clearcoat/clearcoatTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture rotation",
+          "resultVarId": 77,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.7853982
+          ],
+          "successResultVarId": 76,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture rotation"
+        },
+        {
+          "name": "KHR_materials_clearcoat/clearcoatTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture scale",
+          "resultVarId": 79,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 78,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture scale"
+        },
+        {
+          "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset",
+          "resultVarId": 81,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 80,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset"
+        },
+        {
+          "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation",
+          "resultVarId": 83,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.7853982
+          ],
+          "successResultVarId": 82,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation"
+        },
+        {
+          "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale",
+          "resultVarId": 85,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 84,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale"
         },
         {
           "name": "KHR_materials_dispersion/dispersion",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_dispersion/dispersion",
-          "resultVarId": 77,
+          "resultVarId": 87,
           "resultVarType": "float",
           "expectedResultValue": [
             2.0
           ],
-          "successResultVarId": 76,
+          "successResultVarId": 86,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_dispersion/dispersion"
         },
         {
           "name": "KHR_materials_emissive_strength/emissiveStrength",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_emissive_strength/emissiveStrength",
-          "resultVarId": 79,
+          "resultVarId": 89,
           "resultVarType": "float",
           "expectedResultValue": [
             2.0
           ],
-          "successResultVarId": 78,
+          "successResultVarId": 88,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_emissive_strength/emissiveStrength"
         },
         {
           "name": "KHR_materials_ior/ior",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_ior/ior",
-          "resultVarId": 81,
+          "resultVarId": 91,
           "resultVarType": "float",
           "expectedResultValue": [
             3.0
           ],
-          "successResultVarId": 80,
+          "successResultVarId": 90,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_ior/ior"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceFactor",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceFactor",
-          "resultVarId": 83,
+          "resultVarId": 93,
           "resultVarType": "float",
           "expectedResultValue": [
             1.2
           ],
-          "successResultVarId": 82,
+          "successResultVarId": 92,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceFactor"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceIor",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceIor",
-          "resultVarId": 85,
+          "resultVarId": 95,
           "resultVarType": "float",
           "expectedResultValue": [
             2.3
           ],
-          "successResultVarId": 84,
+          "successResultVarId": 94,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceIor"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessMinimum",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessMinimum",
-          "resultVarId": 87,
+          "resultVarId": 97,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5
           ],
-          "successResultVarId": 86,
+          "successResultVarId": 96,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessMinimum"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessMaximum",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessMaximum",
-          "resultVarId": 89,
+          "resultVarId": 99,
           "resultVarType": "float",
           "expectedResultValue": [
             1.2
           ],
-          "successResultVarId": 88,
+          "successResultVarId": 98,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessMaximum"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture offset",
-          "resultVarId": 91,
-          "resultVarType": "float2",
-          "expectedResultValue": [
-            2.0,
-            3.0
-          ],
-          "successResultVarId": 90,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture offset"
-        },
-        {
-          "name": "KHR_materials_iridescence/iridescenceTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture rotation",
-          "resultVarId": 93,
-          "resultVarType": "float",
-          "expectedResultValue": [
-            0.7853982
-          ],
-          "successResultVarId": 92,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture rotation"
-        },
-        {
-          "name": "KHR_materials_iridescence/iridescenceTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture scale",
-          "resultVarId": 95,
-          "resultVarType": "float2",
-          "expectedResultValue": [
-            2.0,
-            3.0
-          ],
-          "successResultVarId": 94,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture scale"
-        },
-        {
-          "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture offset",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture offset",
-          "resultVarId": 97,
-          "resultVarType": "float2",
-          "expectedResultValue": [
-            2.0,
-            3.0
-          ],
-          "successResultVarId": 96,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture offset"
-        },
-        {
-          "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture rotation",
-          "resultVarId": 99,
-          "resultVarType": "float",
-          "expectedResultValue": [
-            0.7853982
-          ],
-          "successResultVarId": 98,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture rotation"
-        },
-        {
-          "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture scale",
           "resultVarId": 101,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -916,35 +935,34 @@
             3.0
           ],
           "successResultVarId": 100,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture scale"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture offset"
         },
         {
-          "name": "KHR_materials_sheen/sheenColorFactor",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenColorFactor",
+          "name": "KHR_materials_iridescence/iridescenceTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture rotation",
           "resultVarId": 103,
-          "resultVarType": "float3",
-          "expectedResultValue": [
-            0.0,
-            0.0,
-            1.0
-          ],
-          "successResultVarId": 102,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenColorFactor"
-        },
-        {
-          "name": "KHR_materials_sheen/sheenRoughnessFactor",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessFactor",
-          "resultVarId": 105,
           "resultVarType": "float",
           "expectedResultValue": [
-            2.3
+            0.7853982
           ],
-          "successResultVarId": 104,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenRoughnessFactor"
+          "successResultVarId": 102,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture rotation"
         },
         {
-          "name": "KHR_materials_sheen/sheenColorTexture texture offset",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture offset",
+          "name": "KHR_materials_iridescence/iridescenceTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture scale",
+          "resultVarId": 105,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 104,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture scale"
+        },
+        {
+          "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture offset",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture offset",
           "resultVarId": 107,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -952,22 +970,22 @@
             3.0
           ],
           "successResultVarId": 106,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture offset"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture offset"
         },
         {
-          "name": "KHR_materials_sheen/sheenColorTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture rotation",
+          "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture rotation",
           "resultVarId": 109,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
           "successResultVarId": 108,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture rotation"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture rotation"
         },
         {
-          "name": "KHR_materials_sheen/sheenColorTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture scale",
+          "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture scale",
           "resultVarId": 111,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -975,34 +993,35 @@
             3.0
           ],
           "successResultVarId": 110,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture scale"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture scale"
         },
         {
-          "name": "KHR_materials_sheen/sheenRoughnessTexture texture offset",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture offset",
+          "name": "KHR_materials_sheen/sheenColorFactor",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenColorFactor",
           "resultVarId": 113,
-          "resultVarType": "float2",
+          "resultVarType": "float3",
           "expectedResultValue": [
-            2.0,
-            3.0
+            0.0,
+            0.0,
+            1.0
           ],
           "successResultVarId": 112,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture offset"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenColorFactor"
         },
         {
-          "name": "KHR_materials_sheen/sheenRoughnessTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture rotation",
+          "name": "KHR_materials_sheen/sheenRoughnessFactor",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessFactor",
           "resultVarId": 115,
           "resultVarType": "float",
           "expectedResultValue": [
-            0.7853982
+            2.3
           ],
           "successResultVarId": 114,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture rotation"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenRoughnessFactor"
         },
         {
-          "name": "KHR_materials_sheen/sheenRoughnessTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture scale",
+          "name": "KHR_materials_sheen/sheenColorTexture texture offset",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture offset",
           "resultVarId": 117,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -1010,35 +1029,34 @@
             3.0
           ],
           "successResultVarId": 116,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture scale"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture offset"
         },
         {
-          "name": "KHR_materials_specular/specularFactor",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularFactor",
+          "name": "KHR_materials_sheen/sheenColorTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture rotation",
           "resultVarId": 119,
           "resultVarType": "float",
           "expectedResultValue": [
-            1.2
+            0.7853982
           ],
           "successResultVarId": 118,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularFactor"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture rotation"
         },
         {
-          "name": "KHR_materials_specular/specularColorFactor",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularColorFactor",
+          "name": "KHR_materials_sheen/sheenColorTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture scale",
           "resultVarId": 121,
-          "resultVarType": "float3",
+          "resultVarType": "float2",
           "expectedResultValue": [
-            1.0,
-            0.0,
-            0.0
+            2.0,
+            3.0
           ],
           "successResultVarId": 120,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularColorFactor"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture scale"
         },
         {
-          "name": "KHR_materials_specular/specularTexture texture offset",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture offset",
+          "name": "KHR_materials_sheen/sheenRoughnessTexture texture offset",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture offset",
           "resultVarId": 123,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -1046,22 +1064,22 @@
             3.0
           ],
           "successResultVarId": 122,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularTexture texture offset"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture offset"
         },
         {
-          "name": "KHR_materials_specular/specularTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture rotation",
+          "name": "KHR_materials_sheen/sheenRoughnessTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture rotation",
           "resultVarId": 125,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
           "successResultVarId": 124,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularTexture texture rotation"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture rotation"
         },
         {
-          "name": "KHR_materials_specular/specularTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture scale",
+          "name": "KHR_materials_sheen/sheenRoughnessTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture scale",
           "resultVarId": 127,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -1069,34 +1087,35 @@
             3.0
           ],
           "successResultVarId": 126,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularTexture texture scale"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture scale"
         },
         {
-          "name": "KHR_materials_specular/specularColorTexture texture offset",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture offset",
+          "name": "KHR_materials_specular/specularFactor",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularFactor",
           "resultVarId": 129,
-          "resultVarType": "float2",
-          "expectedResultValue": [
-            2.0,
-            3.0
-          ],
-          "successResultVarId": 128,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularColorTexture texture offset"
-        },
-        {
-          "name": "KHR_materials_specular/specularColorTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture rotation",
-          "resultVarId": 131,
           "resultVarType": "float",
           "expectedResultValue": [
-            0.7853982
+            1.2
           ],
-          "successResultVarId": 130,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularColorTexture texture rotation"
+          "successResultVarId": 128,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularFactor"
         },
         {
-          "name": "KHR_materials_specular/specularColorTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture scale",
+          "name": "KHR_materials_specular/specularColorFactor",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularColorFactor",
+          "resultVarId": 131,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 130,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularColorFactor"
+        },
+        {
+          "name": "KHR_materials_specular/specularTexture texture offset",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture offset",
           "resultVarId": 133,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -1104,22 +1123,22 @@
             3.0
           ],
           "successResultVarId": 132,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularColorTexture texture scale"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularTexture texture offset"
         },
         {
-          "name": "KHR_materials_transmission/transmissionFactor",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_transmission/transmissionFactor",
+          "name": "KHR_materials_specular/specularTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture rotation",
           "resultVarId": 135,
           "resultVarType": "float",
           "expectedResultValue": [
-            1.2
+            0.7853982
           ],
           "successResultVarId": 134,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_transmission/transmissionFactor"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularTexture texture rotation"
         },
         {
-          "name": "KHR_materials_transmission/transmissionTexture texture offset",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture offset",
+          "name": "KHR_materials_specular/specularTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture scale",
           "resultVarId": 137,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -1127,99 +1146,157 @@
             3.0
           ],
           "successResultVarId": 136,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_transmission/transmissionTexture texture offset"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularTexture texture scale"
         },
         {
-          "name": "KHR_materials_transmission/transmissionTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture rotation",
+          "name": "KHR_materials_specular/specularColorTexture texture offset",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture offset",
           "resultVarId": 139,
-          "resultVarType": "float",
-          "expectedResultValue": [
-            0.7853982
-          ],
-          "successResultVarId": 138,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_transmission/transmissionTexture texture rotation"
-        },
-        {
-          "name": "KHR_materials_transmission/transmissionTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture scale",
-          "resultVarId": 141,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
+          "successResultVarId": 138,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularColorTexture texture offset"
+        },
+        {
+          "name": "KHR_materials_specular/specularColorTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture rotation",
+          "resultVarId": 141,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.7853982
+          ],
           "successResultVarId": 140,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularColorTexture texture rotation"
+        },
+        {
+          "name": "KHR_materials_specular/specularColorTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture scale",
+          "resultVarId": 143,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 142,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularColorTexture texture scale"
+        },
+        {
+          "name": "KHR_materials_transmission/transmissionFactor",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_transmission/transmissionFactor",
+          "resultVarId": 145,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.2
+          ],
+          "successResultVarId": 144,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_transmission/transmissionFactor"
+        },
+        {
+          "name": "KHR_materials_transmission/transmissionTexture texture offset",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture offset",
+          "resultVarId": 147,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 146,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_transmission/transmissionTexture texture offset"
+        },
+        {
+          "name": "KHR_materials_transmission/transmissionTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture rotation",
+          "resultVarId": 149,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.7853982
+          ],
+          "successResultVarId": 148,
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_transmission/transmissionTexture texture rotation"
+        },
+        {
+          "name": "KHR_materials_transmission/transmissionTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture scale",
+          "resultVarId": 151,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 150,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_transmission/transmissionTexture texture scale"
         },
         {
           "name": "KHR_materials_volume/thicknessFactor",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_volume/thicknessFactor",
-          "resultVarId": 143,
+          "resultVarId": 153,
           "resultVarType": "float",
           "expectedResultValue": [
             1.2
           ],
-          "successResultVarId": 142,
+          "successResultVarId": 152,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_volume/thicknessFactor"
         },
         {
           "name": "KHR_materials_volume/attenuationDistance",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_volume/attenuationDistance",
-          "resultVarId": 145,
+          "resultVarId": 155,
           "resultVarType": "float",
           "expectedResultValue": [
             2.2
           ],
-          "successResultVarId": 144,
+          "successResultVarId": 154,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_volume/attenuationDistance"
         },
         {
           "name": "KHR_materials_volume/attenuationColor",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_volume/attenuationColor",
-          "resultVarId": 147,
+          "resultVarId": 157,
           "resultVarType": "float3",
           "expectedResultValue": [
             1.0,
             0.0,
             0.0
           ],
-          "successResultVarId": 146,
+          "successResultVarId": 156,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_volume/attenuationColor"
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_volume/thicknessTexture texture offset",
-          "resultVarId": 149,
+          "resultVarId": 159,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 148,
+          "successResultVarId": 158,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_volume/thicknessTexture texture offset"
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_volume/thicknessTexture texture rotation",
-          "resultVarId": 151,
+          "resultVarId": 161,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 150,
+          "successResultVarId": 160,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_volume/thicknessTexture texture rotation"
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_volume/thicknessTexture texture scale",
-          "resultVarId": 153,
+          "resultVarId": 163,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 152,
+          "successResultVarId": 162,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_volume/thicknessTexture texture scale"
         }
       ]
