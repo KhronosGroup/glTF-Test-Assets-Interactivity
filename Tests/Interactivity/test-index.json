@@ -359,6 +359,26 @@
     }
   },
   {
+    "label": "ref/eq",
+    "name": "ref/eq",
+    "tags": [
+      "event/onStart",
+      "pointer/get",
+      "ref/eq",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "eq.glb",
+      "test-Json": "eq.json"
+    }
+  },
+  {
     "label": "variable/interpolate",
     "name": "variable/interpolate",
     "tags": [

@@ -1,0 +1,98 @@
+{
+  "glbFileName": "eq.glb",
+  "name": "ref/eq",
+  "tests": [
+    {
+      "name": "ref/eq",
+      "description": "Tests the ref/eq node with different inputs.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "pointer/get",
+        "pointer/set",
+        "ref/eq",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Same mesh ref in ref/eq",
+          "nodeId": 0
+        },
+        {
+          "name": "Two nulls in ref/eq",
+          "nodeId": 16
+        },
+        {
+          "name": "One mesh and one null in ref/eq",
+          "nodeId": 30
+        },
+        {
+          "name": "One mesh and one node in ref/eq",
+          "nodeId": 52
+        }
+      ],
+      "subTests": [
+        {
+          "name": "mesh == mesh (same)",
+          "resultVarName": "TestResult_ref/eq_mesh == mesh (same)",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_ref/eq_mesh == mesh (same)"
+        },
+        {
+          "name": "null == null",
+          "resultVarName": "TestResult_ref/eq_null == null",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_ref/eq_null == null"
+        },
+        {
+          "name": "mesh == null",
+          "resultVarName": "TestResult_ref/eq_mesh == null",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_ref/eq_mesh == null"
+        },
+        {
+          "name": "mesh == node",
+          "resultVarName": "TestResult_ref/eq_mesh == node",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_ref/eq_mesh == node"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "pointer/get",
+    "pointer/set",
+    "ref/eq",
+    "variable/get",
+    "variable/set"
+  ]
+}
