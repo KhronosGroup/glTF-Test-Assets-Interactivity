@@ -8,11 +8,11 @@
 | /animations.length isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/animations.length isValid | 3 | True
 | /cameras.length | TestResult_pointer/CoreReadOnlyPointers_GetTests_/cameras.length | 5 | 1
 | /cameras.length isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/cameras.length isValid | 7 | True
-| /materials.length | TestResult_pointer/CoreReadOnlyPointers_GetTests_/materials.length | 9 | 10
+| /materials.length | TestResult_pointer/CoreReadOnlyPointers_GetTests_/materials.length | 9 | 9
 | /materials.length isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/materials.length isValid | 11 | True
 | /materials/[]/doubleSided | TestResult_pointer/CoreReadOnlyPointers_GetTests_/materials/[]/doubleSided | 13 | True
 | /materials/[]/doubleSided isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/materials/[]/doubleSided isValid | 15 | True
-| /meshes.length | TestResult_pointer/CoreReadOnlyPointers_GetTests_/meshes.length | 17 | 58
+| /meshes.length | TestResult_pointer/CoreReadOnlyPointers_GetTests_/meshes.length | 17 | 57
 | /meshes.length isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/meshes.length isValid | 19 | True
 | /meshes/0/primitives.length | TestResult_pointer/CoreReadOnlyPointers_GetTests_/meshes/0/primitives.length | 21 | 1
 | /meshes/0/primitives.length isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/meshes/0/primitives.length isValid | 23 | True
@@ -22,11 +22,11 @@
 | /nodes/[]/weights.length isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/weights.length isValid | 31 | True
 | /meshes/[]/weights.length | TestResult_pointer/CoreReadOnlyPointers_GetTests_/meshes/[]/weights.length | 33 | 2
 | /meshes/[]/weights.length isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/meshes/[]/weights.length isValid | 35 | True
-| /nodes.length | TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes.length | 37 | 306
+| /nodes.length | TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes.length | 37 | 302
 | /nodes.length isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes.length isValid | 39 | True
 | /nodes/[]/camera | TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/camera | 41 | UnityGLTF.Interactivity.StaticRefPointer
 | /nodes/[]/camera isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/camera isValid | 43 | True
-| /nodes/0/children.length | TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/0/children.length | 45 | 59
+| /nodes/0/children.length | TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/0/children.length | 45 | 55
 | /nodes/0/children.length isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/0/children.length isValid | 47 | True
 | /nodes/[]/children/[] | TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/children/[] | 49 | UnityGLTF.Interactivity.StaticRefPointer
 | /nodes/[]/children/[] isValid | TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/children/[] isValid | 51 | True
