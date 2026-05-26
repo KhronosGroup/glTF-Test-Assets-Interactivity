@@ -1,0 +1,55 @@
+{
+  "glbFileName": "Tau.glb",
+  "name": "math/Tau",
+  "tests": [
+    {
+      "name": "math/Tau",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/lt",
+        "math/sub",
+        "math/Tau",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "= 6.28",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "= 6.28",
+          "resultVarName": "TestResult_math/Tau_= 6.28",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            6.28318548
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/Tau_= 6.28"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/lt",
+    "math/sub",
+    "math/Tau",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
