@@ -1,0 +1,131 @@
+{
+  "glbFileName": "rgbToOkLCh.glb",
+  "name": "math/rgbToOkLCh",
+  "tests": [
+    {
+      "name": "math/rgbToOkLCh",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/eq",
+        "math/lt",
+        "math/rgbToOkLCh",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Black",
+          "nodeId": 1
+        },
+        {
+          "name": "White",
+          "nodeId": 27
+        },
+        {
+          "name": "Red",
+          "nodeId": 69
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Black L=0",
+          "resultVarName": "TestResult_math/rgbToOkLCh_Black L=0",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/rgbToOkLCh_Black L=0"
+        },
+        {
+          "name": "Black C=0",
+          "resultVarName": "TestResult_math/rgbToOkLCh_Black C=0",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/rgbToOkLCh_Black C=0"
+        },
+        {
+          "name": "White L≈1",
+          "resultVarName": "TestResult_math/rgbToOkLCh_White L≈1",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/rgbToOkLCh_White L≈1"
+        },
+        {
+          "name": "White C≈0",
+          "resultVarName": "TestResult_math/rgbToOkLCh_White C≈0",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/rgbToOkLCh_White C≈0"
+        },
+        {
+          "name": "Red L≈0.628",
+          "resultVarName": "TestResult_math/rgbToOkLCh_Red L≈0.628",
+          "resultVarId": 9,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.628
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/rgbToOkLCh_Red L≈0.628"
+        },
+        {
+          "name": "Red C≈0.258",
+          "resultVarName": "TestResult_math/rgbToOkLCh_Red C≈0.258",
+          "resultVarId": 11,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.2577
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/rgbToOkLCh_Red C≈0.258"
+        },
+        {
+          "name": "Red H≈0.508",
+          "resultVarName": "TestResult_math/rgbToOkLCh_Red H≈0.508",
+          "resultVarId": 13,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.5082
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/rgbToOkLCh_Red H≈0.508"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/eq",
+    "math/lt",
+    "math/rgbToOkLCh",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

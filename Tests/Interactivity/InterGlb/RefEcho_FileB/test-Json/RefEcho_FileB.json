@@ -1,0 +1,52 @@
+{
+  "glbFileName": "RefEcho_FileB.glb",
+  "name": "InterGlb/RefEcho_FileB",
+  "tests": [
+    {
+      "name": "InterGlb/RefEcho_FileB",
+      "description": "Receives a mesh Ref from File A via a custom event and echoes it back via another event.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "event/receive",
+        "event/send",
+        "flow/branch",
+        "flow/setDelay",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Echo Ref back to File A (delayed execution)",
+          "nodeId": 5,
+          "delayedExecutionTime": 3.0
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Received and echoed Ref to File A",
+          "resultVarName": "TestResult_InterGlb/RefEcho_FileB_Received and echoed Ref to File A",
+          "resultVarId": 0,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_InterGlb/RefEcho_FileB_Received and echoed Ref to File A"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "event/receive",
+    "event/send",
+    "flow/branch",
+    "flow/setDelay",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

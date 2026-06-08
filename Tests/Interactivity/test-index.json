@@ -50,6 +50,28 @@
     }
   },
   {
+    "label": "event/refs",
+    "name": "event/refs",
+    "tags": [
+      "event/onStart",
+      "ref/eq",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/setDelay",
+      "event/onTick",
+      "event/send",
+      "event/receive"
+    ],
+    "variants": {
+      "glTF-Binary": "refs.glb",
+      "test-Json": "refs.json"
+    }
+  },
+  {
     "label": "event/send and receive",
     "name": "event/send_and_receive",
     "tags": [
@@ -68,6 +90,29 @@
     "variants": {
       "glTF-Binary": "send_and_receive.glb",
       "test-Json": "send_and_receive.json"
+    }
+  },
+  {
+    "label": "event/stopPropagation",
+    "name": "event/stopPropagation",
+    "tags": [
+      "event/send",
+      "event/onStart",
+      "event/receive",
+      "event/stopPropagation",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/branch",
+      "flow/setDelay",
+      "math/add",
+      "flow/sequence",
+      "math/eq"
+    ],
+    "variants": {
+      "glTF-Binary": "stopPropagation.glb",
+      "test-Json": "stopPropagation.json"
     }
   },
   {

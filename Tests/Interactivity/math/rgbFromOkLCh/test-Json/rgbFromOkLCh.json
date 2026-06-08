@@ -1,0 +1,153 @@
+{
+  "glbFileName": "rgbFromOkLCh.glb",
+  "name": "math/rgbFromOkLCh",
+  "tests": [
+    {
+      "name": "math/rgbFromOkLCh",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/lt",
+        "math/rgbFromOkLCh",
+        "math/rgbToOkLCh",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Red inverse",
+          "nodeId": 1
+        },
+        {
+          "name": "Achromatic",
+          "nodeId": 64
+        },
+        {
+          "name": "Roundtrip (0.8, 0.3, 0.5)",
+          "nodeId": 105
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Red R≈1",
+          "resultVarName": "TestResult_math/rgbFromOkLCh_Red R≈1",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/rgbFromOkLCh_Red R≈1"
+        },
+        {
+          "name": "Red G≈0",
+          "resultVarName": "TestResult_math/rgbFromOkLCh_Red G≈0",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/rgbFromOkLCh_Red G≈0"
+        },
+        {
+          "name": "Red B≈0",
+          "resultVarName": "TestResult_math/rgbFromOkLCh_Red B≈0",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/rgbFromOkLCh_Red B≈0"
+        },
+        {
+          "name": "Achromatic R≈G",
+          "resultVarName": "TestResult_math/rgbFromOkLCh_Achromatic R≈G",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/rgbFromOkLCh_Achromatic R≈G"
+        },
+        {
+          "name": "Achromatic G≈B",
+          "resultVarName": "TestResult_math/rgbFromOkLCh_Achromatic G≈B",
+          "resultVarId": 9,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/rgbFromOkLCh_Achromatic G≈B"
+        },
+        {
+          "name": "Achromatic R≈B",
+          "resultVarName": "TestResult_math/rgbFromOkLCh_Achromatic R≈B",
+          "resultVarId": 11,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/rgbFromOkLCh_Achromatic R≈B"
+        },
+        {
+          "name": "Roundtrip R",
+          "resultVarName": "TestResult_math/rgbFromOkLCh_Roundtrip R",
+          "resultVarId": 13,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.8
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/rgbFromOkLCh_Roundtrip R"
+        },
+        {
+          "name": "Roundtrip G",
+          "resultVarName": "TestResult_math/rgbFromOkLCh_Roundtrip G",
+          "resultVarId": 15,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.3
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_math/rgbFromOkLCh_Roundtrip G"
+        },
+        {
+          "name": "Roundtrip B",
+          "resultVarName": "TestResult_math/rgbFromOkLCh_Roundtrip B",
+          "resultVarId": 17,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.5
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_math/rgbFromOkLCh_Roundtrip B"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/lt",
+    "math/rgbFromOkLCh",
+    "math/rgbToOkLCh",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

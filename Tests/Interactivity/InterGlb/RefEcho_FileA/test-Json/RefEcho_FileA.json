@@ -1,0 +1,71 @@
+{
+  "glbFileName": "RefEcho_FileA.glb",
+  "name": "InterGlb/RefEcho_FileA",
+  "tests": [
+    {
+      "name": "InterGlb/RefEcho_FileA",
+      "description": "Sends a mesh Ref to File B via a custom event. File B echoes it back. File A checks with ref/eq that the ref is unchanged.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "event/receive",
+        "event/send",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/eq",
+        "pointer/get",
+        "pointer/set",
+        "ref/eq",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Send mesh Ref to File B (delayed execution)",
+          "nodeId": 2,
+          "delayedExecutionTime": 2.0
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Echoed Ref equals original",
+          "resultVarName": "TestResult_InterGlb/RefEcho_FileA_Echoed Ref equals original",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_InterGlb/RefEcho_FileA_Echoed Ref equals original"
+        },
+        {
+          "name": "Engine Ref forwarded via File B",
+          "resultVarName": "TestResult_InterGlb/RefEcho_FileA_Engine Ref forwarded via File B",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_InterGlb/RefEcho_FileA_Engine Ref forwarded via File B"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "event/receive",
+    "event/send",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/eq",
+    "pointer/get",
+    "pointer/set",
+    "ref/eq",
+    "variable/get",
+    "variable/set"
+  ]
+}

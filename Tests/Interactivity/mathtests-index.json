@@ -1641,6 +1641,50 @@
     }
   },
   {
+    "label": "math/rgbFromOkLCh",
+    "name": "math/rgbFromOkLCh",
+    "tags": [
+      "math/rgbFromOkLCh",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/rgbToOkLCh"
+    ],
+    "variants": {
+      "glTF-Binary": "rgbFromOkLCh.glb",
+      "test-Json": "rgbFromOkLCh.json"
+    }
+  },
+  {
+    "label": "math/rgbToOkLCh",
+    "name": "math/rgbToOkLCh",
+    "tags": [
+      "math/rgbToOkLCh",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/sub",
+      "math/abs",
+      "math/lt"
+    ],
+    "variants": {
+      "glTF-Binary": "rgbToOkLCh.glb",
+      "test-Json": "rgbToOkLCh.json"
+    }
+  },
+  {
     "label": "math/rotate2D",
     "name": "math/rotate2D",
     "tags": [
@@ -1793,6 +1837,32 @@
     "variants": {
       "glTF-Binary": "sinh.glb",
       "test-Json": "sinh.json"
+    }
+  },
+  {
+    "label": "math/smoothStep",
+    "name": "math/smoothStep",
+    "tags": [
+      "math/smoothStep",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and"
+    ],
+    "variants": {
+      "glTF-Binary": "smoothStep.glb",
+      "test-Json": "smoothStep.json"
     }
   },
   {

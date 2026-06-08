@@ -1,0 +1,116 @@
+{
+  "glbFileName": "smoothStep.glb",
+  "name": "math/smoothStep",
+  "tests": [
+    {
+      "name": "math/smoothStep",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/lt",
+        "math/normalize",
+        "math/smoothStep",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] 0.50 [b] 0.20 [c] 0.70 = 0.26",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (0.50, 0.60) [b] (0.20, 0.30) [c] (0.70, 0.80) = (0.26, 0.33)",
+          "nodeId": 17
+        },
+        {
+          "name": "[a] (0.50, 0.60, 0.70) [b] (0.20, 0.30, 0.40) [c] (0.70, 0.80, 0.90) = (0.26, 0.33, 0.41)",
+          "nodeId": 36
+        },
+        {
+          "name": "[a] (0.50, 0.60, 0.70, 0.80) [b] (0.20, 0.30, 0.40, 0.50) [c] (0.70, 0.80, 0.90, 1.00) = (0.26, 0.33, 0.41, 0.50)",
+          "nodeId": 62
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] 0.50 [b] 0.20 [c] 0.70 = 0.26",
+          "resultVarName": "TestResult_math/smoothStep_[a] 0.50 [b] 0.20 [c] 0.70 = 0.26",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.2648
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/smoothStep_[a] 0.50 [b] 0.20 [c] 0.70 = 0.26"
+        },
+        {
+          "name": "[a] (0.50, 0.60) [b] (0.20, 0.30) [c] (0.70, 0.80) = (0.26, 0.33)",
+          "resultVarName": "TestResult_math/smoothStep_[a] (0.50, 0.60) [b] (0.20, 0.30) [c] (0.70, 0.80) = (0.26, 0.33)",
+          "resultVarId": 3,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            0.2648,
+            0.3312
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/smoothStep_[a] (0.50, 0.60) [b] (0.20, 0.30) [c] (0.70, 0.80) = (0.26, 0.33)"
+        },
+        {
+          "name": "[a] (0.50, 0.60, 0.70) [b] (0.20, 0.30, 0.40) [c] (0.70, 0.80, 0.90) = (0.26, 0.33, 0.41)",
+          "resultVarName": "TestResult_math/smoothStep_[a] (0.50, 0.60, 0.70) [b] (0.20, 0.30, 0.40) [c] (0.70, 0.80, 0.90) = (0.26, 0.33, 0.41)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.2648,
+            0.3312,
+            0.4084
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/smoothStep_[a] (0.50, 0.60, 0.70) [b] (0.20, 0.30, 0.40) [c] (0.70, 0.80, 0.90) = (0.26, 0.33, 0.41)"
+        },
+        {
+          "name": "[a] (0.50, 0.60, 0.70, 0.80) [b] (0.20, 0.30, 0.40, 0.50) [c] (0.70, 0.80, 0.90, 1.00) = (0.26, 0.33, 0.41, 0.50)",
+          "resultVarName": "TestResult_math/smoothStep_[a] (0.50, 0.60, 0.70, 0.80) [b] (0.20, 0.30, 0.40, 0.50) [c] (0.70, 0.80, 0.90, 1.00) = (0.26, 0.33, 0.41, 0.50)",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.2648,
+            0.3312,
+            0.4084,
+            0.5
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/smoothStep_[a] (0.50, 0.60, 0.70, 0.80) [b] (0.20, 0.30, 0.40, 0.50) [c] (0.70, 0.80, 0.90, 1.00) = (0.26, 0.33, 0.41, 0.50)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/lt",
+    "math/normalize",
+    "math/smoothStep",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

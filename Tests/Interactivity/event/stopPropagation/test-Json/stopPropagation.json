@@ -1,0 +1,71 @@
+{
+  "glbFileName": "stopPropagation.glb",
+  "name": "event/stopPropagation",
+  "tests": [
+    {
+      "name": "event/stopPropagation",
+      "description": "Sends a custom event. Receiver A stops propagation; Receiver B must not be triggered.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "event/receive",
+        "event/send",
+        "event/stopPropagation",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/add",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "event/stopPropagation (delayed execution)",
+          "nodeId": 1,
+          "delayedExecutionTime": 1.0
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Receiver A: received event",
+          "resultVarName": "TestResult_event/stopPropagation_Receiver A: received event",
+          "resultVarId": 0,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_event/stopPropagation_Receiver A: received event"
+        },
+        {
+          "name": "Receiver B: NOT triggered (propagation stopped)",
+          "resultVarName": "TestResult_event/stopPropagation_Receiver B: NOT triggered (propagation stopped)",
+          "resultVarId": 3,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_event/stopPropagation_Receiver B: NOT triggered (propagation stopped)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "event/receive",
+    "event/send",
+    "event/stopPropagation",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/add",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
