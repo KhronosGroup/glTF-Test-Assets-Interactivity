@@ -12,6 +12,12 @@
 | invalid, Rotate | TestResult_math/matDecompose_invalid, Rotate | 11 | (0.00000, 0.00000, 0.00000, 1.00000)
 | invalid, Scale | TestResult_math/matDecompose_invalid, Scale | 13 | (1.00000, 1.00000, 1.00000)
 | invalid. isValid | TestResult_math/matDecompose_invalid. isValid | 15 | False
+| ignored row, Translate | TestResult_math/matDecompose_ignored row, Translate | 17 | (1.00000, 2.00000, 3.00000)
+| ignored row, Rotate | TestResult_math/matDecompose_ignored row, Rotate | 19 | (0.39190, 0.20056, 0.36042, 0.82236)
+| ignored row, Scale | TestResult_math/matDecompose_ignored row, Scale | 21 | (2.00000, 2.00000, 2.00000)
+| ignored row, isValid | TestResult_math/matDecompose_ignored row, isValid | 23 | True
+| 0 scale, Translate | TestResult_math/matDecompose_0 scale, Translate | 25 | (1.00000, 2.00000, 3.00000)
+| 0 scale, Scale | TestResult_math/matDecompose_0 scale, Scale | 27 | (0.00000, 0.00000, 0.00000)
 
 Schemas used in this test case:
 - debug/log

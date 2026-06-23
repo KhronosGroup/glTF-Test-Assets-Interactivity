@@ -1,0 +1,77 @@
+{
+  "glbFileName": "slerp.glb",
+  "name": "math/slerp",
+  "tests": [
+    {
+      "name": "math/slerp",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/normalize",
+        "math/slerp",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] (2.00, 5.00) [b] (4.00, 6.00) [c] 0.50 = (2.93, 5.57)",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 0.50 = (2.94, 5.52, 7.55)",
+          "nodeId": 20
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] (2.00, 5.00) [b] (4.00, 6.00) [c] 0.50 = (2.93, 5.57)",
+          "resultVarName": "TestResult_math/slerp_[a] (2.00, 5.00) [b] (4.00, 6.00) [c] 0.50 = (2.93, 5.57)",
+          "resultVarId": 1,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            2.93208718,
+            5.57398939
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/slerp_[a] (2.00, 5.00) [b] (4.00, 6.00) [c] 0.50 = (2.93, 5.57)"
+        },
+        {
+          "name": "[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 0.50 = (2.94, 5.52, 7.55)",
+          "resultVarName": "TestResult_math/slerp_[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 0.50 = (2.94, 5.52, 7.55)",
+          "resultVarId": 3,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            2.938426,
+            5.520676,
+            7.546407
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/slerp_[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 0.50 = (2.94, 5.52, 7.55)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/normalize",
+    "math/slerp",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

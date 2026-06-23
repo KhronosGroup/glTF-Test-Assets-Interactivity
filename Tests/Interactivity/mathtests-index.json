@@ -1840,6 +1840,29 @@
     }
   },
   {
+    "label": "math/slerp",
+    "name": "math/slerp",
+    "tags": [
+      "math/slerp",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "slerp.glb",
+      "test-Json": "slerp.json"
+    }
+  },
+  {
     "label": "math/smoothStep",
     "name": "math/smoothStep",
     "tags": [
