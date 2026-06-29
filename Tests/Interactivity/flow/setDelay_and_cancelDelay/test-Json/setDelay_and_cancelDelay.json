@@ -20,6 +20,7 @@
         "math/lt",
         "math/select",
         "math/sub",
+        "pointer/get",
         "pointer/set",
         "variable/get",
         "variable/set"
@@ -37,13 +38,18 @@
         },
         {
           "name": "Cancel Delay (delayed execution)",
-          "nodeId": 70,
+          "nodeId": 72,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "Error (delayed execution)",
-          "nodeId": 89,
+          "nodeId": 91,
           "delayedExecutionTime": 2.0
+        },
+        {
+          "name": "Delay Ref (delayed execution)",
+          "nodeId": 100,
+          "delayedExecutionTime": 0.5
         }
       ],
       "subTests": [
@@ -123,6 +129,17 @@
           ],
           "successResultVarId": 9,
           "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_cancelDelay \nFlow [out]"
+        },
+        {
+          "name": "lastDelay\nref isValid",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_lastDelay\nref isValid",
+          "resultVarId": 12,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 11,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_lastDelay\nref isValid"
         }
       ]
     }
@@ -142,6 +159,7 @@
     "math/lt",
     "math/select",
     "math/sub",
+    "pointer/get",
     "pointer/set",
     "variable/get",
     "variable/set"

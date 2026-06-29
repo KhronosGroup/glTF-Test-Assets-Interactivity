@@ -11,6 +11,7 @@
 | setDelay [cancel] | TestResult_flow/setDelay and cancelDelay_setDelay [cancel] | 7 | False
 | cancelDelay triggered | TestResult_flow/setDelay and cancelDelay_cancelDelay triggered | 8 | False
 | cancelDelay Flow [out] | TestResult_flow/setDelay and cancelDelay_cancelDelay Flow [out] | 9 | True
+| lastDelayref isValid | TestResult_flow/setDelay and cancelDelay_lastDelayref isValid | 12 | True
 
 Schemas used in this test case:
 - debug/log
@@ -27,6 +28,7 @@ Schemas used in this test case:
 - math/lt
 - math/select
 - math/sub
+- pointer/get
 - pointer/set
 - variable/get
 - variable/set
