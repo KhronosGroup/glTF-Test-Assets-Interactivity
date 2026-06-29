@@ -50,8 +50,8 @@
     }
   },
   {
-    "label": "event/refs",
-    "name": "event/refs",
+    "label": "event/Event Refs",
+    "name": "event/Event_Refs",
     "tags": [
       "event/onStart",
       "ref/eq",
@@ -64,11 +64,12 @@
       "flow/setDelay",
       "event/onTick",
       "event/send",
-      "event/receive"
+      "event/receive",
+      "pointer/get"
     ],
     "variants": {
-      "glTF-Binary": "refs.glb",
-      "test-Json": "refs.json"
+      "glTF-Binary": "Event_Refs.glb",
+      "test-Json": "Event_Refs.json"
     }
   },
   {
@@ -232,7 +233,8 @@
       "math/lt",
       "math/add",
       "math/eq",
-      "flow/cancelDelay"
+      "flow/cancelDelay",
+      "pointer/get"
     ],
     "variants": {
       "glTF-Binary": "setDelay_and_cancelDelay.glb",
