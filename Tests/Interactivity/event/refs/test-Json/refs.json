@@ -32,17 +32,17 @@
         },
         {
           "name": "event/receive ref (delayed execution)",
-          "nodeId": 33,
+          "nodeId": 36,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "event/onStart same ref (delayed execution)",
-          "nodeId": 58,
+          "nodeId": 61,
           "delayedExecutionTime": 0.5
         },
         {
           "name": "event/onTick same ref (delayed execution)",
-          "nodeId": 74,
+          "nodeId": 77,
           "delayedExecutionTime": 1.0
         }
       ],
@@ -72,34 +72,34 @@
         {
           "name": "event/receive\nref not null",
           "resultVarName": "TestResult_event/refs_event/receive\nref not null",
-          "resultVarId": 5,
+          "resultVarId": 6,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 5,
           "successResultVarName": "TestResult_HasPassed_event/refs_event/receive\nref not null"
         },
         {
           "name": "event/onStart\ntwo nodes same ref",
           "resultVarName": "TestResult_event/refs_event/onStart\ntwo nodes same ref",
-          "resultVarId": 7,
+          "resultVarId": 8,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 6,
+          "successResultVarId": 7,
           "successResultVarName": "TestResult_HasPassed_event/refs_event/onStart\ntwo nodes same ref"
         },
         {
           "name": "event/onTick\ntwo nodes same ref",
           "resultVarName": "TestResult_event/refs_event/onTick\ntwo nodes same ref",
-          "resultVarId": 9,
+          "resultVarId": 10,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 8,
+          "successResultVarId": 9,
           "successResultVarName": "TestResult_HasPassed_event/refs_event/onTick\ntwo nodes same ref"
         }
       ]
