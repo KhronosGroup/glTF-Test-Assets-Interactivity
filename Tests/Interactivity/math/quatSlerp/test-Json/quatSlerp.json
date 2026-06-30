@@ -1,0 +1,98 @@
+{
+  "glbFileName": "quatSlerp.glb",
+  "name": "math/quatSlerp",
+  "tests": [
+    {
+      "name": "math/quatSlerp",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/normalize",
+        "math/quatSlerp",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 0.50 = (0.00, 0.38, 0.00, 0.92)",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 0.00 = (0.00, 0.00, 0.00, 1.00)",
+          "nodeId": 20
+        },
+        {
+          "name": "[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 1.00 = (0.00, 0.71, 0.00, 0.71)",
+          "nodeId": 39
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 0.50 = (0.00, 0.38, 0.00, 0.92)",
+          "resultVarName": "TestResult_math/quatSlerp_[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 0.50 = (0.00, 0.38, 0.00, 0.92)",
+          "resultVarId": 1,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0,
+            0.382683426,
+            0.0,
+            0.923879564
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/quatSlerp_[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 0.50 = (0.00, 0.38, 0.00, 0.92)"
+        },
+        {
+          "name": "[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 0.00 = (0.00, 0.00, 0.00, 1.00)",
+          "resultVarName": "TestResult_math/quatSlerp_[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 0.00 = (0.00, 0.00, 0.00, 1.00)",
+          "resultVarId": 3,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.0,
+            0.99999994
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/quatSlerp_[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 0.00 = (0.00, 0.00, 0.00, 1.00)"
+        },
+        {
+          "name": "[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 1.00 = (0.00, 0.71, 0.00, 0.71)",
+          "resultVarName": "TestResult_math/quatSlerp_[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 1.00 = (0.00, 0.71, 0.00, 0.71)",
+          "resultVarId": 5,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0,
+            0.7071067,
+            0.0,
+            0.7071067
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/quatSlerp_[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 1.00 = (0.00, 0.71, 0.00, 0.71)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/normalize",
+    "math/quatSlerp",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

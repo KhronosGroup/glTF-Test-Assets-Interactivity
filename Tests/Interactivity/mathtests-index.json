@@ -469,6 +469,30 @@
     }
   },
   {
+    "label": "math/cross",
+    "name": "math/cross",
+    "tags": [
+      "math/cross",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/eq"
+    ],
+    "variants": {
+      "glTF-Binary": "cross.glb",
+      "test-Json": "cross.json"
+    }
+  },
+  {
     "label": "math/ctz",
     "name": "math/ctz",
     "tags": [
@@ -1540,6 +1564,29 @@
     }
   },
   {
+    "label": "math/quatSlerp",
+    "name": "math/quatSlerp",
+    "tags": [
+      "math/quatSlerp",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "quatSlerp.glb",
+      "test-Json": "quatSlerp.json"
+    }
+  },
+  {
     "label": "math/quatToAxisAngle",
     "name": "math/quatToAxisAngle",
     "tags": [
@@ -1728,6 +1775,25 @@
     "variants": {
       "glTF-Binary": "rotate3D.glb",
       "test-Json": "rotate3D.json"
+    }
+  },
+  {
+    "label": "math/round",
+    "name": "math/round",
+    "tags": [
+      "math/round",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "round.glb",
+      "test-Json": "round.json"
     }
   },
   {

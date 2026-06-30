@@ -1,0 +1,97 @@
+{
+  "glbFileName": "cross.glb",
+  "name": "math/cross",
+  "tests": [
+    {
+      "name": "math/cross",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/cross",
+        "math/dot",
+        "math/eq",
+        "math/gt",
+        "math/length",
+        "math/normalize",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 1.00)",
+          "nodeId": 1
+        },
+        {
+          "name": "[a] (2.00, 3.00, 4.00) [b] (5.00, 6.00, 7.00) = (-3.00, 6.00, -3.00)",
+          "nodeId": 20
+        },
+        {
+          "name": "[a] (2.00, 4.00, 6.00) [b] (1.00, 2.00, 3.00) = (0.00, 0.00, 0.00)",
+          "nodeId": 39
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 1.00)",
+          "resultVarName": "TestResult_math/cross_[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 1.00)",
+          "resultVarId": 1,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/cross_[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 1.00)"
+        },
+        {
+          "name": "[a] (2.00, 3.00, 4.00) [b] (5.00, 6.00, 7.00) = (-3.00, 6.00, -3.00)",
+          "resultVarName": "TestResult_math/cross_[a] (2.00, 3.00, 4.00) [b] (5.00, 6.00, 7.00) = (-3.00, 6.00, -3.00)",
+          "resultVarId": 3,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -3.0,
+            6.0,
+            -3.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/cross_[a] (2.00, 3.00, 4.00) [b] (5.00, 6.00, 7.00) = (-3.00, 6.00, -3.00)"
+        },
+        {
+          "name": "[a] (2.00, 4.00, 6.00) [b] (1.00, 2.00, 3.00) = (0.00, 0.00, 0.00)",
+          "resultVarName": "TestResult_math/cross_[a] (2.00, 4.00, 6.00) [b] (1.00, 2.00, 3.00) = (0.00, 0.00, 0.00)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/cross_[a] (2.00, 4.00, 6.00) [b] (1.00, 2.00, 3.00) = (0.00, 0.00, 0.00)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/cross",
+    "math/dot",
+    "math/eq",
+    "math/gt",
+    "math/length",
+    "math/normalize",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
