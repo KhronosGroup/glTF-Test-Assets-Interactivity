@@ -64,92 +64,92 @@
       ],
       "subTests": [
         {
-          "name": "event/onStart\nref not null",
-          "resultVarName": "TestResult_event/Event Refs_event/onStart\nref not null",
+          "name": "event/onStart\n ref not null",
+          "resultVarName": "TestResult_event/Event Refs_event/onStart\n ref not null",
           "resultVarId": 1,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onStart\nref not null"
+          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onStart\n ref not null"
         },
         {
-          "name": "event/onTick\nref not null",
-          "resultVarName": "TestResult_event/Event Refs_event/onTick\nref not null",
+          "name": "event/onTick\n ref not null",
+          "resultVarName": "TestResult_event/Event Refs_event/onTick\n ref not null",
           "resultVarId": 3,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onTick\nref not null"
+          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onTick\n ref not null"
         },
         {
-          "name": "event/receive\nref not null",
-          "resultVarName": "TestResult_event/Event Refs_event/receive\nref not null",
+          "name": "event/receive\n ref not null",
+          "resultVarName": "TestResult_event/Event Refs_event/receive\n ref not null",
           "resultVarId": 6,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 5,
-          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/receive\nref not null"
+          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/receive\n ref not null"
         },
         {
-          "name": "event/onStart\ntwo nodes same ref",
-          "resultVarName": "TestResult_event/Event Refs_event/onStart\ntwo nodes same ref",
+          "name": "event/onStart\n two nodes same ref",
+          "resultVarName": "TestResult_event/Event Refs_event/onStart\n two nodes same ref",
           "resultVarId": 8,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 7,
-          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onStart\ntwo nodes same ref"
+          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onStart\n two nodes same ref"
         },
         {
-          "name": "event/onTick\ntwo nodes same ref",
-          "resultVarName": "TestResult_event/Event Refs_event/onTick\ntwo nodes same ref",
+          "name": "event/onTick\nt wo nodes same ref",
+          "resultVarName": "TestResult_event/Event Refs_event/onTick\nt wo nodes same ref",
           "resultVarId": 10,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 9,
-          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onTick\ntwo nodes same ref"
+          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onTick\nt wo nodes same ref"
         },
         {
-          "name": "event/onStart\npointer/get isValid",
-          "resultVarName": "TestResult_event/Event Refs_event/onStart\npointer/get isValid",
+          "name": "event/onStart\n pointer/get isValid",
+          "resultVarName": "TestResult_event/Event Refs_event/onStart\n pointer/get isValid",
           "resultVarId": 13,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 12,
-          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onStart\npointer/get isValid"
+          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onStart\n pointer/get isValid"
         },
         {
-          "name": "event/onTick\npointer/get isValid",
-          "resultVarName": "TestResult_event/Event Refs_event/onTick\npointer/get isValid",
+          "name": "event/onTick\n pointer/get isValid",
+          "resultVarName": "TestResult_event/Event Refs_event/onTick\n pointer/get isValid",
           "resultVarId": 15,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 14,
-          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onTick\npointer/get isValid"
+          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onTick\n pointer/get isValid"
         },
         {
-          "name": "event/receive\npointer/get isValid",
-          "resultVarName": "TestResult_event/Event Refs_event/receive\npointer/get isValid",
+          "name": "event/receive\n pointer/get isValid",
+          "resultVarName": "TestResult_event/Event Refs_event/receive\n pointer/get isValid",
           "resultVarId": 18,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 17,
-          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/receive\npointer/get isValid"
+          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/receive\n pointer/get isValid"
         }
       ]
     }

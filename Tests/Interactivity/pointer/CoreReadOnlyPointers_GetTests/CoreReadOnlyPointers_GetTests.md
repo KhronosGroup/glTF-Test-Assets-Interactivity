@@ -61,5 +61,6 @@ Schemas used in this test case:
 - math/eq
 - pointer/get
 - pointer/set
+- ref/eq
 - variable/get
 - variable/set

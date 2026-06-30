@@ -4,14 +4,14 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| event/onStartref not null | TestResult_event/Event Refs_event/onStartref not null | 1 | False
-| event/onTickref not null | TestResult_event/Event Refs_event/onTickref not null | 3 | False
-| event/receiveref not null | TestResult_event/Event Refs_event/receiveref not null | 6 | False
-| event/onStarttwo nodes same ref | TestResult_event/Event Refs_event/onStarttwo nodes same ref | 8 | True
-| event/onTicktwo nodes same ref | TestResult_event/Event Refs_event/onTicktwo nodes same ref | 10 | True
-| event/onStartpointer/get isValid | TestResult_event/Event Refs_event/onStartpointer/get isValid | 13 | True
-| event/onTickpointer/get isValid | TestResult_event/Event Refs_event/onTickpointer/get isValid | 15 | True
-| event/receivepointer/get isValid | TestResult_event/Event Refs_event/receivepointer/get isValid | 18 | True
+| event/onStart ref not null | TestResult_event/Event Refs_event/onStart ref not null | 1 | False
+| event/onTick ref not null | TestResult_event/Event Refs_event/onTick ref not null | 3 | False
+| event/receive ref not null | TestResult_event/Event Refs_event/receive ref not null | 6 | False
+| event/onStart two nodes same ref | TestResult_event/Event Refs_event/onStart two nodes same ref | 8 | True
+| event/onTickt wo nodes same ref | TestResult_event/Event Refs_event/onTickt wo nodes same ref | 10 | True
+| event/onStart pointer/get isValid | TestResult_event/Event Refs_event/onStart pointer/get isValid | 13 | True
+| event/onTick pointer/get isValid | TestResult_event/Event Refs_event/onTick pointer/get isValid | 15 | True
+| event/receive pointer/get isValid | TestResult_event/Event Refs_event/receive pointer/get isValid | 18 | True
 
 Schemas used in this test case:
 - debug/log
