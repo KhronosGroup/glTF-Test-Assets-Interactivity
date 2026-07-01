@@ -7263,72 +7263,72 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 0.50 [b] 0.20 [c] 0.70 = 0.26",
+          "name": "[a] 0.00 [b] 1.00 [c] 0.25 = 0.16",
           "nodeId": 6007
         },
         {
-          "name": "[a] (0.50, 0.60) [b] (0.20, 0.30) [c] (0.70, 0.80) = (0.26, 0.33)",
+          "name": "[a] (0.00, 0.20) [b] (1.00, 0.80) [c] (0.50, 0.50) = (0.50, 0.50)",
           "nodeId": 6022
         },
         {
-          "name": "[a] (0.50, 0.60, 0.70) [b] (0.20, 0.30, 0.40) [c] (0.70, 0.80, 0.90) = (0.26, 0.33, 0.41)",
+          "name": "[a] (0.00, 0.00, 0.00) [b] (1.00, 2.00, 4.00) [c] (0.50, 1.00, 3.00) = (0.50, 0.50, 0.84)",
           "nodeId": 6040
         },
         {
-          "name": "[a] (0.50, 0.60, 0.70, 0.80) [b] (0.20, 0.30, 0.40, 0.50) [c] (0.70, 0.80, 0.90, 1.00) = (0.26, 0.33, 0.41, 0.50)",
+          "name": "[a] (0.00, 0.00, 0.00, 0.00) [b] (1.00, 1.00, 1.00, 1.00) [c] (0.10, 0.40, 0.60, 0.90) = (0.03, 0.35, 0.65, 0.97)",
           "nodeId": 6058
         }
       ],
       "subTests": [
         {
-          "name": "[a] 0.50 [b] 0.20 [c] 0.70 = 0.26",
-          "resultVarName": "TestResult_math/smoothStep_[a] 0.50 [b] 0.20 [c] 0.70 = 0.26",
+          "name": "[a] 0.00 [b] 1.00 [c] 0.25 = 0.16",
+          "resultVarName": "TestResult_math/smoothStep_[a] 0.00 [b] 1.00 [c] 0.25 = 0.16",
           "resultVarId": 679,
           "resultVarType": "float",
           "expectedResultValue": [
-            0.2648
+            0.15625
           ],
           "successResultVarId": 678,
-          "successResultVarName": "TestResult_HasPassed_math/smoothStep_[a] 0.50 [b] 0.20 [c] 0.70 = 0.26"
+          "successResultVarName": "TestResult_HasPassed_math/smoothStep_[a] 0.00 [b] 1.00 [c] 0.25 = 0.16"
         },
         {
-          "name": "[a] (0.50, 0.60) [b] (0.20, 0.30) [c] (0.70, 0.80) = (0.26, 0.33)",
-          "resultVarName": "TestResult_math/smoothStep_[a] (0.50, 0.60) [b] (0.20, 0.30) [c] (0.70, 0.80) = (0.26, 0.33)",
+          "name": "[a] (0.00, 0.20) [b] (1.00, 0.80) [c] (0.50, 0.50) = (0.50, 0.50)",
+          "resultVarName": "TestResult_math/smoothStep_[a] (0.00, 0.20) [b] (1.00, 0.80) [c] (0.50, 0.50) = (0.50, 0.50)",
           "resultVarId": 681,
           "resultVarType": "float2",
           "expectedResultValue": [
-            0.2648,
-            0.3312
+            0.5,
+            0.49999994
           ],
           "successResultVarId": 680,
-          "successResultVarName": "TestResult_HasPassed_math/smoothStep_[a] (0.50, 0.60) [b] (0.20, 0.30) [c] (0.70, 0.80) = (0.26, 0.33)"
+          "successResultVarName": "TestResult_HasPassed_math/smoothStep_[a] (0.00, 0.20) [b] (1.00, 0.80) [c] (0.50, 0.50) = (0.50, 0.50)"
         },
         {
-          "name": "[a] (0.50, 0.60, 0.70) [b] (0.20, 0.30, 0.40) [c] (0.70, 0.80, 0.90) = (0.26, 0.33, 0.41)",
-          "resultVarName": "TestResult_math/smoothStep_[a] (0.50, 0.60, 0.70) [b] (0.20, 0.30, 0.40) [c] (0.70, 0.80, 0.90) = (0.26, 0.33, 0.41)",
+          "name": "[a] (0.00, 0.00, 0.00) [b] (1.00, 2.00, 4.00) [c] (0.50, 1.00, 3.00) = (0.50, 0.50, 0.84)",
+          "resultVarName": "TestResult_math/smoothStep_[a] (0.00, 0.00, 0.00) [b] (1.00, 2.00, 4.00) [c] (0.50, 1.00, 3.00) = (0.50, 0.50, 0.84)",
           "resultVarId": 683,
           "resultVarType": "float3",
           "expectedResultValue": [
-            0.2648,
-            0.3312,
-            0.4084
+            0.5,
+            0.5,
+            0.84375
           ],
           "successResultVarId": 682,
-          "successResultVarName": "TestResult_HasPassed_math/smoothStep_[a] (0.50, 0.60, 0.70) [b] (0.20, 0.30, 0.40) [c] (0.70, 0.80, 0.90) = (0.26, 0.33, 0.41)"
+          "successResultVarName": "TestResult_HasPassed_math/smoothStep_[a] (0.00, 0.00, 0.00) [b] (1.00, 2.00, 4.00) [c] (0.50, 1.00, 3.00) = (0.50, 0.50, 0.84)"
         },
         {
-          "name": "[a] (0.50, 0.60, 0.70, 0.80) [b] (0.20, 0.30, 0.40, 0.50) [c] (0.70, 0.80, 0.90, 1.00) = (0.26, 0.33, 0.41, 0.50)",
-          "resultVarName": "TestResult_math/smoothStep_[a] (0.50, 0.60, 0.70, 0.80) [b] (0.20, 0.30, 0.40, 0.50) [c] (0.70, 0.80, 0.90, 1.00) = (0.26, 0.33, 0.41, 0.50)",
+          "name": "[a] (0.00, 0.00, 0.00, 0.00) [b] (1.00, 1.00, 1.00, 1.00) [c] (0.10, 0.40, 0.60, 0.90) = (0.03, 0.35, 0.65, 0.97)",
+          "resultVarName": "TestResult_math/smoothStep_[a] (0.00, 0.00, 0.00, 0.00) [b] (1.00, 1.00, 1.00, 1.00) [c] (0.10, 0.40, 0.60, 0.90) = (0.03, 0.35, 0.65, 0.97)",
           "resultVarId": 685,
           "resultVarType": "float4",
           "expectedResultValue": [
-            0.2648,
-            0.3312,
-            0.4084,
-            0.5
+            0.028,
+            0.352,
+            0.648000062,
+            0.972
           ],
           "successResultVarId": 684,
-          "successResultVarName": "TestResult_HasPassed_math/smoothStep_[a] (0.50, 0.60, 0.70, 0.80) [b] (0.20, 0.30, 0.40, 0.50) [c] (0.70, 0.80, 0.90, 1.00) = (0.26, 0.33, 0.41, 0.50)"
+          "successResultVarName": "TestResult_HasPassed_math/smoothStep_[a] (0.00, 0.00, 0.00, 0.00) [b] (1.00, 1.00, 1.00, 1.00) [c] (0.10, 0.40, 0.60, 0.90) = (0.03, 0.35, 0.65, 0.97)"
         }
       ]
     },
