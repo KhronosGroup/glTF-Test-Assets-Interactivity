@@ -1,0 +1,141 @@
+{
+  "glbFileName": "combine3x3.glb",
+  "name": "math/combine3x3",
+  "tests": [
+    {
+      "name": "math/combine3x3",
+      "description": "Round-trip combine3x3 -> extract3x3; each component must match the input.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/combine3x3",
+        "math/eq",
+        "math/extract3x3",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "math/combine3x3",
+          "nodeId": 2
+        }
+      ],
+      "subTests": [
+        {
+          "name": "combine3x3[0] == 1",
+          "resultVarName": "TestResult_math/combine3x3_combine3x3[0] == 1",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/combine3x3_combine3x3[0] == 1"
+        },
+        {
+          "name": "combine3x3[1] == 2",
+          "resultVarName": "TestResult_math/combine3x3_combine3x3[1] == 2",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/combine3x3_combine3x3[1] == 2"
+        },
+        {
+          "name": "combine3x3[2] == 3",
+          "resultVarName": "TestResult_math/combine3x3_combine3x3[2] == 3",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/combine3x3_combine3x3[2] == 3"
+        },
+        {
+          "name": "combine3x3[3] == 4",
+          "resultVarName": "TestResult_math/combine3x3_combine3x3[3] == 4",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            4.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/combine3x3_combine3x3[3] == 4"
+        },
+        {
+          "name": "combine3x3[4] == 5",
+          "resultVarName": "TestResult_math/combine3x3_combine3x3[4] == 5",
+          "resultVarId": 9,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            5.0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/combine3x3_combine3x3[4] == 5"
+        },
+        {
+          "name": "combine3x3[5] == 6",
+          "resultVarName": "TestResult_math/combine3x3_combine3x3[5] == 6",
+          "resultVarId": 11,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            6.0
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/combine3x3_combine3x3[5] == 6"
+        },
+        {
+          "name": "combine3x3[6] == 7",
+          "resultVarName": "TestResult_math/combine3x3_combine3x3[6] == 7",
+          "resultVarId": 13,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            7.0
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/combine3x3_combine3x3[6] == 7"
+        },
+        {
+          "name": "combine3x3[7] == 8",
+          "resultVarName": "TestResult_math/combine3x3_combine3x3[7] == 8",
+          "resultVarId": 15,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            8.0
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_math/combine3x3_combine3x3[7] == 8"
+        },
+        {
+          "name": "combine3x3[8] == 9",
+          "resultVarName": "TestResult_math/combine3x3_combine3x3[8] == 9",
+          "resultVarId": 17,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            9.0
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_math/combine3x3_combine3x3[8] == 9"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/combine3x3",
+    "math/eq",
+    "math/extract3x3",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

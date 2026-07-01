@@ -1,0 +1,86 @@
+{
+  "glbFileName": "combine2x2.glb",
+  "name": "math/combine2x2",
+  "tests": [
+    {
+      "name": "math/combine2x2",
+      "description": "Round-trip combine2x2 -> extract2x2; each component must match the input.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/combine2x2",
+        "math/eq",
+        "math/extract2x2",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "math/combine2x2",
+          "nodeId": 2
+        }
+      ],
+      "subTests": [
+        {
+          "name": "combine2x2[0] == 1",
+          "resultVarName": "TestResult_math/combine2x2_combine2x2[0] == 1",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/combine2x2_combine2x2[0] == 1"
+        },
+        {
+          "name": "combine2x2[1] == 2",
+          "resultVarName": "TestResult_math/combine2x2_combine2x2[1] == 2",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/combine2x2_combine2x2[1] == 2"
+        },
+        {
+          "name": "combine2x2[2] == 3",
+          "resultVarName": "TestResult_math/combine2x2_combine2x2[2] == 3",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/combine2x2_combine2x2[2] == 3"
+        },
+        {
+          "name": "combine2x2[3] == 4",
+          "resultVarName": "TestResult_math/combine2x2_combine2x2[3] == 4",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            4.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/combine2x2_combine2x2[3] == 4"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/combine2x2",
+    "math/eq",
+    "math/extract2x2",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

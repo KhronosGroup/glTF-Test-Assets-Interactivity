@@ -360,6 +360,26 @@
     }
   },
   {
+    "label": "math/combine2x2",
+    "name": "math/combine2x2",
+    "tags": [
+      "math/combine2x2",
+      "math/extract2x2",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "combine2x2.glb",
+      "test-Json": "combine2x2.json"
+    }
+  },
+  {
     "label": "math/combine3",
     "name": "math/combine3",
     "tags": [
@@ -376,6 +396,26 @@
     "variants": {
       "glTF-Binary": "combine3.glb",
       "test-Json": "combine3.json"
+    }
+  },
+  {
+    "label": "math/combine3x3",
+    "name": "math/combine3x3",
+    "tags": [
+      "math/combine3x3",
+      "math/extract3x3",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "combine3x3.glb",
+      "test-Json": "combine3x3.json"
     }
   },
   {
@@ -685,6 +725,25 @@
     }
   },
   {
+    "label": "math/extract2x2",
+    "name": "math/extract2x2",
+    "tags": [
+      "math/extract2x2",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "extract2x2.glb",
+      "test-Json": "extract2x2.json"
+    }
+  },
+  {
     "label": "math/extract3",
     "name": "math/extract3",
     "tags": [
@@ -701,6 +760,25 @@
     "variants": {
       "glTF-Binary": "extract3.glb",
       "test-Json": "extract3.json"
+    }
+  },
+  {
+    "label": "math/extract3x3",
+    "name": "math/extract3x3",
+    "tags": [
+      "math/extract3x3",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "extract3x3.glb",
+      "test-Json": "extract3x3.json"
     }
   },
   {
