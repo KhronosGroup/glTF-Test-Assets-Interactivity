@@ -6,14 +6,14 @@ glTF extension. Each asset is a small, self‑checking interactivity graph: it r
 a set of operations, compares the results against known‑good expected values, and
 records whether every sub‑test passed.
 
+> **Current coverage:** 130 test cases · 647 sub-tests.
+
 The assets are meant to be used two ways:
 
 - **Manually**, by opening a `.glb` in a viewer/authoring tool and looking at the on‑screen checkboxes and debug log.
 - **Automatically**, by loading a `.glb` in an engine that implements `KHR_interactivity`, running the graph, and reading back the pass/fail result (see [Running tests automatically](#running-tests-automatically)).
 
-> These files are generated. The source that produces them lives in the
-> `glTF-Interactivity-Tests` project (Unity / UnityGLTF), see
-> [Generator & regenerating](#generator--regenerating). Do not hand‑edit the `.glb`/`.json`
+> These files are generated. Do not hand‑edit the `.glb`/`.json`
 > files — change the generator and re‑export.
 
 ---
