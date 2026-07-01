@@ -1,0 +1,256 @@
+{
+  "glbFileName": "conversions.glb",
+  "name": "type/conversions",
+  "tests": [
+    {
+      "name": "type/conversions",
+      "description": "Tests all type/* conversion nodes incl. truncation and NaN/Inf edge cases.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "pointer/set",
+        "type/boolToFloat",
+        "type/boolToInt",
+        "type/floatToBool",
+        "type/floatToInt",
+        "type/intToBool",
+        "type/intToFloat",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "boolToInt(true) == 1",
+          "nodeId": 1
+        },
+        {
+          "name": "boolToInt(false) == 0",
+          "nodeId": 15
+        },
+        {
+          "name": "boolToFloat(true) == 1",
+          "nodeId": 29
+        },
+        {
+          "name": "boolToFloat(false) == 0",
+          "nodeId": 70
+        },
+        {
+          "name": "intToBool(0) == false",
+          "nodeId": 83
+        },
+        {
+          "name": "intToBool(5) == true",
+          "nodeId": 96
+        },
+        {
+          "name": "intToBool(-3) == true",
+          "nodeId": 109
+        },
+        {
+          "name": "intToFloat(7) == 7.0",
+          "nodeId": 122
+        },
+        {
+          "name": "floatToInt(3.7) == 3 (trunc)",
+          "nodeId": 135
+        },
+        {
+          "name": "floatToInt(-3.7) == -3 (trunc)",
+          "nodeId": 148
+        },
+        {
+          "name": "floatToInt(NaN) == 0",
+          "nodeId": 161
+        },
+        {
+          "name": "floatToBool(0) == false",
+          "nodeId": 174
+        },
+        {
+          "name": "floatToBool(2.5) == true",
+          "nodeId": 187
+        },
+        {
+          "name": "floatToBool(-2.5) == true",
+          "nodeId": 200
+        }
+      ],
+      "subTests": [
+        {
+          "name": "boolToInt(true) == 1",
+          "resultVarName": "TestResult_type/conversions_boolToInt(true) == 1",
+          "resultVarId": 1,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_type/conversions_boolToInt(true) == 1"
+        },
+        {
+          "name": "boolToInt(false) == 0",
+          "resultVarName": "TestResult_type/conversions_boolToInt(false) == 0",
+          "resultVarId": 3,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_type/conversions_boolToInt(false) == 0"
+        },
+        {
+          "name": "boolToFloat(true) == 1",
+          "resultVarName": "TestResult_type/conversions_boolToFloat(true) == 1",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_type/conversions_boolToFloat(true) == 1"
+        },
+        {
+          "name": "boolToFloat(false) == 0",
+          "resultVarName": "TestResult_type/conversions_boolToFloat(false) == 0",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_type/conversions_boolToFloat(false) == 0"
+        },
+        {
+          "name": "intToBool(0) == false",
+          "resultVarName": "TestResult_type/conversions_intToBool(0) == false",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_type/conversions_intToBool(0) == false"
+        },
+        {
+          "name": "intToBool(5) == true",
+          "resultVarName": "TestResult_type/conversions_intToBool(5) == true",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_type/conversions_intToBool(5) == true"
+        },
+        {
+          "name": "intToBool(-3) == true",
+          "resultVarName": "TestResult_type/conversions_intToBool(-3) == true",
+          "resultVarId": 13,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_type/conversions_intToBool(-3) == true"
+        },
+        {
+          "name": "intToFloat(7) == 7.0",
+          "resultVarName": "TestResult_type/conversions_intToFloat(7) == 7.0",
+          "resultVarId": 15,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            7.0
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_type/conversions_intToFloat(7) == 7.0"
+        },
+        {
+          "name": "floatToInt(3.7) == 3 (trunc)",
+          "resultVarName": "TestResult_type/conversions_floatToInt(3.7) == 3 (trunc)",
+          "resultVarId": 17,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            3
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_type/conversions_floatToInt(3.7) == 3 (trunc)"
+        },
+        {
+          "name": "floatToInt(-3.7) == -3 (trunc)",
+          "resultVarName": "TestResult_type/conversions_floatToInt(-3.7) == -3 (trunc)",
+          "resultVarId": 19,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -3
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_type/conversions_floatToInt(-3.7) == -3 (trunc)"
+        },
+        {
+          "name": "floatToInt(NaN) == 0",
+          "resultVarName": "TestResult_type/conversions_floatToInt(NaN) == 0",
+          "resultVarId": 21,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 20,
+          "successResultVarName": "TestResult_HasPassed_type/conversions_floatToInt(NaN) == 0"
+        },
+        {
+          "name": "floatToBool(0) == false",
+          "resultVarName": "TestResult_type/conversions_floatToBool(0) == false",
+          "resultVarId": 23,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 22,
+          "successResultVarName": "TestResult_HasPassed_type/conversions_floatToBool(0) == false"
+        },
+        {
+          "name": "floatToBool(2.5) == true",
+          "resultVarName": "TestResult_type/conversions_floatToBool(2.5) == true",
+          "resultVarId": 25,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 24,
+          "successResultVarName": "TestResult_HasPassed_type/conversions_floatToBool(2.5) == true"
+        },
+        {
+          "name": "floatToBool(-2.5) == true",
+          "resultVarName": "TestResult_type/conversions_floatToBool(-2.5) == true",
+          "resultVarId": 27,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 26,
+          "successResultVarName": "TestResult_HasPassed_type/conversions_floatToBool(-2.5) == true"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "pointer/set",
+    "type/boolToFloat",
+    "type/boolToInt",
+    "type/floatToBool",
+    "type/floatToInt",
+    "type/intToBool",
+    "type/intToFloat",
+    "variable/get",
+    "variable/set"
+  ]
+}

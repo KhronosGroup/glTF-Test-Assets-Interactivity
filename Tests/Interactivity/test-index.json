@@ -430,6 +430,30 @@
     }
   },
   {
+    "label": "type/conversions",
+    "name": "type/conversions",
+    "tags": [
+      "type/boolToInt",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "type/boolToFloat",
+      "type/intToBool",
+      "type/intToFloat",
+      "type/floatToInt",
+      "type/floatToBool"
+    ],
+    "variants": {
+      "glTF-Binary": "conversions.glb",
+      "test-Json": "conversions.json"
+    }
+  },
+  {
     "label": "variable/interpolate",
     "name": "variable/interpolate",
     "tags": [
