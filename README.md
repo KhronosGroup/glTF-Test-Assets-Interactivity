@@ -22,7 +22,7 @@ The models can be viewed in the [Graph Authoring Tool](https://gltf-interactivit
 All models are tagged to allow easier access. These lists simplify your access and review of the models. All lists include the model name, screen shot, link to display the model in Sample Viewer, a short description, and the license/credits for the model. The following lists are available
 
 * [Showcase](./Models/Models-showcase.md) (#showcase) for models that demonstrate real-world use cases of glTF Interactivity, ranging from simple to complex.
-* [Testing](./Tests/Interactivity/Interactivity-testing.md) (#testing) for assets that are designed for programmatic or manual testing of KHR_interactivity implementations. These models can either be used to verify the behavior of specific features, or added to test suites to ensure correctness of implementation.
+* [Testing](./Tests/Interactivity/README.md) (#testing) for assets that are designed for programmatic or manual testing of KHR_interactivity implementations. These models can either be used to verify the behavior of specific features, or added to test suites to ensure correctness of implementation.
 
 A summary of the model license is shown in each display, but see the `README.md` in each model's directory for detailed license information.
 
