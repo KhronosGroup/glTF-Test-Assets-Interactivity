@@ -11,6 +11,7 @@
         "flow/branch",
         "flow/sequence",
         "math/abs",
+        "math/eq",
         "math/lt",
         "math/mul",
         "math/sub",
@@ -26,6 +27,10 @@
         {
           "name": "[a] 2 [b] 3 = 6",
           "nodeId": 17
+        },
+        {
+          "name": "[a] 46341 [b] 46341 = -2147479015",
+          "nodeId": 34
         }
       ],
       "subTests": [
@@ -50,6 +55,17 @@
           ],
           "successResultVarId": 2,
           "successResultVarName": "TestResult_HasPassed_math/mul_[a] 2 [b] 3 = 6"
+        },
+        {
+          "name": "[a] 46341 [b] 46341 = -2147479015",
+          "resultVarName": "TestResult_math/mul_[a] 46341 [b] 46341 = -2147479015",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -2147479015
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/mul_[a] 46341 [b] 46341 = -2147479015"
         }
       ]
     }
@@ -60,6 +76,7 @@
     "flow/branch",
     "flow/sequence",
     "math/abs",
+    "math/eq",
     "math/lt",
     "math/mul",
     "math/sub",

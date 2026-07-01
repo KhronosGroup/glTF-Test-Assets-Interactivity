@@ -22,20 +22,24 @@
           "nodeId": 1
         },
         {
-          "name": "[a] (-1.50, -1.50) = (0.00, 0.00)",
+          "name": "[a] 2.50 = 1.00",
           "nodeId": 15
         },
         {
-          "name": "[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)",
+          "name": "[a] (-1.50, -1.50) = (0.00, 0.00)",
           "nodeId": 29
         },
         {
+          "name": "[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)",
+          "nodeId": 54
+        },
+        {
           "name": "[a] (-1.50, -1.50, -1.50, -1.50) = (0.00, 0.00, 0.00, 0.00)",
-          "nodeId": 52
+          "nodeId": 67
         },
         {
           "name": "[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
-          "nodeId": 65
+          "nodeId": 80
         }
       ],
       "subTests": [
@@ -51,34 +55,45 @@
           "successResultVarName": "TestResult_HasPassed_math/saturate_[a] -1.50 = 0.00"
         },
         {
+          "name": "[a] 2.50 = 1.00",
+          "resultVarName": "TestResult_math/saturate_[a] 2.50 = 1.00",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] 2.50 = 1.00"
+        },
+        {
           "name": "[a] (-1.50, -1.50) = (0.00, 0.00)",
           "resultVarName": "TestResult_math/saturate_[a] (-1.50, -1.50) = (0.00, 0.00)",
-          "resultVarId": 3,
+          "resultVarId": 5,
           "resultVarType": "float2",
           "expectedResultValue": [
             0.0,
             0.0
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 4,
           "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.50, -1.50) = (0.00, 0.00)"
         },
         {
           "name": "[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)",
           "resultVarName": "TestResult_math/saturate_[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)",
-          "resultVarId": 5,
+          "resultVarId": 7,
           "resultVarType": "float3",
           "expectedResultValue": [
             0.0,
             0.0,
             0.0
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)"
         },
         {
           "name": "[a] (-1.50, -1.50, -1.50, -1.50) = (0.00, 0.00, 0.00, 0.00)",
           "resultVarName": "TestResult_math/saturate_[a] (-1.50, -1.50, -1.50, -1.50) = (0.00, 0.00, 0.00, 0.00)",
-          "resultVarId": 7,
+          "resultVarId": 9,
           "resultVarType": "float4",
           "expectedResultValue": [
             0.0,
@@ -86,13 +101,13 @@
             0.0,
             0.0
           ],
-          "successResultVarId": 6,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.50, -1.50, -1.50, -1.50) = (0.00, 0.00, 0.00, 0.00)"
         },
         {
           "name": "[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
           "resultVarName": "TestResult_math/saturate_[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
-          "resultVarId": 9,
+          "resultVarId": 11,
           "resultVarType": "float4x4",
           "expectedResultValue": [
             0.0,
@@ -112,7 +127,7 @@
             0.0,
             0.0
           ],
-          "successResultVarId": 8,
+          "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_math/saturate_[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]"
         }
       ]

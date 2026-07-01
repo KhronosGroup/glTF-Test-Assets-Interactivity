@@ -24,6 +24,10 @@
         {
           "name": "[a] 10 [b] 4 = 6",
           "nodeId": 15
+        },
+        {
+          "name": "[a] -2147483648 [b] 1 = 2147483647",
+          "nodeId": 29
         }
       ],
       "subTests": [
@@ -48,6 +52,17 @@
           ],
           "successResultVarId": 2,
           "successResultVarName": "TestResult_HasPassed_math/sub_[a] 10 [b] 4 = 6"
+        },
+        {
+          "name": "[a] -2147483648 [b] 1 = 2147483647",
+          "resultVarName": "TestResult_math/sub_[a] -2147483648 [b] 1 = 2147483647",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2147483647
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/sub_[a] -2147483648 [b] 1 = 2147483647"
         }
       ]
     }

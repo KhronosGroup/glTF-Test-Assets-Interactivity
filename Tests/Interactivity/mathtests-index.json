@@ -612,7 +612,9 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence"
+      "flow/sequence",
+      "math/eq",
+      "math/isNaN"
     ],
     "variants": {
       "glTF-Binary": "div.glb",
@@ -1312,7 +1314,8 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence"
+      "flow/sequence",
+      "math/isNaN"
     ],
     "variants": {
       "glTF-Binary": "mix.glb",
@@ -1333,7 +1336,8 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence"
+      "flow/sequence",
+      "math/eq"
     ],
     "variants": {
       "glTF-Binary": "mul.glb",
@@ -1758,7 +1762,9 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence"
+      "flow/sequence",
+      "math/isNaN",
+      "math/eq"
     ],
     "variants": {
       "glTF-Binary": "rem.glb",
@@ -1924,7 +1930,8 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence"
+      "flow/sequence",
+      "math/isNaN"
     ],
     "variants": {
       "glTF-Binary": "sign.glb",

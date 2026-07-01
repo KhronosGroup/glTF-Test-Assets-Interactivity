@@ -24,6 +24,14 @@
         {
           "name": "[a] 9 [b] 2 [c] 3 = 3",
           "nodeId": 15
+        },
+        {
+          "name": "[a] 9.00 [b] 3.00 [c] 2.00 = 3.00",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] 9 [b] 3 [c] 2 = 3",
+          "nodeId": 50
         }
       ],
       "subTests": [
@@ -48,6 +56,28 @@
           ],
           "successResultVarId": 2,
           "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9 [b] 2 [c] 3 = 3"
+        },
+        {
+          "name": "[a] 9.00 [b] 3.00 [c] 2.00 = 3.00",
+          "resultVarName": "TestResult_math/clamp_[a] 9.00 [b] 3.00 [c] 2.00 = 3.00",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9.00 [b] 3.00 [c] 2.00 = 3.00"
+        },
+        {
+          "name": "[a] 9 [b] 3 [c] 2 = 3",
+          "resultVarName": "TestResult_math/clamp_[a] 9 [b] 3 [c] 2 = 3",
+          "resultVarId": 7,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            3
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9 [b] 3 [c] 2 = 3"
         }
       ]
     }

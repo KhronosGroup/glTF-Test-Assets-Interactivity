@@ -11,6 +11,7 @@
         "flow/branch",
         "flow/sequence",
         "math/eq",
+        "math/isNaN",
         "math/mix",
         "pointer/set",
         "variable/get",
@@ -22,20 +23,28 @@
           "nodeId": 1
         },
         {
-          "name": "[a] (1.00, 1.00) [b] (2.00, 2.00) [c] (2.00, 2.00) = (3.00, 3.00)",
+          "name": "[a] 1.00 [b] 2.00 [c] -0.50 = 0.50",
           "nodeId": 15
         },
         {
-          "name": "[a] (1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00) = (3.00, 3.00, 3.00)",
+          "name": "[a] 1.00 [b] 2.00 [c] NaN = NaN",
           "nodeId": 29
         },
         {
+          "name": "[a] (1.00, 1.00) [b] (2.00, 2.00) [c] (2.00, 2.00) = (3.00, 3.00)",
+          "nodeId": 56
+        },
+        {
+          "name": "[a] (1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00) = (3.00, 3.00, 3.00)",
+          "nodeId": 69
+        },
+        {
           "name": "[a] (1.00, 1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00, 2.00) = (3.00, 3.00, 3.00, 3.00)",
-          "nodeId": 52
+          "nodeId": 82
         },
         {
           "name": "[a] [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0] [b] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] [c] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]",
-          "nodeId": 65
+          "nodeId": 95
         }
       ],
       "subTests": [
@@ -51,34 +60,56 @@
           "successResultVarName": "TestResult_HasPassed_math/mix_[a] 1.00 [b] 2.00 [c] 2.00 = 3.00"
         },
         {
+          "name": "[a] 1.00 [b] 2.00 [c] -0.50 = 0.50",
+          "resultVarName": "TestResult_math/mix_[a] 1.00 [b] 2.00 [c] -0.50 = 0.50",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.5
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] 1.00 [b] 2.00 [c] -0.50 = 0.50"
+        },
+        {
+          "name": "[a] 1.00 [b] 2.00 [c] NaN = NaN",
+          "resultVarName": "TestResult_math/mix_[a] 1.00 [b] 2.00 [c] NaN = NaN",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] 1.00 [b] 2.00 [c] NaN = NaN"
+        },
+        {
           "name": "[a] (1.00, 1.00) [b] (2.00, 2.00) [c] (2.00, 2.00) = (3.00, 3.00)",
           "resultVarName": "TestResult_math/mix_[a] (1.00, 1.00) [b] (2.00, 2.00) [c] (2.00, 2.00) = (3.00, 3.00)",
-          "resultVarId": 3,
+          "resultVarId": 7,
           "resultVarType": "float2",
           "expectedResultValue": [
             3.0,
             3.0
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1.00, 1.00) [b] (2.00, 2.00) [c] (2.00, 2.00) = (3.00, 3.00)"
         },
         {
           "name": "[a] (1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00) = (3.00, 3.00, 3.00)",
           "resultVarName": "TestResult_math/mix_[a] (1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00) = (3.00, 3.00, 3.00)",
-          "resultVarId": 5,
+          "resultVarId": 9,
           "resultVarType": "float3",
           "expectedResultValue": [
             3.0,
             3.0,
             3.0
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00) = (3.00, 3.00, 3.00)"
         },
         {
           "name": "[a] (1.00, 1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00, 2.00) = (3.00, 3.00, 3.00, 3.00)",
           "resultVarName": "TestResult_math/mix_[a] (1.00, 1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00, 2.00) = (3.00, 3.00, 3.00, 3.00)",
-          "resultVarId": 7,
+          "resultVarId": 11,
           "resultVarType": "float4",
           "expectedResultValue": [
             3.0,
@@ -86,13 +117,13 @@
             3.0,
             3.0
           ],
-          "successResultVarId": 6,
+          "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1.00, 1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00, 2.00) = (3.00, 3.00, 3.00, 3.00)"
         },
         {
           "name": "[a] [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0] [b] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] [c] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]",
           "resultVarName": "TestResult_math/mix_[a] [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0] [b] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] [c] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]",
-          "resultVarId": 9,
+          "resultVarId": 13,
           "resultVarType": "float4x4",
           "expectedResultValue": [
             3.0,
@@ -112,7 +143,7 @@
             3.0,
             3.0
           ],
-          "successResultVarId": 8,
+          "successResultVarId": 12,
           "successResultVarName": "TestResult_HasPassed_math/mix_[a] [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0] [b] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] [c] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]"
         }
       ]
@@ -124,6 +155,7 @@
     "flow/branch",
     "flow/sequence",
     "math/eq",
+    "math/isNaN",
     "math/mix",
     "pointer/set",
     "variable/get",

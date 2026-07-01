@@ -12,6 +12,8 @@
         "flow/sequence",
         "math/abs",
         "math/div",
+        "math/eq",
+        "math/isNaN",
         "math/lt",
         "math/sub",
         "pointer/set",
@@ -26,6 +28,26 @@
         {
           "name": "[a] 10 [b] 2 = 5",
           "nodeId": 17
+        },
+        {
+          "name": "[a] 1.00 [b] 0.00 = Infinity",
+          "nodeId": 34
+        },
+        {
+          "name": "[a] -1.00 [b] 0.00 = -Infinity",
+          "nodeId": 61
+        },
+        {
+          "name": "[a] 0.00 [b] 0.00 = NaN",
+          "nodeId": 74
+        },
+        {
+          "name": "[a] 10 [b] 0 = 0",
+          "nodeId": 87
+        },
+        {
+          "name": "[a] -2147483648 [b] -1 = -2147483648",
+          "nodeId": 100
         }
       ],
       "subTests": [
@@ -50,6 +72,61 @@
           ],
           "successResultVarId": 2,
           "successResultVarName": "TestResult_HasPassed_math/div_[a] 10 [b] 2 = 5"
+        },
+        {
+          "name": "[a] 1.00 [b] 0.00 = Infinity",
+          "resultVarName": "TestResult_math/div_[a] 1.00 [b] 0.00 = Infinity",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "Infinity"
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] 1.00 [b] 0.00 = Infinity"
+        },
+        {
+          "name": "[a] -1.00 [b] 0.00 = -Infinity",
+          "resultVarName": "TestResult_math/div_[a] -1.00 [b] 0.00 = -Infinity",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "-Infinity"
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] -1.00 [b] 0.00 = -Infinity"
+        },
+        {
+          "name": "[a] 0.00 [b] 0.00 = NaN",
+          "resultVarName": "TestResult_math/div_[a] 0.00 [b] 0.00 = NaN",
+          "resultVarId": 9,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] 0.00 [b] 0.00 = NaN"
+        },
+        {
+          "name": "[a] 10 [b] 0 = 0",
+          "resultVarName": "TestResult_math/div_[a] 10 [b] 0 = 0",
+          "resultVarId": 11,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] 10 [b] 0 = 0"
+        },
+        {
+          "name": "[a] -2147483648 [b] -1 = -2147483648",
+          "resultVarName": "TestResult_math/div_[a] -2147483648 [b] -1 = -2147483648",
+          "resultVarId": 13,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -2147483648
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] -2147483648 [b] -1 = -2147483648"
         }
       ]
     }
@@ -61,6 +138,8 @@
     "flow/sequence",
     "math/abs",
     "math/div",
+    "math/eq",
+    "math/isNaN",
     "math/lt",
     "math/sub",
     "pointer/set",

@@ -24,6 +24,10 @@
         {
           "name": "[a] 5 [b] 3 = 8",
           "nodeId": 15
+        },
+        {
+          "name": "[a] 2147483647 [b] 1 = -2147483648",
+          "nodeId": 29
         }
       ],
       "subTests": [
@@ -48,6 +52,17 @@
           ],
           "successResultVarId": 2,
           "successResultVarName": "TestResult_HasPassed_math/add_[a] 5 [b] 3 = 8"
+        },
+        {
+          "name": "[a] 2147483647 [b] 1 = -2147483648",
+          "resultVarName": "TestResult_math/add_[a] 2147483647 [b] 1 = -2147483648",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -2147483648
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/add_[a] 2147483647 [b] 1 = -2147483648"
         }
       ]
     }

@@ -11,6 +11,7 @@
         "flow/branch",
         "flow/sequence",
         "math/eq",
+        "math/isNaN",
         "math/sign",
         "pointer/set",
         "variable/get",
@@ -31,7 +32,27 @@
         },
         {
           "name": "[a] -9 = -1",
-          "nodeId": 50
+          "nodeId": 60
+        },
+        {
+          "name": "[a] 0.00 = 0.00",
+          "nodeId": 73
+        },
+        {
+          "name": "[a] Infinity = 1.00",
+          "nodeId": 86
+        },
+        {
+          "name": "[a] -Infinity = -1.00",
+          "nodeId": 99
+        },
+        {
+          "name": "[a] NaN = NaN",
+          "nodeId": 112
+        },
+        {
+          "name": "[a] 0 = 0",
+          "nodeId": 125
         }
       ],
       "subTests": [
@@ -78,6 +99,61 @@
           ],
           "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/sign_[a] -9 = -1"
+        },
+        {
+          "name": "[a] 0.00 = 0.00",
+          "resultVarName": "TestResult_math/sign_[a] 0.00 = 0.00",
+          "resultVarId": 9,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] 0.00 = 0.00"
+        },
+        {
+          "name": "[a] Infinity = 1.00",
+          "resultVarName": "TestResult_math/sign_[a] Infinity = 1.00",
+          "resultVarId": 11,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] Infinity = 1.00"
+        },
+        {
+          "name": "[a] -Infinity = -1.00",
+          "resultVarName": "TestResult_math/sign_[a] -Infinity = -1.00",
+          "resultVarId": 13,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -1.0
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] -Infinity = -1.00"
+        },
+        {
+          "name": "[a] NaN = NaN",
+          "resultVarName": "TestResult_math/sign_[a] NaN = NaN",
+          "resultVarId": 15,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] NaN = NaN"
+        },
+        {
+          "name": "[a] 0 = 0",
+          "resultVarName": "TestResult_math/sign_[a] 0 = 0",
+          "resultVarId": 17,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_math/sign_[a] 0 = 0"
         }
       ]
     }
@@ -88,6 +164,7 @@
     "flow/branch",
     "flow/sequence",
     "math/eq",
+    "math/isNaN",
     "math/sign",
     "pointer/set",
     "variable/get",
