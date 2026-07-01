@@ -168,42 +168,42 @@
       "entryPoints": [
         {
           "name": "event/onStart ref (delayed execution)",
-          "nodeId": 692,
+          "nodeId": 708,
           "delayedExecutionTime": 0.5
         },
         {
           "name": "event/onTick ref (delayed execution)",
-          "nodeId": 707,
+          "nodeId": 723,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "event/receive ref (delayed execution)",
-          "nodeId": 726,
+          "nodeId": 742,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "event/onStart same ref (delayed execution)",
-          "nodeId": 741,
+          "nodeId": 757,
           "delayedExecutionTime": 0.5
         },
         {
           "name": "event/onTick same ref (delayed execution)",
-          "nodeId": 757,
+          "nodeId": 773,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "event ref pointer/get (delayed execution)",
-          "nodeId": 776,
+          "nodeId": 792,
           "delayedExecutionTime": 0.5
         },
         {
           "name": "onTick ref pointer/get (delayed execution)",
-          "nodeId": 791,
+          "nodeId": 807,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "receive ref pointer/get (delayed execution)",
-          "nodeId": 810,
+          "nodeId": 826,
           "delayedExecutionTime": 1.0
         }
       ],
@@ -317,12 +317,12 @@
       "entryPoints": [
         {
           "name": "Without Parameters (delayed execution)",
-          "nodeId": 826,
+          "nodeId": 842,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "With Parameters (flow received) (delayed execution)",
-          "nodeId": 870,
+          "nodeId": 886,
           "delayedExecutionTime": 1.0
         }
       ],
@@ -438,7 +438,7 @@
       "entryPoints": [
         {
           "name": "event/stopPropagation (delayed execution)",
-          "nodeId": 915,
+          "nodeId": 931,
           "delayedExecutionTime": 1.0
         }
       ],
@@ -482,11 +482,11 @@
       "entryPoints": [
         {
           "name": "Branch Condition True",
-          "nodeId": 940
+          "nodeId": 956
         },
         {
           "name": "Branch Condition False",
-          "nodeId": 955
+          "nodeId": 971
         }
       ],
       "subTests": [
@@ -554,15 +554,15 @@
       "entryPoints": [
         {
           "name": "Do N - Iterations",
-          "nodeId": 970
+          "nodeId": 986
         },
         {
           "name": "Do N - Reset",
-          "nodeId": 1007
+          "nodeId": 1023
         },
         {
           "name": "Do N - Max Iteration",
-          "nodeId": 1024
+          "nodeId": 1040
         }
       ],
       "subTests": [
@@ -641,7 +641,7 @@
       "entryPoints": [
         {
           "name": "Loop Entry",
-          "nodeId": 1041
+          "nodeId": 1057
         }
       ],
       "subTests": [
@@ -721,19 +721,19 @@
       "entryPoints": [
         {
           "name": "Order (008, 004, 001) > (001, 004, 008)",
-          "nodeId": 1091
+          "nodeId": 1107
         },
         {
           "name": "Random (Check if all out flows are triggered once)",
-          "nodeId": 1119
+          "nodeId": 1135
         },
         {
           "name": "Loop",
-          "nodeId": 1146
+          "nodeId": 1162
         },
         {
           "name": "Loop",
-          "nodeId": 1179
+          "nodeId": 1195
         }
       ],
       "subTests": [
@@ -800,15 +800,15 @@
       "entryPoints": [
         {
           "name": "Sequence Order (0,9,10) > (0,10,9)",
-          "nodeId": 1209
+          "nodeId": 1225
         },
         {
           "name": "Sequence Order (ccc,aaa,b) > (aaa,b,ccc)",
-          "nodeId": 1235
+          "nodeId": 1251
         },
         {
           "name": "Sequence Order (b,B,a,A) > (A,B,a,b)",
-          "nodeId": 1261
+          "nodeId": 1277
         }
       ],
       "subTests": [
@@ -873,27 +873,27 @@
       "entryPoints": [
         {
           "name": "Set Delay (delayed execution)",
-          "nodeId": 1291,
+          "nodeId": 1307,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "setDelay [cancel] (delayed execution)",
-          "nodeId": 1334,
+          "nodeId": 1350,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "Cancel Delay (delayed execution)",
-          "nodeId": 1345,
+          "nodeId": 1361,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "Error (delayed execution)",
-          "nodeId": 1364,
+          "nodeId": 1380,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "Delay Ref (delayed execution)",
-          "nodeId": 1373,
+          "nodeId": 1389,
           "delayedExecutionTime": 0.5
         }
       ],
@@ -1004,19 +1004,19 @@
       "entryPoints": [
         {
           "name": "Switch selection flow",
-          "nodeId": 1389
+          "nodeId": 1405
         },
         {
           "name": "Switch default flow",
-          "nodeId": 1398
+          "nodeId": 1414
         },
         {
           "name": "Switch empty-cases default flow",
-          "nodeId": 1407
+          "nodeId": 1423
         },
         {
           "name": "Switch negate cases flow",
-          "nodeId": 1416
+          "nodeId": 1432
         }
       ],
       "subTests": [
@@ -1088,20 +1088,20 @@
       "entryPoints": [
         {
           "name": "[out] flow",
-          "nodeId": 1425
+          "nodeId": 1441
         },
         {
           "name": "Flow Out After Delay (delayed execution)",
-          "nodeId": 1451,
+          "nodeId": 1467,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "[err] Flow on -1 Duration",
-          "nodeId": 1476
+          "nodeId": 1492
         },
         {
           "name": "[reset]",
-          "nodeId": 1491
+          "nodeId": 1507
         }
       ],
       "subTests": [
@@ -1202,19 +1202,19 @@
       "entryPoints": [
         {
           "name": "Wait All - Completed",
-          "nodeId": 1505
+          "nodeId": 1521
         },
         {
           "name": "Wait All - Remaining",
-          "nodeId": 1525
+          "nodeId": 1541
         },
         {
           "name": "Wait All - Reset",
-          "nodeId": 1540
+          "nodeId": 1556
         },
         {
           "name": "Wait All - Reset Completed",
-          "nodeId": 1555
+          "nodeId": 1571
         }
       ],
       "subTests": [
@@ -1294,11 +1294,11 @@
       "entryPoints": [
         {
           "name": "While Loop flowIn",
-          "nodeId": 1571
+          "nodeId": 1587
         },
         {
           "name": "While Loop flowIn (false Condition)",
-          "nodeId": 1600
+          "nodeId": 1616
         }
       ],
       "subTests": [
@@ -1377,99 +1377,99 @@
       "entryPoints": [
         {
           "name": "/animations.length",
-          "nodeId": 1614
+          "nodeId": 1630
         },
         {
           "name": "/cameras.length",
-          "nodeId": 1638
+          "nodeId": 1654
         },
         {
           "name": "/materials.length",
-          "nodeId": 1662
+          "nodeId": 1678
         },
         {
           "name": "/materials/[]/doubleSided",
-          "nodeId": 1686
+          "nodeId": 1702
         },
         {
           "name": "/meshes.length",
-          "nodeId": 1710
+          "nodeId": 1726
         },
         {
           "name": "/meshes/0/primitives.length",
-          "nodeId": 1734
+          "nodeId": 1750
         },
         {
           "name": "/meshes/0/primitives/0/material",
-          "nodeId": 1758
+          "nodeId": 1774
         },
         {
           "name": "/nodes/[]/weights.length",
-          "nodeId": 1782
+          "nodeId": 1798
         },
         {
           "name": "/meshes/[]/weights.length",
-          "nodeId": 1806
+          "nodeId": 1822
         },
         {
           "name": "/nodes.length",
-          "nodeId": 1830
+          "nodeId": 1846
         },
         {
           "name": "/nodes/[]/camera",
-          "nodeId": 1854
+          "nodeId": 1870
         },
         {
           "name": "/nodes/0/children.length",
-          "nodeId": 1878
+          "nodeId": 1894
         },
         {
           "name": "/nodes/[]/children/[]",
-          "nodeId": 1902
+          "nodeId": 1918
         },
         {
           "name": "/nodes/[]/mesh",
-          "nodeId": 1926
+          "nodeId": 1942
         },
         {
           "name": "/nodes/1/parent",
-          "nodeId": 1950
+          "nodeId": 1966
         },
         {
           "name": "/scene",
-          "nodeId": 1974
+          "nodeId": 1990
         },
         {
           "name": "/scenes.length",
-          "nodeId": 1998
+          "nodeId": 2014
         },
         {
           "name": "/scenes/0/nodes.length",
-          "nodeId": 2022
+          "nodeId": 2038
         },
         {
           "name": "/scenes/0/nodes/0",
-          "nodeId": 2046
+          "nodeId": 2062
         },
         {
           "name": "/nodes/[]/skin",
-          "nodeId": 2070
+          "nodeId": 2086
         },
         {
           "name": "/skins.length",
-          "nodeId": 2094
+          "nodeId": 2110
         },
         {
           "name": "/skins/0/joints.length",
-          "nodeId": 2118
+          "nodeId": 2134
         },
         {
           "name": "/skins/[]/joints/[]",
-          "nodeId": 2142
+          "nodeId": 2158
         },
         {
           "name": "/skins/[]/skeleton",
-          "nodeId": 2166
+          "nodeId": 2182
         }
       ],
       "subTests": [
@@ -1567,7 +1567,7 @@
           "resultVarId": 168,
           "resultVarType": "int",
           "expectedResultValue": [
-            311
+            320
           ],
           "successResultVarId": 167,
           "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/meshes.length"
@@ -1677,7 +1677,7 @@
           "resultVarId": 188,
           "resultVarType": "int",
           "expectedResultValue": [
-            1686
+            1737
           ],
           "successResultVarId": 187,
           "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes.length"
@@ -1721,7 +1721,7 @@
           "resultVarId": 196,
           "resultVarType": "int",
           "expectedResultValue": [
-            324
+            334
           ],
           "successResultVarId": 195,
           "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/0/children.length"
@@ -2020,43 +2020,43 @@
       "entryPoints": [
         {
           "name": "Get weights.length - Without Mesh",
-          "nodeId": 2190
+          "nodeId": 2206
         },
         {
           "name": "Get weights.length - Without Morph Targets",
-          "nodeId": 2203
+          "nodeId": 2219
         },
         {
           "name": "Get weights.length - With static-Morph Targets",
-          "nodeId": 2227
+          "nodeId": 2243
         },
         {
           "name": "Get weights.length - With nonStatic-Morph Targets",
-          "nodeId": 2240
+          "nodeId": 2256
         },
         {
           "name": "Get node/{}/weights/0 - Without Mesh",
-          "nodeId": 2253
+          "nodeId": 2269
         },
         {
           "name": "Get node/{}/weights/0 - Without Morph Targets",
-          "nodeId": 2266
+          "nodeId": 2282
         },
         {
           "name": "Get node/{}/weights/0 - With static Morph Targets",
-          "nodeId": 2279
+          "nodeId": 2295
         },
         {
           "name": "Get node/{}/weights/0 - With nonStatic Morph Targets",
-          "nodeId": 2303
+          "nodeId": 2319
         },
         {
           "name": "Get node/{}/weights/0 - With mesh and node weights",
-          "nodeId": 2327
+          "nodeId": 2343
         },
         {
           "name": "Set weight and read back",
-          "nodeId": 2340
+          "nodeId": 2356
         }
       ],
       "subTests": [
@@ -2206,6 +2206,146 @@
       ]
     },
     {
+      "name": "pointer/interpolate",
+      "description": "Interpolates a node's translation and checks the value at 50%/100% plus the error flows.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/add",
+        "math/and",
+        "math/dot",
+        "math/eq",
+        "math/gt",
+        "math/length",
+        "math/normalize",
+        "pointer/get",
+        "pointer/interpolate",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Interpolate translation (delayed execution)",
+          "nodeId": 2375,
+          "delayedExecutionTime": 4.5
+        },
+        {
+          "name": "[err] flow (duration -1)",
+          "nodeId": 2436
+        },
+        {
+          "name": "[err] flow (duration infinite)",
+          "nodeId": 2445
+        },
+        {
+          "name": "[err] flow (p1 NaN)",
+          "nodeId": 2454
+        },
+        {
+          "name": "[err] flow (p2 NaN)",
+          "nodeId": 2463
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[out] fired right after [in]",
+          "resultVarName": "TestResult_pointer/interpolate_[out] fired right after [in]",
+          "resultVarId": 274,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 274,
+          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[out] fired right after [in]"
+        },
+        {
+          "name": "Value at 50%",
+          "resultVarName": "TestResult_pointer/interpolate_Value at 50%",
+          "resultVarId": 276,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.75,
+            2.625,
+            3.5
+          ],
+          "successResultVarId": 275,
+          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_Value at 50%"
+        },
+        {
+          "name": "Flow [done]",
+          "resultVarName": "TestResult_pointer/interpolate_Flow [done]",
+          "resultVarId": 277,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 277,
+          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_Flow [done]"
+        },
+        {
+          "name": "Value at 100%",
+          "resultVarName": "TestResult_pointer/interpolate_Value at 100%",
+          "resultVarId": 279,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            2.0,
+            3.0,
+            4.0
+          ],
+          "successResultVarId": 278,
+          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_Value at 100%"
+        },
+        {
+          "name": "[err] flow (duration -1)",
+          "resultVarName": "TestResult_pointer/interpolate_[err] flow (duration -1)",
+          "resultVarId": 280,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 280,
+          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[err] flow (duration -1)"
+        },
+        {
+          "name": "[err] flow (duration infinite)",
+          "resultVarName": "TestResult_pointer/interpolate_[err] flow (duration infinite)",
+          "resultVarId": 281,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 281,
+          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[err] flow (duration infinite)"
+        },
+        {
+          "name": "[err] flow (p1 NaN)",
+          "resultVarName": "TestResult_pointer/interpolate_[err] flow (p1 NaN)",
+          "resultVarId": 282,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 282,
+          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[err] flow (p1 NaN)"
+        },
+        {
+          "name": "[err] flow (p2 NaN)",
+          "resultVarName": "TestResult_pointer/interpolate_[err] flow (p2 NaN)",
+          "resultVarId": 283,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 283,
+          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[err] flow (p2 NaN)"
+        }
+      ]
+    },
+    {
       "name": "pointer/set and get",
       "description": "",
       "usedSchemas": [
@@ -2225,603 +2365,603 @@
       "entryPoints": [
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/color",
-          "nodeId": 2355
+          "nodeId": 2472
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/intensity",
-          "nodeId": 2370
+          "nodeId": 2487
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/range",
-          "nodeId": 2385
+          "nodeId": 2502
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/innerConeAngle",
-          "nodeId": 2400
+          "nodeId": 2517
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/outerConeAngle",
-          "nodeId": 2415
+          "nodeId": 2532
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/color",
-          "nodeId": 2430
+          "nodeId": 2547
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/intensity",
-          "nodeId": 2445
+          "nodeId": 2562
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/range",
-          "nodeId": 2460
+          "nodeId": 2577
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
-          "nodeId": 2475
+          "nodeId": 2592
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
-          "nodeId": 2490
+          "nodeId": 2607
         },
         {
           "name": "/alphaCutoff",
-          "nodeId": 2505
+          "nodeId": 2622
         },
         {
           "name": "/emissiveFactor",
-          "nodeId": 2520
+          "nodeId": 2637
         },
         {
           "name": "/normalTexture/scale",
-          "nodeId": 2535
+          "nodeId": 2652
         },
         {
           "name": "/occlusionTexture/strength",
-          "nodeId": 2550
+          "nodeId": 2667
         },
         {
           "name": "/normalTexture texture offset",
-          "nodeId": 2565
+          "nodeId": 2682
         },
         {
           "name": "/normalTexture texture rotation",
-          "nodeId": 2580
+          "nodeId": 2697
         },
         {
           "name": "/normalTexture texture scale",
-          "nodeId": 2597
+          "nodeId": 2714
         },
         {
           "name": "/occlusionTexture texture offset",
-          "nodeId": 2612
+          "nodeId": 2729
         },
         {
           "name": "/occlusionTexture texture rotation",
-          "nodeId": 2627
+          "nodeId": 2744
         },
         {
           "name": "/occlusionTexture texture scale",
-          "nodeId": 2644
+          "nodeId": 2761
         },
         {
           "name": "/emissiveTexture texture offset",
-          "nodeId": 2659
+          "nodeId": 2776
         },
         {
           "name": "/emissiveTexture texture rotation",
-          "nodeId": 2674
+          "nodeId": 2791
         },
         {
           "name": "/emissiveTexture texture scale",
-          "nodeId": 2691
+          "nodeId": 2808
         },
         {
           "name": "pbrMetallicRoughness/baseColorFactor",
-          "nodeId": 2706
+          "nodeId": 2823
         },
         {
           "name": "pbrMetallicRoughness/metallicFactor",
-          "nodeId": 2721
+          "nodeId": 2838
         },
         {
           "name": "pbrMetallicRoughness/roughnessFactor",
-          "nodeId": 2736
+          "nodeId": 2853
         },
         {
           "name": "pbrMetallicRoughness/baseColorTexture texture offset",
-          "nodeId": 2751
+          "nodeId": 2868
         },
         {
           "name": "pbrMetallicRoughness/baseColorTexture texture rotation",
-          "nodeId": 2766
+          "nodeId": 2883
         },
         {
           "name": "pbrMetallicRoughness/baseColorTexture texture scale",
-          "nodeId": 2783
+          "nodeId": 2900
         },
         {
           "name": "pbrMetallicRoughness/metallicRoughnessTexture texture offset",
-          "nodeId": 2798
+          "nodeId": 2915
         },
         {
           "name": "pbrMetallicRoughness/metallicRoughnessTexture texture rotation",
-          "nodeId": 2813
+          "nodeId": 2930
         },
         {
           "name": "pbrMetallicRoughness/metallicRoughnessTexture texture scale",
-          "nodeId": 2830
+          "nodeId": 2947
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyStrength",
-          "nodeId": 2845
+          "nodeId": 2962
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyRotation",
-          "nodeId": 2860
+          "nodeId": 2977
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture offset",
-          "nodeId": 2877
+          "nodeId": 2994
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture rotation",
-          "nodeId": 2892
+          "nodeId": 3009
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture scale",
-          "nodeId": 2909
+          "nodeId": 3026
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture offset",
-          "nodeId": 2924
+          "nodeId": 3041
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture rotation",
-          "nodeId": 2939
+          "nodeId": 3056
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture scale",
-          "nodeId": 2956
+          "nodeId": 3073
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset",
-          "nodeId": 2971
+          "nodeId": 3088
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation",
-          "nodeId": 2986
+          "nodeId": 3103
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale",
-          "nodeId": 3003
+          "nodeId": 3120
         },
         {
           "name": "KHR_materials_dispersion/dispersion",
-          "nodeId": 3018
+          "nodeId": 3135
         },
         {
           "name": "KHR_materials_emissive_strength/emissiveStrength",
-          "nodeId": 3033
+          "nodeId": 3150
         },
         {
           "name": "KHR_materials_ior/ior",
-          "nodeId": 3048
+          "nodeId": 3165
         },
         {
           "name": "KHR_materials_iridescence/iridescenceFactor",
-          "nodeId": 3063
+          "nodeId": 3180
         },
         {
           "name": "KHR_materials_iridescence/iridescenceIor",
-          "nodeId": 3078
+          "nodeId": 3195
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessMinimum",
-          "nodeId": 3093
+          "nodeId": 3210
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessMaximum",
-          "nodeId": 3108
+          "nodeId": 3225
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture offset",
-          "nodeId": 3123
+          "nodeId": 3240
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture rotation",
-          "nodeId": 3138
+          "nodeId": 3255
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture scale",
-          "nodeId": 3155
+          "nodeId": 3272
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture offset",
-          "nodeId": 3170
+          "nodeId": 3287
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture rotation",
-          "nodeId": 3185
+          "nodeId": 3302
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture scale",
-          "nodeId": 3202
+          "nodeId": 3319
         },
         {
           "name": "KHR_materials_sheen/sheenColorFactor",
-          "nodeId": 3217
+          "nodeId": 3334
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessFactor",
-          "nodeId": 3232
+          "nodeId": 3349
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture offset",
-          "nodeId": 3247
+          "nodeId": 3364
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture rotation",
-          "nodeId": 3262
+          "nodeId": 3379
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture scale",
-          "nodeId": 3279
+          "nodeId": 3396
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture offset",
-          "nodeId": 3294
+          "nodeId": 3411
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture rotation",
-          "nodeId": 3309
+          "nodeId": 3426
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture scale",
-          "nodeId": 3326
+          "nodeId": 3443
         },
         {
           "name": "KHR_materials_specular/specularFactor",
-          "nodeId": 3341
+          "nodeId": 3458
         },
         {
           "name": "KHR_materials_specular/specularColorFactor",
-          "nodeId": 3356
+          "nodeId": 3473
         },
         {
           "name": "KHR_materials_specular/specularTexture texture offset",
-          "nodeId": 3371
+          "nodeId": 3488
         },
         {
           "name": "KHR_materials_specular/specularTexture texture rotation",
-          "nodeId": 3386
+          "nodeId": 3503
         },
         {
           "name": "KHR_materials_specular/specularTexture texture scale",
-          "nodeId": 3403
+          "nodeId": 3520
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture offset",
-          "nodeId": 3418
+          "nodeId": 3535
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture rotation",
-          "nodeId": 3433
+          "nodeId": 3550
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture scale",
-          "nodeId": 3450
+          "nodeId": 3567
         },
         {
           "name": "KHR_materials_transmission/transmissionFactor",
-          "nodeId": 3465
+          "nodeId": 3582
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture offset",
-          "nodeId": 3480
+          "nodeId": 3597
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture rotation",
-          "nodeId": 3495
+          "nodeId": 3612
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture scale",
-          "nodeId": 3512
+          "nodeId": 3629
         },
         {
           "name": "KHR_materials_volume/thicknessFactor",
-          "nodeId": 3527
+          "nodeId": 3644
         },
         {
           "name": "KHR_materials_volume/attenuationDistance",
-          "nodeId": 3542
+          "nodeId": 3659
         },
         {
           "name": "KHR_materials_volume/attenuationColor",
-          "nodeId": 3557
+          "nodeId": 3674
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture offset",
-          "nodeId": 3572
+          "nodeId": 3689
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture rotation",
-          "nodeId": 3587
+          "nodeId": 3704
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture scale",
-          "nodeId": 3604
+          "nodeId": 3721
         }
       ],
       "subTests": [
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/color",
           "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/color",
-          "resultVarId": 274,
+          "resultVarId": 285,
           "resultVarType": "float3",
           "expectedResultValue": [
             1.0,
             0.0,
             0.0
           ],
-          "successResultVarId": 273,
+          "successResultVarId": 284,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/color"
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/intensity",
           "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/intensity",
-          "resultVarId": 276,
+          "resultVarId": 287,
           "resultVarType": "float",
           "expectedResultValue": [
             4.0
           ],
-          "successResultVarId": 275,
+          "successResultVarId": 286,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/intensity"
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/range",
           "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/range",
-          "resultVarId": 278,
+          "resultVarId": 289,
           "resultVarType": "float",
           "expectedResultValue": [
             9.0
           ],
-          "successResultVarId": 277,
+          "successResultVarId": 288,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/range"
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/innerConeAngle",
           "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/innerConeAngle",
-          "resultVarId": 280,
+          "resultVarId": 291,
           "resultVarType": "float",
           "expectedResultValue": [
             2.0
           ],
-          "successResultVarId": 279,
+          "successResultVarId": 290,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/innerConeAngle"
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/outerConeAngle",
           "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/outerConeAngle",
-          "resultVarId": 282,
+          "resultVarId": 293,
           "resultVarType": "float",
           "expectedResultValue": [
             5.0
           ],
-          "successResultVarId": 281,
+          "successResultVarId": 292,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/outerConeAngle"
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/color",
           "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/color",
-          "resultVarId": 284,
+          "resultVarId": 295,
           "resultVarType": "float3",
           "expectedResultValue": [
             1.0,
             0.0,
             0.0
           ],
-          "successResultVarId": 283,
+          "successResultVarId": 294,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/color"
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/intensity",
           "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/intensity",
-          "resultVarId": 286,
+          "resultVarId": 297,
           "resultVarType": "float",
           "expectedResultValue": [
             4.0
           ],
-          "successResultVarId": 285,
+          "successResultVarId": 296,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/intensity"
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/range",
           "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/range",
-          "resultVarId": 288,
+          "resultVarId": 299,
           "resultVarType": "float",
           "expectedResultValue": [
             9.0
           ],
-          "successResultVarId": 287,
+          "successResultVarId": 298,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/range"
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
           "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
-          "resultVarId": 290,
+          "resultVarId": 301,
           "resultVarType": "float",
           "expectedResultValue": [
             2.0
           ],
-          "successResultVarId": 289,
+          "successResultVarId": 300,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle"
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
           "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
-          "resultVarId": 292,
+          "resultVarId": 303,
           "resultVarType": "float",
           "expectedResultValue": [
             5.0
           ],
-          "successResultVarId": 291,
+          "successResultVarId": 302,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle"
         },
         {
           "name": "/alphaCutoff",
           "resultVarName": "TestResult_pointer/set and get_/alphaCutoff",
-          "resultVarId": 294,
+          "resultVarId": 305,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5
           ],
-          "successResultVarId": 293,
+          "successResultVarId": 304,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/alphaCutoff"
         },
         {
           "name": "/emissiveFactor",
           "resultVarName": "TestResult_pointer/set and get_/emissiveFactor",
-          "resultVarId": 296,
+          "resultVarId": 307,
           "resultVarType": "float3",
           "expectedResultValue": [
             1.0,
             0.0,
             0.0
           ],
-          "successResultVarId": 295,
+          "successResultVarId": 306,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/emissiveFactor"
         },
         {
           "name": "/normalTexture/scale",
           "resultVarName": "TestResult_pointer/set and get_/normalTexture/scale",
-          "resultVarId": 298,
+          "resultVarId": 309,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5
           ],
-          "successResultVarId": 297,
+          "successResultVarId": 308,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/normalTexture/scale"
         },
         {
           "name": "/occlusionTexture/strength",
           "resultVarName": "TestResult_pointer/set and get_/occlusionTexture/strength",
-          "resultVarId": 300,
+          "resultVarId": 311,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5
           ],
-          "successResultVarId": 299,
+          "successResultVarId": 310,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/occlusionTexture/strength"
         },
         {
           "name": "/normalTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_/normalTexture texture offset",
-          "resultVarId": 302,
+          "resultVarId": 313,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 301,
+          "successResultVarId": 312,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/normalTexture texture offset"
         },
         {
           "name": "/normalTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_/normalTexture texture rotation",
-          "resultVarId": 304,
+          "resultVarId": 315,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 303,
+          "successResultVarId": 314,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/normalTexture texture rotation"
         },
         {
           "name": "/normalTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_/normalTexture texture scale",
-          "resultVarId": 306,
+          "resultVarId": 317,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 305,
+          "successResultVarId": 316,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/normalTexture texture scale"
         },
         {
           "name": "/occlusionTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_/occlusionTexture texture offset",
-          "resultVarId": 308,
+          "resultVarId": 319,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 307,
+          "successResultVarId": 318,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/occlusionTexture texture offset"
         },
         {
           "name": "/occlusionTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_/occlusionTexture texture rotation",
-          "resultVarId": 310,
+          "resultVarId": 321,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 309,
+          "successResultVarId": 320,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/occlusionTexture texture rotation"
         },
         {
           "name": "/occlusionTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_/occlusionTexture texture scale",
-          "resultVarId": 312,
+          "resultVarId": 323,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 311,
+          "successResultVarId": 322,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/occlusionTexture texture scale"
         },
         {
           "name": "/emissiveTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_/emissiveTexture texture offset",
-          "resultVarId": 314,
+          "resultVarId": 325,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 313,
+          "successResultVarId": 324,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/emissiveTexture texture offset"
         },
         {
           "name": "/emissiveTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_/emissiveTexture texture rotation",
-          "resultVarId": 316,
+          "resultVarId": 327,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 315,
+          "successResultVarId": 326,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/emissiveTexture texture rotation"
         },
         {
           "name": "/emissiveTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_/emissiveTexture texture scale",
-          "resultVarId": 318,
+          "resultVarId": 329,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 317,
+          "successResultVarId": 328,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/emissiveTexture texture scale"
         },
         {
           "name": "pbrMetallicRoughness/baseColorFactor",
           "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/baseColorFactor",
-          "resultVarId": 320,
+          "resultVarId": 331,
           "resultVarType": "float4",
           "expectedResultValue": [
             0.0,
@@ -2829,677 +2969,677 @@
             1.0,
             1.0
           ],
-          "successResultVarId": 319,
+          "successResultVarId": 330,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorFactor"
         },
         {
           "name": "pbrMetallicRoughness/metallicFactor",
           "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicFactor",
-          "resultVarId": 322,
+          "resultVarId": 333,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5
           ],
-          "successResultVarId": 321,
+          "successResultVarId": 332,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicFactor"
         },
         {
           "name": "pbrMetallicRoughness/roughnessFactor",
           "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/roughnessFactor",
-          "resultVarId": 324,
+          "resultVarId": 335,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5
           ],
-          "successResultVarId": 323,
+          "successResultVarId": 334,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/roughnessFactor"
         },
         {
           "name": "pbrMetallicRoughness/baseColorTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture offset",
-          "resultVarId": 326,
+          "resultVarId": 337,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 325,
+          "successResultVarId": 336,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture offset"
         },
         {
           "name": "pbrMetallicRoughness/baseColorTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture rotation",
-          "resultVarId": 328,
+          "resultVarId": 339,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 327,
+          "successResultVarId": 338,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture rotation"
         },
         {
           "name": "pbrMetallicRoughness/baseColorTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture scale",
-          "resultVarId": 330,
+          "resultVarId": 341,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 329,
+          "successResultVarId": 340,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture scale"
         },
         {
           "name": "pbrMetallicRoughness/metallicRoughnessTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture offset",
-          "resultVarId": 332,
+          "resultVarId": 343,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 331,
+          "successResultVarId": 342,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture offset"
         },
         {
           "name": "pbrMetallicRoughness/metallicRoughnessTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture rotation",
-          "resultVarId": 334,
+          "resultVarId": 345,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 333,
+          "successResultVarId": 344,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture rotation"
         },
         {
           "name": "pbrMetallicRoughness/metallicRoughnessTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture scale",
-          "resultVarId": 336,
+          "resultVarId": 347,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 335,
+          "successResultVarId": 346,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture scale"
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyStrength",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyStrength",
-          "resultVarId": 338,
+          "resultVarId": 349,
           "resultVarType": "float",
           "expectedResultValue": [
             2.0
           ],
-          "successResultVarId": 337,
+          "successResultVarId": 348,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyStrength"
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyRotation",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyRotation",
-          "resultVarId": 340,
+          "resultVarId": 351,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5235988
           ],
-          "successResultVarId": 339,
+          "successResultVarId": 350,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyRotation"
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture offset",
-          "resultVarId": 342,
+          "resultVarId": 353,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 341,
+          "successResultVarId": 352,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture offset"
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture rotation",
-          "resultVarId": 344,
+          "resultVarId": 355,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 343,
+          "successResultVarId": 354,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture rotation"
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture scale",
-          "resultVarId": 346,
+          "resultVarId": 357,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 345,
+          "successResultVarId": 356,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_anisotropy/anisotropyTexture texture scale"
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture offset",
-          "resultVarId": 348,
+          "resultVarId": 359,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 347,
+          "successResultVarId": 358,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture offset"
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture rotation",
-          "resultVarId": 350,
+          "resultVarId": 361,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 349,
+          "successResultVarId": 360,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture rotation"
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture scale",
-          "resultVarId": 352,
+          "resultVarId": 363,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 351,
+          "successResultVarId": 362,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatTexture texture scale"
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset",
-          "resultVarId": 354,
+          "resultVarId": 365,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 353,
+          "successResultVarId": 364,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset"
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation",
-          "resultVarId": 356,
+          "resultVarId": 367,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 355,
+          "successResultVarId": 366,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation"
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale",
-          "resultVarId": 358,
+          "resultVarId": 369,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 357,
+          "successResultVarId": 368,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale"
         },
         {
           "name": "KHR_materials_dispersion/dispersion",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_dispersion/dispersion",
-          "resultVarId": 360,
+          "resultVarId": 371,
           "resultVarType": "float",
           "expectedResultValue": [
             2.0
           ],
-          "successResultVarId": 359,
+          "successResultVarId": 370,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_dispersion/dispersion"
         },
         {
           "name": "KHR_materials_emissive_strength/emissiveStrength",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_emissive_strength/emissiveStrength",
-          "resultVarId": 362,
+          "resultVarId": 373,
           "resultVarType": "float",
           "expectedResultValue": [
             2.0
           ],
-          "successResultVarId": 361,
+          "successResultVarId": 372,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_emissive_strength/emissiveStrength"
         },
         {
           "name": "KHR_materials_ior/ior",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_ior/ior",
-          "resultVarId": 364,
+          "resultVarId": 375,
           "resultVarType": "float",
           "expectedResultValue": [
             3.0
           ],
-          "successResultVarId": 363,
+          "successResultVarId": 374,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_ior/ior"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceFactor",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceFactor",
-          "resultVarId": 366,
+          "resultVarId": 377,
           "resultVarType": "float",
           "expectedResultValue": [
             1.2
           ],
-          "successResultVarId": 365,
+          "successResultVarId": 376,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceFactor"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceIor",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceIor",
-          "resultVarId": 368,
+          "resultVarId": 379,
           "resultVarType": "float",
           "expectedResultValue": [
             2.3
           ],
-          "successResultVarId": 367,
+          "successResultVarId": 378,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceIor"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessMinimum",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessMinimum",
-          "resultVarId": 370,
+          "resultVarId": 381,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5
           ],
-          "successResultVarId": 369,
+          "successResultVarId": 380,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessMinimum"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessMaximum",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessMaximum",
-          "resultVarId": 372,
+          "resultVarId": 383,
           "resultVarType": "float",
           "expectedResultValue": [
             1.2
           ],
-          "successResultVarId": 371,
+          "successResultVarId": 382,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessMaximum"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture offset",
-          "resultVarId": 374,
+          "resultVarId": 385,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 373,
+          "successResultVarId": 384,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture offset"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture rotation",
-          "resultVarId": 376,
+          "resultVarId": 387,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 375,
+          "successResultVarId": 386,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture rotation"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture scale",
-          "resultVarId": 378,
+          "resultVarId": 389,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 377,
+          "successResultVarId": 388,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceTexture texture scale"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture offset",
-          "resultVarId": 380,
+          "resultVarId": 391,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 379,
+          "successResultVarId": 390,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture offset"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture rotation",
-          "resultVarId": 382,
+          "resultVarId": 393,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 381,
+          "successResultVarId": 392,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture rotation"
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture scale",
-          "resultVarId": 384,
+          "resultVarId": 395,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 383,
+          "successResultVarId": 394,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_iridescence/iridescenceThicknessTexture texture scale"
         },
         {
           "name": "KHR_materials_sheen/sheenColorFactor",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenColorFactor",
-          "resultVarId": 386,
+          "resultVarId": 397,
           "resultVarType": "float3",
           "expectedResultValue": [
             0.0,
             0.0,
             1.0
           ],
-          "successResultVarId": 385,
+          "successResultVarId": 396,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenColorFactor"
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessFactor",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessFactor",
-          "resultVarId": 388,
+          "resultVarId": 399,
           "resultVarType": "float",
           "expectedResultValue": [
             2.3
           ],
-          "successResultVarId": 387,
+          "successResultVarId": 398,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenRoughnessFactor"
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture offset",
-          "resultVarId": 390,
+          "resultVarId": 401,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 389,
+          "successResultVarId": 400,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture offset"
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture rotation",
-          "resultVarId": 392,
+          "resultVarId": 403,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 391,
+          "successResultVarId": 402,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture rotation"
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture scale",
-          "resultVarId": 394,
+          "resultVarId": 405,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 393,
+          "successResultVarId": 404,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenColorTexture texture scale"
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture offset",
-          "resultVarId": 396,
+          "resultVarId": 407,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 395,
+          "successResultVarId": 406,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture offset"
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture rotation",
-          "resultVarId": 398,
+          "resultVarId": 409,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 397,
+          "successResultVarId": 408,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture rotation"
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture scale",
-          "resultVarId": 400,
+          "resultVarId": 411,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 399,
+          "successResultVarId": 410,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_sheen/sheenRoughnessTexture texture scale"
         },
         {
           "name": "KHR_materials_specular/specularFactor",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularFactor",
-          "resultVarId": 402,
+          "resultVarId": 413,
           "resultVarType": "float",
           "expectedResultValue": [
             1.2
           ],
-          "successResultVarId": 401,
+          "successResultVarId": 412,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularFactor"
         },
         {
           "name": "KHR_materials_specular/specularColorFactor",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularColorFactor",
-          "resultVarId": 404,
+          "resultVarId": 415,
           "resultVarType": "float3",
           "expectedResultValue": [
             1.0,
             0.0,
             0.0
           ],
-          "successResultVarId": 403,
+          "successResultVarId": 414,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularColorFactor"
         },
         {
           "name": "KHR_materials_specular/specularTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture offset",
-          "resultVarId": 406,
+          "resultVarId": 417,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 405,
+          "successResultVarId": 416,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularTexture texture offset"
         },
         {
           "name": "KHR_materials_specular/specularTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture rotation",
-          "resultVarId": 408,
+          "resultVarId": 419,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 407,
+          "successResultVarId": 418,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularTexture texture rotation"
         },
         {
           "name": "KHR_materials_specular/specularTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularTexture texture scale",
-          "resultVarId": 410,
+          "resultVarId": 421,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 409,
+          "successResultVarId": 420,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularTexture texture scale"
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture offset",
-          "resultVarId": 412,
+          "resultVarId": 423,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 411,
+          "successResultVarId": 422,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularColorTexture texture offset"
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture rotation",
-          "resultVarId": 414,
+          "resultVarId": 425,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 413,
+          "successResultVarId": 424,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularColorTexture texture rotation"
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_specular/specularColorTexture texture scale",
-          "resultVarId": 416,
+          "resultVarId": 427,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 415,
+          "successResultVarId": 426,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_specular/specularColorTexture texture scale"
         },
         {
           "name": "KHR_materials_transmission/transmissionFactor",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_transmission/transmissionFactor",
-          "resultVarId": 418,
+          "resultVarId": 429,
           "resultVarType": "float",
           "expectedResultValue": [
             1.2
           ],
-          "successResultVarId": 417,
+          "successResultVarId": 428,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_transmission/transmissionFactor"
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture offset",
-          "resultVarId": 420,
+          "resultVarId": 431,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 419,
+          "successResultVarId": 430,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_transmission/transmissionTexture texture offset"
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture rotation",
-          "resultVarId": 422,
+          "resultVarId": 433,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 421,
+          "successResultVarId": 432,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_transmission/transmissionTexture texture rotation"
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_transmission/transmissionTexture texture scale",
-          "resultVarId": 424,
+          "resultVarId": 435,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 423,
+          "successResultVarId": 434,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_transmission/transmissionTexture texture scale"
         },
         {
           "name": "KHR_materials_volume/thicknessFactor",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_volume/thicknessFactor",
-          "resultVarId": 426,
+          "resultVarId": 437,
           "resultVarType": "float",
           "expectedResultValue": [
             1.2
           ],
-          "successResultVarId": 425,
+          "successResultVarId": 436,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_volume/thicknessFactor"
         },
         {
           "name": "KHR_materials_volume/attenuationDistance",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_volume/attenuationDistance",
-          "resultVarId": 428,
+          "resultVarId": 439,
           "resultVarType": "float",
           "expectedResultValue": [
             2.2
           ],
-          "successResultVarId": 427,
+          "successResultVarId": 438,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_volume/attenuationDistance"
         },
         {
           "name": "KHR_materials_volume/attenuationColor",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_volume/attenuationColor",
-          "resultVarId": 430,
+          "resultVarId": 441,
           "resultVarType": "float3",
           "expectedResultValue": [
             1.0,
             0.0,
             0.0
           ],
-          "successResultVarId": 429,
+          "successResultVarId": 440,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_volume/attenuationColor"
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture offset",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_volume/thicknessTexture texture offset",
-          "resultVarId": 432,
+          "resultVarId": 443,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 431,
+          "successResultVarId": 442,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_volume/thicknessTexture texture offset"
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture rotation",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_volume/thicknessTexture texture rotation",
-          "resultVarId": 434,
+          "resultVarId": 445,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
-          "successResultVarId": 433,
+          "successResultVarId": 444,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_volume/thicknessTexture texture rotation"
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture scale",
           "resultVarName": "TestResult_pointer/set and get_KHR_materials_volume/thicknessTexture texture scale",
-          "resultVarId": 436,
+          "resultVarId": 447,
           "resultVarType": "float2",
           "expectedResultValue": [
             2.0,
             3.0
           ],
-          "successResultVarId": 435,
+          "successResultVarId": 446,
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_KHR_materials_volume/thicknessTexture texture scale"
         }
       ]
@@ -3526,11 +3666,11 @@
       "entryPoints": [
         {
           "name": "Entry",
-          "nodeId": 3619
+          "nodeId": 3736
         },
         {
           "name": "Delayed Check (delayed execution)",
-          "nodeId": 3678,
+          "nodeId": 3795,
           "delayedExecutionTime": 1.0
         }
       ],
@@ -3538,67 +3678,67 @@
         {
           "name": "Flow Checks",
           "resultVarName": "TestResult_prerequisites/Tests required operations_Flow Checks",
-          "resultVarId": 437,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            true
-          ],
-          "successResultVarId": 437,
-          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Flow Checks"
-        },
-        {
-          "name": "Value Checks",
-          "resultVarName": "TestResult_prerequisites/Tests required operations_Value Checks",
-          "resultVarId": 439,
-          "resultVarType": "int",
-          "expectedResultValue": [
-            1
-          ],
-          "successResultVarId": 438,
-          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Value Checks"
-        },
-        {
-          "name": "Value Proximity Checks",
-          "resultVarName": "TestResult_prerequisites/Tests required operations_Value Proximity Checks",
-          "resultVarId": 441,
-          "resultVarType": "float",
-          "expectedResultValue": [
-            33.2114563
-          ],
-          "successResultVarId": 440,
-          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Value Proximity Checks"
-        },
-        {
-          "name": "Counter Checks",
-          "resultVarName": "TestResult_prerequisites/Tests required operations_Counter Checks",
-          "resultVarId": 444,
-          "resultVarType": "int",
-          "expectedResultValue": [
-            2
-          ],
-          "successResultVarId": 443,
-          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Counter Checks"
-        },
-        {
-          "name": "Multi Flow Checks",
-          "resultVarName": "TestResult_prerequisites/Tests required operations_Multi Flow Checks",
-          "resultVarId": 447,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            true
-          ],
-          "successResultVarId": 447,
-          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Multi Flow Checks"
-        },
-        {
-          "name": "Delayed Checks",
-          "resultVarName": "TestResult_prerequisites/Tests required operations_Delayed Checks",
           "resultVarId": 448,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 448,
+          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Flow Checks"
+        },
+        {
+          "name": "Value Checks",
+          "resultVarName": "TestResult_prerequisites/Tests required operations_Value Checks",
+          "resultVarId": 450,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ],
+          "successResultVarId": 449,
+          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Value Checks"
+        },
+        {
+          "name": "Value Proximity Checks",
+          "resultVarName": "TestResult_prerequisites/Tests required operations_Value Proximity Checks",
+          "resultVarId": 452,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            33.2114563
+          ],
+          "successResultVarId": 451,
+          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Value Proximity Checks"
+        },
+        {
+          "name": "Counter Checks",
+          "resultVarName": "TestResult_prerequisites/Tests required operations_Counter Checks",
+          "resultVarId": 455,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 454,
+          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Counter Checks"
+        },
+        {
+          "name": "Multi Flow Checks",
+          "resultVarName": "TestResult_prerequisites/Tests required operations_Multi Flow Checks",
+          "resultVarId": 458,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 458,
+          "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Multi Flow Checks"
+        },
+        {
+          "name": "Delayed Checks",
+          "resultVarName": "TestResult_prerequisites/Tests required operations_Delayed Checks",
+          "resultVarId": 459,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 459,
           "successResultVarName": "TestResult_HasPassed_prerequisites/Tests required operations_Delayed Checks"
         }
       ]
@@ -3621,64 +3761,64 @@
       "entryPoints": [
         {
           "name": "Same mesh ref in ref/eq",
-          "nodeId": 3687
+          "nodeId": 3804
         },
         {
           "name": "Two nulls in ref/eq",
-          "nodeId": 3702
+          "nodeId": 3819
         },
         {
           "name": "One mesh and one null in ref/eq",
-          "nodeId": 3715
+          "nodeId": 3832
         },
         {
           "name": "One mesh and one node in ref/eq",
-          "nodeId": 3729
+          "nodeId": 3846
         }
       ],
       "subTests": [
         {
           "name": "mesh == mesh (same)",
           "resultVarName": "TestResult_ref/eq_mesh == mesh (same)",
-          "resultVarId": 450,
+          "resultVarId": 461,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 449,
+          "successResultVarId": 460,
           "successResultVarName": "TestResult_HasPassed_ref/eq_mesh == mesh (same)"
         },
         {
           "name": "null == null",
           "resultVarName": "TestResult_ref/eq_null == null",
-          "resultVarId": 452,
+          "resultVarId": 463,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 451,
+          "successResultVarId": 462,
           "successResultVarName": "TestResult_HasPassed_ref/eq_null == null"
         },
         {
           "name": "mesh == null",
           "resultVarName": "TestResult_ref/eq_mesh == null",
-          "resultVarId": 454,
+          "resultVarId": 465,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
-          "successResultVarId": 453,
+          "successResultVarId": 464,
           "successResultVarName": "TestResult_HasPassed_ref/eq_mesh == null"
         },
         {
           "name": "mesh == node",
           "resultVarName": "TestResult_ref/eq_mesh == node",
-          "resultVarId": 456,
+          "resultVarId": 467,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
-          "successResultVarId": 455,
+          "successResultVarId": 466,
           "successResultVarName": "TestResult_HasPassed_ref/eq_mesh == node"
         }
       ]
@@ -3705,214 +3845,214 @@
       "entryPoints": [
         {
           "name": "boolToInt(true) == 1",
-          "nodeId": 3745
-        },
-        {
-          "name": "boolToInt(false) == 0",
-          "nodeId": 3758
-        },
-        {
-          "name": "boolToFloat(true) == 1",
-          "nodeId": 3771
-        },
-        {
-          "name": "boolToFloat(false) == 0",
-          "nodeId": 3784
-        },
-        {
-          "name": "intToBool(0) == false",
-          "nodeId": 3797
-        },
-        {
-          "name": "intToBool(5) == true",
-          "nodeId": 3810
-        },
-        {
-          "name": "intToBool(-3) == true",
-          "nodeId": 3823
-        },
-        {
-          "name": "intToFloat(7) == 7.0",
-          "nodeId": 3836
-        },
-        {
-          "name": "floatToInt(3.7) == 3 (trunc)",
-          "nodeId": 3849
-        },
-        {
-          "name": "floatToInt(-3.7) == -3 (trunc)",
           "nodeId": 3862
         },
         {
-          "name": "floatToInt(NaN) == 0",
+          "name": "boolToInt(false) == 0",
           "nodeId": 3875
         },
         {
-          "name": "floatToBool(0) == false",
+          "name": "boolToFloat(true) == 1",
           "nodeId": 3888
         },
         {
-          "name": "floatToBool(2.5) == true",
+          "name": "boolToFloat(false) == 0",
           "nodeId": 3901
         },
         {
-          "name": "floatToBool(-2.5) == true",
+          "name": "intToBool(0) == false",
           "nodeId": 3914
+        },
+        {
+          "name": "intToBool(5) == true",
+          "nodeId": 3927
+        },
+        {
+          "name": "intToBool(-3) == true",
+          "nodeId": 3940
+        },
+        {
+          "name": "intToFloat(7) == 7.0",
+          "nodeId": 3953
+        },
+        {
+          "name": "floatToInt(3.7) == 3 (trunc)",
+          "nodeId": 3966
+        },
+        {
+          "name": "floatToInt(-3.7) == -3 (trunc)",
+          "nodeId": 3979
+        },
+        {
+          "name": "floatToInt(NaN) == 0",
+          "nodeId": 3992
+        },
+        {
+          "name": "floatToBool(0) == false",
+          "nodeId": 4005
+        },
+        {
+          "name": "floatToBool(2.5) == true",
+          "nodeId": 4018
+        },
+        {
+          "name": "floatToBool(-2.5) == true",
+          "nodeId": 4031
         }
       ],
       "subTests": [
         {
           "name": "boolToInt(true) == 1",
           "resultVarName": "TestResult_type/conversions_boolToInt(true) == 1",
-          "resultVarId": 458,
+          "resultVarId": 469,
           "resultVarType": "int",
           "expectedResultValue": [
             1
           ],
-          "successResultVarId": 457,
+          "successResultVarId": 468,
           "successResultVarName": "TestResult_HasPassed_type/conversions_boolToInt(true) == 1"
         },
         {
           "name": "boolToInt(false) == 0",
           "resultVarName": "TestResult_type/conversions_boolToInt(false) == 0",
-          "resultVarId": 460,
+          "resultVarId": 471,
           "resultVarType": "int",
           "expectedResultValue": [
             0
           ],
-          "successResultVarId": 459,
+          "successResultVarId": 470,
           "successResultVarName": "TestResult_HasPassed_type/conversions_boolToInt(false) == 0"
         },
         {
           "name": "boolToFloat(true) == 1",
           "resultVarName": "TestResult_type/conversions_boolToFloat(true) == 1",
-          "resultVarId": 462,
+          "resultVarId": 473,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
           ],
-          "successResultVarId": 461,
+          "successResultVarId": 472,
           "successResultVarName": "TestResult_HasPassed_type/conversions_boolToFloat(true) == 1"
         },
         {
           "name": "boolToFloat(false) == 0",
           "resultVarName": "TestResult_type/conversions_boolToFloat(false) == 0",
-          "resultVarId": 464,
+          "resultVarId": 475,
           "resultVarType": "float",
           "expectedResultValue": [
             0.0
           ],
-          "successResultVarId": 463,
+          "successResultVarId": 474,
           "successResultVarName": "TestResult_HasPassed_type/conversions_boolToFloat(false) == 0"
         },
         {
           "name": "intToBool(0) == false",
           "resultVarName": "TestResult_type/conversions_intToBool(0) == false",
-          "resultVarId": 466,
+          "resultVarId": 477,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
-          "successResultVarId": 465,
+          "successResultVarId": 476,
           "successResultVarName": "TestResult_HasPassed_type/conversions_intToBool(0) == false"
         },
         {
           "name": "intToBool(5) == true",
           "resultVarName": "TestResult_type/conversions_intToBool(5) == true",
-          "resultVarId": 468,
+          "resultVarId": 479,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 467,
+          "successResultVarId": 478,
           "successResultVarName": "TestResult_HasPassed_type/conversions_intToBool(5) == true"
         },
         {
           "name": "intToBool(-3) == true",
           "resultVarName": "TestResult_type/conversions_intToBool(-3) == true",
-          "resultVarId": 470,
+          "resultVarId": 481,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 469,
+          "successResultVarId": 480,
           "successResultVarName": "TestResult_HasPassed_type/conversions_intToBool(-3) == true"
         },
         {
           "name": "intToFloat(7) == 7.0",
           "resultVarName": "TestResult_type/conversions_intToFloat(7) == 7.0",
-          "resultVarId": 472,
+          "resultVarId": 483,
           "resultVarType": "float",
           "expectedResultValue": [
             7.0
           ],
-          "successResultVarId": 471,
+          "successResultVarId": 482,
           "successResultVarName": "TestResult_HasPassed_type/conversions_intToFloat(7) == 7.0"
         },
         {
           "name": "floatToInt(3.7) == 3 (trunc)",
           "resultVarName": "TestResult_type/conversions_floatToInt(3.7) == 3 (trunc)",
-          "resultVarId": 474,
+          "resultVarId": 485,
           "resultVarType": "int",
           "expectedResultValue": [
             3
           ],
-          "successResultVarId": 473,
+          "successResultVarId": 484,
           "successResultVarName": "TestResult_HasPassed_type/conversions_floatToInt(3.7) == 3 (trunc)"
         },
         {
           "name": "floatToInt(-3.7) == -3 (trunc)",
           "resultVarName": "TestResult_type/conversions_floatToInt(-3.7) == -3 (trunc)",
-          "resultVarId": 476,
+          "resultVarId": 487,
           "resultVarType": "int",
           "expectedResultValue": [
             -3
           ],
-          "successResultVarId": 475,
+          "successResultVarId": 486,
           "successResultVarName": "TestResult_HasPassed_type/conversions_floatToInt(-3.7) == -3 (trunc)"
         },
         {
           "name": "floatToInt(NaN) == 0",
           "resultVarName": "TestResult_type/conversions_floatToInt(NaN) == 0",
-          "resultVarId": 478,
+          "resultVarId": 489,
           "resultVarType": "int",
           "expectedResultValue": [
             0
           ],
-          "successResultVarId": 477,
+          "successResultVarId": 488,
           "successResultVarName": "TestResult_HasPassed_type/conversions_floatToInt(NaN) == 0"
         },
         {
           "name": "floatToBool(0) == false",
           "resultVarName": "TestResult_type/conversions_floatToBool(0) == false",
-          "resultVarId": 480,
+          "resultVarId": 491,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
-          "successResultVarId": 479,
+          "successResultVarId": 490,
           "successResultVarName": "TestResult_HasPassed_type/conversions_floatToBool(0) == false"
         },
         {
           "name": "floatToBool(2.5) == true",
           "resultVarName": "TestResult_type/conversions_floatToBool(2.5) == true",
-          "resultVarId": 482,
+          "resultVarId": 493,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 481,
+          "successResultVarId": 492,
           "successResultVarName": "TestResult_HasPassed_type/conversions_floatToBool(2.5) == true"
         },
         {
           "name": "floatToBool(-2.5) == true",
           "resultVarName": "TestResult_type/conversions_floatToBool(-2.5) == true",
-          "resultVarId": 484,
+          "resultVarId": 495,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 483,
+          "successResultVarId": 494,
           "successResultVarName": "TestResult_HasPassed_type/conversions_floatToBool(-2.5) == true"
         }
       ]
@@ -3938,113 +4078,113 @@
       "entryPoints": [
         {
           "name": "Interpolate (delayed execution)",
-          "nodeId": 3927,
+          "nodeId": 4044,
           "delayedExecutionTime": 4.5
         },
         {
           "name": "[Err] flow (duration -1f",
-          "nodeId": 3971
+          "nodeId": 4088
         },
         {
           "name": "[Err] flow (duration infinite",
-          "nodeId": 3980
+          "nodeId": 4097
         },
         {
           "name": "[Err] flow (p1 NaN)",
-          "nodeId": 3989
+          "nodeId": 4106
         },
         {
           "name": "[Err] flow (p2 NaN)",
-          "nodeId": 3998
+          "nodeId": 4115
         }
       ],
       "subTests": [
         {
           "name": "Flow [out]",
           "resultVarName": "TestResult_variable/interpolate_Flow [out]",
-          "resultVarId": 486,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            true
-          ],
-          "successResultVarId": 486,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Flow [out]"
-        },
-        {
-          "name": "Value at 50%",
-          "resultVarName": "TestResult_variable/interpolate_Value at 50%",
-          "resultVarId": 489,
-          "resultVarType": "float",
-          "expectedResultValue": [
-            8.75
-          ],
-          "successResultVarId": 488,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Value at 50%"
-        },
-        {
-          "name": "Flow [done]",
-          "resultVarName": "TestResult_variable/interpolate_Flow [done]",
-          "resultVarId": 487,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            true
-          ],
-          "successResultVarId": 487,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Flow [done]"
-        },
-        {
-          "name": "Value at 100%",
-          "resultVarName": "TestResult_variable/interpolate_Value at 100%",
-          "resultVarId": 491,
-          "resultVarType": "float",
-          "expectedResultValue": [
-            10.0
-          ],
-          "successResultVarId": 490,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Value at 100%"
-        },
-        {
-          "name": "[Err] flow (duration -1f",
-          "resultVarName": "TestResult_variable/interpolate_[Err] flow (duration -1f",
-          "resultVarId": 493,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            true
-          ],
-          "successResultVarId": 493,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (duration -1f"
-        },
-        {
-          "name": "[Err] flow (duration infinite",
-          "resultVarName": "TestResult_variable/interpolate_[Err] flow (duration infinite",
-          "resultVarId": 495,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            true
-          ],
-          "successResultVarId": 495,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (duration infinite"
-        },
-        {
-          "name": "[Err] flow (p1 NaN)",
-          "resultVarName": "TestResult_variable/interpolate_[Err] flow (p1 NaN)",
           "resultVarId": 497,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 497,
+          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Flow [out]"
+        },
+        {
+          "name": "Value at 50%",
+          "resultVarName": "TestResult_variable/interpolate_Value at 50%",
+          "resultVarId": 500,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            8.75
+          ],
+          "successResultVarId": 499,
+          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Value at 50%"
+        },
+        {
+          "name": "Flow [done]",
+          "resultVarName": "TestResult_variable/interpolate_Flow [done]",
+          "resultVarId": 498,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 498,
+          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Flow [done]"
+        },
+        {
+          "name": "Value at 100%",
+          "resultVarName": "TestResult_variable/interpolate_Value at 100%",
+          "resultVarId": 502,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            10.0
+          ],
+          "successResultVarId": 501,
+          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Value at 100%"
+        },
+        {
+          "name": "[Err] flow (duration -1f",
+          "resultVarName": "TestResult_variable/interpolate_[Err] flow (duration -1f",
+          "resultVarId": 504,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 504,
+          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (duration -1f"
+        },
+        {
+          "name": "[Err] flow (duration infinite",
+          "resultVarName": "TestResult_variable/interpolate_[Err] flow (duration infinite",
+          "resultVarId": 506,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 506,
+          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (duration infinite"
+        },
+        {
+          "name": "[Err] flow (p1 NaN)",
+          "resultVarName": "TestResult_variable/interpolate_[Err] flow (p1 NaN)",
+          "resultVarId": 508,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 508,
           "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (p1 NaN)"
         },
         {
           "name": "[Err] flow (p2 NaN)",
           "resultVarName": "TestResult_variable/interpolate_[Err] flow (p2 NaN)",
-          "resultVarId": 499,
+          "resultVarId": 510,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 499,
+          "successResultVarId": 510,
           "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (p2 NaN)"
         }
       ]
@@ -4065,116 +4205,116 @@
       "entryPoints": [
         {
           "name": "Set Variable bool",
-          "nodeId": 4008
+          "nodeId": 4125
         },
         {
           "name": "Set Variable int",
-          "nodeId": 4022
+          "nodeId": 4139
         },
         {
           "name": "Set Variable float",
-          "nodeId": 4036
+          "nodeId": 4153
         },
         {
           "name": "Set Variable float2",
-          "nodeId": 4050
+          "nodeId": 4167
         },
         {
           "name": "Set Variable float3",
-          "nodeId": 4064
+          "nodeId": 4181
         },
         {
           "name": "Set Variable float4",
-          "nodeId": 4078
+          "nodeId": 4195
         },
         {
           "name": "Get default value from Variable bool",
-          "nodeId": 4092
+          "nodeId": 4209
         },
         {
           "name": "Get default value from Variable int",
-          "nodeId": 4105
+          "nodeId": 4222
         },
         {
           "name": "Get default value from Variable float",
-          "nodeId": 4118
+          "nodeId": 4235
         },
         {
           "name": "Get default value from Variable float2",
-          "nodeId": 4131
+          "nodeId": 4248
         },
         {
           "name": "Get default value from Variable float3",
-          "nodeId": 4144
+          "nodeId": 4261
         },
         {
           "name": "Get default value from Variable float4",
-          "nodeId": 4157
+          "nodeId": 4274
         }
       ],
       "subTests": [
         {
           "name": "static bool",
           "resultVarName": "TestResult_variable/set and get_static bool",
-          "resultVarId": 502,
+          "resultVarId": 513,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 501,
+          "successResultVarId": 512,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_static bool"
         },
         {
           "name": "static int",
           "resultVarName": "TestResult_variable/set and get_static int",
-          "resultVarId": 505,
+          "resultVarId": 516,
           "resultVarType": "int",
           "expectedResultValue": [
             1
           ],
-          "successResultVarId": 504,
+          "successResultVarId": 515,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_static int"
         },
         {
           "name": "static float",
           "resultVarName": "TestResult_variable/set and get_static float",
-          "resultVarId": 508,
+          "resultVarId": 519,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
           ],
-          "successResultVarId": 507,
+          "successResultVarId": 518,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_static float"
         },
         {
           "name": "static float2",
           "resultVarName": "TestResult_variable/set and get_static float2",
-          "resultVarId": 511,
+          "resultVarId": 522,
           "resultVarType": "float2",
           "expectedResultValue": [
             1.0,
             1.0
           ],
-          "successResultVarId": 510,
+          "successResultVarId": 521,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_static float2"
         },
         {
           "name": "static float3",
           "resultVarName": "TestResult_variable/set and get_static float3",
-          "resultVarId": 514,
+          "resultVarId": 525,
           "resultVarType": "float3",
           "expectedResultValue": [
             1.0,
             1.0,
             1.0
           ],
-          "successResultVarId": 513,
+          "successResultVarId": 524,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_static float3"
         },
         {
           "name": "static float4",
           "resultVarName": "TestResult_variable/set and get_static float4",
-          "resultVarId": 517,
+          "resultVarId": 528,
           "resultVarType": "float4",
           "expectedResultValue": [
             1.0,
@@ -4182,71 +4322,71 @@
             1.0,
             1.0
           ],
-          "successResultVarId": 516,
+          "successResultVarId": 527,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_static float4"
         },
         {
           "name": "default bool",
           "resultVarName": "TestResult_variable/set and get_default bool",
-          "resultVarId": 520,
+          "resultVarId": 531,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 519,
+          "successResultVarId": 530,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_default bool"
         },
         {
           "name": "default int",
           "resultVarName": "TestResult_variable/set and get_default int",
-          "resultVarId": 523,
+          "resultVarId": 534,
           "resultVarType": "int",
           "expectedResultValue": [
             1
           ],
-          "successResultVarId": 522,
+          "successResultVarId": 533,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_default int"
         },
         {
           "name": "default float",
           "resultVarName": "TestResult_variable/set and get_default float",
-          "resultVarId": 526,
+          "resultVarId": 537,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
           ],
-          "successResultVarId": 525,
+          "successResultVarId": 536,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_default float"
         },
         {
           "name": "default float2",
           "resultVarName": "TestResult_variable/set and get_default float2",
-          "resultVarId": 529,
+          "resultVarId": 540,
           "resultVarType": "float2",
           "expectedResultValue": [
             1.0,
             1.0
           ],
-          "successResultVarId": 528,
+          "successResultVarId": 539,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_default float2"
         },
         {
           "name": "default float3",
           "resultVarName": "TestResult_variable/set and get_default float3",
-          "resultVarId": 532,
+          "resultVarId": 543,
           "resultVarType": "float3",
           "expectedResultValue": [
             1.0,
             1.0,
             1.0
           ],
-          "successResultVarId": 531,
+          "successResultVarId": 542,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_default float3"
         },
         {
           "name": "default float4",
           "resultVarName": "TestResult_variable/set and get_default float4",
-          "resultVarId": 535,
+          "resultVarId": 546,
           "resultVarType": "float4",
           "expectedResultValue": [
             1.0,
@@ -4254,7 +4394,7 @@
             1.0,
             1.0
           ],
-          "successResultVarId": 534,
+          "successResultVarId": 545,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_default float4"
         }
       ]
@@ -4275,41 +4415,41 @@
       "entryPoints": [
         {
           "name": "Set multiple variables",
-          "nodeId": 4170
+          "nodeId": 4287
         }
       ],
       "subTests": [
         {
           "name": "[var1]",
           "resultVarName": "TestResult_variable/setMultiple_[var1]",
-          "resultVarId": 540,
+          "resultVarId": 551,
           "resultVarType": "int",
           "expectedResultValue": [
             11
           ],
-          "successResultVarId": 539,
+          "successResultVarId": 550,
           "successResultVarName": "TestResult_HasPassed_variable/setMultiple_[var1]"
         },
         {
           "name": "[var2]",
           "resultVarName": "TestResult_variable/setMultiple_[var2]",
-          "resultVarId": 542,
+          "resultVarId": 553,
           "resultVarType": "int",
           "expectedResultValue": [
             22
           ],
-          "successResultVarId": 541,
+          "successResultVarId": 552,
           "successResultVarName": "TestResult_HasPassed_variable/setMultiple_[var2]"
         },
         {
           "name": "[var3]",
           "resultVarName": "TestResult_variable/setMultiple_[var3]",
-          "resultVarId": 544,
+          "resultVarId": 555,
           "resultVarType": "int",
           "expectedResultValue": [
             33
           ],
-          "successResultVarId": 543,
+          "successResultVarId": 554,
           "successResultVarName": "TestResult_HasPassed_variable/setMultiple_[var3]"
         }
       ]
@@ -4350,6 +4490,7 @@
     "math/select",
     "math/sub",
     "pointer/get",
+    "pointer/interpolate",
     "pointer/set",
     "ref/eq",
     "type/boolToFloat",
