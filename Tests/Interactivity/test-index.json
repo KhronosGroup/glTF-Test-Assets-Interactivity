@@ -364,6 +364,33 @@
     }
   },
   {
+    "label": "pointer/interpolate",
+    "name": "pointer/interpolate",
+    "tags": [
+      "pointer/interpolate",
+      "pointer/get",
+      "flow/setDelay",
+      "flow/sequence",
+      "event/onStart",
+      "variable/get",
+      "math/add",
+      "math/eq",
+      "variable/set",
+      "flow/branch",
+      "debug/log",
+      "pointer/set",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and"
+    ],
+    "variants": {
+      "glTF-Binary": "interpolate.glb",
+      "test-Json": "interpolate.json"
+    }
+  },
+  {
     "label": "pointer/set and get",
     "name": "pointer/set_and_get",
     "tags": [
