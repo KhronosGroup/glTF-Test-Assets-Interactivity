@@ -1,0 +1,81 @@
+{
+  "glbFileName": "quatFromDirections-edge.glb",
+  "name": "math/quatFromDirections-edge",
+  "tests": [
+    {
+      "name": "math/quatFromDirections-edge",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/normalize",
+        "math/quatFromDirections",
+        "math/rotate3D",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "parallel",
+          "nodeId": 1
+        },
+        {
+          "name": "antiparallel",
+          "nodeId": 21
+        }
+      ],
+      "subTests": [
+        {
+          "name": "parallel dirs -> identity",
+          "resultVarName": "TestResult_math/quatFromDirections-edge_parallel dirs -> identity",
+          "resultVarId": 1,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromDirections-edge_parallel dirs -> identity"
+        },
+        {
+          "name": "antiparallel: rotate(a) == b",
+          "resultVarName": "TestResult_math/quatFromDirections-edge_antiparallel: rotate(a) == b",
+          "resultVarId": 3,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromDirections-edge_antiparallel: rotate(a) == b"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/normalize",
+    "math/quatFromDirections",
+    "math/rotate3D",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

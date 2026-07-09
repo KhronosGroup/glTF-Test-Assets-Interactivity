@@ -29,16 +29,20 @@
           "nodeId": 1
         },
         {
-          "name": "[a] (9769.23, 9769.23) = (21.38, 21.38)",
+          "name": "[a] -27.00 = -3.00",
           "nodeId": 17
         },
         {
+          "name": "[a] (9769.23, 9769.23) = (21.38, 21.38)",
+          "nodeId": 33
+        },
+        {
           "name": "[a] (9769.23, 9769.23, 9769.23) = (21.38, 21.38, 21.38)",
-          "nodeId": 36
+          "nodeId": 61
         },
         {
           "name": "[a] (9769.23, 9769.23, 9769.23, 9769.23) = (21.38, 21.38, 21.38, 21.38)",
-          "nodeId": 62
+          "nodeId": 79
         }
       ],
       "subTests": [
@@ -54,34 +58,45 @@
           "successResultVarName": "TestResult_HasPassed_math/cbrt_[a] 9769.23 = 21.38"
         },
         {
+          "name": "[a] -27.00 = -3.00",
+          "resultVarName": "TestResult_math/cbrt_[a] -27.00 = -3.00",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -3.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/cbrt_[a] -27.00 = -3.00"
+        },
+        {
           "name": "[a] (9769.23, 9769.23) = (21.38, 21.38)",
           "resultVarName": "TestResult_math/cbrt_[a] (9769.23, 9769.23) = (21.38, 21.38)",
-          "resultVarId": 3,
+          "resultVarId": 5,
           "resultVarType": "float2",
           "expectedResultValue": [
             21.3773346,
             21.3773346
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 4,
           "successResultVarName": "TestResult_HasPassed_math/cbrt_[a] (9769.23, 9769.23) = (21.38, 21.38)"
         },
         {
           "name": "[a] (9769.23, 9769.23, 9769.23) = (21.38, 21.38, 21.38)",
           "resultVarName": "TestResult_math/cbrt_[a] (9769.23, 9769.23, 9769.23) = (21.38, 21.38, 21.38)",
-          "resultVarId": 5,
+          "resultVarId": 7,
           "resultVarType": "float3",
           "expectedResultValue": [
             21.3773346,
             21.3773346,
             21.3773346
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/cbrt_[a] (9769.23, 9769.23, 9769.23) = (21.38, 21.38, 21.38)"
         },
         {
           "name": "[a] (9769.23, 9769.23, 9769.23, 9769.23) = (21.38, 21.38, 21.38, 21.38)",
           "resultVarName": "TestResult_math/cbrt_[a] (9769.23, 9769.23, 9769.23, 9769.23) = (21.38, 21.38, 21.38, 21.38)",
-          "resultVarId": 7,
+          "resultVarId": 9,
           "resultVarType": "float4",
           "expectedResultValue": [
             21.3773346,
@@ -89,7 +104,7 @@
             21.3773346,
             21.3773346
           ],
-          "successResultVarId": 6,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_math/cbrt_[a] (9769.23, 9769.23, 9769.23, 9769.23) = (21.38, 21.38, 21.38, 21.38)"
         }
       ]

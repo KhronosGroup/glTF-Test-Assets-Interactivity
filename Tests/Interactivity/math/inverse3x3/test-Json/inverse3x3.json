@@ -1,0 +1,169 @@
+{
+  "glbFileName": "inverse3x3.glb",
+  "name": "math/inverse3x3",
+  "tests": [
+    {
+      "name": "math/inverse3x3",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/eq",
+        "math/extract3x3",
+        "math/inverse",
+        "math/lt",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "math/inverse3x3",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "inverse3x3[0]",
+          "resultVarName": "TestResult_math/inverse3x3_inverse3x3[0]",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.111111112
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/inverse3x3_inverse3x3[0]"
+        },
+        {
+          "name": "inverse3x3[1]",
+          "resultVarName": "TestResult_math/inverse3x3_inverse3x3[1]",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -0.222222224
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/inverse3x3_inverse3x3[1]"
+        },
+        {
+          "name": "inverse3x3[2]",
+          "resultVarName": "TestResult_math/inverse3x3_inverse3x3[2]",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.444444448
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/inverse3x3_inverse3x3[2]"
+        },
+        {
+          "name": "inverse3x3[3]",
+          "resultVarName": "TestResult_math/inverse3x3_inverse3x3[3]",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.444444448
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/inverse3x3_inverse3x3[3]"
+        },
+        {
+          "name": "inverse3x3[4]",
+          "resultVarName": "TestResult_math/inverse3x3_inverse3x3[4]",
+          "resultVarId": 9,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.111111112
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/inverse3x3_inverse3x3[4]"
+        },
+        {
+          "name": "inverse3x3[5]",
+          "resultVarName": "TestResult_math/inverse3x3_inverse3x3[5]",
+          "resultVarId": 11,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -0.222222224
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/inverse3x3_inverse3x3[5]"
+        },
+        {
+          "name": "inverse3x3[6]",
+          "resultVarName": "TestResult_math/inverse3x3_inverse3x3[6]",
+          "resultVarId": 13,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -0.222222224
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/inverse3x3_inverse3x3[6]"
+        },
+        {
+          "name": "inverse3x3[7]",
+          "resultVarName": "TestResult_math/inverse3x3_inverse3x3[7]",
+          "resultVarId": 15,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.444444448
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_math/inverse3x3_inverse3x3[7]"
+        },
+        {
+          "name": "inverse3x3[8]",
+          "resultVarName": "TestResult_math/inverse3x3_inverse3x3[8]",
+          "resultVarId": 17,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.111111112
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_math/inverse3x3_inverse3x3[8]"
+        },
+        {
+          "name": "inverse3x3 isValid",
+          "resultVarName": "TestResult_math/inverse3x3_inverse3x3 isValid",
+          "resultVarId": 19,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_math/inverse3x3_inverse3x3 isValid"
+        },
+        {
+          "name": "singular inverse3x3 isValid=false",
+          "resultVarName": "TestResult_math/inverse3x3_singular inverse3x3 isValid=false",
+          "resultVarId": 21,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 20,
+          "successResultVarName": "TestResult_HasPassed_math/inverse3x3_singular inverse3x3 isValid=false"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/eq",
+    "math/extract3x3",
+    "math/inverse",
+    "math/lt",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -14,7 +14,9 @@
         "math/and",
         "math/atanh",
         "math/dot",
+        "math/eq",
         "math/gt",
+        "math/isNaN",
         "math/length",
         "math/lt",
         "math/normalize",
@@ -29,16 +31,28 @@
           "nodeId": 1
         },
         {
-          "name": "[a] (0.50, 0.50) = (0.55, 0.55)",
+          "name": "[a] 1.50 = NaN",
           "nodeId": 17
         },
         {
+          "name": "[a] 1.00 = Infinity",
+          "nodeId": 32
+        },
+        {
+          "name": "[a] -1.00 = -Infinity",
+          "nodeId": 61
+        },
+        {
+          "name": "[a] (0.50, 0.50) = (0.55, 0.55)",
+          "nodeId": 78
+        },
+        {
           "name": "[a] (0.50, 0.50, 0.50) = (0.55, 0.55, 0.55)",
-          "nodeId": 36
+          "nodeId": 96
         },
         {
           "name": "[a] (0.50, 0.50, 0.50, 0.50) = (0.55, 0.55, 0.55, 0.55)",
-          "nodeId": 62
+          "nodeId": 114
         }
       ],
       "subTests": [
@@ -54,34 +68,67 @@
           "successResultVarName": "TestResult_HasPassed_math/atanh_[a] 0.50 = 0.55"
         },
         {
+          "name": "[a] 1.50 = NaN",
+          "resultVarName": "TestResult_math/atanh_[a] 1.50 = NaN",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/atanh_[a] 1.50 = NaN"
+        },
+        {
+          "name": "[a] 1.00 = Infinity",
+          "resultVarName": "TestResult_math/atanh_[a] 1.00 = Infinity",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "Infinity"
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/atanh_[a] 1.00 = Infinity"
+        },
+        {
+          "name": "[a] -1.00 = -Infinity",
+          "resultVarName": "TestResult_math/atanh_[a] -1.00 = -Infinity",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "-Infinity"
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/atanh_[a] -1.00 = -Infinity"
+        },
+        {
           "name": "[a] (0.50, 0.50) = (0.55, 0.55)",
           "resultVarName": "TestResult_math/atanh_[a] (0.50, 0.50) = (0.55, 0.55)",
-          "resultVarId": 3,
+          "resultVarId": 9,
           "resultVarType": "float2",
           "expectedResultValue": [
             0.549306154,
             0.549306154
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_math/atanh_[a] (0.50, 0.50) = (0.55, 0.55)"
         },
         {
           "name": "[a] (0.50, 0.50, 0.50) = (0.55, 0.55, 0.55)",
           "resultVarName": "TestResult_math/atanh_[a] (0.50, 0.50, 0.50) = (0.55, 0.55, 0.55)",
-          "resultVarId": 5,
+          "resultVarId": 11,
           "resultVarType": "float3",
           "expectedResultValue": [
             0.549306154,
             0.549306154,
             0.549306154
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_math/atanh_[a] (0.50, 0.50, 0.50) = (0.55, 0.55, 0.55)"
         },
         {
           "name": "[a] (0.50, 0.50, 0.50, 0.50) = (0.55, 0.55, 0.55, 0.55)",
           "resultVarName": "TestResult_math/atanh_[a] (0.50, 0.50, 0.50, 0.50) = (0.55, 0.55, 0.55, 0.55)",
-          "resultVarId": 7,
+          "resultVarId": 13,
           "resultVarType": "float4",
           "expectedResultValue": [
             0.549306154,
@@ -89,7 +136,7 @@
             0.549306154,
             0.549306154
           ],
-          "successResultVarId": 6,
+          "successResultVarId": 12,
           "successResultVarName": "TestResult_HasPassed_math/atanh_[a] (0.50, 0.50, 0.50, 0.50) = (0.55, 0.55, 0.55, 0.55)"
         }
       ]
@@ -104,7 +151,9 @@
     "math/and",
     "math/atanh",
     "math/dot",
+    "math/eq",
     "math/gt",
+    "math/isNaN",
     "math/length",
     "math/lt",
     "math/normalize",

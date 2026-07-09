@@ -1,0 +1,114 @@
+{
+  "glbFileName": "inverse2x2.glb",
+  "name": "math/inverse2x2",
+  "tests": [
+    {
+      "name": "math/inverse2x2",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/eq",
+        "math/extract2x2",
+        "math/inverse",
+        "math/lt",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "math/inverse2x2",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "inverse2x2[0]",
+          "resultVarName": "TestResult_math/inverse2x2_inverse2x2[0]",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.3
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/inverse2x2_inverse2x2[0]"
+        },
+        {
+          "name": "inverse2x2[1]",
+          "resultVarName": "TestResult_math/inverse2x2_inverse2x2[1]",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -0.2
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/inverse2x2_inverse2x2[1]"
+        },
+        {
+          "name": "inverse2x2[2]",
+          "resultVarName": "TestResult_math/inverse2x2_inverse2x2[2]",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -0.1
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/inverse2x2_inverse2x2[2]"
+        },
+        {
+          "name": "inverse2x2[3]",
+          "resultVarName": "TestResult_math/inverse2x2_inverse2x2[3]",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.4
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/inverse2x2_inverse2x2[3]"
+        },
+        {
+          "name": "inverse2x2 isValid",
+          "resultVarName": "TestResult_math/inverse2x2_inverse2x2 isValid",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/inverse2x2_inverse2x2 isValid"
+        },
+        {
+          "name": "singular inverse2x2 isValid=false",
+          "resultVarName": "TestResult_math/inverse2x2_singular inverse2x2 isValid=false",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/inverse2x2_singular inverse2x2 isValid=false"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/eq",
+    "math/extract2x2",
+    "math/inverse",
+    "math/lt",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

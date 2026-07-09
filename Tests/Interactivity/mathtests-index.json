@@ -33,6 +33,7 @@
       "variable/set",
       "variable/get",
       "flow/sequence",
+      "math/isNaN",
       "math/dot",
       "math/normalize",
       "math/gt",
@@ -59,6 +60,8 @@
       "variable/set",
       "variable/get",
       "flow/sequence",
+      "math/isNaN",
+      "math/eq",
       "math/dot",
       "math/normalize",
       "math/gt",
@@ -123,6 +126,7 @@
       "variable/set",
       "variable/get",
       "flow/sequence",
+      "math/isNaN",
       "math/dot",
       "math/normalize",
       "math/gt",
@@ -246,6 +250,8 @@
       "variable/set",
       "variable/get",
       "flow/sequence",
+      "math/isNaN",
+      "math/eq",
       "math/dot",
       "math/normalize",
       "math/gt",
@@ -599,6 +605,48 @@
     }
   },
   {
+    "label": "math/determinant2x2",
+    "name": "math/determinant2x2",
+    "tags": [
+      "math/determinant",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "determinant2x2.glb",
+      "test-Json": "determinant2x2.json"
+    }
+  },
+  {
+    "label": "math/determinant3x3",
+    "name": "math/determinant3x3",
+    "tags": [
+      "math/determinant",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "determinant3x3.glb",
+      "test-Json": "determinant3x3.json"
+    }
+  },
+  {
     "label": "math/div",
     "name": "math/div",
     "tags": [
@@ -949,6 +997,52 @@
     }
   },
   {
+    "label": "math/inverse2x2",
+    "name": "math/inverse2x2",
+    "tags": [
+      "math/inverse",
+      "event/onStart",
+      "math/extract2x2",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/eq"
+    ],
+    "variants": {
+      "glTF-Binary": "inverse2x2.glb",
+      "test-Json": "inverse2x2.json"
+    }
+  },
+  {
+    "label": "math/inverse3x3",
+    "name": "math/inverse3x3",
+    "tags": [
+      "math/inverse",
+      "event/onStart",
+      "math/extract3x3",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/eq"
+    ],
+    "variants": {
+      "glTF-Binary": "inverse3x3.glb",
+      "test-Json": "inverse3x3.json"
+    }
+  },
+  {
     "label": "math/isInf",
     "name": "math/isInf",
     "tags": [
@@ -1019,7 +1113,9 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence"
+      "flow/sequence",
+      "math/eq",
+      "math/isNaN"
     ],
     "variants": {
       "glTF-Binary": "length.glb",
@@ -1041,6 +1137,8 @@
       "variable/set",
       "variable/get",
       "flow/sequence",
+      "math/eq",
+      "math/isNaN",
       "math/dot",
       "math/normalize",
       "math/gt",
@@ -1262,6 +1360,69 @@
     "variants": {
       "glTF-Binary": "matMul.glb",
       "test-Json": "matMul.json"
+    }
+  },
+  {
+    "label": "math/matMul2x2",
+    "name": "math/matMul2x2",
+    "tags": [
+      "math/matMul",
+      "math/extract2x2",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "matMul2x2.glb",
+      "test-Json": "matMul2x2.json"
+    }
+  },
+  {
+    "label": "math/matMul3x3",
+    "name": "math/matMul3x3",
+    "tags": [
+      "math/matMul",
+      "math/extract3x3",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "matMul3x3.glb",
+      "test-Json": "matMul3x3.json"
+    }
+  },
+  {
+    "label": "math/matMul-nonCommutative",
+    "name": "math/matMul-nonCommutative",
+    "tags": [
+      "math/matMul",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "matMul-nonCommutative.glb",
+      "test-Json": "matMul-nonCommutative.json"
     }
   },
   {
@@ -1498,6 +1659,7 @@
       "variable/set",
       "variable/get",
       "flow/sequence",
+      "math/isNaN",
       "math/dot",
       "math/normalize",
       "math/gt",
@@ -1600,6 +1762,30 @@
     }
   },
   {
+    "label": "math/quatFromDirections-edge",
+    "name": "math/quatFromDirections-edge",
+    "tags": [
+      "math/quatFromDirections",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/rotate3D"
+    ],
+    "variants": {
+      "glTF-Binary": "quatFromDirections-edge.glb",
+      "test-Json": "quatFromDirections-edge.json"
+    }
+  },
+  {
     "label": "math/quatFromUpForward",
     "name": "math/quatFromUpForward",
     "tags": [
@@ -1620,6 +1806,30 @@
     "variants": {
       "glTF-Binary": "quatFromUpForward.glb",
       "test-Json": "quatFromUpForward.json"
+    }
+  },
+  {
+    "label": "math/quatFromUpForward-degenerate",
+    "name": "math/quatFromUpForward-degenerate",
+    "tags": [
+      "math/quatFromUpForward",
+      "math/rotate3D",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "quatFromUpForward-degenerate.glb",
+      "test-Json": "quatFromUpForward-degenerate.json"
     }
   },
   {
@@ -1692,6 +1902,27 @@
     "variants": {
       "glTF-Binary": "quatToAxisAngle.glb",
       "test-Json": "quatToAxisAngle.json"
+    }
+  },
+  {
+    "label": "math/quatToAxisAngle-identity",
+    "name": "math/quatToAxisAngle-identity",
+    "tags": [
+      "math/quatToAxisAngle",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "quatToAxisAngle-identity.glb",
+      "test-Json": "quatToAxisAngle-identity.json"
     }
   },
   {
@@ -2054,6 +2285,7 @@
       "variable/set",
       "variable/get",
       "flow/sequence",
+      "math/isNaN",
       "math/dot",
       "math/normalize",
       "math/gt",
@@ -2118,6 +2350,7 @@
       "variable/set",
       "variable/get",
       "flow/sequence",
+      "math/isNaN",
       "math/dot",
       "math/normalize",
       "math/gt",
@@ -2220,6 +2453,50 @@
     "variants": {
       "glTF-Binary": "transpose.glb",
       "test-Json": "transpose.json"
+    }
+  },
+  {
+    "label": "math/transpose2x2",
+    "name": "math/transpose2x2",
+    "tags": [
+      "math/transpose",
+      "math/extract2x2",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "transpose2x2.glb",
+      "test-Json": "transpose2x2.json"
+    }
+  },
+  {
+    "label": "math/transpose3x3",
+    "name": "math/transpose3x3",
+    "tags": [
+      "math/transpose",
+      "math/extract3x3",
+      "event/onStart",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "transpose3x3.glb",
+      "test-Json": "transpose3x3.json"
     }
   },
   {

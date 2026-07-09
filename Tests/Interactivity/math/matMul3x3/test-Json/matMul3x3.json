@@ -1,0 +1,145 @@
+{
+  "glbFileName": "matMul3x3.glb",
+  "name": "math/matMul3x3",
+  "tests": [
+    {
+      "name": "math/matMul3x3",
+      "description": "True matrix product of two float3x3, compared component-wise.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/extract3x3",
+        "math/lt",
+        "math/matMul",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "math/matMul3x3",
+          "nodeId": 2
+        }
+      ],
+      "subTests": [
+        {
+          "name": "matMul3x3[0]",
+          "resultVarName": "TestResult_math/matMul3x3_matMul3x3[0]",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/matMul3x3_matMul3x3[0]"
+        },
+        {
+          "name": "matMul3x3[1]",
+          "resultVarName": "TestResult_math/matMul3x3_matMul3x3[1]",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/matMul3x3_matMul3x3[1]"
+        },
+        {
+          "name": "matMul3x3[2]",
+          "resultVarName": "TestResult_math/matMul3x3_matMul3x3[2]",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/matMul3x3_matMul3x3[2]"
+        },
+        {
+          "name": "matMul3x3[3]",
+          "resultVarName": "TestResult_math/matMul3x3_matMul3x3[3]",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/matMul3x3_matMul3x3[3]"
+        },
+        {
+          "name": "matMul3x3[4]",
+          "resultVarName": "TestResult_math/matMul3x3_matMul3x3[4]",
+          "resultVarId": 9,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            5.0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/matMul3x3_matMul3x3[4]"
+        },
+        {
+          "name": "matMul3x3[5]",
+          "resultVarName": "TestResult_math/matMul3x3_matMul3x3[5]",
+          "resultVarId": 11,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/matMul3x3_matMul3x3[5]"
+        },
+        {
+          "name": "matMul3x3[6]",
+          "resultVarName": "TestResult_math/matMul3x3_matMul3x3[6]",
+          "resultVarId": 13,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/matMul3x3_matMul3x3[6]"
+        },
+        {
+          "name": "matMul3x3[7]",
+          "resultVarName": "TestResult_math/matMul3x3_matMul3x3[7]",
+          "resultVarId": 15,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.0
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_math/matMul3x3_matMul3x3[7]"
+        },
+        {
+          "name": "matMul3x3[8]",
+          "resultVarName": "TestResult_math/matMul3x3_matMul3x3[8]",
+          "resultVarId": 17,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            7.0
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_math/matMul3x3_matMul3x3[8]"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/extract3x3",
+    "math/lt",
+    "math/matMul",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -11,6 +11,8 @@
         "flow/branch",
         "flow/sequence",
         "math/abs",
+        "math/eq",
+        "math/isNaN",
         "math/length",
         "math/lt",
         "math/sub",
@@ -30,6 +32,14 @@
         {
           "name": "[a] (13.00, 2.00, 23.00, 123.00) = 125.82",
           "nodeId": 33
+        },
+        {
+          "name": "[a] (Infinity, 2.00, 3.00) = Infinity",
+          "nodeId": 58
+        },
+        {
+          "name": "[a] (NaN, 2.00, 3.00) = NaN",
+          "nodeId": 73
         }
       ],
       "subTests": [
@@ -65,6 +75,28 @@
           ],
           "successResultVarId": 4,
           "successResultVarName": "TestResult_HasPassed_math/length_[a] (13.00, 2.00, 23.00, 123.00) = 125.82"
+        },
+        {
+          "name": "[a] (Infinity, 2.00, 3.00) = Infinity",
+          "resultVarName": "TestResult_math/length_[a] (Infinity, 2.00, 3.00) = Infinity",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "Infinity"
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/length_[a] (Infinity, 2.00, 3.00) = Infinity"
+        },
+        {
+          "name": "[a] (NaN, 2.00, 3.00) = NaN",
+          "resultVarName": "TestResult_math/length_[a] (NaN, 2.00, 3.00) = NaN",
+          "resultVarId": 9,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/length_[a] (NaN, 2.00, 3.00) = NaN"
         }
       ]
     }
@@ -75,6 +107,8 @@
     "flow/branch",
     "flow/sequence",
     "math/abs",
+    "math/eq",
+    "math/isNaN",
     "math/length",
     "math/lt",
     "math/sub",

@@ -29,16 +29,24 @@
           "nodeId": 1
         },
         {
-          "name": "[a] (0.50, 0.50) = (0.46, 0.46)",
-          "nodeId": 17
+          "name": "[a] Infinity = 1.57",
+          "nodeId": 18
         },
         {
-          "name": "[a] (0.50, 0.50, 0.50) = (0.46, 0.46, 0.46)",
+          "name": "[a] -Infinity = -1.57",
           "nodeId": 36
         },
         {
+          "name": "[a] (0.50, 0.50) = (0.46, 0.46)",
+          "nodeId": 63
+        },
+        {
+          "name": "[a] (0.50, 0.50, 0.50) = (0.46, 0.46, 0.46)",
+          "nodeId": 81
+        },
+        {
           "name": "[a] (0.50, 0.50, 0.50, 0.50) = (0.46, 0.46, 0.46, 0.46)",
-          "nodeId": 62
+          "nodeId": 99
         }
       ],
       "subTests": [
@@ -54,34 +62,56 @@
           "successResultVarName": "TestResult_HasPassed_math/atan_[a] 0.50 = 0.46"
         },
         {
+          "name": "[a] Infinity = 1.57",
+          "resultVarName": "TestResult_math/atan_[a] Infinity = 1.57",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.57079637
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/atan_[a] Infinity = 1.57"
+        },
+        {
+          "name": "[a] -Infinity = -1.57",
+          "resultVarName": "TestResult_math/atan_[a] -Infinity = -1.57",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -1.57079637
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/atan_[a] -Infinity = -1.57"
+        },
+        {
           "name": "[a] (0.50, 0.50) = (0.46, 0.46)",
           "resultVarName": "TestResult_math/atan_[a] (0.50, 0.50) = (0.46, 0.46)",
-          "resultVarId": 3,
+          "resultVarId": 7,
           "resultVarType": "float2",
           "expectedResultValue": [
             0.4636476,
             0.4636476
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/atan_[a] (0.50, 0.50) = (0.46, 0.46)"
         },
         {
           "name": "[a] (0.50, 0.50, 0.50) = (0.46, 0.46, 0.46)",
           "resultVarName": "TestResult_math/atan_[a] (0.50, 0.50, 0.50) = (0.46, 0.46, 0.46)",
-          "resultVarId": 5,
+          "resultVarId": 9,
           "resultVarType": "float3",
           "expectedResultValue": [
             0.4636476,
             0.4636476,
             0.4636476
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_math/atan_[a] (0.50, 0.50, 0.50) = (0.46, 0.46, 0.46)"
         },
         {
           "name": "[a] (0.50, 0.50, 0.50, 0.50) = (0.46, 0.46, 0.46, 0.46)",
           "resultVarName": "TestResult_math/atan_[a] (0.50, 0.50, 0.50, 0.50) = (0.46, 0.46, 0.46, 0.46)",
-          "resultVarId": 7,
+          "resultVarId": 11,
           "resultVarType": "float4",
           "expectedResultValue": [
             0.4636476,
@@ -89,7 +119,7 @@
             0.4636476,
             0.4636476
           ],
-          "successResultVarId": 6,
+          "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_math/atan_[a] (0.50, 0.50, 0.50, 0.50) = (0.46, 0.46, 0.46, 0.46)"
         }
       ]

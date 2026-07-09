@@ -14,6 +14,7 @@
         "math/and",
         "math/dot",
         "math/gt",
+        "math/isNaN",
         "math/length",
         "math/lt",
         "math/normalize",
@@ -29,16 +30,24 @@
           "nodeId": 1
         },
         {
-          "name": "[a] (4556.23, 4556.23) = (67.50, 67.50)",
+          "name": "[a] -4.00 = NaN",
           "nodeId": 17
         },
         {
+          "name": "[a] 0.00 = 0.00",
+          "nodeId": 32
+        },
+        {
+          "name": "[a] (4556.23, 4556.23) = (67.50, 67.50)",
+          "nodeId": 59
+        },
+        {
           "name": "[a] (4556.23, 4556.23, 4556.23) = (67.50, 67.50, 67.50)",
-          "nodeId": 36
+          "nodeId": 77
         },
         {
           "name": "[a] (4556.23, 4556.23, 4556.23, 4556.23) = (67.50, 67.50, 67.50, 67.50)",
-          "nodeId": 62
+          "nodeId": 95
         }
       ],
       "subTests": [
@@ -54,34 +63,56 @@
           "successResultVarName": "TestResult_HasPassed_math/sqrt_[a] 4556.23 = 67.50"
         },
         {
+          "name": "[a] -4.00 = NaN",
+          "resultVarName": "TestResult_math/sqrt_[a] -4.00 = NaN",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/sqrt_[a] -4.00 = NaN"
+        },
+        {
+          "name": "[a] 0.00 = 0.00",
+          "resultVarName": "TestResult_math/sqrt_[a] 0.00 = 0.00",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/sqrt_[a] 0.00 = 0.00"
+        },
+        {
           "name": "[a] (4556.23, 4556.23) = (67.50, 67.50)",
           "resultVarName": "TestResult_math/sqrt_[a] (4556.23, 4556.23) = (67.50, 67.50)",
-          "resultVarId": 3,
+          "resultVarId": 7,
           "resultVarType": "float2",
           "expectedResultValue": [
             67.49988,
             67.49988
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/sqrt_[a] (4556.23, 4556.23) = (67.50, 67.50)"
         },
         {
           "name": "[a] (4556.23, 4556.23, 4556.23) = (67.50, 67.50, 67.50)",
           "resultVarName": "TestResult_math/sqrt_[a] (4556.23, 4556.23, 4556.23) = (67.50, 67.50, 67.50)",
-          "resultVarId": 5,
+          "resultVarId": 9,
           "resultVarType": "float3",
           "expectedResultValue": [
             67.49988,
             67.49988,
             67.49988
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_math/sqrt_[a] (4556.23, 4556.23, 4556.23) = (67.50, 67.50, 67.50)"
         },
         {
           "name": "[a] (4556.23, 4556.23, 4556.23, 4556.23) = (67.50, 67.50, 67.50, 67.50)",
           "resultVarName": "TestResult_math/sqrt_[a] (4556.23, 4556.23, 4556.23, 4556.23) = (67.50, 67.50, 67.50, 67.50)",
-          "resultVarId": 7,
+          "resultVarId": 11,
           "resultVarType": "float4",
           "expectedResultValue": [
             67.49988,
@@ -89,7 +120,7 @@
             67.49988,
             67.49988
           ],
-          "successResultVarId": 6,
+          "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_math/sqrt_[a] (4556.23, 4556.23, 4556.23, 4556.23) = (67.50, 67.50, 67.50, 67.50)"
         }
       ]
@@ -104,6 +135,7 @@
     "math/and",
     "math/dot",
     "math/gt",
+    "math/isNaN",
     "math/length",
     "math/lt",
     "math/normalize",

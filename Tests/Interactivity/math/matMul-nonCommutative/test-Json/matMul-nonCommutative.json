@@ -1,0 +1,51 @@
+{
+  "glbFileName": "matMul-nonCommutative.glb",
+  "name": "math/matMul-nonCommutative",
+  "tests": [
+    {
+      "name": "math/matMul-nonCommutative",
+      "description": "A·B != B·A for non-commuting matrices.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/eq",
+        "math/matMul",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "math/matMul-nonCommutative",
+          "nodeId": 2
+        }
+      ],
+      "subTests": [
+        {
+          "name": "A·B != B·A",
+          "resultVarName": "TestResult_math/matMul-nonCommutative_A·B != B·A",
+          "resultVarId": 0,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/matMul-nonCommutative_A·B != B·A"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/eq",
+    "math/matMul",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

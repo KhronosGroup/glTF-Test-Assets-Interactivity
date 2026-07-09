@@ -5,9 +5,11 @@
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
 | [a] 4.32 = 2.44 | TestResult_math/tan_[a] 4.32 = 2.44 | 1 | 2.44395
-| [a] (4.32, 4.32) = (2.44, 2.44) | TestResult_math/tan_[a] (4.32, 4.32) = (2.44, 2.44) | 3 | (2.44395, 2.44395)
-| [a] (4.32, 4.32, 4.32) = (2.44, 2.44, 2.44) | TestResult_math/tan_[a] (4.32, 4.32, 4.32) = (2.44, 2.44, 2.44) | 5 | (2.44395, 2.44395, 2.44395)
-| [a] (4.32, 4.32, 4.32, 4.32) = (2.44, 2.44, 2.44, 2.44) | TestResult_math/tan_[a] (4.32, 4.32, 4.32, 4.32) = (2.44, 2.44, 2.44, 2.44) | 7 | (2.44395, 2.44395, 2.44395, 2.44395)
+| [a] Infinity = NaN | TestResult_math/tan_[a] Infinity = NaN | 3 | NaN
+| [a] -Infinity = NaN | TestResult_math/tan_[a] -Infinity = NaN | 5 | NaN
+| [a] (4.32, 4.32) = (2.44, 2.44) | TestResult_math/tan_[a] (4.32, 4.32) = (2.44, 2.44) | 7 | (2.44395, 2.44395)
+| [a] (4.32, 4.32, 4.32) = (2.44, 2.44, 2.44) | TestResult_math/tan_[a] (4.32, 4.32, 4.32) = (2.44, 2.44, 2.44) | 9 | (2.44395, 2.44395, 2.44395)
+| [a] (4.32, 4.32, 4.32, 4.32) = (2.44, 2.44, 2.44, 2.44) | TestResult_math/tan_[a] (4.32, 4.32, 4.32, 4.32) = (2.44, 2.44, 2.44, 2.44) | 11 | (2.44395, 2.44395, 2.44395, 2.44395)
 
 Schemas used in this test case:
 - debug/log
@@ -18,6 +20,7 @@ Schemas used in this test case:
 - math/and
 - math/dot
 - math/gt
+- math/isNaN
 - math/length
 - math/lt
 - math/normalize

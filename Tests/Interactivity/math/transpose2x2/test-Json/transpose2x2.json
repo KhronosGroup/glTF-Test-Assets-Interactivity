@@ -1,0 +1,90 @@
+{
+  "glbFileName": "transpose2x2.glb",
+  "name": "math/transpose2x2",
+  "tests": [
+    {
+      "name": "math/transpose2x2",
+      "description": "Transpose of a float2x2, compared component-wise.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/extract2x2",
+        "math/lt",
+        "math/sub",
+        "math/transpose",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "math/transpose2x2",
+          "nodeId": 2
+        }
+      ],
+      "subTests": [
+        {
+          "name": "transpose2x2[0]",
+          "resultVarName": "TestResult_math/transpose2x2_transpose2x2[0]",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            4.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/transpose2x2_transpose2x2[0]"
+        },
+        {
+          "name": "transpose2x2[1]",
+          "resultVarName": "TestResult_math/transpose2x2_transpose2x2[1]",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/transpose2x2_transpose2x2[1]"
+        },
+        {
+          "name": "transpose2x2[2]",
+          "resultVarName": "TestResult_math/transpose2x2_transpose2x2[2]",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/transpose2x2_transpose2x2[2]"
+        },
+        {
+          "name": "transpose2x2[3]",
+          "resultVarName": "TestResult_math/transpose2x2_transpose2x2[3]",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            3.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/transpose2x2_transpose2x2[3]"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/extract2x2",
+    "math/lt",
+    "math/sub",
+    "math/transpose",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

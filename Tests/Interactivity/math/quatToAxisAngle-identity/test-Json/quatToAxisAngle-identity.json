@@ -1,0 +1,55 @@
+{
+  "glbFileName": "quatToAxisAngle-identity.glb",
+  "name": "math/quatToAxisAngle-identity",
+  "tests": [
+    {
+      "name": "math/quatToAxisAngle-identity",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/lt",
+        "math/quatToAxisAngle",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "math/quatToAxisAngle-identity",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "identity -> angle 0",
+          "resultVarName": "TestResult_math/quatToAxisAngle-identity_identity -> angle 0",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/quatToAxisAngle-identity_identity -> angle 0"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/lt",
+    "math/quatToAxisAngle",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

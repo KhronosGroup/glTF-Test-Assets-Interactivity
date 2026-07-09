@@ -28,6 +28,18 @@
         {
           "name": "[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 0.50 = (2.94, 5.52, 7.55)",
           "nodeId": 20
+        },
+        {
+          "name": "[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 0.00 = (2.00, 5.00, 7.00)",
+          "nodeId": 39
+        },
+        {
+          "name": "[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 1.00 = (4.00, 6.00, 8.00)",
+          "nodeId": 67
+        },
+        {
+          "name": "[a] (1.00, 2.00, 2.00) [b] (1.00, 2.00, 2.00) [c] 0.50 = (1.00, 2.00, 2.00)",
+          "nodeId": 85
         }
       ],
       "subTests": [
@@ -55,6 +67,45 @@
           ],
           "successResultVarId": 2,
           "successResultVarName": "TestResult_HasPassed_math/slerp_[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 0.50 = (2.94, 5.52, 7.55)"
+        },
+        {
+          "name": "[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 0.00 = (2.00, 5.00, 7.00)",
+          "resultVarName": "TestResult_math/slerp_[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 0.00 = (2.00, 5.00, 7.00)",
+          "resultVarId": 5,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            2.0,
+            5.0,
+            7.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/slerp_[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 0.00 = (2.00, 5.00, 7.00)"
+        },
+        {
+          "name": "[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 1.00 = (4.00, 6.00, 8.00)",
+          "resultVarName": "TestResult_math/slerp_[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 1.00 = (4.00, 6.00, 8.00)",
+          "resultVarId": 7,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            3.99999571,
+            6.000001,
+            8.000002
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/slerp_[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 1.00 = (4.00, 6.00, 8.00)"
+        },
+        {
+          "name": "[a] (1.00, 2.00, 2.00) [b] (1.00, 2.00, 2.00) [c] 0.50 = (1.00, 2.00, 2.00)",
+          "resultVarName": "TestResult_math/slerp_[a] (1.00, 2.00, 2.00) [b] (1.00, 2.00, 2.00) [c] 0.50 = (1.00, 2.00, 2.00)",
+          "resultVarId": 9,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            2.0,
+            2.0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/slerp_[a] (1.00, 2.00, 2.00) [b] (1.00, 2.00, 2.00) [c] 0.50 = (1.00, 2.00, 2.00)"
         }
       ]
     }

@@ -13,7 +13,9 @@
         "math/abs",
         "math/and",
         "math/dot",
+        "math/eq",
         "math/gt",
+        "math/isNaN",
         "math/length",
         "math/log",
         "math/lt",
@@ -29,16 +31,28 @@
           "nodeId": 1
         },
         {
-          "name": "[a] (26436.23, 26436.23) = (10.18, 10.18)",
+          "name": "[a] 0.00 = -Infinity",
           "nodeId": 17
         },
         {
+          "name": "[a] -2.00 = NaN",
+          "nodeId": 35
+        },
+        {
+          "name": "[a] 1.00 = 0.00",
+          "nodeId": 63
+        },
+        {
+          "name": "[a] (26436.23, 26436.23) = (10.18, 10.18)",
+          "nodeId": 78
+        },
+        {
           "name": "[a] (26436.23, 26436.23, 26436.23) = (10.18, 10.18, 10.18)",
-          "nodeId": 36
+          "nodeId": 96
         },
         {
           "name": "[a] (26436.23, 26436.23, 26436.23, 26436.23) = (10.18, 10.18, 10.18, 10.18)",
-          "nodeId": 62
+          "nodeId": 114
         }
       ],
       "subTests": [
@@ -54,34 +68,67 @@
           "successResultVarName": "TestResult_HasPassed_math/log_[a] 26436.23 = 10.18"
         },
         {
+          "name": "[a] 0.00 = -Infinity",
+          "resultVarName": "TestResult_math/log_[a] 0.00 = -Infinity",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "-Infinity"
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/log_[a] 0.00 = -Infinity"
+        },
+        {
+          "name": "[a] -2.00 = NaN",
+          "resultVarName": "TestResult_math/log_[a] -2.00 = NaN",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/log_[a] -2.00 = NaN"
+        },
+        {
+          "name": "[a] 1.00 = 0.00",
+          "resultVarName": "TestResult_math/log_[a] 1.00 = 0.00",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/log_[a] 1.00 = 0.00"
+        },
+        {
           "name": "[a] (26436.23, 26436.23) = (10.18, 10.18)",
           "resultVarName": "TestResult_math/log_[a] (26436.23, 26436.23) = (10.18, 10.18)",
-          "resultVarId": 3,
+          "resultVarId": 9,
           "resultVarType": "float2",
           "expectedResultValue": [
             10.1824913,
             10.1824913
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_math/log_[a] (26436.23, 26436.23) = (10.18, 10.18)"
         },
         {
           "name": "[a] (26436.23, 26436.23, 26436.23) = (10.18, 10.18, 10.18)",
           "resultVarName": "TestResult_math/log_[a] (26436.23, 26436.23, 26436.23) = (10.18, 10.18, 10.18)",
-          "resultVarId": 5,
+          "resultVarId": 11,
           "resultVarType": "float3",
           "expectedResultValue": [
             10.1824913,
             10.1824913,
             10.1824913
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_math/log_[a] (26436.23, 26436.23, 26436.23) = (10.18, 10.18, 10.18)"
         },
         {
           "name": "[a] (26436.23, 26436.23, 26436.23, 26436.23) = (10.18, 10.18, 10.18, 10.18)",
           "resultVarName": "TestResult_math/log_[a] (26436.23, 26436.23, 26436.23, 26436.23) = (10.18, 10.18, 10.18, 10.18)",
-          "resultVarId": 7,
+          "resultVarId": 13,
           "resultVarType": "float4",
           "expectedResultValue": [
             10.1824913,
@@ -89,7 +136,7 @@
             10.1824913,
             10.1824913
           ],
-          "successResultVarId": 6,
+          "successResultVarId": 12,
           "successResultVarName": "TestResult_HasPassed_math/log_[a] (26436.23, 26436.23, 26436.23, 26436.23) = (10.18, 10.18, 10.18, 10.18)"
         }
       ]
@@ -103,7 +150,9 @@
     "math/abs",
     "math/and",
     "math/dot",
+    "math/eq",
     "math/gt",
+    "math/isNaN",
     "math/length",
     "math/log",
     "math/lt",

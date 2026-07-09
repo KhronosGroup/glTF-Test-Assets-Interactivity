@@ -1,0 +1,66 @@
+{
+  "glbFileName": "determinant2x2.glb",
+  "name": "math/determinant2x2",
+  "tests": [
+    {
+      "name": "math/determinant2x2",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/determinant",
+        "math/lt",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "math/determinant2x2",
+          "nodeId": 1
+        }
+      ],
+      "subTests": [
+        {
+          "name": "determinant2x2",
+          "resultVarName": "TestResult_math/determinant2x2_determinant2x2",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            10.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/determinant2x2_determinant2x2"
+        },
+        {
+          "name": "determinant2x2 singular = 0",
+          "resultVarName": "TestResult_math/determinant2x2_determinant2x2 singular = 0",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/determinant2x2_determinant2x2 singular = 0"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/determinant",
+    "math/lt",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

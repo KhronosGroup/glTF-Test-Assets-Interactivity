@@ -1,0 +1,90 @@
+{
+  "glbFileName": "matMul2x2.glb",
+  "name": "math/matMul2x2",
+  "tests": [
+    {
+      "name": "math/matMul2x2",
+      "description": "True matrix product of two float2x2, compared component-wise.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/extract2x2",
+        "math/lt",
+        "math/matMul",
+        "math/sub",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "math/matMul2x2",
+          "nodeId": 2
+        }
+      ],
+      "subTests": [
+        {
+          "name": "matMul2x2[0]",
+          "resultVarName": "TestResult_math/matMul2x2_matMul2x2[0]",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            4.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/matMul2x2_matMul2x2[0]"
+        },
+        {
+          "name": "matMul2x2[1]",
+          "resultVarName": "TestResult_math/matMul2x2_matMul2x2[1]",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/matMul2x2_matMul2x2[1]"
+        },
+        {
+          "name": "matMul2x2[2]",
+          "resultVarName": "TestResult_math/matMul2x2_matMul2x2[2]",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            9.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/matMul2x2_matMul2x2[2]"
+        },
+        {
+          "name": "matMul2x2[3]",
+          "resultVarName": "TestResult_math/matMul2x2_matMul2x2[3]",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            7.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/matMul2x2_matMul2x2[3]"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/extract2x2",
+    "math/lt",
+    "math/matMul",
+    "math/sub",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "glbFileName": "quatFromUpForward-degenerate.glb",
+  "name": "math/quatFromUpForward-degenerate",
+  "tests": [
+    {
+      "name": "math/quatFromUpForward-degenerate",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/normalize",
+        "math/quatFromUpForward",
+        "math/rotate3D",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "math/quatFromUpForward-degenerate",
+          "nodeId": 2
+        }
+      ],
+      "subTests": [
+        {
+          "name": "colinear up/forward: rotate(fwd) == forward",
+          "resultVarName": "TestResult_math/quatFromUpForward-degenerate_colinear up/forward: rotate(fwd) == forward",
+          "resultVarId": 1,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward-degenerate_colinear up/forward: rotate(fwd) == forward"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/normalize",
+    "math/quatFromUpForward",
+    "math/rotate3D",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
