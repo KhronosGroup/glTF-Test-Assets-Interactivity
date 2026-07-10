@@ -37,7 +37,7 @@
         },
         {
           "name": "[reset]",
-          "nodeId": 83
+          "nodeId": 84
         }
       ],
       "subTests": [
@@ -104,18 +104,18 @@
           "expectedResultValue": [
             false
           ],
-          "successResultVarId": 10,
+          "successResultVarId": 11,
           "successResultVarName": "TestResult_HasPassed_flow/throttle_Ignore [out] when error"
         },
         {
           "name": "[reset]",
           "resultVarName": "TestResult_flow/throttle_[reset]",
-          "resultVarId": 13,
+          "resultVarId": 14,
           "resultVarType": "int",
           "expectedResultValue": [
             3
           ],
-          "successResultVarId": 12,
+          "successResultVarId": 13,
           "successResultVarName": "TestResult_HasPassed_flow/throttle_[reset]"
         }
       ]

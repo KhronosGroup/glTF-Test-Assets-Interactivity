@@ -30,7 +30,7 @@
         },
         {
           "name": "[err] flow \n(invalid ref)",
-          "nodeId": 47
+          "nodeId": 48
         }
       ],
       "subTests": [
@@ -48,12 +48,12 @@
         {
           "name": "Position frozen \nat ~50%",
           "resultVarName": "TestResult_animation/stop_Position frozen \nat ~50%",
-          "resultVarId": 3,
+          "resultVarId": 4,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 3,
           "successResultVarName": "TestResult_HasPassed_animation/stop_Position frozen \nat ~50%"
         },
         {
@@ -64,18 +64,18 @@
           "expectedResultValue": [
             false
           ],
-          "successResultVarId": 1,
+          "successResultVarId": 2,
           "successResultVarName": "TestResult_HasPassed_animation/stop_Start [done] \nnot fired"
         },
         {
           "name": "[err] flow \n(invalid ref)",
           "resultVarName": "TestResult_animation/stop_[err] flow \n(invalid ref)",
-          "resultVarId": 4,
+          "resultVarId": 5,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 5,
           "successResultVarName": "TestResult_HasPassed_animation/stop_[err] flow \n(invalid ref)"
         }
       ]

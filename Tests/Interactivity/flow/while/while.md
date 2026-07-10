@@ -8,7 +8,7 @@
 | [completed] flow | TestResult_flow/while_[completed] flow | 4 | True
 | [body] iteration (2) | TestResult_flow/while_[body] iteration (2) | 3 | 2
 | [body] flow when false | TestResult_flow/while_[body] flow when false | 5 | False
-| [completed] flow when false | TestResult_flow/while_[completed] flow when false | 6 | True
+| [completed] flow when false | TestResult_flow/while_[completed] flow when false | 7 | True
 
 Schemas used in this test case:
 - debug/log

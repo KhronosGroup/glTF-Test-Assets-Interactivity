@@ -1,11 +1,14 @@
 ### **Test Sample:** event/stopPropagation
-### **Description:** Sends a custom event. Receiver A stops propagation; Receiver B must not be triggered.
+### **Description:** Verifies immediate and non-immediate propagation stopping, and handling of an invalid event reference.
 
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| Receiver A: received event | TestResult_event/stopPropagation_Receiver A: received event | 0 | True
-| Receiver B: NOT triggered (propagation stopped) | TestResult_event/stopPropagation_Receiver B: NOT triggered (propagation stopped) | 3 | 0
+| stopImmediate=true: Receiver A and out triggered | TestResult_event/stopPropagation_stopImmediate=true: Receiver A and out triggered | 0 | True
+| stopImmediate=true: Receiver B not triggered | TestResult_event/stopPropagation_stopImmediate=true: Receiver B not triggered | 3 | 0
+| stopImmediate=false: Receiver A and out triggered | TestResult_event/stopPropagation_stopImmediate=false: Receiver A and out triggered | 4 | True
+| stopImmediate=false: Receiver B triggered once | TestResult_event/stopPropagation_stopImmediate=false: Receiver B triggered once | 7 | 1
+| Invalid event ref: out triggered | TestResult_event/stopPropagation_Invalid event ref: out triggered | 8 | True
 
 Schemas used in this test case:
 - debug/log

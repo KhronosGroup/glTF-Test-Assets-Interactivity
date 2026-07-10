@@ -7,11 +7,11 @@
 | Flow [out] | TestResult_flow/setDelay and cancelDelay_Flow [out] | 6 | 1
 | Flow [done] | TestResult_flow/setDelay and cancelDelay_Flow [done] | 1 | True
 | Flow [done] in correct delay | TestResult_flow/setDelay and cancelDelay_Flow [done] in correct delay | 3 | 1.00000
-| Flow [err] | TestResult_flow/setDelay and cancelDelay_Flow [err] | 10 | True
+| Flow [err] | TestResult_flow/setDelay and cancelDelay_Flow [err] | 12 | True
 | setDelay [cancel] | TestResult_flow/setDelay and cancelDelay_setDelay [cancel] | 7 | False
-| cancelDelay triggered | TestResult_flow/setDelay and cancelDelay_cancelDelay triggered | 8 | False
-| cancelDelay Flow [out] | TestResult_flow/setDelay and cancelDelay_cancelDelay Flow [out] | 9 | True
-| lastDelayref isValid | TestResult_flow/setDelay and cancelDelay_lastDelayref isValid | 12 | True
+| cancelDelay triggered | TestResult_flow/setDelay and cancelDelay_cancelDelay triggered | 9 | False
+| cancelDelay Flow [out] | TestResult_flow/setDelay and cancelDelay_cancelDelay Flow [out] | 11 | True
+| lastDelayref isValid | TestResult_flow/setDelay and cancelDelay_lastDelayref isValid | 14 | True
 
 Schemas used in this test case:
 - debug/log

@@ -21,7 +21,7 @@
         },
         {
           "name": "Branch Condition False",
-          "nodeId": 18
+          "nodeId": 19
         }
       ],
       "subTests": [
@@ -44,29 +44,29 @@
           "expectedResultValue": [
             false
           ],
-          "successResultVarId": 1,
+          "successResultVarId": 2,
           "successResultVarName": "TestResult_HasPassed_flow/branch_True-Condition false-flow"
         },
         {
           "name": "False-Condition true-flow",
           "resultVarName": "TestResult_flow/branch_False-Condition true-flow",
-          "resultVarId": 2,
+          "resultVarId": 3,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 4,
           "successResultVarName": "TestResult_HasPassed_flow/branch_False-Condition true-flow"
         },
         {
           "name": "False-Condition false-flow",
           "resultVarName": "TestResult_flow/branch_False-Condition false-flow",
-          "resultVarId": 3,
+          "resultVarId": 5,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 3,
+          "successResultVarId": 5,
           "successResultVarName": "TestResult_HasPassed_flow/branch_False-Condition false-flow"
         }
       ]

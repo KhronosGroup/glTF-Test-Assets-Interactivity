@@ -23,7 +23,10 @@ Schemas used in this test case:
 - event/onStart
 - flow/branch
 - flow/sequence
+- math/abs
 - math/eq
+- math/lt
+- math/sub
 - pointer/get
 - pointer/set
 - variable/get

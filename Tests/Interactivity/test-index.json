@@ -50,6 +50,83 @@
     }
   },
   {
+    "label": "animation/start",
+    "name": "animation/start",
+    "tags": [
+      "animation/start",
+      "pointer/get",
+      "flow/setDelay",
+      "flow/sequence",
+      "event/onStart",
+      "variable/get",
+      "math/add",
+      "math/eq",
+      "variable/set",
+      "flow/branch",
+      "debug/log",
+      "pointer/set",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and"
+    ],
+    "variants": {
+      "glTF-Binary": "start.glb",
+      "test-Json": "start.json"
+    }
+  },
+  {
+    "label": "animation/stop",
+    "name": "animation/stop",
+    "tags": [
+      "animation/start",
+      "animation/stop",
+      "flow/setDelay",
+      "pointer/get",
+      "math/extract3",
+      "event/onStart",
+      "flow/sequence",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/branch",
+      "math/sub",
+      "math/abs",
+      "math/lt"
+    ],
+    "variants": {
+      "glTF-Binary": "stop.glb",
+      "test-Json": "stop.json"
+    }
+  },
+  {
+    "label": "animation/stopAt",
+    "name": "animation/stopAt",
+    "tags": [
+      "animation/start",
+      "animation/stopAt",
+      "pointer/get",
+      "math/extract3",
+      "event/onStart",
+      "flow/sequence",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/branch",
+      "flow/setDelay",
+      "math/sub",
+      "math/abs",
+      "math/lt"
+    ],
+    "variants": {
+      "glTF-Binary": "stopAt.glb",
+      "test-Json": "stopAt.json"
+    }
+  },
+  {
     "label": "event/Event Refs",
     "name": "event/Event_Refs",
     "tags": [
@@ -356,7 +433,10 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence"
+      "flow/sequence",
+      "math/sub",
+      "math/abs",
+      "math/lt"
     ],
     "variants": {
       "glTF-Binary": "get_set_morphtargets.glb",

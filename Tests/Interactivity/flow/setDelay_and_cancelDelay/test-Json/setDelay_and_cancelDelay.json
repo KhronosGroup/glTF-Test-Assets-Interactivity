@@ -38,17 +38,17 @@
         },
         {
           "name": "Cancel Delay (delayed execution)",
-          "nodeId": 72,
+          "nodeId": 73,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "Error (delayed execution)",
-          "nodeId": 91,
+          "nodeId": 93,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "Delay Ref (delayed execution)",
-          "nodeId": 100,
+          "nodeId": 102,
           "delayedExecutionTime": 0.5
         }
       ],
@@ -89,12 +89,12 @@
         {
           "name": "Flow [err]",
           "resultVarName": "TestResult_flow/setDelay and cancelDelay_Flow [err]",
-          "resultVarId": 10,
+          "resultVarId": 12,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 10,
+          "successResultVarId": 12,
           "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_Flow [err]"
         },
         {
@@ -105,40 +105,40 @@
           "expectedResultValue": [
             false
           ],
-          "successResultVarId": 7,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_setDelay [cancel]"
         },
         {
           "name": "cancelDelay triggered",
           "resultVarName": "TestResult_flow/setDelay and cancelDelay_cancelDelay triggered",
-          "resultVarId": 8,
+          "resultVarId": 9,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
-          "successResultVarId": 8,
+          "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_cancelDelay triggered"
         },
         {
           "name": "cancelDelay \nFlow [out]",
           "resultVarName": "TestResult_flow/setDelay and cancelDelay_cancelDelay \nFlow [out]",
-          "resultVarId": 9,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            true
-          ],
-          "successResultVarId": 9,
-          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_cancelDelay \nFlow [out]"
-        },
-        {
-          "name": "lastDelay\nref isValid",
-          "resultVarName": "TestResult_flow/setDelay and cancelDelay_lastDelay\nref isValid",
-          "resultVarId": 12,
+          "resultVarId": 11,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 11,
+          "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_cancelDelay \nFlow [out]"
+        },
+        {
+          "name": "lastDelay\nref isValid",
+          "resultVarName": "TestResult_flow/setDelay and cancelDelay_lastDelay\nref isValid",
+          "resultVarId": 14,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 13,
           "successResultVarName": "TestResult_HasPassed_flow/setDelay and cancelDelay_lastDelay\nref isValid"
         }
       ]

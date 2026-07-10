@@ -5,9 +5,9 @@
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
 | Flow [out] | TestResult_animation/stop_Flow [out] | 0 | True
-| Position frozen at ~50% | TestResult_animation/stop_Position frozen at ~50% | 3 | 1.00000
+| Position frozen at ~50% | TestResult_animation/stop_Position frozen at ~50% | 4 | 1.00000
 | Start [done] not fired | TestResult_animation/stop_Start [done] not fired | 1 | False
-| [err] flow (invalid ref) | TestResult_animation/stop_[err] flow (invalid ref) | 4 | True
+| [err] flow (invalid ref) | TestResult_animation/stop_[err] flow (invalid ref) | 5 | True
 
 Schemas used in this test case:
 - animation/start

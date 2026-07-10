@@ -10,7 +10,10 @@
         "event/onStart",
         "flow/branch",
         "flow/sequence",
+        "math/abs",
         "math/eq",
+        "math/lt",
+        "math/sub",
         "pointer/get",
         "pointer/set",
         "variable/get",
@@ -47,15 +50,15 @@
         },
         {
           "name": "Get node/{}/weights/0 - With nonStatic Morph Targets",
-          "nodeId": 141
+          "nodeId": 143
         },
         {
           "name": "Get node/{}/weights/0 - With mesh and node weights",
-          "nodeId": 165
+          "nodeId": 169
         },
         {
           "name": "Set weight and read back",
-          "nodeId": 178
+          "nodeId": 184
         }
       ],
       "subTests": [
@@ -210,7 +213,10 @@
     "event/onStart",
     "flow/branch",
     "flow/sequence",
+    "math/abs",
     "math/eq",
+    "math/lt",
+    "math/sub",
     "pointer/get",
     "pointer/set",
     "variable/get",
