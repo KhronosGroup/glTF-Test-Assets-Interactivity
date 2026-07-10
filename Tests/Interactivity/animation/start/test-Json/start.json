@@ -1,0 +1,225 @@
+{
+  "glbFileName": "start.glb",
+  "name": "animation/start",
+  "tests": [
+    {
+      "name": "animation/start",
+      "description": "Plays a custom AnimationClip moving an object and checks the object position at 50%/100% plus the error flows.",
+      "usedSchemas": [
+        "animation/start",
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/add",
+        "math/and",
+        "math/dot",
+        "math/eq",
+        "math/gt",
+        "math/length",
+        "math/normalize",
+        "pointer/get",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Play animation (delayed execution)",
+          "nodeId": 4,
+          "delayedExecutionTime": 3.0
+        },
+        {
+          "name": "[err] flow (speed -1)",
+          "nodeId": 91
+        },
+        {
+          "name": "[err] flow (speed 0)",
+          "nodeId": 100
+        },
+        {
+          "name": "[err] flow (speed NaN)",
+          "nodeId": 109
+        },
+        {
+          "name": "[err] flow (speed +Inf)",
+          "nodeId": 119
+        },
+        {
+          "name": "[err] flow (startTime NaN)",
+          "nodeId": 129
+        },
+        {
+          "name": "[err] flow (startTime +Inf)",
+          "nodeId": 139
+        },
+        {
+          "name": "[err] flow (endTime NaN)",
+          "nodeId": 149
+        },
+        {
+          "name": "[err] flow (invalid ref)",
+          "nodeId": 159
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[out] fired right after [in]",
+          "resultVarName": "TestResult_animation/start_[out] fired right after [in]",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_animation/start_[out] fired right after [in]"
+        },
+        {
+          "name": "Position at 50%",
+          "resultVarName": "TestResult_animation/start_Position at 50%",
+          "resultVarId": 3,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -0.5,
+            1.0,
+            1.5
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_animation/start_Position at 50%"
+        },
+        {
+          "name": "Flow [done]",
+          "resultVarName": "TestResult_animation/start_Flow [done]",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_animation/start_Flow [done]"
+        },
+        {
+          "name": "Position at 100%",
+          "resultVarName": "TestResult_animation/start_Position at 100%",
+          "resultVarId": 6,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            -1.0,
+            2.0,
+            3.0
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_animation/start_Position at 100%"
+        },
+        {
+          "name": "[err] flow (speed -1)",
+          "resultVarName": "TestResult_animation/start_[err] flow (speed -1)",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 7,
+          "successResultVarName": "TestResult_HasPassed_animation/start_[err] flow (speed -1)"
+        },
+        {
+          "name": "[err] flow (speed 0)",
+          "resultVarName": "TestResult_animation/start_[err] flow (speed 0)",
+          "resultVarId": 8,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_animation/start_[err] flow (speed 0)"
+        },
+        {
+          "name": "[err] flow (speed NaN)",
+          "resultVarName": "TestResult_animation/start_[err] flow (speed NaN)",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 9,
+          "successResultVarName": "TestResult_HasPassed_animation/start_[err] flow (speed NaN)"
+        },
+        {
+          "name": "[err] flow (speed +Inf)",
+          "resultVarName": "TestResult_animation/start_[err] flow (speed +Inf)",
+          "resultVarId": 10,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_animation/start_[err] flow (speed +Inf)"
+        },
+        {
+          "name": "[err] flow (startTime NaN)",
+          "resultVarName": "TestResult_animation/start_[err] flow (startTime NaN)",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 11,
+          "successResultVarName": "TestResult_HasPassed_animation/start_[err] flow (startTime NaN)"
+        },
+        {
+          "name": "[err] flow (startTime +Inf)",
+          "resultVarName": "TestResult_animation/start_[err] flow (startTime +Inf)",
+          "resultVarId": 12,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_animation/start_[err] flow (startTime +Inf)"
+        },
+        {
+          "name": "[err] flow (endTime NaN)",
+          "resultVarName": "TestResult_animation/start_[err] flow (endTime NaN)",
+          "resultVarId": 13,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 13,
+          "successResultVarName": "TestResult_HasPassed_animation/start_[err] flow (endTime NaN)"
+        },
+        {
+          "name": "[err] flow (invalid ref)",
+          "resultVarName": "TestResult_animation/start_[err] flow (invalid ref)",
+          "resultVarId": 14,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_animation/start_[err] flow (invalid ref)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "animation/start",
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/add",
+    "math/and",
+    "math/dot",
+    "math/eq",
+    "math/gt",
+    "math/length",
+    "math/normalize",
+    "pointer/get",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

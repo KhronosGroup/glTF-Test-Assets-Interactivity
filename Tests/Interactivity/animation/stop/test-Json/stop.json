@@ -1,0 +1,101 @@
+{
+  "glbFileName": "stop.glb",
+  "name": "animation/stop",
+  "tests": [
+    {
+      "name": "animation/stop",
+      "description": "Plays a custom AnimationClip, stops it half-way and checks the object position stays frozen.",
+      "usedSchemas": [
+        "animation/start",
+        "animation/stop",
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/abs",
+        "math/extract3",
+        "math/lt",
+        "math/sub",
+        "pointer/get",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Play and stop (delayed execution)",
+          "nodeId": 6,
+          "delayedExecutionTime": 4.0
+        },
+        {
+          "name": "[err] flow \n(invalid ref)",
+          "nodeId": 47
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Flow [out]",
+          "resultVarName": "TestResult_animation/stop_Flow [out]",
+          "resultVarId": 0,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_animation/stop_Flow [out]"
+        },
+        {
+          "name": "Position frozen \nat ~50%",
+          "resultVarName": "TestResult_animation/stop_Position frozen \nat ~50%",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_animation/stop_Position frozen \nat ~50%"
+        },
+        {
+          "name": "Start [done] \nnot fired",
+          "resultVarName": "TestResult_animation/stop_Start [done] \nnot fired",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_animation/stop_Start [done] \nnot fired"
+        },
+        {
+          "name": "[err] flow \n(invalid ref)",
+          "resultVarName": "TestResult_animation/stop_[err] flow \n(invalid ref)",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_animation/stop_[err] flow \n(invalid ref)"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "animation/start",
+    "animation/stop",
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/abs",
+    "math/extract3",
+    "math/lt",
+    "math/sub",
+    "pointer/get",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
