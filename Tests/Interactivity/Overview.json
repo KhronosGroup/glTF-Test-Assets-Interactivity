@@ -531,7 +531,7 @@
     },
     {
       "name": "event/Event Refs",
-      "description": "Verifies that event/onStart, event/onTick, and event/receive each output a valid (non-null) event ref.",
+      "description": "Verifies that event/onStart, event/onTick, and event/receive each output a valid event ref that resolves through its canonical object-model pointer.",
       "usedSchemas": [
         "debug/log",
         "event/onStart",
@@ -1274,7 +1274,7 @@
     },
     {
       "name": "flow/setDelay and cancelDelay",
-      "description": "",
+      "description": "Verifies setDelay and cancelDelay flow behavior, including resolution of the delay ref through its canonical object-model pointer.",
       "usedSchemas": [
         "debug/log",
         "event/onStart",
@@ -2124,7 +2124,7 @@
           "resultVarId": 232,
           "resultVarType": "ref",
           "expectedResultValue": [
-            "/cameras/0/"
+            "/cameras/0"
           ],
           "successResultVarId": 231,
           "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/camera"
@@ -2494,7 +2494,7 @@
           "resultVarId": 288,
           "resultVarType": "bool",
           "expectedResultValue": [
-            true
+            false
           ],
           "successResultVarId": 287,
           "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_weights.length from Node without Mesh (isValid == false)"
@@ -2560,7 +2560,7 @@
           "resultVarId": 300,
           "resultVarType": "bool",
           "expectedResultValue": [
-            true
+            false
           ],
           "successResultVarId": 299,
           "successResultVarName": "TestResult_HasPassed_pointer/get_set_morphtargets_weights[0] from Node without morph (isValid == false)"

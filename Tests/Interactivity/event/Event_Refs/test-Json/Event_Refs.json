@@ -4,7 +4,7 @@
   "tests": [
     {
       "name": "event/Event Refs",
-      "description": "Verifies that event/onStart, event/onTick, and event/receive each output a valid (non-null) event ref.",
+      "description": "Verifies that event/onStart, event/onTick, and event/receive each output a valid event ref that resolves through its canonical object-model pointer.",
       "usedSchemas": [
         "debug/log",
         "event/onStart",

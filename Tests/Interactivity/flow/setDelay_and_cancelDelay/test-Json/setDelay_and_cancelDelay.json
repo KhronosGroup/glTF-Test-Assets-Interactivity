@@ -4,7 +4,7 @@
   "tests": [
     {
       "name": "flow/setDelay and cancelDelay",
-      "description": "",
+      "description": "Verifies setDelay and cancelDelay flow behavior, including resolution of the delay ref through its canonical object-model pointer.",
       "usedSchemas": [
         "debug/log",
         "event/onStart",
