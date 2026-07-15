@@ -1,0 +1,1981 @@
+{
+  "asset": {
+    "generator": "UnityGltf 2.19.5, Unity 2022.3.62f2, Built-in RP",
+    "version": "2.0",
+    "extras": {
+      "plugins": {
+        "KHR_interactivity (VisualScripting)": {
+          "Spec.Version URL": "https://github.com/KhronosGroup/glTF/blob/d9bfdb08f0c09c125f588783921d9edceb7ee78c/extensions/2.0/Khronos/KHR_interactivity/Specification.adoc",
+          "Spec.Version Date": "2025-03-10"
+        }
+      }
+    }
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_texture_transform",
+    "KHR_node_selectability",
+    "KHR_interactivity"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "name": "TrafficLight"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 316,
+      "type": "VEC3",
+      "max": [
+        0.11831297725439072,
+        0.1166088730096817,
+        0.19417497515678406
+      ],
+      "min": [
+        -0.11831297725439072,
+        -0.11660857498645782,
+        -0.14426329731941223
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 316,
+      "type": "VEC3",
+      "max": [
+        1,
+        0.9986833333969116,
+        0.9915395379066467
+      ],
+      "min": [
+        -1,
+        -0.9892705082893372,
+        -0.9997331500053406
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 316,
+      "type": "VEC4",
+      "max": [
+        0.9887436032295227,
+        0.7320986390113831,
+        0.8894944787025452,
+        1
+      ],
+      "min": [
+        -0.7712466716766357,
+        -0.9602698087692261,
+        -0.9986833333969116,
+        1
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 316,
+      "type": "VEC2",
+      "max": [
+        0.9496421217918396,
+        0.9902347326278687
+      ],
+      "min": [
+        0.010532543063163757,
+        0.010549724102020264
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 1380,
+      "type": "SCALAR",
+      "max": [
+        315
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 1517,
+      "type": "VEC3",
+      "max": [
+        0.6303693652153015,
+        4.397825241088867,
+        0.9516311883926392
+      ],
+      "min": [
+        -0.6303693652153015,
+        0.0020179261919111013,
+        -0.28389066457748413
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 1517,
+      "type": "VEC3",
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 1517,
+      "type": "VEC4",
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 1517,
+      "type": "VEC2",
+      "max": [
+        0.9900465607643127,
+        0.9902352690696716
+      ],
+      "min": [
+        0.009762763977050781,
+        0.011368513107299805
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5123,
+      "count": 6504,
+      "type": "SCALAR",
+      "max": [
+        1516
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 1995,
+      "type": "VEC3",
+      "max": [
+        0.33543649315834045,
+        0.8453513979911804,
+        0.2846881151199341
+      ],
+      "min": [
+        -0.33543649315834045,
+        -0.8453518748283386,
+        -0.3241843581199646
+      ]
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 1995,
+      "type": "VEC3",
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 1995,
+      "type": "VEC4",
+      "max": [
+        1,
+        0.8520190715789795,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -0.8575949668884277,
+        -1,
+        -1
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 1995,
+      "type": "VEC2",
+      "max": [
+        0.9901568293571472,
+        0.9902369379997253
+      ],
+      "min": [
+        0.009764198213815689,
+        0.01923954486846924
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5123,
+      "count": 9504,
+      "type": "SCALAR",
+      "max": [
+        1994
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5126,
+      "count": 771,
+      "type": "VEC3",
+      "max": [
+        0.1641935259103775,
+        0.6707021594047546,
+        -0.060700081288814545
+      ],
+      "min": [
+        -0.16419340670108795,
+        -0.6707020998001099,
+        -0.10978440195322037
+      ]
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 771,
+      "type": "VEC3",
+      "max": [
+        0.949787437915802,
+        0.949787437915802,
+        -0.31289300322532654
+      ],
+      "min": [
+        -0.949787437915802,
+        -0.949787437915802,
+        -1
+      ]
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 771,
+      "type": "VEC4",
+      "max": [
+        0.35348010063171387,
+        0.3452165722846985,
+        0.9497858285903931,
+        1
+      ],
+      "min": [
+        -0.9999639391899109,
+        -0.9998801350593567,
+        -0.9497854709625244,
+        1
+      ]
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 771,
+      "type": "VEC2",
+      "max": [
+        0.9816068410873413,
+        0.9825550317764282
+      ],
+      "min": [
+        0.01708996295928955,
+        0.017275214195251465
+      ]
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5123,
+      "count": 1440,
+      "type": "SCALAR",
+      "max": [
+        256
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5123,
+      "count": 1440,
+      "type": "SCALAR",
+      "max": [
+        513
+      ],
+      "min": [
+        257
+      ]
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5123,
+      "count": 1440,
+      "type": "SCALAR",
+      "max": [
+        770
+      ],
+      "min": [
+        514
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1700276,
+      "uri": "TrafficLight.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3792,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3792,
+      "byteLength": 3792,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7584,
+      "byteLength": 5056,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12640,
+      "byteLength": 2528,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 15168,
+      "byteLength": 2760,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 17928,
+      "byteLength": 174816
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 192744,
+      "byteLength": 18204,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 210948,
+      "byteLength": 18204,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 229152,
+      "byteLength": 24272,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 253424,
+      "byteLength": 12136,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 265560,
+      "byteLength": 13008,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 278568,
+      "byteLength": 563040
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 841608,
+      "byteLength": 344740
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1186348,
+      "byteLength": 23940,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1210288,
+      "byteLength": 23940,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1234228,
+      "byteLength": 31920,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1266148,
+      "byteLength": 15960,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1282108,
+      "byteLength": 19008,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1301116,
+      "byteLength": 209836
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1510952,
+      "byteLength": 9252,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1520204,
+      "byteLength": 9252,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1529456,
+      "byteLength": 12336,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1541792,
+      "byteLength": 6168,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1547960,
+      "byteLength": 2880,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1550840,
+      "byteLength": 143676
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1694516,
+      "byteLength": 2880,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1697396,
+      "byteLength": 2880,
+      "target": 34963
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "aspectRatio": 1.777777910232544,
+        "yfov": 0.7504916787147522,
+        "zfar": 998.65380859375,
+        "znear": 0.009999999776482582
+      },
+      "type": "perspective",
+      "name": "Main Camera"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "bufferView": 5,
+      "name": "Button_Bake1_CyclesBake_COMBINED"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "bufferView": 11,
+      "name": "Stand_Bake1_PBR_Normal"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "bufferView": 12,
+      "name": "Stand_Bake1_CyclesBake_COMBINED"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "bufferView": 18,
+      "name": "TrafficlightHead_Bake1_CyclesBake_COMBINED"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "bufferView": 24,
+      "name": "lightTexture_2"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      },
+      "doubleSided": true,
+      "name": "Buttton"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "roughnessFactor": 0.5
+      },
+      "normalTexture": {
+        "index": 1
+      },
+      "doubleSided": true,
+      "name": "Stand"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      },
+      "doubleSided": true,
+      "name": "TrafficLight_Housing"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.06083426,
+          0,
+          0,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 4,
+          "extensions": {
+            "KHR_texture_transform": {
+              "texCoord": 0
+            }
+          }
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.23900002241134644
+      },
+      "name": "Red"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.05278495,
+          0.029566681,
+          0,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 4,
+          "extensions": {
+            "KHR_texture_transform": {
+              "texCoord": 0
+            }
+          }
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.23900002241134644
+      },
+      "name": "Yellow"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.008246853,
+          0.05278495,
+          0,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 4,
+          "extensions": {
+            "KHR_texture_transform": {
+              "texCoord": 0
+            }
+          }
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.23900002241134644
+      },
+      "name": "Green"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.06083426,
+          0,
+          0,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 4,
+          "extensions": {
+            "KHR_texture_transform": {
+              "texCoord": 0
+            }
+          }
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.23900002241134644
+      },
+      "name": "Red 1"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.05278495,
+          0.029566681,
+          0,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 4,
+          "extensions": {
+            "KHR_texture_transform": {
+              "texCoord": 0
+            }
+          }
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.23900002241134644
+      },
+      "name": "Yellow 1"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.09774215,
+          1,
+          0,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 4,
+          "extensions": {
+            "KHR_texture_transform": {
+              "texCoord": 0
+            }
+          }
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.23900002241134644
+      },
+      "name": "Green 1"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Button"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1
+        }
+      ],
+      "name": "Stand"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 2
+        }
+      ],
+      "name": "TrafficlightHead"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 20,
+          "material": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 21,
+          "material": 5
+        }
+      ],
+      "name": "Trafficlights"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 6
+        },
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 20,
+          "material": 7
+        },
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 21,
+          "material": 8
+        }
+      ],
+      "name": "Trafficlights"
+    }
+  ],
+  "nodes": [
+    {
+      "camera": 0,
+      "rotation": [
+        0.00833051,
+        -0.979997635,
+        0.00639093062,
+        0.198732108
+      ],
+      "translation": [
+        -4.18,
+        2.04,
+        -8.22
+      ],
+      "name": "Main Camera"
+    },
+    {
+      "rotation": [
+        -0.364498675,
+        0.458677441,
+        0.213884681,
+        0.781670749
+      ],
+      "translation": [
+        -4.44,
+        3,
+        0
+      ],
+      "name": "Directional Light",
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      }
+    },
+    {
+      "name": "VisualScripting SceneVariables"
+    },
+    {
+      "translation": [
+        -2.545008,
+        1.94861186,
+        0.376288
+      ],
+      "name": "Events"
+    },
+    {
+      "children": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "rotation": [
+        0,
+        -0.7071066,
+        0,
+        0.707106948
+      ],
+      "scale": [
+        0.9999999,
+        1,
+        0.9999999
+      ],
+      "name": "trafficlight"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0,
+        1.77013218,
+        0.28326562
+      ],
+      "name": "Button",
+      "extensions": {
+        "KHR_node_selectability": {
+          "selectable": true
+        }
+      }
+    },
+    {
+      "mesh": 1,
+      "name": "Stand"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        0,
+        3.491837,
+        0.0235099774
+      ],
+      "name": "TrafficlightHead"
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        0,
+        3.491837,
+        0.0235099774
+      ],
+      "name": "Trafficlights"
+    },
+    {
+      "children": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "rotation": [
+        0,
+        -0.7071066,
+        0,
+        0.707106948
+      ],
+      "scale": [
+        0.9999999,
+        1,
+        0.9999999
+      ],
+      "translation": [
+        0,
+        0,
+        -1.968
+      ],
+      "name": "trafficlight (1)"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0,
+        1.77013218,
+        0.28326562
+      ],
+      "name": "Button_",
+      "extensions": {
+        "KHR_node_selectability": {
+          "selectable": true
+        }
+      }
+    },
+    {
+      "mesh": 1,
+      "name": "Stand"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        0,
+        3.491837,
+        0.0235099774
+      ],
+      "name": "TrafficlightHead"
+    },
+    {
+      "mesh": 4,
+      "translation": [
+        0,
+        3.491837,
+        0.0235099774
+      ],
+      "name": "Trafficlights"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9987
+    },
+    {
+      "minFilter": 9987
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Button_Bake1_CyclesBake_COMBINED"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "Stand_Bake1_PBR_Normal"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "Stand_Bake1_CyclesBake_COMBINED"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "TrafficlightHead_Bake1_CyclesBake_COMBINED"
+    },
+    {
+      "sampler": 1,
+      "source": 4,
+      "name": "lightTexture_2"
+    }
+  ],
+  "extensions": {
+    "KHR_interactivity": {
+      "graphs": [
+        {
+          "types": [
+            {
+              "signature": "bool"
+            },
+            {
+              "signature": "int"
+            },
+            {
+              "signature": "float"
+            },
+            {
+              "signature": "float3"
+            },
+            {
+              "signature": "float4"
+            },
+            {
+              "signature": "ref"
+            }
+          ],
+          "variables": [
+            {
+              "id": "graph1_counter",
+              "type": 1,
+              "value": [
+                0
+              ]
+            }
+          ],
+          "events": [],
+          "declarations": [
+            {
+              "op": "pointer/set"
+            },
+            {
+              "op": "flow/setDelay"
+            },
+            {
+              "op": "event/onSelect",
+              "extension": "KHR_node_selectability",
+              "inputValueSockets": {},
+              "outputValueSockets": {
+                "selectedNode": {
+                  "type": 5
+                },
+                "selectionRayOrigin": {
+                  "type": 3
+                },
+                "selectionPoint": {
+                  "type": 3
+                },
+                "controllerIndex": {
+                  "type": 1
+                }
+              }
+            },
+            {
+              "op": "variable/get"
+            },
+            {
+              "op": "type/intToFloat"
+            },
+            {
+              "op": "math/clamp"
+            },
+            {
+              "op": "type/floatToInt"
+            },
+            {
+              "op": "math/eq"
+            },
+            {
+              "op": "flow/branch"
+            },
+            {
+              "op": "math/add"
+            },
+            {
+              "op": "variable/set"
+            },
+            {
+              "op": "flow/sequence"
+            }
+          ],
+          "nodes": [
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 4,
+                  "value": [
+                    0.990566,
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/3/"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 5,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 4,
+                  "value": [
+                    0.2735849,
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/3/"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 7,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {},
+              "values": {
+                "duration": {
+                  "type": 2,
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "flows": {
+                "done": {
+                  "node": 4,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {},
+              "values": {
+                "duration": {
+                  "type": 2,
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "flows": {
+                "done": {
+                  "node": 9,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 4,
+                  "value": [
+                    0.254717,
+                    0.1882691,
+                    0,
+                    1
+                  ]
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/4/"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 6,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {},
+              "values": {
+                "duration": {
+                  "type": 2,
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "flows": {
+                "done": {
+                  "node": 1,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 4,
+                  "value": [
+                    0.3453624,
+                    1,
+                    0,
+                    1
+                  ]
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/5/"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 3,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 4,
+                  "value": [
+                    0.9921569,
+                    0.7337824,
+                    0,
+                    1
+                  ]
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/4/"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 2,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    5
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 0,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 4,
+                  "value": [
+                    0.08790233,
+                    0.254717,
+                    0,
+                    1
+                  ]
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/5/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 3,
+              "configuration": {
+                "variable": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {}
+            },
+            {
+              "declaration": 4,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 10,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 5,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 11,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    0
+                  ]
+                },
+                "c": {
+                  "type": 2,
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 6,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 12,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 4,
+                  "value": [
+                    0.2735849,
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/6/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 4,
+                  "value": [
+                    0.3453624,
+                    1,
+                    0,
+                    1
+                  ]
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/8/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 7,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 10,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 1,
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 8,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 16,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 15,
+                  "socket": "in"
+                },
+                "false": {
+                  "node": 26,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 4,
+                  "value": [
+                    0.990566,
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/6/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 7,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 10,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 1,
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 8,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 19,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 25,
+                  "socket": "in"
+                },
+                "false": {
+                  "node": 29,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 9,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 10,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 1,
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 10,
+              "configuration": {
+                "variables": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "0": {
+                  "node": 21,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 27,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 4,
+                  "value": [
+                    0.9921569,
+                    0.7337824,
+                    0,
+                    1
+                  ]
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/7/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 2,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    10
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 22,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "configuration": {
+                "variables": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "0": {
+                  "type": 1,
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 26,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 4,
+                  "value": [
+                    0.08790233,
+                    0.254717,
+                    0,
+                    1
+                  ]
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/8/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 10,
+              "configuration": {
+                "variables": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "0": {
+                  "node": 13,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 20,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 4,
+                  "value": [
+                    0.254717,
+                    0.1882691,
+                    0,
+                    1
+                  ]
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/7/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 11,
+              "configuration": {},
+              "values": {},
+              "flows": {
+                "sequ000": {
+                  "node": 31,
+                  "socket": "in"
+                },
+                "sequ001": {
+                  "node": 33,
+                  "socket": "in"
+                },
+                "sequ002": {
+                  "node": 17,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 7,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 10,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 1,
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 8,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 30,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 18,
+                  "socket": "in"
+                },
+                "false": {
+                  "node": 14,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 7,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 10,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 1,
+                  "value": [
+                    2
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 8,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 32,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 23,
+                  "socket": "in"
+                },
+                "false": {
+                  "node": 28,
+                  "socket": "in"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "graph": 0
+    },
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "type": "directional",
+          "intensity": 3.14159274,
+          "name": "Directional Light",
+          "color": [
+            1,
+            0.904661357,
+            0.6724432
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1955 @@
+{
+  "asset": {
+    "generator": "UnityGltf 2.19.5, Unity 2022.3.62f2, Built-in RP",
+    "version": "2.0",
+    "extras": {
+      "plugins": {
+        "KHR_interactivity (VisualScripting)": {
+          "Spec.Version URL": "https://github.com/KhronosGroup/glTF/blob/d9bfdb08f0c09c125f588783921d9edceb7ee78c/extensions/2.0/Khronos/KHR_interactivity/Specification.adoc",
+          "Spec.Version Date": "2025-03-10"
+        }
+      }
+    }
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_node_selectability",
+    "KHR_interactivity"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        16
+      ],
+      "name": "SnailRace"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 827,
+      "type": "VEC3",
+      "max": [
+        4.241981506347656,
+        6.276553153991699,
+        4.476974010467529
+      ],
+      "min": [
+        -4.241981506347656,
+        -0.972229540348053,
+        -23.54694366455078
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 827,
+      "type": "VEC3",
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 827,
+      "type": "VEC4",
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 827,
+      "type": "VEC2",
+      "max": [
+        0.9896586537361145,
+        0.9902371764183044
+      ],
+      "min": [
+        0.009761740453541279,
+        0.01465374231338501
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 3882,
+      "type": "SCALAR",
+      "max": [
+        826
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 1423,
+      "type": "VEC3",
+      "max": [
+        25,
+        37.72579574584961,
+        25
+      ],
+      "min": [
+        -25,
+        -25,
+        -25
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 1423,
+      "type": "VEC3",
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 1423,
+      "type": "VEC4",
+      "max": [
+        1,
+        0.7278916835784912,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -0.7278916835784912,
+        -1,
+        -1
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 1423,
+      "type": "VEC2",
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5121,
+      "count": 372,
+      "type": "SCALAR",
+      "max": [
+        129
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5123,
+      "count": 3804,
+      "type": "SCALAR",
+      "max": [
+        1422
+      ],
+      "min": [
+        130
+      ]
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 1315,
+      "type": "VEC3",
+      "max": [
+        0.47134077548980713,
+        1.5158569812774658,
+        1.248997688293457
+      ],
+      "min": [
+        -0.5029410123825073,
+        -0.0024079172872006893,
+        -1.307637333869934
+      ]
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 1315,
+      "type": "VEC3",
+      "max": [
+        0.9999350309371948,
+        0.9888278841972351,
+        0.9996548295021057
+      ],
+      "min": [
+        -0.9997617602348328,
+        -0.9999815225601196,
+        -0.9996460676193237
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 1315,
+      "type": "VEC4",
+      "max": [
+        0.9979646801948547,
+        0.9971076846122742,
+        0.9791145920753479,
+        1
+      ],
+      "min": [
+        -0.9997052550315857,
+        -0.9971593618392944,
+        -0.9991838932037354,
+        -1
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 1315,
+      "type": "VEC2",
+      "max": [
+        0.9841792583465576,
+        0.9494520425796509
+      ],
+      "min": [
+        0.01857929676771164,
+        0.03007984161376953
+      ]
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5123,
+      "count": 6984,
+      "type": "SCALAR",
+      "max": [
+        1314
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 1315,
+      "type": "VEC3",
+      "max": [
+        0.47134077548980713,
+        1.5158569812774658,
+        1.248997688293457
+      ],
+      "min": [
+        -0.5029410123825073,
+        -0.0024079172872006893,
+        -1.307637333869934
+      ]
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 1315,
+      "type": "VEC3",
+      "max": [
+        0.9999350309371948,
+        0.9888278841972351,
+        0.9996548295021057
+      ],
+      "min": [
+        -0.9997617602348328,
+        -0.9999815225601196,
+        -0.9996460676193237
+      ]
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5126,
+      "count": 1315,
+      "type": "VEC4",
+      "max": [
+        0.9979646801948547,
+        0.9971076846122742,
+        0.9791145920753479,
+        1
+      ],
+      "min": [
+        -0.9997052550315857,
+        -0.9971593618392944,
+        -0.9991838932037354,
+        -1
+      ]
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 1315,
+      "type": "VEC2",
+      "max": [
+        0.9841792583465576,
+        0.9494520425796509
+      ],
+      "min": [
+        0.01857929676771164,
+        0.03007984161376953
+      ]
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5123,
+      "count": 6984,
+      "type": "SCALAR",
+      "max": [
+        1314
+      ],
+      "min": [
+        0
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4787236,
+      "uri": "SnailRace.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 9924,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9924,
+      "byteLength": 9924,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 19848,
+      "byteLength": 13232,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 33080,
+      "byteLength": 6616,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 39696,
+      "byteLength": 7764,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 47460,
+      "byteLength": 1811072
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1858532,
+      "byteLength": 1187980
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3046512,
+      "byteLength": 729720
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3776232,
+      "byteLength": 17076,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3793308,
+      "byteLength": 17076,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3810384,
+      "byteLength": 22768,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3833152,
+      "byteLength": 11384,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3844536,
+      "byteLength": 372,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3844908,
+      "byteLength": 7608,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3852516,
+      "byteLength": 15780,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3868296,
+      "byteLength": 15780,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3884076,
+      "byteLength": 21040,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3905116,
+      "byteLength": 10520,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3915636,
+      "byteLength": 13968,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3929604,
+      "byteLength": 364528
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4294132,
+      "byteLength": 318088
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4612220,
+      "byteLength": 97928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4710148,
+      "byteLength": 15780,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4725928,
+      "byteLength": 15780,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4741708,
+      "byteLength": 21040,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4762748,
+      "byteLength": 10520,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4773268,
+      "byteLength": 13968,
+      "target": 34963
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "aspectRatio": 1.7777776718139648,
+        "yfov": 0.2617993950843811,
+        "zfar": 1000.1340942382812,
+        "znear": 0.30000001192092896
+      },
+      "type": "perspective",
+      "name": "Main Camera"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "bufferView": 5,
+      "name": "RaceTrack_Bake1_PBR_Normal"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "bufferView": 6,
+      "name": "RaceTrack_Bake1_PBR_Diffuse"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "bufferView": 7,
+      "name": "RaceTrack_Bake1_PBR_Metalness-RaceTrack_Bake1_PBR_Roughness"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "bufferView": 19,
+      "name": "Snail_normal"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "bufferView": 20,
+      "name": "Snail_diffuse"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "bufferView": 21,
+      "name": "Snail_roughness"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "doubleSided": true,
+      "name": "Racetrack"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0274320245,
+          0.0460451767,
+          0.8004578,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      },
+      "doubleSided": true,
+      "name": "Button"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      },
+      "doubleSided": true,
+      "name": "Text"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      },
+      "normalTexture": {
+        "index": 3
+      },
+      "doubleSided": true,
+      "name": "snail-low"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "RaceTrack"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 10,
+          "material": 2
+        }
+      ],
+      "name": "GO-Button"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TANGENT": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 3
+        }
+      ],
+      "name": "Snail_01"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 16,
+            "NORMAL": 17,
+            "TANGENT": 18,
+            "TEXCOORD_0": 19
+          },
+          "indices": 20,
+          "material": 3
+        }
+      ],
+      "name": "Snail_02"
+    }
+  ],
+  "nodes": [
+    {
+      "camera": 0,
+      "rotation": [
+        0.35441336,
+        0.6118752,
+        0.35441336,
+        -0.6118752
+      ],
+      "translation": [
+        -62.1,
+        90.3,
+        -0.92
+      ],
+      "name": "Main Camera"
+    },
+    {
+      "rotation": [
+        0.109381631,
+        0.8754261,
+        0.408217877,
+        -0.234569684
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "name": "Directional Light",
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      }
+    },
+    {
+      "name": "VisualScripting SceneVariables"
+    },
+    {
+      "name": "EventSystem"
+    },
+    {
+      "children": [
+        5
+      ],
+      "translation": [
+        -0.5462885,
+        0.6163351,
+        -0.0160991
+      ],
+      "name": "Snail Race 01 (Dynamic Pointer Set)"
+    },
+    {
+      "children": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0.00000296533062
+      ],
+      "translation": [
+        0.0000416636467,
+        5.96046448e-8,
+        -9.4
+      ],
+      "name": "snailRace"
+    },
+    {
+      "mesh": 0,
+      "name": "RaceTrack"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.2164396,
+        0,
+        0,
+        0.976296
+      ],
+      "scale": [
+        0.04852681,
+        0.008170059,
+        0.04852681
+      ],
+      "translation": [
+        0,
+        0.727315,
+        4.56692266
+      ],
+      "name": "GO-Button",
+      "extensions": {
+        "KHR_node_selectability": {
+          "selectable": true
+        }
+      }
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        1.50716281,
+        0,
+        0
+      ],
+      "name": "Snail_01"
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        -1.30419815,
+        0,
+        0
+      ],
+      "name": "Snail_02"
+    },
+    {
+      "children": [
+        11
+      ],
+      "translation": [
+        -9.9,
+        0.6163351,
+        -0.0160991
+      ],
+      "name": "Snail Race 03 (Event with Args)"
+    },
+    {
+      "children": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0.00000296533062
+      ],
+      "translation": [
+        0.18,
+        5.96046448e-8,
+        -9.4
+      ],
+      "name": "snailRace"
+    },
+    {
+      "mesh": 0,
+      "name": "RaceTrack"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.2164396,
+        0,
+        0,
+        0.976296
+      ],
+      "scale": [
+        0.04852681,
+        0.008170059,
+        0.04852681
+      ],
+      "translation": [
+        0,
+        0.727315,
+        4.56692266
+      ],
+      "name": "GO-Button",
+      "extensions": {
+        "KHR_node_selectability": {
+          "selectable": true
+        }
+      }
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        1.50716281,
+        0,
+        0
+      ],
+      "name": "Snail_01"
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        -1.30419815,
+        0,
+        0
+      ],
+      "name": "Snail_02"
+    },
+    {
+      "children": [
+        17
+      ],
+      "translation": [
+        -15.5,
+        0.6163351,
+        -0.0160991
+      ],
+      "name": "Snail Race 04 (Random Flow)"
+    },
+    {
+      "children": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0.00000295042946
+      ],
+      "translation": [
+        -3.22,
+        5.960464e-8,
+        -9.4
+      ],
+      "name": "snailRace"
+    },
+    {
+      "mesh": 0,
+      "name": "RaceTrack"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.2164396,
+        0,
+        0,
+        0.976296
+      ],
+      "scale": [
+        0.04852681,
+        0.008170059,
+        0.04852681
+      ],
+      "translation": [
+        0,
+        0.727315,
+        4.56692266
+      ],
+      "name": "GO-Button",
+      "extensions": {
+        "KHR_node_selectability": {
+          "selectable": true
+        }
+      }
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        1.50716281,
+        0,
+        0
+      ],
+      "name": "Snail_01"
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        -1.30419815,
+        0,
+        0
+      ],
+      "name": "Snail_02"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9987
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "RaceTrack_Bake1_PBR_Normal"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "RaceTrack_Bake1_PBR_Diffuse"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "RaceTrack_Bake1_PBR_Metalness-RaceTrack_Bake1_PBR_Roughness"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "Snail_normal"
+    },
+    {
+      "sampler": 0,
+      "source": 4,
+      "name": "Snail_diffuse"
+    },
+    {
+      "sampler": 0,
+      "source": 5,
+      "name": "Snail_roughness"
+    }
+  ],
+  "extensions": {
+    "KHR_interactivity": {
+      "graphs": [
+        {
+          "types": [
+            {
+              "signature": "bool"
+            },
+            {
+              "signature": "int"
+            },
+            {
+              "signature": "float"
+            },
+            {
+              "signature": "float3"
+            },
+            {
+              "signature": "ref"
+            }
+          ],
+          "variables": [
+            {
+              "id": "graph0_state",
+              "type": 1,
+              "value": [
+                0
+              ]
+            }
+          ],
+          "events": [
+            {
+              "id": "Move Now",
+              "values": {
+                "targetNodeRef": {
+                  "type": 4
+                },
+                "argument_0": {
+                  "type": 4
+                }
+              }
+            }
+          ],
+          "declarations": [
+            {
+              "op": "variable/get"
+            },
+            {
+              "op": "pointer/get"
+            },
+            {
+              "op": "math/mul"
+            },
+            {
+              "op": "math/add"
+            },
+            {
+              "op": "pointer/set"
+            },
+            {
+              "op": "event/onSelect",
+              "extension": "KHR_node_selectability",
+              "inputValueSockets": {},
+              "outputValueSockets": {
+                "selectedNode": {
+                  "type": 4
+                },
+                "selectionRayOrigin": {
+                  "type": 3
+                },
+                "selectionPoint": {
+                  "type": 3
+                },
+                "controllerIndex": {
+                  "type": 1
+                }
+              }
+            },
+            {
+              "op": "math/eq"
+            },
+            {
+              "op": "math/select"
+            },
+            {
+              "op": "math/rem"
+            },
+            {
+              "op": "variable/set"
+            },
+            {
+              "op": "event/receive"
+            },
+            {
+              "op": "ref/eq"
+            },
+            {
+              "op": "flow/branch"
+            },
+            {
+              "op": "event/send"
+            },
+            {
+              "op": "math/random"
+            },
+            {
+              "op": "math/sub"
+            },
+            {
+              "op": "type/intToFloat"
+            },
+            {
+              "op": "math/floor"
+            },
+            {
+              "op": "type/floatToInt"
+            },
+            {
+              "op": "flow/switch"
+            }
+          ],
+          "nodes": [
+            {
+              "declaration": 0,
+              "configuration": {
+                "variable": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {}
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 4,
+                  "value": [
+                    "/nodes/21/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 2,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 1,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 3,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "type": 3,
+                  "value": [
+                    0,
+                    0,
+                    -0.25
+                  ]
+                },
+                "b": {
+                  "node": 2,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 2,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 3,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 4,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 4,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "type": 4,
+                  "value": [
+                    "/nodes/21/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 5,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    7
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 16,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 6,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 0,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 1,
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 7,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 7,
+                  "socket": "value"
+                },
+                "a": {
+                  "type": 4,
+                  "value": [
+                    "/nodes/8/"
+                  ]
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    "/nodes/9/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 3,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 0,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 1,
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 8,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 9,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 1,
+                  "value": [
+                    2
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "node": 8,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 2,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 11,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 3,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "type": 3,
+                  "value": [
+                    0,
+                    0,
+                    -0.25
+                  ]
+                },
+                "b": {
+                  "node": 12,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 2,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 13,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 4,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 14,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "node": 8,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 9,
+              "configuration": {
+                "variables": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "0": {
+                  "node": 10,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 15,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 5,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    13
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 23,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 20,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 11,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 18,
+                  "socket": "targetNodeRef"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    "/nodes/13/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 12,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 19,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 28,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 11,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 18,
+                  "socket": "argument_0"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    "/nodes/14/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 7,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 21,
+                  "socket": "value"
+                },
+                "a": {
+                  "type": 4,
+                  "value": [
+                    "/nodes/15/"
+                  ]
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    "/nodes/14/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 13,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "targetNodeRef": {
+                  "type": 4,
+                  "value": [
+                    "/nodes/13/"
+                  ]
+                },
+                "argument_0": {
+                  "node": 22,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "node": 18,
+                  "socket": "argument_0"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 2,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 24,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 3,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "type": 3,
+                  "value": [
+                    0,
+                    0,
+                    -0.45
+                  ]
+                },
+                "b": {
+                  "node": 25,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 2,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 26,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 4,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 27,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "node": 18,
+                  "socket": "argument_0"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 5,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    19
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 36,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 14,
+              "configuration": {},
+              "values": {},
+              "flows": {}
+            },
+            {
+              "declaration": 15,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "type": 1,
+                  "value": [
+                    2
+                  ]
+                },
+                "b": {
+                  "type": 1,
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 16,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 31,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 2,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 30,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 32,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 17,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 33,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 18,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 34,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 19,
+              "configuration": {
+                "cases": {
+                  "value": [
+                    0,
+                    1
+                  ]
+                }
+              },
+              "values": {
+                "selection": {
+                  "node": 35,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "0": {
+                  "node": 41,
+                  "socket": "in"
+                },
+                "1": {
+                  "node": 5,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 4,
+                  "value": [
+                    "/nodes/20/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 2,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 37,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 3,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "type": 3,
+                  "value": [
+                    0,
+                    0,
+                    -0.25
+                  ]
+                },
+                "b": {
+                  "node": 38,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 2,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 39,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 4,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 40,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "type": 4,
+                  "value": [
+                    "/nodes/20/"
+                  ]
+                }
+              },
+              "flows": {}
+            }
+          ]
+        }
+      ],
+      "graph": 0
+    },
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "type": "directional",
+          "intensity": 3.14159274,
+          "name": "Directional Light",
+          "color": [
+            1,
+            0.904661357,
+            0.6724432
+          ]
+        }
+      ]
+    }
+  }
+}

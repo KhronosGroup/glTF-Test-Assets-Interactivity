@@ -1,0 +1,3061 @@
+{
+  "asset": {
+    "generator": "UnityGltf 2.19.5, Unity 2022.3.62f2, Built-in RP",
+    "version": "2.0",
+    "extras": {
+      "plugins": {
+        "KHR_interactivity (VisualScripting)": {
+          "Spec.Version URL": "https://github.com/KhronosGroup/glTF/blob/d9bfdb08f0c09c125f588783921d9edceb7ee78c/extensions/2.0/Khronos/KHR_interactivity/Specification.adoc",
+          "Spec.Version Date": "2025-03-10"
+        }
+      }
+    }
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_materials_unlit",
+    "KHR_texture_transform",
+    "KHR_node_visibility",
+    "KHR_node_selectability",
+    "KHR_interactivity"
+  ],
+  "extensionsRequired": [
+    "KHR_materials_unlit"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "name": "Events"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 100,
+      "type": "VEC3",
+      "max": [
+        0.5288935899734497,
+        0.6241533756256104,
+        0
+      ],
+      "min": [
+        -0.5288935899734497,
+        -0.6741533875465393,
+        0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 100,
+      "type": "VEC3",
+      "max": [
+        0,
+        0,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 100,
+      "type": "VEC2",
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 100,
+      "type": "VEC4",
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5121,
+      "count": 96,
+      "type": "SCALAR",
+      "max": [
+        35
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5121,
+      "count": 192,
+      "type": "SCALAR",
+      "max": [
+        99
+      ],
+      "min": [
+        36
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3",
+      "max": [
+        5.400996685028076,
+        1.0380513668060303,
+        0
+      ],
+      "min": [
+        -5.4615607261657715,
+        -0.9965997934341431,
+        0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3",
+      "max": [
+        0,
+        0,
+        -1
+      ],
+      "min": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4",
+      "max": [
+        1,
+        0,
+        0,
+        -1
+      ],
+      "min": [
+        1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC2",
+      "max": [
+        0.9923340082168579,
+        1
+      ],
+      "min": [
+        0,
+        0.1561034917831421
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC2",
+      "max": [
+        2093567,
+        1
+      ],
+      "min": [
+        0,
+        0.9980177879333496
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4",
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5121,
+      "count": 54,
+      "type": "SCALAR",
+      "max": [
+        35
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 100,
+      "type": "VEC3",
+      "max": [
+        0.5288935899734497,
+        0.6241533756256104,
+        0
+      ],
+      "min": [
+        -0.5288935899734497,
+        -0.6741533875465393,
+        0
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 100,
+      "type": "VEC3",
+      "max": [
+        0,
+        0,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 100,
+      "type": "VEC2",
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ]
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 100,
+      "type": "VEC4",
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5121,
+      "count": 96,
+      "type": "SCALAR",
+      "max": [
+        35
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5121,
+      "count": 192,
+      "type": "SCALAR",
+      "max": [
+        99
+      ],
+      "min": [
+        36
+      ]
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 32,
+      "type": "VEC3",
+      "max": [
+        5.249833583831787,
+        0.9775862693786621,
+        0
+      ],
+      "min": [
+        -5.24993371963501,
+        -0.9965997934341431,
+        0
+      ]
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 32,
+      "type": "VEC3",
+      "max": [
+        0,
+        0,
+        -1
+      ],
+      "min": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 32,
+      "type": "VEC4",
+      "max": [
+        1,
+        0,
+        0,
+        -1
+      ],
+      "min": [
+        1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5126,
+      "count": 32,
+      "type": "VEC2",
+      "max": [
+        0.9923340082168579,
+        1
+      ],
+      "min": [
+        0,
+        0.2293456792831421
+      ]
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 32,
+      "type": "VEC2",
+      "max": [
+        2093567,
+        1
+      ],
+      "min": [
+        0,
+        0.9980177879333496
+      ]
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5126,
+      "count": 32,
+      "type": "VEC4",
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5121,
+      "count": 48,
+      "type": "SCALAR",
+      "max": [
+        31
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 28,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 29,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "bufferView": 30,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "max": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "bufferView": 31,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ]
+    },
+    {
+      "bufferView": 32,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        0.9966580867767334,
+        0.9959442615509033
+      ],
+      "min": [
+        0.004055766388773918,
+        0.3471641540527344
+      ]
+    },
+    {
+      "bufferView": 33,
+      "componentType": 5121,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        23
+      ],
+      "min": [
+        0
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 261504,
+      "uri": "Events.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1200,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1200,
+      "byteLength": 1200,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2400,
+      "byteLength": 800,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3200,
+      "byteLength": 1600,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4800,
+      "byteLength": 96,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4896,
+      "byteLength": 192,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5088,
+      "byteLength": 1728
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6816,
+      "byteLength": 432,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7248,
+      "byteLength": 432,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7680,
+      "byteLength": 576,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8256,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8544,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8832,
+      "byteLength": 576,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9408,
+      "byteLength": 56,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9464,
+      "byteLength": 243220
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 252684,
+      "byteLength": 1200,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 253884,
+      "byteLength": 1200,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 255084,
+      "byteLength": 800,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 255884,
+      "byteLength": 1600,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 257484,
+      "byteLength": 96,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 257580,
+      "byteLength": 192,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 257772,
+      "byteLength": 384,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 258156,
+      "byteLength": 384,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 258540,
+      "byteLength": 512,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 259052,
+      "byteLength": 256,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 259308,
+      "byteLength": 256,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 259564,
+      "byteLength": 512,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 260076,
+      "byteLength": 48,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 260124,
+      "byteLength": 288,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 260412,
+      "byteLength": 288,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 260700,
+      "byteLength": 384,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 261084,
+      "byteLength": 192,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 261276,
+      "byteLength": 192,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 261468,
+      "byteLength": 36,
+      "target": 34963
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "aspectRatio": 1.7777776718139648,
+        "yfov": 0.6457718014717102,
+        "zfar": 1000.1340942382812,
+        "znear": 0.30000001192092896
+      },
+      "type": "perspective",
+      "name": "Main Camera"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "bufferView": 6,
+      "name": "gaussian"
+    },
+    {
+      "mimeType": "image/png",
+      "bufferView": 14,
+      "name": "2"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {},
+      "name": "Backdrop",
+      "extensions": {
+        "KHR_materials_unlit": {}
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "extensions": {
+            "KHR_texture_transform": {
+              "texCoord": 0
+            }
+          }
+        }
+      },
+      "alphaMode": "BLEND",
+      "name": "Outline",
+      "extensions": {
+        "KHR_materials_unlit": {}
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        }
+      },
+      "alphaMode": "BLEND",
+      "name": "LiberationSans SDF Material",
+      "extensions": {
+        "KHR_materials_unlit": {}
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.00008696188,
+          0.12441837,
+          0.00589853432,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      },
+      "name": "CubeMaterial"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          0.2
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      },
+      "alphaMode": "BLEND",
+      "name": "GhostMaterial"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "COLOR_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "COLOR_0": 3
+          },
+          "indices": 5,
+          "material": 1
+        }
+      ],
+      "name": "Quad"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10,
+            "COLOR_0": 11
+          },
+          "indices": 12,
+          "material": 2
+        }
+      ],
+      "name": "Text (TMP)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14,
+            "TEXCOORD_0": 15,
+            "COLOR_0": 16
+          },
+          "indices": 17,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14,
+            "TEXCOORD_0": 15,
+            "COLOR_0": 16
+          },
+          "indices": 18,
+          "material": 1
+        }
+      ],
+      "name": "Quad (1)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 19,
+            "NORMAL": 20,
+            "TANGENT": 21,
+            "TEXCOORD_0": 22,
+            "TEXCOORD_1": 23,
+            "COLOR_0": 24
+          },
+          "indices": 25,
+          "material": 2
+        }
+      ],
+      "name": "Text (TMP)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29,
+            "TEXCOORD_1": 30
+          },
+          "indices": 31,
+          "material": 3
+        }
+      ],
+      "name": "Cube"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29,
+            "TEXCOORD_1": 30
+          },
+          "indices": 31,
+          "material": 4
+        }
+      ],
+      "name": "Cube-1"
+    }
+  ],
+  "nodes": [
+    {
+      "camera": 0,
+      "rotation": [
+        -0.150936946,
+        -0.195565388,
+        -0.0299802478,
+        0.968541861
+      ],
+      "translation": [
+        -2.727796,
+        1.552749,
+        7.76237965
+      ],
+      "name": "Main Camera"
+    },
+    {
+      "rotation": [
+        0.109381631,
+        0.8754261,
+        0.408217877,
+        -0.234569684
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "name": "Directional Light",
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      }
+    },
+    {
+      "children": [
+        3
+      ],
+      "mesh": 0,
+      "rotation": [
+        0,
+        1,
+        0,
+        3.72528973e-7
+      ],
+      "scale": [
+        1.73048711,
+        0.335225374,
+        1
+      ],
+      "translation": [
+        -0.02700001,
+        -0.66,
+        1.35
+      ],
+      "name": "Quad",
+      "extensions": {
+        "KHR_node_selectability": {
+          "selectable": true
+        }
+      }
+    },
+    {
+      "mesh": 1,
+      "scale": [
+        0.03788807,
+        0.195584252,
+        0.06556481
+      ],
+      "translation": [
+        -0.009076059,
+        0.01,
+        -0.0169999488
+      ],
+      "name": "Text (TMP)"
+    },
+    {
+      "children": [
+        5
+      ],
+      "mesh": 2,
+      "rotation": [
+        0,
+        1,
+        0,
+        3.72528973e-7
+      ],
+      "scale": [
+        1.73048711,
+        0.335225374,
+        1
+      ],
+      "translation": [
+        -0.02700001,
+        -1.096,
+        1.35
+      ],
+      "name": "Quad (1)",
+      "extensions": {
+        "KHR_node_selectability": {
+          "selectable": true
+        }
+      }
+    },
+    {
+      "mesh": 3,
+      "scale": [
+        0.03788807,
+        0.195584252,
+        0.06556481
+      ],
+      "translation": [
+        -0.009076059,
+        0.01,
+        -0.0169999488
+      ],
+      "name": "Text (TMP)"
+    },
+    {
+      "children": [
+        7
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        3.72528973e-7
+      ],
+      "scale": [
+        1.73048711,
+        0.335225374,
+        1
+      ],
+      "translation": [
+        -0.02700001,
+        -1.542,
+        1.35
+      ],
+      "name": "Quad (2)",
+      "extensions": {
+        "KHR_node_visibility": {
+          "visible": false
+        }
+      }
+    },
+    {
+      "scale": [
+        0.03788807,
+        0.195584252,
+        0.06556481
+      ],
+      "translation": [
+        -0.009076059,
+        0.01,
+        -0.0169999488
+      ],
+      "name": "Text (TMP)"
+    },
+    {
+      "name": "VisualScripting SceneVariables"
+    },
+    {
+      "mesh": 4,
+      "translation": [
+        -0.02700001,
+        0.213,
+        0.54
+      ],
+      "name": "Cube"
+    },
+    {
+      "mesh": 5,
+      "rotation": [
+        -0.287959754,
+        0.025464233,
+        -0.263841838,
+        0.9202273
+      ],
+      "scale": [
+        0.46967,
+        0.2533038,
+        0.9807179
+      ],
+      "translation": [
+        -1.64,
+        0.213,
+        0.54
+      ],
+      "name": "Cube-1"
+    },
+    {
+      "mesh": 5,
+      "translation": [
+        -0.02700001,
+        0.213,
+        0.54
+      ],
+      "name": "Cube-2"
+    },
+    {
+      "mesh": 5,
+      "rotation": [
+        0.0196927022,
+        0.9079199,
+        -0.015016336,
+        0.4184116
+      ],
+      "scale": [
+        0.913883865,
+        1.48606646,
+        0.1391954
+      ],
+      "translation": [
+        1.52,
+        0.213,
+        0.54
+      ],
+      "name": "Cube-3"
+    },
+    {
+      "name": "Event System"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9987
+    },
+    {
+      "minFilter": 9987,
+      "wrapS": 33071,
+      "wrapT": 33071
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "gaussian"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "2"
+    }
+  ],
+  "extensions": {
+    "KHR_interactivity": {
+      "graphs": [
+        {
+          "types": [
+            {
+              "signature": "bool"
+            },
+            {
+              "signature": "int"
+            },
+            {
+              "signature": "float"
+            },
+            {
+              "signature": "float3"
+            },
+            {
+              "signature": "float4"
+            },
+            {
+              "signature": "ref"
+            }
+          ],
+          "variables": [
+            {
+              "id": "graph1_state",
+              "type": 1,
+              "value": [
+                0
+              ]
+            }
+          ],
+          "events": [
+            {
+              "id": "setColor",
+              "values": {
+                "targetNodeRef": {
+                  "type": 5
+                },
+                "argument_0": {
+                  "type": 4
+                }
+              }
+            },
+            {
+              "id": "setPose",
+              "values": {
+                "targetNodeRef": {
+                  "type": 5
+                },
+                "argument_0": {
+                  "type": 3
+                },
+                "argument_1": {
+                  "type": 4
+                },
+                "argument_2": {
+                  "type": 3
+                }
+              }
+            }
+          ],
+          "declarations": [
+            {
+              "op": "event/onSelect",
+              "extension": "KHR_node_selectability",
+              "inputValueSockets": {},
+              "outputValueSockets": {
+                "selectedNode": {
+                  "type": 5
+                },
+                "selectionRayOrigin": {
+                  "type": 3
+                },
+                "selectionPoint": {
+                  "type": 3
+                },
+                "controllerIndex": {
+                  "type": 1
+                }
+              }
+            },
+            {
+              "op": "math/random"
+            },
+            {
+              "op": "math/combine4"
+            },
+            {
+              "op": "event/send"
+            },
+            {
+              "op": "variable/get"
+            },
+            {
+              "op": "type/intToFloat"
+            },
+            {
+              "op": "math/add"
+            },
+            {
+              "op": "math/rem"
+            },
+            {
+              "op": "type/floatToInt"
+            },
+            {
+              "op": "pointer/get"
+            },
+            {
+              "op": "math/mul"
+            },
+            {
+              "op": "flow/switch"
+            },
+            {
+              "op": "variable/set"
+            },
+            {
+              "op": "event/receive"
+            },
+            {
+              "op": "ref/eq"
+            },
+            {
+              "op": "flow/branch"
+            },
+            {
+              "op": "pointer/set"
+            }
+          ],
+          "nodes": [
+            {
+              "declaration": 0,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    2
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 5,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {},
+              "values": {},
+              "flows": {}
+            },
+            {
+              "declaration": 1,
+              "configuration": {},
+              "values": {},
+              "flows": {}
+            },
+            {
+              "declaration": 1,
+              "configuration": {},
+              "values": {},
+              "flows": {}
+            },
+            {
+              "declaration": 2,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 1,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 2,
+                  "socket": "value"
+                },
+                "c": {
+                  "node": 3,
+                  "socket": "value"
+                },
+                "d": {
+                  "type": 2,
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 3,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "targetNodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/9/"
+                  ]
+                },
+                "argument_0": {
+                  "node": 4,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 4,
+              "configuration": {
+                "variable": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {}
+            },
+            {
+              "declaration": 5,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 6,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 6,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 7,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 7,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 8,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 8,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 9,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 20,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 9,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/rotation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/11/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 10,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 12,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    1,
+                    -1,
+                    -1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 9,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/10/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 10,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 14,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 9,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/rotation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/10/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 10,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 16,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    1,
+                    -1,
+                    -1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 9,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/scale"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/10/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 3,
+              "configuration": {
+                "event": {
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "values": {
+                "targetNodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/9/"
+                  ]
+                },
+                "argument_0": {
+                  "node": 15,
+                  "socket": "value"
+                },
+                "argument_1": {
+                  "node": 17,
+                  "socket": "value"
+                },
+                "argument_2": {
+                  "node": 18,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 31,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 11,
+              "configuration": {
+                "cases": {
+                  "value": [
+                    0,
+                    1,
+                    2
+                  ]
+                }
+              },
+              "values": {
+                "selection": {
+                  "node": 6,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "0": {
+                  "node": 19,
+                  "socket": "in"
+                },
+                "1": {
+                  "node": 24,
+                  "socket": "in"
+                },
+                "2": {
+                  "node": 30,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 9,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/11/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 10,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 21,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 9,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/scale"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/11/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 3,
+              "configuration": {
+                "event": {
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "values": {
+                "targetNodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/9/"
+                  ]
+                },
+                "argument_0": {
+                  "node": 22,
+                  "socket": "value"
+                },
+                "argument_1": {
+                  "node": 13,
+                  "socket": "value"
+                },
+                "argument_2": {
+                  "node": 23,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 31,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 9,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/12/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 10,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 25,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 9,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/rotation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/12/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 10,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 27,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    1,
+                    -1,
+                    -1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 9,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/scale"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/12/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 3,
+              "configuration": {
+                "event": {
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "values": {
+                "targetNodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/9/"
+                  ]
+                },
+                "argument_0": {
+                  "node": 26,
+                  "socket": "value"
+                },
+                "argument_1": {
+                  "node": 28,
+                  "socket": "value"
+                },
+                "argument_2": {
+                  "node": 29,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 31,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 12,
+              "configuration": {
+                "variables": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "0": {
+                  "node": 10,
+                  "socket": "value"
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 13,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 34,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 14,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 32,
+                  "socket": "targetNodeRef"
+                },
+                "b": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/9/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 15,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 33,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 35,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 32,
+                  "socket": "argument_0"
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/3/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 13,
+              "configuration": {
+                "event": {
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 38,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 14,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 36,
+                  "socket": "targetNodeRef"
+                },
+                "b": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/9/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 15,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 37,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 40,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 36,
+                  "socket": "argument_0"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 39,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/9/"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 42,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 36,
+                  "socket": "argument_1"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    1,
+                    -1,
+                    -1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/rotation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 41,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/9/"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 43,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/scale"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 36,
+                  "socket": "argument_2"
+                },
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/9/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 13,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 46,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 14,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 44,
+                  "socket": "targetNodeRef"
+                },
+                "b": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/10/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 15,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 45,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 47,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 44,
+                  "socket": "argument_0"
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/3/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 13,
+              "configuration": {
+                "event": {
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 50,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 14,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 48,
+                  "socket": "targetNodeRef"
+                },
+                "b": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/10/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 15,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 49,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 52,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 48,
+                  "socket": "argument_0"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 51,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/10/"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 54,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 48,
+                  "socket": "argument_1"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    1,
+                    -1,
+                    -1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/rotation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 53,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/10/"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 55,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/scale"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 48,
+                  "socket": "argument_2"
+                },
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/10/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 13,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 58,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 14,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 56,
+                  "socket": "targetNodeRef"
+                },
+                "b": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/11/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 15,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 57,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 59,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 56,
+                  "socket": "argument_0"
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/3/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 13,
+              "configuration": {
+                "event": {
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 62,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 14,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 60,
+                  "socket": "targetNodeRef"
+                },
+                "b": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/11/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 15,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 61,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 64,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 60,
+                  "socket": "argument_0"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 63,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/11/"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 66,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 60,
+                  "socket": "argument_1"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    1,
+                    -1,
+                    -1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/rotation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 65,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/11/"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 67,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/scale"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 60,
+                  "socket": "argument_2"
+                },
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/11/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 13,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 70,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 14,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 68,
+                  "socket": "targetNodeRef"
+                },
+                "b": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/12/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 15,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 69,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 71,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 68,
+                  "socket": "argument_0"
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/3/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 13,
+              "configuration": {
+                "event": {
+                  "value": [
+                    1
+                  ]
+                }
+              },
+              "values": {},
+              "flows": {
+                "out": {
+                  "node": 74,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 14,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 72,
+                  "socket": "targetNodeRef"
+                },
+                "b": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/12/"
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 15,
+              "configuration": {},
+              "values": {
+                "condition": {
+                  "node": 73,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 76,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 72,
+                  "socket": "argument_0"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 75,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/12/"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 78,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "configuration": {},
+              "values": {
+                "a": {
+                  "node": 72,
+                  "socket": "argument_1"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    1,
+                    -1,
+                    -1,
+                    1
+                  ]
+                }
+              },
+              "flows": {}
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/rotation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 77,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/12/"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 79,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 16,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/scale"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 72,
+                  "socket": "argument_2"
+                },
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/12/"
+                  ]
+                }
+              },
+              "flows": {}
+            }
+          ]
+        }
+      ],
+      "graph": 0
+    },
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "type": "directional",
+          "intensity": 3.14159274,
+          "name": "Directional Light",
+          "color": [
+            1,
+            0.904661357,
+            0.6724432
+          ]
+        }
+      ]
+    }
+  }
+}
