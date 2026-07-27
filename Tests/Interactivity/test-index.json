@@ -402,6 +402,26 @@
     }
   },
   {
+    "label": "pointer/AssetCapabilities_GetTests",
+    "name": "pointer/AssetCapabilities_GetTests",
+    "tags": [
+      "event/onStart",
+      "pointer/get",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/ge"
+    ],
+    "variants": {
+      "glTF-Binary": "AssetCapabilities_GetTests.glb",
+      "test-Json": "AssetCapabilities_GetTests.json"
+    }
+  },
+  {
     "label": "pointer/CoreReadOnlyPointers_GetTests",
     "name": "pointer/CoreReadOnlyPointers_GetTests",
     "tags": [

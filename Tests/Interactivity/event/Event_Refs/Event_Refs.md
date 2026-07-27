@@ -1,5 +1,5 @@
 ### **Test Sample:** event/Event Refs
-### **Description:** Verifies that event/onStart, event/onTick, and event/receive each output a valid (non-null) event ref.
+### **Description:** Verifies that event/onStart, event/onTick, and event/receive each output a valid event ref that resolves through its canonical object-model pointer.
 
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value

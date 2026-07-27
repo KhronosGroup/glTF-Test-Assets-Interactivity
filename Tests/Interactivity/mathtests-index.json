@@ -1320,19 +1320,19 @@
       "event/onStart",
       "pointer/get",
       "math/matDecompose",
+      "math/matCompose",
+      "math/extract4x4",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "math/and",
       "math/eq",
       "flow/branch",
       "pointer/set",
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence",
-      "math/matCompose",
-      "math/and",
-      "math/extract4x4",
-      "math/sub",
-      "math/abs",
-      "math/lt"
+      "flow/sequence"
     ],
     "variants": {
       "glTF-Binary": "matDecomp-Shear.glb",
@@ -1713,6 +1713,29 @@
     "variants": {
       "glTF-Binary": "quatConjugate.glb",
       "test-Json": "quatConjugate.json"
+    }
+  },
+  {
+    "label": "math/quatFromAngles",
+    "name": "math/quatFromAngles",
+    "tags": [
+      "math/quatFromAngles",
+      "event/onStart",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "quatFromAngles.glb",
+      "test-Json": "quatFromAngles.json"
     }
   },
   {

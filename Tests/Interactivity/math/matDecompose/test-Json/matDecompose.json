@@ -29,15 +29,15 @@
         },
         {
           "name": "matDecompose - invalid result",
-          "nodeId": 92
+          "nodeId": 76
         },
         {
           "name": "matDecompose - ignored last row",
-          "nodeId": 136
+          "nodeId": 110
         },
         {
           "name": "matDecompose - 0 scale preserves translation",
-          "nodeId": 195
+          "nodeId": 159
         }
       ],
       "subTests": [
@@ -82,33 +82,22 @@
           "successResultVarName": "TestResult_HasPassed_math/matDecompose_Scale"
         },
         {
-          "name": "isValid",
-          "resultVarName": "TestResult_math/matDecompose_isValid",
-          "resultVarId": 7,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            true
-          ],
-          "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/matDecompose_isValid"
-        },
-        {
           "name": "invalid, Translate",
           "resultVarName": "TestResult_math/matDecompose_invalid, Translate",
-          "resultVarId": 9,
+          "resultVarId": 7,
           "resultVarType": "float3",
           "expectedResultValue": [
             0.0,
             0.0,
             0.0
           ],
-          "successResultVarId": 8,
+          "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/matDecompose_invalid, Translate"
         },
         {
           "name": "invalid, Rotate",
           "resultVarName": "TestResult_math/matDecompose_invalid, Rotate",
-          "resultVarId": 11,
+          "resultVarId": 9,
           "resultVarType": "float4",
           "expectedResultValue": [
             0.0,
@@ -116,50 +105,39 @@
             0.0,
             1.0
           ],
-          "successResultVarId": 10,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_math/matDecompose_invalid, Rotate"
         },
         {
           "name": "invalid, Scale",
           "resultVarName": "TestResult_math/matDecompose_invalid, Scale",
-          "resultVarId": 13,
+          "resultVarId": 11,
           "resultVarType": "float3",
           "expectedResultValue": [
             1.0,
             1.0,
             1.0
           ],
-          "successResultVarId": 12,
+          "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_math/matDecompose_invalid, Scale"
-        },
-        {
-          "name": "invalid. isValid",
-          "resultVarName": "TestResult_math/matDecompose_invalid. isValid",
-          "resultVarId": 15,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            false
-          ],
-          "successResultVarId": 14,
-          "successResultVarName": "TestResult_HasPassed_math/matDecompose_invalid. isValid"
         },
         {
           "name": "ignored row, Translate",
           "resultVarName": "TestResult_math/matDecompose_ignored row, Translate",
-          "resultVarId": 17,
+          "resultVarId": 13,
           "resultVarType": "float3",
           "expectedResultValue": [
             1.0,
             2.0,
             3.0
           ],
-          "successResultVarId": 16,
+          "successResultVarId": 12,
           "successResultVarName": "TestResult_HasPassed_math/matDecompose_ignored row, Translate"
         },
         {
           "name": "ignored row, Rotate",
           "resultVarName": "TestResult_math/matDecompose_ignored row, Rotate",
-          "resultVarId": 19,
+          "resultVarId": 15,
           "resultVarType": "float4",
           "expectedResultValue": [
             0.391903818,
@@ -167,57 +145,46 @@
             0.3604234,
             0.822363138
           ],
-          "successResultVarId": 18,
+          "successResultVarId": 14,
           "successResultVarName": "TestResult_HasPassed_math/matDecompose_ignored row, Rotate"
         },
         {
           "name": "ignored row, Scale",
           "resultVarName": "TestResult_math/matDecompose_ignored row, Scale",
-          "resultVarId": 21,
+          "resultVarId": 17,
           "resultVarType": "float3",
           "expectedResultValue": [
             2.0,
             2.0,
             2.0
           ],
-          "successResultVarId": 20,
+          "successResultVarId": 16,
           "successResultVarName": "TestResult_HasPassed_math/matDecompose_ignored row, Scale"
-        },
-        {
-          "name": "ignored row, isValid",
-          "resultVarName": "TestResult_math/matDecompose_ignored row, isValid",
-          "resultVarId": 23,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            true
-          ],
-          "successResultVarId": 22,
-          "successResultVarName": "TestResult_HasPassed_math/matDecompose_ignored row, isValid"
         },
         {
           "name": "0 scale, Translate",
           "resultVarName": "TestResult_math/matDecompose_0 scale, Translate",
-          "resultVarId": 25,
+          "resultVarId": 19,
           "resultVarType": "float3",
           "expectedResultValue": [
             1.0,
             2.0,
             3.0
           ],
-          "successResultVarId": 24,
+          "successResultVarId": 18,
           "successResultVarName": "TestResult_HasPassed_math/matDecompose_0 scale, Translate"
         },
         {
           "name": "0 scale, Scale",
           "resultVarName": "TestResult_math/matDecompose_0 scale, Scale",
-          "resultVarId": 27,
+          "resultVarId": 21,
           "resultVarType": "float3",
           "expectedResultValue": [
             0.0,
             0.0,
             0.0
           ],
-          "successResultVarId": 26,
+          "successResultVarId": 20,
           "successResultVarName": "TestResult_HasPassed_math/matDecompose_0 scale, Scale"
         }
       ]

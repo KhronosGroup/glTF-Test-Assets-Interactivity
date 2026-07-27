@@ -1,5 +1,5 @@
 ### **Test Sample:** flow/setDelay and cancelDelay
-### **Description:** 
+### **Description:** Verifies setDelay and cancelDelay flow behavior, including resolution of the delay ref through its canonical object-model pointer.
 
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value

@@ -1,0 +1,152 @@
+{
+  "glbFileName": "quatFromAngles.glb",
+  "name": "math/quatFromAngles",
+  "tests": [
+    {
+      "name": "math/quatFromAngles",
+      "description": "",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/and",
+        "math/dot",
+        "math/gt",
+        "math/length",
+        "math/normalize",
+        "math/quatFromAngles",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "quatFromAngles-xyz",
+          "nodeId": 1
+        },
+        {
+          "name": "quatFromAngles-xzy",
+          "nodeId": 20
+        },
+        {
+          "name": "quatFromAngles-yxz",
+          "nodeId": 39
+        },
+        {
+          "name": "quatFromAngles-yzx",
+          "nodeId": 69
+        },
+        {
+          "name": "quatFromAngles-zxy",
+          "nodeId": 87
+        },
+        {
+          "name": "quatFromAngles-zyx",
+          "nodeId": 105
+        }
+      ],
+      "subTests": [
+        {
+          "name": "order xyz",
+          "resultVarName": "TestResult_math/quatFromAngles_order xyz",
+          "resultVarId": 1,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.391903847,
+            0.200562149,
+            0.5319757,
+            0.7233174
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromAngles_order xyz"
+        },
+        {
+          "name": "order xzy",
+          "resultVarName": "TestResult_math/quatFromAngles_order xzy",
+          "resultVarId": 3,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0222600065,
+            0.200562134,
+            0.5319757,
+            0.822363138
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromAngles_order xzy"
+        },
+        {
+          "name": "order yxz",
+          "resultVarName": "TestResult_math/quatFromAngles_order yxz",
+          "resultVarId": 5,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.391903847,
+            0.200562149,
+            0.3604234,
+            0.822363138
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromAngles_order yxz"
+        },
+        {
+          "name": "order yzx",
+          "resultVarName": "TestResult_math/quatFromAngles_order yzx",
+          "resultVarId": 7,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.391903847,
+            0.439679742,
+            0.3604234,
+            0.7233174
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromAngles_order yzx"
+        },
+        {
+          "name": "order zxy",
+          "resultVarName": "TestResult_math/quatFromAngles_order zxy",
+          "resultVarId": 9,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0222600065,
+            0.439679742,
+            0.5319757,
+            0.7233173
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromAngles_order zxy"
+        },
+        {
+          "name": "order zyx",
+          "resultVarName": "TestResult_math/quatFromAngles_order zyx",
+          "resultVarId": 11,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.0222600121,
+            0.439679742,
+            0.3604234,
+            0.822363138
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromAngles_order zyx"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/and",
+    "math/dot",
+    "math/gt",
+    "math/length",
+    "math/normalize",
+    "math/quatFromAngles",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
