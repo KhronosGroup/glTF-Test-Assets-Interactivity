@@ -10,14 +10,19 @@
         "event/onStart",
         "flow/branch",
         "flow/sequence",
+        "math/abs",
         "math/and",
         "math/dot",
         "math/eq",
+        "math/extract3",
         "math/gt",
+        "math/isNaN",
         "math/length",
+        "math/lt",
         "math/matCompose",
         "math/matDecompose",
         "math/normalize",
+        "math/sub",
         "pointer/set",
         "variable/get",
         "variable/set"
@@ -29,15 +34,15 @@
         },
         {
           "name": "matDecompose - invalid result",
-          "nodeId": 76
+          "nodeId": 77
         },
         {
           "name": "matDecompose - ignored last row",
-          "nodeId": 110
+          "nodeId": 131
         },
         {
           "name": "matDecompose - 0 scale preserves translation",
-          "nodeId": 159
+          "nodeId": 181
         }
       ],
       "subTests": [
@@ -87,9 +92,9 @@
           "resultVarId": 7,
           "resultVarType": "float3",
           "expectedResultValue": [
-            0.0,
-            0.0,
-            0.0
+            1.0,
+            2.0,
+            3.0
           ],
           "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/matDecompose_invalid, Translate"
@@ -114,9 +119,9 @@
           "resultVarId": 11,
           "resultVarType": "float3",
           "expectedResultValue": [
-            1.0,
-            1.0,
-            1.0
+            2.0,
+            2.0,
+            "NaN"
           ],
           "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_math/matDecompose_invalid, Scale"
@@ -195,14 +200,19 @@
     "event/onStart",
     "flow/branch",
     "flow/sequence",
+    "math/abs",
     "math/and",
     "math/dot",
     "math/eq",
+    "math/extract3",
     "math/gt",
+    "math/isNaN",
     "math/length",
+    "math/lt",
     "math/matCompose",
     "math/matDecompose",
     "math/normalize",
+    "math/sub",
     "pointer/set",
     "variable/get",
     "variable/set"

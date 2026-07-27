@@ -5027,14 +5027,19 @@
         "event/onStart",
         "flow/branch",
         "flow/sequence",
+        "math/abs",
         "math/and",
         "math/dot",
         "math/eq",
+        "math/extract3",
         "math/gt",
+        "math/isNaN",
         "math/length",
+        "math/lt",
         "math/matCompose",
         "math/matDecompose",
         "math/normalize",
+        "math/sub",
         "pointer/set",
         "variable/get",
         "variable/set"
@@ -5046,15 +5051,15 @@
         },
         {
           "name": "matDecompose - invalid result",
-          "nodeId": 4828
+          "nodeId": 4829
         },
         {
           "name": "matDecompose - ignored last row",
-          "nodeId": 4862
+          "nodeId": 4883
         },
         {
           "name": "matDecompose - 0 scale preserves translation",
-          "nodeId": 4911
+          "nodeId": 4933
         }
       ],
       "subTests": [
@@ -5104,9 +5109,9 @@
           "resultVarId": 509,
           "resultVarType": "float3",
           "expectedResultValue": [
-            0.0,
-            0.0,
-            0.0
+            1.0,
+            2.0,
+            3.0
           ],
           "successResultVarId": 508,
           "successResultVarName": "TestResult_HasPassed_math/matDecompose_invalid, Translate"
@@ -5131,9 +5136,9 @@
           "resultVarId": 513,
           "resultVarType": "float3",
           "expectedResultValue": [
-            1.0,
-            1.0,
-            1.0
+            2.0,
+            2.0,
+            "NaN"
           ],
           "successResultVarId": 512,
           "successResultVarName": "TestResult_HasPassed_math/matDecompose_invalid, Scale"
@@ -5230,7 +5235,7 @@
       "entryPoints": [
         {
           "name": "matDecompose - shear",
-          "nodeId": 4939
+          "nodeId": 4961
         }
       ],
       "subTests": [
@@ -5268,11 +5273,11 @@
       "entryPoints": [
         {
           "name": "[a] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] [b] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0] = [1.0,0.0,0.0,2.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]",
-          "nodeId": 5022
+          "nodeId": 5044
         },
         {
           "name": "[a] [0.8,-0.8,1.0,2.0,0.5,1.7,-0.5,3.0,-0.2,0.6,2.8,4.0,0.0,0.0,0.0,1.0] [b] [1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0] = [0.8,-0.8,1.0,2.0,0.5,1.7,-0.5,3.0,-0.2,0.6,2.8,4.0,0.0,0.0,0.0,1.0]",
-          "nodeId": 5098
+          "nodeId": 5120
         }
       ],
       "subTests": [
@@ -5350,7 +5355,7 @@
       "entryPoints": [
         {
           "name": "math/matMul2x2",
-          "nodeId": 5175
+          "nodeId": 5197
         }
       ],
       "subTests": [
@@ -5420,7 +5425,7 @@
       "entryPoints": [
         {
           "name": "math/matMul3x3",
-          "nodeId": 5228
+          "nodeId": 5250
         }
       ],
       "subTests": [
@@ -5542,7 +5547,7 @@
       "entryPoints": [
         {
           "name": "math/matMul-nonCommutative",
-          "nodeId": 5341
+          "nodeId": 5363
         }
       ],
       "subTests": [
@@ -5576,11 +5581,11 @@
       "entryPoints": [
         {
           "name": "[a] 4653.23 [b] 91293920.00 = 91293920.00",
-          "nodeId": 5353
+          "nodeId": 5375
         },
         {
           "name": "[a] 5 [b] 10 = 10",
-          "nodeId": 5366
+          "nodeId": 5388
         }
       ],
       "subTests": [
@@ -5625,11 +5630,11 @@
       "entryPoints": [
         {
           "name": "[a] 17.21 [b] -324.23 = -324.23",
-          "nodeId": 5379
+          "nodeId": 5401
         },
         {
           "name": "[a] 3 [b] 9 = 3",
-          "nodeId": 5392
+          "nodeId": 5414
         }
       ],
       "subTests": [
@@ -5675,31 +5680,31 @@
       "entryPoints": [
         {
           "name": "[a] 1.00 [b] 2.00 [c] 2.00 = 3.00",
-          "nodeId": 5405
+          "nodeId": 5427
         },
         {
           "name": "[a] 1.00 [b] 2.00 [c] -0.50 = 0.50",
-          "nodeId": 5418
+          "nodeId": 5440
         },
         {
           "name": "[a] 1.00 [b] 2.00 [c] NaN = NaN",
-          "nodeId": 5432
+          "nodeId": 5454
         },
         {
           "name": "[a] (1.00, 1.00) [b] (2.00, 2.00) [c] (2.00, 2.00) = (3.00, 3.00)",
-          "nodeId": 5446
+          "nodeId": 5468
         },
         {
           "name": "[a] (1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00) = (3.00, 3.00, 3.00)",
-          "nodeId": 5459
+          "nodeId": 5481
         },
         {
           "name": "[a] (1.00, 1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00, 2.00) = (3.00, 3.00, 3.00, 3.00)",
-          "nodeId": 5472
+          "nodeId": 5494
         },
         {
           "name": "[a] [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0] [b] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] [c] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]",
-          "nodeId": 5485
+          "nodeId": 5507
         }
       ],
       "subTests": [
@@ -5823,15 +5828,15 @@
       "entryPoints": [
         {
           "name": "[a] 345.23 [b] 0.00 = 1.00",
-          "nodeId": 5498
+          "nodeId": 5520
         },
         {
           "name": "[a] 2 [b] 3 = 6",
-          "nodeId": 5513
+          "nodeId": 5535
         },
         {
           "name": "[a] 46341 [b] 46341 = -2147479015",
-          "nodeId": 5529
+          "nodeId": 5551
         }
       ],
       "subTests": [
@@ -5887,7 +5892,7 @@
       "entryPoints": [
         {
           "name": "= NaN",
-          "nodeId": 5542
+          "nodeId": 5564
         }
       ],
       "subTests": [
@@ -5921,23 +5926,23 @@
       "entryPoints": [
         {
           "name": "[a] -8923448.00 = 8923448.00",
-          "nodeId": 5556
+          "nodeId": 5578
         },
         {
           "name": "[a] (-8923448.00, -8923448.00) = (8923448.00, 8923448.00)",
-          "nodeId": 5569
+          "nodeId": 5591
         },
         {
           "name": "[a] (-8923448.00, -8923448.00, -8923448.00) = (8923448.00, 8923448.00, 8923448.00)",
-          "nodeId": 5582
+          "nodeId": 5604
         },
         {
           "name": "[a] (-8923448.00, -8923448.00, -8923448.00, -8923448.00) = (8923448.00, 8923448.00, 8923448.00, 8923448.00)",
-          "nodeId": 5595
+          "nodeId": 5617
         },
         {
           "name": "[a] [-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0] = [8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0]",
-          "nodeId": 5608
+          "nodeId": 5630
         }
       ],
       "subTests": [
@@ -6040,27 +6045,27 @@
       "entryPoints": [
         {
           "name": "[a] (1.00, 2.00) = (0.45, 0.89)",
-          "nodeId": 5621
+          "nodeId": 5643
         },
         {
           "name": "[a] (1.00, 2.00, 3.00) = (0.27, 0.53, 0.80)",
-          "nodeId": 5639
+          "nodeId": 5661
         },
         {
           "name": "[a] (1.00, 2.00, 3.00, 4.00) = (0.18, 0.37, 0.55, 0.73)",
-          "nodeId": 5657
+          "nodeId": 5679
         },
         {
           "name": "Invalid:[a] (0.00, 0.00, 0.00) ",
-          "nodeId": 5675
+          "nodeId": 5697
         },
         {
           "name": "Invalid:[a] (NaN, 0.00, 0.00) ",
-          "nodeId": 5688
+          "nodeId": 5710
         },
         {
           "name": "Invalid:[a] (Infinity, 0.00, 0.00) ",
-          "nodeId": 5701
+          "nodeId": 5723
         }
       ],
       "subTests": [
@@ -6155,11 +6160,11 @@
       "entryPoints": [
         {
           "name": "[a] True = False",
-          "nodeId": 5714
+          "nodeId": 5736
         },
         {
           "name": "[a] False = True",
-          "nodeId": 5727
+          "nodeId": 5749
         }
       ],
       "subTests": [
@@ -6204,15 +6209,15 @@
       "entryPoints": [
         {
           "name": "[a] True [b] False = True",
-          "nodeId": 5740
+          "nodeId": 5762
         },
         {
           "name": "[a] False [b] False = False",
-          "nodeId": 5753
+          "nodeId": 5775
         },
         {
           "name": "[a] True [b] True = True",
-          "nodeId": 5766
+          "nodeId": 5788
         }
       ],
       "subTests": [
@@ -6270,7 +6275,7 @@
       "entryPoints": [
         {
           "name": "= 3.14",
-          "nodeId": 5779
+          "nodeId": 5801
         }
       ],
       "subTests": [
@@ -6304,7 +6309,7 @@
       "entryPoints": [
         {
           "name": "[a] 23 = 4",
-          "nodeId": 5794
+          "nodeId": 5816
         }
       ],
       "subTests": [
@@ -6346,31 +6351,31 @@
       "entryPoints": [
         {
           "name": "[a] 7.76 [b] 2.35 = 122.25",
-          "nodeId": 5807
+          "nodeId": 5829
         },
         {
           "name": "[a] 0.00 [b] 0.00 = 1.00",
-          "nodeId": 5822
+          "nodeId": 5844
         },
         {
           "name": "[a] -2.00 [b] 0.50 = NaN",
-          "nodeId": 5837
+          "nodeId": 5859
         },
         {
           "name": "[a] 5.00 [b] 0.00 = 1.00",
-          "nodeId": 5851
+          "nodeId": 5873
         },
         {
           "name": "[a] (7.76, 7.76) [b] (2.35, 2.35) = (122.25, 122.25)",
-          "nodeId": 5866
+          "nodeId": 5888
         },
         {
           "name": "[a] (7.76, 7.76, 7.76) [b] (2.35, 2.35, 2.35) = (122.25, 122.25, 122.25)",
-          "nodeId": 5884
+          "nodeId": 5906
         },
         {
           "name": "[a] (7.76, 7.76, 7.76, 7.76) [b] (2.35, 2.35, 2.35, 2.35) = (122.25, 122.25, 122.25, 122.25)",
-          "nodeId": 5902
+          "nodeId": 5924
         }
       ],
       "subTests": [
@@ -6478,7 +6483,7 @@
       "entryPoints": [
         {
           "name": "[a] (0.00, 1.00, 0.00, 0.00) [b] (0.00, 0.71, 0.00, 0.71) = 1.57",
-          "nodeId": 5920
+          "nodeId": 5942
         }
       ],
       "subTests": [
@@ -6516,7 +6521,7 @@
       "entryPoints": [
         {
           "name": "[a] (0.00, 1.00, 0.00, 0.00) = (0.00, -1.00, 0.00, 0.00)",
-          "nodeId": 5935
+          "nodeId": 5957
         }
       ],
       "subTests": [
@@ -6557,27 +6562,27 @@
       "entryPoints": [
         {
           "name": "quatFromAngles-xyz",
-          "nodeId": 5953
+          "nodeId": 5975
         },
         {
           "name": "quatFromAngles-xzy",
-          "nodeId": 5971
+          "nodeId": 5993
         },
         {
           "name": "quatFromAngles-yxz",
-          "nodeId": 5989
+          "nodeId": 6011
         },
         {
           "name": "quatFromAngles-yzx",
-          "nodeId": 6007
+          "nodeId": 6029
         },
         {
           "name": "quatFromAngles-zxy",
-          "nodeId": 6025
+          "nodeId": 6047
         },
         {
           "name": "quatFromAngles-zyx",
-          "nodeId": 6043
+          "nodeId": 6065
         }
       ],
       "subTests": [
@@ -6688,7 +6693,7 @@
       "entryPoints": [
         {
           "name": "quatFromAxisAngle",
-          "nodeId": 6061
+          "nodeId": 6083
         }
       ],
       "subTests": [
@@ -6729,7 +6734,7 @@
       "entryPoints": [
         {
           "name": "[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.71, 0.71)",
-          "nodeId": 6079
+          "nodeId": 6101
         }
       ],
       "subTests": [
@@ -6771,11 +6776,11 @@
       "entryPoints": [
         {
           "name": "parallel",
-          "nodeId": 6097
+          "nodeId": 6119
         },
         {
           "name": "antiparallel",
-          "nodeId": 6116
+          "nodeId": 6138
         }
       ],
       "subTests": [
@@ -6829,15 +6834,15 @@
       "entryPoints": [
         {
           "name": "[forward] (0.00, 0.00, 1.00) [up] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.00, 1.00)",
-          "nodeId": 6134
+          "nodeId": 6156
         },
         {
           "name": "[forward] (0.58, 0.58, 0.58) [up] (0.50, 0.71, 0.50) = (-0.28, 0.36, 0.12, 0.88)",
-          "nodeId": 6152
+          "nodeId": 6174
         },
         {
           "name": "[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)",
-          "nodeId": 6170
+          "nodeId": 6192
         }
       ],
       "subTests": [
@@ -6907,7 +6912,7 @@
       "entryPoints": [
         {
           "name": "math/quatFromUpForward-degenerate",
-          "nodeId": 6189
+          "nodeId": 6211
         }
       ],
       "subTests": [
@@ -6947,7 +6952,7 @@
       "entryPoints": [
         {
           "name": "[a] (0.00, 1.00, 0.00, 0.00) [b] (0.00, 0.71, 0.00, 0.71) = (0.00, 0.71, 0.00, -0.71)",
-          "nodeId": 6207
+          "nodeId": 6229
         }
       ],
       "subTests": [
@@ -6988,15 +6993,15 @@
       "entryPoints": [
         {
           "name": "[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 0.50 = (0.00, 0.38, 0.00, 0.92)",
-          "nodeId": 6225
+          "nodeId": 6247
         },
         {
           "name": "[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 0.00 = (0.00, 0.00, 0.00, 1.00)",
-          "nodeId": 6243
+          "nodeId": 6265
         },
         {
           "name": "[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 1.00 = (0.00, 0.71, 0.00, 0.71)",
-          "nodeId": 6261
+          "nodeId": 6283
         }
       ],
       "subTests": [
@@ -7068,7 +7073,7 @@
       "entryPoints": [
         {
           "name": "quatToAxisAngle",
-          "nodeId": 6279
+          "nodeId": 6301
         }
       ],
       "subTests": [
@@ -7117,7 +7122,7 @@
       "entryPoints": [
         {
           "name": "math/quatToAxisAngle-identity",
-          "nodeId": 6310
+          "nodeId": 6332
         }
       ],
       "subTests": [
@@ -7158,19 +7163,19 @@
       "entryPoints": [
         {
           "name": "[a] 75.00 = 1.31",
-          "nodeId": 6325
+          "nodeId": 6347
         },
         {
           "name": "[a] (75.00, 75.00) = (1.31, 1.31)",
-          "nodeId": 6340
+          "nodeId": 6362
         },
         {
           "name": "[a] (75.00, 75.00, 75.00) = (1.31, 1.31, 1.31)",
-          "nodeId": 6358
+          "nodeId": 6380
         },
         {
           "name": "[a] (75.00, 75.00, 75.00, 75.00) = (1.31, 1.31, 1.31, 1.31)",
-          "nodeId": 6376
+          "nodeId": 6398
         }
       ],
       "subTests": [
@@ -7252,19 +7257,19 @@
       "entryPoints": [
         {
           "name": "Random (new number in new flow)",
-          "nodeId": 6396
+          "nodeId": 6418
         },
         {
           "name": "Random (same number in current flow)",
-          "nodeId": 6409
+          "nodeId": 6431
         },
         {
           "name": "Monte Carlo 1k(random number distribution)",
-          "nodeId": 6427
+          "nodeId": 6449
         },
         {
           "name": "Monte Carlo 1k(random number distribution)",
-          "nodeId": 6457
+          "nodeId": 6479
         }
       ],
       "subTests": [
@@ -7335,23 +7340,23 @@
       "entryPoints": [
         {
           "name": "[a] 19.42 [b] 2.23 = 1.55",
-          "nodeId": 6482
+          "nodeId": 6504
         },
         {
           "name": "[a] 13 [b] 2 = 1",
-          "nodeId": 6497
+          "nodeId": 6519
         },
         {
           "name": "[a] 5.00 [b] 0.00 = NaN",
-          "nodeId": 6513
+          "nodeId": 6535
         },
         {
           "name": "[a] -7.00 [b] 3.00 = -1.00",
-          "nodeId": 6527
+          "nodeId": 6549
         },
         {
           "name": "[a] 10 [b] 0 = 0",
-          "nodeId": 6540
+          "nodeId": 6562
         }
       ],
       "subTests": [
@@ -7432,15 +7437,15 @@
       "entryPoints": [
         {
           "name": "Red inverse",
-          "nodeId": 6553
+          "nodeId": 6575
         },
         {
           "name": "Achromatic",
-          "nodeId": 6596
+          "nodeId": 6618
         },
         {
           "name": "Roundtrip (0.8, 0.3, 0.5)",
-          "nodeId": 6637
+          "nodeId": 6659
         }
       ],
       "subTests": [
@@ -7565,15 +7570,15 @@
       "entryPoints": [
         {
           "name": "Black",
-          "nodeId": 6677
+          "nodeId": 6699
         },
         {
           "name": "White",
-          "nodeId": 6701
+          "nodeId": 6723
         },
         {
           "name": "Red",
-          "nodeId": 6729
+          "nodeId": 6751
         }
       ],
       "subTests": [
@@ -7677,15 +7682,15 @@
       "entryPoints": [
         {
           "name": "[a] (1.00, 2.00) [angle] 0.50 = (-0.08, 2.23)",
-          "nodeId": 6769
+          "nodeId": 6791
         },
         {
           "name": "[a] (0.00, 1.00) [angle] 0.50 = (-0.48, 0.88)",
-          "nodeId": 6787
+          "nodeId": 6809
         },
         {
           "name": "[a] (1.00, 2.00) [angle] -0.30 = (1.55, 1.62)",
-          "nodeId": 6805
+          "nodeId": 6827
         }
       ],
       "subTests": [
@@ -7748,11 +7753,11 @@
       "entryPoints": [
         {
           "name": "[a] (1.00, 2.00, 3.00) [rotation] (0.00, 1.00, 0.00, 0.00) = (-1.00, 2.00, -3.00)",
-          "nodeId": 6823
+          "nodeId": 6845
         },
         {
           "name": "[a] (1.00, 2.00, 3.00) [rotation] (0.00, 1.00, 0.00, 1.00) = (5.00, 2.00, -5.00)",
-          "nodeId": 6841
+          "nodeId": 6863
         }
       ],
       "subTests": [
@@ -7801,43 +7806,43 @@
       "entryPoints": [
         {
           "name": "[a] 2.70 = 3.00",
-          "nodeId": 6859
+          "nodeId": 6881
         },
         {
           "name": "[a] -3.40 = -3.00",
-          "nodeId": 6872
+          "nodeId": 6894
         },
         {
           "name": "[a] (2.70, 2.70) = (3.00, 3.00)",
-          "nodeId": 6885
+          "nodeId": 6907
         },
         {
           "name": "[a] (-3.40, -3.40) = (-3.00, -3.00)",
-          "nodeId": 6898
+          "nodeId": 6920
         },
         {
           "name": "[a] (2.70, 2.70, 2.70) = (3.00, 3.00, 3.00)",
-          "nodeId": 6911
+          "nodeId": 6933
         },
         {
           "name": "[a] (-3.40, -3.40, -3.40) = (-3.00, -3.00, -3.00)",
-          "nodeId": 6924
+          "nodeId": 6946
         },
         {
           "name": "[a] (2.70, 2.70, 2.70, 2.70) = (3.00, 3.00, 3.00, 3.00)",
-          "nodeId": 6937
+          "nodeId": 6959
         },
         {
           "name": "[a] (-3.40, -3.40, -3.40, -3.40) = (-3.00, -3.00, -3.00, -3.00)",
-          "nodeId": 6950
+          "nodeId": 6972
         },
         {
           "name": "[a] [2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]",
-          "nodeId": 6963
+          "nodeId": 6985
         },
         {
           "name": "[a] [-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4] = [-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0]",
-          "nodeId": 6976
+          "nodeId": 6998
         }
       ],
       "subTests": [
@@ -8012,27 +8017,27 @@
       "entryPoints": [
         {
           "name": "[a] -1.50 = 0.00",
-          "nodeId": 6989
+          "nodeId": 7011
         },
         {
           "name": "[a] 2.50 = 1.00",
-          "nodeId": 7002
+          "nodeId": 7024
         },
         {
           "name": "[a] (-1.50, -1.50) = (0.00, 0.00)",
-          "nodeId": 7015
+          "nodeId": 7037
         },
         {
           "name": "[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)",
-          "nodeId": 7028
+          "nodeId": 7050
         },
         {
           "name": "[a] (-1.50, -1.50, -1.50, -1.50) = (0.00, 0.00, 0.00, 0.00)",
-          "nodeId": 7041
+          "nodeId": 7063
         },
         {
           "name": "[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
-          "nodeId": 7054
+          "nodeId": 7076
         }
       ],
       "subTests": [
@@ -8142,11 +8147,11 @@
       "entryPoints": [
         {
           "name": "When True",
-          "nodeId": 7067
+          "nodeId": 7089
         },
         {
           "name": "When False",
-          "nodeId": 7080
+          "nodeId": 7102
         }
       ],
       "subTests": [
@@ -8192,39 +8197,39 @@
       "entryPoints": [
         {
           "name": "[a] -9.00 = -1.00",
-          "nodeId": 7093
+          "nodeId": 7115
         },
         {
           "name": "[a] 9.00 = 1.00",
-          "nodeId": 7106
+          "nodeId": 7128
         },
         {
           "name": "[a] 9 = 1",
-          "nodeId": 7119
+          "nodeId": 7141
         },
         {
           "name": "[a] -9 = -1",
-          "nodeId": 7132
+          "nodeId": 7154
         },
         {
           "name": "[a] 0.00 = 0.00",
-          "nodeId": 7145
+          "nodeId": 7167
         },
         {
           "name": "[a] Infinity = 1.00",
-          "nodeId": 7159
+          "nodeId": 7181
         },
         {
           "name": "[a] -Infinity = -1.00",
-          "nodeId": 7174
+          "nodeId": 7196
         },
         {
           "name": "[a] NaN = NaN",
-          "nodeId": 7188
+          "nodeId": 7210
         },
         {
           "name": "[a] 0 = 0",
-          "nodeId": 7202
+          "nodeId": 7224
         }
       ],
       "subTests": [
@@ -8353,19 +8358,19 @@
       "entryPoints": [
         {
           "name": "[a] 4.32 = -0.93",
-          "nodeId": 7215
+          "nodeId": 7237
         },
         {
           "name": "[a] (4.32, 4.32) = (-0.93, -0.93)",
-          "nodeId": 7230
+          "nodeId": 7252
         },
         {
           "name": "[a] (4.32, 4.32, 4.32) = (-0.93, -0.93, -0.93)",
-          "nodeId": 7248
+          "nodeId": 7270
         },
         {
           "name": "[a] (4.32, 4.32, 4.32, 4.32) = (-0.93, -0.93, -0.93, -0.93)",
-          "nodeId": 7266
+          "nodeId": 7288
         }
       ],
       "subTests": [
@@ -8445,19 +8450,19 @@
       "entryPoints": [
         {
           "name": "[a] 4.32 = 37.74",
-          "nodeId": 7284
+          "nodeId": 7306
         },
         {
           "name": "[a] (4.32, 4.32) = (37.74, 37.74)",
-          "nodeId": 7299
+          "nodeId": 7321
         },
         {
           "name": "[a] (4.32, 4.32, 4.32) = (37.74, 37.74, 37.74)",
-          "nodeId": 7317
+          "nodeId": 7339
         },
         {
           "name": "[a] (4.32, 4.32, 4.32, 4.32) = (37.74, 37.74, 37.74, 37.74)",
-          "nodeId": 7335
+          "nodeId": 7357
         }
       ],
       "subTests": [
@@ -8534,23 +8539,23 @@
       "entryPoints": [
         {
           "name": "[a] (2.00, 5.00) [b] (4.00, 6.00) [c] 0.50 = (2.93, 5.57)",
-          "nodeId": 7353
+          "nodeId": 7375
         },
         {
           "name": "[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 0.50 = (2.94, 5.52, 7.55)",
-          "nodeId": 7371
+          "nodeId": 7393
         },
         {
           "name": "[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 0.00 = (2.00, 5.00, 7.00)",
-          "nodeId": 7389
+          "nodeId": 7411
         },
         {
           "name": "[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 1.00 = (4.00, 6.00, 8.00)",
-          "nodeId": 7407
+          "nodeId": 7429
         },
         {
           "name": "[a] (1.00, 2.00, 2.00) [b] (1.00, 2.00, 2.00) [c] 0.50 = (1.00, 2.00, 2.00)",
-          "nodeId": 7425
+          "nodeId": 7447
         }
       ],
       "subTests": [
@@ -8644,19 +8649,19 @@
       "entryPoints": [
         {
           "name": "[a] 0.00 [b] 1.00 [c] 0.25 = 0.16",
-          "nodeId": 7443
+          "nodeId": 7465
         },
         {
           "name": "[a] (0.00, 0.20) [b] (1.00, 0.80) [c] (0.50, 0.50) = (0.50, 0.50)",
-          "nodeId": 7458
+          "nodeId": 7480
         },
         {
           "name": "[a] (0.00, 0.00, 0.00) [b] (1.00, 2.00, 4.00) [c] (0.50, 1.00, 3.00) = (0.50, 0.50, 0.84)",
-          "nodeId": 7476
+          "nodeId": 7498
         },
         {
           "name": "[a] (0.00, 0.00, 0.00, 0.00) [b] (1.00, 1.00, 1.00, 1.00) [c] (0.10, 0.40, 0.60, 0.90) = (0.03, 0.35, 0.65, 0.97)",
-          "nodeId": 7494
+          "nodeId": 7516
         }
       ],
       "subTests": [
@@ -8737,27 +8742,27 @@
       "entryPoints": [
         {
           "name": "[a] 4556.23 = 67.50",
-          "nodeId": 7512
+          "nodeId": 7534
         },
         {
           "name": "[a] -4.00 = NaN",
-          "nodeId": 7527
+          "nodeId": 7549
         },
         {
           "name": "[a] 0.00 = 0.00",
-          "nodeId": 7541
+          "nodeId": 7563
         },
         {
           "name": "[a] (4556.23, 4556.23) = (67.50, 67.50)",
-          "nodeId": 7556
+          "nodeId": 7578
         },
         {
           "name": "[a] (4556.23, 4556.23, 4556.23) = (67.50, 67.50, 67.50)",
-          "nodeId": 7574
+          "nodeId": 7596
         },
         {
           "name": "[a] (4556.23, 4556.23, 4556.23, 4556.23) = (67.50, 67.50, 67.50, 67.50)",
-          "nodeId": 7592
+          "nodeId": 7614
         }
       ],
       "subTests": [
@@ -8852,15 +8857,15 @@
       "entryPoints": [
         {
           "name": "[a] 7.00 [b] 9.00 = -2.00",
-          "nodeId": 7610
+          "nodeId": 7632
         },
         {
           "name": "[a] 10 [b] 4 = 6",
-          "nodeId": 7623
+          "nodeId": 7645
         },
         {
           "name": "[a] -2147483648 [b] 1 = 2147483647",
-          "nodeId": 7636
+          "nodeId": 7658
         }
       ],
       "subTests": [
@@ -8916,15 +8921,15 @@
       "entryPoints": [
         {
           "name": "Selection",
-          "nodeId": 7649
+          "nodeId": 7671
         },
         {
           "name": "Default",
-          "nodeId": 7662
+          "nodeId": 7684
         },
         {
           "name": "Negative Cases [-2,-1,0]",
-          "nodeId": 7675
+          "nodeId": 7697
         }
       ],
       "subTests": [
@@ -8988,27 +8993,27 @@
       "entryPoints": [
         {
           "name": "[a] 4.32 = 2.44",
-          "nodeId": 7688
+          "nodeId": 7710
         },
         {
           "name": "[a] Infinity = NaN",
-          "nodeId": 7704
+          "nodeId": 7726
         },
         {
           "name": "[a] -Infinity = NaN",
-          "nodeId": 7720
+          "nodeId": 7742
         },
         {
           "name": "[a] (4.32, 4.32) = (2.44, 2.44)",
-          "nodeId": 7734
+          "nodeId": 7756
         },
         {
           "name": "[a] (4.32, 4.32, 4.32) = (2.44, 2.44, 2.44)",
-          "nodeId": 7752
+          "nodeId": 7774
         },
         {
           "name": "[a] (4.32, 4.32, 4.32, 4.32) = (2.44, 2.44, 2.44, 2.44)",
-          "nodeId": 7770
+          "nodeId": 7792
         }
       ],
       "subTests": [
@@ -9110,19 +9115,19 @@
       "entryPoints": [
         {
           "name": "[a] 4.32 = 1.00",
-          "nodeId": 7788
+          "nodeId": 7810
         },
         {
           "name": "[a] (4.32, 4.32) = (1.00, 1.00)",
-          "nodeId": 7803
+          "nodeId": 7825
         },
         {
           "name": "[a] (4.32, 4.32, 4.32) = (1.00, 1.00, 1.00)",
-          "nodeId": 7821
+          "nodeId": 7843
         },
         {
           "name": "[a] (4.32, 4.32, 4.32, 4.32) = (1.00, 1.00, 1.00, 1.00)",
-          "nodeId": 7839
+          "nodeId": 7861
         }
       ],
       "subTests": [
@@ -9197,7 +9202,7 @@
       "entryPoints": [
         {
           "name": "= 6.28",
-          "nodeId": 7857
+          "nodeId": 7879
         }
       ],
       "subTests": [
@@ -9235,7 +9240,7 @@
       "entryPoints": [
         {
           "name": "[a] (1.00, 2.00, 3.00, 4.00) [b] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0] = (5.00, 2.00, 3.00, 4.00)",
-          "nodeId": 7872
+          "nodeId": 7894
         }
       ],
       "subTests": [
@@ -9276,7 +9281,7 @@
       "entryPoints": [
         {
           "name": "[a] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] = [1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0]",
-          "nodeId": 7890
+          "nodeId": 7912
         }
       ],
       "subTests": [
@@ -9328,7 +9333,7 @@
       "entryPoints": [
         {
           "name": "math/transpose2x2",
-          "nodeId": 7967
+          "nodeId": 7989
         }
       ],
       "subTests": [
@@ -9398,7 +9403,7 @@
       "entryPoints": [
         {
           "name": "math/transpose3x3",
-          "nodeId": 8020
+          "nodeId": 8042
         }
       ],
       "subTests": [
@@ -9520,23 +9525,23 @@
       "entryPoints": [
         {
           "name": "[a] 9.23 = 9.00",
-          "nodeId": 8132
+          "nodeId": 8154
         },
         {
           "name": "[a] (9.23, 9.23) = (9.00, 9.00)",
-          "nodeId": 8145
+          "nodeId": 8167
         },
         {
           "name": "[a] (9.23, 9.23, 9.23) = (9.00, 9.00, 9.00)",
-          "nodeId": 8158
+          "nodeId": 8180
         },
         {
           "name": "[a] (9.23, 9.23, 9.23, 9.23) = (9.00, 9.00, 9.00, 9.00)",
-          "nodeId": 8171
+          "nodeId": 8193
         },
         {
           "name": "[a] [9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2] = [9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0]",
-          "nodeId": 8184
+          "nodeId": 8206
         }
       ],
       "subTests": [
@@ -9635,15 +9640,15 @@
       "entryPoints": [
         {
           "name": "[a] True [b] False = True",
-          "nodeId": 8197
+          "nodeId": 8219
         },
         {
           "name": "[a] False [b] False = False",
-          "nodeId": 8210
+          "nodeId": 8232
         },
         {
           "name": "[a] True [b] True = False",
-          "nodeId": 8223
+          "nodeId": 8245
         }
       ],
       "subTests": [
