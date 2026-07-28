@@ -3,7 +3,10 @@
     "label": "Calculator",
     "name": "Calculator",
     "screenshot": "screenshot/screenshot.png",
-    "tags": ["interactivity", "showcase"],
+    "tags": [
+      "interactivity",
+      "showcase"
+    ],
     "variants": {
       "glTF": "Calculator.gltf",
       "glTF-Binary": "Calculator.glb"
@@ -13,19 +16,25 @@
     "label": "Construction Site",
     "name": "ConstructionSite",
     "screenshot": "screenshot/screenshot.png",
-    "description" : "Click the lamps to activate them.",
-    "tags": ["interactivity", "showcase"],
+    "description": "Click the lamps to activate them.",
+    "tags": [
+      "interactivity",
+      "showcase"
+    ],
     "variants": {
       "glTF": "ConstructionSite.gltf",
       "glTF-Binary": "ConstructionSite.glb"
     }
   },
-    {
+  {
     "label": "Ghost",
     "name": "Ghost",
     "screenshot": "screenshot/screenshot.png",
     "description": "Hover over the ghost to trigger animation",
-    "tags": ["interactivity", "showcase"],
+    "tags": [
+      "interactivity",
+      "showcase"
+    ],
     "variants": {
       "glTF": "ghost_v2.gltf",
       "glTF-Binary": "ghost_v2.glb"
@@ -36,7 +45,10 @@
     "name": "MagicBall",
     "screenshot": "screenshot/screenshot.png",
     "description": "Click on the center of the ball to shuffle the texts.",
-    "tags": ["interactivity", "showcase"],
+    "tags": [
+      "interactivity",
+      "showcase"
+    ],
     "variants": {
       "glTF": "MagicBall.gltf",
       "glTF-Binary": "MagicBall.glb"
@@ -47,7 +59,10 @@
     "name": "SnailRace",
     "screenshot": "screenshot/screenshot.png",
     "description": "Click on one of the GO-buttons, to trigger a movement.",
-    "tags": ["interactivity", "showcase"],
+    "tags": [
+      "interactivity",
+      "showcase"
+    ],
     "variants": {
       "glTF": "SnailRace.gltf",
       "glTF-Binary": "SnailRace.glb"
@@ -58,7 +73,10 @@
     "name": "Sundial",
     "description": "Click on one the spheres to move the sun to it.",
     "screenshot": "screenshot/screenshot.png",
-    "tags": ["interactivity", "showcase"],
+    "tags": [
+      "interactivity",
+      "showcase"
+    ],
     "variants": {
       "glTF": "Sundial.gltf",
       "glTF-Binary": "Sundial.glb"
@@ -69,7 +87,10 @@
     "name": "TrafficLight",
     "screenshot": "screenshot/screenshot.png",
     "description": "Left Traffic Light: Click on the button to start the sequence. Right Traffic Light: Click on the button to switch to next phase.",
-    "tags": ["interactivity", "showcase"],
+    "tags": [
+      "interactivity",
+      "showcase"
+    ],
     "variants": {
       "glTF": "TrafficLight.gltf",
       "glTF-Binary": "TrafficLight.glb"
@@ -79,8 +100,11 @@
     "label": "Puzzle",
     "name": "Puzzle",
     "screenshot": "screenshot/screenshot.png",
-    "description": "Select a puzzle piece and then click on one of the fields or spheres, to let move it to the position. ",
-    "tags": ["interactivity", "showcase"],
+    "description": "Select a puzzle piece and then click on one of the fields or spheres, to let move it to the position.",
+    "tags": [
+      "interactivity",
+      "showcase"
+    ],
     "variants": {
       "glTF": "PlaceOnClickPuzzle.gltf",
       "glTF-Binary": "PlaceOnClickPuzzle.glb"
@@ -90,7 +114,10 @@
     "label": "Events",
     "name": "Events",
     "screenshot": "screenshot/screenshot.png",
-    "tags": ["interactivity", "showcase"],
+    "tags": [
+      "interactivity",
+      "showcase"
+    ],
     "variants": {
       "glTF": "Events.gltf",
       "glTF-Binary": "Events.glb"
@@ -101,7 +128,10 @@
     "name": "WhackAMole",
     "screenshot": "screenshot/screenshot.png",
     "description": "Click on the moles to get disappear them",
-    "tags": ["interactivity", "showcase"],
+    "tags": [
+      "interactivity",
+      "showcase"
+    ],
     "variants": {
       "glTF": "WhackAMole.gltf",
       "glTF-Binary": "WhackAMole.glb"
@@ -112,7 +142,10 @@
     "name": "BowShooting",
     "screenshot": "screenshot/screenshot.png",
     "description": "Click at first on the ground plane to lock the angle, click again to select the strengh.",
-    "tags": ["interactivity", "showcase"],
+    "tags": [
+      "interactivity",
+      "showcase"
+    ],
     "variants": {
       "glTF": "BowShooting.gltf",
       "glTF-Binary": "BowShooting.glb"
@@ -122,7 +155,10 @@
     "label": "Flocking",
     "name": "Flocking",
     "screenshot": "screenshot/screenshot.png",
-    "tags": ["interactivity", "showcase"],
+    "tags": [
+      "interactivity",
+      "showcase"
+    ],
     "variants": {
       "glTF": "Flocking.gltf",
       "glTF-Binary": "Flocking.glb"
@@ -131,13 +167,15 @@
   {
     "label": "Physics Math",
     "name": "PhysicsMath",
-    "description" : "Optional: Click on a ball to reset the position.",
+    "description": "Optional: Click on a ball to reset the position.",
     "screenshot": "screenshot/screenshot.png",
-    "tags": ["interactivity", "showcase"],
+    "tags": [
+      "interactivity",
+      "showcase"
+    ],
     "variants": {
       "glTF": "PhysicsMath.gltf",
       "glTF-Binary": "PhysicsMath.glb"
     }
   }
-
 ]
