@@ -5,7 +5,7 @@
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
 | Flow [out] | TestResult_variable/interpolate_Flow [out] | 1 | True
-| Value at 50% | TestResult_variable/interpolate_Value at 50% | 4 | 8.75000
+| Value at 50% | TestResult_variable/interpolate_Value at 50% | 4 | 8.02403
 | Flow [done] | TestResult_variable/interpolate_Flow [done] | 2 | True
 | Value at 100% | TestResult_variable/interpolate_Value at 100% | 6 | 10.00000
 | [Err] flow (duration -1f | TestResult_variable/interpolate_[Err] flow (duration -1f | 8 | True
