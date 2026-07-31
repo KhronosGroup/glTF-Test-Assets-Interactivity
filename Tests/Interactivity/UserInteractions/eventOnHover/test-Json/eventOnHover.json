@@ -1,0 +1,150 @@
+{
+  "glbFileName": "eventOnHover.glb",
+  "name": "UserInteractions/eventOnHover",
+  "tests": [
+    {
+      "name": "UserInteractions/eventOnHover",
+      "description": "KHR_node_hoverability / event/onHoverIn + event/onHoverOut. Hover the LEFT cube (move onto it and away again - must fire). Do NOT hover the MIDDLE cube (hoverable=false) or the small cube on top of the RIGHT cube (inherited hoverable=false) - no interaction with them is required, they only fail if you hover them anyway.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onHoverIn",
+        "event/onHoverOut",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/eq",
+        "math/ge",
+        "pointer/set",
+        "ref/eq",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Hover the cubes (delayed execution) (requires user interaction)",
+          "nodeId": 0,
+          "delayedExecutionTime": 20.0,
+          "requiresUserInteraction": true
+        }
+      ],
+      "subTests": [
+        {
+          "name": "onHoverIn: flow fired",
+          "resultVarName": "TestResult_UserInteractions/eventOnHover_onHoverIn: flow fired",
+          "resultVarId": 0,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverIn: flow fired"
+        },
+        {
+          "name": "onHoverIn: hoveredNode == target",
+          "resultVarName": "TestResult_UserInteractions/eventOnHover_onHoverIn: hoveredNode == target",
+          "resultVarId": 2,
+          "resultVarType": "ref",
+          "expectedResultValue": [
+            "/nodes/3"
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverIn: hoveredNode == target"
+        },
+        {
+          "name": "onHoverIn: controllerIndex >= 0",
+          "resultVarName": "TestResult_UserInteractions/eventOnHover_onHoverIn: controllerIndex >= 0",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverIn: controllerIndex >= 0"
+        },
+        {
+          "name": "onHoverOut: flow fired",
+          "resultVarName": "TestResult_UserInteractions/eventOnHover_onHoverOut: flow fired",
+          "resultVarId": 6,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverOut: flow fired"
+        },
+        {
+          "name": "onHoverOut: hoveredNode == target",
+          "resultVarName": "TestResult_UserInteractions/eventOnHover_onHoverOut: hoveredNode == target",
+          "resultVarId": 8,
+          "resultVarType": "ref",
+          "expectedResultValue": [
+            "/nodes/3"
+          ],
+          "successResultVarId": 7,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverOut: hoveredNode == target"
+        },
+        {
+          "name": "onHoverIn: hoverable=false NOT fired",
+          "resultVarName": "TestResult_UserInteractions/eventOnHover_onHoverIn: hoverable=false NOT fired",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverIn: hoverable=false NOT fired"
+        },
+        {
+          "name": "onHoverIn: inherited hoverable=false NOT fired",
+          "resultVarName": "TestResult_UserInteractions/eventOnHover_onHoverIn: inherited hoverable=false NOT fired",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverIn: inherited hoverable=false NOT fired"
+        }
+      ],
+      "requiredInteractions": [
+        {
+          "type": "hover",
+          "expectation": "mustFire",
+          "targetNodeId": 3,
+          "targetNodeName": "OnHover_Hoverable",
+          "notes": "Move the pointer/controller onto this node, then off it again - both event/onHoverIn and event/onHoverOut must fire."
+        },
+        {
+          "type": "hover",
+          "expectation": "mustNotFire",
+          "targetNodeId": 4,
+          "targetNodeName": "OnHover_NonHoverable",
+          "notes": "hoverable=false on this node - event/onHoverIn must never fire for it."
+        },
+        {
+          "type": "hover",
+          "expectation": "mustNotFire",
+          "targetNodeId": 6,
+          "targetNodeName": "OnHover_ChildOfNonHoverable",
+          "notes": "Inherits hoverable=false from its parent - event/onHoverIn must never fire for it."
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onHoverIn",
+    "event/onHoverOut",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/eq",
+    "math/ge",
+    "pointer/set",
+    "ref/eq",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -41,6 +41,7 @@ Tests/
     ├── ref/       (eq)
     ├── prerequisites/   # operations that MUST work for other tests to be meaningful
     ├── InterGlb/        # multi-file (inter-glTF) communication tests
+    ├── UserInteractions/# hover/select tests that need a simulated pointer gesture (see below)
     └── Extras/          # composite scenarios (Loop-in-Loop, Matrix updates)
 ```
 
@@ -136,6 +137,11 @@ Field reference:
 - `expectedResultValue` — the correct value (an array, because vectors/matrices have multiple components).
 - `resultVarType` — how to interpret/compare the value (`float` comparisons use an epsilon; `int`/`bool` compare exactly).
 - `successResultVarId` / `successResultVarName` — the boolean "did this sub-test pass" variable, computed **inside the graph** by the asset itself.
+- `requiredInteractions[]` — **present only** on tests that need a simulated pointer gesture to
+  be meaningful (currently `UserInteractions/eventOnHover` and `UserInteractions/eventOnSelect`).
+  Absent entirely on regular, self-checking tests. See
+  [`UserInteractions/README.md`](UserInteractions/README.md#how-to-run-these-automatically) for
+  the full field reference and a suggested automated flow.
 
 Because the pass/fail logic is baked into the graph, an engine does **not** need to
 re-implement the comparison — it only needs to run the graph and read the boolean
@@ -235,6 +241,16 @@ The `InterGlb` cases (e.g. `RefEcho_FileA` / `RefEcho_FileB`) test communication
 between two separate glTF assets. Load **both** files into the same interactivity
 runtime/scene, then read results exactly as above. Skip these if your engine does not
 support cross-document interactivity.
+
+### Manual / simulated-input (`UserInteractions/`) tests
+The `UserInteractions` cases (`eventOnHover`, `eventOnSelect`) verify pointer-driven events
+(`KHR_node_hoverability`, `KHR_node_selectability`). Unlike every other test, they cannot pass
+on their own — a hover/select gesture has to be performed *during* the interaction window,
+either by a human tester or by a runner that synthesizes the input. Their oracle JSON carries an
+extra `requiredInteractions[]` array telling an automated runner exactly which node to target
+and what gesture to simulate. Skip these (mark as **skipped**, not failed) if your test harness
+cannot simulate hover/select input; see
+[`UserInteractions/README.md`](UserInteractions/README.md) for full details.
 
 ---
 

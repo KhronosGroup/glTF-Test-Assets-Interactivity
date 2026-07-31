@@ -1,0 +1,143 @@
+{
+  "glbFileName": "eventOnSelect.glb",
+  "name": "UserInteractions/eventOnSelect",
+  "tests": [
+    {
+      "name": "UserInteractions/eventOnSelect",
+      "description": "KHR_node_selectability / event/onSelect. Select the LEFT cube (must fire event/onSelect). Do NOT select the MIDDLE cube (selectable=false) or the small cube on top of the RIGHT cube (inherited selectable=false) - no interaction with them is required, they only fail if you select them anyway.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onSelect",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/eq",
+        "math/extract3",
+        "math/ge",
+        "math/isNaN",
+        "math/or",
+        "pointer/set",
+        "ref/eq",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Select the cubes (delayed execution) (requires user interaction)",
+          "nodeId": 0,
+          "delayedExecutionTime": 20.0,
+          "requiresUserInteraction": true
+        }
+      ],
+      "subTests": [
+        {
+          "name": "onSelect: flow fired",
+          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: flow fired",
+          "resultVarId": 0,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: flow fired"
+        },
+        {
+          "name": "onSelect: selectedNode == target",
+          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: selectedNode == target",
+          "resultVarId": 2,
+          "resultVarType": "ref",
+          "expectedResultValue": [
+            "/nodes/3"
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: selectedNode == target"
+        },
+        {
+          "name": "onSelect: controllerIndex >= 0",
+          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: controllerIndex >= 0",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: controllerIndex >= 0"
+        },
+        {
+          "name": "onSelect: selectionRayOrigin finite",
+          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: selectionRayOrigin finite",
+          "resultVarId": 6,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: selectionRayOrigin finite"
+        },
+        {
+          "name": "onSelect: selectable=false NOT fired",
+          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: selectable=false NOT fired",
+          "resultVarId": 8,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 9,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: selectable=false NOT fired"
+        },
+        {
+          "name": "onSelect: inherited selectable=false NOT fired",
+          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: inherited selectable=false NOT fired",
+          "resultVarId": 10,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 11,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: inherited selectable=false NOT fired"
+        }
+      ],
+      "requiredInteractions": [
+        {
+          "type": "select",
+          "expectation": "mustFire",
+          "targetNodeId": 3,
+          "targetNodeName": "OnSelect_Selectable",
+          "notes": "Select (click/tap/point-and-trigger) this node - event/onSelect must fire for it."
+        },
+        {
+          "type": "select",
+          "expectation": "mustNotFire",
+          "targetNodeId": 4,
+          "targetNodeName": "OnSelect_NonSelectable",
+          "notes": "selectable=false on this node - event/onSelect must never fire for it."
+        },
+        {
+          "type": "select",
+          "expectation": "mustNotFire",
+          "targetNodeId": 6,
+          "targetNodeName": "OnSelect_ChildOfNonSelectable",
+          "notes": "Inherits selectable=false from its parent - event/onSelect must never fire for it."
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onSelect",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/eq",
+    "math/extract3",
+    "math/ge",
+    "math/isNaN",
+    "math/or",
+    "pointer/set",
+    "ref/eq",
+    "variable/get",
+    "variable/set"
+  ]
+}
