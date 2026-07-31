@@ -6,7 +6,7 @@ glTF extension. Each asset is a small, self‑checking interactivity graph: it r
 a set of operations, compares the results against known‑good expected values, and
 records whether every sub‑test passed.
 
-> **Current coverage:** 130 test cases · 647 sub-tests.
+> **Current coverage:** 149 test cases · 831 sub-tests.
 
 The assets are meant to be used two ways:
 
