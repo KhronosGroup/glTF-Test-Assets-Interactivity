@@ -113,39 +113,39 @@
           "nodeId": 502
         },
         {
-          "name": "pbrMetallicRoughness/baseColorFactor",
+          "name": "/baseColorFactor",
           "nodeId": 517
         },
         {
-          "name": "pbrMetallicRoughness/metallicFactor",
+          "name": "/metallicFactor",
           "nodeId": 532
         },
         {
-          "name": "pbrMetallicRoughness/roughnessFactor",
+          "name": "/roughnessFactor",
           "nodeId": 547
         },
         {
-          "name": "pbrMetallicRoughness/baseColorTexture texture offset",
+          "name": "/baseColorTexture texture offset",
           "nodeId": 562
         },
         {
-          "name": "pbrMetallicRoughness/baseColorTexture texture rotation",
+          "name": "/baseColorTexture texture rotation",
           "nodeId": 577
         },
         {
-          "name": "pbrMetallicRoughness/baseColorTexture texture scale",
+          "name": "/baseColorTexture texture scale",
           "nodeId": 594
         },
         {
-          "name": "pbrMetallicRoughness/metallicRoughnessTexture texture offset",
+          "name": "/metallicRoughnessTexture texture offset",
           "nodeId": 609
         },
         {
-          "name": "pbrMetallicRoughness/metallicRoughnessTexture texture rotation",
+          "name": "/metallicRoughnessTexture texture rotation",
           "nodeId": 624
         },
         {
-          "name": "pbrMetallicRoughness/metallicRoughnessTexture texture scale",
+          "name": "/metallicRoughnessTexture texture scale",
           "nodeId": 641
         },
         {
@@ -616,8 +616,8 @@
           "successResultVarName": "TestResult_HasPassed_pointer/set and get_/emissiveTexture texture scale"
         },
         {
-          "name": "pbrMetallicRoughness/baseColorFactor",
-          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/baseColorFactor",
+          "name": "/baseColorFactor",
+          "resultVarName": "TestResult_pointer/set and get_/baseColorFactor",
           "resultVarId": 47,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -627,33 +627,33 @@
             1.0
           ],
           "successResultVarId": 46,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorFactor"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/baseColorFactor"
         },
         {
-          "name": "pbrMetallicRoughness/metallicFactor",
-          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicFactor",
+          "name": "/metallicFactor",
+          "resultVarName": "TestResult_pointer/set and get_/metallicFactor",
           "resultVarId": 49,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5
           ],
           "successResultVarId": 48,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicFactor"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/metallicFactor"
         },
         {
-          "name": "pbrMetallicRoughness/roughnessFactor",
-          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/roughnessFactor",
+          "name": "/roughnessFactor",
+          "resultVarName": "TestResult_pointer/set and get_/roughnessFactor",
           "resultVarId": 51,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5
           ],
           "successResultVarId": 50,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/roughnessFactor"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/roughnessFactor"
         },
         {
-          "name": "pbrMetallicRoughness/baseColorTexture texture offset",
-          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture offset",
+          "name": "/baseColorTexture texture offset",
+          "resultVarName": "TestResult_pointer/set and get_/baseColorTexture texture offset",
           "resultVarId": 53,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -661,22 +661,22 @@
             3.0
           ],
           "successResultVarId": 52,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture offset"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/baseColorTexture texture offset"
         },
         {
-          "name": "pbrMetallicRoughness/baseColorTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture rotation",
+          "name": "/baseColorTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_/baseColorTexture texture rotation",
           "resultVarId": 55,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
           "successResultVarId": 54,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture rotation"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/baseColorTexture texture rotation"
         },
         {
-          "name": "pbrMetallicRoughness/baseColorTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture scale",
+          "name": "/baseColorTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_/baseColorTexture texture scale",
           "resultVarId": 57,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -684,11 +684,11 @@
             3.0
           ],
           "successResultVarId": 56,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/baseColorTexture texture scale"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/baseColorTexture texture scale"
         },
         {
-          "name": "pbrMetallicRoughness/metallicRoughnessTexture texture offset",
-          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture offset",
+          "name": "/metallicRoughnessTexture texture offset",
+          "resultVarName": "TestResult_pointer/set and get_/metallicRoughnessTexture texture offset",
           "resultVarId": 59,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -696,22 +696,22 @@
             3.0
           ],
           "successResultVarId": 58,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture offset"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/metallicRoughnessTexture texture offset"
         },
         {
-          "name": "pbrMetallicRoughness/metallicRoughnessTexture texture rotation",
-          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture rotation",
+          "name": "/metallicRoughnessTexture texture rotation",
+          "resultVarName": "TestResult_pointer/set and get_/metallicRoughnessTexture texture rotation",
           "resultVarId": 61,
           "resultVarType": "float",
           "expectedResultValue": [
             0.7853982
           ],
           "successResultVarId": 60,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture rotation"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/metallicRoughnessTexture texture rotation"
         },
         {
-          "name": "pbrMetallicRoughness/metallicRoughnessTexture texture scale",
-          "resultVarName": "TestResult_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture scale",
+          "name": "/metallicRoughnessTexture texture scale",
+          "resultVarName": "TestResult_pointer/set and get_/metallicRoughnessTexture texture scale",
           "resultVarId": 63,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -719,7 +719,7 @@
             3.0
           ],
           "successResultVarId": 62,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_pbrMetallicRoughness/metallicRoughnessTexture texture scale"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/metallicRoughnessTexture texture scale"
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyStrength",

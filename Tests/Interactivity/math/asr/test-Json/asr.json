@@ -20,6 +20,30 @@
         {
           "name": "[a] 14 [b] 2 = 3",
           "nodeId": 1
+        },
+        {
+          "name": "[a] -16 [b] 2 = -4",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] -2147483648 [b] 31 = -1",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] -16 [b] 0 = -16",
+          "nodeId": 56
+        },
+        {
+          "name": "[a] -16 [b] 32 = -16",
+          "nodeId": 69
+        },
+        {
+          "name": "[a] -16 [b] 33 = -8",
+          "nodeId": 82
+        },
+        {
+          "name": "[a] -2147483648 [b] -1 = -1",
+          "nodeId": 95
         }
       ],
       "subTests": [
@@ -33,6 +57,72 @@
           ],
           "successResultVarId": 0,
           "successResultVarName": "TestResult_HasPassed_math/asr_[a] 14 [b] 2 = 3"
+        },
+        {
+          "name": "[a] -16 [b] 2 = -4",
+          "resultVarName": "TestResult_math/asr_[a] -16 [b] 2 = -4",
+          "resultVarId": 3,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -4
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/asr_[a] -16 [b] 2 = -4"
+        },
+        {
+          "name": "[a] -2147483648 [b] 31 = -1",
+          "resultVarName": "TestResult_math/asr_[a] -2147483648 [b] 31 = -1",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -1
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/asr_[a] -2147483648 [b] 31 = -1"
+        },
+        {
+          "name": "[a] -16 [b] 0 = -16",
+          "resultVarName": "TestResult_math/asr_[a] -16 [b] 0 = -16",
+          "resultVarId": 7,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -16
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/asr_[a] -16 [b] 0 = -16"
+        },
+        {
+          "name": "[a] -16 [b] 32 = -16",
+          "resultVarName": "TestResult_math/asr_[a] -16 [b] 32 = -16",
+          "resultVarId": 9,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -16
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/asr_[a] -16 [b] 32 = -16"
+        },
+        {
+          "name": "[a] -16 [b] 33 = -8",
+          "resultVarName": "TestResult_math/asr_[a] -16 [b] 33 = -8",
+          "resultVarId": 11,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -8
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/asr_[a] -16 [b] 33 = -8"
+        },
+        {
+          "name": "[a] -2147483648 [b] -1 = -1",
+          "resultVarName": "TestResult_math/asr_[a] -2147483648 [b] -1 = -1",
+          "resultVarId": 13,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -1
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/asr_[a] -2147483648 [b] -1 = -1"
         }
       ]
     }

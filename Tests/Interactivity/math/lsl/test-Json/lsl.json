@@ -20,6 +20,30 @@
         {
           "name": "[a] 20 [b] 2 = 80",
           "nodeId": 1
+        },
+        {
+          "name": "[a] 1 [b] 31 = -2147483648",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] 252645135 [b] 8 = 252645120",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] -1 [b] 1 = -2",
+          "nodeId": 56
+        },
+        {
+          "name": "[a] 20 [b] 0 = 20",
+          "nodeId": 69
+        },
+        {
+          "name": "[a] 20 [b] 32 = 20",
+          "nodeId": 82
+        },
+        {
+          "name": "[a] 20 [b] 33 = 40",
+          "nodeId": 95
         }
       ],
       "subTests": [
@@ -33,6 +57,72 @@
           ],
           "successResultVarId": 0,
           "successResultVarName": "TestResult_HasPassed_math/lsl_[a] 20 [b] 2 = 80"
+        },
+        {
+          "name": "[a] 1 [b] 31 = -2147483648",
+          "resultVarName": "TestResult_math/lsl_[a] 1 [b] 31 = -2147483648",
+          "resultVarId": 3,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -2147483648
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/lsl_[a] 1 [b] 31 = -2147483648"
+        },
+        {
+          "name": "[a] 252645135 [b] 8 = 252645120",
+          "resultVarName": "TestResult_math/lsl_[a] 252645135 [b] 8 = 252645120",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            252645120
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/lsl_[a] 252645135 [b] 8 = 252645120"
+        },
+        {
+          "name": "[a] -1 [b] 1 = -2",
+          "resultVarName": "TestResult_math/lsl_[a] -1 [b] 1 = -2",
+          "resultVarId": 7,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -2
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/lsl_[a] -1 [b] 1 = -2"
+        },
+        {
+          "name": "[a] 20 [b] 0 = 20",
+          "resultVarName": "TestResult_math/lsl_[a] 20 [b] 0 = 20",
+          "resultVarId": 9,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            20
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/lsl_[a] 20 [b] 0 = 20"
+        },
+        {
+          "name": "[a] 20 [b] 32 = 20",
+          "resultVarName": "TestResult_math/lsl_[a] 20 [b] 32 = 20",
+          "resultVarId": 11,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            20
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/lsl_[a] 20 [b] 32 = 20"
+        },
+        {
+          "name": "[a] 20 [b] 33 = 40",
+          "resultVarName": "TestResult_math/lsl_[a] 20 [b] 33 = 40",
+          "resultVarId": 13,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            40
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/lsl_[a] 20 [b] 33 = 40"
         }
       ]
     }

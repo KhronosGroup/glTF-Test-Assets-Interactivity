@@ -32,7 +32,19 @@
         },
         {
           "name": "One mesh and one node in ref/eq",
-          "nodeId": 52
+          "nodeId": 58
+        },
+        {
+          "name": "Connected mesh ref and same static mesh ref in ref/eq",
+          "nodeId": 73
+        },
+        {
+          "name": "Connected mesh ref and static node ref in ref/eq",
+          "nodeId": 87
+        },
+        {
+          "name": "Connected child node ref and same static node ref in ref/eq",
+          "nodeId": 101
         }
       ],
       "subTests": [
@@ -79,6 +91,39 @@
           ],
           "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_ref/eq_mesh == node"
+        },
+        {
+          "name": "mesh (from node) == mesh (static value)",
+          "resultVarName": "TestResult_ref/eq_mesh (from node) == mesh (static value)",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_ref/eq_mesh (from node) == mesh (static value)"
+        },
+        {
+          "name": "mesh (from node) == node (static value)",
+          "resultVarName": "TestResult_ref/eq_mesh (from node) == node (static value)",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_ref/eq_mesh (from node) == node (static value)"
+        },
+        {
+          "name": "child node (from node) == child node (static value)",
+          "resultVarName": "TestResult_ref/eq_child node (from node) == child node (static value)",
+          "resultVarId": 13,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_ref/eq_child node (from node) == child node (static value)"
         }
       ]
     }

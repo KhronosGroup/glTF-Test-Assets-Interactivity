@@ -20,6 +20,22 @@
         {
           "name": "[a] 20 = 27",
           "nodeId": 1
+        },
+        {
+          "name": "[a] 0 = 32",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] 1 = 31",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] -2147483648 = 0",
+          "nodeId": 52
+        },
+        {
+          "name": "[a] -1 = 0",
+          "nodeId": 65
         }
       ],
       "subTests": [
@@ -33,6 +49,50 @@
           ],
           "successResultVarId": 0,
           "successResultVarName": "TestResult_HasPassed_math/clz_[a] 20 = 27"
+        },
+        {
+          "name": "[a] 0 = 32",
+          "resultVarName": "TestResult_math/clz_[a] 0 = 32",
+          "resultVarId": 3,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            32
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/clz_[a] 0 = 32"
+        },
+        {
+          "name": "[a] 1 = 31",
+          "resultVarName": "TestResult_math/clz_[a] 1 = 31",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            31
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/clz_[a] 1 = 31"
+        },
+        {
+          "name": "[a] -2147483648 = 0",
+          "resultVarName": "TestResult_math/clz_[a] -2147483648 = 0",
+          "resultVarId": 7,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/clz_[a] -2147483648 = 0"
+        },
+        {
+          "name": "[a] -1 = 0",
+          "resultVarName": "TestResult_math/clz_[a] -1 = 0",
+          "resultVarId": 9,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/clz_[a] -1 = 0"
         }
       ]
     }

@@ -24,6 +24,18 @@
         {
           "name": "[a] False = True",
           "nodeId": 15
+        },
+        {
+          "name": "[a] 0 = -1",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] -1 = 0",
+          "nodeId": 52
+        },
+        {
+          "name": "[a] -2147483648 = 2147483647",
+          "nodeId": 65
         }
       ],
       "subTests": [
@@ -48,6 +60,39 @@
           ],
           "successResultVarId": 2,
           "successResultVarName": "TestResult_HasPassed_math/not_[a] False = True"
+        },
+        {
+          "name": "[a] 0 = -1",
+          "resultVarName": "TestResult_math/not_[a] 0 = -1",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -1
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/not_[a] 0 = -1"
+        },
+        {
+          "name": "[a] -1 = 0",
+          "resultVarName": "TestResult_math/not_[a] -1 = 0",
+          "resultVarId": 7,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/not_[a] -1 = 0"
+        },
+        {
+          "name": "[a] -2147483648 = 2147483647",
+          "resultVarName": "TestResult_math/not_[a] -2147483648 = 2147483647",
+          "resultVarId": 9,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2147483647
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/not_[a] -2147483648 = 2147483647"
         }
       ]
     }

@@ -28,6 +28,14 @@
         {
           "name": "[a] True [b] True = True",
           "nodeId": 29
+        },
+        {
+          "name": "[a] 0 [b] -1 = -1",
+          "nodeId": 52
+        },
+        {
+          "name": "[a] 2147483647 [b] -2147483648 = -1",
+          "nodeId": 65
         }
       ],
       "subTests": [
@@ -63,6 +71,28 @@
           ],
           "successResultVarId": 4,
           "successResultVarName": "TestResult_HasPassed_math/or_[a] True [b] True = True"
+        },
+        {
+          "name": "[a] 0 [b] -1 = -1",
+          "resultVarName": "TestResult_math/or_[a] 0 [b] -1 = -1",
+          "resultVarId": 7,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -1
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/or_[a] 0 [b] -1 = -1"
+        },
+        {
+          "name": "[a] 2147483647 [b] -2147483648 = -1",
+          "resultVarName": "TestResult_math/or_[a] 2147483647 [b] -2147483648 = -1",
+          "resultVarId": 9,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -1
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/or_[a] 2147483647 [b] -2147483648 = -1"
         }
       ]
     }

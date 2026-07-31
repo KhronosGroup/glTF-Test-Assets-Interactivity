@@ -20,6 +20,18 @@
         {
           "name": "[a] 23 = 4",
           "nodeId": 1
+        },
+        {
+          "name": "[a] 0 = 0",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] -1 = 32",
+          "nodeId": 29
+        },
+        {
+          "name": "[a] -2147483648 = 1",
+          "nodeId": 50
         }
       ],
       "subTests": [
@@ -33,6 +45,39 @@
           ],
           "successResultVarId": 0,
           "successResultVarName": "TestResult_HasPassed_math/popcnt_[a] 23 = 4"
+        },
+        {
+          "name": "[a] 0 = 0",
+          "resultVarName": "TestResult_math/popcnt_[a] 0 = 0",
+          "resultVarId": 3,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/popcnt_[a] 0 = 0"
+        },
+        {
+          "name": "[a] -1 = 32",
+          "resultVarName": "TestResult_math/popcnt_[a] -1 = 32",
+          "resultVarId": 5,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            32
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/popcnt_[a] -1 = 32"
+        },
+        {
+          "name": "[a] -2147483648 = 1",
+          "resultVarName": "TestResult_math/popcnt_[a] -2147483648 = 1",
+          "resultVarId": 7,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/popcnt_[a] -2147483648 = 1"
         }
       ]
     }
