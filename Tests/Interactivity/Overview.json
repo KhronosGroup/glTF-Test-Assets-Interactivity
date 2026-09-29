@@ -5174,34 +5174,34 @@
         },
         {
           "name": "[err] flow (index out of range)",
-          "nodeId": 5378
+          "nodeId": 5374
         },
         {
           "name": "[err] flow (read-only globalMatrix)",
-          "nodeId": 5387
+          "nodeId": 5383
         },
         {
           "name": "[err] flow (float on translation)",
-          "nodeId": 5396
+          "nodeId": 5392
         },
         {
           "name": "p1.y/p2.y outside [0,1]: [out] (delayed execution)",
-          "nodeId": 5405,
+          "nodeId": 5401,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "Duration 0: [done] (delayed execution)",
-          "nodeId": 5422,
+          "nodeId": 5418,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "Re-trigger: 1st [done] not fired (delayed execution)",
-          "nodeId": 5452,
+          "nodeId": 5448,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "Rotation uses slerp (value at 25%) (delayed execution)",
-          "nodeId": 5493,
+          "nodeId": 5489,
           "delayedExecutionTime": 4.5
         }
       ],
@@ -5477,331 +5477,331 @@
       "entryPoints": [
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/color",
-          "nodeId": 5518
+          "nodeId": 5514
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/intensity",
-          "nodeId": 5533
+          "nodeId": 5529
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/range",
-          "nodeId": 5548
+          "nodeId": 5544
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/innerConeAngle",
-          "nodeId": 5563
+          "nodeId": 5559
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/outerConeAngle",
-          "nodeId": 5578
+          "nodeId": 5574
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/color",
-          "nodeId": 5593
+          "nodeId": 5589
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/intensity",
-          "nodeId": 5608
+          "nodeId": 5604
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/range",
-          "nodeId": 5623
+          "nodeId": 5619
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
-          "nodeId": 5638
+          "nodeId": 5634
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
-          "nodeId": 5653
+          "nodeId": 5649
         },
         {
           "name": "/alphaCutoff",
-          "nodeId": 5668
+          "nodeId": 5664
         },
         {
           "name": "/emissiveFactor",
-          "nodeId": 5683
+          "nodeId": 5679
         },
         {
           "name": "/normalTexture/scale",
-          "nodeId": 5698
+          "nodeId": 5694
         },
         {
           "name": "/occlusionTexture/strength",
-          "nodeId": 5713
+          "nodeId": 5709
         },
         {
           "name": "/normalTexture texture offset",
-          "nodeId": 5728
+          "nodeId": 5724
         },
         {
           "name": "/normalTexture texture rotation",
-          "nodeId": 5743
+          "nodeId": 5739
         },
         {
           "name": "/normalTexture texture scale",
-          "nodeId": 5760
+          "nodeId": 5756
         },
         {
           "name": "/occlusionTexture texture offset",
-          "nodeId": 5775
+          "nodeId": 5771
         },
         {
           "name": "/occlusionTexture texture rotation",
-          "nodeId": 5790
+          "nodeId": 5786
         },
         {
           "name": "/occlusionTexture texture scale",
-          "nodeId": 5807
+          "nodeId": 5803
         },
         {
           "name": "/emissiveTexture texture offset",
-          "nodeId": 5822
+          "nodeId": 5818
         },
         {
           "name": "/emissiveTexture texture rotation",
-          "nodeId": 5837
+          "nodeId": 5833
         },
         {
           "name": "/emissiveTexture texture scale",
-          "nodeId": 5854
+          "nodeId": 5850
         },
         {
           "name": "/baseColorFactor",
-          "nodeId": 5869
+          "nodeId": 5865
         },
         {
           "name": "/metallicFactor",
-          "nodeId": 5884
+          "nodeId": 5880
         },
         {
           "name": "/roughnessFactor",
-          "nodeId": 5899
+          "nodeId": 5895
         },
         {
           "name": "/baseColorTexture texture offset",
-          "nodeId": 5914
+          "nodeId": 5910
         },
         {
           "name": "/baseColorTexture texture rotation",
-          "nodeId": 5929
+          "nodeId": 5925
         },
         {
           "name": "/baseColorTexture texture scale",
-          "nodeId": 5946
+          "nodeId": 5942
         },
         {
           "name": "/metallicRoughnessTexture texture offset",
-          "nodeId": 5961
+          "nodeId": 5957
         },
         {
           "name": "/metallicRoughnessTexture texture rotation",
-          "nodeId": 5976
+          "nodeId": 5972
         },
         {
           "name": "/metallicRoughnessTexture texture scale",
-          "nodeId": 5993
+          "nodeId": 5989
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyStrength",
-          "nodeId": 6008
+          "nodeId": 6004
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyRotation",
-          "nodeId": 6023
+          "nodeId": 6019
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture offset",
-          "nodeId": 6040
+          "nodeId": 6036
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture rotation",
-          "nodeId": 6055
+          "nodeId": 6051
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture scale",
-          "nodeId": 6072
+          "nodeId": 6068
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture offset",
-          "nodeId": 6087
+          "nodeId": 6083
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture rotation",
-          "nodeId": 6102
+          "nodeId": 6098
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture scale",
-          "nodeId": 6119
+          "nodeId": 6115
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset",
-          "nodeId": 6134
+          "nodeId": 6130
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation",
-          "nodeId": 6149
+          "nodeId": 6145
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale",
-          "nodeId": 6166
+          "nodeId": 6162
         },
         {
           "name": "KHR_materials_dispersion/dispersion",
-          "nodeId": 6181
+          "nodeId": 6177
         },
         {
           "name": "KHR_materials_emissive_strength/emissiveStrength",
-          "nodeId": 6196
+          "nodeId": 6192
         },
         {
           "name": "KHR_materials_ior/ior",
-          "nodeId": 6211
+          "nodeId": 6207
         },
         {
           "name": "KHR_materials_iridescence/iridescenceFactor",
-          "nodeId": 6226
+          "nodeId": 6222
         },
         {
           "name": "KHR_materials_iridescence/iridescenceIor",
-          "nodeId": 6241
+          "nodeId": 6237
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessMinimum",
-          "nodeId": 6256
+          "nodeId": 6252
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessMaximum",
-          "nodeId": 6271
+          "nodeId": 6267
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture offset",
-          "nodeId": 6286
+          "nodeId": 6282
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture rotation",
-          "nodeId": 6301
+          "nodeId": 6297
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture scale",
-          "nodeId": 6318
+          "nodeId": 6314
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture offset",
-          "nodeId": 6333
+          "nodeId": 6329
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture rotation",
-          "nodeId": 6348
+          "nodeId": 6344
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture scale",
-          "nodeId": 6365
+          "nodeId": 6361
         },
         {
           "name": "KHR_materials_sheen/sheenColorFactor",
-          "nodeId": 6380
+          "nodeId": 6376
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessFactor",
-          "nodeId": 6395
+          "nodeId": 6391
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture offset",
-          "nodeId": 6410
+          "nodeId": 6406
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture rotation",
-          "nodeId": 6425
+          "nodeId": 6421
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture scale",
-          "nodeId": 6442
+          "nodeId": 6438
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture offset",
-          "nodeId": 6457
+          "nodeId": 6453
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture rotation",
-          "nodeId": 6472
+          "nodeId": 6468
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture scale",
-          "nodeId": 6489
+          "nodeId": 6485
         },
         {
           "name": "KHR_materials_specular/specularFactor",
-          "nodeId": 6504
+          "nodeId": 6500
         },
         {
           "name": "KHR_materials_specular/specularColorFactor",
-          "nodeId": 6519
+          "nodeId": 6515
         },
         {
           "name": "KHR_materials_specular/specularTexture texture offset",
-          "nodeId": 6534
+          "nodeId": 6530
         },
         {
           "name": "KHR_materials_specular/specularTexture texture rotation",
-          "nodeId": 6549
+          "nodeId": 6545
         },
         {
           "name": "KHR_materials_specular/specularTexture texture scale",
-          "nodeId": 6566
+          "nodeId": 6562
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture offset",
-          "nodeId": 6581
+          "nodeId": 6577
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture rotation",
-          "nodeId": 6596
+          "nodeId": 6592
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture scale",
-          "nodeId": 6613
+          "nodeId": 6609
         },
         {
           "name": "KHR_materials_transmission/transmissionFactor",
-          "nodeId": 6628
+          "nodeId": 6624
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture offset",
-          "nodeId": 6643
+          "nodeId": 6639
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture rotation",
-          "nodeId": 6658
+          "nodeId": 6654
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture scale",
-          "nodeId": 6675
+          "nodeId": 6671
         },
         {
           "name": "KHR_materials_volume/thicknessFactor",
-          "nodeId": 6690
+          "nodeId": 6686
         },
         {
           "name": "KHR_materials_volume/attenuationDistance",
-          "nodeId": 6705
+          "nodeId": 6701
         },
         {
           "name": "KHR_materials_volume/attenuationColor",
-          "nodeId": 6720
+          "nodeId": 6716
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture offset",
-          "nodeId": 6735
+          "nodeId": 6731
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture rotation",
-          "nodeId": 6750
+          "nodeId": 6746
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture scale",
-          "nodeId": 6767
+          "nodeId": 6763
         }
       ],
       "subTests": [
@@ -6779,45 +6779,45 @@
       "entryPoints": [
         {
           "name": "No [out] on\nthe [err] cases (delayed execution)",
-          "nodeId": 6782,
+          "nodeId": 6778,
           "delayedExecutionTime": 0.2
         },
         {
           "name": "[err] index -1",
-          "nodeId": 6787
+          "nodeId": 6783
         },
         {
           "name": "[err] index out of range",
-          "nodeId": 6797
+          "nodeId": 6793
         },
         {
           "name": "[err] type mismatch\n(float on translation)",
-          "nodeId": 6806
+          "nodeId": 6802
         },
         {
           "name": "[err] read-only\n(/nodes.length)",
-          "nodeId": 6815
+          "nodeId": 6811
         },
         {
           "name": "[err] /nodes/{}/weights",
-          "nodeId": 6824
+          "nodeId": 6820
         },
         {
           "name": "Invalid value\n(metallic 2): [out]",
-          "nodeId": 6837
+          "nodeId": 6833
         },
         {
           "name": "set stops interpolate:\n[done] not fired (delayed execution)",
-          "nodeId": 6853,
+          "nodeId": 6849,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "pointer/get index -1:\nisValid false",
-          "nodeId": 6886
+          "nodeId": 6882
         },
         {
           "name": "pointer/get index out\nof range: isValid false",
-          "nodeId": 6900
+          "nodeId": 6896
         }
       ],
       "subTests": [
@@ -6977,11 +6977,11 @@
       "entryPoints": [
         {
           "name": "Entry",
-          "nodeId": 6913
+          "nodeId": 6909
         },
         {
           "name": "Delayed Check (delayed execution)",
-          "nodeId": 6972,
+          "nodeId": 6968,
           "delayedExecutionTime": 1.0
         }
       ],
@@ -7072,31 +7072,31 @@
       "entryPoints": [
         {
           "name": "Same mesh ref in ref/eq",
-          "nodeId": 6982
+          "nodeId": 6978
         },
         {
           "name": "Two nulls in ref/eq",
-          "nodeId": 6997
+          "nodeId": 6993
         },
         {
           "name": "One mesh and one null in ref/eq",
-          "nodeId": 7010
+          "nodeId": 7006
         },
         {
           "name": "One mesh and one node in ref/eq",
-          "nodeId": 7024
+          "nodeId": 7020
         },
         {
           "name": "Connected mesh ref and same static mesh ref in ref/eq",
-          "nodeId": 7039
+          "nodeId": 7035
         },
         {
           "name": "Connected mesh ref and static node ref in ref/eq",
-          "nodeId": 7053
+          "nodeId": 7049
         },
         {
           "name": "Connected child node ref and same static node ref in ref/eq",
-          "nodeId": 7067
+          "nodeId": 7063
         }
       ],
       "subTests": [
@@ -7201,59 +7201,59 @@
       "entryPoints": [
         {
           "name": "boolToInt(true) == 1",
-          "nodeId": 7082
+          "nodeId": 7078
         },
         {
           "name": "boolToInt(false) == 0",
-          "nodeId": 7095
+          "nodeId": 7091
         },
         {
           "name": "boolToFloat(true) == 1",
-          "nodeId": 7108
+          "nodeId": 7104
         },
         {
           "name": "boolToFloat(false) == 0",
-          "nodeId": 7121
+          "nodeId": 7117
         },
         {
           "name": "intToBool(0) == false",
-          "nodeId": 7134
+          "nodeId": 7130
         },
         {
           "name": "intToBool(5) == true",
-          "nodeId": 7147
+          "nodeId": 7143
         },
         {
           "name": "intToBool(-3) == true",
-          "nodeId": 7160
+          "nodeId": 7156
         },
         {
           "name": "intToFloat(7) == 7.0",
-          "nodeId": 7173
+          "nodeId": 7169
         },
         {
           "name": "floatToInt(3.7) == 3 (trunc)",
-          "nodeId": 7186
+          "nodeId": 7182
         },
         {
           "name": "floatToInt(-3.7) == -3 (trunc)",
-          "nodeId": 7199
+          "nodeId": 7195
         },
         {
           "name": "floatToInt(NaN) == 0",
-          "nodeId": 7211
+          "nodeId": 7207
         },
         {
           "name": "floatToBool(0) == false",
-          "nodeId": 7217
+          "nodeId": 7213
         },
         {
           "name": "floatToBool(2.5) == true",
-          "nodeId": 7230
+          "nodeId": 7226
         },
         {
           "name": "floatToBool(-2.5) == true",
-          "nodeId": 7243
+          "nodeId": 7239
         }
       ],
       "subTests": [
@@ -7439,65 +7439,65 @@
       "entryPoints": [
         {
           "name": "Interpolate (delayed execution)",
-          "nodeId": 7255,
+          "nodeId": 7251,
           "delayedExecutionTime": 4.5
         },
         {
           "name": "[Err] flow (duration -1f",
-          "nodeId": 7305
+          "nodeId": 7301
         },
         {
           "name": "[Err] flow (duration infinite",
-          "nodeId": 7314
+          "nodeId": 7310
         },
         {
           "name": "[Err] flow (p1 NaN)",
-          "nodeId": 7319
+          "nodeId": 7315
         },
         {
           "name": "[Err] flow (p2 NaN)",
-          "nodeId": 7328
+          "nodeId": 7324
         },
         {
           "name": "useSlerp on float4, value at 100% (delayed execution)",
-          "nodeId": 7337,
+          "nodeId": 7333,
           "delayedExecutionTime": 1.5
         },
         {
           "name": "[Err] flow (p1.x -0.1)",
-          "nodeId": 7360
+          "nodeId": 7356
         },
         {
           "name": "[Err] flow (p2.x 1.1)",
-          "nodeId": 7369
+          "nodeId": 7365
         },
         {
           "name": "[Err] flow (p1.y +Inf)",
-          "nodeId": 7378
+          "nodeId": 7374
         },
         {
           "name": "Ease-in curve, value at 50% (delayed execution)",
-          "nodeId": 7387,
+          "nodeId": 7379,
           "delayedExecutionTime": 4.5
         },
         {
           "name": "Overshoot curve (p1.y -1), value below start (delayed execution)",
-          "nodeId": 7408,
+          "nodeId": 7400,
           "delayedExecutionTime": 4.5
         },
         {
           "name": "Duration 0: [done] (delayed execution)",
-          "nodeId": 7437,
+          "nodeId": 7429,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "Re-trigger: 1st [done] not fired (delayed execution)",
-          "nodeId": 7464,
+          "nodeId": 7456,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "variable/set stops it: [done] not fired (delayed execution)",
-          "nodeId": 7502,
+          "nodeId": 7494,
           "delayedExecutionTime": 2.0
         }
       ],
@@ -7765,75 +7765,75 @@
       "entryPoints": [
         {
           "name": "Set Variable (connected) bool",
-          "nodeId": 7533
+          "nodeId": 7525
         },
         {
           "name": "Set Variable (connected) int",
-          "nodeId": 7548
+          "nodeId": 7540
         },
         {
           "name": "Set Variable (connected) float",
-          "nodeId": 7563
+          "nodeId": 7555
         },
         {
           "name": "Set Variable (connected) float2",
-          "nodeId": 7578
+          "nodeId": 7570
         },
         {
           "name": "Set Variable (connected) float3",
-          "nodeId": 7593
+          "nodeId": 7585
         },
         {
           "name": "Set Variable (connected) float4",
-          "nodeId": 7608
+          "nodeId": 7600
         },
         {
           "name": "Set Variable bool",
-          "nodeId": 7622
+          "nodeId": 7614
         },
         {
           "name": "Set Variable int",
-          "nodeId": 7636
+          "nodeId": 7628
         },
         {
           "name": "Set Variable float",
-          "nodeId": 7650
+          "nodeId": 7642
         },
         {
           "name": "Set Variable float2",
-          "nodeId": 7664
+          "nodeId": 7656
         },
         {
           "name": "Set Variable float3",
-          "nodeId": 7678
+          "nodeId": 7670
         },
         {
           "name": "Set Variable float4",
-          "nodeId": 7692
+          "nodeId": 7684
         },
         {
           "name": "Get default value from Variable bool",
-          "nodeId": 7707
+          "nodeId": 7699
         },
         {
           "name": "Get default value from Variable int",
-          "nodeId": 7720
+          "nodeId": 7712
         },
         {
           "name": "Get default value from Variable float",
-          "nodeId": 7733
+          "nodeId": 7725
         },
         {
           "name": "Get default value from Variable float2",
-          "nodeId": 7746
+          "nodeId": 7738
         },
         {
           "name": "Get default value from Variable float3",
-          "nodeId": 7759
+          "nodeId": 7751
         },
         {
           "name": "Get default value from Variable float4",
-          "nodeId": 7772
+          "nodeId": 7764
         }
       ],
       "subTests": [
@@ -8071,11 +8071,11 @@
       "entryPoints": [
         {
           "name": "Set multiple variables",
-          "nodeId": 7784
+          "nodeId": 7776
         },
         {
           "name": "Set variable with duplicate index",
-          "nodeId": 7821
+          "nodeId": 7813
         }
       ],
       "subTests": [
