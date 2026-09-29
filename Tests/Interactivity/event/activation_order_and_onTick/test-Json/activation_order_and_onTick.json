@@ -1,0 +1,164 @@
+{
+  "glbFileName": "activation_order_and_onTick.glb",
+  "name": "event/activation order and onTick",
+  "tests": [
+    {
+      "name": "event/activation order and onTick",
+      "description": "Checks that onStart, onTick and receive nodes are activated in JSON order, and the onTick output values (first tick, same values within a tick).",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "event/onTick",
+        "event/receive",
+        "event/send",
+        "flow/branch",
+        "flow/doN",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/add",
+        "math/eq",
+        "math/isNaN",
+        "math/lt",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "onStart:\nJSON order (delayed execution)",
+          "nodeId": 0,
+          "delayedExecutionTime": 0.2
+        },
+        {
+          "name": "receive:\nJSON order (delayed execution)",
+          "nodeId": 28,
+          "delayedExecutionTime": 0.5
+        },
+        {
+          "name": "1st tick:\ntimeSinceStart 0 (delayed execution)",
+          "nodeId": 95,
+          "delayedExecutionTime": 1.0
+        }
+      ],
+      "subTests": [
+        {
+          "name": "onStart:\nJSON order",
+          "resultVarName": "TestResult_event/activation order and onTick_onStart:\nJSON order",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_event/activation order and onTick_onStart:\nJSON order"
+        },
+        {
+          "name": "receive:\nJSON order",
+          "resultVarName": "TestResult_event/activation order and onTick_receive:\nJSON order",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_event/activation order and onTick_receive:\nJSON order"
+        },
+        {
+          "name": "receive: all get\nthe sent value",
+          "resultVarName": "TestResult_event/activation order and onTick_receive: all get\nthe sent value",
+          "resultVarId": 2,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_event/activation order and onTick_receive: all get\nthe sent value"
+        },
+        {
+          "name": "1st tick:\ntimeSinceStart 0",
+          "resultVarName": "TestResult_event/activation order and onTick_1st tick:\ntimeSinceStart 0",
+          "resultVarId": 9,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_event/activation order and onTick_1st tick:\ntimeSinceStart 0"
+        },
+        {
+          "name": "1st tick:\ntimeSinceLastTick NaN",
+          "resultVarName": "TestResult_event/activation order and onTick_1st tick:\ntimeSinceLastTick NaN",
+          "resultVarId": 11,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_event/activation order and onTick_1st tick:\ntimeSinceLastTick NaN"
+        },
+        {
+          "name": "1st tick\nafter onStart",
+          "resultVarName": "TestResult_event/activation order and onTick_1st tick\nafter onStart",
+          "resultVarId": 13,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_event/activation order and onTick_1st tick\nafter onStart"
+        },
+        {
+          "name": "onTick:\nJSON order",
+          "resultVarName": "TestResult_event/activation order and onTick_onTick:\nJSON order",
+          "resultVarId": 19,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 19,
+          "successResultVarName": "TestResult_HasPassed_event/activation order and onTick_onTick:\nJSON order"
+        },
+        {
+          "name": "onTick: same\nvalues in a tick",
+          "resultVarName": "TestResult_event/activation order and onTick_onTick: same\nvalues in a tick",
+          "resultVarId": 16,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 17,
+          "successResultVarName": "TestResult_HasPassed_event/activation order and onTick_onTick: same\nvalues in a tick"
+        },
+        {
+          "name": "timeSinceStart\nnon-decreasing",
+          "resultVarName": "TestResult_event/activation order and onTick_timeSinceStart\nnon-decreasing",
+          "resultVarId": 14,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 15,
+          "successResultVarName": "TestResult_HasPassed_event/activation order and onTick_timeSinceStart\nnon-decreasing"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "event/onTick",
+    "event/receive",
+    "event/send",
+    "flow/branch",
+    "flow/doN",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/add",
+    "math/eq",
+    "math/isNaN",
+    "math/lt",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

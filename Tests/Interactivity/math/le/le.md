@@ -8,6 +8,7 @@
 | [a] 4 [b] 4 = True | TestResult_math/le_[a] 4 [b] 4 = True | 3 | True
 | [a] 2 [b] 4 = True | TestResult_math/le_[a] 2 [b] 4 = True | 5 | True
 | [a] 5 [b] 4 = False | TestResult_math/le_[a] 5 [b] 4 = False | 7 | False
+| [a] NaN [b] 1.00 = False | TestResult_math/le_[a] NaN [b] 1.00 = False | 9 | False
 
 Schemas used in this test case:
 - debug/log

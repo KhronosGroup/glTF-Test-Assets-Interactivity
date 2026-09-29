@@ -1,0 +1,142 @@
+{
+  "glbFileName": "json_syntax.glb",
+  "name": "graph/json syntax",
+  "tests": [
+    {
+      "name": "graph/json syntax",
+      "description": "Integers written as float literals, duplicate custom types, internal events without id, variables with the same name and doubled brackets in pointer templates.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "event/receive",
+        "event/send",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/add",
+        "math/eq",
+        "pointer/get",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "integers written\nas 5.0 and 2.0",
+          "nodeId": 2
+        },
+        {
+          "name": "two custom\ntypes",
+          "nodeId": 14
+        },
+        {
+          "name": "event without id:\nreceived (delayed execution)",
+          "nodeId": 26,
+          "delayedExecutionTime": 1.0
+        },
+        {
+          "name": "same variable name:\nfirst unchanged",
+          "nodeId": 62
+        },
+        {
+          "name": "pointer with doubled\nbrackets: isValid",
+          "nodeId": 87
+        }
+      ],
+      "subTests": [
+        {
+          "name": "integers written\nas 5.0 and 2.0",
+          "resultVarName": "TestResult_graph/json syntax_integers written\nas 5.0 and 2.0",
+          "resultVarId": 2,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            7
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_graph/json syntax_integers written\nas 5.0 and 2.0"
+        },
+        {
+          "name": "two custom\ntypes",
+          "resultVarName": "TestResult_graph/json syntax_two custom\ntypes",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_graph/json syntax_two custom\ntypes"
+        },
+        {
+          "name": "event without id:\nreceived",
+          "resultVarName": "TestResult_graph/json syntax_event without id:\nreceived",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_graph/json syntax_event without id:\nreceived"
+        },
+        {
+          "name": "event without id:\nother event not received",
+          "resultVarName": "TestResult_graph/json syntax_event without id:\nother event not received",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_graph/json syntax_event without id:\nother event not received"
+        },
+        {
+          "name": "same variable name:\nfirst unchanged",
+          "resultVarName": "TestResult_graph/json syntax_same variable name:\nfirst unchanged",
+          "resultVarId": 10,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            10
+          ],
+          "successResultVarId": 9,
+          "successResultVarName": "TestResult_HasPassed_graph/json syntax_same variable name:\nfirst unchanged"
+        },
+        {
+          "name": "same variable name:\nsecond set",
+          "resultVarName": "TestResult_graph/json syntax_same variable name:\nsecond set",
+          "resultVarId": 12,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            30
+          ],
+          "successResultVarId": 11,
+          "successResultVarName": "TestResult_HasPassed_graph/json syntax_same variable name:\nsecond set"
+        },
+        {
+          "name": "pointer with doubled\nbrackets: isValid",
+          "resultVarName": "TestResult_graph/json syntax_pointer with doubled\nbrackets: isValid",
+          "resultVarId": 14,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 13,
+          "successResultVarName": "TestResult_HasPassed_graph/json syntax_pointer with doubled\nbrackets: isValid"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "event/receive",
+    "event/send",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/add",
+    "math/eq",
+    "pointer/get",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

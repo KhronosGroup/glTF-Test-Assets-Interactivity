@@ -23,15 +23,19 @@
         },
         {
           "name": "[a] 7.00 = 7.00",
-          "nodeId": 15
+          "nodeId": 14
         },
         {
           "name": "[a] 0.00 = 0.00",
-          "nodeId": 29
+          "nodeId": 27
         },
         {
           "name": "[a] -10 = 10",
-          "nodeId": 50
+          "nodeId": 49
+        },
+        {
+          "name": "[a] -2147483648 = -2147483648",
+          "nodeId": 62
         }
       ],
       "subTests": [
@@ -78,6 +82,17 @@
           ],
           "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/abs_[a] -10 = 10"
+        },
+        {
+          "name": "[a] -2147483648 = -2147483648",
+          "resultVarName": "TestResult_math/abs_[a] -2147483648 = -2147483648",
+          "resultVarId": 9,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -2147483648
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] -2147483648 = -2147483648"
         }
       ]
     }

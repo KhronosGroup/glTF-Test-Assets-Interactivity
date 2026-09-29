@@ -6,7 +6,8 @@
 | ----------- | ----------- | ----------- |----------- |
 | [a] 7.00 [b] 9.00 = -2.00 | TestResult_math/sub_[a] 7.00 [b] 9.00 = -2.00 | 1 | -2.00000
 | [a] 10 [b] 4 = 6 | TestResult_math/sub_[a] 10 [b] 4 = 6 | 3 | 6
-| [a] -2147483648 [b] 1 = 2147483647 | TestResult_math/sub_[a] -2147483648 [b] 1 = 2147483647 | 5 | 2147483647
+| [a] Infinity [b] Infinity = NaN | TestResult_math/sub_[a] Infinity [b] Infinity = NaN | 5 | NaN
+| [a] -2147483648 [b] 1 = 2147483647 | TestResult_math/sub_[a] -2147483648 [b] 1 = 2147483647 | 7 | 2147483647
 
 Schemas used in this test case:
 - debug/log
@@ -14,6 +15,7 @@ Schemas used in this test case:
 - flow/branch
 - flow/sequence
 - math/eq
+- math/isNaN
 - math/sub
 - pointer/set
 - variable/get

@@ -1,0 +1,94 @@
+{
+  "glbFileName": "ignored_configuration.glb",
+  "name": "graph/ignored configuration",
+  "tests": [
+    {
+      "name": "graph/ignored configuration",
+      "description": "A debug/log message that is not valid falls back to the default configuration; a configuration on a non-configurable operation and unknown configuration properties are ignored.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/switch",
+        "math/add",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "debug/log invalid\nmessage: [out]",
+          "nodeId": 0
+        },
+        {
+          "name": "math/add with\nconfiguration",
+          "nodeId": 12
+        },
+        {
+          "name": "flow/switch unknown\nproperty: case [1]",
+          "nodeId": 24
+        }
+      ],
+      "subTests": [
+        {
+          "name": "debug/log invalid\nmessage: [out]",
+          "resultVarName": "TestResult_graph/ignored configuration_debug/log invalid\nmessage: [out]",
+          "resultVarId": 0,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_graph/ignored configuration_debug/log invalid\nmessage: [out]"
+        },
+        {
+          "name": "math/add with\nconfiguration",
+          "resultVarName": "TestResult_graph/ignored configuration_math/add with\nconfiguration",
+          "resultVarId": 2,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            3
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_graph/ignored configuration_math/add with\nconfiguration"
+        },
+        {
+          "name": "flow/switch unknown\nproperty: case [1]",
+          "resultVarName": "TestResult_graph/ignored configuration_flow/switch unknown\nproperty: case [1]",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_graph/ignored configuration_flow/switch unknown\nproperty: case [1]"
+        },
+        {
+          "name": "flow/switch unknown\nproperty: [default]",
+          "resultVarName": "TestResult_graph/ignored configuration_flow/switch unknown\nproperty: [default]",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_graph/ignored configuration_flow/switch unknown\nproperty: [default]"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/switch",
+    "math/add",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

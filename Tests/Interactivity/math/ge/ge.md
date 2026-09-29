@@ -8,6 +8,8 @@
 | [a] 2 [b] 2 = True | TestResult_math/ge_[a] 2 [b] 2 = True | 3 | True
 | [a] 4 [b] 2 = True | TestResult_math/ge_[a] 4 [b] 2 = True | 5 | True
 | [a] 1 [b] 2 = False | TestResult_math/ge_[a] 1 [b] 2 = False | 7 | False
+| [a] NaN [b] 1.00 = False | TestResult_math/ge_[a] NaN [b] 1.00 = False | 9 | False
+| [a] NaN [b] NaN = False | TestResult_math/ge_[a] NaN [b] NaN = False | 11 | False
 
 Schemas used in this test case:
 - debug/log

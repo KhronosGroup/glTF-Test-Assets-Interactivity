@@ -11,6 +11,7 @@
         "flow/branch",
         "flow/sequence",
         "math/eq",
+        "math/isNaN",
         "math/saturate",
         "pointer/set",
         "variable/get",
@@ -23,23 +24,27 @@
         },
         {
           "name": "[a] 2.50 = 1.00",
-          "nodeId": 15
+          "nodeId": 14
+        },
+        {
+          "name": "[a] NaN = NaN",
+          "nodeId": 26
         },
         {
           "name": "[a] (-1.50, -1.50) = (0.00, 0.00)",
-          "nodeId": 29
+          "nodeId": 45
         },
         {
           "name": "[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)",
-          "nodeId": 54
+          "nodeId": 58
         },
         {
           "name": "[a] (-1.50, -1.50, -1.50, -1.50) = (0.00, 0.00, 0.00, 0.00)",
-          "nodeId": 67
+          "nodeId": 71
         },
         {
           "name": "[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
-          "nodeId": 80
+          "nodeId": 84
         }
       ],
       "subTests": [
@@ -66,34 +71,45 @@
           "successResultVarName": "TestResult_HasPassed_math/saturate_[a] 2.50 = 1.00"
         },
         {
+          "name": "[a] NaN = NaN",
+          "resultVarName": "TestResult_math/saturate_[a] NaN = NaN",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] NaN = NaN"
+        },
+        {
           "name": "[a] (-1.50, -1.50) = (0.00, 0.00)",
           "resultVarName": "TestResult_math/saturate_[a] (-1.50, -1.50) = (0.00, 0.00)",
-          "resultVarId": 5,
+          "resultVarId": 7,
           "resultVarType": "float2",
           "expectedResultValue": [
             0.0,
             0.0
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.50, -1.50) = (0.00, 0.00)"
         },
         {
           "name": "[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)",
           "resultVarName": "TestResult_math/saturate_[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)",
-          "resultVarId": 7,
+          "resultVarId": 9,
           "resultVarType": "float3",
           "expectedResultValue": [
             0.0,
             0.0,
             0.0
           ],
-          "successResultVarId": 6,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)"
         },
         {
           "name": "[a] (-1.50, -1.50, -1.50, -1.50) = (0.00, 0.00, 0.00, 0.00)",
           "resultVarName": "TestResult_math/saturate_[a] (-1.50, -1.50, -1.50, -1.50) = (0.00, 0.00, 0.00, 0.00)",
-          "resultVarId": 9,
+          "resultVarId": 11,
           "resultVarType": "float4",
           "expectedResultValue": [
             0.0,
@@ -101,13 +117,13 @@
             0.0,
             0.0
           ],
-          "successResultVarId": 8,
+          "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.50, -1.50, -1.50, -1.50) = (0.00, 0.00, 0.00, 0.00)"
         },
         {
           "name": "[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
           "resultVarName": "TestResult_math/saturate_[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
-          "resultVarId": 11,
+          "resultVarId": 13,
           "resultVarType": "float4x4",
           "expectedResultValue": [
             0.0,
@@ -127,7 +143,7 @@
             0.0,
             0.0
           ],
-          "successResultVarId": 10,
+          "successResultVarId": 12,
           "successResultVarName": "TestResult_HasPassed_math/saturate_[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]"
         }
       ]
@@ -139,6 +155,7 @@
     "flow/branch",
     "flow/sequence",
     "math/eq",
+    "math/isNaN",
     "math/saturate",
     "pointer/set",
     "variable/get",

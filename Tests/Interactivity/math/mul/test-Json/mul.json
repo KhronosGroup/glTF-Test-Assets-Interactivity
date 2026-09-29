@@ -12,6 +12,7 @@
         "flow/sequence",
         "math/abs",
         "math/eq",
+        "math/isNaN",
         "math/lt",
         "math/mul",
         "math/sub",
@@ -26,11 +27,23 @@
         },
         {
           "name": "[a] 2 [b] 3 = 6",
-          "nodeId": 17
+          "nodeId": 16
         },
         {
           "name": "[a] 46341 [b] 46341 = -2147479015",
-          "nodeId": 34
+          "nodeId": 24
+        },
+        {
+          "name": "[a] 0.00 [b] Infinity = NaN",
+          "nodeId": 47
+        },
+        {
+          "name": "[a] 2147483647 [b] 2147483647 = 1",
+          "nodeId": 53
+        },
+        {
+          "name": "[a] -2147483648 [b] -1 = -2147483648",
+          "nodeId": 66
         }
       ],
       "subTests": [
@@ -66,6 +79,39 @@
           ],
           "successResultVarId": 4,
           "successResultVarName": "TestResult_HasPassed_math/mul_[a] 46341 [b] 46341 = -2147479015"
+        },
+        {
+          "name": "[a] 0.00 [b] Infinity = NaN",
+          "resultVarName": "TestResult_math/mul_[a] 0.00 [b] Infinity = NaN",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/mul_[a] 0.00 [b] Infinity = NaN"
+        },
+        {
+          "name": "[a] 2147483647 [b] 2147483647 = 1",
+          "resultVarName": "TestResult_math/mul_[a] 2147483647 [b] 2147483647 = 1",
+          "resultVarId": 9,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/mul_[a] 2147483647 [b] 2147483647 = 1"
+        },
+        {
+          "name": "[a] -2147483648 [b] -1 = -2147483648",
+          "resultVarName": "TestResult_math/mul_[a] -2147483648 [b] -1 = -2147483648",
+          "resultVarId": 11,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -2147483648
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/mul_[a] -2147483648 [b] -1 = -2147483648"
         }
       ]
     }
@@ -77,6 +123,7 @@
     "flow/sequence",
     "math/abs",
     "math/eq",
+    "math/isNaN",
     "math/lt",
     "math/mul",
     "math/sub",

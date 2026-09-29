@@ -20,7 +20,19 @@
       "entryPoints": [
         {
           "name": "Loop Entry",
-          "nodeId": 1
+          "nodeId": 0
+        },
+        {
+          "name": "Empty range",
+          "nodeId": 72
+        },
+        {
+          "name": "Negative range",
+          "nodeId": 99
+        },
+        {
+          "name": "endIndex re-evaluation",
+          "nodeId": 127
         }
       ],
       "subTests": [
@@ -78,6 +90,72 @@
           ],
           "successResultVarId": 7,
           "successResultVarName": "TestResult_HasPassed_flow/for_[index] when completed"
+        },
+        {
+          "name": "startIndex > endIndex (5..2): no [loopBody]",
+          "resultVarName": "TestResult_flow/for_startIndex > endIndex (5..2): no [loopBody]",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_flow/for_startIndex > endIndex (5..2): no [loopBody]"
+        },
+        {
+          "name": "startIndex > endIndex (5..2): [completed]",
+          "resultVarName": "TestResult_flow/for_startIndex > endIndex (5..2): [completed]",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 11,
+          "successResultVarName": "TestResult_HasPassed_flow/for_startIndex > endIndex (5..2): [completed]"
+        },
+        {
+          "name": "startIndex > endIndex (5..2): [index] 5",
+          "resultVarName": "TestResult_flow/for_startIndex > endIndex (5..2): [index] 5",
+          "resultVarId": 13,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            5
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_flow/for_startIndex > endIndex (5..2): [index] 5"
+        },
+        {
+          "name": "Negative range (-3..0): 3 iterations",
+          "resultVarName": "TestResult_flow/for_Negative range (-3..0): 3 iterations",
+          "resultVarId": 16,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            3
+          ],
+          "successResultVarId": 15,
+          "successResultVarName": "TestResult_HasPassed_flow/for_Negative range (-3..0): 3 iterations"
+        },
+        {
+          "name": "Negative range (-3..0): [index] 0 when completed",
+          "resultVarName": "TestResult_flow/for_Negative range (-3..0): [index] 0 when completed",
+          "resultVarId": 18,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 17,
+          "successResultVarName": "TestResult_HasPassed_flow/for_Negative range (-3..0): [index] 0 when completed"
+        },
+        {
+          "name": "[endIndex] re-evaluated (10 -> 3 in body): 3 iterations",
+          "resultVarName": "TestResult_flow/for_[endIndex] re-evaluated (10 -> 3 in body): 3 iterations",
+          "resultVarId": 22,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            3
+          ],
+          "successResultVarId": 21,
+          "successResultVarName": "TestResult_HasPassed_flow/for_[endIndex] re-evaluated (10 -> 3 in body): 3 iterations"
         }
       ]
     }

@@ -20,19 +20,31 @@
       "entryPoints": [
         {
           "name": "Wait All - Completed",
-          "nodeId": 1
+          "nodeId": 0
         },
         {
           "name": "Wait All - Remaining",
-          "nodeId": 23
+          "nodeId": 20
         },
         {
           "name": "Wait All - Reset",
-          "nodeId": 48
+          "nodeId": 52
         },
         {
           "name": "Wait All - Reset Completed",
-          "nodeId": 63
+          "nodeId": 67
+        },
+        {
+          "name": "Wait All - Invalid Configuration",
+          "nodeId": 82
+        },
+        {
+          "name": "[out] on every non-final input (2x)",
+          "nodeId": 94
+        },
+        {
+          "name": "Re-activated input fires [out] again (2x)",
+          "nodeId": 108
         }
       ],
       "subTests": [
@@ -90,6 +102,50 @@
           ],
           "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_flow/waitAll_[reset] [completed]"
+        },
+        {
+          "name": "[inputFlows] 65 uses default configuration",
+          "resultVarName": "TestResult_flow/waitAll_[inputFlows] 65 uses default configuration",
+          "resultVarId": 11,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_flow/waitAll_[inputFlows] 65 uses default configuration"
+        },
+        {
+          "name": "[out] on every non-final input (2x)",
+          "resultVarName": "TestResult_flow/waitAll_[out] on every non-final input (2x)",
+          "resultVarId": 14,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 13,
+          "successResultVarName": "TestResult_HasPassed_flow/waitAll_[out] on every non-final input (2x)"
+        },
+        {
+          "name": "Re-activated input fires [out] again (2x)",
+          "resultVarName": "TestResult_flow/waitAll_Re-activated input fires [out] again (2x)",
+          "resultVarId": 19,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_flow/waitAll_Re-activated input fires [out] again (2x)"
+        },
+        {
+          "name": "Re-activated input keeps [remainingInputs] (2)",
+          "resultVarName": "TestResult_flow/waitAll_Re-activated input keeps [remainingInputs] (2)",
+          "resultVarId": 16,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 15,
+          "successResultVarName": "TestResult_HasPassed_flow/waitAll_Re-activated input keeps [remainingInputs] (2)"
         }
       ]
     }

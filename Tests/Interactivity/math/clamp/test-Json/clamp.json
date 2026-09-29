@@ -12,6 +12,7 @@
         "flow/sequence",
         "math/clamp",
         "math/eq",
+        "math/isNaN",
         "pointer/set",
         "variable/get",
         "variable/set"
@@ -22,16 +23,20 @@
           "nodeId": 1
         },
         {
+          "name": "[a] NaN [b] 0.00 [c] 1.00 = NaN",
+          "nodeId": 13
+        },
+        {
           "name": "[a] 9 [b] 2 [c] 3 = 3",
-          "nodeId": 15
+          "nodeId": 19
         },
         {
           "name": "[a] 9.00 [b] 3.00 [c] 2.00 = 3.00",
-          "nodeId": 29
+          "nodeId": 41
         },
         {
           "name": "[a] 9 [b] 3 [c] 2 = 3",
-          "nodeId": 50
+          "nodeId": 54
         }
       ],
       "subTests": [
@@ -47,36 +52,47 @@
           "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9.00 [b] 2.00 [c] 3.00 = 3.00"
         },
         {
+          "name": "[a] NaN [b] 0.00 [c] 1.00 = NaN",
+          "resultVarName": "TestResult_math/clamp_[a] NaN [b] 0.00 [c] 1.00 = NaN",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] NaN [b] 0.00 [c] 1.00 = NaN"
+        },
+        {
           "name": "[a] 9 [b] 2 [c] 3 = 3",
           "resultVarName": "TestResult_math/clamp_[a] 9 [b] 2 [c] 3 = 3",
-          "resultVarId": 3,
+          "resultVarId": 5,
           "resultVarType": "int",
           "expectedResultValue": [
             3
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 4,
           "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9 [b] 2 [c] 3 = 3"
         },
         {
           "name": "[a] 9.00 [b] 3.00 [c] 2.00 = 3.00",
           "resultVarName": "TestResult_math/clamp_[a] 9.00 [b] 3.00 [c] 2.00 = 3.00",
-          "resultVarId": 5,
+          "resultVarId": 7,
           "resultVarType": "float",
           "expectedResultValue": [
             3.0
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9.00 [b] 3.00 [c] 2.00 = 3.00"
         },
         {
           "name": "[a] 9 [b] 3 [c] 2 = 3",
           "resultVarName": "TestResult_math/clamp_[a] 9 [b] 3 [c] 2 = 3",
-          "resultVarId": 7,
+          "resultVarId": 9,
           "resultVarType": "int",
           "expectedResultValue": [
             3
           ],
-          "successResultVarId": 6,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9 [b] 3 [c] 2 = 3"
         }
       ]
@@ -89,6 +105,7 @@
     "flow/sequence",
     "math/clamp",
     "math/eq",
+    "math/isNaN",
     "pointer/set",
     "variable/get",
     "variable/set"

@@ -23,15 +23,19 @@
         },
         {
           "name": "[a] 4 [b] 4 = True",
-          "nodeId": 15
+          "nodeId": 14
         },
         {
           "name": "[a] 2 [b] 4 = True",
-          "nodeId": 29
+          "nodeId": 27
         },
         {
           "name": "[a] 5 [b] 4 = False",
-          "nodeId": 50
+          "nodeId": 49
+        },
+        {
+          "name": "[a] NaN [b] 1.00 = False",
+          "nodeId": 61
         }
       ],
       "subTests": [
@@ -78,6 +82,17 @@
           ],
           "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/le_[a] 5 [b] 4 = False"
+        },
+        {
+          "name": "[a] NaN [b] 1.00 = False",
+          "resultVarName": "TestResult_math/le_[a] NaN [b] 1.00 = False",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/le_[a] NaN [b] 1.00 = False"
         }
       ]
     }

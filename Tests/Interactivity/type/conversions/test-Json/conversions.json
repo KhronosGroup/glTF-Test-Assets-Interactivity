@@ -28,55 +28,55 @@
         },
         {
           "name": "boolToInt(false) == 0",
-          "nodeId": 15
+          "nodeId": 14
         },
         {
           "name": "boolToFloat(true) == 1",
-          "nodeId": 29
+          "nodeId": 27
         },
         {
           "name": "boolToFloat(false) == 0",
-          "nodeId": 70
+          "nodeId": 67
         },
         {
           "name": "intToBool(0) == false",
-          "nodeId": 83
+          "nodeId": 80
         },
         {
           "name": "intToBool(5) == true",
-          "nodeId": 96
+          "nodeId": 93
         },
         {
           "name": "intToBool(-3) == true",
-          "nodeId": 109
+          "nodeId": 106
         },
         {
           "name": "intToFloat(7) == 7.0",
-          "nodeId": 122
+          "nodeId": 119
         },
         {
           "name": "floatToInt(3.7) == 3 (trunc)",
-          "nodeId": 135
+          "nodeId": 132
         },
         {
           "name": "floatToInt(-3.7) == -3 (trunc)",
-          "nodeId": 148
+          "nodeId": 145
         },
         {
           "name": "floatToInt(NaN) == 0",
-          "nodeId": 162
+          "nodeId": 157
         },
         {
           "name": "floatToBool(0) == false",
-          "nodeId": 175
+          "nodeId": 163
         },
         {
           "name": "floatToBool(2.5) == true",
-          "nodeId": 188
+          "nodeId": 176
         },
         {
           "name": "floatToBool(-2.5) == true",
-          "nodeId": 201
+          "nodeId": 189
         }
       ],
       "subTests": [

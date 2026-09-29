@@ -1,0 +1,80 @@
+{
+  "glbFileName": "unsupported_operations_and_graphs.glb",
+  "name": "graph/unsupported operations and graphs",
+  "tests": [
+    {
+      "name": "graph/unsupported operations and graphs",
+      "description": "Operations of an unsupported extension are no-ops, and an invalid graph that is not the default graph doesn't prevent the default graph from running.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/abs",
+        "math/eq",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "unsupported op:\ntype-default output (delayed execution)",
+          "nodeId": 1,
+          "delayedExecutionTime": 0.5
+        },
+        {
+          "name": "invalid graph 1:\ngraph 0 runs",
+          "nodeId": 25
+        }
+      ],
+      "subTests": [
+        {
+          "name": "unsupported op:\noutput flow",
+          "resultVarName": "TestResult_graph/unsupported operations and graphs_unsupported op:\noutput flow",
+          "resultVarId": 2,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_graph/unsupported operations and graphs_unsupported op:\noutput flow"
+        },
+        {
+          "name": "unsupported op:\ntype-default output",
+          "resultVarName": "TestResult_graph/unsupported operations and graphs_unsupported op:\ntype-default output",
+          "resultVarId": 1,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_graph/unsupported operations and graphs_unsupported op:\ntype-default output"
+        },
+        {
+          "name": "invalid graph 1:\ngraph 0 runs",
+          "resultVarName": "TestResult_graph/unsupported operations and graphs_invalid graph 1:\ngraph 0 runs",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_graph/unsupported operations and graphs_invalid graph 1:\ngraph 0 runs"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/abs",
+    "math/eq",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -23,11 +23,19 @@
         },
         {
           "name": "[a] 1 [b] 2 = True",
-          "nodeId": 15
+          "nodeId": 14
         },
         {
           "name": "[a] 7 [b] 2 = False",
-          "nodeId": 29
+          "nodeId": 27
+        },
+        {
+          "name": "[a] NaN [b] 1.00 = False",
+          "nodeId": 48
+        },
+        {
+          "name": "[a] 1.00 [b] NaN = False",
+          "nodeId": 53
         }
       ],
       "subTests": [
@@ -63,6 +71,28 @@
           ],
           "successResultVarId": 4,
           "successResultVarName": "TestResult_HasPassed_math/lt_[a] 7 [b] 2 = False"
+        },
+        {
+          "name": "[a] NaN [b] 1.00 = False",
+          "resultVarName": "TestResult_math/lt_[a] NaN [b] 1.00 = False",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/lt_[a] NaN [b] 1.00 = False"
+        },
+        {
+          "name": "[a] 1.00 [b] NaN = False",
+          "resultVarName": "TestResult_math/lt_[a] 1.00 [b] NaN = False",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/lt_[a] 1.00 [b] NaN = False"
         }
       ]
     }

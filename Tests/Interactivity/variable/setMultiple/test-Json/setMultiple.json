@@ -18,7 +18,11 @@
       "entryPoints": [
         {
           "name": "Set multiple variables",
-          "nodeId": 1
+          "nodeId": 0
+        },
+        {
+          "name": "Set variable with duplicate index",
+          "nodeId": 44
         }
       ],
       "subTests": [
@@ -54,6 +58,17 @@
           ],
           "successResultVarId": 7,
           "successResultVarName": "TestResult_HasPassed_variable/setMultiple_[var3]"
+        },
+        {
+          "name": "Duplicate index [var4, var4]",
+          "resultVarName": "TestResult_variable/setMultiple_Duplicate index [var4, var4]",
+          "resultVarId": 11,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            44
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_variable/setMultiple_Duplicate index [var4, var4]"
         }
       ]
     }

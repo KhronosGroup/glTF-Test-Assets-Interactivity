@@ -20,7 +20,7 @@
       "entryPoints": [
         {
           "name": "Do N - Iterations",
-          "nodeId": 1
+          "nodeId": 0
         },
         {
           "name": "Do N - Reset",
@@ -29,6 +29,14 @@
         {
           "name": "Do N - Max Iteration",
           "nodeId": 67
+        },
+        {
+          "name": "N = 0: [out] never fires",
+          "nodeId": 84
+        },
+        {
+          "name": "[n] re-evaluated (raised 1 -> 3 at runtime, 3x)",
+          "nodeId": 96
         }
       ],
       "subTests": [
@@ -86,6 +94,28 @@
           ],
           "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_flow/doN_Max Iteration flow"
+        },
+        {
+          "name": "N = 0: [out] never fires",
+          "resultVarName": "TestResult_flow/doN_N = 0: [out] never fires",
+          "resultVarId": 12,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 13,
+          "successResultVarName": "TestResult_HasPassed_flow/doN_N = 0: [out] never fires"
+        },
+        {
+          "name": "[n] re-evaluated (raised 1 -> 3 at runtime, 3x)",
+          "resultVarName": "TestResult_flow/doN_[n] re-evaluated (raised 1 -> 3 at runtime, 3x)",
+          "resultVarId": 17,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            3
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_flow/doN_[n] re-evaluated (raised 1 -> 3 at runtime, 3x)"
         }
       ]
     }

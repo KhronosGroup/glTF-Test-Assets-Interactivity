@@ -23,15 +23,23 @@
         },
         {
           "name": "[a] 2 [b] 2 = True",
-          "nodeId": 15
+          "nodeId": 14
         },
         {
           "name": "[a] 4 [b] 2 = True",
-          "nodeId": 29
+          "nodeId": 27
         },
         {
           "name": "[a] 1 [b] 2 = False",
-          "nodeId": 50
+          "nodeId": 51
+        },
+        {
+          "name": "[a] NaN [b] 1.00 = False",
+          "nodeId": 63
+        },
+        {
+          "name": "[a] NaN [b] NaN = False",
+          "nodeId": 68
         }
       ],
       "subTests": [
@@ -78,6 +86,28 @@
           ],
           "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/ge_[a] 1 [b] 2 = False"
+        },
+        {
+          "name": "[a] NaN [b] 1.00 = False",
+          "resultVarName": "TestResult_math/ge_[a] NaN [b] 1.00 = False",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/ge_[a] NaN [b] 1.00 = False"
+        },
+        {
+          "name": "[a] NaN [b] NaN = False",
+          "resultVarName": "TestResult_math/ge_[a] NaN [b] NaN = False",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/ge_[a] NaN [b] NaN = False"
         }
       ]
     }

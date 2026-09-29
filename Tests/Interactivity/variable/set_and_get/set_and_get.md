@@ -4,18 +4,24 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| static bool | TestResult_variable/set and get_static bool | 2 | True
-| static int | TestResult_variable/set and get_static int | 5 | 1
-| static float | TestResult_variable/set and get_static float | 8 | 1.00000
-| static float2 | TestResult_variable/set and get_static float2 | 11 | (1.00000, 1.00000)
-| static float3 | TestResult_variable/set and get_static float3 | 14 | (1.00000, 1.00000, 1.00000)
-| static float4 | TestResult_variable/set and get_static float4 | 17 | (1.00000, 1.00000, 1.00000, 1.00000)
-| default bool | TestResult_variable/set and get_default bool | 20 | True
-| default int | TestResult_variable/set and get_default int | 23 | 1
-| default float | TestResult_variable/set and get_default float | 26 | 1.00000
-| default float2 | TestResult_variable/set and get_default float2 | 29 | (1.00000, 1.00000)
-| default float3 | TestResult_variable/set and get_default float3 | 32 | (1.00000, 1.00000, 1.00000)
-| default float4 | TestResult_variable/set and get_default float4 | 35 | (1.00000, 1.00000, 1.00000, 1.00000)
+| connected bool | TestResult_variable/set and get_connected bool | 3 | True
+| connected int | TestResult_variable/set and get_connected int | 7 | 1
+| connected float | TestResult_variable/set and get_connected float | 11 | 1.00000
+| connected float2 | TestResult_variable/set and get_connected float2 | 15 | (1.00000, 1.00000)
+| connected float3 | TestResult_variable/set and get_connected float3 | 19 | (1.00000, 1.00000, 1.00000)
+| connected float4 | TestResult_variable/set and get_connected float4 | 23 | (1.00000, 1.00000, 1.00000, 1.00000)
+| static bool | TestResult_variable/set and get_static bool | 26 | True
+| static int | TestResult_variable/set and get_static int | 29 | 1
+| static float | TestResult_variable/set and get_static float | 32 | 1.00000
+| static float2 | TestResult_variable/set and get_static float2 | 35 | (1.00000, 1.00000)
+| static float3 | TestResult_variable/set and get_static float3 | 38 | (1.00000, 1.00000, 1.00000)
+| static float4 | TestResult_variable/set and get_static float4 | 41 | (1.00000, 1.00000, 1.00000, 1.00000)
+| default bool | TestResult_variable/set and get_default bool | 44 | True
+| default int | TestResult_variable/set and get_default int | 47 | 1
+| default float | TestResult_variable/set and get_default float | 50 | 1.00000
+| default float2 | TestResult_variable/set and get_default float2 | 53 | (1.00000, 1.00000)
+| default float3 | TestResult_variable/set and get_default float3 | 56 | (1.00000, 1.00000, 1.00000)
+| default float4 | TestResult_variable/set and get_default float4 | 59 | (1.00000, 1.00000, 1.00000, 1.00000)
 
 Schemas used in this test case:
 - debug/log

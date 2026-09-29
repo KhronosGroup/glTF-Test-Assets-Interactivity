@@ -19,11 +19,19 @@
       "entryPoints": [
         {
           "name": "[a] Infinity = True",
-          "nodeId": 2
+          "nodeId": 0
         },
         {
           "name": "[a] -Infinity = True",
-          "nodeId": 18
+          "nodeId": 5
+        },
+        {
+          "name": "[a] NaN = False",
+          "nodeId": 10
+        },
+        {
+          "name": "[a] 1.00 = False",
+          "nodeId": 23
         }
       ],
       "subTests": [
@@ -48,6 +56,28 @@
           ],
           "successResultVarId": 2,
           "successResultVarName": "TestResult_HasPassed_math/isInf_[a] -Infinity = True"
+        },
+        {
+          "name": "[a] NaN = False",
+          "resultVarName": "TestResult_math/isInf_[a] NaN = False",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/isInf_[a] NaN = False"
+        },
+        {
+          "name": "[a] 1.00 = False",
+          "resultVarName": "TestResult_math/isInf_[a] 1.00 = False",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/isInf_[a] 1.00 = False"
         }
       ]
     }
