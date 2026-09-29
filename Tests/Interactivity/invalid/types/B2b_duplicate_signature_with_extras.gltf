@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Khronos_Test_Export InvalidGraphs",
+    "extras": {
+      "caseId": "B2b",
+      "title": "types contains \"float\" twice, the second one with extras",
+      "specSection": "JSON Syntax › Types",
+      "expectedOutcome": "rejectGraph",
+      "schemaAssert": false,
+      "signalEvent": "test/onFailed",
+      "pass": "the graph is rejected: no node runs and the custom event 'test/onFailed' is never sent"
+    }
+  },
+  "extensionsUsed": [
+    "KHR_interactivity"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Target"
+    }
+  ],
+  "extensions": {
+    "KHR_interactivity": {
+      "graphs": [
+        {
+          "types": [
+            {
+              "signature": "float"
+            },
+            {
+              "signature": "float",
+              "extras": {
+                "note": "still a duplicate"
+              }
+            }
+          ],
+          "events": [
+            {
+              "id": "test/onFailed"
+            }
+          ],
+          "declarations": [
+            {
+              "op": "event/onStart"
+            },
+            {
+              "op": "debug/log"
+            },
+            {
+              "op": "event/send"
+            },
+            {
+              "op": "math/add"
+            }
+          ],
+          "nodes": [
+            {
+              "declaration": 0,
+              "flows": {
+                "out": {
+                  "node": 1
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "severity": {
+                  "value": [
+                    0
+                  ]
+                },
+                "message": {
+                  "value": [
+                    "FAILED [B2b] types contains \"float\" twice, the second one with extras: this graph MUST be rejected (spec: JSON Syntax › Types)."
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 2
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 3,
+              "values": {
+                "a": {
+                  "type": 0,
+                  "value": [
+                    1.0
+                  ]
+                },
+                "b": {
+                  "type": 0,
+                  "value": [
+                    2.0
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

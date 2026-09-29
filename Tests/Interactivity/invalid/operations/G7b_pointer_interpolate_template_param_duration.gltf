@@ -1,0 +1,160 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Khronos_Test_Export InvalidGraphs",
+    "extras": {
+      "caseId": "G7b",
+      "title": "pointer/interpolate template uses [duration]",
+      "specSection": "Operations › pointer/interpolate",
+      "expectedOutcome": "rejectGraph",
+      "schemaAssert": false,
+      "signalEvent": "test/onFailed",
+      "pass": "the graph is rejected: no node runs and the custom event 'test/onFailed' is never sent"
+    }
+  },
+  "extensionsUsed": [
+    "KHR_interactivity"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Target"
+    }
+  ],
+  "extensions": {
+    "KHR_interactivity": {
+      "graphs": [
+        {
+          "types": [
+            {
+              "signature": "float3"
+            },
+            {
+              "signature": "float"
+            },
+            {
+              "signature": "float2"
+            },
+            {
+              "signature": "int"
+            },
+            {
+              "signature": "bool"
+            }
+          ],
+          "events": [
+            {
+              "id": "test/onFailed"
+            }
+          ],
+          "declarations": [
+            {
+              "op": "event/onStart"
+            },
+            {
+              "op": "debug/log"
+            },
+            {
+              "op": "event/send"
+            },
+            {
+              "op": "pointer/interpolate"
+            }
+          ],
+          "nodes": [
+            {
+              "declaration": 0,
+              "flows": {
+                "out": {
+                  "node": 1
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "severity": {
+                  "value": [
+                    0
+                  ]
+                },
+                "message": {
+                  "value": [
+                    "FAILED [G7b] pointer/interpolate template uses [duration]: this graph MUST be rejected (spec: Operations › pointer/interpolate)."
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 2
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 3,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/[duration]/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 0,
+                  "value": [
+                    1.0,
+                    2.0,
+                    3.0
+                  ]
+                },
+                "duration": {
+                  "type": 1,
+                  "value": [
+                    1.0
+                  ]
+                },
+                "p1": {
+                  "type": 2,
+                  "value": [
+                    0.25,
+                    0.1
+                  ]
+                },
+                "p2": {
+                  "type": 2,
+                  "value": [
+                    0.25,
+                    1.0
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

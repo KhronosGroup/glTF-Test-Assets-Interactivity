@@ -1,0 +1,3402 @@
+[
+  {
+    "label": "A1a graphs_empty",
+    "name": "invalid/extension",
+    "id": "A1a",
+    "title": "graphs array is empty",
+    "specSection": "Validation › Extension Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "A1a_graphs_empty.gltf"
+    }
+  },
+  {
+    "label": "A1b graphs_missing",
+    "name": "invalid/extension",
+    "id": "A1b",
+    "title": "graphs property is missing",
+    "specSection": "Validation › Extension Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "A1b_graphs_missing.gltf"
+    }
+  },
+  {
+    "label": "A1c graphs_not_array",
+    "name": "invalid/extension",
+    "id": "A1c",
+    "title": "graphs is an object instead of an array",
+    "specSection": "Validation › Extension Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "A1c_graphs_not_array.gltf"
+    }
+  },
+  {
+    "label": "A2a default_graph_negative",
+    "name": "invalid/extension",
+    "id": "A2a",
+    "title": "graph (default graph index) is -1",
+    "specSection": "Validation › Extension Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "A2a_default_graph_negative.gltf"
+    }
+  },
+  {
+    "label": "A2b default_graph_fractional",
+    "name": "invalid/extension",
+    "id": "A2b",
+    "title": "graph (default graph index) is 0.5",
+    "specSection": "Validation › Extension Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "A2b_default_graph_fractional.gltf"
+    }
+  },
+  {
+    "label": "A2c default_graph_string",
+    "name": "invalid/extension",
+    "id": "A2c",
+    "title": "graph (default graph index) is the string \"0\"",
+    "specSection": "Validation › Extension Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "A2c_default_graph_string.gltf"
+    }
+  },
+  {
+    "label": "A3 default_graph_out_of_range",
+    "name": "invalid/extension",
+    "id": "A3",
+    "title": "graph (default graph index) is 1 with only one graph",
+    "specSection": "Validation › Extension Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "A3_default_graph_out_of_range.gltf"
+    }
+  },
+  {
+    "label": "A4 default_graph_invalid",
+    "name": "invalid/extension",
+    "id": "A4",
+    "title": "default graph 1 is invalid (unknown operation); valid graph 0 must not run either",
+    "specSection": "Validation › Extension Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "A4_default_graph_invalid.gltf"
+    }
+  },
+  {
+    "label": "B1a unknown_signature",
+    "name": "invalid/types",
+    "id": "B1a",
+    "title": "types contains unknown signature \"float5\"",
+    "specSection": "JSON Syntax › Types",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "B1a_unknown_signature.gltf"
+    }
+  },
+  {
+    "label": "B1b signature_wrong_case",
+    "name": "invalid/types",
+    "id": "B1b",
+    "title": "type signature \"Float\" (signatures are case-sensitive)",
+    "specSection": "JSON Syntax › Types",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "B1b_signature_wrong_case.gltf"
+    }
+  },
+  {
+    "label": "B2a duplicate_signature",
+    "name": "invalid/types",
+    "id": "B2a",
+    "title": "types contains \"float\" twice",
+    "specSection": "JSON Syntax › Types",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "B2a_duplicate_signature.gltf"
+    }
+  },
+  {
+    "label": "B2b duplicate_signature_with_extras",
+    "name": "invalid/types",
+    "id": "B2b",
+    "title": "types contains \"float\" twice, the second one with extras",
+    "specSection": "JSON Syntax › Types",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "B2b_duplicate_signature_with_extras.gltf"
+    }
+  },
+  {
+    "label": "B3a types_empty",
+    "name": "invalid/types",
+    "id": "B3a",
+    "title": "types array is empty",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/E"
+    ],
+    "variants": {
+      "glTF": "B3a_types_empty.gltf"
+    }
+  },
+  {
+    "label": "B3b signature_missing",
+    "name": "invalid/types",
+    "id": "B3b",
+    "title": "types entry without signature",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "B3b_signature_missing.gltf"
+    }
+  },
+  {
+    "label": "B3c signature_not_string",
+    "name": "invalid/types",
+    "id": "B3c",
+    "title": "types entry with numeric signature",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "B3c_signature_not_string.gltf"
+    }
+  },
+  {
+    "label": "B3d type_not_object",
+    "name": "invalid/types",
+    "id": "B3d",
+    "title": "types entry is a string instead of an object",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "B3d_type_not_object.gltf"
+    }
+  },
+  {
+    "label": "C1 variable_type_out_of_range",
+    "name": "invalid/variables",
+    "id": "C1",
+    "title": "variable type index equals types length",
+    "specSection": "JSON Syntax › Variables",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C1_variable_type_out_of_range.gltf"
+    }
+  },
+  {
+    "label": "C2a float3_value_too_short",
+    "name": "invalid/variables",
+    "id": "C2a",
+    "title": "float3 variable with 2 values",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C2a_float3_value_too_short.gltf"
+    }
+  },
+  {
+    "label": "C2b float4x4_value_nine_elements",
+    "name": "invalid/variables",
+    "id": "C2b",
+    "title": "float4x4 variable with 9 values",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C2b_float4x4_value_nine_elements.gltf"
+    }
+  },
+  {
+    "label": "C2c bool_value_two_elements",
+    "name": "invalid/variables",
+    "id": "C2c",
+    "title": "bool variable with 2 values",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C2c_bool_value_two_elements.gltf"
+    }
+  },
+  {
+    "label": "C3a bool_value_number",
+    "name": "invalid/variables",
+    "id": "C3a",
+    "title": "bool variable with value [1]",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C3a_bool_value_number.gltf"
+    }
+  },
+  {
+    "label": "C3b bool_value_string",
+    "name": "invalid/variables",
+    "id": "C3b",
+    "title": "bool variable with value [\"true\"]",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C3b_bool_value_string.gltf"
+    }
+  },
+  {
+    "label": "C4a float_value_null",
+    "name": "invalid/variables",
+    "id": "C4a",
+    "title": "float variable with value [null]",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C4a_float_value_null.gltf"
+    }
+  },
+  {
+    "label": "C4b float_value_string",
+    "name": "invalid/variables",
+    "id": "C4b",
+    "title": "float variable with value [\"1.0\"]",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C4b_float_value_string.gltf"
+    }
+  },
+  {
+    "label": "C4c float2_value_bool_element",
+    "name": "invalid/variables",
+    "id": "C4c",
+    "title": "float2 variable with value [1.0, true]",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C4c_float2_value_bool_element.gltf"
+    }
+  },
+  {
+    "label": "C5a int_value_fractional",
+    "name": "invalid/variables",
+    "id": "C5a",
+    "title": "int variable with value [1.5]",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C5a_int_value_fractional.gltf"
+    }
+  },
+  {
+    "label": "C5b int_value_exceeds_int32",
+    "name": "invalid/variables",
+    "id": "C5b",
+    "title": "int variable with value [2147483648]",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C5b_int_value_exceeds_int32.gltf"
+    }
+  },
+  {
+    "label": "C6a ref_value_missing_leading_slash",
+    "name": "invalid/variables",
+    "id": "C6a",
+    "title": "ref variable with value [\"nodes/0\"]",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C6a_ref_value_missing_leading_slash.gltf"
+    }
+  },
+  {
+    "label": "C6b ref_value_invalid_escape",
+    "name": "invalid/variables",
+    "id": "C6b",
+    "title": "ref variable with value [\"/nodes/~2\"]",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C6b_ref_value_invalid_escape.gltf"
+    }
+  },
+  {
+    "label": "C6c ref_value_number",
+    "name": "invalid/variables",
+    "id": "C6c",
+    "title": "ref variable with value [0]",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C6c_ref_value_number.gltf"
+    }
+  },
+  {
+    "label": "C7a variables_without_types",
+    "name": "invalid/variables",
+    "id": "C7a",
+    "title": "variables defined but the graph has no types array",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C7a_variables_without_types.gltf"
+    }
+  },
+  {
+    "label": "C7b variable_value_empty",
+    "name": "invalid/variables",
+    "id": "C7b",
+    "title": "variable with value []",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C7b_variable_value_empty.gltf"
+    }
+  },
+  {
+    "label": "C7c variable_name_not_string",
+    "name": "invalid/variables",
+    "id": "C7c",
+    "title": "variable name is a number",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C7c_variable_name_not_string.gltf"
+    }
+  },
+  {
+    "label": "C7d variables_empty",
+    "name": "invalid/variables",
+    "id": "C7d",
+    "title": "variables array is empty",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "C7d_variables_empty.gltf"
+    }
+  },
+  {
+    "label": "C8a variable_type_missing",
+    "name": "invalid/variables",
+    "id": "C8a",
+    "title": "variable without type",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C8a_variable_type_missing.gltf"
+    }
+  },
+  {
+    "label": "C8b variable_type_negative",
+    "name": "invalid/variables",
+    "id": "C8b",
+    "title": "variable type index -1",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C8b_variable_type_negative.gltf"
+    }
+  },
+  {
+    "label": "C8c variable_type_fractional",
+    "name": "invalid/variables",
+    "id": "C8c",
+    "title": "variable type index 0.5",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "C8c_variable_type_fractional.gltf"
+    }
+  },
+  {
+    "label": "D1 duplicate_event_id",
+    "name": "invalid/events",
+    "id": "D1",
+    "title": "two events with the id \"custom/a\"",
+    "specSection": "JSON Syntax › Events",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "D1_duplicate_event_id.gltf"
+    }
+  },
+  {
+    "label": "D2 event_value_named_event",
+    "name": "invalid/events",
+    "id": "D2",
+    "title": "event value socket with the reserved id \"event\"",
+    "specSection": "JSON Syntax › Events",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "D2_event_value_named_event.gltf"
+    }
+  },
+  {
+    "label": "D3a event_value_type_out_of_range",
+    "name": "invalid/events",
+    "id": "D3a",
+    "title": "event value type index equals types length",
+    "specSection": "JSON Syntax › Events",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "D3a_event_value_type_out_of_range.gltf"
+    }
+  },
+  {
+    "label": "D3b event_value_type_missing",
+    "name": "invalid/events",
+    "id": "D3b",
+    "title": "event value without type",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "D3b_event_value_type_missing.gltf"
+    }
+  },
+  {
+    "label": "D4a event_value_int_fractional",
+    "name": "invalid/events",
+    "id": "D4a",
+    "title": "int event value with initial value [1.5]",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "D4a_event_value_int_fractional.gltf"
+    }
+  },
+  {
+    "label": "D4b event_value_wrong_length",
+    "name": "invalid/events",
+    "id": "D4b",
+    "title": "float3 event value with initial value [1, 2]",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "D4b_event_value_wrong_length.gltf"
+    }
+  },
+  {
+    "label": "D5a event_id_not_string",
+    "name": "invalid/events",
+    "id": "D5a",
+    "title": "event id is a number",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "D5a_event_id_not_string.gltf"
+    }
+  },
+  {
+    "label": "D5b event_values_empty",
+    "name": "invalid/events",
+    "id": "D5b",
+    "title": "event with values {}",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "D5b_event_values_empty.gltf"
+    }
+  },
+  {
+    "label": "D5c event_name_not_string",
+    "name": "invalid/events",
+    "id": "D5c",
+    "title": "event name is a boolean",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "D5c_event_name_not_string.gltf"
+    }
+  },
+  {
+    "label": "E1a op_missing",
+    "name": "invalid/declarations",
+    "id": "E1a",
+    "title": "declaration without op",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "E1a_op_missing.gltf"
+    }
+  },
+  {
+    "label": "E1b op_not_string",
+    "name": "invalid/declarations",
+    "id": "E1b",
+    "title": "declaration op is a number",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "E1b_op_not_string.gltf"
+    }
+  },
+  {
+    "label": "E2a unknown_op_without_extension",
+    "name": "invalid/declarations",
+    "id": "E2a",
+    "title": "unknown op \"math/addd\" without extension",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "E2a_unknown_op_without_extension.gltf"
+    }
+  },
+  {
+    "label": "E2b op_wrong_case",
+    "name": "invalid/declarations",
+    "id": "E2b",
+    "title": "op \"Math/Add\" (ops are case-sensitive)",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "E2b_op_wrong_case.gltf"
+    }
+  },
+  {
+    "label": "E2c unused_unknown_declaration",
+    "name": "invalid/declarations",
+    "id": "E2c",
+    "title": "unknown op declared but not used by any node",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "E2c_unused_unknown_declaration.gltf"
+    }
+  },
+  {
+    "label": "E3a spec_op_with_input_value_sockets",
+    "name": "invalid/declarations",
+    "id": "E3a",
+    "title": "spec op math/add declares inputValueSockets",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "E3a_spec_op_with_input_value_sockets.gltf"
+    }
+  },
+  {
+    "label": "E3b spec_op_with_output_value_sockets",
+    "name": "invalid/declarations",
+    "id": "E3b",
+    "title": "spec op math/add declares outputValueSockets",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "E3b_spec_op_with_output_value_sockets.gltf"
+    }
+  },
+  {
+    "label": "E4a ext_input_socket_type_out_of_range",
+    "name": "invalid/declarations",
+    "id": "E4a",
+    "title": "extension op input socket type index equals types length",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "test/customOp"
+    ],
+    "variants": {
+      "glTF": "E4a_ext_input_socket_type_out_of_range.gltf"
+    }
+  },
+  {
+    "label": "E4b ext_output_socket_type_out_of_range",
+    "name": "invalid/declarations",
+    "id": "E4b",
+    "title": "extension op output socket type index equals types length",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "test/customOp"
+    ],
+    "variants": {
+      "glTF": "E4b_ext_output_socket_type_out_of_range.gltf"
+    }
+  },
+  {
+    "label": "E4c ext_socket_type_missing",
+    "name": "invalid/declarations",
+    "id": "E4c",
+    "title": "extension op input socket without type",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "test/customOp"
+    ],
+    "variants": {
+      "glTF": "E4c_ext_socket_type_missing.gltf"
+    }
+  },
+  {
+    "label": "E4d ext_input_sockets_empty",
+    "name": "invalid/declarations",
+    "id": "E4d",
+    "title": "extension op with inputValueSockets {}",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "test/customOp"
+    ],
+    "variants": {
+      "glTF": "E4d_ext_input_sockets_empty.gltf"
+    }
+  },
+  {
+    "label": "E5a duplicate_declaration",
+    "name": "invalid/declarations",
+    "id": "E5a",
+    "title": "math/add declared twice",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "E5a_duplicate_declaration.gltf"
+    }
+  },
+  {
+    "label": "E5b duplicate_extension_declaration",
+    "name": "invalid/declarations",
+    "id": "E5b",
+    "title": "identical extension op declared twice",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "test/customOp"
+    ],
+    "variants": {
+      "glTF": "E5b_duplicate_extension_declaration.gltf"
+    }
+  },
+  {
+    "label": "E5c duplicate_extension_declaration_other_outputs",
+    "name": "invalid/declarations",
+    "id": "E5c",
+    "title": "extension op declared twice, differing only in outputValueSockets (still equal)",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "test/customOp"
+    ],
+    "variants": {
+      "glTF": "E5c_duplicate_extension_declaration_other_outputs.gltf"
+    }
+  },
+  {
+    "label": "E6 extension_not_string",
+    "name": "invalid/declarations",
+    "id": "E6",
+    "title": "declaration extension is a number",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "test/customOp"
+    ],
+    "variants": {
+      "glTF": "E6_extension_not_string.gltf"
+    }
+  },
+  {
+    "label": "F1a declaration_out_of_range",
+    "name": "invalid/nodes",
+    "id": "F1a",
+    "title": "node declaration index equals declarations length",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F1a_declaration_out_of_range.gltf"
+    }
+  },
+  {
+    "label": "F1b declaration_missing",
+    "name": "invalid/nodes",
+    "id": "F1b",
+    "title": "node without declaration",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F1b_declaration_missing.gltf"
+    }
+  },
+  {
+    "label": "F1c declaration_negative",
+    "name": "invalid/nodes",
+    "id": "F1c",
+    "title": "node declaration index -1",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F1c_declaration_negative.gltf"
+    }
+  },
+  {
+    "label": "F1d nodes_without_declarations",
+    "name": "invalid/nodes",
+    "id": "F1d",
+    "title": "nodes defined but the graph has no declarations array",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F1d_nodes_without_declarations.gltf"
+    }
+  },
+  {
+    "label": "F2 value_with_node_and_value",
+    "name": "invalid/nodes",
+    "id": "F2",
+    "title": "input value socket defines both node and value",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add",
+      "math/E"
+    ],
+    "variants": {
+      "glTF": "F2_value_with_node_and_value.gltf"
+    }
+  },
+  {
+    "label": "F3a value_ref_forward",
+    "name": "invalid/nodes",
+    "id": "F3a",
+    "title": "input value references a later node",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add",
+      "math/E"
+    ],
+    "variants": {
+      "glTF": "F3a_value_ref_forward.gltf"
+    }
+  },
+  {
+    "label": "F3b value_ref_self",
+    "name": "invalid/nodes",
+    "id": "F3b",
+    "title": "input value references its own node",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add",
+      "math/E"
+    ],
+    "variants": {
+      "glTF": "F3b_value_ref_self.gltf"
+    }
+  },
+  {
+    "label": "F3c value_ref_negative",
+    "name": "invalid/nodes",
+    "id": "F3c",
+    "title": "input value references node -1",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add",
+      "math/E"
+    ],
+    "variants": {
+      "glTF": "F3c_value_ref_negative.gltf"
+    }
+  },
+  {
+    "label": "F4a value_ref_unknown_socket",
+    "name": "invalid/nodes",
+    "id": "F4a",
+    "title": "input value references non-existent output socket \"result\"",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add",
+      "math/E"
+    ],
+    "variants": {
+      "glTF": "F4a_value_ref_unknown_socket.gltf"
+    }
+  },
+  {
+    "label": "F4b value_ref_implicit_socket_missing",
+    "name": "invalid/nodes",
+    "id": "F4b",
+    "title": "input value omits socket, but flow/multiGate has no \"value\" output",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/multiGate",
+      "math/abs"
+    ],
+    "variants": {
+      "glTF": "F4b_value_ref_implicit_socket_missing.gltf"
+    }
+  },
+  {
+    "label": "F4c value_ref_socket_wrong_case",
+    "name": "invalid/nodes",
+    "id": "F4c",
+    "title": "input value references socket \"LastIndex\" (case-sensitive)",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/multiGate",
+      "math/abs"
+    ],
+    "variants": {
+      "glTF": "F4c_value_ref_socket_wrong_case.gltf"
+    }
+  },
+  {
+    "label": "F5 value_ref_type_mismatch",
+    "name": "invalid/nodes",
+    "id": "F5",
+    "title": "input value references a float output but declares type int",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add",
+      "math/E"
+    ],
+    "variants": {
+      "glTF": "F5_value_ref_type_mismatch.gltf"
+    }
+  },
+  {
+    "label": "F6a inline_type_out_of_range",
+    "name": "invalid/nodes",
+    "id": "F6a",
+    "title": "inline value type index equals types length",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F6a_inline_type_out_of_range.gltf"
+    }
+  },
+  {
+    "label": "F6b inline_type_missing",
+    "name": "invalid/nodes",
+    "id": "F6b",
+    "title": "inline value without type",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F6b_inline_type_missing.gltf"
+    }
+  },
+  {
+    "label": "F6c type_default_without_type",
+    "name": "invalid/nodes",
+    "id": "F6c",
+    "title": "input value socket {} (neither node, value nor type)",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F6c_type_default_without_type.gltf"
+    }
+  },
+  {
+    "label": "F6d inline_type_negative",
+    "name": "invalid/nodes",
+    "id": "F6d",
+    "title": "inline value type index -1",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F6d_inline_type_negative.gltf"
+    }
+  },
+  {
+    "label": "F7a inline_value_wrong_length",
+    "name": "invalid/nodes",
+    "id": "F7a",
+    "title": "float inline value with 2 elements",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F7a_inline_value_wrong_length.gltf"
+    }
+  },
+  {
+    "label": "F7b inline_int_fractional",
+    "name": "invalid/nodes",
+    "id": "F7b",
+    "title": "int inline value [1.5]",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F7b_inline_int_fractional.gltf"
+    }
+  },
+  {
+    "label": "F7c inline_bool_number",
+    "name": "invalid/nodes",
+    "id": "F7c",
+    "title": "bool inline value [1]",
+    "specSection": "Validation › Inline Value Object Validation",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/branch",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF": "F7c_inline_bool_number.gltf"
+    }
+  },
+  {
+    "label": "F8a input_socket_missing",
+    "name": "invalid/nodes",
+    "id": "F8a",
+    "title": "math/add without input b",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F8a_input_socket_missing.gltf"
+    }
+  },
+  {
+    "label": "F8b input_socket_wrong_case",
+    "name": "invalid/nodes",
+    "id": "F8b",
+    "title": "math/add with input \"B\" instead of \"b\"",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F8b_input_socket_wrong_case.gltf"
+    }
+  },
+  {
+    "label": "F8c values_missing",
+    "name": "invalid/nodes",
+    "id": "F8c",
+    "title": "math/add without values",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F8c_values_missing.gltf"
+    }
+  },
+  {
+    "label": "F9a mismatching_input_types",
+    "name": "invalid/nodes",
+    "id": "F9a",
+    "title": "math/add with int a and float b",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F9a_mismatching_input_types.gltf"
+    }
+  },
+  {
+    "label": "F9b branch_condition_float",
+    "name": "invalid/nodes",
+    "id": "F9b",
+    "title": "flow/branch with float condition",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/branch",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF": "F9b_branch_condition_float.gltf"
+    }
+  },
+  {
+    "label": "F9c unsupported_input_type",
+    "name": "invalid/nodes",
+    "id": "F9c",
+    "title": "math/sin with int input",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/sin"
+    ],
+    "variants": {
+      "glTF": "F9c_unsupported_input_type.gltf"
+    }
+  },
+  {
+    "label": "F10a flow_backward",
+    "name": "invalid/nodes",
+    "id": "F10a",
+    "title": "output flow points to an earlier node",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF": "F10a_flow_backward.gltf"
+    }
+  },
+  {
+    "label": "F10b flow_self",
+    "name": "invalid/nodes",
+    "id": "F10b",
+    "title": "output flow points to its own node",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF": "F10b_flow_self.gltf"
+    }
+  },
+  {
+    "label": "F10c flow_out_of_range",
+    "name": "invalid/nodes",
+    "id": "F10c",
+    "title": "output flow points to node index equal to nodes length",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF": "F10c_flow_out_of_range.gltf"
+    }
+  },
+  {
+    "label": "F10d flow_backward_into_signal_chain",
+    "name": "invalid/nodes",
+    "id": "F10d",
+    "title": "output flow points back to the debug/log node of the chain",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF": "F10d_flow_backward_into_signal_chain.gltf"
+    }
+  },
+  {
+    "label": "F11a flow_without_node",
+    "name": "invalid/nodes",
+    "id": "F11a",
+    "title": "output flow without node",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF": "F11a_flow_without_node.gltf"
+    }
+  },
+  {
+    "label": "F11b flow_socket_not_string",
+    "name": "invalid/nodes",
+    "id": "F11b",
+    "title": "output flow socket is a number",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF": "F11b_flow_socket_not_string.gltf"
+    }
+  },
+  {
+    "label": "F11c flow_node_negative",
+    "name": "invalid/nodes",
+    "id": "F11c",
+    "title": "output flow node -1",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF": "F11c_flow_node_negative.gltf"
+    }
+  },
+  {
+    "label": "F11d flows_empty_object",
+    "name": "invalid/nodes",
+    "id": "F11d",
+    "title": "node with flows {}",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF": "F11d_flows_empty_object.gltf"
+    }
+  },
+  {
+    "label": "F11e values_empty_object",
+    "name": "invalid/nodes",
+    "id": "F11e",
+    "title": "node with values {}",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add",
+      "math/E"
+    ],
+    "variants": {
+      "glTF": "F11e_values_empty_object.gltf"
+    }
+  },
+  {
+    "label": "F11f configuration_empty_object",
+    "name": "invalid/nodes",
+    "id": "F11f",
+    "title": "node with configuration {}",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add",
+      "math/E"
+    ],
+    "variants": {
+      "glTF": "F11f_configuration_empty_object.gltf"
+    }
+  },
+  {
+    "label": "F12a configuration_property_not_object",
+    "name": "invalid/nodes",
+    "id": "F12a",
+    "title": "configuration property is a plain number",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "F12a_configuration_property_not_object.gltf"
+    }
+  },
+  {
+    "label": "F12b configuration_value_empty",
+    "name": "invalid/nodes",
+    "id": "F12b",
+    "title": "configuration property with value []",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "F12b_configuration_value_empty.gltf"
+    }
+  },
+  {
+    "label": "F12c configuration_value_not_array",
+    "name": "invalid/nodes",
+    "id": "F12c",
+    "title": "configuration property with value 0 instead of [0]",
+    "specSection": "Validation › Graph Object Validation",
+    "expectedOutcome": "rejectExtension",
+    "schemaAssert": true,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "F12c_configuration_value_not_array.gltf"
+    }
+  },
+  {
+    "label": "F13a extra_value_socket_invalid_type",
+    "name": "invalid/nodes",
+    "id": "F13a",
+    "title": "unused extra input value with type index out of range",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add"
+    ],
+    "variants": {
+      "glTF": "F13a_extra_value_socket_invalid_type.gltf"
+    }
+  },
+  {
+    "label": "F13b extra_value_socket_forward_ref",
+    "name": "invalid/nodes",
+    "id": "F13b",
+    "title": "unused extra input value referencing a later node",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/add",
+      "math/E"
+    ],
+    "variants": {
+      "glTF": "F13b_extra_value_socket_forward_ref.gltf"
+    }
+  },
+  {
+    "label": "F13c extra_flow_backward",
+    "name": "invalid/nodes",
+    "id": "F13c",
+    "title": "unused extra output flow pointing to an earlier node",
+    "specSection": "JSON Syntax › Nodes",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/branch",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF": "F13c_extra_flow_backward.gltf"
+    }
+  },
+  {
+    "label": "G1a variable_get_config_missing",
+    "name": "invalid/operations",
+    "id": "G1a",
+    "title": "variable/get without configuration",
+    "specSection": "Operations › variable/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "G1a_variable_get_config_missing.gltf"
+    }
+  },
+  {
+    "label": "G1b variable_get_index_out_of_range",
+    "name": "invalid/operations",
+    "id": "G1b",
+    "title": "variable/get with variable index 1 (one variable)",
+    "specSection": "Operations › variable/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "G1b_variable_get_index_out_of_range.gltf"
+    }
+  },
+  {
+    "label": "G1c variable_get_index_negative",
+    "name": "invalid/operations",
+    "id": "G1c",
+    "title": "variable/get with variable index -1",
+    "specSection": "Operations › variable/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "G1c_variable_get_index_negative.gltf"
+    }
+  },
+  {
+    "label": "G1d variable_get_index_fractional",
+    "name": "invalid/operations",
+    "id": "G1d",
+    "title": "variable/get with variable index 0.5",
+    "specSection": "Operations › variable/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "G1d_variable_get_index_fractional.gltf"
+    }
+  },
+  {
+    "label": "G1e variable_get_index_string",
+    "name": "invalid/operations",
+    "id": "G1e",
+    "title": "variable/get with variable index \"0\"",
+    "specSection": "Operations › variable/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "G1e_variable_get_index_string.gltf"
+    }
+  },
+  {
+    "label": "G1f variable_get_without_variables",
+    "name": "invalid/operations",
+    "id": "G1f",
+    "title": "variable/get in a graph without variables",
+    "specSection": "Operations › variable/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/get"
+    ],
+    "variants": {
+      "glTF": "G1f_variable_get_without_variables.gltf"
+    }
+  },
+  {
+    "label": "G2a variable_set_config_missing",
+    "name": "invalid/operations",
+    "id": "G2a",
+    "title": "variable/set without configuration",
+    "specSection": "Operations › variable/set",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/set"
+    ],
+    "variants": {
+      "glTF": "G2a_variable_set_config_missing.gltf"
+    }
+  },
+  {
+    "label": "G2b variable_set_index_out_of_range",
+    "name": "invalid/operations",
+    "id": "G2b",
+    "title": "variable/set with variables [2] (two variables)",
+    "specSection": "Operations › variable/set",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/set"
+    ],
+    "variants": {
+      "glTF": "G2b_variable_set_index_out_of_range.gltf"
+    }
+  },
+  {
+    "label": "G2c variable_set_index_negative",
+    "name": "invalid/operations",
+    "id": "G2c",
+    "title": "variable/set with variables [-1]",
+    "specSection": "Operations › variable/set",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/set"
+    ],
+    "variants": {
+      "glTF": "G2c_variable_set_index_negative.gltf"
+    }
+  },
+  {
+    "label": "G2d variable_set_one_index_invalid",
+    "name": "invalid/operations",
+    "id": "G2d",
+    "title": "variable/set with variables [0, 2] (two variables)",
+    "specSection": "Operations › variable/set",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/set"
+    ],
+    "variants": {
+      "glTF": "G2d_variable_set_one_index_invalid.gltf"
+    }
+  },
+  {
+    "label": "G2e variable_set_value_socket_missing",
+    "name": "invalid/operations",
+    "id": "G2e",
+    "title": "variable/set without input value \"0\"",
+    "specSection": "Operations › variable/set",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/set"
+    ],
+    "variants": {
+      "glTF": "G2e_variable_set_value_socket_missing.gltf"
+    }
+  },
+  {
+    "label": "G2f variable_set_value_socket_wrong_type",
+    "name": "invalid/operations",
+    "id": "G2f",
+    "title": "variable/set with float value for an int variable",
+    "specSection": "Operations › variable/set",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/set"
+    ],
+    "variants": {
+      "glTF": "G2f_variable_set_value_socket_wrong_type.gltf"
+    }
+  },
+  {
+    "label": "G3a variable_interpolate_int_variable",
+    "name": "invalid/operations",
+    "id": "G3a",
+    "title": "variable/interpolate on an int variable",
+    "specSection": "Operations › variable/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/interpolate"
+    ],
+    "variants": {
+      "glTF": "G3a_variable_interpolate_int_variable.gltf"
+    }
+  },
+  {
+    "label": "G3b variable_interpolate_bool_variable",
+    "name": "invalid/operations",
+    "id": "G3b",
+    "title": "variable/interpolate on a bool variable",
+    "specSection": "Operations › variable/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/interpolate"
+    ],
+    "variants": {
+      "glTF": "G3b_variable_interpolate_bool_variable.gltf"
+    }
+  },
+  {
+    "label": "G3c variable_interpolate_useSlerp_missing",
+    "name": "invalid/operations",
+    "id": "G3c",
+    "title": "variable/interpolate without useSlerp",
+    "specSection": "Operations › variable/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/interpolate"
+    ],
+    "variants": {
+      "glTF": "G3c_variable_interpolate_useSlerp_missing.gltf"
+    }
+  },
+  {
+    "label": "G3d variable_interpolate_useSlerp_on_float3",
+    "name": "invalid/operations",
+    "id": "G3d",
+    "title": "variable/interpolate with useSlerp true on a float3 variable",
+    "specSection": "Operations › variable/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/interpolate"
+    ],
+    "variants": {
+      "glTF": "G3d_variable_interpolate_useSlerp_on_float3.gltf"
+    }
+  },
+  {
+    "label": "G3e variable_interpolate_useSlerp_not_bool",
+    "name": "invalid/operations",
+    "id": "G3e",
+    "title": "variable/interpolate with useSlerp [0]",
+    "specSection": "Operations › variable/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/interpolate"
+    ],
+    "variants": {
+      "glTF": "G3e_variable_interpolate_useSlerp_not_bool.gltf"
+    }
+  },
+  {
+    "label": "G3f variable_interpolate_index_out_of_range",
+    "name": "invalid/operations",
+    "id": "G3f",
+    "title": "variable/interpolate with variable index 1 (one variable)",
+    "specSection": "Operations › variable/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/interpolate"
+    ],
+    "variants": {
+      "glTF": "G3f_variable_interpolate_index_out_of_range.gltf"
+    }
+  },
+  {
+    "label": "G3g variable_interpolate_p1_missing",
+    "name": "invalid/operations",
+    "id": "G3g",
+    "title": "variable/interpolate without input p1",
+    "specSection": "Operations › variable/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/interpolate"
+    ],
+    "variants": {
+      "glTF": "G3g_variable_interpolate_p1_missing.gltf"
+    }
+  },
+  {
+    "label": "G3h variable_interpolate_value_wrong_type",
+    "name": "invalid/operations",
+    "id": "G3h",
+    "title": "variable/interpolate with float2 value for a float3 variable",
+    "specSection": "Operations › variable/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "variable/interpolate"
+    ],
+    "variants": {
+      "glTF": "G3h_variable_interpolate_value_wrong_type.gltf"
+    }
+  },
+  {
+    "label": "G4a pointer_get_pointer_missing",
+    "name": "invalid/operations",
+    "id": "G4a",
+    "title": "pointer/get without pointer",
+    "specSection": "Operations › pointer/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G4a_pointer_get_pointer_missing.gltf"
+    }
+  },
+  {
+    "label": "G4b pointer_get_pointer_not_string",
+    "name": "invalid/operations",
+    "id": "G4b",
+    "title": "pointer/get with pointer [5]",
+    "specSection": "Operations › pointer/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G4b_pointer_get_pointer_not_string.gltf"
+    }
+  },
+  {
+    "label": "G4c pointer_get_type_missing",
+    "name": "invalid/operations",
+    "id": "G4c",
+    "title": "pointer/get without type",
+    "specSection": "Operations › pointer/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G4c_pointer_get_type_missing.gltf"
+    }
+  },
+  {
+    "label": "G4d pointer_get_type_out_of_range",
+    "name": "invalid/operations",
+    "id": "G4d",
+    "title": "pointer/get with type index equal to types length",
+    "specSection": "Operations › pointer/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G4d_pointer_get_type_out_of_range.gltf"
+    }
+  },
+  {
+    "label": "G4e pointer_get_type_negative",
+    "name": "invalid/operations",
+    "id": "G4e",
+    "title": "pointer/get with type index -1",
+    "specSection": "Operations › pointer/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G4e_pointer_get_type_negative.gltf"
+    }
+  },
+  {
+    "label": "G4f pointer_get_type_fractional",
+    "name": "invalid/operations",
+    "id": "G4f",
+    "title": "pointer/get with type index 0.5",
+    "specSection": "Operations › pointer/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G4f_pointer_get_type_fractional.gltf"
+    }
+  },
+  {
+    "label": "G4g pointer_get_template_socket_missing",
+    "name": "invalid/operations",
+    "id": "G4g",
+    "title": "pointer/get template [nodeIndex] without input value",
+    "specSection": "Operations › pointer/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G4g_pointer_get_template_socket_missing.gltf"
+    }
+  },
+  {
+    "label": "G4h pointer_get_int_param_wrong_type",
+    "name": "invalid/operations",
+    "id": "G4h",
+    "title": "pointer/get template [nodeIndex] with float input value",
+    "specSection": "Operations › pointer/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G4h_pointer_get_int_param_wrong_type.gltf"
+    }
+  },
+  {
+    "label": "G4i pointer_get_ref_param_wrong_type",
+    "name": "invalid/operations",
+    "id": "G4i",
+    "title": "pointer/get template {node} with int input value",
+    "specSection": "Operations › pointer/get",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G4i_pointer_get_ref_param_wrong_type.gltf"
+    }
+  },
+  {
+    "label": "G5-01 pointer_template_invalid_escape",
+    "name": "invalid/operations",
+    "id": "G5-01",
+    "title": "pointer/get with invalid template \"/nodes/0/extras/~2\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-01_pointer_template_invalid_escape.gltf"
+    }
+  },
+  {
+    "label": "G5-02 pointer_template_duplicate_int_params",
+    "name": "invalid/operations",
+    "id": "G5-02",
+    "title": "pointer/get with invalid template \"/nodes/[index]/weights/[index]\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-02_pointer_template_duplicate_int_params.gltf"
+    }
+  },
+  {
+    "label": "G5-03 pointer_template_duplicate_mixed_params",
+    "name": "invalid/operations",
+    "id": "G5-03",
+    "title": "pointer/get with invalid template \"/nodes/{index}/weights/[index]\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-03_pointer_template_duplicate_mixed_params.gltf"
+    }
+  },
+  {
+    "label": "G5-04 pointer_template_lone_square_bracket",
+    "name": "invalid/operations",
+    "id": "G5-04",
+    "title": "pointer/get with invalid template \"/nodes/[/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-04_pointer_template_lone_square_bracket.gltf"
+    }
+  },
+  {
+    "label": "G5-05 pointer_template_lone_curly_bracket",
+    "name": "invalid/operations",
+    "id": "G5-05",
+    "title": "pointer/get with invalid template \"/nodes/{/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-05_pointer_template_lone_curly_bracket.gltf"
+    }
+  },
+  {
+    "label": "G5-06 pointer_template_empty_square_param",
+    "name": "invalid/operations",
+    "id": "G5-06",
+    "title": "pointer/get with invalid template \"/nodes/[]/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-06_pointer_template_empty_square_param.gltf"
+    }
+  },
+  {
+    "label": "G5-07 pointer_template_empty_curly_param",
+    "name": "invalid/operations",
+    "id": "G5-07",
+    "title": "pointer/get with invalid template \"/nodes/{}/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-07_pointer_template_empty_curly_param.gltf"
+    }
+  },
+  {
+    "label": "G5-08 pointer_template_unterminated_square_param",
+    "name": "invalid/operations",
+    "id": "G5-08",
+    "title": "pointer/get with invalid template \"/nodes/[index/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-08_pointer_template_unterminated_square_param.gltf"
+    }
+  },
+  {
+    "label": "G5-09 pointer_template_unterminated_curly_param",
+    "name": "invalid/operations",
+    "id": "G5-09",
+    "title": "pointer/get with invalid template \"/nodes/{index/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-09_pointer_template_unterminated_curly_param.gltf"
+    }
+  },
+  {
+    "label": "G5-10 pointer_template_square_in_square_param",
+    "name": "invalid/operations",
+    "id": "G5-10",
+    "title": "pointer/get with invalid template \"/nodes/[i[ndex]/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-10_pointer_template_square_in_square_param.gltf"
+    }
+  },
+  {
+    "label": "G5-11 pointer_template_curly_in_square_param",
+    "name": "invalid/operations",
+    "id": "G5-11",
+    "title": "pointer/get with invalid template \"/nodes/[i{ndex]/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-11_pointer_template_curly_in_square_param.gltf"
+    }
+  },
+  {
+    "label": "G5-12 pointer_template_square_in_curly_param",
+    "name": "invalid/operations",
+    "id": "G5-12",
+    "title": "pointer/get with invalid template \"/nodes/{i[ndex}/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-12_pointer_template_square_in_curly_param.gltf"
+    }
+  },
+  {
+    "label": "G5-13 pointer_template_curly_in_curly_param",
+    "name": "invalid/operations",
+    "id": "G5-13",
+    "title": "pointer/get with invalid template \"/nodes/{i{ndex}/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-13_pointer_template_curly_in_curly_param.gltf"
+    }
+  },
+  {
+    "label": "G5-14 pointer_template_closing_square_in_square_param",
+    "name": "invalid/operations",
+    "id": "G5-14",
+    "title": "pointer/get with invalid template \"/nodes/[i]ndex]/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-14_pointer_template_closing_square_in_square_param.gltf"
+    }
+  },
+  {
+    "label": "G5-15 pointer_template_closing_curly_in_square_param",
+    "name": "invalid/operations",
+    "id": "G5-15",
+    "title": "pointer/get with invalid template \"/nodes/[i}ndex]/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-15_pointer_template_closing_curly_in_square_param.gltf"
+    }
+  },
+  {
+    "label": "G5-16 pointer_template_closing_square_in_curly_param",
+    "name": "invalid/operations",
+    "id": "G5-16",
+    "title": "pointer/get with invalid template \"/nodes/{i]ndex}/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-16_pointer_template_closing_square_in_curly_param.gltf"
+    }
+  },
+  {
+    "label": "G5-17 pointer_template_closing_curly_in_curly_param",
+    "name": "invalid/operations",
+    "id": "G5-17",
+    "title": "pointer/get with invalid template \"/nodes/{i}ndex}/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-17_pointer_template_closing_curly_in_curly_param.gltf"
+    }
+  },
+  {
+    "label": "G5-18 pointer_template_odd_literal_open_square",
+    "name": "invalid/operations",
+    "id": "G5-18",
+    "title": "pointer/get with invalid template \"/nodes/0/extras/[[i[ndex]]\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-18_pointer_template_odd_literal_open_square.gltf"
+    }
+  },
+  {
+    "label": "G5-19 pointer_template_odd_literal_open_curly",
+    "name": "invalid/operations",
+    "id": "G5-19",
+    "title": "pointer/get with invalid template \"/nodes/0/extras/{{i{ndex}}\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-19_pointer_template_odd_literal_open_curly.gltf"
+    }
+  },
+  {
+    "label": "G5-20 pointer_template_odd_literal_close_square",
+    "name": "invalid/operations",
+    "id": "G5-20",
+    "title": "pointer/get with invalid template \"/nodes/0/extras/[[index]\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-20_pointer_template_odd_literal_close_square.gltf"
+    }
+  },
+  {
+    "label": "G5-21 pointer_template_odd_literal_close_curly",
+    "name": "invalid/operations",
+    "id": "G5-21",
+    "title": "pointer/get with invalid template \"/nodes/0/extras/{{index}\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-21_pointer_template_odd_literal_close_curly.gltf"
+    }
+  },
+  {
+    "label": "G5-22 pointer_template_missing_leading_slash",
+    "name": "invalid/operations",
+    "id": "G5-22",
+    "title": "pointer/get with invalid template \"nodes/0/scale\"",
+    "specSection": "Object Model Access › JSON Pointer Template Parsing",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF": "G5-22_pointer_template_missing_leading_slash.gltf"
+    }
+  },
+  {
+    "label": "G6a pointer_set_template_int_param_value",
+    "name": "invalid/operations",
+    "id": "G6a",
+    "title": "pointer/set template uses [value]",
+    "specSection": "Operations › pointer/set",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/set"
+    ],
+    "variants": {
+      "glTF": "G6a_pointer_set_template_int_param_value.gltf"
+    }
+  },
+  {
+    "label": "G6b pointer_set_template_ref_param_value",
+    "name": "invalid/operations",
+    "id": "G6b",
+    "title": "pointer/set template uses {value}",
+    "specSection": "Operations › pointer/set",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/set"
+    ],
+    "variants": {
+      "glTF": "G6b_pointer_set_template_ref_param_value.gltf"
+    }
+  },
+  {
+    "label": "G6c pointer_set_value_missing",
+    "name": "invalid/operations",
+    "id": "G6c",
+    "title": "pointer/set without input value",
+    "specSection": "Operations › pointer/set",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/set"
+    ],
+    "variants": {
+      "glTF": "G6c_pointer_set_value_missing.gltf"
+    }
+  },
+  {
+    "label": "G6d pointer_set_value_wrong_type",
+    "name": "invalid/operations",
+    "id": "G6d",
+    "title": "pointer/set with float2 value for type float3",
+    "specSection": "Operations › pointer/set",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/set"
+    ],
+    "variants": {
+      "glTF": "G6d_pointer_set_value_wrong_type.gltf"
+    }
+  },
+  {
+    "label": "G7a pointer_interpolate_template_param_value",
+    "name": "invalid/operations",
+    "id": "G7a",
+    "title": "pointer/interpolate template uses [value]",
+    "specSection": "Operations › pointer/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/interpolate"
+    ],
+    "variants": {
+      "glTF": "G7a_pointer_interpolate_template_param_value.gltf"
+    }
+  },
+  {
+    "label": "G7b pointer_interpolate_template_param_duration",
+    "name": "invalid/operations",
+    "id": "G7b",
+    "title": "pointer/interpolate template uses [duration]",
+    "specSection": "Operations › pointer/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/interpolate"
+    ],
+    "variants": {
+      "glTF": "G7b_pointer_interpolate_template_param_duration.gltf"
+    }
+  },
+  {
+    "label": "G7c pointer_interpolate_template_param_p1",
+    "name": "invalid/operations",
+    "id": "G7c",
+    "title": "pointer/interpolate template uses {p1}",
+    "specSection": "Operations › pointer/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/interpolate"
+    ],
+    "variants": {
+      "glTF": "G7c_pointer_interpolate_template_param_p1.gltf"
+    }
+  },
+  {
+    "label": "G7d pointer_interpolate_template_param_p2",
+    "name": "invalid/operations",
+    "id": "G7d",
+    "title": "pointer/interpolate template uses [p2]",
+    "specSection": "Operations › pointer/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/interpolate"
+    ],
+    "variants": {
+      "glTF": "G7d_pointer_interpolate_template_param_p2.gltf"
+    }
+  },
+  {
+    "label": "G7e pointer_interpolate_type_int",
+    "name": "invalid/operations",
+    "id": "G7e",
+    "title": "pointer/interpolate with type int",
+    "specSection": "Operations › pointer/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/interpolate"
+    ],
+    "variants": {
+      "glTF": "G7e_pointer_interpolate_type_int.gltf"
+    }
+  },
+  {
+    "label": "G7f pointer_interpolate_type_bool",
+    "name": "invalid/operations",
+    "id": "G7f",
+    "title": "pointer/interpolate with type bool",
+    "specSection": "Operations › pointer/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/interpolate"
+    ],
+    "variants": {
+      "glTF": "G7f_pointer_interpolate_type_bool.gltf"
+    }
+  },
+  {
+    "label": "G7g pointer_interpolate_duration_missing",
+    "name": "invalid/operations",
+    "id": "G7g",
+    "title": "pointer/interpolate without input duration",
+    "specSection": "Operations › pointer/interpolate",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "pointer/interpolate"
+    ],
+    "variants": {
+      "glTF": "G7g_pointer_interpolate_duration_missing.gltf"
+    }
+  },
+  {
+    "label": "G8a event_receive_config_missing",
+    "name": "invalid/operations",
+    "id": "G8a",
+    "title": "event/receive without configuration",
+    "specSection": "Operations › event/receive",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/receive",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "G8a_event_receive_config_missing.gltf"
+    }
+  },
+  {
+    "label": "G8b event_receive_index_out_of_range",
+    "name": "invalid/operations",
+    "id": "G8b",
+    "title": "event/receive with event index equal to events length",
+    "specSection": "Operations › event/receive",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/receive",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "G8b_event_receive_index_out_of_range.gltf"
+    }
+  },
+  {
+    "label": "G8c event_receive_index_negative",
+    "name": "invalid/operations",
+    "id": "G8c",
+    "title": "event/receive with event index -1",
+    "specSection": "Operations › event/receive",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/receive",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "G8c_event_receive_index_negative.gltf"
+    }
+  },
+  {
+    "label": "G9a event_send_config_missing",
+    "name": "invalid/operations",
+    "id": "G9a",
+    "title": "event/send without configuration",
+    "specSection": "Operations › event/send",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "G9a_event_send_config_missing.gltf"
+    }
+  },
+  {
+    "label": "G9b event_send_index_out_of_range",
+    "name": "invalid/operations",
+    "id": "G9b",
+    "title": "event/send with event index equal to events length",
+    "specSection": "Operations › event/send",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "G9b_event_send_index_out_of_range.gltf"
+    }
+  },
+  {
+    "label": "G9c event_send_value_missing",
+    "name": "invalid/operations",
+    "id": "G9c",
+    "title": "event/send without the event's value socket v",
+    "specSection": "Operations › event/send",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "G9c_event_send_value_missing.gltf"
+    }
+  },
+  {
+    "label": "G9d event_send_value_wrong_type",
+    "name": "invalid/operations",
+    "id": "G9d",
+    "title": "event/send with float value for an int event socket",
+    "specSection": "Operations › event/send",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "G9d_event_send_value_wrong_type.gltf"
+    }
+  },
+  {
+    "label": "H1a math_switch_selection_missing",
+    "name": "invalid/operations",
+    "id": "H1a",
+    "title": "math/switch without selection",
+    "specSection": "Operations › math/switch",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/switch"
+    ],
+    "variants": {
+      "glTF": "H1a_math_switch_selection_missing.gltf"
+    }
+  },
+  {
+    "label": "H1b math_switch_selection_float",
+    "name": "invalid/operations",
+    "id": "H1b",
+    "title": "math/switch with float selection",
+    "specSection": "Operations › math/switch",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/switch"
+    ],
+    "variants": {
+      "glTF": "H1b_math_switch_selection_float.gltf"
+    }
+  },
+  {
+    "label": "H1c math_switch_default_missing",
+    "name": "invalid/operations",
+    "id": "H1c",
+    "title": "math/switch without default",
+    "specSection": "Operations › math/switch",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/switch"
+    ],
+    "variants": {
+      "glTF": "H1c_math_switch_default_missing.gltf"
+    }
+  },
+  {
+    "label": "H1d math_switch_case_socket_missing",
+    "name": "invalid/operations",
+    "id": "H1d",
+    "title": "math/switch with cases [1, 2] but without input \"2\"",
+    "specSection": "Operations › math/switch",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/switch"
+    ],
+    "variants": {
+      "glTF": "H1d_math_switch_case_socket_missing.gltf"
+    }
+  },
+  {
+    "label": "H1e math_switch_case_type_differs",
+    "name": "invalid/operations",
+    "id": "H1e",
+    "title": "math/switch with int case \"2\" but float default",
+    "specSection": "Operations › math/switch",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "math/switch"
+    ],
+    "variants": {
+      "glTF": "H1e_math_switch_case_type_differs.gltf"
+    }
+  },
+  {
+    "label": "H2a flow_switch_selection_float",
+    "name": "invalid/operations",
+    "id": "H2a",
+    "title": "flow/switch with float selection",
+    "specSection": "Operations › flow/switch",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/switch"
+    ],
+    "variants": {
+      "glTF": "H2a_flow_switch_selection_float.gltf"
+    }
+  },
+  {
+    "label": "H2b flow_switch_selection_missing",
+    "name": "invalid/operations",
+    "id": "H2b",
+    "title": "flow/switch without selection",
+    "specSection": "Operations › flow/switch",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "flow/switch"
+    ],
+    "variants": {
+      "glTF": "H2b_flow_switch_selection_missing.gltf"
+    }
+  },
+  {
+    "label": "H3 debug_log_param_socket_missing",
+    "name": "invalid/operations",
+    "id": "H3",
+    "title": "debug/log message \"value = {a}\" without input a",
+    "specSection": "Operations › debug/log",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send"
+    ],
+    "variants": {
+      "glTF": "H3_debug_log_param_socket_missing.gltf"
+    }
+  }
+]
