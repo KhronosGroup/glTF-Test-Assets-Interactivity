@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "UnityGltf 2.19.5, Unity 2022.3.62f2, Built-in RP",
+    "generator": "UnityGltf 2.21.0, Unity 2022.3.62f2, Built-in RP",
     "version": "2.0"
   },
   "extensionsUsed": [
@@ -2963,28 +2963,20 @@
           ],
           "variables": [
             {
-              "id": "graph0_NumberSelected",
               "type": 2,
+              "name": "graph0_NumberSelected",
               "value": [
                 0.0
               ]
             }
           ],
-          "events": [],
           "declarations": [
             {
               "op": "variable/get"
             },
             {
-              "op": "math/add"
-            },
-            {
-              "op": "variable/set"
-            },
-            {
               "op": "event/onSelect",
               "extension": "KHR_node_selectability",
-              "inputValueSockets": {},
               "outputValueSockets": {
                 "selectedNode": {
                   "type": 5
@@ -3001,6 +2993,12 @@
               }
             },
             {
+              "op": "variable/set"
+            },
+            {
+              "op": "math/add"
+            },
+            {
               "op": "math/div"
             },
             {
@@ -3008,9 +3006,6 @@
             },
             {
               "op": "math/lt"
-            },
-            {
-              "op": "pointer/set"
             },
             {
               "op": "math/abs"
@@ -3041,6 +3036,9 @@
             },
             {
               "op": "flow/sequence"
+            },
+            {
+              "op": "pointer/set"
             }
           ],
           "nodes": [
@@ -3052,51 +3050,10 @@
                     0
                   ]
                 }
-              },
-              "values": {},
-              "flows": {}
-            },
-            {
-              "declaration": 1,
-              "configuration": {},
-              "values": {
-                "a": {
-                  "node": 0,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 2,
-                  "value": [
-                    1.0
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 2,
-              "configuration": {
-                "variables": {
-                  "value": [
-                    0
-                  ]
-                }
-              },
-              "values": {
-                "0": {
-                  "node": 1,
-                  "socket": "value"
-                }
-              },
-              "flows": {
-                "out": {
-                  "node": 49,
-                  "socket": "in"
-                }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 1,
               "configuration": {
                 "nodeIndex": {
                   "value": [
@@ -3104,16 +3061,15 @@
                   ]
                 }
               },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 57,
+                  "node": 50,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 1,
               "configuration": {
                 "nodeIndex": {
                   "value": [
@@ -3121,10 +3077,9 @@
                   ]
                 }
               },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 5,
+                  "node": 3,
                   "socket": "in"
                 }
               }
@@ -3148,62 +3103,28 @@
               },
               "flows": {
                 "out": {
-                  "node": 49,
+                  "node": 58,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 2,
-              "configuration": {
-                "variables": {
-                  "value": [
-                    0
-                  ]
-                }
-              },
+              "declaration": 3,
               "values": {
-                "0": {
+                "a": {
+                  "node": 0,
+                  "socket": "value"
+                },
+                "b": {
                   "type": 2,
                   "value": [
-                    7.0
+                    1.0
                   ]
-                }
-              },
-              "flows": {
-                "out": {
-                  "node": 49,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 2,
-              "configuration": {
-                "variables": {
-                  "value": [
-                    0
-                  ]
-                }
-              },
-              "values": {
-                "0": {
-                  "type": 2,
-                  "value": [
-                    5.0
-                  ]
-                }
-              },
-              "flows": {
-                "out": {
-                  "node": 49,
-                  "socket": "in"
                 }
               }
             },
             {
               "declaration": 4,
-              "configuration": {},
               "values": {
                 "a": {
                   "node": 0,
@@ -3215,69 +3136,19 @@
                     2.0
                   ]
                 }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 5,
-              "configuration": {},
-              "values": {
-                "a": {
-                  "node": 8,
-                  "socket": "value"
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 2,
-              "configuration": {
-                "variables": {
-                  "value": [
-                    0
-                  ]
-                }
-              },
-              "values": {
-                "0": {
-                  "node": 9,
-                  "socket": "value"
-                }
-              },
-              "flows": {
-                "out": {
-                  "node": 49,
-                  "socket": "in"
-                }
               }
             },
             {
-              "declaration": 2,
-              "configuration": {
-                "variables": {
-                  "value": [
-                    0
-                  ]
-                }
-              },
+              "declaration": 5,
               "values": {
-                "0": {
-                  "type": 2,
-                  "value": [
-                    2.0
-                  ]
-                }
-              },
-              "flows": {
-                "out": {
-                  "node": 49,
-                  "socket": "in"
+                "a": {
+                  "node": 5,
+                  "socket": "value"
                 }
               }
             },
             {
               "declaration": 6,
-              "configuration": {},
               "values": {
                 "a": {
                   "node": 0,
@@ -3289,32 +3160,83 @@
                     0.0
                   ]
                 }
-              },
-              "flows": {}
+              }
             },
             {
               "declaration": 7,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/nodes/{nodeRef}/extensions/KHR_node_visibility/visible"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    0
-                  ]
-                }
-              },
               "values": {
-                "value": {
-                  "node": 12,
+                "a": {
+                  "node": 0,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 8,
+              "values": {
+                "a": {
+                  "node": 8,
                   "socket": "value"
                 },
-                "nodeRef": {
-                  "type": 5,
+                "b": {
+                  "type": 2,
                   "value": [
-                    "/nodes/22"
+                    10.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 9,
+              "values": {
+                "a": {
+                  "node": 9,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    0.1
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 10,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    0.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 4,
+              "values": {
+                "a": {
+                  "node": 8,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    10.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    6
                   ]
                 }
               },
@@ -3326,64 +3248,61 @@
               }
             },
             {
-              "declaration": 7,
+              "declaration": 2,
               "configuration": {
-                "pointer": {
-                  "value": [
-                    "/nodes/{nodeRef}/extensions/KHR_node_selectability/selectable"
-                  ]
-                },
-                "type": {
+                "variables": {
                   "value": [
                     0
                   ]
                 }
               },
               "values": {
-                "value": {
-                  "node": 12,
-                  "socket": "value"
-                },
-                "nodeRef": {
-                  "type": 5,
+                "0": {
+                  "type": 2,
                   "value": [
-                    "/nodes/22"
+                    2.0
                   ]
                 }
               },
-              "flows": {}
+              "flows": {
+                "out": {
+                  "node": 58,
+                  "socket": "in"
+                }
+              }
             },
             {
-              "declaration": 8,
-              "configuration": {},
+              "declaration": 11,
               "values": {
                 "a": {
                   "node": 0,
-                  "socket": "value"
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 9,
-              "configuration": {},
-              "values": {
-                "a": {
-                  "node": 15,
                   "socket": "value"
                 },
                 "b": {
                   "type": 2,
                   "value": [
-                    10.0
+                    -99.0
+                  ]
+                },
+                "c": {
+                  "type": 2,
+                  "value": [
+                    99.0
                   ]
                 }
-              },
-              "flows": {}
+              }
             },
             {
-              "declaration": 10,
-              "configuration": {},
+              "declaration": 5,
+              "values": {
+                "a": {
+                  "node": 12,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 9,
               "values": {
                 "a": {
                   "node": 16,
@@ -3395,12 +3314,10 @@
                     0.1
                   ]
                 }
-              },
-              "flows": {}
+              }
             },
             {
-              "declaration": 11,
-              "configuration": {},
+              "declaration": 10,
               "values": {
                 "a": {
                   "node": 17,
@@ -3412,39 +3329,118 @@
                     0.0
                   ]
                 }
-              },
-              "flows": {}
+              }
             },
             {
-              "declaration": 4,
-              "configuration": {},
-              "values": {
-                "a": {
-                  "node": 15,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 2,
-                  "value": [
-                    10.0
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 3,
+              "declaration": 1,
               "configuration": {
                 "nodeIndex": {
                   "value": [
-                    6
+                    7
                   ]
                 }
               },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 11,
+                  "node": 37,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 12,
+              "values": {
+                "a": {
+                  "node": 18,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 13,
+              "values": {
+                "a": {
+                  "type": 2,
+                  "value": [
+                    1.0
+                  ]
+                },
+                "b": {
+                  "node": 20,
+                  "socket": "1"
+                }
+              }
+            },
+            {
+              "declaration": 14,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/scale"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/4"
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 12,
+              "values": {
+                "a": {
+                  "node": 22,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 13,
+              "values": {
+                "a": {
+                  "node": 21,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 23,
+                  "socket": "1"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 20,
+                  "socket": "0"
+                },
+                "b": {
+                  "node": 24,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    8
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 27,
                   "socket": "in"
                 }
               }
@@ -3468,127 +3464,22 @@
               },
               "flows": {
                 "out": {
-                  "node": 49,
+                  "node": 58,
                   "socket": "in"
                 }
               }
             },
             {
               "declaration": 12,
-              "configuration": {},
               "values": {
                 "a": {
-                  "node": 0,
+                  "node": 11,
                   "socket": "value"
-                },
-                "b": {
-                  "type": 2,
-                  "value": [
-                    -99.0
-                  ]
-                },
-                "c": {
-                  "type": 2,
-                  "value": [
-                    99.0
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 2,
-              "configuration": {
-                "variables": {
-                  "value": [
-                    0
-                  ]
-                }
-              },
-              "values": {
-                "0": {
-                  "node": 22,
-                  "socket": "value"
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 5,
-              "configuration": {},
-              "values": {
-                "a": {
-                  "node": 19,
-                  "socket": "value"
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 10,
-              "configuration": {},
-              "values": {
-                "a": {
-                  "node": 24,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 2,
-                  "value": [
-                    0.1
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 11,
-              "configuration": {},
-              "values": {
-                "a": {
-                  "node": 25,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 2,
-                  "value": [
-                    0.0
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 3,
-              "configuration": {
-                "nodeIndex": {
-                  "value": [
-                    7
-                  ]
-                }
-              },
-              "values": {},
-              "flows": {
-                "out": {
-                  "node": 46,
-                  "socket": "in"
                 }
               }
             },
             {
               "declaration": 13,
-              "configuration": {},
-              "values": {
-                "a": {
-                  "node": 26,
-                  "socket": "value"
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 14,
-              "configuration": {},
               "values": {
                 "a": {
                   "type": 2,
@@ -3600,11 +3491,10 @@
                   "node": 28,
                   "socket": "1"
                 }
-              },
-              "flows": {}
+              }
             },
             {
-              "declaration": 15,
+              "declaration": 14,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -3621,26 +3511,22 @@
                 "materialRef": {
                   "type": 5,
                   "value": [
-                    "/materials/4"
+                    "/materials/5"
                   ]
                 }
-              },
-              "flows": {}
+              }
             },
             {
-              "declaration": 13,
-              "configuration": {},
+              "declaration": 12,
               "values": {
                 "a": {
                   "node": 30,
                   "socket": "value"
                 }
-              },
-              "flows": {}
+              }
             },
             {
-              "declaration": 14,
-              "configuration": {},
+              "declaration": 13,
               "values": {
                 "a": {
                   "node": 29,
@@ -3650,12 +3536,10 @@
                   "node": 31,
                   "socket": "1"
                 }
-              },
-              "flows": {}
+              }
             },
             {
-              "declaration": 11,
-              "configuration": {},
+              "declaration": 10,
               "values": {
                 "a": {
                   "node": 28,
@@ -3665,50 +3549,20 @@
                   "node": 32,
                   "socket": "value"
                 }
-              },
-              "flows": {}
+              }
             },
             {
-              "declaration": 7,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/offset"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    3
-                  ]
-                }
-              },
-              "values": {
-                "value": {
-                  "node": 33,
-                  "socket": "value"
-                },
-                "materialRef": {
-                  "type": 5,
-                  "value": [
-                    "/materials/4"
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 3,
+              "declaration": 1,
               "configuration": {
                 "nodeIndex": {
                   "value": [
-                    8
+                    5
                   ]
                 }
               },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 21,
+                  "node": 35,
                   "socket": "in"
                 }
               }
@@ -3732,156 +3586,16 @@
               },
               "flows": {
                 "out": {
-                  "node": 49,
+                  "node": 58,
                   "socket": "in"
                 }
               }
-            },
-            {
-              "declaration": 13,
-              "configuration": {},
-              "values": {
-                "a": {
-                  "node": 18,
-                  "socket": "value"
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 14,
-              "configuration": {},
-              "values": {
-                "a": {
-                  "type": 2,
-                  "value": [
-                    1.0
-                  ]
-                },
-                "b": {
-                  "node": 37,
-                  "socket": "1"
-                }
-              },
-              "flows": {}
             },
             {
               "declaration": 15,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/scale"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    3
-                  ]
-                }
-              },
-              "values": {
-                "materialRef": {
-                  "type": 5,
-                  "value": [
-                    "/materials/5"
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 13,
-              "configuration": {},
-              "values": {
-                "a": {
-                  "node": 39,
-                  "socket": "value"
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 14,
-              "configuration": {},
-              "values": {
-                "a": {
-                  "node": 38,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 40,
-                  "socket": "1"
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 11,
-              "configuration": {},
-              "values": {
-                "a": {
-                  "node": 37,
-                  "socket": "0"
-                },
-                "b": {
-                  "node": 41,
-                  "socket": "value"
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 7,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/offset"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    3
-                  ]
-                }
-              },
-              "values": {
-                "value": {
-                  "node": 42,
-                  "socket": "value"
-                },
-                "materialRef": {
-                  "type": 5,
-                  "value": [
-                    "/materials/5"
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 3,
-              "configuration": {
-                "nodeIndex": {
-                  "value": [
-                    5
-                  ]
-                }
-              },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 36,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 16,
-              "configuration": {},
-              "values": {},
-              "flows": {
-                "out": {
-                  "node": 49,
+                  "node": 58,
                   "socket": "in"
                 }
               }
@@ -3905,13 +3619,13 @@
               },
               "flows": {
                 "out": {
-                  "node": 49,
+                  "node": 58,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 1,
               "configuration": {
                 "nodeIndex": {
                   "value": [
@@ -3919,16 +3633,15 @@
                   ]
                 }
               },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 57,
+                  "node": 50,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 1,
               "configuration": {
                 "nodeIndex": {
                   "value": [
@@ -3936,91 +3649,12 @@
                   ]
                 }
               },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 2,
+                  "node": 40,
                   "socket": "in"
                 }
               }
-            },
-            {
-              "declaration": 17,
-              "configuration": {},
-              "values": {},
-              "flows": {
-                "sequ000": {
-                  "node": 23,
-                  "socket": "in"
-                },
-                "sequ001": {
-                  "node": 34,
-                  "socket": "in"
-                },
-                "sequ002": {
-                  "node": 43,
-                  "socket": "in"
-                },
-                "sequ003": {
-                  "node": 13,
-                  "socket": "in"
-                },
-                "sequ004": {
-                  "node": 23,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "configuration": {
-                "nodeIndex": {
-                  "value": [
-                    10
-                  ]
-                }
-              },
-              "values": {},
-              "flows": {
-                "out": {
-                  "node": 58,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "configuration": {
-                "nodeIndex": {
-                  "value": [
-                    9
-                  ]
-                }
-              },
-              "values": {},
-              "flows": {
-                "out": {
-                  "node": 7,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 14,
-              "configuration": {},
-              "values": {
-                "a": {
-                  "node": 0,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 2,
-                  "value": [
-                    1.0
-                  ]
-                }
-              },
-              "flows": {}
             },
             {
               "declaration": 2,
@@ -4033,19 +3667,90 @@
               },
               "values": {
                 "0": {
-                  "node": 52,
+                  "node": 4,
                   "socket": "value"
                 }
               },
               "flows": {
                 "out": {
-                  "node": 49,
+                  "node": 58,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 1,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    10
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 51,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    9
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 43,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "configuration": {
+                "variables": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "0": {
+                  "type": 2,
+                  "value": [
+                    5.0
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 58,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 13,
+              "values": {
+                "a": {
+                  "node": 0,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 1,
               "configuration": {
                 "nodeIndex": {
                   "value": [
@@ -4053,16 +3758,37 @@
                   ]
                 }
               },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 10,
+                  "node": 46,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
+              "configuration": {
+                "variables": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "0": {
+                  "node": 6,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 58,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
               "configuration": {
                 "nodeIndex": {
                   "value": [
@@ -4070,16 +3796,37 @@
                   ]
                 }
               },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 53,
+                  "node": 48,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
+              "configuration": {
+                "variables": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "0": {
+                  "node": 44,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 58,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
               "configuration": {
                 "nodeIndex": {
                   "value": [
@@ -4087,10 +3834,9 @@
                   ]
                 }
               },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 60,
+                  "node": 53,
                   "socket": "in"
                 }
               }
@@ -4114,7 +3860,7 @@
               },
               "flows": {
                 "out": {
-                  "node": 49,
+                  "node": 58,
                   "socket": "in"
                 }
               }
@@ -4138,14 +3884,13 @@
               },
               "flows": {
                 "out": {
-                  "node": 49,
+                  "node": 58,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 10,
-              "configuration": {},
+              "declaration": 9,
               "values": {
                 "a": {
                   "node": 0,
@@ -4157,8 +3902,7 @@
                     2.0
                   ]
                 }
-              },
-              "flows": {}
+              }
             },
             {
               "declaration": 2,
@@ -4171,13 +3915,69 @@
               },
               "values": {
                 "0": {
-                  "node": 59,
+                  "node": 52,
                   "socket": "value"
                 }
               },
               "flows": {
                 "out": {
-                  "node": 49,
+                  "node": 58,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    11
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 55,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "configuration": {
+                "variables": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "0": {
+                  "type": 2,
+                  "value": [
+                    7.0
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 58,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    12
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 57,
                   "socket": "in"
                 }
               }
@@ -4201,42 +4001,163 @@
               },
               "flows": {
                 "out": {
-                  "node": 49,
+                  "node": 58,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 3,
-              "configuration": {
-                "nodeIndex": {
-                  "value": [
-                    11
-                  ]
-                }
-              },
-              "values": {},
+              "declaration": 16,
               "flows": {
-                "out": {
-                  "node": 6,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "configuration": {
-                "nodeIndex": {
-                  "value": [
-                    12
-                  ]
-                }
-              },
-              "values": {},
-              "flows": {
-                "out": {
+                "sequ000": {
                   "node": 61,
                   "socket": "in"
+                },
+                "sequ001": {
+                  "node": 62,
+                  "socket": "in"
+                },
+                "sequ002": {
+                  "node": 63,
+                  "socket": "in"
+                },
+                "sequ003": {
+                  "node": 59,
+                  "socket": "in"
+                },
+                "sequ004": {
+                  "node": 61,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 17,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/extensions/KHR_node_visibility/visible"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 7,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/22"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 60,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 17,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/extensions/KHR_node_selectability/selectable"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 7,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "type": 5,
+                  "value": [
+                    "/nodes/22"
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "configuration": {
+                "variables": {
+                  "value": [
+                    0
+                  ]
+                }
+              },
+              "values": {
+                "0": {
+                  "node": 15,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 17,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/offset"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 25,
+                  "socket": "value"
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/4"
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 17,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/offset"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 33,
+                  "socket": "value"
+                },
+                "materialRef": {
+                  "type": 5,
+                  "value": [
+                    "/materials/5"
+                  ]
                 }
               }
             }
