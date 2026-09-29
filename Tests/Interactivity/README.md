@@ -6,7 +6,15 @@ glTF extension. Each asset is a small, self‑checking interactivity graph: it r
 a set of operations, compares the results against known‑good expected values, and
 records whether every sub‑test passed.
 
-> **Current coverage:** 149 test cases · 831 sub-tests.
+> **Current coverage:** 159 test files · 1,071 sub-tests, plus 179 invalid-graph cases.
+>
+> | Set | Test cases | Sub-tests |
+> | --- | ---: | ---: |
+> | `test-index.json` (animation, event, flow, graph, pointer, type, variable, ref, prerequisites, Extras) | 39 | 512 |
+> | `mathtests-index.json` | 116 | 543 |
+> | `UserInteractions/` (need a simulated hover/select) | 2 | 13 |
+> | `InterGlb/` (two files loaded together) | 2 | 3 |
+> | [`invalid/`](#invalid-graphs-invalid) (must be rejected, no sub-tests) | 179 | — |
 
 The assets are meant to be used two ways:
 
@@ -24,8 +32,8 @@ The assets are meant to be used two ways:
 Tests/
 └── Interactivity/
     ├── test-index.json          # index of the non-math test cases
+    ├── mathtests-index.json     # index of the math test cases
     ├── math/
-    │   ├── mathtests-index.json # index of the math test cases
     │   ├── abs/
     │   │   ├── abs.md           # human-readable description of the sub-tests
     │   │   ├── glTF-Binary/
@@ -33,16 +41,22 @@ Tests/
     │   │   └── test-Json/
     │   │       └── abs.json     # machine-readable expected results
     │   └── ...
+    ├── animation/ (start, stop, stopAt, playback modes, stop/stopAt edge cases, state)
     ├── flow/      (branch, for, while, switch, sequence, doN, …)
-    ├── event/     (send_and_receive, Event_Refs, stopPropagation)
-    ├── pointer/   (set_and_get, interpolate, morphtargets, read-only pointers)
+    ├── event/     (send_and_receive, Event_Refs, stopPropagation, activation order and onTick)
+    ├── graph/     (valid graphs that look suspicious: ignored configuration, extra/unknown sockets, JSON syntax, unsupported operations)
+    ├── pointer/   (set_and_get, set edge cases, interpolate, morphtargets, read-only pointers, asset capabilities)
     ├── type/      (conversions)
     ├── variable/  (set_and_get, setMultiple, interpolate)
     ├── ref/       (eq)
     ├── prerequisites/   # operations that MUST work for other tests to be meaningful
     ├── InterGlb/        # multi-file (inter-glTF) communication tests
     ├── UserInteractions/# hover/select tests that need a simulated pointer gesture (see below)
-    └── Extras/          # composite scenarios (Loop-in-Loop, Matrix updates)
+    ├── Extras/          # composite scenarios (Loop-in-Loop, Matrix updates, Float Precision)
+    └── invalid/         # graphs that MUST be rejected (see "Invalid graphs" below)
+        ├── invalid-index.json
+        ├── README.md    # generated list of all cases with the spec section each one breaks
+        └── <group>/<id>_<name>.gltf
 ```
 
 Each individual test case is a folder containing three things:
@@ -68,7 +82,9 @@ Two index files list the available test cases so a runner can discover them with
 walking the tree:
 
 - `Tests/Interactivity/test-index.json`
-- `Tests/Interactivity/math/mathtests-index.json`
+- `Tests/Interactivity/mathtests-index.json`
+
+The invalid-graph cases have their own index, `invalid/invalid-index.json` (see [Invalid graphs](#invalid-graphs-invalid)).
 
 Each entry looks like:
 
@@ -167,7 +183,7 @@ This is the quickest way to eyeball a single feature.
 An automated runner (engine integration test, CI job, etc.) follows this loop:
 
 ### 1. Discover tests
-Read `test-index.json` and `math/mathtests-index.json`. Optionally filter by `tags`
+Read `test-index.json` and `mathtests-index.json`. Optionally filter by `tags`
 so you only run tests whose node schemas your engine implements.
 
 ### 2. Load and run the asset
@@ -251,6 +267,42 @@ extra `requiredInteractions[]` array telling an automated runner exactly which n
 and what gesture to simulate. Skip these (mark as **skipped**, not failed) if your test harness
 cannot simulate hover/select input; see
 [`UserInteractions/README.md`](UserInteractions/README.md) for full details.
+
+---
+
+## Invalid graphs (`invalid/`)
+
+Each `.gltf` in `invalid/<group>/` breaks exactly one validation rule of the specification, so a
+conformant implementation **MUST** reject it. The files are plain JSON without buffers, one case per
+file (179 cases). `invalid/invalid-index.json` uses the same entry format as `test-index.json`
+(`variants.glTF` names the file) and adds `id`, `title`, `specSection` and `expectedOutcome`;
+every file carries the same metadata in `asset.extras`. `invalid/README.md` lists all cases.
+
+| Group | Cases | Reject graph | Reject extension |
+| --- | ---: | ---: | ---: |
+| `extension` | 8 | 0 | 8 |
+| `types` | 8 | 4 | 4 |
+| `variables` | 21 | 14 | 7 |
+| `events` | 9 | 4 | 5 |
+| `declarations` | 15 | 10 | 5 |
+| `nodes` | 41 | 24 | 17 |
+| `operations` | 77 | 77 | 0 |
+| **Total** | **179** | **133** | **46** |
+
+For 38 of these cases (`schemaAssert: true`) the spec contradicts itself: the normative text only
+requires rejecting the graph, while the Validation section rejects the whole extension. Either way,
+no graph may run.
+
+**How to run them.** Every case starts with `event/onStart → debug/log → event/send(test/onFailed)`.
+If the implementation wrongly runs the graph, it logs `FAILED [<id>] …` and sends `test/onFailed`.
+**Pass = `test/onFailed` never arrives** (a short timeout of one tick is enough). Invalid cases don't send
+`test/onStart` or `test/onSuccess` and have no sub-tests.
+
+An engine that doesn't support `KHR_interactivity` at all passes every invalid case trivially, so run the
+regular tests too. The `graph/` tests are the counterpart: graphs that look suspicious but are valid
+(unknown configuration properties, extra sockets, events without id, integers written as `2.0`,
+operations of an unsupported extension, an invalid non-default graph, …). They must load and pass
+like any other test.
 
 ---
 
