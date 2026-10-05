@@ -191,5 +191,20 @@
       "glTF": "ABeautifulGameInteractivity.gltf",
       "glTF-Binary": "ABeautifulGameInteractivity.glb"
     }
+  },
+  {
+    "label": "Performance Test",
+    "name": "PerformanceTest",
+    "screenshot": "screenshot/screenshot.png",
+    "description": "Measures graph execution cost. Pick a workload (math, value evaluation, variables, pointers, flow, events or mixed) and a load level (1-9, 50 * 2^(level-1) loop iterations per tick); the FPS counter and bar show the result. AUTO RUN measures every workload, logs the results and shows a summary.",
+    "tags": [
+      "interactivity",
+      "test",
+      "performance"
+    ],
+  	"variants": {
+      "glTF": "PerformanceTest.gltf",
+      "glTF-Binary": "PerformanceTest.glb"
+    }
   }
 ]
