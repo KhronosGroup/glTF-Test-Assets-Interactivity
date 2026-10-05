@@ -1,5 +1,41 @@
 [
   {
+    "label": "Extras/Float Precision",
+    "name": "Extras/Float_Precision",
+    "tags": [
+      "math/sub",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/add",
+      "math/isInf",
+      "math/gt",
+      "math/div",
+      "math/extract3",
+      "math/and",
+      "math/Pi",
+      "math/abs",
+      "math/lt",
+      "math/mul",
+      "math/round",
+      "type/intToFloat",
+      "type/floatToInt",
+      "math/neg",
+      "type/floatToBool",
+      "math/min",
+      "math/max"
+    ],
+    "variants": {
+      "glTF-Binary": "Float_Precision.glb",
+      "test-Json": "Float_Precision.json"
+    }
+  },
+  {
     "label": "Extras/Loop in Loop Tests",
     "name": "Extras/Loop_in_Loop_Tests",
     "tags": [
@@ -77,6 +113,56 @@
     }
   },
   {
+    "label": "animation/start playback modes",
+    "name": "animation/start_playback_modes",
+    "tags": [
+      "animation/start",
+      "flow/setDelay",
+      "event/onStart",
+      "flow/sequence",
+      "pointer/get",
+      "math/extract3",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "math/eq"
+    ],
+    "variants": {
+      "glTF-Binary": "start_playback_modes.glb",
+      "test-Json": "start_playback_modes.json"
+    }
+  },
+  {
+    "label": "animation/state",
+    "name": "animation/state",
+    "tags": [
+      "animation/start",
+      "flow/setDelay",
+      "event/onStart",
+      "pointer/get",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "math/extract3"
+    ],
+    "variants": {
+      "glTF-Binary": "state.glb",
+      "test-Json": "state.json"
+    }
+  },
+  {
     "label": "animation/stop",
     "name": "animation/stop",
     "tags": [
@@ -99,6 +185,32 @@
     "variants": {
       "glTF-Binary": "stop.glb",
       "test-Json": "stop.json"
+    }
+  },
+  {
+    "label": "animation/stop and stopAt edge cases",
+    "name": "animation/stop_and_stopAt_edge_cases",
+    "tags": [
+      "animation/stop",
+      "event/onStart",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/branch",
+      "flow/sequence",
+      "animation/stopAt",
+      "flow/setDelay",
+      "animation/start",
+      "pointer/get",
+      "math/extract3",
+      "math/sub",
+      "math/abs",
+      "math/lt"
+    ],
+    "variants": {
+      "glTF-Binary": "stop_and_stopAt_edge_cases.glb",
+      "test-Json": "stop_and_stopAt_edge_cases.json"
     }
   },
   {
@@ -147,6 +259,32 @@
     "variants": {
       "glTF-Binary": "Event_Refs.glb",
       "test-Json": "Event_Refs.json"
+    }
+  },
+  {
+    "label": "event/activation order and onTick",
+    "name": "event/activation_order_and_onTick",
+    "tags": [
+      "event/onStart",
+      "variable/get",
+      "math/add",
+      "math/eq",
+      "variable/set",
+      "flow/branch",
+      "debug/log",
+      "pointer/set",
+      "flow/setDelay",
+      "event/send",
+      "event/receive",
+      "flow/sequence",
+      "event/onTick",
+      "math/isNaN",
+      "flow/doN",
+      "math/lt"
+    ],
+    "variants": {
+      "glTF-Binary": "activation_order_and_onTick.glb",
+      "test-Json": "activation_order_and_onTick.json"
     }
   },
   {
@@ -311,7 +449,8 @@
       "math/add",
       "math/eq",
       "flow/cancelDelay",
-      "pointer/get"
+      "pointer/get",
+      "ref/eq"
     ],
     "variants": {
       "glTF-Binary": "setDelay_and_cancelDelay.glb",
@@ -353,7 +492,8 @@
       "flow/sequence",
       "math/add",
       "math/eq",
-      "flow/setDelay"
+      "flow/setDelay",
+      "math/isNaN"
     ],
     "variants": {
       "glTF-Binary": "throttle.glb",
@@ -399,6 +539,93 @@
     "variants": {
       "glTF-Binary": "while.glb",
       "test-Json": "while.json"
+    }
+  },
+  {
+    "label": "graph/extra and unknown sockets",
+    "name": "graph/extra_and_unknown_sockets",
+    "tags": [
+      "flow/sequence",
+      "event/onStart",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/branch",
+      "math/add",
+      "math/eq",
+      "math/isNaN",
+      "math/E",
+      "math/abs",
+      "math/sub",
+      "math/lt"
+    ],
+    "variants": {
+      "glTF-Binary": "extra_and_unknown_sockets.glb",
+      "test-Json": "extra_and_unknown_sockets.json"
+    }
+  },
+  {
+    "label": "graph/ignored configuration",
+    "name": "graph/ignored_configuration",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "pointer/set",
+      "variable/set",
+      "variable/get",
+      "flow/branch",
+      "flow/sequence",
+      "math/add",
+      "math/eq",
+      "flow/switch"
+    ],
+    "variants": {
+      "glTF-Binary": "ignored_configuration.glb",
+      "test-Json": "ignored_configuration.json"
+    }
+  },
+  {
+    "label": "graph/json syntax",
+    "name": "graph/json_syntax",
+    "tags": [
+      "variable/get",
+      "math/add",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "flow/sequence",
+      "event/send",
+      "event/receive",
+      "flow/setDelay",
+      "pointer/get"
+    ],
+    "variants": {
+      "glTF-Binary": "json_syntax.glb",
+      "test-Json": "json_syntax.json"
+    }
+  },
+  {
+    "label": "graph/unsupported operations and graphs",
+    "name": "graph/unsupported_operations_and_graphs",
+    "tags": [
+      "flow/sequence",
+      "math/abs",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/setDelay"
+    ],
+    "variants": {
+      "glTF-Binary": "unsupported_operations_and_graphs.glb",
+      "test-Json": "unsupported_operations_and_graphs.json"
     }
   },
   {
@@ -483,7 +710,11 @@
       "math/normalize",
       "math/gt",
       "math/length",
-      "math/and"
+      "math/and",
+      "math/extract3",
+      "math/sub",
+      "math/abs",
+      "math/lt"
     ],
     "variants": {
       "glTF-Binary": "interpolate.glb",
@@ -510,6 +741,31 @@
     "variants": {
       "glTF-Binary": "set_and_get.glb",
       "test-Json": "set_and_get.json"
+    }
+  },
+  {
+    "label": "pointer/set edge cases",
+    "name": "pointer/set_edge_cases",
+    "tags": [
+      "event/onStart",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/branch",
+      "flow/setDelay",
+      "flow/sequence",
+      "pointer/interpolate",
+      "pointer/get",
+      "math/extract3",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "math/eq"
+    ],
+    "variants": {
+      "glTF-Binary": "set_edge_cases.glb",
+      "test-Json": "set_edge_cases.json"
     }
   },
   {
@@ -596,7 +852,12 @@
       "math/sub",
       "math/abs",
       "math/lt",
-      "math/eq"
+      "math/eq",
+      "math/dot",
+      "math/normalize",
+      "math/gt",
+      "math/length",
+      "math/and"
     ],
     "variants": {
       "glTF-Binary": "interpolate.glb",
@@ -607,9 +868,9 @@
     "label": "variable/set and get",
     "name": "variable/set_and_get",
     "tags": [
+      "variable/get",
       "variable/set",
       "event/onStart",
-      "variable/get",
       "math/eq",
       "flow/branch",
       "pointer/set",

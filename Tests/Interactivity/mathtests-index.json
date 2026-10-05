@@ -320,7 +320,8 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence"
+      "flow/sequence",
+      "math/isNaN"
     ],
     "variants": {
       "glTF-Binary": "clamp.glb",
@@ -744,6 +745,7 @@
       "variable/set",
       "variable/get",
       "flow/sequence",
+      "math/eq",
       "math/dot",
       "math/normalize",
       "math/gt",
@@ -903,6 +905,7 @@
       "variable/set",
       "variable/get",
       "flow/sequence",
+      "math/isNaN",
       "math/dot",
       "math/normalize",
       "math/gt",
@@ -1442,7 +1445,8 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence"
+      "flow/sequence",
+      "math/isNaN"
     ],
     "variants": {
       "glTF-Binary": "max.glb",
@@ -1461,7 +1465,8 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence"
+      "flow/sequence",
+      "math/isNaN"
     ],
     "variants": {
       "glTF-Binary": "min.glb",
@@ -1503,7 +1508,8 @@
       "variable/set",
       "variable/get",
       "flow/sequence",
-      "math/eq"
+      "math/eq",
+      "math/isNaN"
     ],
     "variants": {
       "glTF-Binary": "mul.glb",
@@ -1665,6 +1671,7 @@
       "variable/get",
       "flow/sequence",
       "math/isNaN",
+      "math/eq",
       "math/dot",
       "math/normalize",
       "math/gt",
@@ -2151,7 +2158,8 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence"
+      "flow/sequence",
+      "math/isNaN"
     ],
     "variants": {
       "glTF-Binary": "saturate.glb",
@@ -2278,15 +2286,16 @@
     "tags": [
       "math/smoothStep",
       "event/onStart",
-      "math/sub",
-      "math/abs",
-      "math/lt",
+      "math/eq",
       "flow/branch",
       "pointer/set",
       "debug/log",
       "variable/set",
       "variable/get",
       "flow/sequence",
+      "math/sub",
+      "math/abs",
+      "math/lt",
       "math/dot",
       "math/normalize",
       "math/gt",
@@ -2314,6 +2323,7 @@
       "variable/get",
       "flow/sequence",
       "math/isNaN",
+      "math/eq",
       "math/dot",
       "math/normalize",
       "math/gt",
@@ -2337,7 +2347,8 @@
       "debug/log",
       "variable/set",
       "variable/get",
-      "flow/sequence"
+      "flow/sequence",
+      "math/isNaN"
     ],
     "variants": {
       "glTF-Binary": "sub.glb",

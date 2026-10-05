@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "UnityGltf 2.20.0, Unity 2022.3.62f2, Built-in RP",
+    "generator": "UnityGltf 2.21.0, Unity 2022.3.62f2, Built-in RP",
     "version": "2.0"
   },
   "extensionsUsed": [
@@ -12121,25 +12121,13 @@
               "signature": "ref"
             }
           ],
-          "variables": [],
-          "events": [],
           "declarations": [
             {
               "op": "pointer/get"
             },
             {
-              "op": "animation/start"
-            },
-            {
-              "op": "flow/sequence"
-            },
-            {
-              "op": "animation/stop"
-            },
-            {
               "op": "event/onHoverOut",
               "extension": "KHR_node_hoverability",
-              "inputValueSockets": {},
               "outputValueSockets": {
                 "hoveredNode": {
                   "type": 3
@@ -12150,9 +12138,17 @@
               }
             },
             {
+              "op": "flow/sequence"
+            },
+            {
+              "op": "animation/start"
+            },
+            {
+              "op": "animation/stop"
+            },
+            {
               "op": "event/onHoverIn",
               "extension": "KHR_node_hoverability",
-              "inputValueSockets": {},
               "outputValueSockets": {
                 "hoveredNode": {
                   "type": 3
@@ -12185,8 +12181,7 @@
                     0
                   ]
                 }
-              },
-              "flows": {}
+              }
             },
             {
               "declaration": 0,
@@ -12209,12 +12204,194 @@
                     0
                   ]
                 }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/animations/[index]"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
               },
-              "flows": {}
+              "values": {
+                "index": {
+                  "type": 1,
+                  "value": [
+                    1
+                  ]
+                }
+              }
             },
             {
               "declaration": 1,
-              "configuration": {},
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 6,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/animations/[index]"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "index": {
+                  "type": 1,
+                  "value": [
+                    1
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/animations/[index]/extensions/KHR_interactivity/maxTime"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    2
+                  ]
+                }
+              },
+              "values": {
+                "index": {
+                  "type": 1,
+                  "value": [
+                    1
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "flows": {
+                "000_stopAnim_0": {
+                  "node": 9,
+                  "socket": "in"
+                },
+                "zzz": {
+                  "node": 7,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 3,
+              "values": {
+                "animation": {
+                  "node": 4,
+                  "socket": "value"
+                },
+                "speed": {
+                  "type": 2,
+                  "value": [
+                    1.0
+                  ]
+                },
+                "startTime": {
+                  "type": 2,
+                  "value": [
+                    0.0
+                  ]
+                },
+                "endTime": {
+                  "node": 5,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/animations/[index]"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "index": {
+                  "type": 1,
+                  "value": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 4,
+              "values": {
+                "animation": {
+                  "node": 8,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 5,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 11,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "flows": {
+                "000_stopAnim_1": {
+                  "node": 13,
+                  "socket": "in"
+                },
+                "zzz": {
+                  "node": 12,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 3,
               "values": {
                 "animation": {
                   "node": 0,
@@ -12236,215 +12413,14 @@
                   "node": 1,
                   "socket": "value"
                 }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 2,
-              "configuration": {},
-              "values": {},
-              "flows": {
-                "000_stopAnim_1": {
-                  "node": 5,
-                  "socket": "in"
-                },
-                "zzz": {
-                  "node": 2,
-                  "socket": "in"
-                }
               }
-            },
-            {
-              "declaration": 0,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/animations/[index]"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    3
-                  ]
-                }
-              },
-              "values": {
-                "index": {
-                  "type": 1,
-                  "value": [
-                    1
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 3,
-              "configuration": {},
-              "values": {
-                "animation": {
-                  "node": 4,
-                  "socket": "value"
-                }
-              },
-              "flows": {}
             },
             {
               "declaration": 4,
-              "configuration": {
-                "nodeIndex": {
-                  "value": [
-                    4
-                  ]
-                }
-              },
-              "values": {},
-              "flows": {
-                "out": {
-                  "node": 10,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 0,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/animations/[index]"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    3
-                  ]
-                }
-              },
-              "values": {
-                "index": {
-                  "type": 1,
-                  "value": [
-                    1
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 0,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/animations/[index]/extensions/KHR_interactivity/maxTime"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    2
-                  ]
-                }
-              },
-              "values": {
-                "index": {
-                  "type": 1,
-                  "value": [
-                    1
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 1,
-              "configuration": {},
               "values": {
                 "animation": {
-                  "node": 7,
+                  "node": 2,
                   "socket": "value"
-                },
-                "speed": {
-                  "type": 2,
-                  "value": [
-                    1.0
-                  ]
-                },
-                "startTime": {
-                  "type": 2,
-                  "value": [
-                    0.0
-                  ]
-                },
-                "endTime": {
-                  "node": 8,
-                  "socket": "value"
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 2,
-              "configuration": {},
-              "values": {},
-              "flows": {
-                "000_stopAnim_0": {
-                  "node": 12,
-                  "socket": "in"
-                },
-                "zzz": {
-                  "node": 9,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 0,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/animations/[index]"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    3
-                  ]
-                }
-              },
-              "values": {
-                "index": {
-                  "type": 1,
-                  "value": [
-                    0
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 3,
-              "configuration": {},
-              "values": {
-                "animation": {
-                  "node": 11,
-                  "socket": "value"
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 5,
-              "configuration": {
-                "nodeIndex": {
-                  "value": [
-                    4
-                  ]
-                }
-              },
-              "values": {},
-              "flows": {
-                "out": {
-                  "node": 3,
-                  "socket": "in"
                 }
               }
             }

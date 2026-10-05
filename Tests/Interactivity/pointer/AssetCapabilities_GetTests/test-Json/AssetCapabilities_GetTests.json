@@ -24,31 +24,35 @@
         },
         {
           "name": "asset/minorVersion",
-          "nodeId": 26
+          "nodeId": 24
         },
         {
           "name": "asset/extensions/KHR_interactivity/enabled",
-          "nodeId": 82
+          "nodeId": 83
         },
         {
           "name": "asset/extensions/KHR_this_extension_does_not_exist/enabled",
-          "nodeId": 106
+          "nodeId": 107
+        },
+        {
+          "name": "asset/extensions/KHR_this_extension_is_not_used/enabled",
+          "nodeId": 131
         },
         {
           "name": "limits/maxActiveAnimations",
-          "nodeId": 130
-        },
-        {
-          "name": "limits/maxActiveDelays",
           "nodeId": 155
         },
         {
-          "name": "limits/maxActivePropertyInterpolations",
+          "name": "limits/maxActiveDelays",
           "nodeId": 180
         },
         {
-          "name": "limits/maxActiveVariableInterpolations",
+          "name": "limits/maxActivePropertyInterpolations",
           "nodeId": 205
+        },
+        {
+          "name": "limits/maxActiveVariableInterpolations",
+          "nodeId": 230
         }
       ],
       "subTests": [
@@ -135,97 +139,119 @@
           "resultVarId": 13,
           "resultVarType": "bool",
           "expectedResultValue": [
-            true
+            false
           ],
           "successResultVarId": 12,
           "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_asset/extensions/KHR_this_extension_does_not_exist/enabled isValid"
         },
         {
-          "name": "limits/maxActiveAnimations >= 1",
-          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActiveAnimations >= 1",
+          "name": "asset/extensions/KHR_this_extension_is_not_used/enabled",
+          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_asset/extensions/KHR_this_extension_is_not_used/enabled",
           "resultVarId": 19,
           "resultVarType": "bool",
           "expectedResultValue": [
-            true
+            false
           ],
           "successResultVarId": 18,
-          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActiveAnimations >= 1"
+          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_asset/extensions/KHR_this_extension_is_not_used/enabled"
         },
         {
-          "name": "limits/maxActiveAnimations isValid",
-          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActiveAnimations isValid",
+          "name": "asset/extensions/KHR_this_extension_is_not_used/enabled isValid",
+          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_asset/extensions/KHR_this_extension_is_not_used/enabled isValid",
           "resultVarId": 17,
           "resultVarType": "bool",
           "expectedResultValue": [
-            true
+            false
           ],
           "successResultVarId": 16,
-          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActiveAnimations isValid"
+          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_asset/extensions/KHR_this_extension_is_not_used/enabled isValid"
         },
         {
-          "name": "limits/maxActiveDelays >= 1",
-          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActiveDelays >= 1",
+          "name": "limits/maxActiveAnimations >= 1",
+          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActiveAnimations >= 1",
           "resultVarId": 23,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 22,
-          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActiveDelays >= 1"
+          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActiveAnimations >= 1"
         },
         {
-          "name": "limits/maxActiveDelays isValid",
-          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActiveDelays isValid",
+          "name": "limits/maxActiveAnimations isValid",
+          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActiveAnimations isValid",
           "resultVarId": 21,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 20,
-          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActiveDelays isValid"
+          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActiveAnimations isValid"
         },
         {
-          "name": "limits/maxActivePropertyInterpolations >= 1",
-          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActivePropertyInterpolations >= 1",
+          "name": "limits/maxActiveDelays >= 1",
+          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActiveDelays >= 1",
           "resultVarId": 27,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 26,
-          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActivePropertyInterpolations >= 1"
+          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActiveDelays >= 1"
         },
         {
-          "name": "limits/maxActivePropertyInterpolations isValid",
-          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActivePropertyInterpolations isValid",
+          "name": "limits/maxActiveDelays isValid",
+          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActiveDelays isValid",
           "resultVarId": 25,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 24,
-          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActivePropertyInterpolations isValid"
+          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActiveDelays isValid"
         },
         {
-          "name": "limits/maxActiveVariableInterpolations >= 1",
-          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActiveVariableInterpolations >= 1",
+          "name": "limits/maxActivePropertyInterpolations >= 1",
+          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActivePropertyInterpolations >= 1",
           "resultVarId": 31,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 30,
-          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActiveVariableInterpolations >= 1"
+          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActivePropertyInterpolations >= 1"
         },
         {
-          "name": "limits/maxActiveVariableInterpolations isValid",
-          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActiveVariableInterpolations isValid",
+          "name": "limits/maxActivePropertyInterpolations isValid",
+          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActivePropertyInterpolations isValid",
           "resultVarId": 29,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 28,
+          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActivePropertyInterpolations isValid"
+        },
+        {
+          "name": "limits/maxActiveVariableInterpolations >= 1",
+          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActiveVariableInterpolations >= 1",
+          "resultVarId": 35,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 34,
+          "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActiveVariableInterpolations >= 1"
+        },
+        {
+          "name": "limits/maxActiveVariableInterpolations isValid",
+          "resultVarName": "TestResult_pointer/AssetCapabilities_GetTests_limits/maxActiveVariableInterpolations isValid",
+          "resultVarId": 33,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 32,
           "successResultVarName": "TestResult_HasPassed_pointer/AssetCapabilities_GetTests_limits/maxActiveVariableInterpolations isValid"
         }
       ]

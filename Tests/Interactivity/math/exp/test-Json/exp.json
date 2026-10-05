@@ -13,6 +13,7 @@
         "math/abs",
         "math/and",
         "math/dot",
+        "math/eq",
         "math/exp",
         "math/gt",
         "math/length",
@@ -29,16 +30,24 @@
           "nodeId": 1
         },
         {
+          "name": "[a] Infinity = Infinity",
+          "nodeId": 15
+        },
+        {
+          "name": "[a] -Infinity = 0.00",
+          "nodeId": 20
+        },
+        {
           "name": "[a] (1.21, 1.21) = (3.36, 3.36)",
-          "nodeId": 17
+          "nodeId": 37
         },
         {
           "name": "[a] (1.21, 1.21, 1.21) = (3.36, 3.36, 3.36)",
-          "nodeId": 36
+          "nodeId": 55
         },
         {
           "name": "[a] (1.21, 1.21, 1.21, 1.21) = (3.36, 3.36, 3.36, 3.36)",
-          "nodeId": 62
+          "nodeId": 73
         }
       ],
       "subTests": [
@@ -54,34 +63,56 @@
           "successResultVarName": "TestResult_HasPassed_math/exp_[a] 1.21 = 3.36"
         },
         {
+          "name": "[a] Infinity = Infinity",
+          "resultVarName": "TestResult_math/exp_[a] Infinity = Infinity",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "Infinity"
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/exp_[a] Infinity = Infinity"
+        },
+        {
+          "name": "[a] -Infinity = 0.00",
+          "resultVarName": "TestResult_math/exp_[a] -Infinity = 0.00",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/exp_[a] -Infinity = 0.00"
+        },
+        {
           "name": "[a] (1.21, 1.21) = (3.36, 3.36)",
           "resultVarName": "TestResult_math/exp_[a] (1.21, 1.21) = (3.36, 3.36)",
-          "resultVarId": 3,
+          "resultVarId": 7,
           "resultVarType": "float2",
           "expectedResultValue": [
             3.364233,
             3.364233
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/exp_[a] (1.21, 1.21) = (3.36, 3.36)"
         },
         {
           "name": "[a] (1.21, 1.21, 1.21) = (3.36, 3.36, 3.36)",
           "resultVarName": "TestResult_math/exp_[a] (1.21, 1.21, 1.21) = (3.36, 3.36, 3.36)",
-          "resultVarId": 5,
+          "resultVarId": 9,
           "resultVarType": "float3",
           "expectedResultValue": [
             3.364233,
             3.364233,
             3.364233
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_math/exp_[a] (1.21, 1.21, 1.21) = (3.36, 3.36, 3.36)"
         },
         {
           "name": "[a] (1.21, 1.21, 1.21, 1.21) = (3.36, 3.36, 3.36, 3.36)",
           "resultVarName": "TestResult_math/exp_[a] (1.21, 1.21, 1.21, 1.21) = (3.36, 3.36, 3.36, 3.36)",
-          "resultVarId": 7,
+          "resultVarId": 11,
           "resultVarType": "float4",
           "expectedResultValue": [
             3.364233,
@@ -89,7 +120,7 @@
             3.364233,
             3.364233
           ],
-          "successResultVarId": 6,
+          "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_math/exp_[a] (1.21, 1.21, 1.21, 1.21) = (3.36, 3.36, 3.36, 3.36)"
         }
       ]
@@ -103,6 +134,7 @@
     "math/abs",
     "math/and",
     "math/dot",
+    "math/eq",
     "math/exp",
     "math/gt",
     "math/length",

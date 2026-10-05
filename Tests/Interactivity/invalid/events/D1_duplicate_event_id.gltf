@@ -1,0 +1,101 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Khronos_Test_Export InvalidGraphs",
+    "extras": {
+      "caseId": "D1",
+      "title": "two events with the id \"custom/a\"",
+      "specSection": "JSON Syntax › Events",
+      "expectedOutcome": "rejectGraph",
+      "schemaAssert": false,
+      "signalEvent": "test/onFailed",
+      "pass": "the graph is rejected: no node runs and the custom event 'test/onFailed' is never sent"
+    }
+  },
+  "extensionsUsed": [
+    "KHR_interactivity"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Target"
+    }
+  ],
+  "extensions": {
+    "KHR_interactivity": {
+      "graphs": [
+        {
+          "events": [
+            {
+              "id": "test/onFailed"
+            },
+            {
+              "id": "custom/a"
+            },
+            {
+              "id": "custom/a"
+            }
+          ],
+          "declarations": [
+            {
+              "op": "event/onStart"
+            },
+            {
+              "op": "debug/log"
+            },
+            {
+              "op": "event/send"
+            }
+          ],
+          "nodes": [
+            {
+              "declaration": 0,
+              "flows": {
+                "out": {
+                  "node": 1
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "severity": {
+                  "value": [
+                    0
+                  ]
+                },
+                "message": {
+                  "value": [
+                    "FAILED [D1] two events with the id \"custom/a\": this graph MUST be rejected (spec: JSON Syntax › Events)."
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 2
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

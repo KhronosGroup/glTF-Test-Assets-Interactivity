@@ -11,6 +11,7 @@
         "flow/branch",
         "flow/sequence",
         "math/eq",
+        "math/isNaN",
         "math/sub",
         "pointer/set",
         "variable/get",
@@ -23,11 +24,15 @@
         },
         {
           "name": "[a] 10 [b] 4 = 6",
-          "nodeId": 15
+          "nodeId": 14
+        },
+        {
+          "name": "[a] Infinity [b] Infinity = NaN",
+          "nodeId": 26
         },
         {
           "name": "[a] -2147483648 [b] 1 = 2147483647",
-          "nodeId": 29
+          "nodeId": 39
         }
       ],
       "subTests": [
@@ -54,14 +59,25 @@
           "successResultVarName": "TestResult_HasPassed_math/sub_[a] 10 [b] 4 = 6"
         },
         {
+          "name": "[a] Infinity [b] Infinity = NaN",
+          "resultVarName": "TestResult_math/sub_[a] Infinity [b] Infinity = NaN",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/sub_[a] Infinity [b] Infinity = NaN"
+        },
+        {
           "name": "[a] -2147483648 [b] 1 = 2147483647",
           "resultVarName": "TestResult_math/sub_[a] -2147483648 [b] 1 = 2147483647",
-          "resultVarId": 5,
+          "resultVarId": 7,
           "resultVarType": "int",
           "expectedResultValue": [
             2147483647
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/sub_[a] -2147483648 [b] 1 = 2147483647"
         }
       ]
@@ -73,6 +89,7 @@
     "flow/branch",
     "flow/sequence",
     "math/eq",
+    "math/isNaN",
     "math/sub",
     "pointer/set",
     "variable/get",

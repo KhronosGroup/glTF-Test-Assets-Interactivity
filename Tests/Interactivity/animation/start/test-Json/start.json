@@ -27,40 +27,40 @@
       "entryPoints": [
         {
           "name": "Play animation (delayed execution)",
-          "nodeId": 4,
+          "nodeId": 1,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "[err] flow (speed -1)",
-          "nodeId": 96
+          "nodeId": 93
         },
         {
           "name": "[err] flow (speed 0)",
-          "nodeId": 105
+          "nodeId": 102
         },
         {
           "name": "[err] flow (speed NaN)",
-          "nodeId": 114
+          "nodeId": 111
         },
         {
           "name": "[err] flow (speed +Inf)",
-          "nodeId": 124
+          "nodeId": 116
         },
         {
           "name": "[err] flow (startTime NaN)",
-          "nodeId": 134
+          "nodeId": 121
         },
         {
           "name": "[err] flow (startTime +Inf)",
-          "nodeId": 144
+          "nodeId": 126
         },
         {
           "name": "[err] flow (endTime NaN)",
-          "nodeId": 154
+          "nodeId": 131
         },
         {
           "name": "[err] flow (invalid ref)",
-          "nodeId": 164
+          "nodeId": 136
         }
       ],
       "subTests": [

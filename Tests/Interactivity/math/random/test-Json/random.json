@@ -28,19 +28,23 @@
       "entryPoints": [
         {
           "name": "Random (new number in new flow)",
-          "nodeId": 3
+          "nodeId": 2
         },
         {
           "name": "Random (same number in current flow)",
-          "nodeId": 17
+          "nodeId": 16
         },
         {
           "name": "Monte Carlo 1k(random number distribution)",
-          "nodeId": 36
+          "nodeId": 33
         },
         {
           "name": "Monte Carlo 1k(random number distribution)",
-          "nodeId": 74
+          "nodeId": 60
+        },
+        {
+          "name": "Random (new number in each flow/for iteration, 10x)",
+          "nodeId": 78
         }
       ],
       "subTests": [
@@ -87,6 +91,17 @@
           ],
           "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_math/random_Monte Carlo 10k(random number distribution)"
+        },
+        {
+          "name": "Random (new number in each flow/for iteration, 10x)",
+          "resultVarName": "TestResult_math/random_Random (new number in each flow/for iteration, 10x)",
+          "resultVarId": 13,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            10
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/random_Random (new number in each flow/for iteration, 10x)"
         }
       ]
     }

@@ -24,39 +24,47 @@
           "nodeId": 0
         },
         {
+          "name": "isRandom \"yes\" uses default configuration (in order)",
+          "nodeId": 27
+        },
+        {
           "name": "Random (Check if all out flows are triggered once)",
-          "nodeId": 29
+          "nodeId": 54
         },
         {
           "name": "Loop",
-          "nodeId": 57
+          "nodeId": 100
         },
         {
           "name": "Loop",
-          "nodeId": 98
+          "nodeId": 133
+        },
+        {
+          "name": "No loop: 4th [in] fires nothing (3x total)",
+          "nodeId": 163
         }
       ],
       "subTests": [
         {
           "name": "Loop",
           "resultVarName": "TestResult_flow/multiGate_Loop",
-          "resultVarId": 11,
+          "resultVarId": 13,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 11,
+          "successResultVarId": 13,
           "successResultVarName": "TestResult_HasPassed_flow/multiGate_Loop"
         },
         {
           "name": "Random (Check if all out flows are triggered once)",
           "resultVarName": "TestResult_flow/multiGate_Random (Check if all out flows are triggered once)",
-          "resultVarId": 6,
+          "resultVarId": 8,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 6,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_flow/multiGate_Random (Check if all out flows are triggered once)"
         },
         {
@@ -73,13 +81,79 @@
         {
           "name": "Reset Loop",
           "resultVarName": "TestResult_flow/multiGate_Reset Loop",
-          "resultVarId": 16,
+          "resultVarId": 18,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 16,
+          "successResultVarId": 18,
           "successResultVarName": "TestResult_HasPassed_flow/multiGate_Reset Loop"
+        },
+        {
+          "name": "isRandom \"yes\" uses default configuration (in order)",
+          "resultVarName": "TestResult_flow/multiGate_isRandom \"yes\" uses default configuration (in order)",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_flow/multiGate_isRandom \"yes\" uses default configuration (in order)"
+        },
+        {
+          "name": "No loop: 4th [in] fires nothing (3x total)",
+          "resultVarName": "TestResult_flow/multiGate_No loop: 4th [in] fires nothing (3x total)",
+          "resultVarId": 30,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            3
+          ],
+          "successResultVarId": 29,
+          "successResultVarName": "TestResult_HasPassed_flow/multiGate_No loop: 4th [in] fires nothing (3x total)"
+        },
+        {
+          "name": "[lastIndex] -1 before activation",
+          "resultVarName": "TestResult_flow/multiGate_[lastIndex] -1 before activation",
+          "resultVarId": 21,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -1
+          ],
+          "successResultVarId": 20,
+          "successResultVarName": "TestResult_HasPassed_flow/multiGate_[lastIndex] -1 before activation"
+        },
+        {
+          "name": "[lastIndex] 1 after two activations",
+          "resultVarName": "TestResult_flow/multiGate_[lastIndex] 1 after two activations",
+          "resultVarId": 23,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ],
+          "successResultVarId": 22,
+          "successResultVarName": "TestResult_HasPassed_flow/multiGate_[lastIndex] 1 after two activations"
+        },
+        {
+          "name": "[lastIndex] stays 2 when all outputs are used",
+          "resultVarName": "TestResult_flow/multiGate_[lastIndex] stays 2 when all outputs are used",
+          "resultVarId": 25,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2
+          ],
+          "successResultVarId": 24,
+          "successResultVarName": "TestResult_HasPassed_flow/multiGate_[lastIndex] stays 2 when all outputs are used"
+        },
+        {
+          "name": "[lastIndex] -1 after [reset]",
+          "resultVarName": "TestResult_flow/multiGate_[lastIndex] -1 after [reset]",
+          "resultVarId": 27,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -1
+          ],
+          "successResultVarId": 26,
+          "successResultVarName": "TestResult_HasPassed_flow/multiGate_[lastIndex] -1 after [reset]"
         }
       ]
     }

@@ -1,0 +1,222 @@
+{
+  "glbFileName": "set_edge_cases.glb",
+  "name": "pointer/set edge cases",
+  "tests": [
+    {
+      "name": "pointer/set edge cases",
+      "description": "pointer/set error flows (invalid index, type mismatch, read-only, weights), invalid values, stopping a running interpolation, and pointer/get isValid for invalid indices.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/abs",
+        "math/eq",
+        "math/extract3",
+        "math/lt",
+        "math/sub",
+        "pointer/get",
+        "pointer/interpolate",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "No [out] on\nthe [err] cases (delayed execution)",
+          "nodeId": 0,
+          "delayedExecutionTime": 0.2
+        },
+        {
+          "name": "[err] index -1",
+          "nodeId": 5
+        },
+        {
+          "name": "[err] index out of range",
+          "nodeId": 15
+        },
+        {
+          "name": "[err] type mismatch\n(float on translation)",
+          "nodeId": 47
+        },
+        {
+          "name": "[err] read-only\n(/nodes.length)",
+          "nodeId": 56
+        },
+        {
+          "name": "[err] /nodes/{}/weights",
+          "nodeId": 65
+        },
+        {
+          "name": "Invalid value\n(metallic 2): [out]",
+          "nodeId": 78
+        },
+        {
+          "name": "set stops interpolate:\n[done] not fired (delayed execution)",
+          "nodeId": 94,
+          "delayedExecutionTime": 2.0
+        },
+        {
+          "name": "pointer/get index -1:\nisValid false",
+          "nodeId": 127
+        },
+        {
+          "name": "pointer/get index out\nof range: isValid false",
+          "nodeId": 141
+        }
+      ],
+      "subTests": [
+        {
+          "name": "[err] index -1",
+          "resultVarName": "TestResult_pointer/set edge cases_[err] index -1",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_pointer/set edge cases_[err] index -1"
+        },
+        {
+          "name": "[err] index out of range",
+          "resultVarName": "TestResult_pointer/set edge cases_[err] index out of range",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_pointer/set edge cases_[err] index out of range"
+        },
+        {
+          "name": "[err] type mismatch\n(float on translation)",
+          "resultVarName": "TestResult_pointer/set edge cases_[err] type mismatch\n(float on translation)",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_pointer/set edge cases_[err] type mismatch\n(float on translation)"
+        },
+        {
+          "name": "[err] read-only\n(/nodes.length)",
+          "resultVarName": "TestResult_pointer/set edge cases_[err] read-only\n(/nodes.length)",
+          "resultVarId": 6,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_pointer/set edge cases_[err] read-only\n(/nodes.length)"
+        },
+        {
+          "name": "[err] /nodes/{}/weights",
+          "resultVarName": "TestResult_pointer/set edge cases_[err] /nodes/{}/weights",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 7,
+          "successResultVarName": "TestResult_HasPassed_pointer/set edge cases_[err] /nodes/{}/weights"
+        },
+        {
+          "name": "No [out] on\nthe [err] cases",
+          "resultVarName": "TestResult_pointer/set edge cases_No [out] on\nthe [err] cases",
+          "resultVarId": 0,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_pointer/set edge cases_No [out] on\nthe [err] cases"
+        },
+        {
+          "name": "Invalid value\n(metallic 2): [out]",
+          "resultVarName": "TestResult_pointer/set edge cases_Invalid value\n(metallic 2): [out]",
+          "resultVarId": 8,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_pointer/set edge cases_Invalid value\n(metallic 2): [out]"
+        },
+        {
+          "name": "Invalid value\n(metallic 2): no [err]",
+          "resultVarName": "TestResult_pointer/set edge cases_Invalid value\n(metallic 2): no [err]",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_pointer/set edge cases_Invalid value\n(metallic 2): no [err]"
+        },
+        {
+          "name": "set stops interpolate:\n[done] not fired",
+          "resultVarName": "TestResult_pointer/set edge cases_set stops interpolate:\n[done] not fired",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_pointer/set edge cases_set stops interpolate:\n[done] not fired"
+        },
+        {
+          "name": "set stops interpolate:\nkeeps set value",
+          "resultVarName": "TestResult_pointer/set edge cases_set stops interpolate:\nkeeps set value",
+          "resultVarId": 14,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 13,
+          "successResultVarName": "TestResult_HasPassed_pointer/set edge cases_set stops interpolate:\nkeeps set value"
+        },
+        {
+          "name": "pointer/get index -1:\nisValid false",
+          "resultVarName": "TestResult_pointer/set edge cases_pointer/get index -1:\nisValid false",
+          "resultVarId": 17,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_pointer/set edge cases_pointer/get index -1:\nisValid false"
+        },
+        {
+          "name": "pointer/get index out\nof range: isValid false",
+          "resultVarName": "TestResult_pointer/set edge cases_pointer/get index out\nof range: isValid false",
+          "resultVarId": 19,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_pointer/set edge cases_pointer/get index out\nof range: isValid false"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/abs",
+    "math/eq",
+    "math/extract3",
+    "math/lt",
+    "math/sub",
+    "pointer/get",
+    "pointer/interpolate",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

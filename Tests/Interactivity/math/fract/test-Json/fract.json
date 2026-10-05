@@ -16,6 +16,7 @@
         "math/extract4x4",
         "math/fract",
         "math/gt",
+        "math/isNaN",
         "math/length",
         "math/lt",
         "math/normalize",
@@ -30,20 +31,24 @@
           "nodeId": 1
         },
         {
+          "name": "[a] Infinity = NaN",
+          "nodeId": 15
+        },
+        {
           "name": "[a] (-32434.97, -32434.97) = (0.03, 0.03)",
-          "nodeId": 17
+          "nodeId": 21
         },
         {
           "name": "[a] (-32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03)",
-          "nodeId": 36
+          "nodeId": 50
         },
         {
           "name": "[a] (-32434.97, -32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03, 0.03)",
-          "nodeId": 64
+          "nodeId": 68
         },
         {
           "name": "[a] [-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
-          "nodeId": 82
+          "nodeId": 86
         }
       ],
       "subTests": [
@@ -59,34 +64,45 @@
           "successResultVarName": "TestResult_HasPassed_math/fract_[a] -32434.97 = 0.03"
         },
         {
+          "name": "[a] Infinity = NaN",
+          "resultVarName": "TestResult_math/fract_[a] Infinity = NaN",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/fract_[a] Infinity = NaN"
+        },
+        {
           "name": "[a] (-32434.97, -32434.97) = (0.03, 0.03)",
           "resultVarName": "TestResult_math/fract_[a] (-32434.97, -32434.97) = (0.03, 0.03)",
-          "resultVarId": 3,
+          "resultVarId": 5,
           "resultVarType": "float2",
           "expectedResultValue": [
             0.03125,
             0.03125
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 4,
           "successResultVarName": "TestResult_HasPassed_math/fract_[a] (-32434.97, -32434.97) = (0.03, 0.03)"
         },
         {
           "name": "[a] (-32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03)",
           "resultVarName": "TestResult_math/fract_[a] (-32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03)",
-          "resultVarId": 5,
+          "resultVarId": 7,
           "resultVarType": "float3",
           "expectedResultValue": [
             0.03125,
             0.03125,
             0.03125
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_math/fract_[a] (-32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03)"
         },
         {
           "name": "[a] (-32434.97, -32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03, 0.03)",
           "resultVarName": "TestResult_math/fract_[a] (-32434.97, -32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03, 0.03)",
-          "resultVarId": 7,
+          "resultVarId": 9,
           "resultVarType": "float4",
           "expectedResultValue": [
             0.03125,
@@ -94,13 +110,13 @@
             0.03125,
             0.03125
           ],
-          "successResultVarId": 6,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_math/fract_[a] (-32434.97, -32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03, 0.03)"
         },
         {
           "name": "[a] [-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
           "resultVarName": "TestResult_math/fract_[a] [-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
-          "resultVarId": 9,
+          "resultVarId": 11,
           "resultVarType": "float4x4",
           "expectedResultValue": [
             0.03125,
@@ -120,7 +136,7 @@
             0.03125,
             0.03125
           ],
-          "successResultVarId": 8,
+          "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_math/fract_[a] [-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]"
         }
       ]
@@ -137,6 +153,7 @@
     "math/extract4x4",
     "math/fract",
     "math/gt",
+    "math/isNaN",
     "math/length",
     "math/lt",
     "math/normalize",

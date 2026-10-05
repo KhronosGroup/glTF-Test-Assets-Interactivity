@@ -11,6 +11,7 @@
         "flow/branch",
         "flow/sequence",
         "math/eq",
+        "math/isNaN",
         "math/max",
         "pointer/set",
         "variable/get",
@@ -22,8 +23,12 @@
           "nodeId": 1
         },
         {
+          "name": "[a] 1.00 [b] NaN = NaN",
+          "nodeId": 13
+        },
+        {
           "name": "[a] 5 [b] 10 = 10",
-          "nodeId": 15
+          "nodeId": 19
         }
       ],
       "subTests": [
@@ -39,14 +44,25 @@
           "successResultVarName": "TestResult_HasPassed_math/max_[a] 4653.23 [b] 91293920.00 = 91293920.00"
         },
         {
+          "name": "[a] 1.00 [b] NaN = NaN",
+          "resultVarName": "TestResult_math/max_[a] 1.00 [b] NaN = NaN",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/max_[a] 1.00 [b] NaN = NaN"
+        },
+        {
           "name": "[a] 5 [b] 10 = 10",
           "resultVarName": "TestResult_math/max_[a] 5 [b] 10 = 10",
-          "resultVarId": 3,
+          "resultVarId": 5,
           "resultVarType": "int",
           "expectedResultValue": [
             10
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 4,
           "successResultVarName": "TestResult_HasPassed_math/max_[a] 5 [b] 10 = 10"
         }
       ]
@@ -58,6 +74,7 @@
     "flow/branch",
     "flow/sequence",
     "math/eq",
+    "math/isNaN",
     "math/max",
     "pointer/set",
     "variable/get",

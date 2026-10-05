@@ -1,0 +1,228 @@
+{
+  "glbFileName": "state.glb",
+  "name": "animation/state",
+  "tests": [
+    {
+      "name": "animation/state",
+      "description": "Animation state pointers before, during and after playback, maxTime/minTime with an unused sampler, and animations that are never started.",
+      "usedSchemas": [
+        "animation/start",
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/abs",
+        "math/eq",
+        "math/extract3",
+        "math/lt",
+        "math/sub",
+        "pointer/get",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "isPlaying false\nbefore start (delayed execution)",
+          "nodeId": 0,
+          "delayedExecutionTime": 3.0
+        },
+        {
+          "name": "Unused sampler:\nmaxTime T (delayed execution)",
+          "nodeId": 156,
+          "delayedExecutionTime": 3.0
+        },
+        {
+          "name": "Not started:\nisPlaying false (delayed execution)",
+          "nodeId": 211,
+          "delayedExecutionTime": 3.0
+        }
+      ],
+      "subTests": [
+        {
+          "name": "isPlaying false\nbefore start",
+          "resultVarName": "TestResult_animation/state_isPlaying false\nbefore start",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_animation/state_isPlaying false\nbefore start"
+        },
+        {
+          "name": "playhead 0\nbefore start",
+          "resultVarName": "TestResult_animation/state_playhead 0\nbefore start",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_animation/state_playhead 0\nbefore start"
+        },
+        {
+          "name": "virtualPlayhead 0\nbefore start",
+          "resultVarName": "TestResult_animation/state_virtualPlayhead 0\nbefore start",
+          "resultVarId": 5,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_animation/state_virtualPlayhead 0\nbefore start"
+        },
+        {
+          "name": "minTime 0",
+          "resultVarName": "TestResult_animation/state_minTime 0",
+          "resultVarId": 7,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_animation/state_minTime 0"
+        },
+        {
+          "name": "maxTime T",
+          "resultVarName": "TestResult_animation/state_maxTime T",
+          "resultVarId": 9,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_animation/state_maxTime T"
+        },
+        {
+          "name": "isPlaying true\nwhile playing",
+          "resultVarName": "TestResult_animation/state_isPlaying true\nwhile playing",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_animation/state_isPlaying true\nwhile playing"
+        },
+        {
+          "name": "isPlaying false\non [done]",
+          "resultVarName": "TestResult_animation/state_isPlaying false\non [done]",
+          "resultVarId": 13,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_animation/state_isPlaying false\non [done]"
+        },
+        {
+          "name": "playhead T\non [done]",
+          "resultVarName": "TestResult_animation/state_playhead T\non [done]",
+          "resultVarId": 15,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_animation/state_playhead T\non [done]"
+        },
+        {
+          "name": "virtualPlayhead T\non [done]",
+          "resultVarName": "TestResult_animation/state_virtualPlayhead T\non [done]",
+          "resultVarId": 17,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_animation/state_virtualPlayhead T\non [done]"
+        },
+        {
+          "name": "Unused sampler:\nmaxTime T",
+          "resultVarName": "TestResult_animation/state_Unused sampler:\nmaxTime T",
+          "resultVarId": 19,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_animation/state_Unused sampler:\nmaxTime T"
+        },
+        {
+          "name": "Unused sampler:\nminTime 0",
+          "resultVarName": "TestResult_animation/state_Unused sampler:\nminTime 0",
+          "resultVarId": 21,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 20,
+          "successResultVarName": "TestResult_HasPassed_animation/state_Unused sampler:\nminTime 0"
+        },
+        {
+          "name": "Unused sampler:\nstart(0, maxTime) [done]",
+          "resultVarName": "TestResult_animation/state_Unused sampler:\nstart(0, maxTime) [done]",
+          "resultVarId": 22,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 22,
+          "successResultVarName": "TestResult_HasPassed_animation/state_Unused sampler:\nstart(0, maxTime) [done]"
+        },
+        {
+          "name": "Unused sampler:\nplayhead maxTime on [done]",
+          "resultVarName": "TestResult_animation/state_Unused sampler:\nplayhead maxTime on [done]",
+          "resultVarId": 24,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 23,
+          "successResultVarName": "TestResult_HasPassed_animation/state_Unused sampler:\nplayhead maxTime on [done]"
+        },
+        {
+          "name": "Not started:\nisPlaying false",
+          "resultVarName": "TestResult_animation/state_Not started:\nisPlaying false",
+          "resultVarId": 26,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 25,
+          "successResultVarName": "TestResult_HasPassed_animation/state_Not started:\nisPlaying false"
+        },
+        {
+          "name": "Not started:\ntranslation unchanged",
+          "resultVarName": "TestResult_animation/state_Not started:\ntranslation unchanged",
+          "resultVarId": 28,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 27,
+          "successResultVarName": "TestResult_HasPassed_animation/state_Not started:\ntranslation unchanged"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "animation/start",
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/abs",
+    "math/eq",
+    "math/extract3",
+    "math/lt",
+    "math/sub",
+    "pointer/get",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

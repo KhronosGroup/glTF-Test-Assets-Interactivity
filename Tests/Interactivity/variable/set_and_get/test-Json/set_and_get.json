@@ -17,117 +17,213 @@
       ],
       "entryPoints": [
         {
-          "name": "Set Variable bool",
+          "name": "Set Variable (connected) bool",
           "nodeId": 1
         },
         {
-          "name": "Set Variable int",
+          "name": "Set Variable (connected) int",
           "nodeId": 16
         },
         {
-          "name": "Set Variable float",
+          "name": "Set Variable (connected) float",
           "nodeId": 31
         },
         {
-          "name": "Set Variable float2",
-          "nodeId": 69
+          "name": "Set Variable (connected) float2",
+          "nodeId": 81
         },
         {
-          "name": "Set Variable float3",
-          "nodeId": 83
+          "name": "Set Variable (connected) float3",
+          "nodeId": 96
         },
         {
-          "name": "Set Variable float4",
-          "nodeId": 97
-        },
-        {
-          "name": "Get default value from Variable bool",
+          "name": "Set Variable (connected) float4",
           "nodeId": 111
         },
         {
+          "name": "Set Variable bool",
+          "nodeId": 125
+        },
+        {
+          "name": "Set Variable int",
+          "nodeId": 139
+        },
+        {
+          "name": "Set Variable float",
+          "nodeId": 153
+        },
+        {
+          "name": "Set Variable float2",
+          "nodeId": 167
+        },
+        {
+          "name": "Set Variable float3",
+          "nodeId": 181
+        },
+        {
+          "name": "Set Variable float4",
+          "nodeId": 195
+        },
+        {
+          "name": "Get default value from Variable bool",
+          "nodeId": 210
+        },
+        {
           "name": "Get default value from Variable int",
-          "nodeId": 124
+          "nodeId": 223
         },
         {
           "name": "Get default value from Variable float",
-          "nodeId": 137
+          "nodeId": 236
         },
         {
           "name": "Get default value from Variable float2",
-          "nodeId": 150
+          "nodeId": 249
         },
         {
           "name": "Get default value from Variable float3",
-          "nodeId": 163
+          "nodeId": 262
         },
         {
           "name": "Get default value from Variable float4",
-          "nodeId": 176
+          "nodeId": 275
         }
       ],
       "subTests": [
         {
-          "name": "static bool",
-          "resultVarName": "TestResult_variable/set and get_static bool",
-          "resultVarId": 2,
+          "name": "connected bool",
+          "resultVarName": "TestResult_variable/set and get_connected bool",
+          "resultVarId": 3,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 1,
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_connected bool"
+        },
+        {
+          "name": "connected int",
+          "resultVarName": "TestResult_variable/set and get_connected int",
+          "resultVarId": 7,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_connected int"
+        },
+        {
+          "name": "connected float",
+          "resultVarName": "TestResult_variable/set and get_connected float",
+          "resultVarId": 11,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_connected float"
+        },
+        {
+          "name": "connected float2",
+          "resultVarName": "TestResult_variable/set and get_connected float2",
+          "resultVarId": 15,
+          "resultVarType": "float2",
+          "expectedResultValue": [
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_connected float2"
+        },
+        {
+          "name": "connected float3",
+          "resultVarName": "TestResult_variable/set and get_connected float3",
+          "resultVarId": 19,
+          "resultVarType": "float3",
+          "expectedResultValue": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_connected float3"
+        },
+        {
+          "name": "connected float4",
+          "resultVarName": "TestResult_variable/set and get_connected float4",
+          "resultVarId": 23,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successResultVarId": 22,
+          "successResultVarName": "TestResult_HasPassed_variable/set and get_connected float4"
+        },
+        {
+          "name": "static bool",
+          "resultVarName": "TestResult_variable/set and get_static bool",
+          "resultVarId": 26,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 25,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_static bool"
         },
         {
           "name": "static int",
           "resultVarName": "TestResult_variable/set and get_static int",
-          "resultVarId": 5,
+          "resultVarId": 29,
           "resultVarType": "int",
           "expectedResultValue": [
             1
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 28,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_static int"
         },
         {
           "name": "static float",
           "resultVarName": "TestResult_variable/set and get_static float",
-          "resultVarId": 8,
+          "resultVarId": 32,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
           ],
-          "successResultVarId": 7,
+          "successResultVarId": 31,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_static float"
         },
         {
           "name": "static float2",
           "resultVarName": "TestResult_variable/set and get_static float2",
-          "resultVarId": 11,
+          "resultVarId": 35,
           "resultVarType": "float2",
           "expectedResultValue": [
             1.0,
             1.0
           ],
-          "successResultVarId": 10,
+          "successResultVarId": 34,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_static float2"
         },
         {
           "name": "static float3",
           "resultVarName": "TestResult_variable/set and get_static float3",
-          "resultVarId": 14,
+          "resultVarId": 38,
           "resultVarType": "float3",
           "expectedResultValue": [
             1.0,
             1.0,
             1.0
           ],
-          "successResultVarId": 13,
+          "successResultVarId": 37,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_static float3"
         },
         {
           "name": "static float4",
           "resultVarName": "TestResult_variable/set and get_static float4",
-          "resultVarId": 17,
+          "resultVarId": 41,
           "resultVarType": "float4",
           "expectedResultValue": [
             1.0,
@@ -135,71 +231,71 @@
             1.0,
             1.0
           ],
-          "successResultVarId": 16,
+          "successResultVarId": 40,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_static float4"
         },
         {
           "name": "default bool",
           "resultVarName": "TestResult_variable/set and get_default bool",
-          "resultVarId": 20,
+          "resultVarId": 44,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 19,
+          "successResultVarId": 43,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_default bool"
         },
         {
           "name": "default int",
           "resultVarName": "TestResult_variable/set and get_default int",
-          "resultVarId": 23,
+          "resultVarId": 47,
           "resultVarType": "int",
           "expectedResultValue": [
             1
           ],
-          "successResultVarId": 22,
+          "successResultVarId": 46,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_default int"
         },
         {
           "name": "default float",
           "resultVarName": "TestResult_variable/set and get_default float",
-          "resultVarId": 26,
+          "resultVarId": 50,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
           ],
-          "successResultVarId": 25,
+          "successResultVarId": 49,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_default float"
         },
         {
           "name": "default float2",
           "resultVarName": "TestResult_variable/set and get_default float2",
-          "resultVarId": 29,
+          "resultVarId": 53,
           "resultVarType": "float2",
           "expectedResultValue": [
             1.0,
             1.0
           ],
-          "successResultVarId": 28,
+          "successResultVarId": 52,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_default float2"
         },
         {
           "name": "default float3",
           "resultVarName": "TestResult_variable/set and get_default float3",
-          "resultVarId": 32,
+          "resultVarId": 56,
           "resultVarType": "float3",
           "expectedResultValue": [
             1.0,
             1.0,
             1.0
           ],
-          "successResultVarId": 31,
+          "successResultVarId": 55,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_default float3"
         },
         {
           "name": "default float4",
           "resultVarName": "TestResult_variable/set and get_default float4",
-          "resultVarId": 35,
+          "resultVarId": 59,
           "resultVarType": "float4",
           "expectedResultValue": [
             1.0,
@@ -207,7 +303,7 @@
             1.0,
             1.0
           ],
-          "successResultVarId": 34,
+          "successResultVarId": 58,
           "successResultVarName": "TestResult_HasPassed_variable/set and get_default float4"
         }
       ]

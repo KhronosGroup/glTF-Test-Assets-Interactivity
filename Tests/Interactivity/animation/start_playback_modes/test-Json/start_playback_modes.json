@@ -1,0 +1,281 @@
+{
+  "glbFileName": "start_playback_modes.glb",
+  "name": "animation/start playback modes",
+  "tests": [
+    {
+      "name": "animation/start playback modes",
+      "description": "Reverse playback, infinite loops in both directions, start/end times outside the clip, startTime == endTime, restarting a playing animation, and starting an animation from another animation's [done].",
+      "usedSchemas": [
+        "animation/start",
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/abs",
+        "math/eq",
+        "math/extract3",
+        "math/lt",
+        "math/sub",
+        "pointer/get",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "Reverse (T..0):\nposition at 50% (delayed execution)",
+          "nodeId": 0,
+          "delayedExecutionTime": 3.0
+        },
+        {
+          "name": "endTime +Inf:\nwraps (25% at 1.25T) (delayed execution)",
+          "nodeId": 84,
+          "delayedExecutionTime": 3.0
+        },
+        {
+          "name": "endTime -Inf:\nwraps (75% at 1.25T) (delayed execution)",
+          "nodeId": 157,
+          "delayedExecutionTime": 3.0
+        },
+        {
+          "name": "Times outside [0,T]\n(1.25T..1.75T): [done] (delayed execution)",
+          "nodeId": 183,
+          "delayedExecutionTime": 3.0
+        },
+        {
+          "name": "startTime == endTime:\n[done] (delayed execution)",
+          "nodeId": 213,
+          "delayedExecutionTime": 1.0
+        },
+        {
+          "name": "Restart: 1st\n[done] not fired (delayed execution)",
+          "nodeId": 243,
+          "delayedExecutionTime": 3.0
+        },
+        {
+          "name": "Started from another\n[done]: [done] (delayed execution)",
+          "nodeId": 266,
+          "delayedExecutionTime": 5.0
+        }
+      ],
+      "subTests": [
+        {
+          "name": "Reverse (T..0):\nposition at 50%",
+          "resultVarName": "TestResult_animation/start playback modes_Reverse (T..0):\nposition at 50%",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_Reverse (T..0):\nposition at 50%"
+        },
+        {
+          "name": "Reverse (T..0):\n[done]",
+          "resultVarName": "TestResult_animation/start playback modes_Reverse (T..0):\n[done]",
+          "resultVarId": 2,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_Reverse (T..0):\n[done]"
+        },
+        {
+          "name": "Reverse (T..0):\nposition 0 on [done]",
+          "resultVarName": "TestResult_animation/start playback modes_Reverse (T..0):\nposition 0 on [done]",
+          "resultVarId": 4,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_Reverse (T..0):\nposition 0 on [done]"
+        },
+        {
+          "name": "Times outside [0,T]\n(1.25T..1.75T): [done]",
+          "resultVarName": "TestResult_animation/start playback modes_Times outside [0,T]\n(1.25T..1.75T): [done]",
+          "resultVarId": 19,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 19,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_Times outside [0,T]\n(1.25T..1.75T): [done]"
+        },
+        {
+          "name": "Times outside [0,T]:\nwrapped pose on [done]",
+          "resultVarName": "TestResult_animation/start playback modes_Times outside [0,T]:\nwrapped pose on [done]",
+          "resultVarId": 21,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.5
+          ],
+          "successResultVarId": 20,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_Times outside [0,T]:\nwrapped pose on [done]"
+        },
+        {
+          "name": "endTime +Inf:\nwraps (25% at 1.25T)",
+          "resultVarName": "TestResult_animation/start playback modes_endTime +Inf:\nwraps (25% at 1.25T)",
+          "resultVarId": 6,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.5
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_endTime +Inf:\nwraps (25% at 1.25T)"
+        },
+        {
+          "name": "endTime +Inf:\n[done] not fired",
+          "resultVarName": "TestResult_animation/start playback modes_endTime +Inf:\n[done] not fired",
+          "resultVarId": 13,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_endTime +Inf:\n[done] not fired"
+        },
+        {
+          "name": "endTime +Inf:\nisPlaying at 1.25T",
+          "resultVarName": "TestResult_animation/start playback modes_endTime +Inf:\nisPlaying at 1.25T",
+          "resultVarId": 8,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 7,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_endTime +Inf:\nisPlaying at 1.25T"
+        },
+        {
+          "name": "endTime +Inf:\nplayhead 0.25T",
+          "resultVarName": "TestResult_animation/start playback modes_endTime +Inf:\nplayhead 0.25T",
+          "resultVarId": 10,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.5
+          ],
+          "successResultVarId": 9,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_endTime +Inf:\nplayhead 0.25T"
+        },
+        {
+          "name": "endTime +Inf:\nvirtualPlayhead 1.25T",
+          "resultVarName": "TestResult_animation/start playback modes_endTime +Inf:\nvirtualPlayhead 1.25T",
+          "resultVarId": 12,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.5
+          ],
+          "successResultVarId": 11,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_endTime +Inf:\nvirtualPlayhead 1.25T"
+        },
+        {
+          "name": "endTime -Inf:\nwraps (75% at 1.25T)",
+          "resultVarName": "TestResult_animation/start playback modes_endTime -Inf:\nwraps (75% at 1.25T)",
+          "resultVarId": 16,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.5
+          ],
+          "successResultVarId": 15,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_endTime -Inf:\nwraps (75% at 1.25T)"
+        },
+        {
+          "name": "endTime -Inf:\n[done] not fired",
+          "resultVarName": "TestResult_animation/start playback modes_endTime -Inf:\n[done] not fired",
+          "resultVarId": 17,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_endTime -Inf:\n[done] not fired"
+        },
+        {
+          "name": "startTime == endTime:\n[done]",
+          "resultVarName": "TestResult_animation/start playback modes_startTime == endTime:\n[done]",
+          "resultVarId": 22,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 22,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_startTime == endTime:\n[done]"
+        },
+        {
+          "name": "startTime == endTime:\npose at startTime",
+          "resultVarName": "TestResult_animation/start playback modes_startTime == endTime:\npose at startTime",
+          "resultVarId": 24,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 23,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_startTime == endTime:\npose at startTime"
+        },
+        {
+          "name": "Restart: 1st\n[done] not fired",
+          "resultVarName": "TestResult_animation/start playback modes_Restart: 1st\n[done] not fired",
+          "resultVarId": 25,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 26,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_Restart: 1st\n[done] not fired"
+        },
+        {
+          "name": "Restart: 2nd\n[done]",
+          "resultVarName": "TestResult_animation/start playback modes_Restart: 2nd\n[done]",
+          "resultVarId": 27,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 27,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_Restart: 2nd\n[done]"
+        },
+        {
+          "name": "Started from another\n[done]: [done]",
+          "resultVarName": "TestResult_animation/start playback modes_Started from another\n[done]: [done]",
+          "resultVarId": 28,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 28,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_Started from another\n[done]: [done]"
+        },
+        {
+          "name": "Started from another\n[done]: end pose",
+          "resultVarName": "TestResult_animation/start playback modes_Started from another\n[done]: end pose",
+          "resultVarId": 30,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            2.0
+          ],
+          "successResultVarId": 29,
+          "successResultVarName": "TestResult_HasPassed_animation/start playback modes_Started from another\n[done]: end pose"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "animation/start",
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/abs",
+    "math/eq",
+    "math/extract3",
+    "math/lt",
+    "math/sub",
+    "pointer/get",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

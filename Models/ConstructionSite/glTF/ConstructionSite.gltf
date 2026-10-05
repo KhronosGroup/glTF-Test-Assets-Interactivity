@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "UnityGltf 2.19.5, Unity 2022.3.62f2, Built-in RP",
+    "generator": "UnityGltf 2.21.0, Unity 2022.3.62f2, Built-in RP",
     "version": "2.0"
   },
   "extensionsUsed": [
@@ -3144,13 +3144,10 @@
               "signature": "ref"
             }
           ],
-          "variables": [],
-          "events": [],
           "declarations": [
             {
               "op": "event/onSelect",
               "extension": "KHR_node_selectability",
-              "inputValueSockets": {},
               "outputValueSockets": {
                 "selectedNode": {
                   "type": 4
@@ -3186,48 +3183,9 @@
                   ]
                 }
               },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 16,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 1,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    3
-                  ]
-                }
-              },
-              "values": {
-                "value": {
-                  "type": 3,
-                  "value": [
-                    0.9921569,
-                    0.6892083,
-                    0.0,
-                    1.0
-                  ]
-                },
-                "materialRef": {
-                  "type": 4,
-                  "value": [
-                    "/materials/3"
-                  ]
-                }
-              },
-              "flows": {
-                "out": {
-                  "node": 22,
+                  "node": 11,
                   "socket": "in"
                 }
               }
@@ -3241,28 +3199,9 @@
                   ]
                 }
               },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 4,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 2,
-              "configuration": {},
-              "values": {
-                "duration": {
-                  "type": 1,
-                  "value": [
-                    1.0
-                  ]
-                }
-              },
-              "flows": {
-                "done": {
-                  "node": 21,
+                  "node": 2,
                   "socket": "in"
                 }
               }
@@ -3306,72 +3245,27 @@
               }
             },
             {
-              "declaration": 1,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    3
-                  ]
-                }
-              },
+              "declaration": 2,
               "values": {
-                "value": {
-                  "type": 3,
+                "duration": {
+                  "type": 1,
                   "value": [
-                    0.282353,
-                    0.1764706,
-                    0.0,
                     1.0
-                  ]
-                },
-                "materialRef": {
-                  "type": 4,
-                  "value": [
-                    "/materials/3"
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 1,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    3
-                  ]
-                }
-              },
-              "values": {
-                "value": {
-                  "type": 3,
-                  "value": [
-                    0.9921569,
-                    0.6892083,
-                    0.0,
-                    1.0
-                  ]
-                },
-                "materialRef": {
-                  "type": 4,
-                  "value": [
-                    "/materials/4"
                   ]
                 }
               },
               "flows": {
-                "out": {
+                "done": {
                   "node": 14,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 3,
+              "flows": {
+                "out": {
+                  "node": 5,
                   "socket": "in"
                 }
               }
@@ -3409,7 +3303,7 @@
               },
               "flows": {
                 "out": {
-                  "node": 8,
+                  "node": 6,
                   "socket": "in"
                 }
               }
@@ -3447,43 +3341,10 @@
               },
               "flows": {
                 "out": {
-                  "node": 10,
+                  "node": 7,
                   "socket": "in"
                 }
               }
-            },
-            {
-              "declaration": 1,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    3
-                  ]
-                }
-              },
-              "values": {
-                "value": {
-                  "type": 3,
-                  "value": [
-                    0.282353,
-                    0.1764706,
-                    0.0,
-                    1.0
-                  ]
-                },
-                "materialRef": {
-                  "type": 4,
-                  "value": [
-                    "/materials/5"
-                  ]
-                }
-              },
-              "flows": {}
             },
             {
               "declaration": 1,
@@ -3518,54 +3379,10 @@
               },
               "flows": {
                 "out": {
-                  "node": 13,
+                  "node": 8,
                   "socket": "in"
                 }
               }
-            },
-            {
-              "declaration": 3,
-              "configuration": {},
-              "values": {},
-              "flows": {
-                "out": {
-                  "node": 7,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 1,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    3
-                  ]
-                }
-              },
-              "values": {
-                "value": {
-                  "type": 3,
-                  "value": [
-                    0.282353,
-                    0.1764706,
-                    0.0,
-                    1.0
-                  ]
-                },
-                "materialRef": {
-                  "type": 4,
-                  "value": [
-                    "/materials/4"
-                  ]
-                }
-              },
-              "flows": {}
             },
             {
               "declaration": 1,
@@ -3606,20 +3423,34 @@
               }
             },
             {
-              "declaration": 2,
-              "configuration": {},
-              "values": {
-                "duration": {
-                  "type": 1,
+              "declaration": 1,
+              "configuration": {
+                "pointer": {
                   "value": [
-                    1.0
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
                   ]
                 }
               },
-              "flows": {
-                "done": {
-                  "node": 12,
-                  "socket": "in"
+              "values": {
+                "value": {
+                  "type": 3,
+                  "value": [
+                    0.282353,
+                    0.1764706,
+                    0.0,
+                    1.0
+                  ]
+                },
+                "materialRef": {
+                  "type": 4,
+                  "value": [
+                    "/materials/5"
+                  ]
                 }
               }
             },
@@ -3632,10 +3463,9 @@
                   ]
                 }
               },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 25,
+                  "node": 23,
                   "socket": "in"
                 }
               }
@@ -3673,7 +3503,7 @@
               },
               "flows": {
                 "out": {
-                  "node": 24,
+                  "node": 21,
                   "socket": "in"
                 }
               }
@@ -3687,10 +3517,9 @@
                   ]
                 }
               },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 1,
+                  "node": 13,
                   "socket": "in"
                 }
               }
@@ -3713,8 +3542,8 @@
                 "value": {
                   "type": 3,
                   "value": [
-                    0.282353,
-                    0.1764706,
+                    0.9921569,
+                    0.6892083,
                     0.0,
                     1.0
                   ]
@@ -3722,59 +3551,13 @@
                 "materialRef": {
                   "type": 4,
                   "value": [
-                    "/materials/6"
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 1,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    3
-                  ]
-                }
-              },
-              "values": {
-                "value": {
-                  "type": 3,
-                  "value": [
-                    0.282353,
-                    0.1764706,
-                    0.0,
-                    1.0
-                  ]
-                },
-                "materialRef": {
-                  "type": 4,
-                  "value": [
-                    "/materials/2"
-                  ]
-                }
-              },
-              "flows": {}
-            },
-            {
-              "declaration": 2,
-              "configuration": {},
-              "values": {
-                "duration": {
-                  "type": 1,
-                  "value": [
-                    1.0
+                    "/materials/3"
                   ]
                 }
               },
               "flows": {
-                "done": {
-                  "node": 18,
+                "out": {
+                  "node": 15,
                   "socket": "in"
                 }
               }
@@ -3809,12 +3592,10 @@
                     "/materials/5"
                   ]
                 }
-              },
-              "flows": {}
+              }
             },
             {
               "declaration": 2,
-              "configuration": {},
               "values": {
                 "duration": {
                   "type": 1,
@@ -3825,8 +3606,40 @@
               },
               "flows": {
                 "done": {
-                  "node": 5,
+                  "node": 16,
                   "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 3,
+                  "value": [
+                    0.282353,
+                    0.1764706,
+                    0.0,
+                    1.0
+                  ]
+                },
+                "materialRef": {
+                  "type": 4,
+                  "value": [
+                    "/materials/3"
+                  ]
                 }
               }
             },
@@ -3839,17 +3652,53 @@
                   ]
                 }
               },
-              "values": {},
               "flows": {
                 "out": {
-                  "node": 6,
+                  "node": 18,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 3,
+                  "value": [
+                    0.9921569,
+                    0.6892083,
+                    0.0,
+                    1.0
+                  ]
+                },
+                "materialRef": {
+                  "type": 4,
+                  "value": [
+                    "/materials/4"
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 19,
                   "socket": "in"
                 }
               }
             },
             {
               "declaration": 2,
-              "configuration": {},
               "values": {
                 "duration": {
                   "type": 1,
@@ -3860,8 +3709,89 @@
               },
               "flows": {
                 "done": {
-                  "node": 19,
+                  "node": 20,
                   "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 3,
+                  "value": [
+                    0.282353,
+                    0.1764706,
+                    0.0,
+                    1.0
+                  ]
+                },
+                "materialRef": {
+                  "type": 4,
+                  "value": [
+                    "/materials/4"
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "duration": {
+                  "type": 1,
+                  "value": [
+                    1.0
+                  ]
+                }
+              },
+              "flows": {
+                "done": {
+                  "node": 22,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 3,
+                  "value": [
+                    0.282353,
+                    0.1764706,
+                    0.0,
+                    1.0
+                  ]
+                },
+                "materialRef": {
+                  "type": 4,
+                  "value": [
+                    "/materials/2"
+                  ]
                 }
               }
             },
@@ -3898,8 +3828,57 @@
               },
               "flows": {
                 "out": {
-                  "node": 20,
+                  "node": 24,
                   "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "duration": {
+                  "type": 1,
+                  "value": [
+                    1.0
+                  ]
+                }
+              },
+              "flows": {
+                "done": {
+                  "node": 25,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/materials/{materialRef}/pbrMetallicRoughness/baseColorFactor"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    3
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "type": 3,
+                  "value": [
+                    0.282353,
+                    0.1764706,
+                    0.0,
+                    1.0
+                  ]
+                },
+                "materialRef": {
+                  "type": 4,
+                  "value": [
+                    "/materials/6"
+                  ]
                 }
               }
             }

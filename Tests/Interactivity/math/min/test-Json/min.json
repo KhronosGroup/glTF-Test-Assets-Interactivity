@@ -11,6 +11,7 @@
         "flow/branch",
         "flow/sequence",
         "math/eq",
+        "math/isNaN",
         "math/min",
         "pointer/set",
         "variable/get",
@@ -22,8 +23,12 @@
           "nodeId": 1
         },
         {
+          "name": "[a] NaN [b] 1.00 = NaN",
+          "nodeId": 13
+        },
+        {
           "name": "[a] 3 [b] 9 = 3",
-          "nodeId": 15
+          "nodeId": 19
         }
       ],
       "subTests": [
@@ -39,14 +44,25 @@
           "successResultVarName": "TestResult_HasPassed_math/min_[a] 17.21 [b] -324.23 = -324.23"
         },
         {
+          "name": "[a] NaN [b] 1.00 = NaN",
+          "resultVarName": "TestResult_math/min_[a] NaN [b] 1.00 = NaN",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "NaN"
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_math/min_[a] NaN [b] 1.00 = NaN"
+        },
+        {
           "name": "[a] 3 [b] 9 = 3",
           "resultVarName": "TestResult_math/min_[a] 3 [b] 9 = 3",
-          "resultVarId": 3,
+          "resultVarId": 5,
           "resultVarType": "int",
           "expectedResultValue": [
             3
           ],
-          "successResultVarId": 2,
+          "successResultVarId": 4,
           "successResultVarName": "TestResult_HasPassed_math/min_[a] 3 [b] 9 = 3"
         }
       ]
@@ -58,6 +74,7 @@
     "flow/branch",
     "flow/sequence",
     "math/eq",
+    "math/isNaN",
     "math/min",
     "pointer/set",
     "variable/get",

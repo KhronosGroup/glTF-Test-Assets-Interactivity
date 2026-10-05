@@ -19,11 +19,15 @@
       "entryPoints": [
         {
           "name": "[a] NaN = True",
-          "nodeId": 2
+          "nodeId": 0
         },
         {
           "name": "[a] 1.00 = False",
-          "nodeId": 16
+          "nodeId": 6
+        },
+        {
+          "name": "[a] Infinity = False",
+          "nodeId": 18
         }
       ],
       "subTests": [
@@ -48,6 +52,17 @@
           ],
           "successResultVarId": 2,
           "successResultVarName": "TestResult_HasPassed_math/isNaN_[a] 1.00 = False"
+        },
+        {
+          "name": "[a] Infinity = False",
+          "resultVarName": "TestResult_math/isNaN_[a] Infinity = False",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_math/isNaN_[a] Infinity = False"
         }
       ]
     }

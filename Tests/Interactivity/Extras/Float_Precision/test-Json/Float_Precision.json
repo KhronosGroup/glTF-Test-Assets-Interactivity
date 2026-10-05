@@ -1,0 +1,580 @@
+{
+  "glbFileName": "Float_Precision.glb",
+  "name": "Extras/Float Precision",
+  "tests": [
+    {
+      "name": "Extras/Float Precision",
+      "description": "Float values MUST be IEEE-754 double precision: literal and variable deserialization, type conversions, and negative zero.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/add",
+        "math/and",
+        "math/div",
+        "math/eq",
+        "math/extract3",
+        "math/gt",
+        "math/isInf",
+        "math/lt",
+        "math/max",
+        "math/min",
+        "math/mul",
+        "math/neg",
+        "math/Pi",
+        "math/round",
+        "math/sub",
+        "pointer/set",
+        "type/floatToBool",
+        "type/floatToInt",
+        "type/intToFloat",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "literal 16777217 - 16777216 == 1",
+          "nodeId": 1
+        },
+        {
+          "name": "literal (2^53-1) - (2^53-2) == 1",
+          "nodeId": 14
+        },
+        {
+          "name": "0.1 + 0.2 != 0.3",
+          "nodeId": 28
+        },
+        {
+          "name": "literal 1.79e308 is finite",
+          "nodeId": 108
+        },
+        {
+          "name": "literal 5e-324 > 0",
+          "nodeId": 121
+        },
+        {
+          "name": "literal -0.0 is -0",
+          "nodeId": 134
+        },
+        {
+          "name": "float var init 16777217",
+          "nodeId": 141
+        },
+        {
+          "name": "float3 var init [2^24+1, 1e-300, 1+2^-52]",
+          "nodeId": 162
+        },
+        {
+          "name": "var set/get keeps 16777217",
+          "nodeId": 174
+        },
+        {
+          "name": "(1 + 1e-10) - 1 > 0",
+          "nodeId": 194
+        },
+        {
+          "name": "Pi - 3 == 0.14159265358979312",
+          "nodeId": 208
+        },
+        {
+          "name": "1e30 * 1e30 is finite",
+          "nodeId": 224
+        },
+        {
+          "name": "round(0.49999999999999994) == 0",
+          "nodeId": 237
+        },
+        {
+          "name": "intToFloat(2147483647) - 2147483646 == 1",
+          "nodeId": 251
+        },
+        {
+          "name": "intToFloat(-2147483647) + 2147483646 == -1",
+          "nodeId": 265
+        },
+        {
+          "name": "intToFloat(0) is +0",
+          "nodeId": 279
+        },
+        {
+          "name": "floatToInt(+Inf) == 0",
+          "nodeId": 284
+        },
+        {
+          "name": "floatToInt(-Inf) == 0",
+          "nodeId": 289
+        },
+        {
+          "name": "floatToInt(-0.9) == 0",
+          "nodeId": 295
+        },
+        {
+          "name": "floatToInt(-0) == 0",
+          "nodeId": 309
+        },
+        {
+          "name": "floatToInt(2147483647.0) == 2147483647",
+          "nodeId": 322
+        },
+        {
+          "name": "floatToInt(2147483648.0) == -2147483648",
+          "nodeId": 335
+        },
+        {
+          "name": "floatToInt(4294967301.0) == 5",
+          "nodeId": 348
+        },
+        {
+          "name": "floatToInt(-4294967301.0) == -5",
+          "nodeId": 361
+        },
+        {
+          "name": "floatToInt(1e20) == 1661992960",
+          "nodeId": 374
+        },
+        {
+          "name": "floatToBool(NaN) == false",
+          "nodeId": 386
+        },
+        {
+          "name": "floatToBool(-0) == false",
+          "nodeId": 393
+        },
+        {
+          "name": "floatToBool(5e-324) == true",
+          "nodeId": 406
+        },
+        {
+          "name": "neg(0) is -0",
+          "nodeId": 420
+        },
+        {
+          "name": "-0 == 0",
+          "nodeId": 427
+        },
+        {
+          "name": "min(0, -0) is -0",
+          "nodeId": 442
+        },
+        {
+          "name": "max(-0, 0) is +0",
+          "nodeId": 450
+        },
+        {
+          "name": "round(-0.3) is -0",
+          "nodeId": 457
+        },
+        {
+          "name": "abs(-0) is +0",
+          "nodeId": 465
+        }
+      ],
+      "subTests": [
+        {
+          "name": "literal 16777217 - 16777216 == 1",
+          "resultVarName": "TestResult_Extras/Float Precision_literal 16777217 - 16777216 == 1",
+          "resultVarId": 1,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_literal 16777217 - 16777216 == 1"
+        },
+        {
+          "name": "literal (2^53-1) - (2^53-2) == 1",
+          "resultVarName": "TestResult_Extras/Float Precision_literal (2^53-1) - (2^53-2) == 1",
+          "resultVarId": 3,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_literal (2^53-1) - (2^53-2) == 1"
+        },
+        {
+          "name": "0.1 + 0.2 != 0.3",
+          "resultVarName": "TestResult_Extras/Float Precision_0.1 + 0.2 != 0.3",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_0.1 + 0.2 != 0.3"
+        },
+        {
+          "name": "literal 1.79e308 is finite",
+          "resultVarName": "TestResult_Extras/Float Precision_literal 1.79e308 is finite",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_literal 1.79e308 is finite"
+        },
+        {
+          "name": "literal 5e-324 > 0",
+          "resultVarName": "TestResult_Extras/Float Precision_literal 5e-324 > 0",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_literal 5e-324 > 0"
+        },
+        {
+          "name": "literal -0.0 is -0",
+          "resultVarName": "TestResult_Extras/Float Precision_literal -0.0 is -0",
+          "resultVarId": 11,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "-Infinity"
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_literal -0.0 is -0"
+        },
+        {
+          "name": "float var init 16777217",
+          "resultVarName": "TestResult_Extras/Float Precision_float var init 16777217",
+          "resultVarId": 14,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 13,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_float var init 16777217"
+        },
+        {
+          "name": "float3 var init [2^24+1, 1e-300, 1+2^-52]",
+          "resultVarName": "TestResult_Extras/Float Precision_float3 var init [2^24+1, 1e-300, 1+2^-52]",
+          "resultVarId": 17,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_float3 var init [2^24+1, 1e-300, 1+2^-52]"
+        },
+        {
+          "name": "var set/get keeps 16777217",
+          "resultVarName": "TestResult_Extras/Float Precision_var set/get keeps 16777217",
+          "resultVarId": 20,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 19,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_var set/get keeps 16777217"
+        },
+        {
+          "name": "(1 + 1e-10) - 1 > 0",
+          "resultVarName": "TestResult_Extras/Float Precision_(1 + 1e-10) - 1 > 0",
+          "resultVarId": 22,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 21,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_(1 + 1e-10) - 1 > 0"
+        },
+        {
+          "name": "Pi - 3 == 0.14159265358979312",
+          "resultVarName": "TestResult_Extras/Float Precision_Pi - 3 == 0.14159265358979312",
+          "resultVarId": 24,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.14159265358979312
+          ],
+          "successResultVarId": 23,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_Pi - 3 == 0.14159265358979312"
+        },
+        {
+          "name": "1e30 * 1e30 is finite",
+          "resultVarName": "TestResult_Extras/Float Precision_1e30 * 1e30 is finite",
+          "resultVarId": 26,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 25,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_1e30 * 1e30 is finite"
+        },
+        {
+          "name": "round(0.49999999999999994) == 0",
+          "resultVarName": "TestResult_Extras/Float Precision_round(0.49999999999999994) == 0",
+          "resultVarId": 28,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.0
+          ],
+          "successResultVarId": 27,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_round(0.49999999999999994) == 0"
+        },
+        {
+          "name": "intToFloat(2147483647) - 2147483646 == 1",
+          "resultVarName": "TestResult_Extras/Float Precision_intToFloat(2147483647) - 2147483646 == 1",
+          "resultVarId": 30,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            1.0
+          ],
+          "successResultVarId": 29,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_intToFloat(2147483647) - 2147483646 == 1"
+        },
+        {
+          "name": "intToFloat(-2147483647) + 2147483646 == -1",
+          "resultVarName": "TestResult_Extras/Float Precision_intToFloat(-2147483647) + 2147483646 == -1",
+          "resultVarId": 32,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            -1.0
+          ],
+          "successResultVarId": 31,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_intToFloat(-2147483647) + 2147483646 == -1"
+        },
+        {
+          "name": "intToFloat(0) is +0",
+          "resultVarName": "TestResult_Extras/Float Precision_intToFloat(0) is +0",
+          "resultVarId": 34,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "Infinity"
+          ],
+          "successResultVarId": 33,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_intToFloat(0) is +0"
+        },
+        {
+          "name": "floatToInt(+Inf) == 0",
+          "resultVarName": "TestResult_Extras/Float Precision_floatToInt(+Inf) == 0",
+          "resultVarId": 36,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 35,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_floatToInt(+Inf) == 0"
+        },
+        {
+          "name": "floatToInt(-Inf) == 0",
+          "resultVarName": "TestResult_Extras/Float Precision_floatToInt(-Inf) == 0",
+          "resultVarId": 38,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 37,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_floatToInt(-Inf) == 0"
+        },
+        {
+          "name": "floatToInt(-0.9) == 0",
+          "resultVarName": "TestResult_Extras/Float Precision_floatToInt(-0.9) == 0",
+          "resultVarId": 40,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 39,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_floatToInt(-0.9) == 0"
+        },
+        {
+          "name": "floatToInt(-0) == 0",
+          "resultVarName": "TestResult_Extras/Float Precision_floatToInt(-0) == 0",
+          "resultVarId": 42,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 41,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_floatToInt(-0) == 0"
+        },
+        {
+          "name": "floatToInt(2147483647.0) == 2147483647",
+          "resultVarName": "TestResult_Extras/Float Precision_floatToInt(2147483647.0) == 2147483647",
+          "resultVarId": 44,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            2147483647
+          ],
+          "successResultVarId": 43,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_floatToInt(2147483647.0) == 2147483647"
+        },
+        {
+          "name": "floatToInt(2147483648.0) == -2147483648",
+          "resultVarName": "TestResult_Extras/Float Precision_floatToInt(2147483648.0) == -2147483648",
+          "resultVarId": 46,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -2147483648
+          ],
+          "successResultVarId": 45,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_floatToInt(2147483648.0) == -2147483648"
+        },
+        {
+          "name": "floatToInt(4294967301.0) == 5",
+          "resultVarName": "TestResult_Extras/Float Precision_floatToInt(4294967301.0) == 5",
+          "resultVarId": 48,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            5
+          ],
+          "successResultVarId": 47,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_floatToInt(4294967301.0) == 5"
+        },
+        {
+          "name": "floatToInt(-4294967301.0) == -5",
+          "resultVarName": "TestResult_Extras/Float Precision_floatToInt(-4294967301.0) == -5",
+          "resultVarId": 50,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            -5
+          ],
+          "successResultVarId": 49,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_floatToInt(-4294967301.0) == -5"
+        },
+        {
+          "name": "floatToInt(1e20) == 1661992960",
+          "resultVarName": "TestResult_Extras/Float Precision_floatToInt(1e20) == 1661992960",
+          "resultVarId": 52,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            1661992960
+          ],
+          "successResultVarId": 51,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_floatToInt(1e20) == 1661992960"
+        },
+        {
+          "name": "floatToBool(NaN) == false",
+          "resultVarName": "TestResult_Extras/Float Precision_floatToBool(NaN) == false",
+          "resultVarId": 54,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 53,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_floatToBool(NaN) == false"
+        },
+        {
+          "name": "floatToBool(-0) == false",
+          "resultVarName": "TestResult_Extras/Float Precision_floatToBool(-0) == false",
+          "resultVarId": 56,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 55,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_floatToBool(-0) == false"
+        },
+        {
+          "name": "floatToBool(5e-324) == true",
+          "resultVarName": "TestResult_Extras/Float Precision_floatToBool(5e-324) == true",
+          "resultVarId": 58,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 57,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_floatToBool(5e-324) == true"
+        },
+        {
+          "name": "neg(0) is -0",
+          "resultVarName": "TestResult_Extras/Float Precision_neg(0) is -0",
+          "resultVarId": 60,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "-Infinity"
+          ],
+          "successResultVarId": 59,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_neg(0) is -0"
+        },
+        {
+          "name": "-0 == 0",
+          "resultVarName": "TestResult_Extras/Float Precision_-0 == 0",
+          "resultVarId": 62,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 61,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_-0 == 0"
+        },
+        {
+          "name": "min(0, -0) is -0",
+          "resultVarName": "TestResult_Extras/Float Precision_min(0, -0) is -0",
+          "resultVarId": 64,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "-Infinity"
+          ],
+          "successResultVarId": 63,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_min(0, -0) is -0"
+        },
+        {
+          "name": "max(-0, 0) is +0",
+          "resultVarName": "TestResult_Extras/Float Precision_max(-0, 0) is +0",
+          "resultVarId": 66,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "Infinity"
+          ],
+          "successResultVarId": 65,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_max(-0, 0) is +0"
+        },
+        {
+          "name": "round(-0.3) is -0",
+          "resultVarName": "TestResult_Extras/Float Precision_round(-0.3) is -0",
+          "resultVarId": 68,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "-Infinity"
+          ],
+          "successResultVarId": 67,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_round(-0.3) is -0"
+        },
+        {
+          "name": "abs(-0) is +0",
+          "resultVarName": "TestResult_Extras/Float Precision_abs(-0) is +0",
+          "resultVarId": 70,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            "Infinity"
+          ],
+          "successResultVarId": 69,
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_abs(-0) is +0"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/add",
+    "math/and",
+    "math/div",
+    "math/eq",
+    "math/extract3",
+    "math/gt",
+    "math/isInf",
+    "math/lt",
+    "math/max",
+    "math/min",
+    "math/mul",
+    "math/neg",
+    "math/Pi",
+    "math/round",
+    "math/sub",
+    "pointer/set",
+    "type/floatToBool",
+    "type/floatToInt",
+    "type/intToFloat",
+    "variable/get",
+    "variable/set"
+  ]
+}

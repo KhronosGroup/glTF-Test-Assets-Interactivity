@@ -23,11 +23,23 @@
         },
         {
           "name": "Default",
-          "nodeId": 15
+          "nodeId": 14
         },
         {
           "name": "Negative Cases [-2,-1,0]",
-          "nodeId": 29
+          "nodeId": 27
+        },
+        {
+          "name": "Cases [0.5, 1] use default configuration",
+          "nodeId": 51
+        },
+        {
+          "name": "Duplicate Cases [1, 2, 2] ignored",
+          "nodeId": 64
+        },
+        {
+          "name": "Selection 2 not in Cases [1]: default, not extra socket \"2\"",
+          "nodeId": 77
         }
       ],
       "subTests": [
@@ -63,6 +75,39 @@
           ],
           "successResultVarId": 4,
           "successResultVarName": "TestResult_HasPassed_math/switch_Negative Cases [-2,-1,0]"
+        },
+        {
+          "name": "Cases [0.5, 1] use default configuration",
+          "resultVarName": "TestResult_math/switch_Cases [0.5, 1] use default configuration",
+          "resultVarId": 7,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            99
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_math/switch_Cases [0.5, 1] use default configuration"
+        },
+        {
+          "name": "Duplicate Cases [1, 2, 2] ignored",
+          "resultVarName": "TestResult_math/switch_Duplicate Cases [1, 2, 2] ignored",
+          "resultVarId": 9,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            22
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_math/switch_Duplicate Cases [1, 2, 2] ignored"
+        },
+        {
+          "name": "Selection 2 not in Cases [1]: default, not extra socket \"2\"",
+          "resultVarName": "TestResult_math/switch_Selection 2 not in Cases [1]: default, not extra socket \"2\"",
+          "resultVarId": 11,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            99
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_math/switch_Selection 2 not in Cases [1]: default, not extra socket \"2\""
         }
       ]
     }

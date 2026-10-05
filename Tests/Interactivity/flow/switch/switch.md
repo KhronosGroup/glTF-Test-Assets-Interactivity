@@ -8,6 +8,9 @@
 | Default flow | TestResult_flow/switch_Default flow | 1 | True
 | Empty cases default flow | TestResult_flow/switch_Empty cases default flow | 2 | True
 | Negate cases flow | TestResult_flow/switch_Negate cases flow | 3 | True
+| Cases [0.5, 1] use default configuration | TestResult_flow/switch_Cases [0.5, 1] use default configuration | 4 | True
+| Cases [-2147483649, 0] use default configuration | TestResult_flow/switch_Cases [-2147483649, 0] use default configuration | 5 | True
+| Duplicate cases [1, 2, 2] | TestResult_flow/switch_Duplicate cases [1, 2, 2] | 6 | True
 
 Schemas used in this test case:
 - debug/log

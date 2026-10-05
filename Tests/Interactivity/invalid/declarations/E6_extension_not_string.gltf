@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Khronos_Test_Export InvalidGraphs",
+    "extras": {
+      "caseId": "E6",
+      "title": "declaration extension is a number",
+      "specSection": "Validation › Graph Object Validation",
+      "expectedOutcome": "rejectExtension",
+      "schemaAssert": true,
+      "signalEvent": "test/onFailed",
+      "pass": "the graph is rejected: no node runs and the custom event 'test/onFailed' is never sent"
+    }
+  },
+  "extensionsUsed": [
+    "KHR_interactivity"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Target"
+    }
+  ],
+  "extensions": {
+    "KHR_interactivity": {
+      "graphs": [
+        {
+          "types": [
+            {
+              "signature": "int"
+            }
+          ],
+          "events": [
+            {
+              "id": "test/onFailed"
+            }
+          ],
+          "declarations": [
+            {
+              "op": "event/onStart"
+            },
+            {
+              "op": "debug/log"
+            },
+            {
+              "op": "event/send"
+            },
+            {
+              "op": "test/customOp",
+              "extension": 5,
+              "inputValueSockets": {
+                "a": {
+                  "type": 0
+                }
+              },
+              "outputValueSockets": {
+                "result": {
+                  "type": 0
+                }
+              }
+            }
+          ],
+          "nodes": [
+            {
+              "declaration": 0,
+              "flows": {
+                "out": {
+                  "node": 1
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "severity": {
+                  "value": [
+                    0
+                  ]
+                },
+                "message": {
+                  "value": [
+                    "FAILED [E6] declaration extension is a number: this graph MUST be rejected (spec: Validation › Graph Object Validation)."
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 2
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 3,
+              "values": {
+                "a": {
+                  "type": 0,
+                  "value": [
+                    1
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

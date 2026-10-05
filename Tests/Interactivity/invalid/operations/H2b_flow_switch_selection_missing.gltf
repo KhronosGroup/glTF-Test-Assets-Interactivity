@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Khronos_Test_Export InvalidGraphs",
+    "extras": {
+      "caseId": "H2b",
+      "title": "flow/switch without selection",
+      "specSection": "Operations › flow/switch",
+      "expectedOutcome": "rejectGraph",
+      "schemaAssert": false,
+      "signalEvent": "test/onFailed",
+      "pass": "the graph is rejected: no node runs and the custom event 'test/onFailed' is never sent"
+    }
+  },
+  "extensionsUsed": [
+    "KHR_interactivity"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Target"
+    }
+  ],
+  "extensions": {
+    "KHR_interactivity": {
+      "graphs": [
+        {
+          "types": [
+            {
+              "signature": "int"
+            },
+            {
+              "signature": "float"
+            }
+          ],
+          "events": [
+            {
+              "id": "test/onFailed"
+            }
+          ],
+          "declarations": [
+            {
+              "op": "event/onStart"
+            },
+            {
+              "op": "debug/log"
+            },
+            {
+              "op": "event/send"
+            },
+            {
+              "op": "flow/switch"
+            }
+          ],
+          "nodes": [
+            {
+              "declaration": 0,
+              "flows": {
+                "out": {
+                  "node": 1
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "severity": {
+                  "value": [
+                    0
+                  ]
+                },
+                "message": {
+                  "value": [
+                    "FAILED [H2b] flow/switch without selection: this graph MUST be rejected (spec: Operations › flow/switch)."
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 2
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 3,
+              "configuration": {
+                "cases": {
+                  "value": [
+                    1,
+                    2
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

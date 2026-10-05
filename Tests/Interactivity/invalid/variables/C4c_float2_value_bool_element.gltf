@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Khronos_Test_Export InvalidGraphs",
+    "extras": {
+      "caseId": "C4c",
+      "title": "float2 variable with value [1.0, true]",
+      "specSection": "Validation › Inline Value Object Validation",
+      "expectedOutcome": "rejectGraph",
+      "schemaAssert": false,
+      "signalEvent": "test/onFailed",
+      "pass": "the graph is rejected: no node runs and the custom event 'test/onFailed' is never sent"
+    }
+  },
+  "extensionsUsed": [
+    "KHR_interactivity"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Target"
+    }
+  ],
+  "extensions": {
+    "KHR_interactivity": {
+      "graphs": [
+        {
+          "types": [
+            {
+              "signature": "float2"
+            }
+          ],
+          "variables": [
+            {
+              "type": 0,
+              "value": [
+                1.0,
+                true
+              ]
+            }
+          ],
+          "events": [
+            {
+              "id": "test/onFailed"
+            }
+          ],
+          "declarations": [
+            {
+              "op": "event/onStart"
+            },
+            {
+              "op": "debug/log"
+            },
+            {
+              "op": "event/send"
+            },
+            {
+              "op": "variable/get"
+            }
+          ],
+          "nodes": [
+            {
+              "declaration": 0,
+              "flows": {
+                "out": {
+                  "node": 1
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "severity": {
+                  "value": [
+                    0
+                  ]
+                },
+                "message": {
+                  "value": [
+                    "FAILED [C4c] float2 variable with value [1.0, true]: this graph MUST be rejected (spec: Validation › Inline Value Object Validation)."
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 2
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 3,
+              "configuration": {
+                "variable": {
+                  "value": [
+                    0
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

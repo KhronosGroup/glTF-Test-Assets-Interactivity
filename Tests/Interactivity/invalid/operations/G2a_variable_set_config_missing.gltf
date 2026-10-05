@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Khronos_Test_Export InvalidGraphs",
+    "extras": {
+      "caseId": "G2a",
+      "title": "variable/set without configuration",
+      "specSection": "Operations › variable/set",
+      "expectedOutcome": "rejectGraph",
+      "schemaAssert": false,
+      "signalEvent": "test/onFailed",
+      "pass": "the graph is rejected: no node runs and the custom event 'test/onFailed' is never sent"
+    }
+  },
+  "extensionsUsed": [
+    "KHR_interactivity"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Target"
+    }
+  ],
+  "extensions": {
+    "KHR_interactivity": {
+      "graphs": [
+        {
+          "types": [
+            {
+              "signature": "int"
+            },
+            {
+              "signature": "float"
+            }
+          ],
+          "variables": [
+            {
+              "type": 0,
+              "value": [
+                0
+              ]
+            },
+            {
+              "type": 0,
+              "value": [
+                0
+              ]
+            }
+          ],
+          "events": [
+            {
+              "id": "test/onFailed"
+            }
+          ],
+          "declarations": [
+            {
+              "op": "event/onStart"
+            },
+            {
+              "op": "debug/log"
+            },
+            {
+              "op": "event/send"
+            },
+            {
+              "op": "variable/set"
+            }
+          ],
+          "nodes": [
+            {
+              "declaration": 0,
+              "flows": {
+                "out": {
+                  "node": 1
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "severity": {
+                  "value": [
+                    0
+                  ]
+                },
+                "message": {
+                  "value": [
+                    "FAILED [G2a] variable/set without configuration: this graph MUST be rejected (spec: Operations › variable/set)."
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 2
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 3,
+              "values": {
+                "0": {
+                  "type": 0,
+                  "value": [
+                    5
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
