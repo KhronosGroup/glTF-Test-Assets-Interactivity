@@ -7,7 +7,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -19,23 +18,23 @@
       "entryPoints": [
         {
           "name": "[a] -7.00 = 7.00",
-          "nodeId": 1
+          "nodeId": 3935
         },
         {
           "name": "[a] 7.00 = 7.00",
-          "nodeId": 14
+          "nodeId": 3945
         },
         {
           "name": "[a] 0.00 = 0.00",
-          "nodeId": 27
+          "nodeId": 3955
         },
         {
           "name": "[a] -10 = 10",
-          "nodeId": 1125
+          "nodeId": 3965
         },
         {
           "name": "[a] -2147483648 = -2147483648",
-          "nodeId": 1138
+          "nodeId": 3975
         }
       ],
       "subTests": [
@@ -101,7 +100,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -121,35 +119,35 @@
       "entryPoints": [
         {
           "name": "[a] 0.50 = 1.05",
-          "nodeId": 1151
+          "nodeId": 3997
         },
         {
           "name": "[a] 1.50 = NaN",
-          "nodeId": 1166
+          "nodeId": 4007
         },
         {
           "name": "[a] -1.50 = NaN",
-          "nodeId": 1177
+          "nodeId": 4015
         },
         {
           "name": "[a] 1.00 = 0.00",
-          "nodeId": 1188
+          "nodeId": 4023
         },
         {
           "name": "[a] -1.00 = 3.14",
-          "nodeId": 1203
+          "nodeId": 4033
         },
         {
           "name": "[a] (0.50, 0.50) = (1.05, 1.05)",
-          "nodeId": 1218
+          "nodeId": 4043
         },
         {
           "name": "[a] (0.50, 0.50, 0.50) = (1.05, 1.05, 1.05)",
-          "nodeId": 1236
+          "nodeId": 4053
         },
         {
           "name": "[a] (0.50, 0.50, 0.50, 0.50) = (1.05, 1.05, 1.05, 1.05)",
-          "nodeId": 1254
+          "nodeId": 4063
         }
       ],
       "subTests": [
@@ -254,7 +252,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -275,31 +272,31 @@
       "entryPoints": [
         {
           "name": "[a] 1.50 = 0.96",
-          "nodeId": 1272
+          "nodeId": 4084
         },
         {
           "name": "[a] 0.50 = NaN",
-          "nodeId": 1287
+          "nodeId": 4094
         },
         {
           "name": "[a] 1.00 = 0.00",
-          "nodeId": 1298
+          "nodeId": 4102
         },
         {
           "name": "[a] Infinity = Infinity",
-          "nodeId": 1312
+          "nodeId": 4112
         },
         {
           "name": "[a] (1.50, 1.50) = (0.96, 0.96)",
-          "nodeId": 1318
+          "nodeId": 4116
         },
         {
           "name": "[a] (1.50, 1.50, 1.50) = (0.96, 0.96, 0.96)",
-          "nodeId": 1336
+          "nodeId": 4126
         },
         {
           "name": "[a] (1.50, 1.50, 1.50, 1.50) = (0.96, 0.96, 0.96, 0.96)",
-          "nodeId": 1354
+          "nodeId": 4136
         }
       ],
       "subTests": [
@@ -393,7 +390,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/add",
@@ -405,15 +401,15 @@
       "entryPoints": [
         {
           "name": "[a] -1.00 [b] 3.00 = 2.00",
-          "nodeId": 1372
+          "nodeId": 4153
         },
         {
           "name": "[a] 5 [b] 3 = 8",
-          "nodeId": 1385
+          "nodeId": 4163
         },
         {
           "name": "[a] 2147483647 [b] 1 = -2147483648",
-          "nodeId": 1398
+          "nodeId": 4173
         }
       ],
       "subTests": [
@@ -457,7 +453,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -469,23 +464,23 @@
       "entryPoints": [
         {
           "name": "[a] True [b] False = False",
-          "nodeId": 1411
+          "nodeId": 4192
         },
         {
           "name": "[a] True [b] True = True",
-          "nodeId": 1424
+          "nodeId": 4202
         },
         {
           "name": "[a] False [b] False = False",
-          "nodeId": 1437
+          "nodeId": 4212
         },
         {
           "name": "[a] -1 [b] 252645135 = 252645135",
-          "nodeId": 1450
+          "nodeId": 4222
         },
         {
           "name": "[a] -2147483648 [b] -2147483648 = -2147483648",
-          "nodeId": 1463
+          "nodeId": 4232
         }
       ],
       "subTests": [
@@ -551,7 +546,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -571,35 +565,35 @@
       "entryPoints": [
         {
           "name": "[a] 0.50 = 0.52",
-          "nodeId": 1476
+          "nodeId": 4254
         },
         {
           "name": "[a] 1.50 = NaN",
-          "nodeId": 1491
+          "nodeId": 4264
         },
         {
           "name": "[a] -1.50 = NaN",
-          "nodeId": 1502
+          "nodeId": 4272
         },
         {
           "name": "[a] 1.00 = 1.57",
-          "nodeId": 1513
+          "nodeId": 4280
         },
         {
           "name": "[a] -1.00 = -1.57",
-          "nodeId": 1528
+          "nodeId": 4290
         },
         {
           "name": "[a] (0.50, 0.50) = (0.52, 0.52)",
-          "nodeId": 1543
+          "nodeId": 4300
         },
         {
           "name": "[a] (0.50, 0.50, 0.50) = (0.52, 0.52, 0.52)",
-          "nodeId": 1561
+          "nodeId": 4310
         },
         {
           "name": "[a] (0.50, 0.50, 0.50, 0.50) = (0.52, 0.52, 0.52, 0.52)",
-          "nodeId": 1579
+          "nodeId": 4320
         }
       ],
       "subTests": [
@@ -704,7 +698,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -723,19 +716,19 @@
       "entryPoints": [
         {
           "name": "[a] 0.50 = 0.48",
-          "nodeId": 1597
+          "nodeId": 4338
         },
         {
           "name": "[a] (0.50, 0.50) = (0.48, 0.48)",
-          "nodeId": 1612
+          "nodeId": 4348
         },
         {
           "name": "[a] (0.50, 0.50, 0.50) = (0.48, 0.48, 0.48)",
-          "nodeId": 1630
+          "nodeId": 4358
         },
         {
           "name": "[a] (0.50, 0.50, 0.50, 0.50) = (0.48, 0.48, 0.48, 0.48)",
-          "nodeId": 1648
+          "nodeId": 4368
         }
       ],
       "subTests": [
@@ -796,7 +789,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/asr",
@@ -808,31 +800,31 @@
       "entryPoints": [
         {
           "name": "[a] 14 [b] 2 = 3",
-          "nodeId": 1666
+          "nodeId": 4389
         },
         {
           "name": "[a] -16 [b] 2 = -4",
-          "nodeId": 1679
+          "nodeId": 4399
         },
         {
           "name": "[a] -2147483648 [b] 31 = -1",
-          "nodeId": 1692
+          "nodeId": 4409
         },
         {
           "name": "[a] -16 [b] 0 = -16",
-          "nodeId": 1705
+          "nodeId": 4419
         },
         {
           "name": "[a] -16 [b] 32 = -16",
-          "nodeId": 1718
+          "nodeId": 4429
         },
         {
           "name": "[a] -16 [b] 33 = -8",
-          "nodeId": 1731
+          "nodeId": 4439
         },
         {
           "name": "[a] -2147483648 [b] -1 = -1",
-          "nodeId": 1744
+          "nodeId": 4449
         }
       ],
       "subTests": [
@@ -920,7 +912,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -939,27 +930,27 @@
       "entryPoints": [
         {
           "name": "[a] 0.50 = 0.46",
-          "nodeId": 1757
+          "nodeId": 4469
         },
         {
           "name": "[a] Infinity = 1.57",
-          "nodeId": 1771
+          "nodeId": 4479
         },
         {
           "name": "[a] -Infinity = -1.57",
-          "nodeId": 1776
+          "nodeId": 4483
         },
         {
           "name": "[a] (0.50, 0.50) = (0.46, 0.46)",
-          "nodeId": 1782
+          "nodeId": 4487
         },
         {
           "name": "[a] (0.50, 0.50, 0.50) = (0.46, 0.46, 0.46)",
-          "nodeId": 1800
+          "nodeId": 4497
         },
         {
           "name": "[a] (0.50, 0.50, 0.50, 0.50) = (0.46, 0.46, 0.46, 0.46)",
-          "nodeId": 1818
+          "nodeId": 4507
         }
       ],
       "subTests": [
@@ -1042,7 +1033,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -1061,51 +1051,51 @@
       "entryPoints": [
         {
           "name": "[a] 0.50 [b] 0.50 = 0.79",
-          "nodeId": 1836
+          "nodeId": 4533
         },
         {
           "name": "[a] 1.00 [b] 1.00 = 0.79",
-          "nodeId": 1851
+          "nodeId": 4543
         },
         {
           "name": "[a] 1.00 [b] -1.00 = 2.36",
-          "nodeId": 1866
+          "nodeId": 4553
         },
         {
           "name": "[a] -1.00 [b] -1.00 = -2.36",
-          "nodeId": 1881
+          "nodeId": 4563
         },
         {
           "name": "[a] -1.00 [b] 1.00 = -0.79",
-          "nodeId": 1896
+          "nodeId": 4573
         },
         {
           "name": "[a] 0.00 [b] 0.00 = 0.00",
-          "nodeId": 1911
+          "nodeId": 4583
         },
         {
           "name": "[a] 1.00 [b] Infinity = 0.00",
-          "nodeId": 1925
+          "nodeId": 4593
         },
         {
           "name": "[a] 1.00 [b] -Infinity = 3.14",
-          "nodeId": 1930
+          "nodeId": 4597
         },
         {
           "name": "[a] Infinity [b] 1.00 = 1.57",
-          "nodeId": 1935
+          "nodeId": 4601
         },
         {
           "name": "[a] (0.50, 0.50) [b] (0.50, 0.50) = (0.79, 0.79)",
-          "nodeId": 1941
+          "nodeId": 4605
         },
         {
           "name": "[a] (0.50, 0.50, 0.50) [b] (0.50, 0.50, 0.50) = (0.79, 0.79, 0.79)",
-          "nodeId": 1959
+          "nodeId": 4615
         },
         {
           "name": "[a] (0.50, 0.50, 0.50, 0.50) [b] (0.50, 0.50, 0.50, 0.50) = (0.79, 0.79, 0.79, 0.79)",
-          "nodeId": 1977
+          "nodeId": 4625
         }
       ],
       "subTests": [
@@ -1254,7 +1244,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -1275,31 +1264,31 @@
       "entryPoints": [
         {
           "name": "[a] 0.50 = 0.55",
-          "nodeId": 1995
+          "nodeId": 4646
         },
         {
           "name": "[a] 1.50 = NaN",
-          "nodeId": 2010
+          "nodeId": 4656
         },
         {
           "name": "[a] 1.00 = Infinity",
-          "nodeId": 2021
+          "nodeId": 4664
         },
         {
           "name": "[a] -1.00 = -Infinity",
-          "nodeId": 2027
+          "nodeId": 4668
         },
         {
           "name": "[a] (0.50, 0.50) = (0.55, 0.55)",
-          "nodeId": 2033
+          "nodeId": 4672
         },
         {
           "name": "[a] (0.50, 0.50, 0.50) = (0.55, 0.55, 0.55)",
-          "nodeId": 2051
+          "nodeId": 4682
         },
         {
           "name": "[a] (0.50, 0.50, 0.50, 0.50) = (0.55, 0.55, 0.55, 0.55)",
-          "nodeId": 2069
+          "nodeId": 4692
         }
       ],
       "subTests": [
@@ -1393,7 +1382,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -1412,23 +1400,23 @@
       "entryPoints": [
         {
           "name": "[a] 9769.23 = 21.38",
-          "nodeId": 2087
+          "nodeId": 4711
         },
         {
           "name": "[a] -27.00 = -3.00",
-          "nodeId": 2102
+          "nodeId": 4721
         },
         {
           "name": "[a] (9769.23, 9769.23) = (21.38, 21.38)",
-          "nodeId": 2117
+          "nodeId": 4731
         },
         {
           "name": "[a] (9769.23, 9769.23, 9769.23) = (21.38, 21.38, 21.38)",
-          "nodeId": 2135
+          "nodeId": 4741
         },
         {
           "name": "[a] (9769.23, 9769.23, 9769.23, 9769.23) = (21.38, 21.38, 21.38, 21.38)",
-          "nodeId": 2153
+          "nodeId": 4751
         }
       ],
       "subTests": [
@@ -1500,7 +1488,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/ceil",
@@ -1512,23 +1499,23 @@
       "entryPoints": [
         {
           "name": "[a] 757.00 = 758.00",
-          "nodeId": 2171
+          "nodeId": 4770
         },
         {
           "name": "[a] (757.00, 757.00) = (758.00, 758.00)",
-          "nodeId": 2184
+          "nodeId": 4780
         },
         {
           "name": "[a] (757.00, 757.00, 757.00) = (758.00, 758.00, 758.00)",
-          "nodeId": 2197
+          "nodeId": 4790
         },
         {
           "name": "[a] (757.00, 757.00, 757.00, 757.00) = (758.00, 758.00, 758.00, 758.00)",
-          "nodeId": 2210
+          "nodeId": 4800
         },
         {
           "name": "[a] [757.0,757.0,757.0,757.0,757.0,757.0,757.0,757.0,757.0,757.0,757.0,757.0,757.0,757.0,757.0,757.0] = [758.0,758.0,758.0,758.0,758.0,758.0,758.0,758.0,758.0,758.0,758.0,758.0,758.0,758.0,758.0,758.0]",
-          "nodeId": 2223
+          "nodeId": 4810
         }
       ],
       "subTests": [
@@ -1615,7 +1602,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/clamp",
@@ -1628,23 +1614,23 @@
       "entryPoints": [
         {
           "name": "[a] 9.00 [b] 2.00 [c] 3.00 = 3.00",
-          "nodeId": 2236
+          "nodeId": 4829
         },
         {
           "name": "[a] NaN [b] 0.00 [c] 1.00 = NaN",
-          "nodeId": 2248
+          "nodeId": 4839
         },
         {
           "name": "[a] 9 [b] 2 [c] 3 = 3",
-          "nodeId": 2254
+          "nodeId": 4843
         },
         {
           "name": "[a] 9.00 [b] 3.00 [c] 2.00 = 3.00",
-          "nodeId": 2267
+          "nodeId": 4853
         },
         {
           "name": "[a] 9 [b] 3 [c] 2 = 3",
-          "nodeId": 2280
+          "nodeId": 4863
         }
       ],
       "subTests": [
@@ -1710,7 +1696,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/clz",
@@ -1722,23 +1707,23 @@
       "entryPoints": [
         {
           "name": "[a] 20 = 27",
-          "nodeId": 2293
+          "nodeId": 4882
         },
         {
           "name": "[a] 0 = 32",
-          "nodeId": 2306
+          "nodeId": 4892
         },
         {
           "name": "[a] 1 = 31",
-          "nodeId": 2319
+          "nodeId": 4902
         },
         {
           "name": "[a] -2147483648 = 0",
-          "nodeId": 2332
+          "nodeId": 4912
         },
         {
           "name": "[a] -1 = 0",
-          "nodeId": 2345
+          "nodeId": 4922
         }
       ],
       "subTests": [
@@ -1804,7 +1789,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/combine2",
@@ -1816,7 +1800,7 @@
       "entryPoints": [
         {
           "name": "[a] 1.00 [b] 2.00 = (1.00, 2.00)",
-          "nodeId": 2358
+          "nodeId": 4937
         }
       ],
       "subTests": [
@@ -1839,7 +1823,6 @@
       "description": "Round-trip combine2x2 -> extract2x2; each component must match the input.",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/combine2x2",
@@ -1852,7 +1835,7 @@
       "entryPoints": [
         {
           "name": "math/combine2x2",
-          "nodeId": 2372
+          "nodeId": 4955
         }
       ],
       "subTests": [
@@ -1907,7 +1890,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/combine3",
@@ -1919,7 +1901,7 @@
       "entryPoints": [
         {
           "name": "[a] 1.00 [b] 2.00 [c] 3.00 = (1.00, 2.00, 3.00)",
-          "nodeId": 2416
+          "nodeId": 4995
         }
       ],
       "subTests": [
@@ -1943,7 +1925,6 @@
       "description": "Round-trip combine3x3 -> extract3x3; each component must match the input.",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/combine3x3",
@@ -1956,7 +1937,7 @@
       "entryPoints": [
         {
           "name": "math/combine3x3",
-          "nodeId": 2430
+          "nodeId": 5018
         }
       ],
       "subTests": [
@@ -2066,7 +2047,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/combine4",
@@ -2078,7 +2058,7 @@
       "entryPoints": [
         {
           "name": "[a] 1.00 [b] 2.00 [c] 3.00 [d] 4.00 = (1.00, 2.00, 3.00, 4.00)",
-          "nodeId": 2524
+          "nodeId": 5098
         }
       ],
       "subTests": [
@@ -2103,7 +2083,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/combine4x4",
@@ -2115,7 +2094,7 @@
       "entryPoints": [
         {
           "name": "combine4x4",
-          "nodeId": 2537
+          "nodeId": 5113
         }
       ],
       "subTests": [
@@ -2152,7 +2131,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -2171,19 +2149,19 @@
       "entryPoints": [
         {
           "name": "[a] 4.32 = -0.38",
-          "nodeId": 2550
+          "nodeId": 5131
         },
         {
           "name": "[a] (4.32, 4.32) = (-0.38, -0.38)",
-          "nodeId": 2565
+          "nodeId": 5141
         },
         {
           "name": "[a] (4.32, 4.32, 4.32) = (-0.38, -0.38, -0.38)",
-          "nodeId": 2583
+          "nodeId": 5151
         },
         {
           "name": "[a] (4.32, 4.32, 4.32, 4.32) = (-0.38, -0.38, -0.38, -0.38)",
-          "nodeId": 2601
+          "nodeId": 5161
         }
       ],
       "subTests": [
@@ -2244,7 +2222,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -2263,19 +2240,19 @@
       "entryPoints": [
         {
           "name": "[a] 4.32 = 37.75",
-          "nodeId": 2619
+          "nodeId": 5179
         },
         {
           "name": "[a] (4.32, 4.32) = (37.75, 37.75)",
-          "nodeId": 2634
+          "nodeId": 5189
         },
         {
           "name": "[a] (4.32, 4.32, 4.32) = (37.75, 37.75, 37.75)",
-          "nodeId": 2652
+          "nodeId": 5199
         },
         {
           "name": "[a] (4.32, 4.32, 4.32, 4.32) = (37.75, 37.75, 37.75, 37.75)",
-          "nodeId": 2670
+          "nodeId": 5209
         }
       ],
       "subTests": [
@@ -2336,7 +2313,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -2353,15 +2329,15 @@
       "entryPoints": [
         {
           "name": "[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 1.00)",
-          "nodeId": 2688
+          "nodeId": 5226
         },
         {
           "name": "[a] (2.00, 3.00, 4.00) [b] (5.00, 6.00, 7.00) = (-3.00, 6.00, -3.00)",
-          "nodeId": 2706
+          "nodeId": 5236
         },
         {
           "name": "[a] (2.00, 4.00, 6.00) [b] (1.00, 2.00, 3.00) = (0.00, 0.00, 0.00)",
-          "nodeId": 2724
+          "nodeId": 5246
         }
       ],
       "subTests": [
@@ -2411,7 +2387,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/ctz",
@@ -2423,23 +2398,23 @@
       "entryPoints": [
         {
           "name": "[a] 20 = 2",
-          "nodeId": 2737
+          "nodeId": 5265
         },
         {
           "name": "[a] 0 = 32",
-          "nodeId": 2750
+          "nodeId": 5275
         },
         {
           "name": "[a] 1 = 0",
-          "nodeId": 2763
+          "nodeId": 5285
         },
         {
           "name": "[a] 8 = 3",
-          "nodeId": 2776
+          "nodeId": 5295
         },
         {
           "name": "[a] -2147483648 = 31",
-          "nodeId": 2789
+          "nodeId": 5305
         }
       ],
       "subTests": [
@@ -2505,7 +2480,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -2524,15 +2498,15 @@
       "entryPoints": [
         {
           "name": "[a] 1.10 = 63.00",
-          "nodeId": 2802
+          "nodeId": 5322
         },
         {
           "name": "[a] (1.10, 1.10) = (63.00, 63.00)",
-          "nodeId": 2817
+          "nodeId": 5332
         },
         {
           "name": "[a] (1.10, 1.10, 1.10) = (63.00, 63.00, 63.00)",
-          "nodeId": 2835
+          "nodeId": 5342
         }
       ],
       "subTests": [
@@ -2579,7 +2553,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -2593,7 +2566,7 @@
       "entryPoints": [
         {
           "name": "[a] [1.0,0.0,0.0,1.0,0.0,5.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] = 5.00",
-          "nodeId": 2853
+          "nodeId": 5357
         }
       ],
       "subTests": [
@@ -2615,7 +2588,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -2629,7 +2601,7 @@
       "entryPoints": [
         {
           "name": "math/determinant2x2",
-          "nodeId": 2868
+          "nodeId": 5373
         }
       ],
       "subTests": [
@@ -2662,7 +2634,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -2676,7 +2647,7 @@
       "entryPoints": [
         {
           "name": "math/determinant3x3",
-          "nodeId": 2897
+          "nodeId": 5398
         }
       ],
       "subTests": [
@@ -2709,7 +2680,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -2725,31 +2695,31 @@
       "entryPoints": [
         {
           "name": "[a] 8989.32 [b] 2134.23 = 4.21",
-          "nodeId": 2926
+          "nodeId": 5428
         },
         {
           "name": "[a] 10 [b] 2 = 5",
-          "nodeId": 2941
+          "nodeId": 5438
         },
         {
           "name": "[a] 1.00 [b] 0.00 = Infinity",
-          "nodeId": 2949
+          "nodeId": 5442
         },
         {
           "name": "[a] -1.00 [b] 0.00 = -Infinity",
-          "nodeId": 2955
+          "nodeId": 5446
         },
         {
           "name": "[a] 0.00 [b] 0.00 = NaN",
-          "nodeId": 2961
+          "nodeId": 5450
         },
         {
           "name": "[a] 10 [b] 0 = 0",
-          "nodeId": 2972
+          "nodeId": 5458
         },
         {
           "name": "[a] -2147483648 [b] -1 = -2147483648",
-          "nodeId": 2985
+          "nodeId": 5468
         }
       ],
       "subTests": [
@@ -2837,7 +2807,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -2851,15 +2820,15 @@
       "entryPoints": [
         {
           "name": "[a] (1.00, 2.00) [b] (3.00, 4.00) = 11.00",
-          "nodeId": 2998
+          "nodeId": 5485
         },
         {
           "name": "[a] (1.00, 2.00, 3.00) [b] (4.00, 5.00, 6.00) = 32.00",
-          "nodeId": 3013
+          "nodeId": 5495
         },
         {
           "name": "[a] (1.00, 2.00, 3.00, 4.00) [b] (5.00, 6.00, 7.00, 8.00) = 70.00",
-          "nodeId": 3028
+          "nodeId": 5505
         }
       ],
       "subTests": [
@@ -2903,7 +2872,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -2917,7 +2885,7 @@
       "entryPoints": [
         {
           "name": "= 2.72",
-          "nodeId": 3043
+          "nodeId": 5520
         }
       ],
       "subTests": [
@@ -2939,7 +2907,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -2950,43 +2917,43 @@
       "entryPoints": [
         {
           "name": "[a] 1.32 [b] 2.32 = False",
-          "nodeId": 3058
+          "nodeId": 5544
         },
         {
           "name": "[a] True [b] False = False",
-          "nodeId": 3071
+          "nodeId": 5554
         },
         {
           "name": "[a] (4.00, 5.00) [b] (4.00, 5.00) = True",
-          "nodeId": 3084
+          "nodeId": 5564
         },
         {
           "name": "[a] 2 [b] 1 = False",
-          "nodeId": 3097
+          "nodeId": 5574
         },
         {
           "name": "[a] 2 [b] 2 = True",
-          "nodeId": 3110
+          "nodeId": 5584
         },
         {
           "name": "[a] NaN [b] NaN = False",
-          "nodeId": 3122
+          "nodeId": 5594
         },
         {
           "name": "[a] NaN [b] 1.00 = False",
-          "nodeId": 3127
+          "nodeId": 5598
         },
         {
           "name": "[a] Infinity [b] Infinity = True",
-          "nodeId": 3132
+          "nodeId": 5602
         },
         {
           "name": "[a] Infinity [b] -Infinity = False",
-          "nodeId": 3137
+          "nodeId": 5606
         },
         {
           "name": "[a] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] [b] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] = True",
-          "nodeId": 3143
+          "nodeId": 5610
         }
       ],
       "subTests": [
@@ -3107,7 +3074,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -3127,27 +3093,27 @@
       "entryPoints": [
         {
           "name": "[a] 1.21 = 3.36",
-          "nodeId": 3156
+          "nodeId": 5630
         },
         {
           "name": "[a] Infinity = Infinity",
-          "nodeId": 3170
+          "nodeId": 5640
         },
         {
           "name": "[a] -Infinity = 0.00",
-          "nodeId": 3175
+          "nodeId": 5644
         },
         {
           "name": "[a] (1.21, 1.21) = (3.36, 3.36)",
-          "nodeId": 3181
+          "nodeId": 5648
         },
         {
           "name": "[a] (1.21, 1.21, 1.21) = (3.36, 3.36, 3.36)",
-          "nodeId": 3199
+          "nodeId": 5658
         },
         {
           "name": "[a] (1.21, 1.21, 1.21, 1.21) = (3.36, 3.36, 3.36, 3.36)",
-          "nodeId": 3217
+          "nodeId": 5668
         }
       ],
       "subTests": [
@@ -3230,7 +3196,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -3242,7 +3207,7 @@
       "entryPoints": [
         {
           "name": "math/extract2",
-          "nodeId": 3235
+          "nodeId": 5684
         }
       ],
       "subTests": [
@@ -3275,7 +3240,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -3287,7 +3251,7 @@
       "entryPoints": [
         {
           "name": "math/extract2x2",
-          "nodeId": 3259
+          "nodeId": 5711
         }
       ],
       "subTests": [
@@ -3342,7 +3306,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -3354,7 +3317,7 @@
       "entryPoints": [
         {
           "name": "math/extract3",
-          "nodeId": 3303
+          "nodeId": 5753
         }
       ],
       "subTests": [
@@ -3398,7 +3361,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -3410,7 +3372,7 @@
       "entryPoints": [
         {
           "name": "math/extract3x3",
-          "nodeId": 3337
+          "nodeId": 5793
         }
       ],
       "subTests": [
@@ -3520,7 +3482,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -3532,7 +3493,7 @@
       "entryPoints": [
         {
           "name": "math/extract4",
-          "nodeId": 3431
+          "nodeId": 5876
         }
       ],
       "subTests": [
@@ -3587,7 +3548,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -3599,7 +3559,7 @@
       "entryPoints": [
         {
           "name": "math/extract4x4",
-          "nodeId": 3475
+          "nodeId": 5931
         }
       ],
       "subTests": [
@@ -3786,7 +3746,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -3798,23 +3757,23 @@
       "entryPoints": [
         {
           "name": "[a] -2323.44 = -2324.00",
-          "nodeId": 3639
+          "nodeId": 6071
         },
         {
           "name": "[a] (-2323.44, -2323.44) = (-2324.00, -2324.00)",
-          "nodeId": 3652
+          "nodeId": 6081
         },
         {
           "name": "[a] (-2323.44, -2323.44, -2323.44) = (-2324.00, -2324.00, -2324.00)",
-          "nodeId": 3665
+          "nodeId": 6091
         },
         {
           "name": "[a] (-2323.44, -2323.44, -2323.44, -2323.44) = (-2324.00, -2324.00, -2324.00, -2324.00)",
-          "nodeId": 3678
+          "nodeId": 6101
         },
         {
           "name": "[a] [-2323.4,-2323.4,-2323.4,-2323.4,-2323.4,-2323.4,-2323.4,-2323.4,-2323.4,-2323.4,-2323.4,-2323.4,-2323.4,-2323.4,-2323.4,-2323.4] = [-2324.0,-2324.0,-2324.0,-2324.0,-2324.0,-2324.0,-2324.0,-2324.0,-2324.0,-2324.0,-2324.0,-2324.0,-2324.0,-2324.0,-2324.0,-2324.0]",
-          "nodeId": 3691
+          "nodeId": 6111
         }
       ],
       "subTests": [
@@ -3901,7 +3860,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -3922,27 +3880,27 @@
       "entryPoints": [
         {
           "name": "[a] -32434.97 = 0.03",
-          "nodeId": 3704
+          "nodeId": 6131
         },
         {
           "name": "[a] Infinity = NaN",
-          "nodeId": 3718
+          "nodeId": 6141
         },
         {
           "name": "[a] (-32434.97, -32434.97) = (0.03, 0.03)",
-          "nodeId": 3724
+          "nodeId": 6145
         },
         {
           "name": "[a] (-32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03)",
-          "nodeId": 3742
+          "nodeId": 6155
         },
         {
           "name": "[a] (-32434.97, -32434.97, -32434.97, -32434.97) = (0.03, 0.03, 0.03, 0.03)",
-          "nodeId": 3760
+          "nodeId": 6165
         },
         {
           "name": "[a] [-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0,-32435.0] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
-          "nodeId": 3778
+          "nodeId": 6175
         }
       ],
       "subTests": [
@@ -4040,7 +3998,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -4052,27 +4009,27 @@
       "entryPoints": [
         {
           "name": "[a] 1.35 [b] 1.35 = True",
-          "nodeId": 3854
+          "nodeId": 6195
         },
         {
           "name": "[a] 2 [b] 2 = True",
-          "nodeId": 3867
+          "nodeId": 6205
         },
         {
           "name": "[a] 4 [b] 2 = True",
-          "nodeId": 3880
+          "nodeId": 6215
         },
         {
           "name": "[a] 1 [b] 2 = False",
-          "nodeId": 3893
+          "nodeId": 6225
         },
         {
           "name": "[a] NaN [b] 1.00 = False",
-          "nodeId": 3905
+          "nodeId": 6235
         },
         {
           "name": "[a] NaN [b] NaN = False",
-          "nodeId": 3910
+          "nodeId": 6239
         }
       ],
       "subTests": [
@@ -4149,7 +4106,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -4161,19 +4117,19 @@
       "entryPoints": [
         {
           "name": "[a] 1.00 [b] 2.00 = False",
-          "nodeId": 3916
+          "nodeId": 6251
         },
         {
           "name": "[a] 1 [b] 2 = False",
-          "nodeId": 3929
+          "nodeId": 6261
         },
         {
           "name": "[a] 3 [b] 2 = True",
-          "nodeId": 3942
+          "nodeId": 6271
         },
         {
           "name": "[a] NaN [b] 1.00 = False",
-          "nodeId": 3954
+          "nodeId": 6281
         }
       ],
       "subTests": [
@@ -4228,7 +4184,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -4240,7 +4195,7 @@
       "entryPoints": [
         {
           "name": "= Infinity",
-          "nodeId": 3960
+          "nodeId": 6290
         }
       ],
       "subTests": [
@@ -4262,7 +4217,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -4279,15 +4233,15 @@
       "entryPoints": [
         {
           "name": "[a] [0.0,2.1,0.7,3.0,0.0,2.1,-0.7,1.0,-3.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0] = [0.0,0.0,-0.3,0.7,0.2,0.2,0.0,-0.9,0.7,-0.7,0.0,-1.4,0.0,0.0,0.0,1.0]",
-          "nodeId": 3966
+          "nodeId": 6301
         },
         {
           "name": "Invalid:[a] [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0] ",
-          "nodeId": 4042
+          "nodeId": 6311
         },
         {
           "name": "Invalid:[a] [Infinity,-Infinity,0.0,0.0,Infinity,NaN,1.0,0.0,Infinity,0.0,0.0,0.0,0.0,0.0,0.0,0.0] ",
-          "nodeId": 4054
+          "nodeId": 6321
         }
       ],
       "subTests": [
@@ -4346,7 +4300,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -4362,7 +4315,7 @@
       "entryPoints": [
         {
           "name": "math/inverse2x2",
-          "nodeId": 4060
+          "nodeId": 6335
         }
       ],
       "subTests": [
@@ -4439,7 +4392,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -4455,7 +4407,7 @@
       "entryPoints": [
         {
           "name": "math/inverse3x3",
-          "nodeId": 4134
+          "nodeId": 6401
         }
       ],
       "subTests": [
@@ -4587,7 +4539,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -4599,19 +4550,19 @@
       "entryPoints": [
         {
           "name": "[a] Infinity = True",
-          "nodeId": 4267
+          "nodeId": 6500
         },
         {
           "name": "[a] -Infinity = True",
-          "nodeId": 4272
+          "nodeId": 6504
         },
         {
           "name": "[a] NaN = False",
-          "nodeId": 4277
+          "nodeId": 6508
         },
         {
           "name": "[a] 1.00 = False",
-          "nodeId": 4283
+          "nodeId": 6512
         }
       ],
       "subTests": [
@@ -4666,7 +4617,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -4678,15 +4628,15 @@
       "entryPoints": [
         {
           "name": "[a] NaN = True",
-          "nodeId": 4295
+          "nodeId": 6529
         },
         {
           "name": "[a] 1.00 = False",
-          "nodeId": 4301
+          "nodeId": 6533
         },
         {
           "name": "[a] Infinity = False",
-          "nodeId": 4313
+          "nodeId": 6543
         }
       ],
       "subTests": [
@@ -4730,7 +4680,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -4742,23 +4691,23 @@
       "entryPoints": [
         {
           "name": "[a] 1.35 [b] 1.35 = True",
-          "nodeId": 4319
+          "nodeId": 6556
         },
         {
           "name": "[a] 4 [b] 4 = True",
-          "nodeId": 4332
+          "nodeId": 6566
         },
         {
           "name": "[a] 2 [b] 4 = True",
-          "nodeId": 4345
+          "nodeId": 6576
         },
         {
           "name": "[a] 5 [b] 4 = False",
-          "nodeId": 4358
+          "nodeId": 6586
         },
         {
           "name": "[a] NaN [b] 1.00 = False",
-          "nodeId": 4370
+          "nodeId": 6596
         }
       ],
       "subTests": [
@@ -4824,7 +4773,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -4840,23 +4788,23 @@
       "entryPoints": [
         {
           "name": "[a] (13.00, 2.00) = 13.15",
-          "nodeId": 4376
+          "nodeId": 6609
         },
         {
           "name": "[a] (13.00, 2.00, 15.00) = 19.95",
-          "nodeId": 4391
+          "nodeId": 6619
         },
         {
           "name": "[a] (13.00, 2.00, 23.00, 123.00) = 125.82",
-          "nodeId": 4406
+          "nodeId": 6629
         },
         {
           "name": "[a] (Infinity, 2.00, 3.00) = Infinity",
-          "nodeId": 4420
+          "nodeId": 6639
         },
         {
           "name": "[a] (NaN, 2.00, 3.00) = NaN",
-          "nodeId": 4425
+          "nodeId": 6643
         }
       ],
       "subTests": [
@@ -4922,7 +4870,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -4943,31 +4890,31 @@
       "entryPoints": [
         {
           "name": "[a] 26436.23 = 10.18",
-          "nodeId": 4431
+          "nodeId": 6658
         },
         {
           "name": "[a] 0.00 = -Infinity",
-          "nodeId": 4446
+          "nodeId": 6668
         },
         {
           "name": "[a] -2.00 = NaN",
-          "nodeId": 4452
+          "nodeId": 6672
         },
         {
           "name": "[a] 1.00 = 0.00",
-          "nodeId": 4463
+          "nodeId": 6680
         },
         {
           "name": "[a] (26436.23, 26436.23) = (10.18, 10.18)",
-          "nodeId": 4478
+          "nodeId": 6690
         },
         {
           "name": "[a] (26436.23, 26436.23, 26436.23) = (10.18, 10.18, 10.18)",
-          "nodeId": 4496
+          "nodeId": 6700
         },
         {
           "name": "[a] (26436.23, 26436.23, 26436.23, 26436.23) = (10.18, 10.18, 10.18, 10.18)",
-          "nodeId": 4514
+          "nodeId": 6710
         }
       ],
       "subTests": [
@@ -5061,7 +5008,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -5080,19 +5026,19 @@
       "entryPoints": [
         {
           "name": "[a] 8768.24 = 3.94",
-          "nodeId": 4532
+          "nodeId": 6728
         },
         {
           "name": "[a] (8768.24, 8768.24) = (3.94, 3.94)",
-          "nodeId": 4547
+          "nodeId": 6738
         },
         {
           "name": "[a] (8768.24, 8768.24, 8768.24) = (3.94, 3.94, 3.94)",
-          "nodeId": 4565
+          "nodeId": 6748
         },
         {
           "name": "[a] (8768.24, 8768.24, 8768.24, 8768.24) = (3.94, 3.94, 3.94, 3.94)",
-          "nodeId": 4583
+          "nodeId": 6758
         }
       ],
       "subTests": [
@@ -5153,7 +5099,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -5172,19 +5117,19 @@
       "entryPoints": [
         {
           "name": "[a] 6443.24 = 12.65",
-          "nodeId": 4601
+          "nodeId": 6776
         },
         {
           "name": "[a] (6443.24, 6443.24) = (12.65, 12.65)",
-          "nodeId": 4616
+          "nodeId": 6786
         },
         {
           "name": "[a] (6443.24, 6443.24, 6443.24) = (12.65, 12.65, 12.65)",
-          "nodeId": 4634
+          "nodeId": 6796
         },
         {
           "name": "[a] (6443.24, 6443.24, 6443.24, 6443.24) = (12.65, 12.65, 12.65, 12.65)",
-          "nodeId": 4652
+          "nodeId": 6806
         }
       ],
       "subTests": [
@@ -5245,7 +5190,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -5257,31 +5201,31 @@
       "entryPoints": [
         {
           "name": "[a] 20 [b] 2 = 80",
-          "nodeId": 4670
+          "nodeId": 6827
         },
         {
           "name": "[a] 1 [b] 31 = -2147483648",
-          "nodeId": 4683
+          "nodeId": 6837
         },
         {
           "name": "[a] 252645135 [b] 8 = 252645120",
-          "nodeId": 4696
+          "nodeId": 6847
         },
         {
           "name": "[a] -1 [b] 1 = -2",
-          "nodeId": 4709
+          "nodeId": 6857
         },
         {
           "name": "[a] 20 [b] 0 = 20",
-          "nodeId": 4722
+          "nodeId": 6867
         },
         {
           "name": "[a] 20 [b] 32 = 20",
-          "nodeId": 4735
+          "nodeId": 6877
         },
         {
           "name": "[a] 20 [b] 33 = 40",
-          "nodeId": 4748
+          "nodeId": 6887
         }
       ],
       "subTests": [
@@ -5369,7 +5313,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -5381,23 +5324,23 @@
       "entryPoints": [
         {
           "name": "[a] 1.00 [b] 2.00 = True",
-          "nodeId": 4761
+          "nodeId": 6906
         },
         {
           "name": "[a] 1 [b] 2 = True",
-          "nodeId": 4774
+          "nodeId": 6916
         },
         {
           "name": "[a] 7 [b] 2 = False",
-          "nodeId": 4787
+          "nodeId": 6926
         },
         {
           "name": "[a] NaN [b] 1.00 = False",
-          "nodeId": 4799
+          "nodeId": 6936
         },
         {
           "name": "[a] 1.00 [b] NaN = False",
-          "nodeId": 4804
+          "nodeId": 6940
         }
       ],
       "subTests": [
@@ -5463,7 +5406,6 @@
       "description": "Matrix Composing [A] > Decomposing > Composing [B] = A==B",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -5481,7 +5423,7 @@
       "entryPoints": [
         {
           "name": "comp-dec-comp",
-          "nodeId": 4809
+          "nodeId": 6950
         }
       ],
       "subTests": [
@@ -5514,7 +5456,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -5530,7 +5471,7 @@
       "entryPoints": [
         {
           "name": "[translation] (1.00, 1.00, 1.00) [rotation] (0.00, 0.00, 0.00, 1.00) [scale] (1.00, 1.00, 1.00) = [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]",
-          "nodeId": 4969
+          "nodeId": 6974
         }
       ],
       "subTests": [
@@ -5567,7 +5508,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -5590,19 +5530,19 @@
       "entryPoints": [
         {
           "name": "matDecompose",
-          "nodeId": 5046
+          "nodeId": 6999
         },
         {
           "name": "matDecompose - invalid result",
-          "nodeId": 5095
+          "nodeId": 7026
         },
         {
           "name": "matDecompose - ignored last row",
-          "nodeId": 5108
+          "nodeId": 7035
         },
         {
           "name": "matDecompose - 0 scale preserves translation",
-          "nodeId": 5158
+          "nodeId": 7062
         }
       ],
       "subTests": [
@@ -5759,7 +5699,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -5778,7 +5717,7 @@
       "entryPoints": [
         {
           "name": "matDecompose - shear",
-          "nodeId": 5186
+          "nodeId": 7086
         }
       ],
       "subTests": [
@@ -5800,7 +5739,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -5816,11 +5754,11 @@
       "entryPoints": [
         {
           "name": "[a] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] [b] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0] = [1.0,0.0,0.0,2.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]",
-          "nodeId": 5269
+          "nodeId": 7102
         },
         {
           "name": "[a] [0.8,-0.8,1.0,2.0,0.5,1.7,-0.5,3.0,-0.2,0.6,2.8,4.0,0.0,0.0,0.0,1.0] [b] [1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0] = [0.8,-0.8,1.0,2.0,0.5,1.7,-0.5,3.0,-0.2,0.6,2.8,4.0,0.0,0.0,0.0,1.0]",
-          "nodeId": 5345
+          "nodeId": 7112
         }
       ],
       "subTests": [
@@ -5883,7 +5821,6 @@
       "description": "True matrix product of two float2x2, compared component-wise.",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -5898,7 +5835,7 @@
       "entryPoints": [
         {
           "name": "math/matMul2x2",
-          "nodeId": 5422
+          "nodeId": 7130
         }
       ],
       "subTests": [
@@ -5953,7 +5890,6 @@
       "description": "True matrix product of two float3x3, compared component-wise.",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -5968,7 +5904,7 @@
       "entryPoints": [
         {
           "name": "math/matMul3x3",
-          "nodeId": 5475
+          "nodeId": 7178
         }
       ],
       "subTests": [
@@ -6078,7 +6014,6 @@
       "description": "A·B != B·A for non-commuting matrices.",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -6090,7 +6025,7 @@
       "entryPoints": [
         {
           "name": "math/matMul-nonCommutative",
-          "nodeId": 5588
+          "nodeId": 7258
         }
       ],
       "subTests": [
@@ -6112,7 +6047,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -6125,15 +6059,15 @@
       "entryPoints": [
         {
           "name": "[a] 4653.23 [b] 91293920.00 = 91293920.00",
-          "nodeId": 5600
+          "nodeId": 7274
         },
         {
           "name": "[a] 1.00 [b] NaN = NaN",
-          "nodeId": 5612
+          "nodeId": 7284
         },
         {
           "name": "[a] 5 [b] 10 = 10",
-          "nodeId": 5618
+          "nodeId": 7288
         }
       ],
       "subTests": [
@@ -6177,7 +6111,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -6190,15 +6123,15 @@
       "entryPoints": [
         {
           "name": "[a] 17.21 [b] -324.23 = -324.23",
-          "nodeId": 5631
+          "nodeId": 7305
         },
         {
           "name": "[a] NaN [b] 1.00 = NaN",
-          "nodeId": 5643
+          "nodeId": 7315
         },
         {
           "name": "[a] 3 [b] 9 = 3",
-          "nodeId": 5649
+          "nodeId": 7319
         }
       ],
       "subTests": [
@@ -6242,7 +6175,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -6255,31 +6187,31 @@
       "entryPoints": [
         {
           "name": "[a] 1.00 [b] 2.00 [c] 2.00 = 3.00",
-          "nodeId": 5662
+          "nodeId": 7340
         },
         {
           "name": "[a] 1.00 [b] 2.00 [c] -0.50 = 0.50",
-          "nodeId": 5675
+          "nodeId": 7350
         },
         {
           "name": "[a] 1.00 [b] 2.00 [c] NaN = NaN",
-          "nodeId": 5687
+          "nodeId": 7360
         },
         {
           "name": "[a] (1.00, 1.00) [b] (2.00, 2.00) [c] (2.00, 2.00) = (3.00, 3.00)",
-          "nodeId": 5693
+          "nodeId": 7364
         },
         {
           "name": "[a] (1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00) = (3.00, 3.00, 3.00)",
-          "nodeId": 5706
+          "nodeId": 7374
         },
         {
           "name": "[a] (1.00, 1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00, 2.00) = (3.00, 3.00, 3.00, 3.00)",
-          "nodeId": 5719
+          "nodeId": 7384
         },
         {
           "name": "[a] [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0] [b] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] [c] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]",
-          "nodeId": 5732
+          "nodeId": 7394
         }
       ],
       "subTests": [
@@ -6388,7 +6320,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -6404,27 +6335,27 @@
       "entryPoints": [
         {
           "name": "[a] 345.23 [b] 0.00 = 1.00",
-          "nodeId": 5745
+          "nodeId": 7414
         },
         {
           "name": "[a] 2 [b] 3 = 6",
-          "nodeId": 5760
+          "nodeId": 7424
         },
         {
           "name": "[a] 46341 [b] 46341 = -2147479015",
-          "nodeId": 5768
+          "nodeId": 7428
         },
         {
           "name": "[a] 0.00 [b] Infinity = NaN",
-          "nodeId": 5780
+          "nodeId": 7438
         },
         {
           "name": "[a] 2147483647 [b] 2147483647 = 1",
-          "nodeId": 5786
+          "nodeId": 7442
         },
         {
           "name": "[a] -2147483648 [b] -1 = -2147483648",
-          "nodeId": 5799
+          "nodeId": 7452
         }
       ],
       "subTests": [
@@ -6501,7 +6432,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/isNaN",
@@ -6513,7 +6443,7 @@
       "entryPoints": [
         {
           "name": "= NaN",
-          "nodeId": 5812
+          "nodeId": 7467
         }
       ],
       "subTests": [
@@ -6535,7 +6465,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -6547,31 +6476,31 @@
       "entryPoints": [
         {
           "name": "[a] 5 = -5",
-          "nodeId": 5823
+          "nodeId": 7486
         },
         {
           "name": "[a] -2147483648 = -2147483648",
-          "nodeId": 5836
+          "nodeId": 7496
         },
         {
           "name": "[a] -8923448.00 = 8923448.00",
-          "nodeId": 5849
+          "nodeId": 7506
         },
         {
           "name": "[a] (-8923448.00, -8923448.00) = (8923448.00, 8923448.00)",
-          "nodeId": 5862
+          "nodeId": 7516
         },
         {
           "name": "[a] (-8923448.00, -8923448.00, -8923448.00) = (8923448.00, 8923448.00, 8923448.00)",
-          "nodeId": 5875
+          "nodeId": 7526
         },
         {
           "name": "[a] (-8923448.00, -8923448.00, -8923448.00, -8923448.00) = (8923448.00, 8923448.00, 8923448.00, 8923448.00)",
-          "nodeId": 5888
+          "nodeId": 7536
         },
         {
           "name": "[a] [-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0,-8923448.0] = [8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0,8923448.0]",
-          "nodeId": 5901
+          "nodeId": 7546
         }
       ],
       "subTests": [
@@ -6680,7 +6609,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -6696,27 +6624,27 @@
       "entryPoints": [
         {
           "name": "[a] (1.00, 2.00) = (0.45, 0.89)",
-          "nodeId": 5914
+          "nodeId": 7566
         },
         {
           "name": "[a] (1.00, 2.00, 3.00) = (0.27, 0.53, 0.80)",
-          "nodeId": 5932
+          "nodeId": 7576
         },
         {
           "name": "[a] (1.00, 2.00, 3.00, 4.00) = (0.18, 0.37, 0.55, 0.73)",
-          "nodeId": 5950
+          "nodeId": 7586
         },
         {
           "name": "Invalid:[a] (0.00, 0.00, 0.00) ",
-          "nodeId": 5968
+          "nodeId": 7596
         },
         {
           "name": "Invalid:[a] (NaN, 0.00, 0.00) ",
-          "nodeId": 5980
+          "nodeId": 7606
         },
         {
           "name": "Invalid:[a] (Infinity, 0.00, 0.00) ",
-          "nodeId": 5985
+          "nodeId": 7610
         }
       ],
       "subTests": [
@@ -6799,7 +6727,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -6811,23 +6738,23 @@
       "entryPoints": [
         {
           "name": "[a] True = False",
-          "nodeId": 5991
+          "nodeId": 7623
         },
         {
           "name": "[a] False = True",
-          "nodeId": 6004
+          "nodeId": 7633
         },
         {
           "name": "[a] 0 = -1",
-          "nodeId": 6017
+          "nodeId": 7643
         },
         {
           "name": "[a] -1 = 0",
-          "nodeId": 6030
+          "nodeId": 7653
         },
         {
           "name": "[a] -2147483648 = 2147483647",
-          "nodeId": 6043
+          "nodeId": 7663
         }
       ],
       "subTests": [
@@ -6893,7 +6820,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -6905,23 +6831,23 @@
       "entryPoints": [
         {
           "name": "[a] True [b] False = True",
-          "nodeId": 6056
+          "nodeId": 7682
         },
         {
           "name": "[a] False [b] False = False",
-          "nodeId": 6069
+          "nodeId": 7692
         },
         {
           "name": "[a] True [b] True = True",
-          "nodeId": 6082
+          "nodeId": 7702
         },
         {
           "name": "[a] 0 [b] -1 = -1",
-          "nodeId": 6095
+          "nodeId": 7712
         },
         {
           "name": "[a] 2147483647 [b] -2147483648 = -1",
-          "nodeId": 6108
+          "nodeId": 7722
         }
       ],
       "subTests": [
@@ -6987,7 +6913,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -7001,7 +6926,7 @@
       "entryPoints": [
         {
           "name": "= 3.14",
-          "nodeId": 6121
+          "nodeId": 7737
         }
       ],
       "subTests": [
@@ -7023,7 +6948,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -7035,19 +6959,19 @@
       "entryPoints": [
         {
           "name": "[a] 23 = 4",
-          "nodeId": 6136
+          "nodeId": 7755
         },
         {
           "name": "[a] 0 = 0",
-          "nodeId": 6149
+          "nodeId": 7765
         },
         {
           "name": "[a] -1 = 32",
-          "nodeId": 6162
+          "nodeId": 7775
         },
         {
           "name": "[a] -2147483648 = 1",
-          "nodeId": 6175
+          "nodeId": 7785
         }
       ],
       "subTests": [
@@ -7102,7 +7026,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -7123,47 +7046,47 @@
       "entryPoints": [
         {
           "name": "[a] 7.76 [b] 2.35 = 122.25",
-          "nodeId": 6188
+          "nodeId": 7810
         },
         {
           "name": "[a] 0.00 [b] 0.00 = 1.00",
-          "nodeId": 6203
+          "nodeId": 7820
         },
         {
           "name": "[a] -2.00 [b] 0.50 = NaN",
-          "nodeId": 6218
+          "nodeId": 7830
         },
         {
           "name": "[a] 5.00 [b] 0.00 = 1.00",
-          "nodeId": 6229
+          "nodeId": 7838
         },
         {
           "name": "[a] NaN [b] 0.00 = 1.00",
-          "nodeId": 6243
+          "nodeId": 7848
         },
         {
           "name": "[a] 1.00 [b] Infinity = NaN",
-          "nodeId": 6248
+          "nodeId": 7852
         },
         {
           "name": "[a] -1.00 [b] Infinity = NaN",
-          "nodeId": 6253
+          "nodeId": 7856
         },
         {
           "name": "[a] 1.00 [b] NaN = NaN",
-          "nodeId": 6258
+          "nodeId": 7860
         },
         {
           "name": "[a] (7.76, 7.76) [b] (2.35, 2.35) = (122.25, 122.25)",
-          "nodeId": 6264
+          "nodeId": 7864
         },
         {
           "name": "[a] (7.76, 7.76, 7.76) [b] (2.35, 2.35, 2.35) = (122.25, 122.25, 122.25)",
-          "nodeId": 6282
+          "nodeId": 7874
         },
         {
           "name": "[a] (7.76, 7.76, 7.76, 7.76) [b] (2.35, 2.35, 2.35, 2.35) = (122.25, 122.25, 122.25, 122.25)",
-          "nodeId": 6300
+          "nodeId": 7884
         }
       ],
       "subTests": [
@@ -7301,7 +7224,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -7315,7 +7237,7 @@
       "entryPoints": [
         {
           "name": "[a] (0.00, 1.00, 0.00, 0.00) [b] (0.00, 0.71, 0.00, 0.71) = 1.57",
-          "nodeId": 6318
+          "nodeId": 7899
         }
       ],
       "subTests": [
@@ -7337,7 +7259,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -7353,7 +7274,7 @@
       "entryPoints": [
         {
           "name": "[a] (0.00, 1.00, 0.00, 0.00) = (0.00, -1.00, 0.00, 0.00)",
-          "nodeId": 6333
+          "nodeId": 7914
         }
       ],
       "subTests": [
@@ -7378,7 +7299,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -7394,27 +7314,27 @@
       "entryPoints": [
         {
           "name": "quatFromAngles-xyz",
-          "nodeId": 6351
+          "nodeId": 7934
         },
         {
           "name": "quatFromAngles-xzy",
-          "nodeId": 6369
+          "nodeId": 7944
         },
         {
           "name": "quatFromAngles-yxz",
-          "nodeId": 6387
+          "nodeId": 7954
         },
         {
           "name": "quatFromAngles-yzx",
-          "nodeId": 6405
+          "nodeId": 7964
         },
         {
           "name": "quatFromAngles-zxy",
-          "nodeId": 6423
+          "nodeId": 7974
         },
         {
           "name": "quatFromAngles-zyx",
-          "nodeId": 6441
+          "nodeId": 7984
         }
       ],
       "subTests": [
@@ -7509,7 +7429,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -7525,7 +7444,7 @@
       "entryPoints": [
         {
           "name": "quatFromAxisAngle",
-          "nodeId": 6459
+          "nodeId": 7999
         }
       ],
       "subTests": [
@@ -7550,7 +7469,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -7566,7 +7484,7 @@
       "entryPoints": [
         {
           "name": "[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.71, 0.71)",
-          "nodeId": 6477
+          "nodeId": 8014
         }
       ],
       "subTests": [
@@ -7591,7 +7509,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -7608,11 +7525,11 @@
       "entryPoints": [
         {
           "name": "parallel",
-          "nodeId": 6495
+          "nodeId": 8030
         },
         {
           "name": "antiparallel",
-          "nodeId": 6514
+          "nodeId": 8040
         }
       ],
       "subTests": [
@@ -7650,7 +7567,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -7666,15 +7582,15 @@
       "entryPoints": [
         {
           "name": "[forward] (0.00, 0.00, 1.00) [up] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.00, 1.00)",
-          "nodeId": 6532
+          "nodeId": 8057
         },
         {
           "name": "[forward] (0.58, 0.58, 0.58) [up] (0.50, 0.71, 0.50) = (-0.28, 0.36, 0.12, 0.88)",
-          "nodeId": 6550
+          "nodeId": 8067
         },
         {
           "name": "[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)",
-          "nodeId": 6568
+          "nodeId": 8077
         }
       ],
       "subTests": [
@@ -7727,7 +7643,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -7744,7 +7659,7 @@
       "entryPoints": [
         {
           "name": "math/quatFromUpForward-degenerate",
-          "nodeId": 6587
+          "nodeId": 8092
         }
       ],
       "subTests": [
@@ -7768,7 +7683,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -7784,7 +7698,7 @@
       "entryPoints": [
         {
           "name": "[a] (0.00, 1.00, 0.00, 0.00) [b] (0.00, 0.71, 0.00, 0.71) = (0.00, 0.71, 0.00, -0.71)",
-          "nodeId": 6605
+          "nodeId": 8107
         }
       ],
       "subTests": [
@@ -7809,7 +7723,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -7825,15 +7738,15 @@
       "entryPoints": [
         {
           "name": "[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 0.50 = (0.00, 0.38, 0.00, 0.92)",
-          "nodeId": 6623
+          "nodeId": 8124
         },
         {
           "name": "[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 0.00 = (0.00, 0.00, 0.00, 1.00)",
-          "nodeId": 6641
+          "nodeId": 8134
         },
         {
           "name": "[a] (0.00, 0.00, 0.00, 1.00) [b] (0.00, 0.71, 0.00, 0.71) [c] 1.00 = (0.00, 0.71, 0.00, 0.71)",
-          "nodeId": 6659
+          "nodeId": 8144
         }
       ],
       "subTests": [
@@ -7886,7 +7799,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -7905,7 +7817,7 @@
       "entryPoints": [
         {
           "name": "quatToAxisAngle",
-          "nodeId": 6677
+          "nodeId": 8160
         }
       ],
       "subTests": [
@@ -7940,7 +7852,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -7954,7 +7865,7 @@
       "entryPoints": [
         {
           "name": "math/quatToAxisAngle-identity",
-          "nodeId": 6708
+          "nodeId": 8184
         }
       ],
       "subTests": [
@@ -7976,7 +7887,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -7995,19 +7905,19 @@
       "entryPoints": [
         {
           "name": "[a] 75.00 = 1.31",
-          "nodeId": 6723
+          "nodeId": 8202
         },
         {
           "name": "[a] (75.00, 75.00) = (1.31, 1.31)",
-          "nodeId": 6738
+          "nodeId": 8212
         },
         {
           "name": "[a] (75.00, 75.00, 75.00) = (1.31, 1.31, 1.31)",
-          "nodeId": 6756
+          "nodeId": 8222
         },
         {
           "name": "[a] (75.00, 75.00, 75.00, 75.00) = (1.31, 1.31, 1.31, 1.31)",
-          "nodeId": 6774
+          "nodeId": 8232
         }
       ],
       "subTests": [
@@ -8068,7 +7978,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/for",
         "flow/sequence",
@@ -8089,23 +7998,23 @@
       "entryPoints": [
         {
           "name": "Random (new number in new flow)",
-          "nodeId": 6793
+          "nodeId": 8251
         },
         {
           "name": "Random (same number in current flow)",
-          "nodeId": 6807
+          "nodeId": 8261
         },
         {
           "name": "Monte Carlo 1k(random number distribution)",
-          "nodeId": 6824
+          "nodeId": 8271
         },
         {
           "name": "Monte Carlo 1k(random number distribution)",
-          "nodeId": 6842
+          "nodeId": 8279
         },
         {
           "name": "Random (new number in each flow/for iteration, 10x)",
-          "nodeId": 6860
+          "nodeId": 8287
         }
       ],
       "subTests": [
@@ -8171,7 +8080,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -8187,31 +8095,31 @@
       "entryPoints": [
         {
           "name": "[a] 19.42 [b] 2.23 = 1.55",
-          "nodeId": 6878
+          "nodeId": 8313
         },
         {
           "name": "[a] 13 [b] 2 = 1",
-          "nodeId": 6893
+          "nodeId": 8323
         },
         {
           "name": "[a] 5.00 [b] 0.00 = NaN",
-          "nodeId": 6901
+          "nodeId": 8327
         },
         {
           "name": "[a] -7.00 [b] 3.00 = -1.00",
-          "nodeId": 6912
+          "nodeId": 8335
         },
         {
           "name": "[a] Infinity [b] 1.00 = NaN",
-          "nodeId": 6924
+          "nodeId": 8345
         },
         {
           "name": "[a] 5.00 [b] Infinity = 5.00",
-          "nodeId": 6929
+          "nodeId": 8349
         },
         {
           "name": "[a] 10 [b] 0 = 0",
-          "nodeId": 6935
+          "nodeId": 8353
         }
       ],
       "subTests": [
@@ -8299,7 +8207,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -8314,15 +8221,15 @@
       "entryPoints": [
         {
           "name": "Red inverse",
-          "nodeId": 6948
+          "nodeId": 8376
         },
         {
           "name": "Achromatic",
-          "nodeId": 6991
+          "nodeId": 8403
         },
         {
           "name": "Roundtrip (0.8, 0.3, 0.5)",
-          "nodeId": 7032
+          "nodeId": 8430
         }
       ],
       "subTests": [
@@ -8432,7 +8339,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -8447,15 +8353,15 @@
       "entryPoints": [
         {
           "name": "Black",
-          "nodeId": 7072
+          "nodeId": 8468
         },
         {
           "name": "White",
-          "nodeId": 7096
+          "nodeId": 8487
         },
         {
           "name": "Red",
-          "nodeId": 7124
+          "nodeId": 8506
         }
       ],
       "subTests": [
@@ -8543,7 +8449,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -8559,15 +8464,15 @@
       "entryPoints": [
         {
           "name": "[a] (1.00, 2.00) [angle] 0.50 = (-0.08, 2.23)",
-          "nodeId": 7164
+          "nodeId": 8540
         },
         {
           "name": "[a] (0.00, 1.00) [angle] 0.50 = (-0.48, 0.88)",
-          "nodeId": 7182
+          "nodeId": 8550
         },
         {
           "name": "[a] (1.00, 2.00) [angle] -0.30 = (1.55, 1.62)",
-          "nodeId": 7200
+          "nodeId": 8560
         }
       ],
       "subTests": [
@@ -8614,7 +8519,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -8630,11 +8534,11 @@
       "entryPoints": [
         {
           "name": "[a] (1.00, 2.00, 3.00) [rotation] (0.00, 1.00, 0.00, 0.00) = (-1.00, 2.00, -3.00)",
-          "nodeId": 7218
+          "nodeId": 8576
         },
         {
           "name": "[a] (1.00, 2.00, 3.00) [rotation] (0.00, 1.00, 0.00, 1.00) = (5.00, 2.00, -5.00)",
-          "nodeId": 7236
+          "nodeId": 8586
         }
       ],
       "subTests": [
@@ -8671,7 +8575,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -8683,67 +8586,67 @@
       "entryPoints": [
         {
           "name": "[a] 2.50 = 3.00",
-          "nodeId": 7254
+          "nodeId": 8616
         },
         {
           "name": "[a] -2.50 = -3.00",
-          "nodeId": 7267
+          "nodeId": 8626
         },
         {
           "name": "[a] 0.50 = 1.00",
-          "nodeId": 7280
+          "nodeId": 8636
         },
         {
           "name": "[a] 1.50 = 2.00",
-          "nodeId": 7293
+          "nodeId": 8646
         },
         {
           "name": "[a] Infinity = Infinity",
-          "nodeId": 7305
+          "nodeId": 8656
         },
         {
           "name": "[a] -Infinity = -Infinity",
-          "nodeId": 7310
+          "nodeId": 8660
         },
         {
           "name": "[a] 2.70 = 3.00",
-          "nodeId": 7316
+          "nodeId": 8664
         },
         {
           "name": "[a] -3.40 = -3.00",
-          "nodeId": 7329
+          "nodeId": 8674
         },
         {
           "name": "[a] (2.70, 2.70) = (3.00, 3.00)",
-          "nodeId": 7342
+          "nodeId": 8684
         },
         {
           "name": "[a] (-3.40, -3.40) = (-3.00, -3.00)",
-          "nodeId": 7355
+          "nodeId": 8694
         },
         {
           "name": "[a] (2.70, 2.70, 2.70) = (3.00, 3.00, 3.00)",
-          "nodeId": 7368
+          "nodeId": 8704
         },
         {
           "name": "[a] (-3.40, -3.40, -3.40) = (-3.00, -3.00, -3.00)",
-          "nodeId": 7381
+          "nodeId": 8714
         },
         {
           "name": "[a] (2.70, 2.70, 2.70, 2.70) = (3.00, 3.00, 3.00, 3.00)",
-          "nodeId": 7394
+          "nodeId": 8724
         },
         {
           "name": "[a] (-3.40, -3.40, -3.40, -3.40) = (-3.00, -3.00, -3.00, -3.00)",
-          "nodeId": 7407
+          "nodeId": 8734
         },
         {
           "name": "[a] [2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]",
-          "nodeId": 7420
+          "nodeId": 8744
         },
         {
           "name": "[a] [-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4] = [-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0]",
-          "nodeId": 7433
+          "nodeId": 8754
         }
       ],
       "subTests": [
@@ -8972,7 +8875,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -8985,31 +8887,31 @@
       "entryPoints": [
         {
           "name": "[a] -1.50 = 0.00",
-          "nodeId": 7446
+          "nodeId": 8775
         },
         {
           "name": "[a] 2.50 = 1.00",
-          "nodeId": 7459
+          "nodeId": 8785
         },
         {
           "name": "[a] NaN = NaN",
-          "nodeId": 7471
+          "nodeId": 8795
         },
         {
           "name": "[a] (-1.50, -1.50) = (0.00, 0.00)",
-          "nodeId": 7477
+          "nodeId": 8799
         },
         {
           "name": "[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)",
-          "nodeId": 7490
+          "nodeId": 8809
         },
         {
           "name": "[a] (-1.50, -1.50, -1.50, -1.50) = (0.00, 0.00, 0.00, 0.00)",
-          "nodeId": 7503
+          "nodeId": 8819
         },
         {
           "name": "[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
-          "nodeId": 7516
+          "nodeId": 8829
         }
       ],
       "subTests": [
@@ -9118,7 +9020,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -9130,11 +9031,11 @@
       "entryPoints": [
         {
           "name": "When True",
-          "nodeId": 7529
+          "nodeId": 8845
         },
         {
           "name": "When False",
-          "nodeId": 7542
+          "nodeId": 8855
         }
       ],
       "subTests": [
@@ -9167,7 +9068,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -9180,39 +9080,39 @@
       "entryPoints": [
         {
           "name": "[a] -9.00 = -1.00",
-          "nodeId": 7555
+          "nodeId": 8878
         },
         {
           "name": "[a] 9.00 = 1.00",
-          "nodeId": 7568
+          "nodeId": 8888
         },
         {
           "name": "[a] 9 = 1",
-          "nodeId": 7581
+          "nodeId": 8898
         },
         {
           "name": "[a] -9 = -1",
-          "nodeId": 7594
+          "nodeId": 8908
         },
         {
           "name": "[a] 0.00 = 0.00",
-          "nodeId": 7607
+          "nodeId": 8918
         },
         {
           "name": "[a] Infinity = 1.00",
-          "nodeId": 7619
+          "nodeId": 8928
         },
         {
           "name": "[a] -Infinity = -1.00",
-          "nodeId": 7624
+          "nodeId": 8932
         },
         {
           "name": "[a] NaN = NaN",
-          "nodeId": 7629
+          "nodeId": 8936
         },
         {
           "name": "[a] 0 = 0",
-          "nodeId": 7635
+          "nodeId": 8940
         }
       ],
       "subTests": [
@@ -9322,7 +9222,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -9341,19 +9240,19 @@
       "entryPoints": [
         {
           "name": "[a] 4.32 = -0.93",
-          "nodeId": 7648
+          "nodeId": 8958
         },
         {
           "name": "[a] (4.32, 4.32) = (-0.93, -0.93)",
-          "nodeId": 7663
+          "nodeId": 8968
         },
         {
           "name": "[a] (4.32, 4.32, 4.32) = (-0.93, -0.93, -0.93)",
-          "nodeId": 7681
+          "nodeId": 8978
         },
         {
           "name": "[a] (4.32, 4.32, 4.32, 4.32) = (-0.93, -0.93, -0.93, -0.93)",
-          "nodeId": 7699
+          "nodeId": 8988
         }
       ],
       "subTests": [
@@ -9414,7 +9313,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -9433,19 +9331,19 @@
       "entryPoints": [
         {
           "name": "[a] 4.32 = 37.74",
-          "nodeId": 7717
+          "nodeId": 9006
         },
         {
           "name": "[a] (4.32, 4.32) = (37.74, 37.74)",
-          "nodeId": 7732
+          "nodeId": 9016
         },
         {
           "name": "[a] (4.32, 4.32, 4.32) = (37.74, 37.74, 37.74)",
-          "nodeId": 7750
+          "nodeId": 9026
         },
         {
           "name": "[a] (4.32, 4.32, 4.32, 4.32) = (37.74, 37.74, 37.74, 37.74)",
-          "nodeId": 7768
+          "nodeId": 9036
         }
       ],
       "subTests": [
@@ -9506,7 +9404,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -9522,23 +9419,23 @@
       "entryPoints": [
         {
           "name": "[a] (2.00, 5.00) [b] (4.00, 6.00) [c] 0.50 = (2.93, 5.57)",
-          "nodeId": 7786
+          "nodeId": 9055
         },
         {
           "name": "[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 0.50 = (2.94, 5.52, 7.55)",
-          "nodeId": 7804
+          "nodeId": 9065
         },
         {
           "name": "[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 0.00 = (2.00, 5.00, 7.00)",
-          "nodeId": 7822
+          "nodeId": 9075
         },
         {
           "name": "[a] (2.00, 5.00, 7.00) [b] (4.00, 6.00, 8.00) [c] 1.00 = (4.00, 6.00, 8.00)",
-          "nodeId": 7840
+          "nodeId": 9085
         },
         {
           "name": "[a] (1.00, 2.00, 2.00) [b] (1.00, 2.00, 2.00) [c] 0.50 = (1.00, 2.00, 2.00)",
-          "nodeId": 7858
+          "nodeId": 9095
         }
       ],
       "subTests": [
@@ -9613,7 +9510,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -9633,39 +9529,39 @@
       "entryPoints": [
         {
           "name": "[a] 0.00 [b] 1.00 [c] -1.00 = 0.00",
-          "nodeId": 7876
+          "nodeId": 9118
         },
         {
           "name": "[a] 0.00 [b] 1.00 [c] 2.00 = 1.00",
-          "nodeId": 7889
+          "nodeId": 9128
         },
         {
           "name": "[a] 1.00 [b] 0.00 [c] 0.25 = 0.16",
-          "nodeId": 7902
+          "nodeId": 9138
         },
         {
           "name": "[a] 0.50 [b] 0.50 [c] 0.75 = 1.00",
-          "nodeId": 7917
+          "nodeId": 9148
         },
         {
           "name": "[a] 0.50 [b] 0.50 [c] 0.25 = 0.00",
-          "nodeId": 7930
+          "nodeId": 9158
         },
         {
           "name": "[a] 0.00 [b] 1.00 [c] 0.25 = 0.16",
-          "nodeId": 7943
+          "nodeId": 9168
         },
         {
           "name": "[a] (0.00, 0.20) [b] (1.00, 0.80) [c] (0.50, 0.50) = (0.50, 0.50)",
-          "nodeId": 7958
+          "nodeId": 9178
         },
         {
           "name": "[a] (0.00, 0.00, 0.00) [b] (1.00, 2.00, 4.00) [c] (0.50, 1.00, 3.00) = (0.50, 0.50, 0.84)",
-          "nodeId": 7976
+          "nodeId": 9188
         },
         {
           "name": "[a] (0.00, 0.00, 0.00, 0.00) [b] (1.00, 1.00, 1.00, 1.00) [c] (0.10, 0.40, 0.60, 0.90) = (0.03, 0.35, 0.65, 0.97)",
-          "nodeId": 7994
+          "nodeId": 9198
         }
       ],
       "subTests": [
@@ -9781,7 +9677,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -9802,31 +9697,31 @@
       "entryPoints": [
         {
           "name": "[a] 4556.23 = 67.50",
-          "nodeId": 8012
+          "nodeId": 9219
         },
         {
           "name": "[a] -4.00 = NaN",
-          "nodeId": 8027
+          "nodeId": 9229
         },
         {
           "name": "[a] 0.00 = 0.00",
-          "nodeId": 8038
+          "nodeId": 9237
         },
         {
           "name": "[a] Infinity = Infinity",
-          "nodeId": 8052
+          "nodeId": 9247
         },
         {
           "name": "[a] (4556.23, 4556.23) = (67.50, 67.50)",
-          "nodeId": 8058
+          "nodeId": 9251
         },
         {
           "name": "[a] (4556.23, 4556.23, 4556.23) = (67.50, 67.50, 67.50)",
-          "nodeId": 8076
+          "nodeId": 9261
         },
         {
           "name": "[a] (4556.23, 4556.23, 4556.23, 4556.23) = (67.50, 67.50, 67.50, 67.50)",
-          "nodeId": 8094
+          "nodeId": 9271
         }
       ],
       "subTests": [
@@ -9920,7 +9815,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -9933,19 +9827,19 @@
       "entryPoints": [
         {
           "name": "[a] 7.00 [b] 9.00 = -2.00",
-          "nodeId": 8112
+          "nodeId": 9289
         },
         {
           "name": "[a] 10 [b] 4 = 6",
-          "nodeId": 8125
+          "nodeId": 9299
         },
         {
           "name": "[a] Infinity [b] Infinity = NaN",
-          "nodeId": 8137
+          "nodeId": 9309
         },
         {
           "name": "[a] -2147483648 [b] 1 = 2147483647",
-          "nodeId": 8143
+          "nodeId": 9313
         }
       ],
       "subTests": [
@@ -10000,7 +9894,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -10012,27 +9905,27 @@
       "entryPoints": [
         {
           "name": "Selection",
-          "nodeId": 8156
+          "nodeId": 9333
         },
         {
           "name": "Default",
-          "nodeId": 8169
+          "nodeId": 9343
         },
         {
           "name": "Negative Cases [-2,-1,0]",
-          "nodeId": 8182
+          "nodeId": 9353
         },
         {
           "name": "Cases [0.5, 1] use default configuration",
-          "nodeId": 8195
+          "nodeId": 9363
         },
         {
           "name": "Duplicate Cases [1, 2, 2] ignored",
-          "nodeId": 8208
+          "nodeId": 9373
         },
         {
           "name": "Selection 2 not in Cases [1]: default, not extra socket \"2\"",
-          "nodeId": 8221
+          "nodeId": 9383
         }
       ],
       "subTests": [
@@ -10109,7 +10002,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -10129,27 +10021,27 @@
       "entryPoints": [
         {
           "name": "[a] 4.32 = 2.44",
-          "nodeId": 8234
+          "nodeId": 9403
         },
         {
           "name": "[a] Infinity = NaN",
-          "nodeId": 8248
+          "nodeId": 9413
         },
         {
           "name": "[a] -Infinity = NaN",
-          "nodeId": 8253
+          "nodeId": 9417
         },
         {
           "name": "[a] (4.32, 4.32) = (2.44, 2.44)",
-          "nodeId": 8259
+          "nodeId": 9421
         },
         {
           "name": "[a] (4.32, 4.32, 4.32) = (2.44, 2.44, 2.44)",
-          "nodeId": 8277
+          "nodeId": 9431
         },
         {
           "name": "[a] (4.32, 4.32, 4.32, 4.32) = (2.44, 2.44, 2.44, 2.44)",
-          "nodeId": 8295
+          "nodeId": 9441
         }
       ],
       "subTests": [
@@ -10232,7 +10124,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -10251,19 +10142,19 @@
       "entryPoints": [
         {
           "name": "[a] 4.32 = 1.00",
-          "nodeId": 8313
+          "nodeId": 9459
         },
         {
           "name": "[a] (4.32, 4.32) = (1.00, 1.00)",
-          "nodeId": 8328
+          "nodeId": 9469
         },
         {
           "name": "[a] (4.32, 4.32, 4.32) = (1.00, 1.00, 1.00)",
-          "nodeId": 8346
+          "nodeId": 9479
         },
         {
           "name": "[a] (4.32, 4.32, 4.32, 4.32) = (1.00, 1.00, 1.00, 1.00)",
-          "nodeId": 8364
+          "nodeId": 9489
         }
       ],
       "subTests": [
@@ -10324,7 +10215,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -10338,7 +10228,7 @@
       "entryPoints": [
         {
           "name": "= 6.28",
-          "nodeId": 8382
+          "nodeId": 9504
         }
       ],
       "subTests": [
@@ -10360,7 +10250,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/and",
@@ -10376,7 +10265,7 @@
       "entryPoints": [
         {
           "name": "[a] (1.00, 2.00, 3.00, 4.00) [b] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0] = (5.00, 2.00, 3.00, 4.00)",
-          "nodeId": 8397
+          "nodeId": 9519
         }
       ],
       "subTests": [
@@ -10401,7 +10290,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -10417,7 +10305,7 @@
       "entryPoints": [
         {
           "name": "[a] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] = [1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0]",
-          "nodeId": 8415
+          "nodeId": 9534
         }
       ],
       "subTests": [
@@ -10454,7 +10342,6 @@
       "description": "Transpose of a float2x2, compared component-wise.",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -10469,7 +10356,7 @@
       "entryPoints": [
         {
           "name": "math/transpose2x2",
-          "nodeId": 8492
+          "nodeId": 9552
         }
       ],
       "subTests": [
@@ -10524,7 +10411,6 @@
       "description": "Transpose of a float3x3, compared component-wise.",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/abs",
@@ -10539,7 +10425,7 @@
       "entryPoints": [
         {
           "name": "math/transpose3x3",
-          "nodeId": 8545
+          "nodeId": 9600
         }
       ],
       "subTests": [
@@ -10649,7 +10535,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -10661,23 +10546,23 @@
       "entryPoints": [
         {
           "name": "[a] 9.23 = 9.00",
-          "nodeId": 8657
+          "nodeId": 9684
         },
         {
           "name": "[a] (9.23, 9.23) = (9.00, 9.00)",
-          "nodeId": 8670
+          "nodeId": 9694
         },
         {
           "name": "[a] (9.23, 9.23, 9.23) = (9.00, 9.00, 9.00)",
-          "nodeId": 8683
+          "nodeId": 9704
         },
         {
           "name": "[a] (9.23, 9.23, 9.23, 9.23) = (9.00, 9.00, 9.00, 9.00)",
-          "nodeId": 8696
+          "nodeId": 9714
         },
         {
           "name": "[a] [9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2,9.2] = [9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0]",
-          "nodeId": 8709
+          "nodeId": 9724
         }
       ],
       "subTests": [
@@ -10764,7 +10649,6 @@
       "description": "",
       "usedSchemas": [
         "debug/log",
-        "event/onStart",
         "flow/branch",
         "flow/sequence",
         "math/eq",
@@ -10776,23 +10660,23 @@
       "entryPoints": [
         {
           "name": "[a] True [b] False = True",
-          "nodeId": 8722
+          "nodeId": 9743
         },
         {
           "name": "[a] False [b] False = False",
-          "nodeId": 8735
+          "nodeId": 9753
         },
         {
           "name": "[a] True [b] True = False",
-          "nodeId": 8748
+          "nodeId": 9763
         },
         {
           "name": "[a] -1 [b] -1 = 0",
-          "nodeId": 8761
+          "nodeId": 9773
         },
         {
           "name": "[a] -2147483648 [b] 0 = -2147483648",
-          "nodeId": 8774
+          "nodeId": 9783
         }
       ],
       "subTests": [
@@ -10856,7 +10740,6 @@
   ],
   "usedSchemas": [
     "debug/log",
-    "event/onStart",
     "flow/branch",
     "flow/for",
     "flow/sequence",
