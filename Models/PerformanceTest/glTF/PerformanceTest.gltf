@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "UnityGltf 2.21.0, Unity 2022.3.62f2, Built-in RP",
+    "generator": "UnityGltf 2.22.0, Unity 2022.3.62f2, Built-in RP",
     "version": "2.0"
   },
   "extensionsUsed": [
@@ -5080,23 +5080,23 @@
       "camera": 0,
       "rotation": [
         0.0,
-        1.0,
+        -4.371139E-08,
         0.0,
-        0.0
+        1.0
       ],
       "translation": [
         0.0,
         1.1,
-        -11.6
+        11.6
       ],
       "name": "Main Camera"
     },
     {
       "rotation": [
-        0.0522170179,
-        0.9392279,
-        0.296137422,
-        -0.165611222
+        -0.2961374,
+        0.165611267,
+        0.0522170253,
+        0.9392279
       ],
       "name": "Directional Light",
       "extensions": {
@@ -5156,6 +5156,12 @@
         141,
         142,
         143
+      ],
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        -4.371139E-08
       ],
       "name": "PerformanceTest"
     },
