@@ -30,19 +30,23 @@
         },
         {
           "name": "Switch negate cases flow",
-          "nodeId": 40
+          "nodeId": 50
         },
         {
           "name": "Switch fractional cases default configuration",
-          "nodeId": 49
+          "nodeId": 59
         },
         {
           "name": "Switch out of int32 range cases default configuration",
-          "nodeId": 58
+          "nodeId": 74
         },
         {
           "name": "Switch duplicate cases flow",
-          "nodeId": 67
+          "nodeId": 89
+        },
+        {
+          "name": "Switch selection not in cases",
+          "nodeId": 104
         }
       ],
       "subTests": [
@@ -102,26 +106,81 @@
           "successResultVarName": "TestResult_flow/switch_Cases [0.5, 1] use default configuration"
         },
         {
-          "name": "Cases [-2147483649, 0] use default configuration",
-          "resultVarName": "TestResult_flow/switch_Cases [-2147483649, 0] use default configuration",
+          "name": "Cases [0.5, 1], selection 1: [1] not activated",
+          "resultVarName": "TestResult_flow/switch_Cases [0.5, 1], selection 1: [1] not activated",
           "resultVarId": 5,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 5,
-          "successResultVarName": "TestResult_flow/switch_Cases [-2147483649, 0] use default configuration"
+          "successResultVarName": "TestResult_flow/switch_Cases [0.5, 1], selection 1: [1] not activated"
         },
         {
-          "name": "Duplicate cases [1, 2, 2]",
-          "resultVarName": "TestResult_flow/switch_Duplicate cases [1, 2, 2]",
+          "name": "Cases [-2147483649, 0] use default configuration",
+          "resultVarName": "TestResult_flow/switch_Cases [-2147483649, 0] use default configuration",
           "resultVarId": 6,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 6,
+          "successResultVarName": "TestResult_flow/switch_Cases [-2147483649, 0] use default configuration"
+        },
+        {
+          "name": "Cases [-2147483649, 0], selection 0: [0] and [1] not activated",
+          "resultVarName": "TestResult_flow/switch_Cases [-2147483649, 0], selection 0: [0] and [1] not activated",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 7,
+          "successResultVarName": "TestResult_flow/switch_Cases [-2147483649, 0], selection 0: [0] and [1] not activated"
+        },
+        {
+          "name": "Duplicate cases [1, 2, 2]",
+          "resultVarName": "TestResult_flow/switch_Duplicate cases [1, 2, 2]",
+          "resultVarId": 8,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_flow/switch_Duplicate cases [1, 2, 2]"
+        },
+        {
+          "name": "Duplicate cases [1, 2, 2], selection 2: [1] and [3] not activated",
+          "resultVarName": "TestResult_flow/switch_Duplicate cases [1, 2, 2], selection 2: [1] and [3] not activated",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 9,
+          "successResultVarName": "TestResult_flow/switch_Duplicate cases [1, 2, 2], selection 2: [1] and [3] not activated"
+        },
+        {
+          "name": "Selection 2 not in cases [1]: [default] activated",
+          "resultVarName": "TestResult_flow/switch_Selection 2 not in cases [1]: [default] activated",
+          "resultVarId": 10,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_flow/switch_Selection 2 not in cases [1]: [default] activated"
+        },
+        {
+          "name": "Selection 2 not in cases [1]: [1] and extra output [2] not activated",
+          "resultVarName": "TestResult_flow/switch_Selection 2 not in cases [1]: [1] and extra output [2] not activated",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 11,
+          "successResultVarName": "TestResult_flow/switch_Selection 2 not in cases [1]: [1] and extra output [2] not activated"
         }
       ]
     }

@@ -35,15 +35,39 @@
         },
         {
           "name": "quatFromAngles-yzx",
-          "nodeId": 66
+          "nodeId": 78
         },
         {
           "name": "quatFromAngles-zxy",
-          "nodeId": 84
+          "nodeId": 96
         },
         {
           "name": "quatFromAngles-zyx",
-          "nodeId": 102
+          "nodeId": 114
+        },
+        {
+          "name": "quatFromAngles-invalid-\"XYZ\"",
+          "nodeId": 132
+        },
+        {
+          "name": "quatFromAngles-invalid-\"xxy\"",
+          "nodeId": 150
+        },
+        {
+          "name": "quatFromAngles-invalid-\"xy\"",
+          "nodeId": 168
+        },
+        {
+          "name": "quatFromAngles-invalid-\"xyzx\"",
+          "nodeId": 186
+        },
+        {
+          "name": "quatFromAngles-invalid-1 (number)",
+          "nodeId": 204
+        },
+        {
+          "name": "quatFromAngles-invalid-omitted",
+          "nodeId": 222
         }
       ],
       "subTests": [
@@ -130,6 +154,90 @@
           ],
           "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_math/quatFromAngles_order zyx"
+        },
+        {
+          "name": "invalid order \"XYZ\" uses yxz",
+          "resultVarName": "TestResult_math/quatFromAngles_invalid order \"XYZ\" uses yxz",
+          "resultVarId": 13,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.391903847,
+            0.200562149,
+            0.3604234,
+            0.822363138
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromAngles_invalid order \"XYZ\" uses yxz"
+        },
+        {
+          "name": "invalid order \"xxy\" uses yxz",
+          "resultVarName": "TestResult_math/quatFromAngles_invalid order \"xxy\" uses yxz",
+          "resultVarId": 15,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.391903847,
+            0.200562149,
+            0.3604234,
+            0.822363138
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromAngles_invalid order \"xxy\" uses yxz"
+        },
+        {
+          "name": "invalid order \"xy\" uses yxz",
+          "resultVarName": "TestResult_math/quatFromAngles_invalid order \"xy\" uses yxz",
+          "resultVarId": 17,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.391903847,
+            0.200562149,
+            0.3604234,
+            0.822363138
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromAngles_invalid order \"xy\" uses yxz"
+        },
+        {
+          "name": "invalid order \"xyzx\" uses yxz",
+          "resultVarName": "TestResult_math/quatFromAngles_invalid order \"xyzx\" uses yxz",
+          "resultVarId": 19,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.391903847,
+            0.200562149,
+            0.3604234,
+            0.822363138
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromAngles_invalid order \"xyzx\" uses yxz"
+        },
+        {
+          "name": "invalid order 1 (number) uses yxz",
+          "resultVarName": "TestResult_math/quatFromAngles_invalid order 1 (number) uses yxz",
+          "resultVarId": 21,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.391903847,
+            0.200562149,
+            0.3604234,
+            0.822363138
+          ],
+          "successResultVarId": 20,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromAngles_invalid order 1 (number) uses yxz"
+        },
+        {
+          "name": "invalid order omitted uses yxz",
+          "resultVarName": "TestResult_math/quatFromAngles_invalid order omitted uses yxz",
+          "resultVarId": 23,
+          "resultVarType": "float4",
+          "expectedResultValue": [
+            0.391903847,
+            0.200562149,
+            0.3604234,
+            0.822363138
+          ],
+          "successResultVarId": 22,
+          "successResultVarName": "TestResult_HasPassed_math/quatFromAngles_invalid order omitted uses yxz"
         }
       ]
     }

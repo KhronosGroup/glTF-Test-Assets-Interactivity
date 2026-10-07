@@ -15,6 +15,10 @@
 | Negative range (-3..0): 3 iterations | TestResult_flow/for_Negative range (-3..0): 3 iterations | 15 | 3
 | Negative range (-3..0): [index] 0 when completed | TestResult_flow/for_Negative range (-3..0): [index] 0 when completed | 17 | 0
 | [endIndex] re-evaluated (10 -> 3 in body): 3 iterations | TestResult_flow/for_[endIndex] re-evaluated (10 -> 3 in body): 3 iterations | 21 | 3
+| Invalid initialIndex 1.5: initial [index] 0 | TestResult_flow/for_Invalid initialIndex 1.5: initial [index] 0 | 23 | 0
+| Invalid initialIndex 2147483648: initial [index] 0 | TestResult_flow/for_Invalid initialIndex 2147483648: initial [index] 0 | 25 | 0
+| Invalid initialIndex "3": initial [index] 0 | TestResult_flow/for_Invalid initialIndex "3": initial [index] 0 | 27 | 0
+| Invalid initialIndex true: initial [index] 0 | TestResult_flow/for_Invalid initialIndex true: initial [index] 0 | 29 | 0
 
 Schemas used in this test case:
 - debug/log
