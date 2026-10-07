@@ -4,7 +4,7 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| [a] 7.00 [b] 9.00 = -2.00 | TestResult_math/sub_[a] 7.00 [b] 9.00 = -2.00 | 1 | -2.00000
+| [a] 7 [b] 9 = -2 | TestResult_math/sub_[a] 7 [b] 9 = -2 | 1 | -2
 | [a] 10 [b] 4 = 6 | TestResult_math/sub_[a] 10 [b] 4 = 6 | 3 | 6
 | [a] Infinity [b] Infinity = NaN | TestResult_math/sub_[a] Infinity [b] Infinity = NaN | 5 | NaN
 | [a] -2147483648 [b] 1 = 2147483647 | TestResult_math/sub_[a] -2147483648 [b] 1 = 2147483647 | 7 | 2147483647

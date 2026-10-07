@@ -47,7 +47,7 @@
             true
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_event/stopPropagation_stopImmediate=true: Receiver A and out triggered"
+          "successResultVarName": "TestResult_event/stopPropagation_stopImmediate=true: Receiver A and out triggered"
         },
         {
           "name": "stopImmediate=true: Receiver B not triggered",
@@ -69,7 +69,7 @@
             true
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_event/stopPropagation_stopImmediate=false: Receiver A and out triggered"
+          "successResultVarName": "TestResult_event/stopPropagation_stopImmediate=false: Receiver A and out triggered"
         },
         {
           "name": "stopImmediate=false: Receiver B triggered once",
@@ -91,7 +91,7 @@
             true
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_event/stopPropagation_Invalid event ref: out triggered"
+          "successResultVarName": "TestResult_event/stopPropagation_Invalid event ref: out triggered"
         }
       ]
     }

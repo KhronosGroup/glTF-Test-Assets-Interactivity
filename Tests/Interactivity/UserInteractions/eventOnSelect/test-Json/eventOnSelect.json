@@ -40,7 +40,7 @@
             true
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: flow fired"
+          "successResultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: flow fired"
         },
         {
           "name": "onSelect: selectedNode == target",
@@ -65,15 +65,15 @@
           "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: controllerIndex >= 0"
         },
         {
-          "name": "onSelect: selectionRayOrigin finite",
-          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: selectionRayOrigin finite",
+          "name": "onSelect: selectionRayOrigin\nisNaN == false",
+          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: selectionRayOrigin\nisNaN == false",
           "resultVarId": 6,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 5,
-          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: selectionRayOrigin finite"
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: selectionRayOrigin\nisNaN == false"
         },
         {
           "name": "onSelect: selectable=false NOT fired",
@@ -81,21 +81,21 @@
           "resultVarId": 8,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 9,
-          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: selectable=false NOT fired"
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: selectable=false NOT fired"
         },
         {
           "name": "onSelect: inherited selectable=false NOT fired",
           "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: inherited selectable=false NOT fired",
-          "resultVarId": 10,
+          "resultVarId": 9,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 11,
-          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: inherited selectable=false NOT fired"
+          "successResultVarId": 9,
+          "successResultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: inherited selectable=false NOT fired"
         }
       ],
       "requiredInteractions": [

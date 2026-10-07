@@ -4,21 +4,21 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| literal 16777217 - 16777216 == 1 | TestResult_Extras/Float Precision_literal 16777217 - 16777216 == 1 | 1 | 1.00000
-| literal (2^53-1) - (2^53-2) == 1 | TestResult_Extras/Float Precision_literal (2^53-1) - (2^53-2) == 1 | 3 | 1.00000
-| 0.1 + 0.2 != 0.3 | TestResult_Extras/Float Precision_0.1 + 0.2 != 0.3 | 5 | False
-| literal 1.79e308 is finite | TestResult_Extras/Float Precision_literal 1.79e308 is finite | 7 | False
+| literal 16777217 - 16777216 == 1 | TestResult_Extras/Float Precision_literal 16777217 - 16777216 == 1 | 1 | 1
+| literal (2^53-1) - (2^53-2) == 1 | TestResult_Extras/Float Precision_literal (2^53-1) - (2^53-2) == 1 | 3 | 1
+| (0.1 + 0.2 == 0.3) == false | TestResult_Extras/Float Precision_(0.1 + 0.2 == 0.3) == false | 5 | False
+| isInf(literal 1.79e308) == false | TestResult_Extras/Float Precision_isInf(literal 1.79e308) == false | 7 | False
 | literal 5e-324 > 0 | TestResult_Extras/Float Precision_literal 5e-324 > 0 | 9 | True
 | literal -0.0 is -0 | TestResult_Extras/Float Precision_literal -0.0 is -0 | 11 | -Infinity
-| float var init 16777217 | TestResult_Extras/Float Precision_float var init 16777217 | 14 | 1.00000
+| float var init 16777217 | TestResult_Extras/Float Precision_float var init 16777217 | 14 | 1
 | float3 var init [2^24+1, 1e-300, 1+2^-52] | TestResult_Extras/Float Precision_float3 var init [2^24+1, 1e-300, 1+2^-52] | 17 | True
-| var set/get keeps 16777217 | TestResult_Extras/Float Precision_var set/get keeps 16777217 | 20 | 1.00000
+| var set/get keeps 16777217 | TestResult_Extras/Float Precision_var set/get keeps 16777217 | 20 | 1
 | (1 + 1e-10) - 1 > 0 | TestResult_Extras/Float Precision_(1 + 1e-10) - 1 > 0 | 22 | True
-| Pi - 3 == 0.14159265358979312 | TestResult_Extras/Float Precision_Pi - 3 == 0.14159265358979312 | 24 | 0.14159
-| 1e30 * 1e30 is finite | TestResult_Extras/Float Precision_1e30 * 1e30 is finite | 26 | False
-| round(0.49999999999999994) == 0 | TestResult_Extras/Float Precision_round(0.49999999999999994) == 0 | 28 | 0.00000
-| intToFloat(2147483647) - 2147483646 == 1 | TestResult_Extras/Float Precision_intToFloat(2147483647) - 2147483646 == 1 | 30 | 1.00000
-| intToFloat(-2147483647) + 2147483646 == -1 | TestResult_Extras/Float Precision_intToFloat(-2147483647) + 2147483646 == -1 | 32 | -1.00000
+| Pi - 3 == 0.14159265358979312 | TestResult_Extras/Float Precision_Pi - 3 == 0.14159265358979312 | 24 | 0.14159265358979312
+| isInf(1e30 * 1e30) == false | TestResult_Extras/Float Precision_isInf(1e30 * 1e30) == false | 26 | False
+| round(0.49999999999999994) == 0 | TestResult_Extras/Float Precision_round(0.49999999999999994) == 0 | 28 | 0
+| intToFloat(2147483647) - 2147483646 == 1 | TestResult_Extras/Float Precision_intToFloat(2147483647) - 2147483646 == 1 | 30 | 1
+| intToFloat(-2147483647) + 2147483646 == -1 | TestResult_Extras/Float Precision_intToFloat(-2147483647) + 2147483646 == -1 | 32 | -1
 | intToFloat(0) is +0 | TestResult_Extras/Float Precision_intToFloat(0) is +0 | 34 | Infinity
 | floatToInt(+Inf) == 0 | TestResult_Extras/Float Precision_floatToInt(+Inf) == 0 | 36 | 0
 | floatToInt(-Inf) == 0 | TestResult_Extras/Float Precision_floatToInt(-Inf) == 0 | 38 | 0

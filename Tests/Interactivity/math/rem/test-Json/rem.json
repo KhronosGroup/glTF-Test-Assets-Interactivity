@@ -22,7 +22,7 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 19.42 [b] 2.23 = 1.55",
+          "name": "[a] 19.4235344 [b] 2.234 = 1.55153465",
           "nodeId": 1
         },
         {
@@ -30,19 +30,19 @@
           "nodeId": 16
         },
         {
-          "name": "[a] 5.00 [b] 0.00 = NaN",
+          "name": "[a] 5 [b] 0 = NaN",
           "nodeId": 24
         },
         {
-          "name": "[a] -7.00 [b] 3.00 = -1.00",
+          "name": "[a] -7 [b] 3 = -1",
           "nodeId": 48
         },
         {
-          "name": "[a] Infinity [b] 1.00 = NaN",
+          "name": "[a] Infinity [b] 1 = NaN",
           "nodeId": 60
         },
         {
-          "name": "[a] 5.00 [b] Infinity = 5.00",
+          "name": "[a] 5 [b] Infinity = 5",
           "nodeId": 65
         },
         {
@@ -52,15 +52,15 @@
       ],
       "subTests": [
         {
-          "name": "[a] 19.42 [b] 2.23 = 1.55",
-          "resultVarName": "TestResult_math/rem_[a] 19.42 [b] 2.23 = 1.55",
+          "name": "[a] 19.4235344 [b] 2.234 = 1.55153465",
+          "resultVarName": "TestResult_math/rem_[a] 19.4235344 [b] 2.234 = 1.55153465",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             1.55153465
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/rem_[a] 19.42 [b] 2.23 = 1.55"
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] 19.4235344 [b] 2.234 = 1.55153465"
         },
         {
           "name": "[a] 13 [b] 2 = 1",
@@ -74,48 +74,48 @@
           "successResultVarName": "TestResult_HasPassed_math/rem_[a] 13 [b] 2 = 1"
         },
         {
-          "name": "[a] 5.00 [b] 0.00 = NaN",
-          "resultVarName": "TestResult_math/rem_[a] 5.00 [b] 0.00 = NaN",
+          "name": "[a] 5 [b] 0 = NaN",
+          "resultVarName": "TestResult_math/rem_[a] 5 [b] 0 = NaN",
           "resultVarId": 5,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/rem_[a] 5.00 [b] 0.00 = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] 5 [b] 0 = NaN"
         },
         {
-          "name": "[a] -7.00 [b] 3.00 = -1.00",
-          "resultVarName": "TestResult_math/rem_[a] -7.00 [b] 3.00 = -1.00",
+          "name": "[a] -7 [b] 3 = -1",
+          "resultVarName": "TestResult_math/rem_[a] -7 [b] 3 = -1",
           "resultVarId": 7,
           "resultVarType": "float",
           "expectedResultValue": [
             -1.0
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/rem_[a] -7.00 [b] 3.00 = -1.00"
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] -7 [b] 3 = -1"
         },
         {
-          "name": "[a] Infinity [b] 1.00 = NaN",
-          "resultVarName": "TestResult_math/rem_[a] Infinity [b] 1.00 = NaN",
+          "name": "[a] Infinity [b] 1 = NaN",
+          "resultVarName": "TestResult_math/rem_[a] Infinity [b] 1 = NaN",
           "resultVarId": 9,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/rem_[a] Infinity [b] 1.00 = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] Infinity [b] 1 = NaN"
         },
         {
-          "name": "[a] 5.00 [b] Infinity = 5.00",
-          "resultVarName": "TestResult_math/rem_[a] 5.00 [b] Infinity = 5.00",
+          "name": "[a] 5 [b] Infinity = 5",
+          "resultVarName": "TestResult_math/rem_[a] 5 [b] Infinity = 5",
           "resultVarId": 11,
           "resultVarType": "float",
           "expectedResultValue": [
             5.0
           ],
           "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_math/rem_[a] 5.00 [b] Infinity = 5.00"
+          "successResultVarName": "TestResult_HasPassed_math/rem_[a] 5 [b] Infinity = 5"
         },
         {
           "name": "[a] 10 [b] 0 = 0",

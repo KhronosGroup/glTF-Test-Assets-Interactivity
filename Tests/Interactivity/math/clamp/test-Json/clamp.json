@@ -19,11 +19,11 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 9.00 [b] 2.00 [c] 3.00 = 3.00",
+          "name": "[a] 9 [b] 2 [c] 3 = 3",
           "nodeId": 1
         },
         {
-          "name": "[a] NaN [b] 0.00 [c] 1.00 = NaN",
+          "name": "[a] NaN [b] 0 [c] 1 = NaN",
           "nodeId": 13
         },
         {
@@ -31,7 +31,7 @@
           "nodeId": 19
         },
         {
-          "name": "[a] 9.00 [b] 3.00 [c] 2.00 = 3.00",
+          "name": "[a] 9 [b] 3 [c] 2 = 3",
           "nodeId": 41
         },
         {
@@ -41,59 +41,59 @@
       ],
       "subTests": [
         {
-          "name": "[a] 9.00 [b] 2.00 [c] 3.00 = 3.00",
-          "resultVarName": "TestResult_math/clamp_[a] 9.00 [b] 2.00 [c] 3.00 = 3.00",
+          "name": "[a] 9 [b] 2 [c] 3 = 3",
+          "resultVarName": "TestResult_math/clamp_[a] 9 [b] 2 [c] 3 = 3",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             3.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9.00 [b] 2.00 [c] 3.00 = 3.00"
+          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9 [b] 2 [c] 3 = 3"
         },
         {
-          "name": "[a] NaN [b] 0.00 [c] 1.00 = NaN",
-          "resultVarName": "TestResult_math/clamp_[a] NaN [b] 0.00 [c] 1.00 = NaN",
+          "name": "[a] NaN [b] 0 [c] 1 = NaN",
+          "resultVarName": "TestResult_math/clamp_[a] NaN [b] 0 [c] 1 = NaN",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] NaN [b] 0.00 [c] 1.00 = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] NaN [b] 0 [c] 1 = NaN"
         },
         {
           "name": "[a] 9 [b] 2 [c] 3 = 3",
-          "resultVarName": "TestResult_math/clamp_[a] 9 [b] 2 [c] 3 = 3",
+          "resultVarName": "TestResult_math/clamp_[a] 9 [b] 2 [c] 3 = 3 (1)",
           "resultVarId": 5,
           "resultVarType": "int",
           "expectedResultValue": [
             3
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9 [b] 2 [c] 3 = 3"
+          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9 [b] 2 [c] 3 = 3 (1)"
         },
         {
-          "name": "[a] 9.00 [b] 3.00 [c] 2.00 = 3.00",
-          "resultVarName": "TestResult_math/clamp_[a] 9.00 [b] 3.00 [c] 2.00 = 3.00",
+          "name": "[a] 9 [b] 3 [c] 2 = 3",
+          "resultVarName": "TestResult_math/clamp_[a] 9 [b] 3 [c] 2 = 3",
           "resultVarId": 7,
           "resultVarType": "float",
           "expectedResultValue": [
             3.0
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9.00 [b] 3.00 [c] 2.00 = 3.00"
+          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9 [b] 3 [c] 2 = 3"
         },
         {
           "name": "[a] 9 [b] 3 [c] 2 = 3",
-          "resultVarName": "TestResult_math/clamp_[a] 9 [b] 3 [c] 2 = 3",
+          "resultVarName": "TestResult_math/clamp_[a] 9 [b] 3 [c] 2 = 3 (1)",
           "resultVarId": 9,
           "resultVarType": "int",
           "expectedResultValue": [
             3
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9 [b] 3 [c] 2 = 3"
+          "successResultVarName": "TestResult_HasPassed_math/clamp_[a] 9 [b] 3 [c] 2 = 3 (1)"
         }
       ]
     }

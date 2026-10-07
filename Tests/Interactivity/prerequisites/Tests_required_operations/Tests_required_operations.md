@@ -6,7 +6,7 @@
 | ----------- | ----------- | ----------- |----------- |
 | Flow Checks | TestResult_prerequisites/Tests required operations_Flow Checks | 0 | True
 | Value Checks | TestResult_prerequisites/Tests required operations_Value Checks | 2 | 1
-| Value Proximity Checks | TestResult_prerequisites/Tests required operations_Value Proximity Checks | 4 | 33.21146
+| Value Proximity Checks | TestResult_prerequisites/Tests required operations_Value Proximity Checks | 4 | 33.2114563
 | Counter Checks | TestResult_prerequisites/Tests required operations_Counter Checks | 7 | 2
 | Multi Flow Checks | TestResult_prerequisites/Tests required operations_Multi Flow Checks | 10 | True
 | Delayed Checks | TestResult_prerequisites/Tests required operations_Delayed Checks | 11 | True

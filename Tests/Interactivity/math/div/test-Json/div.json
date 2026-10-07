@@ -22,7 +22,7 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 8989.32 [b] 2134.23 = 4.21",
+          "name": "[a] 8989.324 [b] 2134.234 = 4.211968",
           "nodeId": 1
         },
         {
@@ -30,15 +30,15 @@
           "nodeId": 16
         },
         {
-          "name": "[a] 1.00 [b] 0.00 = Infinity",
+          "name": "[a] 1 [b] 0 = Infinity",
           "nodeId": 24
         },
         {
-          "name": "[a] -1.00 [b] 0.00 = -Infinity",
+          "name": "[a] -1 [b] 0 = -Infinity",
           "nodeId": 43
         },
         {
-          "name": "[a] 0.00 [b] 0.00 = NaN",
+          "name": "[a] 0 [b] 0 = NaN",
           "nodeId": 49
         },
         {
@@ -52,15 +52,15 @@
       ],
       "subTests": [
         {
-          "name": "[a] 8989.32 [b] 2134.23 = 4.21",
-          "resultVarName": "TestResult_math/div_[a] 8989.32 [b] 2134.23 = 4.21",
+          "name": "[a] 8989.324 [b] 2134.234 = 4.211968",
+          "resultVarName": "TestResult_math/div_[a] 8989.324 [b] 2134.234 = 4.211968",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             4.211968
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/div_[a] 8989.32 [b] 2134.23 = 4.21"
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] 8989.324 [b] 2134.234 = 4.211968"
         },
         {
           "name": "[a] 10 [b] 2 = 5",
@@ -74,37 +74,37 @@
           "successResultVarName": "TestResult_HasPassed_math/div_[a] 10 [b] 2 = 5"
         },
         {
-          "name": "[a] 1.00 [b] 0.00 = Infinity",
-          "resultVarName": "TestResult_math/div_[a] 1.00 [b] 0.00 = Infinity",
+          "name": "[a] 1 [b] 0 = Infinity",
+          "resultVarName": "TestResult_math/div_[a] 1 [b] 0 = Infinity",
           "resultVarId": 5,
           "resultVarType": "float",
           "expectedResultValue": [
             "Infinity"
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/div_[a] 1.00 [b] 0.00 = Infinity"
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] 1 [b] 0 = Infinity"
         },
         {
-          "name": "[a] -1.00 [b] 0.00 = -Infinity",
-          "resultVarName": "TestResult_math/div_[a] -1.00 [b] 0.00 = -Infinity",
+          "name": "[a] -1 [b] 0 = -Infinity",
+          "resultVarName": "TestResult_math/div_[a] -1 [b] 0 = -Infinity",
           "resultVarId": 7,
           "resultVarType": "float",
           "expectedResultValue": [
             "-Infinity"
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/div_[a] -1.00 [b] 0.00 = -Infinity"
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] -1 [b] 0 = -Infinity"
         },
         {
-          "name": "[a] 0.00 [b] 0.00 = NaN",
-          "resultVarName": "TestResult_math/div_[a] 0.00 [b] 0.00 = NaN",
+          "name": "[a] 0 [b] 0 = NaN",
+          "resultVarName": "TestResult_math/div_[a] 0 [b] 0 = NaN",
           "resultVarId": 9,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/div_[a] 0.00 [b] 0.00 = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/div_[a] 0 [b] 0 = NaN"
         },
         {
           "name": "[a] 10 [b] 0 = 0",

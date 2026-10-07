@@ -20,21 +20,21 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] [1.0,0.0,0.0,1.0,0.0,5.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] = 5.00",
+          "name": "[a] [1,0,0,1,0,5,0,1,0,0,1,1,0,0,0,1] = 5",
           "nodeId": 1
         }
       ],
       "subTests": [
         {
-          "name": "[a] [1.0,0.0,0.0,1.0,0.0,5.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] = 5.00",
-          "resultVarName": "TestResult_math/determinant_[a] [1.0,0.0,0.0,1.0,0.0,5.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] = 5.00",
+          "name": "[a] [1,0,0,1,0,5,0,1,0,0,1,1,0,0,0,1] = 5",
+          "resultVarName": "TestResult_math/determinant_[a] [1,0,0,1,0,5,0,1,0,0,1,1,0,0,0,1] = 5",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             5.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/determinant_[a] [1.0,0.0,0.0,1.0,0.0,5.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] = 5.00"
+          "successResultVarName": "TestResult_HasPassed_math/determinant_[a] [1,0,0,1,0,5,0,1,0,0,1,1,0,0,0,1] = 5"
         }
       ]
     }

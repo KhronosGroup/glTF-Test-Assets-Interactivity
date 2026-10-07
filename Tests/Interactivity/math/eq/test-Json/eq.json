@@ -17,7 +17,7 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 1.32 [b] 2.32 = False",
+          "name": "[a] 1.324 [b] 2.32423 = False",
           "nodeId": 1
         },
         {
@@ -25,7 +25,7 @@
           "nodeId": 14
         },
         {
-          "name": "[a] (4.00, 5.00) [b] (4.00, 5.00) = True",
+          "name": "[a] (4, 5) [b] (4, 5) = True",
           "nodeId": 27
         },
         {
@@ -41,7 +41,7 @@
           "nodeId": 84
         },
         {
-          "name": "[a] NaN [b] 1.00 = False",
+          "name": "[a] NaN [b] 1 = False",
           "nodeId": 89
         },
         {
@@ -53,21 +53,21 @@
           "nodeId": 99
         },
         {
-          "name": "[a] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] [b] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] = True",
+          "name": "[a] [1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1] [b] [1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1] = True",
           "nodeId": 105
         }
       ],
       "subTests": [
         {
-          "name": "[a] 1.32 [b] 2.32 = False",
-          "resultVarName": "TestResult_math/eq_[a] 1.32 [b] 2.32 = False",
+          "name": "[a] 1.324 [b] 2.32423 = False",
+          "resultVarName": "TestResult_math/eq_[a] 1.324 [b] 2.32423 = False",
           "resultVarId": 1,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/eq_[a] 1.32 [b] 2.32 = False"
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] 1.324 [b] 2.32423 = False"
         },
         {
           "name": "[a] True [b] False = False",
@@ -81,15 +81,15 @@
           "successResultVarName": "TestResult_HasPassed_math/eq_[a] True [b] False = False"
         },
         {
-          "name": "[a] (4.00, 5.00) [b] (4.00, 5.00) = True",
-          "resultVarName": "TestResult_math/eq_[a] (4.00, 5.00) [b] (4.00, 5.00) = True",
+          "name": "[a] (4, 5) [b] (4, 5) = True",
+          "resultVarName": "TestResult_math/eq_[a] (4, 5) [b] (4, 5) = True",
           "resultVarId": 5,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/eq_[a] (4.00, 5.00) [b] (4.00, 5.00) = True"
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] (4, 5) [b] (4, 5) = True"
         },
         {
           "name": "[a] 2 [b] 1 = False",
@@ -125,15 +125,15 @@
           "successResultVarName": "TestResult_HasPassed_math/eq_[a] NaN [b] NaN = False"
         },
         {
-          "name": "[a] NaN [b] 1.00 = False",
-          "resultVarName": "TestResult_math/eq_[a] NaN [b] 1.00 = False",
+          "name": "[a] NaN [b] 1 = False",
+          "resultVarName": "TestResult_math/eq_[a] NaN [b] 1 = False",
           "resultVarId": 13,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 12,
-          "successResultVarName": "TestResult_HasPassed_math/eq_[a] NaN [b] 1.00 = False"
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] NaN [b] 1 = False"
         },
         {
           "name": "[a] Infinity [b] Infinity = True",
@@ -158,15 +158,15 @@
           "successResultVarName": "TestResult_HasPassed_math/eq_[a] Infinity [b] -Infinity = False"
         },
         {
-          "name": "[a] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] [b] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] = True",
-          "resultVarName": "TestResult_math/eq_[a] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] [b] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] = True",
+          "name": "[a] [1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1] [b] [1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1] = True",
+          "resultVarName": "TestResult_math/eq_[a] [1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1] [b] [1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1] = True",
           "resultVarId": 19,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 18,
-          "successResultVarName": "TestResult_HasPassed_math/eq_[a] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] [b] [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0] = True"
+          "successResultVarName": "TestResult_HasPassed_math/eq_[a] [1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1] [b] [1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1] = True"
         }
       ]
     }

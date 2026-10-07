@@ -81,17 +81,17 @@
         },
         {
           "name": "Duration 0: [done] (delayed execution)",
-          "nodeId": 212,
+          "nodeId": 211,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "Re-trigger: 1st [done] not fired (delayed execution)",
-          "nodeId": 242,
+          "nodeId": 241,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "Rotation uses slerp (value at 25%) (delayed execution)",
-          "nodeId": 283,
+          "nodeId": 281,
           "delayedExecutionTime": 4.5
         }
       ],
@@ -105,7 +105,7 @@
             true
           ],
           "successResultVarId": 1,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[out] fired right after [in]"
+          "successResultVarName": "TestResult_pointer/interpolate_[out] fired right after [in]"
         },
         {
           "name": "Value at 50%",
@@ -129,7 +129,7 @@
             true
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_Flow [done]"
+          "successResultVarName": "TestResult_pointer/interpolate_Flow [done]"
         },
         {
           "name": "Value at 100%",
@@ -153,7 +153,7 @@
             true
           ],
           "successResultVarId": 7,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[err] flow (duration -1)"
+          "successResultVarName": "TestResult_pointer/interpolate_[err] flow (duration -1)"
         },
         {
           "name": "[err] flow (duration infinite)",
@@ -164,7 +164,7 @@
             true
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[err] flow (duration infinite)"
+          "successResultVarName": "TestResult_pointer/interpolate_[err] flow (duration infinite)"
         },
         {
           "name": "[err] flow (p1 NaN)",
@@ -175,7 +175,7 @@
             true
           ],
           "successResultVarId": 9,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[err] flow (p1 NaN)"
+          "successResultVarName": "TestResult_pointer/interpolate_[err] flow (p1 NaN)"
         },
         {
           "name": "[err] flow (p2 NaN)",
@@ -186,7 +186,7 @@
             true
           ],
           "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[err] flow (p2 NaN)"
+          "successResultVarName": "TestResult_pointer/interpolate_[err] flow (p2 NaN)"
         },
         {
           "name": "[err] flow (p1.x -0.1)",
@@ -197,7 +197,7 @@
             true
           ],
           "successResultVarId": 11,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[err] flow (p1.x -0.1)"
+          "successResultVarName": "TestResult_pointer/interpolate_[err] flow (p1.x -0.1)"
         },
         {
           "name": "[err] flow (p2.x 1.1)",
@@ -208,7 +208,7 @@
             true
           ],
           "successResultVarId": 12,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[err] flow (p2.x 1.1)"
+          "successResultVarName": "TestResult_pointer/interpolate_[err] flow (p2.x 1.1)"
         },
         {
           "name": "[err] flow (p1.y +Inf)",
@@ -219,7 +219,7 @@
             true
           ],
           "successResultVarId": 13,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[err] flow (p1.y +Inf)"
+          "successResultVarName": "TestResult_pointer/interpolate_[err] flow (p1.y +Inf)"
         },
         {
           "name": "[err] flow (index out of range)",
@@ -230,7 +230,7 @@
             true
           ],
           "successResultVarId": 14,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[err] flow (index out of range)"
+          "successResultVarName": "TestResult_pointer/interpolate_[err] flow (index out of range)"
         },
         {
           "name": "[err] flow (read-only globalMatrix)",
@@ -241,7 +241,7 @@
             true
           ],
           "successResultVarId": 15,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[err] flow (read-only globalMatrix)"
+          "successResultVarName": "TestResult_pointer/interpolate_[err] flow (read-only globalMatrix)"
         },
         {
           "name": "[err] flow (float on translation)",
@@ -252,7 +252,7 @@
             true
           ],
           "successResultVarId": 16,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_[err] flow (float on translation)"
+          "successResultVarName": "TestResult_pointer/interpolate_[err] flow (float on translation)"
         },
         {
           "name": "p1.y/p2.y outside [0,1]: [out]",
@@ -263,7 +263,7 @@
             true
           ],
           "successResultVarId": 17,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_p1.y/p2.y outside [0,1]: [out]"
+          "successResultVarName": "TestResult_pointer/interpolate_p1.y/p2.y outside [0,1]: [out]"
         },
         {
           "name": "p1.y/p2.y outside [0,1]: no [err]",
@@ -271,70 +271,70 @@
           "resultVarId": 18,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 19,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_p1.y/p2.y outside [0,1]: no [err]"
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_pointer/interpolate_p1.y/p2.y outside [0,1]: no [err]"
         },
         {
           "name": "Duration 0: [done]",
           "resultVarName": "TestResult_pointer/interpolate_Duration 0: [done]",
-          "resultVarId": 20,
+          "resultVarId": 19,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 20,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_Duration 0: [done]"
+          "successResultVarId": 19,
+          "successResultVarName": "TestResult_pointer/interpolate_Duration 0: [done]"
         },
         {
           "name": "Duration 0: value on [done]",
           "resultVarName": "TestResult_pointer/interpolate_Duration 0: value on [done]",
-          "resultVarId": 22,
+          "resultVarId": 21,
           "resultVarType": "float",
           "expectedResultValue": [
             2.0
           ],
-          "successResultVarId": 21,
+          "successResultVarId": 20,
           "successResultVarName": "TestResult_HasPassed_pointer/interpolate_Duration 0: value on [done]"
         },
         {
           "name": "Re-trigger: 1st [done] not fired",
           "resultVarName": "TestResult_pointer/interpolate_Re-trigger: 1st [done] not fired",
-          "resultVarId": 23,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            false
-          ],
-          "successResultVarId": 24,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_Re-trigger: 1st [done] not fired"
-        },
-        {
-          "name": "Re-trigger: 2nd [done]",
-          "resultVarName": "TestResult_pointer/interpolate_Re-trigger: 2nd [done]",
-          "resultVarId": 25,
+          "resultVarId": 22,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 25,
-          "successResultVarName": "TestResult_HasPassed_pointer/interpolate_Re-trigger: 2nd [done]"
+          "successResultVarId": 22,
+          "successResultVarName": "TestResult_pointer/interpolate_Re-trigger: 1st [done] not fired"
+        },
+        {
+          "name": "Re-trigger: 2nd [done]",
+          "resultVarName": "TestResult_pointer/interpolate_Re-trigger: 2nd [done]",
+          "resultVarId": 23,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 23,
+          "successResultVarName": "TestResult_pointer/interpolate_Re-trigger: 2nd [done]"
         },
         {
           "name": "Re-trigger: 2nd target reached",
           "resultVarName": "TestResult_pointer/interpolate_Re-trigger: 2nd target reached",
-          "resultVarId": 27,
+          "resultVarId": 25,
           "resultVarType": "float",
           "expectedResultValue": [
             2.0
           ],
-          "successResultVarId": 26,
+          "successResultVarId": 24,
           "successResultVarName": "TestResult_HasPassed_pointer/interpolate_Re-trigger: 2nd target reached"
         },
         {
           "name": "Rotation uses slerp (value at 25%)",
           "resultVarName": "TestResult_pointer/interpolate_Rotation uses slerp (value at 25%)",
-          "resultVarId": 29,
+          "resultVarId": 27,
           "resultVarType": "float4",
           "expectedResultValue": [
             0.0,
@@ -342,7 +342,7 @@
             0.0,
             0.939692736
           ],
-          "successResultVarId": 28,
+          "successResultVarId": 26,
           "successResultVarName": "TestResult_HasPassed_pointer/interpolate_Rotation uses slerp (value at 25%)"
         }
       ]

@@ -43,11 +43,11 @@
           "nodeId": 14
         },
         {
-          "name": "0.1 + 0.2 != 0.3",
+          "name": "(0.1 + 0.2 == 0.3) == false",
           "nodeId": 28
         },
         {
-          "name": "literal 1.79e308 is finite",
+          "name": "isInf(literal 1.79e308) == false",
           "nodeId": 108
         },
         {
@@ -79,7 +79,7 @@
           "nodeId": 208
         },
         {
-          "name": "1e30 * 1e30 is finite",
+          "name": "isInf(1e30 * 1e30) == false",
           "nodeId": 224
         },
         {
@@ -195,26 +195,26 @@
           "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_literal (2^53-1) - (2^53-2) == 1"
         },
         {
-          "name": "0.1 + 0.2 != 0.3",
-          "resultVarName": "TestResult_Extras/Float Precision_0.1 + 0.2 != 0.3",
+          "name": "(0.1 + 0.2 == 0.3) == false",
+          "resultVarName": "TestResult_Extras/Float Precision_(0.1 + 0.2 == 0.3) == false",
           "resultVarId": 5,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_0.1 + 0.2 != 0.3"
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_(0.1 + 0.2 == 0.3) == false"
         },
         {
-          "name": "literal 1.79e308 is finite",
-          "resultVarName": "TestResult_Extras/Float Precision_literal 1.79e308 is finite",
+          "name": "isInf(literal 1.79e308) == false",
+          "resultVarName": "TestResult_Extras/Float Precision_isInf(literal 1.79e308) == false",
           "resultVarId": 7,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_literal 1.79e308 is finite"
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_isInf(literal 1.79e308) == false"
         },
         {
           "name": "literal 5e-324 > 0",
@@ -294,15 +294,15 @@
           "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_Pi - 3 == 0.14159265358979312"
         },
         {
-          "name": "1e30 * 1e30 is finite",
-          "resultVarName": "TestResult_Extras/Float Precision_1e30 * 1e30 is finite",
+          "name": "isInf(1e30 * 1e30) == false",
+          "resultVarName": "TestResult_Extras/Float Precision_isInf(1e30 * 1e30) == false",
           "resultVarId": 26,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 25,
-          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_1e30 * 1e30 is finite"
+          "successResultVarName": "TestResult_HasPassed_Extras/Float Precision_isInf(1e30 * 1e30) == false"
         },
         {
           "name": "round(0.49999999999999994) == 0",

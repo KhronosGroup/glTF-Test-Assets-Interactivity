@@ -19,11 +19,11 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 4653.23 [b] 91293920.00 = 91293920.00",
+          "name": "[a] 4653.234 [b] 9.129392E+07 = 9.129392E+07",
           "nodeId": 1
         },
         {
-          "name": "[a] 1.00 [b] NaN = NaN",
+          "name": "[a] 1 [b] NaN = NaN",
           "nodeId": 13
         },
         {
@@ -33,26 +33,26 @@
       ],
       "subTests": [
         {
-          "name": "[a] 4653.23 [b] 91293920.00 = 91293920.00",
-          "resultVarName": "TestResult_math/max_[a] 4653.23 [b] 91293920.00 = 91293920.00",
+          "name": "[a] 4653.234 [b] 9.129392E+07 = 9.129392E+07",
+          "resultVarName": "TestResult_math/max_[a] 4653.234 [b] 9.129392E+07 = 9.129392E+07",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             9.129392E+07
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/max_[a] 4653.23 [b] 91293920.00 = 91293920.00"
+          "successResultVarName": "TestResult_HasPassed_math/max_[a] 4653.234 [b] 9.129392E+07 = 9.129392E+07"
         },
         {
-          "name": "[a] 1.00 [b] NaN = NaN",
-          "resultVarName": "TestResult_math/max_[a] 1.00 [b] NaN = NaN",
+          "name": "[a] 1 [b] NaN = NaN",
+          "resultVarName": "TestResult_math/max_[a] 1 [b] NaN = NaN",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/max_[a] 1.00 [b] NaN = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/max_[a] 1 [b] NaN = NaN"
         },
         {
           "name": "[a] 5 [b] 10 = 10",

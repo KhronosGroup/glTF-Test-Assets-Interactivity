@@ -20,21 +20,21 @@
       ],
       "entryPoints": [
         {
-          "name": "= 3.14",
+          "name": "= 3.14159274",
           "nodeId": 1
         }
       ],
       "subTests": [
         {
-          "name": "= 3.14",
-          "resultVarName": "TestResult_math/Pi_= 3.14",
+          "name": "= 3.14159274",
+          "resultVarName": "TestResult_math/Pi_= 3.14159274",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             3.14159274
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/Pi_= 3.14"
+          "successResultVarName": "TestResult_HasPassed_math/Pi_= 3.14159274"
         }
       ]
     }

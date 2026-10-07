@@ -5,9 +5,9 @@
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
 | True-Condition true-flow | TestResult_flow/branch_True-Condition true-flow | 0 | True
-| True-Condition false-flow | TestResult_flow/branch_True-Condition false-flow | 1 | False
-| False-Condition true-flow | TestResult_flow/branch_False-Condition true-flow | 3 | False
-| False-Condition false-flow | TestResult_flow/branch_False-Condition false-flow | 5 | True
+| True-Condition false-flow | TestResult_flow/branch_True-Condition false-flow | 1 | True
+| False-Condition true-flow | TestResult_flow/branch_False-Condition true-flow | 2 | True
+| False-Condition false-flow | TestResult_flow/branch_False-Condition false-flow | 3 | True
 
 Schemas used in this test case:
 - debug/log

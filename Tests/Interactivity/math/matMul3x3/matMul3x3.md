@@ -4,15 +4,15 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| matMul3x3[0] | TestResult_math/matMul3x3_matMul3x3[0] | 1 | 3.00000
-| matMul3x3[1] | TestResult_math/matMul3x3_matMul3x3[1] | 3 | 2.00000
-| matMul3x3[2] | TestResult_math/matMul3x3_matMul3x3[2] | 5 | 1.00000
-| matMul3x3[3] | TestResult_math/matMul3x3_matMul3x3[3] | 7 | 2.00000
-| matMul3x3[4] | TestResult_math/matMul3x3_matMul3x3[4] | 9 | 5.00000
-| matMul3x3[5] | TestResult_math/matMul3x3_matMul3x3[5] | 11 | 2.00000
-| matMul3x3[6] | TestResult_math/matMul3x3_matMul3x3[6] | 13 | 2.00000
-| matMul3x3[7] | TestResult_math/matMul3x3_matMul3x3[7] | 15 | 3.00000
-| matMul3x3[8] | TestResult_math/matMul3x3_matMul3x3[8] | 17 | 7.00000
+| matMul3x3[0] | TestResult_math/matMul3x3_matMul3x3[0] | 1 | 3
+| matMul3x3[1] | TestResult_math/matMul3x3_matMul3x3[1] | 3 | 2
+| matMul3x3[2] | TestResult_math/matMul3x3_matMul3x3[2] | 5 | 1
+| matMul3x3[3] | TestResult_math/matMul3x3_matMul3x3[3] | 7 | 2
+| matMul3x3[4] | TestResult_math/matMul3x3_matMul3x3[4] | 9 | 5
+| matMul3x3[5] | TestResult_math/matMul3x3_matMul3x3[5] | 11 | 2
+| matMul3x3[6] | TestResult_math/matMul3x3_matMul3x3[6] | 13 | 2
+| matMul3x3[7] | TestResult_math/matMul3x3_matMul3x3[7] | 15 | 3
+| matMul3x3[8] | TestResult_math/matMul3x3_matMul3x3[8] | 17 | 7
 
 Schemas used in this test case:
 - debug/log

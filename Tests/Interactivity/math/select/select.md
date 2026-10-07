@@ -4,8 +4,8 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| When True | TestResult_math/select_When True | 1 | 3.00000
-| When False | TestResult_math/select_When False | 3 | 1.00000
+| When True | TestResult_math/select_When True | 1 | 3
+| When False | TestResult_math/select_When False | 3 | 1
 
 Schemas used in this test case:
 - debug/log

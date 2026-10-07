@@ -4,8 +4,8 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| determinant2x2 | TestResult_math/determinant2x2_determinant2x2 | 1 | 10.00000
-| determinant2x2 singular = 0 | TestResult_math/determinant2x2_determinant2x2 singular = 0 | 3 | 0.00000
+| determinant2x2 | TestResult_math/determinant2x2_determinant2x2 | 1 | 10
+| determinant2x2 singular = 0 | TestResult_math/determinant2x2_determinant2x2 singular = 0 | 3 | 0
 
 Schemas used in this test case:
 - debug/log

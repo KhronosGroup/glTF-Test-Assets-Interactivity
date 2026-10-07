@@ -7,7 +7,7 @@
 | debug/log invalidmessage: [out] | TestResult_graph/ignored configuration_debug/log invalidmessage: [out] | 0 | True
 | math/add withconfiguration | TestResult_graph/ignored configuration_math/add withconfiguration | 2 | 3
 | flow/switch unknownproperty: case [1] | TestResult_graph/ignored configuration_flow/switch unknownproperty: case [1] | 3 | True
-| flow/switch unknownproperty: [default] | TestResult_graph/ignored configuration_flow/switch unknownproperty: [default] | 4 | False
+| flow/switch unknownproperty: [default] | TestResult_graph/ignored configuration_flow/switch unknownproperty: [default] | 4 | True
 
 Schemas used in this test case:
 - debug/log

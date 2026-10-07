@@ -18,15 +18,15 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] -7.00 = 7.00",
+          "name": "[a] -7 = 7",
           "nodeId": 1
         },
         {
-          "name": "[a] 7.00 = 7.00",
+          "name": "[a] 7 = 7",
           "nodeId": 14
         },
         {
-          "name": "[a] 0.00 = 0.00",
+          "name": "[a] 0 = 0",
           "nodeId": 27
         },
         {
@@ -40,37 +40,37 @@
       ],
       "subTests": [
         {
-          "name": "[a] -7.00 = 7.00",
-          "resultVarName": "TestResult_math/abs_[a] -7.00 = 7.00",
+          "name": "[a] -7 = 7",
+          "resultVarName": "TestResult_math/abs_[a] -7 = 7",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             7.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] -7.00 = 7.00"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] -7 = 7"
         },
         {
-          "name": "[a] 7.00 = 7.00",
-          "resultVarName": "TestResult_math/abs_[a] 7.00 = 7.00",
+          "name": "[a] 7 = 7",
+          "resultVarName": "TestResult_math/abs_[a] 7 = 7",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             7.0
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] 7.00 = 7.00"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] 7 = 7"
         },
         {
-          "name": "[a] 0.00 = 0.00",
-          "resultVarName": "TestResult_math/abs_[a] 0.00 = 0.00",
+          "name": "[a] 0 = 0",
+          "resultVarName": "TestResult_math/abs_[a] 0 = 0",
           "resultVarId": 5,
           "resultVarType": "float",
           "expectedResultValue": [
             0.0
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/abs_[a] 0.00 = 0.00"
+          "successResultVarName": "TestResult_HasPassed_math/abs_[a] 0 = 0"
         },
         {
           "name": "[a] -10 = 10",

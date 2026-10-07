@@ -26,97 +26,97 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 0.50 = 0.52",
+          "name": "[a] 0.5 = 0.5235988",
           "nodeId": 1
         },
         {
-          "name": "[a] 1.50 = NaN",
+          "name": "[a] 1.5 = NaN",
           "nodeId": 16
         },
         {
-          "name": "[a] -1.50 = NaN",
+          "name": "[a] -1.5 = NaN",
           "nodeId": 27
         },
         {
-          "name": "[a] 1.00 = 1.57",
+          "name": "[a] 1 = 1.57079637",
           "nodeId": 53
         },
         {
-          "name": "[a] -1.00 = -1.57",
+          "name": "[a] -1 = -1.57079637",
           "nodeId": 68
         },
         {
-          "name": "[a] (0.50, 0.50) = (0.52, 0.52)",
+          "name": "[a] (0.5, 0.5) = (0.5235988, 0.5235988)",
           "nodeId": 83
         },
         {
-          "name": "[a] (0.50, 0.50, 0.50) = (0.52, 0.52, 0.52)",
+          "name": "[a] (0.5, 0.5, 0.5) = (0.5235988, 0.5235988, 0.5235988)",
           "nodeId": 101
         },
         {
-          "name": "[a] (0.50, 0.50, 0.50, 0.50) = (0.52, 0.52, 0.52, 0.52)",
+          "name": "[a] (0.5, 0.5, 0.5, 0.5) = (0.5235988, 0.5235988, 0.5235988, 0.5235988)",
           "nodeId": 119
         }
       ],
       "subTests": [
         {
-          "name": "[a] 0.50 = 0.52",
-          "resultVarName": "TestResult_math/asin_[a] 0.50 = 0.52",
+          "name": "[a] 0.5 = 0.5235988",
+          "resultVarName": "TestResult_math/asin_[a] 0.5 = 0.5235988",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5235988
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/asin_[a] 0.50 = 0.52"
+          "successResultVarName": "TestResult_HasPassed_math/asin_[a] 0.5 = 0.5235988"
         },
         {
-          "name": "[a] 1.50 = NaN",
-          "resultVarName": "TestResult_math/asin_[a] 1.50 = NaN",
+          "name": "[a] 1.5 = NaN",
+          "resultVarName": "TestResult_math/asin_[a] 1.5 = NaN",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/asin_[a] 1.50 = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/asin_[a] 1.5 = NaN"
         },
         {
-          "name": "[a] -1.50 = NaN",
-          "resultVarName": "TestResult_math/asin_[a] -1.50 = NaN",
+          "name": "[a] -1.5 = NaN",
+          "resultVarName": "TestResult_math/asin_[a] -1.5 = NaN",
           "resultVarId": 5,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/asin_[a] -1.50 = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/asin_[a] -1.5 = NaN"
         },
         {
-          "name": "[a] 1.00 = 1.57",
-          "resultVarName": "TestResult_math/asin_[a] 1.00 = 1.57",
+          "name": "[a] 1 = 1.57079637",
+          "resultVarName": "TestResult_math/asin_[a] 1 = 1.57079637",
           "resultVarId": 7,
           "resultVarType": "float",
           "expectedResultValue": [
             1.57079637
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/asin_[a] 1.00 = 1.57"
+          "successResultVarName": "TestResult_HasPassed_math/asin_[a] 1 = 1.57079637"
         },
         {
-          "name": "[a] -1.00 = -1.57",
-          "resultVarName": "TestResult_math/asin_[a] -1.00 = -1.57",
+          "name": "[a] -1 = -1.57079637",
+          "resultVarName": "TestResult_math/asin_[a] -1 = -1.57079637",
           "resultVarId": 9,
           "resultVarType": "float",
           "expectedResultValue": [
             -1.57079637
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/asin_[a] -1.00 = -1.57"
+          "successResultVarName": "TestResult_HasPassed_math/asin_[a] -1 = -1.57079637"
         },
         {
-          "name": "[a] (0.50, 0.50) = (0.52, 0.52)",
-          "resultVarName": "TestResult_math/asin_[a] (0.50, 0.50) = (0.52, 0.52)",
+          "name": "[a] (0.5, 0.5) = (0.5235988, 0.5235988)",
+          "resultVarName": "TestResult_math/asin_[a] (0.5, 0.5) = (0.5235988, 0.5235988)",
           "resultVarId": 11,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -124,11 +124,11 @@
             0.5235988
           ],
           "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_math/asin_[a] (0.50, 0.50) = (0.52, 0.52)"
+          "successResultVarName": "TestResult_HasPassed_math/asin_[a] (0.5, 0.5) = (0.5235988, 0.5235988)"
         },
         {
-          "name": "[a] (0.50, 0.50, 0.50) = (0.52, 0.52, 0.52)",
-          "resultVarName": "TestResult_math/asin_[a] (0.50, 0.50, 0.50) = (0.52, 0.52, 0.52)",
+          "name": "[a] (0.5, 0.5, 0.5) = (0.5235988, 0.5235988, 0.5235988)",
+          "resultVarName": "TestResult_math/asin_[a] (0.5, 0.5, 0.5) = (0.5235988, 0.5235988, 0.5235988)",
           "resultVarId": 13,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -137,11 +137,11 @@
             0.5235988
           ],
           "successResultVarId": 12,
-          "successResultVarName": "TestResult_HasPassed_math/asin_[a] (0.50, 0.50, 0.50) = (0.52, 0.52, 0.52)"
+          "successResultVarName": "TestResult_HasPassed_math/asin_[a] (0.5, 0.5, 0.5) = (0.5235988, 0.5235988, 0.5235988)"
         },
         {
-          "name": "[a] (0.50, 0.50, 0.50, 0.50) = (0.52, 0.52, 0.52, 0.52)",
-          "resultVarName": "TestResult_math/asin_[a] (0.50, 0.50, 0.50, 0.50) = (0.52, 0.52, 0.52, 0.52)",
+          "name": "[a] (0.5, 0.5, 0.5, 0.5) = (0.5235988, 0.5235988, 0.5235988, 0.5235988)",
+          "resultVarName": "TestResult_math/asin_[a] (0.5, 0.5, 0.5, 0.5) = (0.5235988, 0.5235988, 0.5235988, 0.5235988)",
           "resultVarId": 15,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -151,7 +151,7 @@
             0.5235988
           ],
           "successResultVarId": 14,
-          "successResultVarName": "TestResult_HasPassed_math/asin_[a] (0.50, 0.50, 0.50, 0.50) = (0.52, 0.52, 0.52, 0.52)"
+          "successResultVarName": "TestResult_HasPassed_math/asin_[a] (0.5, 0.5, 0.5, 0.5) = (0.5235988, 0.5235988, 0.5235988, 0.5235988)"
         }
       ]
     }

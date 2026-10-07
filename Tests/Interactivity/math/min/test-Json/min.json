@@ -19,11 +19,11 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 17.21 [b] -324.23 = -324.23",
+          "name": "[a] 17.21323 [b] -324.234 = -324.234",
           "nodeId": 1
         },
         {
-          "name": "[a] NaN [b] 1.00 = NaN",
+          "name": "[a] NaN [b] 1 = NaN",
           "nodeId": 13
         },
         {
@@ -33,26 +33,26 @@
       ],
       "subTests": [
         {
-          "name": "[a] 17.21 [b] -324.23 = -324.23",
-          "resultVarName": "TestResult_math/min_[a] 17.21 [b] -324.23 = -324.23",
+          "name": "[a] 17.21323 [b] -324.234 = -324.234",
+          "resultVarName": "TestResult_math/min_[a] 17.21323 [b] -324.234 = -324.234",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             -324.234
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/min_[a] 17.21 [b] -324.23 = -324.23"
+          "successResultVarName": "TestResult_HasPassed_math/min_[a] 17.21323 [b] -324.234 = -324.234"
         },
         {
-          "name": "[a] NaN [b] 1.00 = NaN",
-          "resultVarName": "TestResult_math/min_[a] NaN [b] 1.00 = NaN",
+          "name": "[a] NaN [b] 1 = NaN",
+          "resultVarName": "TestResult_math/min_[a] NaN [b] 1 = NaN",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/min_[a] NaN [b] 1.00 = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/min_[a] NaN [b] 1 = NaN"
         },
         {
           "name": "[a] 3 [b] 9 = 3",

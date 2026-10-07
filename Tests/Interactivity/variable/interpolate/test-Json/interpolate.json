@@ -76,17 +76,17 @@
         },
         {
           "name": "Duration 0: [done] (delayed execution)",
-          "nodeId": 221,
+          "nodeId": 220,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "Re-trigger: 1st [done] not fired (delayed execution)",
-          "nodeId": 248,
+          "nodeId": 247,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "variable/set stops it: [done] not fired (delayed execution)",
-          "nodeId": 286,
+          "nodeId": 284,
           "delayedExecutionTime": 2.0
         }
       ],
@@ -100,7 +100,7 @@
             true
           ],
           "successResultVarId": 1,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Flow [out]"
+          "successResultVarName": "TestResult_variable/interpolate_Flow [out]"
         },
         {
           "name": "Value at 50%",
@@ -122,7 +122,7 @@
             true
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Flow [done]"
+          "successResultVarName": "TestResult_variable/interpolate_Flow [done]"
         },
         {
           "name": "Value at 100%",
@@ -144,7 +144,7 @@
             true
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (duration -1f"
+          "successResultVarName": "TestResult_variable/interpolate_[Err] flow (duration -1f"
         },
         {
           "name": "[Err] flow (duration infinite",
@@ -155,7 +155,7 @@
             true
           ],
           "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (duration infinite"
+          "successResultVarName": "TestResult_variable/interpolate_[Err] flow (duration infinite"
         },
         {
           "name": "[Err] flow (p1 NaN)",
@@ -166,7 +166,7 @@
             true
           ],
           "successResultVarId": 12,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (p1 NaN)"
+          "successResultVarName": "TestResult_variable/interpolate_[Err] flow (p1 NaN)"
         },
         {
           "name": "[Err] flow (p2 NaN)",
@@ -177,7 +177,7 @@
             true
           ],
           "successResultVarId": 14,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (p2 NaN)"
+          "successResultVarName": "TestResult_variable/interpolate_[Err] flow (p2 NaN)"
         },
         {
           "name": "useSlerp on float4, value at 100%",
@@ -221,10 +221,10 @@
           "resultVarId": 30,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 31,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Overshoot curve: no [err]"
+          "successResultVarId": 30,
+          "successResultVarName": "TestResult_variable/interpolate_Overshoot curve: no [err]"
         },
         {
           "name": "[Err] flow (p1.x -0.1)",
@@ -235,7 +235,7 @@
             true
           ],
           "successResultVarId": 19,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (p1.x -0.1)"
+          "successResultVarName": "TestResult_variable/interpolate_[Err] flow (p1.x -0.1)"
         },
         {
           "name": "[Err] flow (p2.x 1.1)",
@@ -246,7 +246,7 @@
             true
           ],
           "successResultVarId": 21,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (p2.x 1.1)"
+          "successResultVarName": "TestResult_variable/interpolate_[Err] flow (p2.x 1.1)"
         },
         {
           "name": "[Err] flow (p1.y +Inf)",
@@ -257,83 +257,83 @@
             true
           ],
           "successResultVarId": 23,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_[Err] flow (p1.y +Inf)"
+          "successResultVarName": "TestResult_variable/interpolate_[Err] flow (p1.y +Inf)"
         },
         {
           "name": "Duration 0: [done]",
           "resultVarName": "TestResult_variable/interpolate_Duration 0: [done]",
-          "resultVarId": 33,
+          "resultVarId": 32,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 33,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Duration 0: [done]"
+          "successResultVarId": 32,
+          "successResultVarName": "TestResult_variable/interpolate_Duration 0: [done]"
         },
         {
           "name": "Duration 0: value on [done]",
           "resultVarName": "TestResult_variable/interpolate_Duration 0: value on [done]",
-          "resultVarId": 35,
+          "resultVarId": 34,
           "resultVarType": "float",
           "expectedResultValue": [
             3.0
           ],
-          "successResultVarId": 34,
+          "successResultVarId": 33,
           "successResultVarName": "TestResult_HasPassed_variable/interpolate_Duration 0: value on [done]"
         },
         {
           "name": "Re-trigger: 1st [done] not fired",
           "resultVarName": "TestResult_variable/interpolate_Re-trigger: 1st [done] not fired",
-          "resultVarId": 37,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            false
-          ],
-          "successResultVarId": 38,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Re-trigger: 1st [done] not fired"
-        },
-        {
-          "name": "Re-trigger: 2nd [done]",
-          "resultVarName": "TestResult_variable/interpolate_Re-trigger: 2nd [done]",
-          "resultVarId": 39,
+          "resultVarId": 36,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 39,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_Re-trigger: 2nd [done]"
+          "successResultVarId": 36,
+          "successResultVarName": "TestResult_variable/interpolate_Re-trigger: 1st [done] not fired"
+        },
+        {
+          "name": "Re-trigger: 2nd [done]",
+          "resultVarName": "TestResult_variable/interpolate_Re-trigger: 2nd [done]",
+          "resultVarId": 37,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 37,
+          "successResultVarName": "TestResult_variable/interpolate_Re-trigger: 2nd [done]"
         },
         {
           "name": "Re-trigger: 2nd target reached",
           "resultVarName": "TestResult_variable/interpolate_Re-trigger: 2nd target reached",
-          "resultVarId": 41,
+          "resultVarId": 39,
           "resultVarType": "float",
           "expectedResultValue": [
             20.0
           ],
-          "successResultVarId": 40,
+          "successResultVarId": 38,
           "successResultVarName": "TestResult_HasPassed_variable/interpolate_Re-trigger: 2nd target reached"
         },
         {
           "name": "variable/set stops it: [done] not fired",
           "resultVarName": "TestResult_variable/interpolate_variable/set stops it: [done] not fired",
-          "resultVarId": 43,
+          "resultVarId": 41,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 44,
-          "successResultVarName": "TestResult_HasPassed_variable/interpolate_variable/set stops it: [done] not fired"
+          "successResultVarId": 41,
+          "successResultVarName": "TestResult_variable/interpolate_variable/set stops it: [done] not fired"
         },
         {
           "name": "variable/set stops it: keeps set value",
           "resultVarName": "TestResult_variable/interpolate_variable/set stops it: keeps set value",
-          "resultVarId": 46,
+          "resultVarId": 43,
           "resultVarType": "float",
           "expectedResultValue": [
             4.0
           ],
-          "successResultVarId": 45,
+          "successResultVarId": 42,
           "successResultVarName": "TestResult_HasPassed_variable/interpolate_variable/set stops it: keeps set value"
         }
       ]

@@ -36,11 +36,11 @@
         },
         {
           "name": "same variable name:\nfirst unchanged",
-          "nodeId": 62
+          "nodeId": 61
         },
         {
-          "name": "pointer with doubled\nbrackets: isValid",
-          "nodeId": 87
+          "name": "pointer with doubled\nbrackets: isValid == false",
+          "nodeId": 86
         }
       ],
       "subTests": [
@@ -64,7 +64,7 @@
             true
           ],
           "successResultVarId": 3,
-          "successResultVarName": "TestResult_HasPassed_graph/json syntax_two custom\ntypes"
+          "successResultVarName": "TestResult_graph/json syntax_two custom\ntypes"
         },
         {
           "name": "event without id:\nreceived",
@@ -75,7 +75,7 @@
             true
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_graph/json syntax_event without id:\nreceived"
+          "successResultVarName": "TestResult_graph/json syntax_event without id:\nreceived"
         },
         {
           "name": "event without id:\nother event not received",
@@ -83,43 +83,43 @@
           "resultVarId": 5,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_graph/json syntax_event without id:\nother event not received"
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_graph/json syntax_event without id:\nother event not received"
         },
         {
           "name": "same variable name:\nfirst unchanged",
           "resultVarName": "TestResult_graph/json syntax_same variable name:\nfirst unchanged",
-          "resultVarId": 10,
+          "resultVarId": 9,
           "resultVarType": "int",
           "expectedResultValue": [
             10
           ],
-          "successResultVarId": 9,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_graph/json syntax_same variable name:\nfirst unchanged"
         },
         {
           "name": "same variable name:\nsecond set",
           "resultVarName": "TestResult_graph/json syntax_same variable name:\nsecond set",
-          "resultVarId": 12,
+          "resultVarId": 11,
           "resultVarType": "int",
           "expectedResultValue": [
             30
           ],
-          "successResultVarId": 11,
+          "successResultVarId": 10,
           "successResultVarName": "TestResult_HasPassed_graph/json syntax_same variable name:\nsecond set"
         },
         {
-          "name": "pointer with doubled\nbrackets: isValid",
-          "resultVarName": "TestResult_graph/json syntax_pointer with doubled\nbrackets: isValid",
-          "resultVarId": 14,
+          "name": "pointer with doubled\nbrackets: isValid == false",
+          "resultVarName": "TestResult_graph/json syntax_pointer with doubled\nbrackets: isValid == false",
+          "resultVarId": 13,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
-          "successResultVarId": 13,
-          "successResultVarName": "TestResult_HasPassed_graph/json syntax_pointer with doubled\nbrackets: isValid"
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_graph/json syntax_pointer with doubled\nbrackets: isValid == false"
         }
       ]
     }

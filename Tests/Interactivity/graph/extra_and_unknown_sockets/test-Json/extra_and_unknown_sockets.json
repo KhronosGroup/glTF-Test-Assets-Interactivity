@@ -28,15 +28,15 @@
         },
         {
           "name": "math/add with\nextra input c",
-          "nodeId": 22
+          "nodeId": 21
         },
         {
           "name": "flow/branch extra\nflow: [true]",
-          "nodeId": 47
+          "nodeId": 46
         },
         {
           "name": "type-default float\ninput is NaN",
-          "nodeId": 69
+          "nodeId": 67
         }
       ],
       "subTests": [
@@ -49,7 +49,7 @@
             true
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_graph/extra and unknown sockets_flow to unknown\nsocket: next output"
+          "successResultVarName": "TestResult_graph/extra and unknown sockets_flow to unknown\nsocket: next output"
         },
         {
           "name": "flow to unknown\nsocket: target not run",
@@ -57,64 +57,64 @@
           "resultVarId": 1,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_graph/extra and unknown sockets_flow to unknown\nsocket: target not run"
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_graph/extra and unknown sockets_flow to unknown\nsocket: target not run"
         },
         {
           "name": "math/add with\nextra input c",
           "resultVarName": "TestResult_graph/extra and unknown sockets_math/add with\nextra input c",
-          "resultVarId": 4,
+          "resultVarId": 3,
           "resultVarType": "int",
           "expectedResultValue": [
             3
           ],
-          "successResultVarId": 3,
+          "successResultVarId": 2,
           "successResultVarName": "TestResult_HasPassed_graph/extra and unknown sockets_math/add with\nextra input c"
         },
         {
           "name": "flow/branch extra\nflow: [true]",
           "resultVarName": "TestResult_graph/extra and unknown sockets_flow/branch extra\nflow: [true]",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_graph/extra and unknown sockets_flow/branch extra\nflow: [true]"
+        },
+        {
+          "name": "flow/branch extra\nflow: target not run",
+          "resultVarName": "TestResult_graph/extra and unknown sockets_flow/branch extra\nflow: target not run",
           "resultVarId": 5,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 5,
-          "successResultVarName": "TestResult_HasPassed_graph/extra and unknown sockets_flow/branch extra\nflow: [true]"
-        },
-        {
-          "name": "flow/branch extra\nflow: target not run",
-          "resultVarName": "TestResult_graph/extra and unknown sockets_flow/branch extra\nflow: target not run",
-          "resultVarId": 6,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            false
-          ],
-          "successResultVarId": 7,
-          "successResultVarName": "TestResult_HasPassed_graph/extra and unknown sockets_flow/branch extra\nflow: target not run"
+          "successResultVarName": "TestResult_graph/extra and unknown sockets_flow/branch extra\nflow: target not run"
         },
         {
           "name": "type-default float\ninput is NaN",
           "resultVarName": "TestResult_graph/extra and unknown sockets_type-default float\ninput is NaN",
-          "resultVarId": 9,
+          "resultVarId": 7,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 8,
+          "successResultVarId": 6,
           "successResultVarName": "TestResult_HasPassed_graph/extra and unknown sockets_type-default float\ninput is NaN"
         },
         {
           "name": "node reference\nwith type",
           "resultVarName": "TestResult_graph/extra and unknown sockets_node reference\nwith type",
-          "resultVarId": 11,
+          "resultVarId": 9,
           "resultVarType": "float",
           "expectedResultValue": [
             2.71828175
           ],
-          "successResultVarId": 10,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_HasPassed_graph/extra and unknown sockets_node reference\nwith type"
         }
       ]

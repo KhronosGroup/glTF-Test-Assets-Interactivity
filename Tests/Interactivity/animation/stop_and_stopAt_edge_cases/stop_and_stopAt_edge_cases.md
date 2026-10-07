@@ -5,22 +5,22 @@
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
 | stop, not playing:[out] | TestResult_animation/stop and stopAt edge cases_stop, not playing:[out] | 0 | True
-| stop, not playing:no [err] | TestResult_animation/stop and stopAt edge cases_stop, not playing:no [err] | 1 | False
-| stopAt, not playing:[out] | TestResult_animation/stop and stopAt edge cases_stopAt, not playing:[out] | 3 | True
-| stopAt, not playing:[done] not fired | TestResult_animation/stop and stopAt edge cases_stopAt, not playing:[done] not fired | 4 | False
-| stopAt +Inf:[out] | TestResult_animation/stop and stopAt edge cases_stopAt +Inf:[out] | 8 | True
-| stopAt -Inf:[out] | TestResult_animation/stop and stopAt edge cases_stopAt -Inf:[out] | 9 | True
-| stopAt +/-Inf:no [err] | TestResult_animation/stop and stopAt edge cases_stopAt +/-Inf:no [err] | 6 | False
-| stopTime == endTime:start [done] | TestResult_animation/stop and stopAt edge cases_stopTime == endTime:start [done] | 10 | True
-| stopTime == endTime:stopAt [done] not fired | TestResult_animation/stop and stopAt edge cases_stopTime == endTime:stopAt [done] not fired | 11 | False
-| stopTime passed:stopAt [done] | TestResult_animation/stop and stopAt edge cases_stopTime passed:stopAt [done] | 13 | True
-| stopTime passed:pose rewound | TestResult_animation/stop and stopAt edge cases_stopTime passed:pose rewound | 15 | 0.50000
-| stopTime passed:start [done] not fired | TestResult_animation/stop and stopAt edge cases_stopTime passed:start [done] not fired | 16 | False
-| stopTime > endTime:stopAt [out] | TestResult_animation/stop and stopAt edge cases_stopTime > endTime:stopAt [out] | 18 | True
-| stopTime > endTime:stopAt [done] not fired | TestResult_animation/stop and stopAt edge cases_stopTime > endTime:stopAt [done] not fired | 19 | False
-| stopTime > endTime:start [done] | TestResult_animation/stop and stopAt edge cases_stopTime > endTime:start [done] | 21 | True
-| stop from another[done]: [out] | TestResult_animation/stop and stopAt edge cases_stop from another[done]: [out] | 22 | True
-| stopped from another[done]: own [done] not fired | TestResult_animation/stop and stopAt edge cases_stopped from another[done]: own [done] not fired | 23 | False
+| stop, not playing:no [err] | TestResult_animation/stop and stopAt edge cases_stop, not playing:no [err] | 1 | True
+| stopAt, not playing:[out] | TestResult_animation/stop and stopAt edge cases_stopAt, not playing:[out] | 2 | True
+| stopAt, not playing:[done] not fired | TestResult_animation/stop and stopAt edge cases_stopAt, not playing:[done] not fired | 3 | True
+| stopAt +Inf:[out] | TestResult_animation/stop and stopAt edge cases_stopAt +Inf:[out] | 5 | True
+| stopAt -Inf:[out] | TestResult_animation/stop and stopAt edge cases_stopAt -Inf:[out] | 6 | True
+| stopAt +/-Inf:no [err] | TestResult_animation/stop and stopAt edge cases_stopAt +/-Inf:no [err] | 4 | True
+| stopTime == endTime:start [done] | TestResult_animation/stop and stopAt edge cases_stopTime == endTime:start [done] | 7 | True
+| stopTime == endTime:stopAt [done] not fired | TestResult_animation/stop and stopAt edge cases_stopTime == endTime:stopAt [done] not fired | 8 | True
+| stopTime passed:stopAt [done] | TestResult_animation/stop and stopAt edge cases_stopTime passed:stopAt [done] | 9 | True
+| stopTime passed:pose rewound | TestResult_animation/stop and stopAt edge cases_stopTime passed:pose rewound | 11 | 0.5
+| stopTime passed:start [done] not fired | TestResult_animation/stop and stopAt edge cases_stopTime passed:start [done] not fired | 12 | True
+| stopTime > endTime:stopAt [out] | TestResult_animation/stop and stopAt edge cases_stopTime > endTime:stopAt [out] | 13 | True
+| stopTime > endTime:stopAt [done] not fired | TestResult_animation/stop and stopAt edge cases_stopTime > endTime:stopAt [done] not fired | 14 | True
+| stopTime > endTime:start [done] | TestResult_animation/stop and stopAt edge cases_stopTime > endTime:start [done] | 15 | True
+| stop from another[done]: [out] | TestResult_animation/stop and stopAt edge cases_stop from another[done]: [out] | 16 | True
+| stopped from another[done]: own [done] not fired | TestResult_animation/stop and stopAt edge cases_stopped from another[done]: own [done] not fired | 17 | True
 
 Schemas used in this test case:
 - animation/start

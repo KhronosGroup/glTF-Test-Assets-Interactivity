@@ -25,37 +25,37 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 4.32 = -0.93",
+          "name": "[a] 4.324 = -0.9255203",
           "nodeId": 1
         },
         {
-          "name": "[a] (4.32, 4.32) = (-0.93, -0.93)",
+          "name": "[a] (4.324, 4.324) = (-0.9255203, -0.9255203)",
           "nodeId": 16
         },
         {
-          "name": "[a] (4.32, 4.32, 4.32) = (-0.93, -0.93, -0.93)",
+          "name": "[a] (4.324, 4.324, 4.324) = (-0.9255203, -0.9255203, -0.9255203)",
           "nodeId": 34
         },
         {
-          "name": "[a] (4.32, 4.32, 4.32, 4.32) = (-0.93, -0.93, -0.93, -0.93)",
+          "name": "[a] (4.324, 4.324, 4.324, 4.324) = (-0.9255203, -0.9255203, -0.9255203, -0.9255203)",
           "nodeId": 59
         }
       ],
       "subTests": [
         {
-          "name": "[a] 4.32 = -0.93",
-          "resultVarName": "TestResult_math/sin_[a] 4.32 = -0.93",
+          "name": "[a] 4.324 = -0.9255203",
+          "resultVarName": "TestResult_math/sin_[a] 4.324 = -0.9255203",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             -0.9255203
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/sin_[a] 4.32 = -0.93"
+          "successResultVarName": "TestResult_HasPassed_math/sin_[a] 4.324 = -0.9255203"
         },
         {
-          "name": "[a] (4.32, 4.32) = (-0.93, -0.93)",
-          "resultVarName": "TestResult_math/sin_[a] (4.32, 4.32) = (-0.93, -0.93)",
+          "name": "[a] (4.324, 4.324) = (-0.9255203, -0.9255203)",
+          "resultVarName": "TestResult_math/sin_[a] (4.324, 4.324) = (-0.9255203, -0.9255203)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -63,11 +63,11 @@
             -0.9255203
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/sin_[a] (4.32, 4.32) = (-0.93, -0.93)"
+          "successResultVarName": "TestResult_HasPassed_math/sin_[a] (4.324, 4.324) = (-0.9255203, -0.9255203)"
         },
         {
-          "name": "[a] (4.32, 4.32, 4.32) = (-0.93, -0.93, -0.93)",
-          "resultVarName": "TestResult_math/sin_[a] (4.32, 4.32, 4.32) = (-0.93, -0.93, -0.93)",
+          "name": "[a] (4.324, 4.324, 4.324) = (-0.9255203, -0.9255203, -0.9255203)",
+          "resultVarName": "TestResult_math/sin_[a] (4.324, 4.324, 4.324) = (-0.9255203, -0.9255203, -0.9255203)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -76,11 +76,11 @@
             -0.9255203
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/sin_[a] (4.32, 4.32, 4.32) = (-0.93, -0.93, -0.93)"
+          "successResultVarName": "TestResult_HasPassed_math/sin_[a] (4.324, 4.324, 4.324) = (-0.9255203, -0.9255203, -0.9255203)"
         },
         {
-          "name": "[a] (4.32, 4.32, 4.32, 4.32) = (-0.93, -0.93, -0.93, -0.93)",
-          "resultVarName": "TestResult_math/sin_[a] (4.32, 4.32, 4.32, 4.32) = (-0.93, -0.93, -0.93, -0.93)",
+          "name": "[a] (4.324, 4.324, 4.324, 4.324) = (-0.9255203, -0.9255203, -0.9255203, -0.9255203)",
+          "resultVarName": "TestResult_math/sin_[a] (4.324, 4.324, 4.324, 4.324) = (-0.9255203, -0.9255203, -0.9255203, -0.9255203)",
           "resultVarId": 7,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -90,7 +90,7 @@
             -0.9255203
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/sin_[a] (4.32, 4.32, 4.32, 4.32) = (-0.93, -0.93, -0.93, -0.93)"
+          "successResultVarName": "TestResult_HasPassed_math/sin_[a] (4.324, 4.324, 4.324, 4.324) = (-0.9255203, -0.9255203, -0.9255203, -0.9255203)"
         }
       ]
     }

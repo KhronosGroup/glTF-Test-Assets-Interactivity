@@ -4,7 +4,7 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| [a] (0.00, 1.00, 0.00, 0.00) [b] (0.00, 0.71, 0.00, 0.71) = 1.57 | TestResult_math/quatAngleBetween_[a] (0.00, 1.00, 0.00, 0.00) [b] (0.00, 0.71, 0.00, 0.71) = 1.57 | 1 | 1.57080
+| [a] (0, 1, 0, -4.371139E-08) [b] (0, 0.707106769, 0, 0.707106769) = 1.57079649 | TestResult_math/quatAngleBetween_[a] (0, 1, 0, -4.371139E-08) [b] (0, 0.707106769, 0, 0.707106769) = 1.57079649 | 1 | 1.57079649
 
 Schemas used in this test case:
 - debug/log

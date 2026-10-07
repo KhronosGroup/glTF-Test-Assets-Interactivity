@@ -19,71 +19,71 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 1.00 [b] 2.00 [c] 2.00 = 3.00",
+          "name": "[a] 1 [b] 2 [c] 2 = 3",
           "nodeId": 1
         },
         {
-          "name": "[a] 1.00 [b] 2.00 [c] -0.50 = 0.50",
+          "name": "[a] 1 [b] 2 [c] -0.5 = 0.5",
           "nodeId": 14
         },
         {
-          "name": "[a] 1.00 [b] 2.00 [c] NaN = NaN",
+          "name": "[a] 1 [b] 2 [c] NaN = NaN",
           "nodeId": 26
         },
         {
-          "name": "[a] (1.00, 1.00) [b] (2.00, 2.00) [c] (2.00, 2.00) = (3.00, 3.00)",
+          "name": "[a] (1, 1) [b] (2, 2) [c] (2, 2) = (3, 3)",
           "nodeId": 45
         },
         {
-          "name": "[a] (1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00) = (3.00, 3.00, 3.00)",
+          "name": "[a] (1, 1, 1) [b] (2, 2, 2) [c] (2, 2, 2) = (3, 3, 3)",
           "nodeId": 58
         },
         {
-          "name": "[a] (1.00, 1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00, 2.00) = (3.00, 3.00, 3.00, 3.00)",
+          "name": "[a] (1, 1, 1, 1) [b] (2, 2, 2, 2) [c] (2, 2, 2, 2) = (3, 3, 3, 3)",
           "nodeId": 71
         },
         {
-          "name": "[a] [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0] [b] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] [c] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]",
+          "name": "[a] [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1] [b] [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2] [c] [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2] = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]",
           "nodeId": 84
         }
       ],
       "subTests": [
         {
-          "name": "[a] 1.00 [b] 2.00 [c] 2.00 = 3.00",
-          "resultVarName": "TestResult_math/mix_[a] 1.00 [b] 2.00 [c] 2.00 = 3.00",
+          "name": "[a] 1 [b] 2 [c] 2 = 3",
+          "resultVarName": "TestResult_math/mix_[a] 1 [b] 2 [c] 2 = 3",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             3.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/mix_[a] 1.00 [b] 2.00 [c] 2.00 = 3.00"
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] 1 [b] 2 [c] 2 = 3"
         },
         {
-          "name": "[a] 1.00 [b] 2.00 [c] -0.50 = 0.50",
-          "resultVarName": "TestResult_math/mix_[a] 1.00 [b] 2.00 [c] -0.50 = 0.50",
+          "name": "[a] 1 [b] 2 [c] -0.5 = 0.5",
+          "resultVarName": "TestResult_math/mix_[a] 1 [b] 2 [c] -0.5 = 0.5",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             0.5
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/mix_[a] 1.00 [b] 2.00 [c] -0.50 = 0.50"
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] 1 [b] 2 [c] -0.5 = 0.5"
         },
         {
-          "name": "[a] 1.00 [b] 2.00 [c] NaN = NaN",
-          "resultVarName": "TestResult_math/mix_[a] 1.00 [b] 2.00 [c] NaN = NaN",
+          "name": "[a] 1 [b] 2 [c] NaN = NaN",
+          "resultVarName": "TestResult_math/mix_[a] 1 [b] 2 [c] NaN = NaN",
           "resultVarId": 5,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/mix_[a] 1.00 [b] 2.00 [c] NaN = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] 1 [b] 2 [c] NaN = NaN"
         },
         {
-          "name": "[a] (1.00, 1.00) [b] (2.00, 2.00) [c] (2.00, 2.00) = (3.00, 3.00)",
-          "resultVarName": "TestResult_math/mix_[a] (1.00, 1.00) [b] (2.00, 2.00) [c] (2.00, 2.00) = (3.00, 3.00)",
+          "name": "[a] (1, 1) [b] (2, 2) [c] (2, 2) = (3, 3)",
+          "resultVarName": "TestResult_math/mix_[a] (1, 1) [b] (2, 2) [c] (2, 2) = (3, 3)",
           "resultVarId": 7,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -91,11 +91,11 @@
             3.0
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1.00, 1.00) [b] (2.00, 2.00) [c] (2.00, 2.00) = (3.00, 3.00)"
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1, 1) [b] (2, 2) [c] (2, 2) = (3, 3)"
         },
         {
-          "name": "[a] (1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00) = (3.00, 3.00, 3.00)",
-          "resultVarName": "TestResult_math/mix_[a] (1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00) = (3.00, 3.00, 3.00)",
+          "name": "[a] (1, 1, 1) [b] (2, 2, 2) [c] (2, 2, 2) = (3, 3, 3)",
+          "resultVarName": "TestResult_math/mix_[a] (1, 1, 1) [b] (2, 2, 2) [c] (2, 2, 2) = (3, 3, 3)",
           "resultVarId": 9,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -104,11 +104,11 @@
             3.0
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00) = (3.00, 3.00, 3.00)"
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1, 1, 1) [b] (2, 2, 2) [c] (2, 2, 2) = (3, 3, 3)"
         },
         {
-          "name": "[a] (1.00, 1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00, 2.00) = (3.00, 3.00, 3.00, 3.00)",
-          "resultVarName": "TestResult_math/mix_[a] (1.00, 1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00, 2.00) = (3.00, 3.00, 3.00, 3.00)",
+          "name": "[a] (1, 1, 1, 1) [b] (2, 2, 2, 2) [c] (2, 2, 2, 2) = (3, 3, 3, 3)",
+          "resultVarName": "TestResult_math/mix_[a] (1, 1, 1, 1) [b] (2, 2, 2, 2) [c] (2, 2, 2, 2) = (3, 3, 3, 3)",
           "resultVarId": 11,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -118,11 +118,11 @@
             3.0
           ],
           "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1.00, 1.00, 1.00, 1.00) [b] (2.00, 2.00, 2.00, 2.00) [c] (2.00, 2.00, 2.00, 2.00) = (3.00, 3.00, 3.00, 3.00)"
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] (1, 1, 1, 1) [b] (2, 2, 2, 2) [c] (2, 2, 2, 2) = (3, 3, 3, 3)"
         },
         {
-          "name": "[a] [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0] [b] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] [c] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]",
-          "resultVarName": "TestResult_math/mix_[a] [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0] [b] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] [c] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]",
+          "name": "[a] [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1] [b] [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2] [c] [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2] = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]",
+          "resultVarName": "TestResult_math/mix_[a] [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1] [b] [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2] [c] [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2] = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]",
           "resultVarId": 13,
           "resultVarType": "float4x4",
           "expectedResultValue": [
@@ -144,7 +144,7 @@
             3.0
           ],
           "successResultVarId": 12,
-          "successResultVarName": "TestResult_HasPassed_math/mix_[a] [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0] [b] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] [c] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]"
+          "successResultVarName": "TestResult_HasPassed_math/mix_[a] [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1] [b] [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2] [c] [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2] = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]"
         }
       ]
     }

@@ -4,7 +4,7 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| = 2.72 | TestResult_math/E_= 2.72 | 1 | 2.71828
+| = 2.71828175 | TestResult_math/E_= 2.71828175 | 1 | 2.71828175
 
 Schemas used in this test case:
 - debug/log

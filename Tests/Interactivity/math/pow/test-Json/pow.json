@@ -27,142 +27,142 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 7.76 [b] 2.35 = 122.25",
+          "name": "[a] 7.764 [b] 2.345 = 122.250481",
           "nodeId": 1
         },
         {
-          "name": "[a] 0.00 [b] 0.00 = 1.00",
+          "name": "[a] 0 [b] 0 = 1",
           "nodeId": 16
         },
         {
-          "name": "[a] -2.00 [b] 0.50 = NaN",
+          "name": "[a] -2 [b] 0.5 = NaN",
           "nodeId": 31
         },
         {
-          "name": "[a] 5.00 [b] 0.00 = 1.00",
+          "name": "[a] 5 [b] 0 = 1",
           "nodeId": 63
         },
         {
-          "name": "[a] NaN [b] 0.00 = 1.00",
+          "name": "[a] NaN [b] 0 = 1",
           "nodeId": 77
         },
         {
-          "name": "[a] 1.00 [b] Infinity = NaN",
+          "name": "[a] 1 [b] Infinity = NaN",
           "nodeId": 82
         },
         {
-          "name": "[a] -1.00 [b] Infinity = NaN",
+          "name": "[a] -1 [b] Infinity = NaN",
           "nodeId": 87
         },
         {
-          "name": "[a] 1.00 [b] NaN = NaN",
+          "name": "[a] 1 [b] NaN = NaN",
           "nodeId": 92
         },
         {
-          "name": "[a] (7.76, 7.76) [b] (2.35, 2.35) = (122.25, 122.25)",
+          "name": "[a] (7.764, 7.764) [b] (2.345, 2.345) = (122.250481, 122.250481)",
           "nodeId": 98
         },
         {
-          "name": "[a] (7.76, 7.76, 7.76) [b] (2.35, 2.35, 2.35) = (122.25, 122.25, 122.25)",
+          "name": "[a] (7.764, 7.764, 7.764) [b] (2.345, 2.345, 2.345) = (122.250481, 122.250481, 122.250481)",
           "nodeId": 116
         },
         {
-          "name": "[a] (7.76, 7.76, 7.76, 7.76) [b] (2.35, 2.35, 2.35, 2.35) = (122.25, 122.25, 122.25, 122.25)",
+          "name": "[a] (7.764, 7.764, 7.764, 7.764) [b] (2.345, 2.345, 2.345, 2.345) = (122.250481, 122.250481, 122.250481, 122.250481)",
           "nodeId": 134
         }
       ],
       "subTests": [
         {
-          "name": "[a] 7.76 [b] 2.35 = 122.25",
-          "resultVarName": "TestResult_math/pow_[a] 7.76 [b] 2.35 = 122.25",
+          "name": "[a] 7.764 [b] 2.345 = 122.250481",
+          "resultVarName": "TestResult_math/pow_[a] 7.764 [b] 2.345 = 122.250481",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             122.250481
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/pow_[a] 7.76 [b] 2.35 = 122.25"
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] 7.764 [b] 2.345 = 122.250481"
         },
         {
-          "name": "[a] 0.00 [b] 0.00 = 1.00",
-          "resultVarName": "TestResult_math/pow_[a] 0.00 [b] 0.00 = 1.00",
+          "name": "[a] 0 [b] 0 = 1",
+          "resultVarName": "TestResult_math/pow_[a] 0 [b] 0 = 1",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/pow_[a] 0.00 [b] 0.00 = 1.00"
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] 0 [b] 0 = 1"
         },
         {
-          "name": "[a] -2.00 [b] 0.50 = NaN",
-          "resultVarName": "TestResult_math/pow_[a] -2.00 [b] 0.50 = NaN",
+          "name": "[a] -2 [b] 0.5 = NaN",
+          "resultVarName": "TestResult_math/pow_[a] -2 [b] 0.5 = NaN",
           "resultVarId": 5,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/pow_[a] -2.00 [b] 0.50 = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] -2 [b] 0.5 = NaN"
         },
         {
-          "name": "[a] 5.00 [b] 0.00 = 1.00",
-          "resultVarName": "TestResult_math/pow_[a] 5.00 [b] 0.00 = 1.00",
+          "name": "[a] 5 [b] 0 = 1",
+          "resultVarName": "TestResult_math/pow_[a] 5 [b] 0 = 1",
           "resultVarId": 7,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/pow_[a] 5.00 [b] 0.00 = 1.00"
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] 5 [b] 0 = 1"
         },
         {
-          "name": "[a] NaN [b] 0.00 = 1.00",
-          "resultVarName": "TestResult_math/pow_[a] NaN [b] 0.00 = 1.00",
+          "name": "[a] NaN [b] 0 = 1",
+          "resultVarName": "TestResult_math/pow_[a] NaN [b] 0 = 1",
           "resultVarId": 9,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/pow_[a] NaN [b] 0.00 = 1.00"
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] NaN [b] 0 = 1"
         },
         {
-          "name": "[a] 1.00 [b] Infinity = NaN",
-          "resultVarName": "TestResult_math/pow_[a] 1.00 [b] Infinity = NaN",
+          "name": "[a] 1 [b] Infinity = NaN",
+          "resultVarName": "TestResult_math/pow_[a] 1 [b] Infinity = NaN",
           "resultVarId": 11,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_math/pow_[a] 1.00 [b] Infinity = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] 1 [b] Infinity = NaN"
         },
         {
-          "name": "[a] -1.00 [b] Infinity = NaN",
-          "resultVarName": "TestResult_math/pow_[a] -1.00 [b] Infinity = NaN",
+          "name": "[a] -1 [b] Infinity = NaN",
+          "resultVarName": "TestResult_math/pow_[a] -1 [b] Infinity = NaN",
           "resultVarId": 13,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 12,
-          "successResultVarName": "TestResult_HasPassed_math/pow_[a] -1.00 [b] Infinity = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] -1 [b] Infinity = NaN"
         },
         {
-          "name": "[a] 1.00 [b] NaN = NaN",
-          "resultVarName": "TestResult_math/pow_[a] 1.00 [b] NaN = NaN",
+          "name": "[a] 1 [b] NaN = NaN",
+          "resultVarName": "TestResult_math/pow_[a] 1 [b] NaN = NaN",
           "resultVarId": 15,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 14,
-          "successResultVarName": "TestResult_HasPassed_math/pow_[a] 1.00 [b] NaN = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] 1 [b] NaN = NaN"
         },
         {
-          "name": "[a] (7.76, 7.76) [b] (2.35, 2.35) = (122.25, 122.25)",
-          "resultVarName": "TestResult_math/pow_[a] (7.76, 7.76) [b] (2.35, 2.35) = (122.25, 122.25)",
+          "name": "[a] (7.764, 7.764) [b] (2.345, 2.345) = (122.250481, 122.250481)",
+          "resultVarName": "TestResult_math/pow_[a] (7.764, 7.764) [b] (2.345, 2.345) = (122.250481, 122.250481)",
           "resultVarId": 17,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -170,11 +170,11 @@
             122.250481
           ],
           "successResultVarId": 16,
-          "successResultVarName": "TestResult_HasPassed_math/pow_[a] (7.76, 7.76) [b] (2.35, 2.35) = (122.25, 122.25)"
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] (7.764, 7.764) [b] (2.345, 2.345) = (122.250481, 122.250481)"
         },
         {
-          "name": "[a] (7.76, 7.76, 7.76) [b] (2.35, 2.35, 2.35) = (122.25, 122.25, 122.25)",
-          "resultVarName": "TestResult_math/pow_[a] (7.76, 7.76, 7.76) [b] (2.35, 2.35, 2.35) = (122.25, 122.25, 122.25)",
+          "name": "[a] (7.764, 7.764, 7.764) [b] (2.345, 2.345, 2.345) = (122.250481, 122.250481, 122.250481)",
+          "resultVarName": "TestResult_math/pow_[a] (7.764, 7.764, 7.764) [b] (2.345, 2.345, 2.345) = (122.250481, 122.250481, 122.250481)",
           "resultVarId": 19,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -183,11 +183,11 @@
             122.250481
           ],
           "successResultVarId": 18,
-          "successResultVarName": "TestResult_HasPassed_math/pow_[a] (7.76, 7.76, 7.76) [b] (2.35, 2.35, 2.35) = (122.25, 122.25, 122.25)"
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] (7.764, 7.764, 7.764) [b] (2.345, 2.345, 2.345) = (122.250481, 122.250481, 122.250481)"
         },
         {
-          "name": "[a] (7.76, 7.76, 7.76, 7.76) [b] (2.35, 2.35, 2.35, 2.35) = (122.25, 122.25, 122.25, 122.25)",
-          "resultVarName": "TestResult_math/pow_[a] (7.76, 7.76, 7.76, 7.76) [b] (2.35, 2.35, 2.35, 2.35) = (122.25, 122.25, 122.25, 122.25)",
+          "name": "[a] (7.764, 7.764, 7.764, 7.764) [b] (2.345, 2.345, 2.345, 2.345) = (122.250481, 122.250481, 122.250481, 122.250481)",
+          "resultVarName": "TestResult_math/pow_[a] (7.764, 7.764, 7.764, 7.764) [b] (2.345, 2.345, 2.345, 2.345) = (122.250481, 122.250481, 122.250481, 122.250481)",
           "resultVarId": 21,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -197,7 +197,7 @@
             122.250481
           ],
           "successResultVarId": 20,
-          "successResultVarName": "TestResult_HasPassed_math/pow_[a] (7.76, 7.76, 7.76, 7.76) [b] (2.35, 2.35, 2.35, 2.35) = (122.25, 122.25, 122.25, 122.25)"
+          "successResultVarName": "TestResult_HasPassed_math/pow_[a] (7.764, 7.764, 7.764, 7.764) [b] (2.345, 2.345, 2.345, 2.345) = (122.250481, 122.250481, 122.250481, 122.250481)"
         }
       ]
     }

@@ -4,10 +4,10 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| matMul2x2[0] | TestResult_math/matMul2x2_matMul2x2[0] | 1 | 4.00000
-| matMul2x2[1] | TestResult_math/matMul2x2_matMul2x2[1] | 3 | 2.00000
-| matMul2x2[2] | TestResult_math/matMul2x2_matMul2x2[2] | 5 | 9.00000
-| matMul2x2[3] | TestResult_math/matMul2x2_matMul2x2[3] | 7 | 7.00000
+| matMul2x2[0] | TestResult_math/matMul2x2_matMul2x2[0] | 1 | 4
+| matMul2x2[1] | TestResult_math/matMul2x2_matMul2x2[1] | 3 | 2
+| matMul2x2[2] | TestResult_math/matMul2x2_matMul2x2[2] | 5 | 9
+| matMul2x2[3] | TestResult_math/matMul2x2_matMul2x2[3] | 7 | 7
 
 Schemas used in this test case:
 - debug/log

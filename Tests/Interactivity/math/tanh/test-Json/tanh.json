@@ -25,37 +25,37 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 4.32 = 1.00",
+          "name": "[a] 4.324 = 0.9996491",
           "nodeId": 1
         },
         {
-          "name": "[a] (4.32, 4.32) = (1.00, 1.00)",
+          "name": "[a] (4.324, 4.324) = (0.9996491, 0.9996491)",
           "nodeId": 16
         },
         {
-          "name": "[a] (4.32, 4.32, 4.32) = (1.00, 1.00, 1.00)",
+          "name": "[a] (4.324, 4.324, 4.324) = (0.9996491, 0.9996491, 0.9996491)",
           "nodeId": 34
         },
         {
-          "name": "[a] (4.32, 4.32, 4.32, 4.32) = (1.00, 1.00, 1.00, 1.00)",
+          "name": "[a] (4.324, 4.324, 4.324, 4.324) = (0.9996491, 0.9996491, 0.9996491, 0.9996491)",
           "nodeId": 59
         }
       ],
       "subTests": [
         {
-          "name": "[a] 4.32 = 1.00",
-          "resultVarName": "TestResult_math/tanh_[a] 4.32 = 1.00",
+          "name": "[a] 4.324 = 0.9996491",
+          "resultVarName": "TestResult_math/tanh_[a] 4.324 = 0.9996491",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             0.9996491
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] 4.32 = 1.00"
+          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] 4.324 = 0.9996491"
         },
         {
-          "name": "[a] (4.32, 4.32) = (1.00, 1.00)",
-          "resultVarName": "TestResult_math/tanh_[a] (4.32, 4.32) = (1.00, 1.00)",
+          "name": "[a] (4.324, 4.324) = (0.9996491, 0.9996491)",
+          "resultVarName": "TestResult_math/tanh_[a] (4.324, 4.324) = (0.9996491, 0.9996491)",
           "resultVarId": 3,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -63,11 +63,11 @@
             0.9996491
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] (4.32, 4.32) = (1.00, 1.00)"
+          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] (4.324, 4.324) = (0.9996491, 0.9996491)"
         },
         {
-          "name": "[a] (4.32, 4.32, 4.32) = (1.00, 1.00, 1.00)",
-          "resultVarName": "TestResult_math/tanh_[a] (4.32, 4.32, 4.32) = (1.00, 1.00, 1.00)",
+          "name": "[a] (4.324, 4.324, 4.324) = (0.9996491, 0.9996491, 0.9996491)",
+          "resultVarName": "TestResult_math/tanh_[a] (4.324, 4.324, 4.324) = (0.9996491, 0.9996491, 0.9996491)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -76,11 +76,11 @@
             0.9996491
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] (4.32, 4.32, 4.32) = (1.00, 1.00, 1.00)"
+          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] (4.324, 4.324, 4.324) = (0.9996491, 0.9996491, 0.9996491)"
         },
         {
-          "name": "[a] (4.32, 4.32, 4.32, 4.32) = (1.00, 1.00, 1.00, 1.00)",
-          "resultVarName": "TestResult_math/tanh_[a] (4.32, 4.32, 4.32, 4.32) = (1.00, 1.00, 1.00, 1.00)",
+          "name": "[a] (4.324, 4.324, 4.324, 4.324) = (0.9996491, 0.9996491, 0.9996491, 0.9996491)",
+          "resultVarName": "TestResult_math/tanh_[a] (4.324, 4.324, 4.324, 4.324) = (0.9996491, 0.9996491, 0.9996491, 0.9996491)",
           "resultVarId": 7,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -90,7 +90,7 @@
             0.9996491
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] (4.32, 4.32, 4.32, 4.32) = (1.00, 1.00, 1.00, 1.00)"
+          "successResultVarName": "TestResult_HasPassed_math/tanh_[a] (4.324, 4.324, 4.324, 4.324) = (0.9996491, 0.9996491, 0.9996491, 0.9996491)"
         }
       ]
     }

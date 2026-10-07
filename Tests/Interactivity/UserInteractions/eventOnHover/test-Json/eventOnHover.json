@@ -38,7 +38,7 @@
             true
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverIn: flow fired"
+          "successResultVarName": "TestResult_UserInteractions/eventOnHover_onHoverIn: flow fired"
         },
         {
           "name": "onHoverIn: hoveredNode == target",
@@ -71,7 +71,7 @@
             true
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverOut: flow fired"
+          "successResultVarName": "TestResult_UserInteractions/eventOnHover_onHoverOut: flow fired"
         },
         {
           "name": "onHoverOut: hoveredNode == target",
@@ -90,21 +90,21 @@
           "resultVarId": 9,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverIn: hoverable=false NOT fired"
+          "successResultVarId": 9,
+          "successResultVarName": "TestResult_UserInteractions/eventOnHover_onHoverIn: hoverable=false NOT fired"
         },
         {
           "name": "onHoverIn: inherited hoverable=false NOT fired",
           "resultVarName": "TestResult_UserInteractions/eventOnHover_onHoverIn: inherited hoverable=false NOT fired",
-          "resultVarId": 11,
+          "resultVarId": 10,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 12,
-          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverIn: inherited hoverable=false NOT fired"
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_UserInteractions/eventOnHover_onHoverIn: inherited hoverable=false NOT fired"
         }
       ],
       "requiredInteractions": [

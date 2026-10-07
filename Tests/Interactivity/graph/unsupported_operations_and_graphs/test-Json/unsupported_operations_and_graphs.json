@@ -25,7 +25,7 @@
         },
         {
           "name": "invalid graph 1:\ngraph 0 runs",
-          "nodeId": 25
+          "nodeId": 24
         }
       ],
       "subTests": [
@@ -35,10 +35,10 @@
           "resultVarId": 2,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 3,
-          "successResultVarName": "TestResult_HasPassed_graph/unsupported operations and graphs_unsupported op:\noutput flow"
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_graph/unsupported operations and graphs_unsupported op:\noutput flow"
         },
         {
           "name": "unsupported op:\ntype-default output",
@@ -54,13 +54,13 @@
         {
           "name": "invalid graph 1:\ngraph 0 runs",
           "resultVarName": "TestResult_graph/unsupported operations and graphs_invalid graph 1:\ngraph 0 runs",
-          "resultVarId": 4,
+          "resultVarId": 3,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_graph/unsupported operations and graphs_invalid graph 1:\ngraph 0 runs"
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_graph/unsupported operations and graphs_invalid graph 1:\ngraph 0 runs"
         }
       ]
     }

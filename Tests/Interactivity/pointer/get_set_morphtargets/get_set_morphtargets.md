@@ -12,11 +12,11 @@
 | weights[0] from Node without Mesh (isValid == false) | TestResult_pointer/get_set_morphtargets_weights[0] from Node without Mesh (isValid == false) | 11 | False
 | weights[0] from Node without morph (isValid == false) | TestResult_pointer/get_set_morphtargets_weights[0] from Node without morph (isValid == false) | 13 | False
 | static weights[0] from Node with Mesh with Morph Targets (isValid == true) | TestResult_pointer/get_set_morphtargets_static weights[0] from Node with Mesh with Morph Targets (isValid == true) | 15 | True
-| static weights[0] from Node with Mesh with Morph Targets (value == 0.1) | TestResult_pointer/get_set_morphtargets_static weights[0] from Node with Mesh with Morph Targets (value == 0.1) | 17 | 0.10000
+| static weights[0] from Node with Mesh with Morph Targets (value == 0.1) | TestResult_pointer/get_set_morphtargets_static weights[0] from Node with Mesh with Morph Targets (value == 0.1) | 17 | 0.1
 | nonStatic weights[0] from Node with Mesh with Morph Targets (isValid == true) | TestResult_pointer/get_set_morphtargets_nonStatic weights[0] from Node with Mesh with Morph Targets (isValid == true) | 19 | True
-| nonStatic weights[0] from Node with Mesh with Morph Targets (value == 0.5) | TestResult_pointer/get_set_morphtargets_nonStatic weights[0] from Node with Mesh with Morph Targets (value == 0.5) | 21 | 0.50000
-| mesh and node weights[0] (value == 0.6) | TestResult_pointer/get_set_morphtargets_mesh and node weights[0] (value == 0.6) | 23 | 0.60000
-| Set weight and read back | TestResult_pointer/get_set_morphtargets_Set weight and read back | 25 | 0.90000
+| nonStatic weights[0] from Node with Mesh with Morph Targets (value == 0.5) | TestResult_pointer/get_set_morphtargets_nonStatic weights[0] from Node with Mesh with Morph Targets (value == 0.5) | 21 | 0.5
+| mesh and node weights[0] (value == 0.6) | TestResult_pointer/get_set_morphtargets_mesh and node weights[0] (value == 0.6) | 23 | 0.6
+| Set weight and read back | TestResult_pointer/get_set_morphtargets_Set weight and read back | 25 | 0.9
 
 Schemas used in this test case:
 - debug/log

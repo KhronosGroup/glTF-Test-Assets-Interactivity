@@ -18,19 +18,19 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 2.50 = 3.00",
+          "name": "[a] 2.5 = 3",
           "nodeId": 1
         },
         {
-          "name": "[a] -2.50 = -3.00",
+          "name": "[a] -2.5 = -3",
           "nodeId": 14
         },
         {
-          "name": "[a] 0.50 = 1.00",
+          "name": "[a] 0.5 = 1",
           "nodeId": 27
         },
         {
-          "name": "[a] 1.50 = 2.00",
+          "name": "[a] 1.5 = 2",
           "nodeId": 71
         },
         {
@@ -42,90 +42,90 @@
           "nodeId": 88
         },
         {
-          "name": "[a] 2.70 = 3.00",
+          "name": "[a] 2.7 = 3",
           "nodeId": 94
         },
         {
-          "name": "[a] -3.40 = -3.00",
+          "name": "[a] -3.4 = -3",
           "nodeId": 107
         },
         {
-          "name": "[a] (2.70, 2.70) = (3.00, 3.00)",
+          "name": "[a] (2.7, 2.7) = (3, 3)",
           "nodeId": 120
         },
         {
-          "name": "[a] (-3.40, -3.40) = (-3.00, -3.00)",
+          "name": "[a] (-3.4, -3.4) = (-3, -3)",
           "nodeId": 133
         },
         {
-          "name": "[a] (2.70, 2.70, 2.70) = (3.00, 3.00, 3.00)",
+          "name": "[a] (2.7, 2.7, 2.7) = (3, 3, 3)",
           "nodeId": 146
         },
         {
-          "name": "[a] (-3.40, -3.40, -3.40) = (-3.00, -3.00, -3.00)",
+          "name": "[a] (-3.4, -3.4, -3.4) = (-3, -3, -3)",
           "nodeId": 159
         },
         {
-          "name": "[a] (2.70, 2.70, 2.70, 2.70) = (3.00, 3.00, 3.00, 3.00)",
+          "name": "[a] (2.7, 2.7, 2.7, 2.7) = (3, 3, 3, 3)",
           "nodeId": 172
         },
         {
-          "name": "[a] (-3.40, -3.40, -3.40, -3.40) = (-3.00, -3.00, -3.00, -3.00)",
+          "name": "[a] (-3.4, -3.4, -3.4, -3.4) = (-3, -3, -3, -3)",
           "nodeId": 185
         },
         {
-          "name": "[a] [2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]",
+          "name": "[a] [2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7] = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]",
           "nodeId": 198
         },
         {
-          "name": "[a] [-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4] = [-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0]",
+          "name": "[a] [-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4] = [-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3]",
           "nodeId": 211
         }
       ],
       "subTests": [
         {
-          "name": "[a] 2.50 = 3.00",
-          "resultVarName": "TestResult_math/round_[a] 2.50 = 3.00",
+          "name": "[a] 2.5 = 3",
+          "resultVarName": "TestResult_math/round_[a] 2.5 = 3",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             3.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/round_[a] 2.50 = 3.00"
+          "successResultVarName": "TestResult_HasPassed_math/round_[a] 2.5 = 3"
         },
         {
-          "name": "[a] -2.50 = -3.00",
-          "resultVarName": "TestResult_math/round_[a] -2.50 = -3.00",
+          "name": "[a] -2.5 = -3",
+          "resultVarName": "TestResult_math/round_[a] -2.5 = -3",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             -3.0
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/round_[a] -2.50 = -3.00"
+          "successResultVarName": "TestResult_HasPassed_math/round_[a] -2.5 = -3"
         },
         {
-          "name": "[a] 0.50 = 1.00",
-          "resultVarName": "TestResult_math/round_[a] 0.50 = 1.00",
+          "name": "[a] 0.5 = 1",
+          "resultVarName": "TestResult_math/round_[a] 0.5 = 1",
           "resultVarId": 5,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/round_[a] 0.50 = 1.00"
+          "successResultVarName": "TestResult_HasPassed_math/round_[a] 0.5 = 1"
         },
         {
-          "name": "[a] 1.50 = 2.00",
-          "resultVarName": "TestResult_math/round_[a] 1.50 = 2.00",
+          "name": "[a] 1.5 = 2",
+          "resultVarName": "TestResult_math/round_[a] 1.5 = 2",
           "resultVarId": 7,
           "resultVarType": "float",
           "expectedResultValue": [
             2.0
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/round_[a] 1.50 = 2.00"
+          "successResultVarName": "TestResult_HasPassed_math/round_[a] 1.5 = 2"
         },
         {
           "name": "[a] Infinity = Infinity",
@@ -150,30 +150,30 @@
           "successResultVarName": "TestResult_HasPassed_math/round_[a] -Infinity = -Infinity"
         },
         {
-          "name": "[a] 2.70 = 3.00",
-          "resultVarName": "TestResult_math/round_[a] 2.70 = 3.00",
+          "name": "[a] 2.7 = 3",
+          "resultVarName": "TestResult_math/round_[a] 2.7 = 3",
           "resultVarId": 13,
           "resultVarType": "float",
           "expectedResultValue": [
             3.0
           ],
           "successResultVarId": 12,
-          "successResultVarName": "TestResult_HasPassed_math/round_[a] 2.70 = 3.00"
+          "successResultVarName": "TestResult_HasPassed_math/round_[a] 2.7 = 3"
         },
         {
-          "name": "[a] -3.40 = -3.00",
-          "resultVarName": "TestResult_math/round_[a] -3.40 = -3.00",
+          "name": "[a] -3.4 = -3",
+          "resultVarName": "TestResult_math/round_[a] -3.4 = -3",
           "resultVarId": 15,
           "resultVarType": "float",
           "expectedResultValue": [
             -3.0
           ],
           "successResultVarId": 14,
-          "successResultVarName": "TestResult_HasPassed_math/round_[a] -3.40 = -3.00"
+          "successResultVarName": "TestResult_HasPassed_math/round_[a] -3.4 = -3"
         },
         {
-          "name": "[a] (2.70, 2.70) = (3.00, 3.00)",
-          "resultVarName": "TestResult_math/round_[a] (2.70, 2.70) = (3.00, 3.00)",
+          "name": "[a] (2.7, 2.7) = (3, 3)",
+          "resultVarName": "TestResult_math/round_[a] (2.7, 2.7) = (3, 3)",
           "resultVarId": 17,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -181,11 +181,11 @@
             3.0
           ],
           "successResultVarId": 16,
-          "successResultVarName": "TestResult_HasPassed_math/round_[a] (2.70, 2.70) = (3.00, 3.00)"
+          "successResultVarName": "TestResult_HasPassed_math/round_[a] (2.7, 2.7) = (3, 3)"
         },
         {
-          "name": "[a] (-3.40, -3.40) = (-3.00, -3.00)",
-          "resultVarName": "TestResult_math/round_[a] (-3.40, -3.40) = (-3.00, -3.00)",
+          "name": "[a] (-3.4, -3.4) = (-3, -3)",
+          "resultVarName": "TestResult_math/round_[a] (-3.4, -3.4) = (-3, -3)",
           "resultVarId": 19,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -193,11 +193,11 @@
             -3.0
           ],
           "successResultVarId": 18,
-          "successResultVarName": "TestResult_HasPassed_math/round_[a] (-3.40, -3.40) = (-3.00, -3.00)"
+          "successResultVarName": "TestResult_HasPassed_math/round_[a] (-3.4, -3.4) = (-3, -3)"
         },
         {
-          "name": "[a] (2.70, 2.70, 2.70) = (3.00, 3.00, 3.00)",
-          "resultVarName": "TestResult_math/round_[a] (2.70, 2.70, 2.70) = (3.00, 3.00, 3.00)",
+          "name": "[a] (2.7, 2.7, 2.7) = (3, 3, 3)",
+          "resultVarName": "TestResult_math/round_[a] (2.7, 2.7, 2.7) = (3, 3, 3)",
           "resultVarId": 21,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -206,11 +206,11 @@
             3.0
           ],
           "successResultVarId": 20,
-          "successResultVarName": "TestResult_HasPassed_math/round_[a] (2.70, 2.70, 2.70) = (3.00, 3.00, 3.00)"
+          "successResultVarName": "TestResult_HasPassed_math/round_[a] (2.7, 2.7, 2.7) = (3, 3, 3)"
         },
         {
-          "name": "[a] (-3.40, -3.40, -3.40) = (-3.00, -3.00, -3.00)",
-          "resultVarName": "TestResult_math/round_[a] (-3.40, -3.40, -3.40) = (-3.00, -3.00, -3.00)",
+          "name": "[a] (-3.4, -3.4, -3.4) = (-3, -3, -3)",
+          "resultVarName": "TestResult_math/round_[a] (-3.4, -3.4, -3.4) = (-3, -3, -3)",
           "resultVarId": 23,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -219,11 +219,11 @@
             -3.0
           ],
           "successResultVarId": 22,
-          "successResultVarName": "TestResult_HasPassed_math/round_[a] (-3.40, -3.40, -3.40) = (-3.00, -3.00, -3.00)"
+          "successResultVarName": "TestResult_HasPassed_math/round_[a] (-3.4, -3.4, -3.4) = (-3, -3, -3)"
         },
         {
-          "name": "[a] (2.70, 2.70, 2.70, 2.70) = (3.00, 3.00, 3.00, 3.00)",
-          "resultVarName": "TestResult_math/round_[a] (2.70, 2.70, 2.70, 2.70) = (3.00, 3.00, 3.00, 3.00)",
+          "name": "[a] (2.7, 2.7, 2.7, 2.7) = (3, 3, 3, 3)",
+          "resultVarName": "TestResult_math/round_[a] (2.7, 2.7, 2.7, 2.7) = (3, 3, 3, 3)",
           "resultVarId": 25,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -233,11 +233,11 @@
             3.0
           ],
           "successResultVarId": 24,
-          "successResultVarName": "TestResult_HasPassed_math/round_[a] (2.70, 2.70, 2.70, 2.70) = (3.00, 3.00, 3.00, 3.00)"
+          "successResultVarName": "TestResult_HasPassed_math/round_[a] (2.7, 2.7, 2.7, 2.7) = (3, 3, 3, 3)"
         },
         {
-          "name": "[a] (-3.40, -3.40, -3.40, -3.40) = (-3.00, -3.00, -3.00, -3.00)",
-          "resultVarName": "TestResult_math/round_[a] (-3.40, -3.40, -3.40, -3.40) = (-3.00, -3.00, -3.00, -3.00)",
+          "name": "[a] (-3.4, -3.4, -3.4, -3.4) = (-3, -3, -3, -3)",
+          "resultVarName": "TestResult_math/round_[a] (-3.4, -3.4, -3.4, -3.4) = (-3, -3, -3, -3)",
           "resultVarId": 27,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -247,11 +247,11 @@
             -3.0
           ],
           "successResultVarId": 26,
-          "successResultVarName": "TestResult_HasPassed_math/round_[a] (-3.40, -3.40, -3.40, -3.40) = (-3.00, -3.00, -3.00, -3.00)"
+          "successResultVarName": "TestResult_HasPassed_math/round_[a] (-3.4, -3.4, -3.4, -3.4) = (-3, -3, -3, -3)"
         },
         {
-          "name": "[a] [2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]",
-          "resultVarName": "TestResult_math/round_[a] [2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]",
+          "name": "[a] [2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7] = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]",
+          "resultVarName": "TestResult_math/round_[a] [2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7] = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]",
           "resultVarId": 29,
           "resultVarType": "float4x4",
           "expectedResultValue": [
@@ -273,11 +273,11 @@
             3.0
           ],
           "successResultVarId": 28,
-          "successResultVarName": "TestResult_HasPassed_math/round_[a] [2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7] = [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]"
+          "successResultVarName": "TestResult_HasPassed_math/round_[a] [2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7] = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]"
         },
         {
-          "name": "[a] [-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4] = [-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0]",
-          "resultVarName": "TestResult_math/round_[a] [-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4] = [-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0]",
+          "name": "[a] [-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4] = [-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3]",
+          "resultVarName": "TestResult_math/round_[a] [-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4] = [-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3]",
           "resultVarId": 31,
           "resultVarType": "float4x4",
           "expectedResultValue": [
@@ -299,7 +299,7 @@
             -3.0
           ],
           "successResultVarId": 30,
-          "successResultVarName": "TestResult_HasPassed_math/round_[a] [-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4] = [-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0]"
+          "successResultVarName": "TestResult_HasPassed_math/round_[a] [-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4,-3.4] = [-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3,-3]"
         }
       ]
     }

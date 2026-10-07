@@ -19,7 +19,7 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 7.00 [b] 9.00 = -2.00",
+          "name": "[a] 7 [b] 9 = -2",
           "nodeId": 1
         },
         {
@@ -37,15 +37,15 @@
       ],
       "subTests": [
         {
-          "name": "[a] 7.00 [b] 9.00 = -2.00",
-          "resultVarName": "TestResult_math/sub_[a] 7.00 [b] 9.00 = -2.00",
+          "name": "[a] 7 [b] 9 = -2",
+          "resultVarName": "TestResult_math/sub_[a] 7 [b] 9 = -2",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             -2.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/sub_[a] 7.00 [b] 9.00 = -2.00"
+          "successResultVarName": "TestResult_HasPassed_math/sub_[a] 7 [b] 9 = -2"
         },
         {
           "name": "[a] 10 [b] 4 = 6",

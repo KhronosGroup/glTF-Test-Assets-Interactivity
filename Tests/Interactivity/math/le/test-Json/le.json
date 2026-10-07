@@ -18,7 +18,7 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 1.35 [b] 1.35 = True",
+          "name": "[a] 1.3465 [b] 1.3465 = True",
           "nodeId": 1
         },
         {
@@ -34,21 +34,21 @@
           "nodeId": 49
         },
         {
-          "name": "[a] NaN [b] 1.00 = False",
+          "name": "[a] NaN [b] 1 = False",
           "nodeId": 61
         }
       ],
       "subTests": [
         {
-          "name": "[a] 1.35 [b] 1.35 = True",
-          "resultVarName": "TestResult_math/le_[a] 1.35 [b] 1.35 = True",
+          "name": "[a] 1.3465 [b] 1.3465 = True",
+          "resultVarName": "TestResult_math/le_[a] 1.3465 [b] 1.3465 = True",
           "resultVarId": 1,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/le_[a] 1.35 [b] 1.35 = True"
+          "successResultVarName": "TestResult_HasPassed_math/le_[a] 1.3465 [b] 1.3465 = True"
         },
         {
           "name": "[a] 4 [b] 4 = True",
@@ -84,15 +84,15 @@
           "successResultVarName": "TestResult_HasPassed_math/le_[a] 5 [b] 4 = False"
         },
         {
-          "name": "[a] NaN [b] 1.00 = False",
-          "resultVarName": "TestResult_math/le_[a] NaN [b] 1.00 = False",
+          "name": "[a] NaN [b] 1 = False",
+          "resultVarName": "TestResult_math/le_[a] NaN [b] 1 = False",
           "resultVarId": 9,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/le_[a] NaN [b] 1.00 = False"
+          "successResultVarName": "TestResult_HasPassed_math/le_[a] NaN [b] 1 = False"
         }
       ]
     }

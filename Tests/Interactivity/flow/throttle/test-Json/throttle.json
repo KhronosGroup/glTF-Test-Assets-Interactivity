@@ -38,27 +38,27 @@
         },
         {
           "name": "[reset]",
-          "nodeId": 92
+          "nodeId": 91
         },
         {
           "name": "[err] Flow on NaN Duration",
-          "nodeId": 106
+          "nodeId": 105
         },
         {
           "name": "[err] Flow on +Inf Duration",
-          "nodeId": 111
+          "nodeId": 110
         },
         {
           "name": "Duration 0: every [in] passes (3x)",
-          "nodeId": 116
+          "nodeId": 115
         },
         {
           "name": "[lastRemainingTime] NaN before first [in]",
-          "nodeId": 131
+          "nodeId": 130
         },
         {
           "name": "[lastRemainingTime] NaN after [reset]",
-          "nodeId": 141
+          "nodeId": 140
         }
       ],
       "subTests": [
@@ -104,7 +104,7 @@
             true
           ],
           "successResultVarId": 5,
-          "successResultVarName": "TestResult_HasPassed_flow/throttle_SubTest: setDelay"
+          "successResultVarName": "TestResult_flow/throttle_SubTest: setDelay"
         },
         {
           "name": "[err] Flow on -1 Duration",
@@ -115,7 +115,7 @@
             true
           ],
           "successResultVarId": 9,
-          "successResultVarName": "TestResult_HasPassed_flow/throttle_[err] Flow on -1 Duration"
+          "successResultVarName": "TestResult_flow/throttle_[err] Flow on -1 Duration"
         },
         {
           "name": "Ignore [out] when error",
@@ -123,75 +123,75 @@
           "resultVarId": 10,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 11,
-          "successResultVarName": "TestResult_HasPassed_flow/throttle_Ignore [out] when error"
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_flow/throttle_Ignore [out] when error"
         },
         {
           "name": "[reset]",
           "resultVarName": "TestResult_flow/throttle_[reset]",
-          "resultVarId": 14,
+          "resultVarId": 13,
           "resultVarType": "int",
           "expectedResultValue": [
             3
           ],
-          "successResultVarId": 13,
+          "successResultVarId": 12,
           "successResultVarName": "TestResult_HasPassed_flow/throttle_[reset]"
         },
         {
           "name": "[err] Flow on NaN Duration",
           "resultVarName": "TestResult_flow/throttle_[err] Flow on NaN Duration",
+          "resultVarId": 14,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_flow/throttle_[err] Flow on NaN Duration"
+        },
+        {
+          "name": "[err] Flow on +Inf Duration",
+          "resultVarName": "TestResult_flow/throttle_[err] Flow on +Inf Duration",
           "resultVarId": 15,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 15,
-          "successResultVarName": "TestResult_HasPassed_flow/throttle_[err] Flow on NaN Duration"
-        },
-        {
-          "name": "[err] Flow on +Inf Duration",
-          "resultVarName": "TestResult_flow/throttle_[err] Flow on +Inf Duration",
-          "resultVarId": 16,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            true
-          ],
-          "successResultVarId": 16,
-          "successResultVarName": "TestResult_HasPassed_flow/throttle_[err] Flow on +Inf Duration"
+          "successResultVarName": "TestResult_flow/throttle_[err] Flow on +Inf Duration"
         },
         {
           "name": "Duration 0: every [in] passes (3x)",
           "resultVarName": "TestResult_flow/throttle_Duration 0: every [in] passes (3x)",
-          "resultVarId": 19,
+          "resultVarId": 18,
           "resultVarType": "int",
           "expectedResultValue": [
             3
           ],
-          "successResultVarId": 18,
+          "successResultVarId": 17,
           "successResultVarName": "TestResult_HasPassed_flow/throttle_Duration 0: every [in] passes (3x)"
         },
         {
           "name": "[lastRemainingTime] NaN before first [in]",
           "resultVarName": "TestResult_flow/throttle_[lastRemainingTime] NaN before first [in]",
-          "resultVarId": 21,
+          "resultVarId": 20,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
-          "successResultVarId": 20,
+          "successResultVarId": 19,
           "successResultVarName": "TestResult_HasPassed_flow/throttle_[lastRemainingTime] NaN before first [in]"
         },
         {
           "name": "[lastRemainingTime] NaN after [reset]",
           "resultVarName": "TestResult_flow/throttle_[lastRemainingTime] NaN after [reset]",
-          "resultVarId": 23,
+          "resultVarId": 22,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
-          "successResultVarId": 22,
+          "successResultVarId": 21,
           "successResultVarName": "TestResult_HasPassed_flow/throttle_[lastRemainingTime] NaN after [reset]"
         }
       ]

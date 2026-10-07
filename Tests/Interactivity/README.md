@@ -6,15 +6,17 @@ glTF extension. Each asset is a small, self‑checking interactivity graph: it r
 a set of operations, compares the results against known‑good expected values, and
 records whether every sub‑test passed.
 
-> **Current coverage:** 159 test files · 1,071 sub-tests, plus 179 invalid-graph cases.
+<!-- coverage:start -->
+> **Current coverage:** 159 test files · 1,073 sub-tests, plus 179 invalid-graph cases.
 >
 > | Set | Test cases | Sub-tests |
 > | --- | ---: | ---: |
-> | `test-index.json` (animation, event, flow, graph, pointer, type, variable, ref, prerequisites, Extras) | 39 | 512 |
+> | `test-index.json` (animation, event, Extras, flow, graph, pointer, prerequisites, ref, type, variable) | 39 | 514 |
 > | `mathtests-index.json` | 116 | 543 |
 > | `UserInteractions/` (need a simulated hover/select) | 2 | 13 |
 > | `InterGlb/` (two files loaded together) | 2 | 3 |
 > | [`invalid/`](#invalid-graphs-invalid) (must be rejected, no sub-tests) | 179 | — |
+<!-- coverage:end -->
 
 The assets are meant to be used two ways:
 
@@ -113,12 +115,20 @@ Each entry looks like:
 
 ## How a test encodes pass/fail
 
-Every sub-test writes **two** graph variables:
+A sub-test that checks a **value** writes **two** graph variables:
 
 | Variable | Type | Meaning |
 | --- | --- | --- |
 | `TestResult_<test>_<subtest>` | float / int / bool / vecN … | The **actual computed value** produced by the operation under test. |
 | `TestResult_HasPassed_<test>_<subtest>` | bool | `true` if the computed value matched the expected value (with an epsilon for floats). |
+
+A sub-test that checks a **flow** (e.g. "`[out]` fired", or "`[err]` must not fire") writes a single bool
+variable `TestResult_<test>_<subtest>`, which is both the result and the pass state, and expects `true`:
+
+- flow must fire: starts `false`, set to `true` when the flow fires;
+- flow must not fire: starts `true`, set to `false` when the flow fires.
+
+For these, `successResultVarId` is the same as `resultVarId`.
 
 The oracle JSON (`test-Json/<name>.json`) describes these for every sub-test:
 
@@ -130,17 +140,17 @@ The oracle JSON (`test-Json/<name>.json`) describes these for every sub-test:
     "name": "math/abs",
     "usedSchemas": ["math/abs", "math/eq", "flow/branch", "..."],
     "entryPoints": [
-      { "name": "[a] -7.00 = 7.00", "nodeId": 1 },
-      { "name": "[a]  7.00 = 7.00", "nodeId": 15 }
+      { "name": "[a] -7 = 7", "nodeId": 1 },
+      { "name": "[a] 7 = 7", "nodeId": 14 }
     ],
     "subTests": [{
-      "name": "[a] -7.00 = 7.00",
-      "resultVarName": "TestResult_math/abs_[a] -7.00 = 7.00",
+      "name": "[a] -7 = 7",
+      "resultVarName": "TestResult_math/abs_[a] -7 = 7",
       "resultVarId": 1,
       "resultVarType": "float",
       "expectedResultValue": [ 7.0 ],
       "successResultVarId": 0,
-      "successResultVarName": "TestResult_HasPassed_math/abs_[a] -7.00 = 7.00"
+      "successResultVarName": "TestResult_HasPassed_math/abs_[a] -7 = 7"
     }]
   }]
 }
@@ -152,7 +162,7 @@ Field reference:
 - `resultVarId` / `resultVarName` — the graph variable holding the actual result.
 - `expectedResultValue` — the correct value (an array, because vectors/matrices have multiple components).
 - `resultVarType` — how to interpret/compare the value (`float` comparisons use an epsilon; `int`/`bool` compare exactly).
-- `successResultVarId` / `successResultVarName` — the boolean "did this sub-test pass" variable, computed **inside the graph** by the asset itself.
+- `successResultVarId` / `successResultVarName` — the boolean "did this sub-test pass" variable, computed **inside the graph** by the asset itself. For flow checks this is the same variable as `resultVarId` (see above).
 - `requiredInteractions[]` — **present only** on tests that need a simulated pointer gesture to
   be meaningful (currently `UserInteractions/eventOnHover` and `UserInteractions/eventOnSelect`).
   Absent entirely on regular, self-checking tests. See

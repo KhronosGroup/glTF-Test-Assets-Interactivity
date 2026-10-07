@@ -4,8 +4,8 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| Axis | TestResult_math/quatToAxisAngle_Axis | 1 | (0.68880, 0.35250, 0.63347)
-| Angle | TestResult_math/quatToAxisAngle_Angle | 3 | 1.21049
+| Axis | TestResult_math/quatToAxisAngle_Axis | 1 | (0.688803852, 0.3525048, 0.63347435)
+| Angle | TestResult_math/quatToAxisAngle_Angle | 3 | 1.21048832
 
 Schemas used in this test case:
 - debug/log

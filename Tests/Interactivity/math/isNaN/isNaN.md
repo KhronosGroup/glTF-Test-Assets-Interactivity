@@ -5,7 +5,7 @@
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
 | [a] NaN = True | TestResult_math/isNaN_[a] NaN = True | 1 | True
-| [a] 1.00 = False | TestResult_math/isNaN_[a] 1.00 = False | 3 | False
+| [a] 1 = False | TestResult_math/isNaN_[a] 1 = False | 3 | False
 | [a] Infinity = False | TestResult_math/isNaN_[a] Infinity = False | 5 | False
 
 Schemas used in this test case:

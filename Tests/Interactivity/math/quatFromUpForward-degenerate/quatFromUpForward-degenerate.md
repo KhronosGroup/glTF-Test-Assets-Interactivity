@@ -4,7 +4,7 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| colinear up/forward: rotate(fwd) == forward | TestResult_math/quatFromUpForward-degenerate_colinear up/forward: rotate(fwd) == forward | 1 | (0.00000, 1.00000, 0.00000)
+| colinear up/forward: rotate(fwd) == forward | TestResult_math/quatFromUpForward-degenerate_colinear up/forward: rotate(fwd) == forward | 1 | (0, 1, 0)
 
 Schemas used in this test case:
 - debug/log

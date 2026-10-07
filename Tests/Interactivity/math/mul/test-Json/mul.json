@@ -22,7 +22,7 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 345.23 [b] 0.00 = 1.00",
+          "name": "[a] 345.234436 [b] 0.00289658247 = 1",
           "nodeId": 1
         },
         {
@@ -34,7 +34,7 @@
           "nodeId": 24
         },
         {
-          "name": "[a] 0.00 [b] Infinity = NaN",
+          "name": "[a] 0 [b] Infinity = NaN",
           "nodeId": 47
         },
         {
@@ -48,15 +48,15 @@
       ],
       "subTests": [
         {
-          "name": "[a] 345.23 [b] 0.00 = 1.00",
-          "resultVarName": "TestResult_math/mul_[a] 345.23 [b] 0.00 = 1.00",
+          "name": "[a] 345.234436 [b] 0.00289658247 = 1",
+          "resultVarName": "TestResult_math/mul_[a] 345.234436 [b] 0.00289658247 = 1",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/mul_[a] 345.23 [b] 0.00 = 1.00"
+          "successResultVarName": "TestResult_HasPassed_math/mul_[a] 345.234436 [b] 0.00289658247 = 1"
         },
         {
           "name": "[a] 2 [b] 3 = 6",
@@ -81,15 +81,15 @@
           "successResultVarName": "TestResult_HasPassed_math/mul_[a] 46341 [b] 46341 = -2147479015"
         },
         {
-          "name": "[a] 0.00 [b] Infinity = NaN",
-          "resultVarName": "TestResult_math/mul_[a] 0.00 [b] Infinity = NaN",
+          "name": "[a] 0 [b] Infinity = NaN",
+          "resultVarName": "TestResult_math/mul_[a] 0 [b] Infinity = NaN",
           "resultVarId": 7,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/mul_[a] 0.00 [b] Infinity = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/mul_[a] 0 [b] Infinity = NaN"
         },
         {
           "name": "[a] 2147483647 [b] 2147483647 = 1",

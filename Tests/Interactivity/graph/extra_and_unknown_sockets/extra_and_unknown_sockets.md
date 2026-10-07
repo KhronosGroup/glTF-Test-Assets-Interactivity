@@ -5,12 +5,12 @@
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
 | flow to unknownsocket: next output | TestResult_graph/extra and unknown sockets_flow to unknownsocket: next output | 0 | True
-| flow to unknownsocket: target not run | TestResult_graph/extra and unknown sockets_flow to unknownsocket: target not run | 1 | False
-| math/add withextra input c | TestResult_graph/extra and unknown sockets_math/add withextra input c | 4 | 3
-| flow/branch extraflow: [true] | TestResult_graph/extra and unknown sockets_flow/branch extraflow: [true] | 5 | True
-| flow/branch extraflow: target not run | TestResult_graph/extra and unknown sockets_flow/branch extraflow: target not run | 6 | False
-| type-default floatinput is NaN | TestResult_graph/extra and unknown sockets_type-default floatinput is NaN | 9 | True
-| node referencewith type | TestResult_graph/extra and unknown sockets_node referencewith type | 11 | 2.71828
+| flow to unknownsocket: target not run | TestResult_graph/extra and unknown sockets_flow to unknownsocket: target not run | 1 | True
+| math/add withextra input c | TestResult_graph/extra and unknown sockets_math/add withextra input c | 3 | 3
+| flow/branch extraflow: [true] | TestResult_graph/extra and unknown sockets_flow/branch extraflow: [true] | 4 | True
+| flow/branch extraflow: target not run | TestResult_graph/extra and unknown sockets_flow/branch extraflow: target not run | 5 | True
+| type-default floatinput is NaN | TestResult_graph/extra and unknown sockets_type-default floatinput is NaN | 7 | True
+| node referencewith type | TestResult_graph/extra and unknown sockets_node referencewith type | 9 | 2.71828175
 
 Schemas used in this test case:
 - debug/log

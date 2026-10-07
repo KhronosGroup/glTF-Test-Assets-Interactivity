@@ -23,22 +23,22 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] [0.0,2.1,0.7,3.0,0.0,2.1,-0.7,1.0,-3.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0] = [0.0,0.0,-0.3,0.7,0.2,0.2,0.0,-0.9,0.7,-0.7,0.0,-1.4,0.0,0.0,0.0,1.0]",
+          "name": "[a] [3.57627869E-07,2.12132025,0.7071067,3,0,2.12132025,-0.707106769,1,-2.99999952,0,1.1920929E-07,2,0,0,0,1] = [2.80979044E-08,-2.80979044E-08,-0.333333373,0.6666667,0.235702276,0.235702261,2.8097908E-08,-0.9428092,0.7071068,-0.7071068,8.429371E-08,-1.41421378,0,0,0,1]",
           "nodeId": 1
         },
         {
-          "name": "Invalid:[a] [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0] ",
+          "name": "Invalid:[a] [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] ",
           "nodeId": 77
         },
         {
-          "name": "Invalid:[a] [Infinity,-Infinity,0.0,0.0,Infinity,NaN,1.0,0.0,Infinity,0.0,0.0,0.0,0.0,0.0,0.0,0.0] ",
+          "name": "Invalid:[a] [Infinity,-Infinity,0,0,Infinity,NaN,1,0,Infinity,0,0,0,0,0,0,0] ",
           "nodeId": 89
         }
       ],
       "subTests": [
         {
-          "name": "[a] [0.0,2.1,0.7,3.0,0.0,2.1,-0.7,1.0,-3.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0] = [0.0,0.0,-0.3,0.7,0.2,0.2,0.0,-0.9,0.7,-0.7,0.0,-1.4,0.0,0.0,0.0,1.0]",
-          "resultVarName": "TestResult_math/inverse_[a] [0.0,2.1,0.7,3.0,0.0,2.1,-0.7,1.0,-3.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0] = [0.0,0.0,-0.3,0.7,0.2,0.2,0.0,-0.9,0.7,-0.7,0.0,-1.4,0.0,0.0,0.0,1.0]",
+          "name": "[a] [3.57627869E-07,2.12132025,0.7071067,3,0,2.12132025,-0.707106769,1,-2.99999952,0,1.1920929E-07,2,0,0,0,1] = [2.80979044E-08,-2.80979044E-08,-0.333333373,0.6666667,0.235702276,0.235702261,2.8097908E-08,-0.9428092,0.7071068,-0.7071068,8.429371E-08,-1.41421378,0,0,0,1]",
+          "resultVarName": "TestResult_math/inverse_[a] [3.57627869E-07,2.12132025,0.7071067,3,0,2.12132025,-0.707106769,1,-2.99999952,0,1.1920929E-07,2,0,0,0,1] = [2.80979044E-08,-2.80979044E-08,-0.333333373,0.6666667,0.235702276,0.235702261,2.8097908E-08,-0.9428092,0.7071068,-0.7071068,8.429371E-08,-1.41421378,0,0,0,1]",
           "resultVarId": 1,
           "resultVarType": "float4x4",
           "expectedResultValue": [
@@ -60,29 +60,29 @@
             1.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/inverse_[a] [0.0,2.1,0.7,3.0,0.0,2.1,-0.7,1.0,-3.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0] = [0.0,0.0,-0.3,0.7,0.2,0.2,0.0,-0.9,0.7,-0.7,0.0,-1.4,0.0,0.0,0.0,1.0]"
+          "successResultVarName": "TestResult_HasPassed_math/inverse_[a] [3.57627869E-07,2.12132025,0.7071067,3,0,2.12132025,-0.707106769,1,-2.99999952,0,1.1920929E-07,2,0,0,0,1] = [2.80979044E-08,-2.80979044E-08,-0.333333373,0.6666667,0.235702276,0.235702261,2.8097908E-08,-0.9428092,0.7071068,-0.7071068,8.429371E-08,-1.41421378,0,0,0,1]"
         },
         {
-          "name": "Invalid:[a] [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0] ",
-          "resultVarName": "TestResult_math/inverse_Invalid:[a] [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0] ",
+          "name": "Invalid:[a] [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] ",
+          "resultVarName": "TestResult_math/inverse_Invalid:[a] [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] ",
           "resultVarId": 3,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/inverse_Invalid:[a] [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0] "
+          "successResultVarName": "TestResult_HasPassed_math/inverse_Invalid:[a] [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] "
         },
         {
-          "name": "Invalid:[a] [Infinity,-Infinity,0.0,0.0,Infinity,NaN,1.0,0.0,Infinity,0.0,0.0,0.0,0.0,0.0,0.0,0.0] ",
-          "resultVarName": "TestResult_math/inverse_Invalid:[a] [Infinity,-Infinity,0.0,0.0,Infinity,NaN,1.0,0.0,Infinity,0.0,0.0,0.0,0.0,0.0,0.0,0.0] ",
+          "name": "Invalid:[a] [Infinity,-Infinity,0,0,Infinity,NaN,1,0,Infinity,0,0,0,0,0,0,0] ",
+          "resultVarName": "TestResult_math/inverse_Invalid:[a] [Infinity,-Infinity,0,0,Infinity,NaN,1,0,Infinity,0,0,0,0,0,0,0] ",
           "resultVarId": 5,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/inverse_Invalid:[a] [Infinity,-Infinity,0.0,0.0,Infinity,NaN,1.0,0.0,Infinity,0.0,0.0,0.0,0.0,0.0,0.0,0.0] "
+          "successResultVarName": "TestResult_HasPassed_math/inverse_Invalid:[a] [Infinity,-Infinity,0,0,Infinity,NaN,1,0,Infinity,0,0,0,0,0,0,0] "
         }
       ]
     }

@@ -4,7 +4,7 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| quatFromAxisAngle | TestResult_math/quatFromAxisAngle_quatFromAxisAngle | 1 | (0.00000, 0.70711, 0.00000, 0.70711)
+| quatFromAxisAngle | TestResult_math/quatFromAxisAngle_quatFromAxisAngle | 1 | (0, 0.707106769, 0, 0.707106769)
 
 Schemas used in this test case:
 - debug/log

@@ -26,7 +26,7 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 4.32 = 2.44",
+          "name": "[a] 4.324 = 2.44395351",
           "nodeId": 1
         },
         {
@@ -38,29 +38,29 @@
           "nodeId": 20
         },
         {
-          "name": "[a] (4.32, 4.32) = (2.44, 2.44)",
+          "name": "[a] (4.324, 4.324) = (2.44395351, 2.44395351)",
           "nodeId": 37
         },
         {
-          "name": "[a] (4.32, 4.32, 4.32) = (2.44, 2.44, 2.44)",
+          "name": "[a] (4.324, 4.324, 4.324) = (2.44395351, 2.44395351, 2.44395351)",
           "nodeId": 55
         },
         {
-          "name": "[a] (4.32, 4.32, 4.32, 4.32) = (2.44, 2.44, 2.44, 2.44)",
+          "name": "[a] (4.324, 4.324, 4.324, 4.324) = (2.44395351, 2.44395351, 2.44395351, 2.44395351)",
           "nodeId": 73
         }
       ],
       "subTests": [
         {
-          "name": "[a] 4.32 = 2.44",
-          "resultVarName": "TestResult_math/tan_[a] 4.32 = 2.44",
+          "name": "[a] 4.324 = 2.44395351",
+          "resultVarName": "TestResult_math/tan_[a] 4.324 = 2.44395351",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             2.44395351
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/tan_[a] 4.32 = 2.44"
+          "successResultVarName": "TestResult_HasPassed_math/tan_[a] 4.324 = 2.44395351"
         },
         {
           "name": "[a] Infinity = NaN",
@@ -85,8 +85,8 @@
           "successResultVarName": "TestResult_HasPassed_math/tan_[a] -Infinity = NaN"
         },
         {
-          "name": "[a] (4.32, 4.32) = (2.44, 2.44)",
-          "resultVarName": "TestResult_math/tan_[a] (4.32, 4.32) = (2.44, 2.44)",
+          "name": "[a] (4.324, 4.324) = (2.44395351, 2.44395351)",
+          "resultVarName": "TestResult_math/tan_[a] (4.324, 4.324) = (2.44395351, 2.44395351)",
           "resultVarId": 7,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -94,11 +94,11 @@
             2.44395351
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/tan_[a] (4.32, 4.32) = (2.44, 2.44)"
+          "successResultVarName": "TestResult_HasPassed_math/tan_[a] (4.324, 4.324) = (2.44395351, 2.44395351)"
         },
         {
-          "name": "[a] (4.32, 4.32, 4.32) = (2.44, 2.44, 2.44)",
-          "resultVarName": "TestResult_math/tan_[a] (4.32, 4.32, 4.32) = (2.44, 2.44, 2.44)",
+          "name": "[a] (4.324, 4.324, 4.324) = (2.44395351, 2.44395351, 2.44395351)",
+          "resultVarName": "TestResult_math/tan_[a] (4.324, 4.324, 4.324) = (2.44395351, 2.44395351, 2.44395351)",
           "resultVarId": 9,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -107,11 +107,11 @@
             2.44395351
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/tan_[a] (4.32, 4.32, 4.32) = (2.44, 2.44, 2.44)"
+          "successResultVarName": "TestResult_HasPassed_math/tan_[a] (4.324, 4.324, 4.324) = (2.44395351, 2.44395351, 2.44395351)"
         },
         {
-          "name": "[a] (4.32, 4.32, 4.32, 4.32) = (2.44, 2.44, 2.44, 2.44)",
-          "resultVarName": "TestResult_math/tan_[a] (4.32, 4.32, 4.32, 4.32) = (2.44, 2.44, 2.44, 2.44)",
+          "name": "[a] (4.324, 4.324, 4.324, 4.324) = (2.44395351, 2.44395351, 2.44395351, 2.44395351)",
+          "resultVarName": "TestResult_math/tan_[a] (4.324, 4.324, 4.324, 4.324) = (2.44395351, 2.44395351, 2.44395351, 2.44395351)",
           "resultVarId": 11,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -121,7 +121,7 @@
             2.44395351
           ],
           "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_math/tan_[a] (4.32, 4.32, 4.32, 4.32) = (2.44, 2.44, 2.44, 2.44)"
+          "successResultVarName": "TestResult_HasPassed_math/tan_[a] (4.324, 4.324, 4.324, 4.324) = (2.44395351, 2.44395351, 2.44395351, 2.44395351)"
         }
       ]
     }

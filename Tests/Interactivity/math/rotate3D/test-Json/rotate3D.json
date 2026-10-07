@@ -22,18 +22,18 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] (1.00, 2.00, 3.00) [rotation] (0.00, 1.00, 0.00, 0.00) = (-1.00, 2.00, -3.00)",
+          "name": "[a] (1, 2, 3) [rotation] (0, 1, 0, -4.371139E-08) = (-1.00000024, 2, -3)",
           "nodeId": 1
         },
         {
-          "name": "[a] (1.00, 2.00, 3.00) [rotation] (0.00, 1.00, 0.00, 1.00) = (5.00, 2.00, -5.00)",
+          "name": "[a] (1, 2, 3) [rotation] (0, 1, 0, 1) = (5, 2, -5)",
           "nodeId": 19
         }
       ],
       "subTests": [
         {
-          "name": "[a] (1.00, 2.00, 3.00) [rotation] (0.00, 1.00, 0.00, 0.00) = (-1.00, 2.00, -3.00)",
-          "resultVarName": "TestResult_math/rotate3D_[a] (1.00, 2.00, 3.00) [rotation] (0.00, 1.00, 0.00, 0.00) = (-1.00, 2.00, -3.00)",
+          "name": "[a] (1, 2, 3) [rotation] (0, 1, 0, -4.371139E-08) = (-1.00000024, 2, -3)",
+          "resultVarName": "TestResult_math/rotate3D_[a] (1, 2, 3) [rotation] (0, 1, 0, -4.371139E-08) = (-1.00000024, 2, -3)",
           "resultVarId": 1,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -42,11 +42,11 @@
             -3.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/rotate3D_[a] (1.00, 2.00, 3.00) [rotation] (0.00, 1.00, 0.00, 0.00) = (-1.00, 2.00, -3.00)"
+          "successResultVarName": "TestResult_HasPassed_math/rotate3D_[a] (1, 2, 3) [rotation] (0, 1, 0, -4.371139E-08) = (-1.00000024, 2, -3)"
         },
         {
-          "name": "[a] (1.00, 2.00, 3.00) [rotation] (0.00, 1.00, 0.00, 1.00) = (5.00, 2.00, -5.00)",
-          "resultVarName": "TestResult_math/rotate3D_[a] (1.00, 2.00, 3.00) [rotation] (0.00, 1.00, 0.00, 1.00) = (5.00, 2.00, -5.00)",
+          "name": "[a] (1, 2, 3) [rotation] (0, 1, 0, 1) = (5, 2, -5)",
+          "resultVarName": "TestResult_math/rotate3D_[a] (1, 2, 3) [rotation] (0, 1, 0, 1) = (5, 2, -5)",
           "resultVarId": 3,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -55,7 +55,7 @@
             -5.0
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/rotate3D_[a] (1.00, 2.00, 3.00) [rotation] (0.00, 1.00, 0.00, 1.00) = (5.00, 2.00, -5.00)"
+          "successResultVarName": "TestResult_HasPassed_math/rotate3D_[a] (1, 2, 3) [rotation] (0, 1, 0, 1) = (5, 2, -5)"
         }
       ]
     }

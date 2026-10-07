@@ -41,7 +41,7 @@
             true
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_graph/ignored configuration_debug/log invalid\nmessage: [out]"
+          "successResultVarName": "TestResult_graph/ignored configuration_debug/log invalid\nmessage: [out]"
         },
         {
           "name": "math/add with\nconfiguration",
@@ -63,7 +63,7 @@
             true
           ],
           "successResultVarId": 3,
-          "successResultVarName": "TestResult_HasPassed_graph/ignored configuration_flow/switch unknown\nproperty: case [1]"
+          "successResultVarName": "TestResult_graph/ignored configuration_flow/switch unknown\nproperty: case [1]"
         },
         {
           "name": "flow/switch unknown\nproperty: [default]",
@@ -71,10 +71,10 @@
           "resultVarId": 4,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 5,
-          "successResultVarName": "TestResult_HasPassed_graph/ignored configuration_flow/switch unknown\nproperty: [default]"
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_graph/ignored configuration_flow/switch unknown\nproperty: [default]"
         }
       ]
     }

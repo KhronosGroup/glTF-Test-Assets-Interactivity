@@ -30,11 +30,11 @@
         },
         {
           "name": "[err] flow \n(stopTime NaN)",
-          "nodeId": 58
+          "nodeId": 57
         },
         {
           "name": "[err] flow \n(invalid ref)",
-          "nodeId": 63
+          "nodeId": 62
         }
       ],
       "subTests": [
@@ -47,28 +47,28 @@
             true
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_animation/stopAt_Flow [out]"
+          "successResultVarName": "TestResult_animation/stopAt_Flow [out]"
         },
         {
           "name": "Flow [done]",
           "resultVarName": "TestResult_animation/stopAt_Flow [done]",
-          "resultVarId": 3,
+          "resultVarId": 2,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 3,
-          "successResultVarName": "TestResult_HasPassed_animation/stopAt_Flow [done]"
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_animation/stopAt_Flow [done]"
         },
         {
           "name": "Position at \nstopTime",
           "resultVarName": "TestResult_animation/stopAt_Position at \nstopTime",
-          "resultVarId": 5,
+          "resultVarId": 4,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
           ],
-          "successResultVarId": 4,
+          "successResultVarId": 3,
           "successResultVarName": "TestResult_HasPassed_animation/stopAt_Position at \nstopTime"
         },
         {
@@ -77,32 +77,32 @@
           "resultVarId": 1,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_animation/stopAt_Start [done] \nnot fired"
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_animation/stopAt_Start [done] \nnot fired"
         },
         {
           "name": "[err] flow \n(stopTime NaN)",
           "resultVarName": "TestResult_animation/stopAt_[err] flow \n(stopTime NaN)",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_animation/stopAt_[err] flow \n(stopTime NaN)"
+        },
+        {
+          "name": "[err] flow \n(invalid ref)",
+          "resultVarName": "TestResult_animation/stopAt_[err] flow \n(invalid ref)",
           "resultVarId": 6,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_animation/stopAt_[err] flow \n(stopTime NaN)"
-        },
-        {
-          "name": "[err] flow \n(invalid ref)",
-          "resultVarName": "TestResult_animation/stopAt_[err] flow \n(invalid ref)",
-          "resultVarId": 7,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            true
-          ],
-          "successResultVarId": 7,
-          "successResultVarName": "TestResult_HasPassed_animation/stopAt_[err] flow \n(invalid ref)"
+          "successResultVarName": "TestResult_animation/stopAt_[err] flow \n(invalid ref)"
         }
       ]
     }

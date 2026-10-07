@@ -20,21 +20,21 @@
       ],
       "entryPoints": [
         {
-          "name": "= 6.28",
+          "name": "= 6.28318548",
           "nodeId": 1
         }
       ],
       "subTests": [
         {
-          "name": "= 6.28",
-          "resultVarName": "TestResult_math/Tau_= 6.28",
+          "name": "= 6.28318548",
+          "resultVarName": "TestResult_math/Tau_= 6.28318548",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             6.28318548
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/Tau_= 6.28"
+          "successResultVarName": "TestResult_HasPassed_math/Tau_= 6.28318548"
         }
       ]
     }

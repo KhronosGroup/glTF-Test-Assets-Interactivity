@@ -4,7 +4,7 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| [a] (0.00, 1.00, 0.00, 0.00) = (0.00, -1.00, 0.00, 0.00) | TestResult_math/quatConjugate_[a] (0.00, 1.00, 0.00, 0.00) = (0.00, -1.00, 0.00, 0.00) | 1 | (0.00000, -1.00000, 0.00000, 0.00000)
+| [a] (0, 1, 0, -4.371139E-08) = (0, -1, 0, -4.371139E-08) | TestResult_math/quatConjugate_[a] (0, 1, 0, -4.371139E-08) = (0, -1, 0, -4.371139E-08) | 1 | (0, -1, 0, -4.371139E-08)
 
 Schemas used in this test case:
 - debug/log

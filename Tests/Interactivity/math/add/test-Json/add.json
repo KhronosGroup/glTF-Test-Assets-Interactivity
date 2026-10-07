@@ -18,7 +18,7 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] -1.00 [b] 3.00 = 2.00",
+          "name": "[a] -1 [b] 3 = 2",
           "nodeId": 1
         },
         {
@@ -32,15 +32,15 @@
       ],
       "subTests": [
         {
-          "name": "[a] -1.00 [b] 3.00 = 2.00",
-          "resultVarName": "TestResult_math/add_[a] -1.00 [b] 3.00 = 2.00",
+          "name": "[a] -1 [b] 3 = 2",
+          "resultVarName": "TestResult_math/add_[a] -1 [b] 3 = 2",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             2.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/add_[a] -1.00 [b] 3.00 = 2.00"
+          "successResultVarName": "TestResult_HasPassed_math/add_[a] -1 [b] 3 = 2"
         },
         {
           "name": "[a] 5 [b] 3 = 8",

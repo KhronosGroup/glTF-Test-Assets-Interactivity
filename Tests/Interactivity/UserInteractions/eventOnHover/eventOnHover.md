@@ -5,12 +5,12 @@
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
 | onHoverIn: flow fired | TestResult_UserInteractions/eventOnHover_onHoverIn: flow fired | 0 | True
-| onHoverIn: hoveredNode == target | TestResult_UserInteractions/eventOnHover_onHoverIn: hoveredNode == target | 2 | UnityGLTF.Interactivity.StaticRefPointer
+| onHoverIn: hoveredNode == target | TestResult_UserInteractions/eventOnHover_onHoverIn: hoveredNode == target | 2 | /nodes/3
 | onHoverIn: controllerIndex >= 0 | TestResult_UserInteractions/eventOnHover_onHoverIn: controllerIndex >= 0 | 4 | True
 | onHoverOut: flow fired | TestResult_UserInteractions/eventOnHover_onHoverOut: flow fired | 6 | True
-| onHoverOut: hoveredNode == target | TestResult_UserInteractions/eventOnHover_onHoverOut: hoveredNode == target | 8 | UnityGLTF.Interactivity.StaticRefPointer
-| onHoverIn: hoverable=false NOT fired | TestResult_UserInteractions/eventOnHover_onHoverIn: hoverable=false NOT fired | 9 | False
-| onHoverIn: inherited hoverable=false NOT fired | TestResult_UserInteractions/eventOnHover_onHoverIn: inherited hoverable=false NOT fired | 11 | False
+| onHoverOut: hoveredNode == target | TestResult_UserInteractions/eventOnHover_onHoverOut: hoveredNode == target | 8 | /nodes/3
+| onHoverIn: hoverable=false NOT fired | TestResult_UserInteractions/eventOnHover_onHoverIn: hoverable=false NOT fired | 9 | True
+| onHoverIn: inherited hoverable=false NOT fired | TestResult_UserInteractions/eventOnHover_onHoverIn: inherited hoverable=false NOT fired | 10 | True
 
 Schemas used in this test case:
 - debug/log

@@ -4,9 +4,9 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| unsupported op:output flow | TestResult_graph/unsupported operations and graphs_unsupported op:output flow | 2 | False
+| unsupported op:output flow | TestResult_graph/unsupported operations and graphs_unsupported op:output flow | 2 | True
 | unsupported op:type-default output | TestResult_graph/unsupported operations and graphs_unsupported op:type-default output | 1 | 0
-| invalid graph 1:graph 0 runs | TestResult_graph/unsupported operations and graphs_invalid graph 1:graph 0 runs | 4 | True
+| invalid graph 1:graph 0 runs | TestResult_graph/unsupported operations and graphs_invalid graph 1:graph 0 runs | 3 | True
 
 Schemas used in this test case:
 - debug/log

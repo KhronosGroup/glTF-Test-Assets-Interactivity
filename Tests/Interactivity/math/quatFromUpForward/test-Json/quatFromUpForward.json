@@ -22,22 +22,22 @@
       ],
       "entryPoints": [
         {
-          "name": "[forward] (0.00, 0.00, 1.00) [up] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.00, 1.00)",
+          "name": "[forward] (0, 0, 1) [up] (0, 1, 0) = (0, 0, 0, 1)",
           "nodeId": 1
         },
         {
-          "name": "[forward] (0.58, 0.58, 0.58) [up] (0.50, 0.71, 0.50) = (-0.28, 0.36, 0.12, 0.88)",
+          "name": "[forward] (0.5773503, 0.5773503, 0.5773503) [up] (0.497468323, 0.710669041, 0.497468323) = (-0.279848158, 0.3647052, 0.1159169, 0.8804763)",
           "nodeId": 19
         },
         {
-          "name": "[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)",
+          "name": "[forward] (0, 0, -1) [up] (0, -1, 0) = (1, 0, 0, 0)",
           "nodeId": 37
         }
       ],
       "subTests": [
         {
-          "name": "[forward] (0.00, 0.00, 1.00) [up] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.00, 1.00)",
-          "resultVarName": "TestResult_math/quatFromUpForward_[forward] (0.00, 0.00, 1.00) [up] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.00, 1.00)",
+          "name": "[forward] (0, 0, 1) [up] (0, 1, 0) = (0, 0, 0, 1)",
+          "resultVarName": "TestResult_math/quatFromUpForward_[forward] (0, 0, 1) [up] (0, 1, 0) = (0, 0, 0, 1)",
           "resultVarId": 1,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -47,11 +47,11 @@
             1.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_[forward] (0.00, 0.00, 1.00) [up] (0.00, 1.00, 0.00) = (0.00, 0.00, 0.00, 1.00)"
+          "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_[forward] (0, 0, 1) [up] (0, 1, 0) = (0, 0, 0, 1)"
         },
         {
-          "name": "[forward] (0.58, 0.58, 0.58) [up] (0.50, 0.71, 0.50) = (-0.28, 0.36, 0.12, 0.88)",
-          "resultVarName": "TestResult_math/quatFromUpForward_[forward] (0.58, 0.58, 0.58) [up] (0.50, 0.71, 0.50) = (-0.28, 0.36, 0.12, 0.88)",
+          "name": "[forward] (0.5773503, 0.5773503, 0.5773503) [up] (0.497468323, 0.710669041, 0.497468323) = (-0.279848158, 0.3647052, 0.1159169, 0.8804763)",
+          "resultVarName": "TestResult_math/quatFromUpForward_[forward] (0.5773503, 0.5773503, 0.5773503) [up] (0.497468323, 0.710669041, 0.497468323) = (-0.279848158, 0.3647052, 0.1159169, 0.8804763)",
           "resultVarId": 3,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -61,11 +61,11 @@
             0.8804763
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_[forward] (0.58, 0.58, 0.58) [up] (0.50, 0.71, 0.50) = (-0.28, 0.36, 0.12, 0.88)"
+          "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_[forward] (0.5773503, 0.5773503, 0.5773503) [up] (0.497468323, 0.710669041, 0.497468323) = (-0.279848158, 0.3647052, 0.1159169, 0.8804763)"
         },
         {
-          "name": "[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)",
-          "resultVarName": "TestResult_math/quatFromUpForward_[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)",
+          "name": "[forward] (0, 0, -1) [up] (0, -1, 0) = (1, 0, 0, 0)",
+          "resultVarName": "TestResult_math/quatFromUpForward_[forward] (0, 0, -1) [up] (0, -1, 0) = (1, 0, 0, 0)",
           "resultVarId": 5,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -75,7 +75,7 @@
             0.0
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_[forward] (0.00, 0.00, -1.00) [up] (0.00, -1.00, 0.00) = (1.00, 0.00, 0.00, 0.00)"
+          "successResultVarName": "TestResult_HasPassed_math/quatFromUpForward_[forward] (0, 0, -1) [up] (0, -1, 0) = (1, 0, 0, 0)"
         }
       ]
     }

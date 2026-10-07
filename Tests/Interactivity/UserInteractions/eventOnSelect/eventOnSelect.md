@@ -5,11 +5,11 @@
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
 | onSelect: flow fired | TestResult_UserInteractions/eventOnSelect_onSelect: flow fired | 0 | True
-| onSelect: selectedNode == target | TestResult_UserInteractions/eventOnSelect_onSelect: selectedNode == target | 2 | UnityGLTF.Interactivity.StaticRefPointer
+| onSelect: selectedNode == target | TestResult_UserInteractions/eventOnSelect_onSelect: selectedNode == target | 2 | /nodes/3
 | onSelect: controllerIndex >= 0 | TestResult_UserInteractions/eventOnSelect_onSelect: controllerIndex >= 0 | 4 | True
-| onSelect: selectionRayOrigin finite | TestResult_UserInteractions/eventOnSelect_onSelect: selectionRayOrigin finite | 6 | False
-| onSelect: selectable=false NOT fired | TestResult_UserInteractions/eventOnSelect_onSelect: selectable=false NOT fired | 8 | False
-| onSelect: inherited selectable=false NOT fired | TestResult_UserInteractions/eventOnSelect_onSelect: inherited selectable=false NOT fired | 10 | False
+| onSelect: selectionRayOriginisNaN == false | TestResult_UserInteractions/eventOnSelect_onSelect: selectionRayOriginisNaN == false | 6 | False
+| onSelect: selectable=false NOT fired | TestResult_UserInteractions/eventOnSelect_onSelect: selectable=false NOT fired | 8 | True
+| onSelect: inherited selectable=false NOT fired | TestResult_UserInteractions/eventOnSelect_onSelect: inherited selectable=false NOT fired | 9 | True
 
 Schemas used in this test case:
 - debug/log

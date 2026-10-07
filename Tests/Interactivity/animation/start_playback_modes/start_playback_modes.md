@@ -4,24 +4,24 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| Reverse (T..0):position at 50% | TestResult_animation/start playback modes_Reverse (T..0):position at 50% | 1 | 1.00000
+| Reverse (T..0):position at 50% | TestResult_animation/start playback modes_Reverse (T..0):position at 50% | 1 | 1
 | Reverse (T..0):[done] | TestResult_animation/start playback modes_Reverse (T..0):[done] | 2 | True
-| Reverse (T..0):position 0 on [done] | TestResult_animation/start playback modes_Reverse (T..0):position 0 on [done] | 4 | 0.00000
-| Times outside [0,T](1.25T..1.75T): [done] | TestResult_animation/start playback modes_Times outside [0,T](1.25T..1.75T): [done] | 19 | True
-| Times outside [0,T]:wrapped pose on [done] | TestResult_animation/start playback modes_Times outside [0,T]:wrapped pose on [done] | 21 | 1.50000
-| endTime +Inf:wraps (25% at 1.25T) | TestResult_animation/start playback modes_endTime +Inf:wraps (25% at 1.25T) | 6 | 0.50000
-| endTime +Inf:[done] not fired | TestResult_animation/start playback modes_endTime +Inf:[done] not fired | 13 | False
+| Reverse (T..0):position 0 on [done] | TestResult_animation/start playback modes_Reverse (T..0):position 0 on [done] | 4 | 0
+| Times outside [0,T](1.25T..1.75T): [done] | TestResult_animation/start playback modes_Times outside [0,T](1.25T..1.75T): [done] | 17 | True
+| Times outside [0,T]:wrapped pose on [done] | TestResult_animation/start playback modes_Times outside [0,T]:wrapped pose on [done] | 19 | 1.5
+| endTime +Inf:wraps (25% at 1.25T) | TestResult_animation/start playback modes_endTime +Inf:wraps (25% at 1.25T) | 6 | 0.5
+| endTime +Inf:[done] not fired | TestResult_animation/start playback modes_endTime +Inf:[done] not fired | 13 | True
 | endTime +Inf:isPlaying at 1.25T | TestResult_animation/start playback modes_endTime +Inf:isPlaying at 1.25T | 8 | True
-| endTime +Inf:playhead 0.25T | TestResult_animation/start playback modes_endTime +Inf:playhead 0.25T | 10 | 0.50000
-| endTime +Inf:virtualPlayhead 1.25T | TestResult_animation/start playback modes_endTime +Inf:virtualPlayhead 1.25T | 12 | 2.50000
-| endTime -Inf:wraps (75% at 1.25T) | TestResult_animation/start playback modes_endTime -Inf:wraps (75% at 1.25T) | 16 | 1.50000
-| endTime -Inf:[done] not fired | TestResult_animation/start playback modes_endTime -Inf:[done] not fired | 17 | False
-| startTime == endTime:[done] | TestResult_animation/start playback modes_startTime == endTime:[done] | 22 | True
-| startTime == endTime:pose at startTime | TestResult_animation/start playback modes_startTime == endTime:pose at startTime | 24 | 1.00000
-| Restart: 1st[done] not fired | TestResult_animation/start playback modes_Restart: 1st[done] not fired | 25 | False
-| Restart: 2nd[done] | TestResult_animation/start playback modes_Restart: 2nd[done] | 27 | True
-| Started from another[done]: [done] | TestResult_animation/start playback modes_Started from another[done]: [done] | 28 | True
-| Started from another[done]: end pose | TestResult_animation/start playback modes_Started from another[done]: end pose | 30 | 2.00000
+| endTime +Inf:playhead 0.25T | TestResult_animation/start playback modes_endTime +Inf:playhead 0.25T | 10 | 0.5
+| endTime +Inf:virtualPlayhead 1.25T | TestResult_animation/start playback modes_endTime +Inf:virtualPlayhead 1.25T | 12 | 2.5
+| endTime -Inf:wraps (75% at 1.25T) | TestResult_animation/start playback modes_endTime -Inf:wraps (75% at 1.25T) | 15 | 1.5
+| endTime -Inf:[done] not fired | TestResult_animation/start playback modes_endTime -Inf:[done] not fired | 16 | True
+| startTime == endTime:[done] | TestResult_animation/start playback modes_startTime == endTime:[done] | 20 | True
+| startTime == endTime:pose at startTime | TestResult_animation/start playback modes_startTime == endTime:pose at startTime | 22 | 1
+| Restart: 1st[done] not fired | TestResult_animation/start playback modes_Restart: 1st[done] not fired | 23 | True
+| Restart: 2nd[done] | TestResult_animation/start playback modes_Restart: 2nd[done] | 24 | True
+| Started from another[done]: [done] | TestResult_animation/start playback modes_Started from another[done]: [done] | 25 | True
+| Started from another[done]: end pose | TestResult_animation/start playback modes_Started from another[done]: end pose | 27 | 2
 
 Schemas used in this test case:
 - animation/start

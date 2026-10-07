@@ -19,11 +19,11 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] -1.50 = 0.00",
+          "name": "[a] -1.5 = 0",
           "nodeId": 1
         },
         {
-          "name": "[a] 2.50 = 1.00",
+          "name": "[a] 2.5 = 1",
           "nodeId": 14
         },
         {
@@ -31,44 +31,44 @@
           "nodeId": 26
         },
         {
-          "name": "[a] (-1.50, -1.50) = (0.00, 0.00)",
+          "name": "[a] (-1.5, -1.5) = (0, 0)",
           "nodeId": 45
         },
         {
-          "name": "[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)",
+          "name": "[a] (-1.5, -1.5, -1.5) = (0, 0, 0)",
           "nodeId": 58
         },
         {
-          "name": "[a] (-1.50, -1.50, -1.50, -1.50) = (0.00, 0.00, 0.00, 0.00)",
+          "name": "[a] (-1.5, -1.5, -1.5, -1.5) = (0, 0, 0, 0)",
           "nodeId": 71
         },
         {
-          "name": "[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
+          "name": "[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
           "nodeId": 84
         }
       ],
       "subTests": [
         {
-          "name": "[a] -1.50 = 0.00",
-          "resultVarName": "TestResult_math/saturate_[a] -1.50 = 0.00",
+          "name": "[a] -1.5 = 0",
+          "resultVarName": "TestResult_math/saturate_[a] -1.5 = 0",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             0.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] -1.50 = 0.00"
+          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] -1.5 = 0"
         },
         {
-          "name": "[a] 2.50 = 1.00",
-          "resultVarName": "TestResult_math/saturate_[a] 2.50 = 1.00",
+          "name": "[a] 2.5 = 1",
+          "resultVarName": "TestResult_math/saturate_[a] 2.5 = 1",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             1.0
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] 2.50 = 1.00"
+          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] 2.5 = 1"
         },
         {
           "name": "[a] NaN = NaN",
@@ -82,8 +82,8 @@
           "successResultVarName": "TestResult_HasPassed_math/saturate_[a] NaN = NaN"
         },
         {
-          "name": "[a] (-1.50, -1.50) = (0.00, 0.00)",
-          "resultVarName": "TestResult_math/saturate_[a] (-1.50, -1.50) = (0.00, 0.00)",
+          "name": "[a] (-1.5, -1.5) = (0, 0)",
+          "resultVarName": "TestResult_math/saturate_[a] (-1.5, -1.5) = (0, 0)",
           "resultVarId": 7,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -91,11 +91,11 @@
             0.0
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.50, -1.50) = (0.00, 0.00)"
+          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.5, -1.5) = (0, 0)"
         },
         {
-          "name": "[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)",
-          "resultVarName": "TestResult_math/saturate_[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)",
+          "name": "[a] (-1.5, -1.5, -1.5) = (0, 0, 0)",
+          "resultVarName": "TestResult_math/saturate_[a] (-1.5, -1.5, -1.5) = (0, 0, 0)",
           "resultVarId": 9,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -104,11 +104,11 @@
             0.0
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.50, -1.50, -1.50) = (0.00, 0.00, 0.00)"
+          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.5, -1.5, -1.5) = (0, 0, 0)"
         },
         {
-          "name": "[a] (-1.50, -1.50, -1.50, -1.50) = (0.00, 0.00, 0.00, 0.00)",
-          "resultVarName": "TestResult_math/saturate_[a] (-1.50, -1.50, -1.50, -1.50) = (0.00, 0.00, 0.00, 0.00)",
+          "name": "[a] (-1.5, -1.5, -1.5, -1.5) = (0, 0, 0, 0)",
+          "resultVarName": "TestResult_math/saturate_[a] (-1.5, -1.5, -1.5, -1.5) = (0, 0, 0, 0)",
           "resultVarId": 11,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -118,11 +118,11 @@
             0.0
           ],
           "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.50, -1.50, -1.50, -1.50) = (0.00, 0.00, 0.00, 0.00)"
+          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] (-1.5, -1.5, -1.5, -1.5) = (0, 0, 0, 0)"
         },
         {
-          "name": "[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
-          "resultVarName": "TestResult_math/saturate_[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]",
+          "name": "[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
+          "resultVarName": "TestResult_math/saturate_[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
           "resultVarId": 13,
           "resultVarType": "float4x4",
           "expectedResultValue": [
@@ -144,7 +144,7 @@
             0.0
           ],
           "successResultVarId": 12,
-          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]"
+          "successResultVarName": "TestResult_HasPassed_math/saturate_[a] [-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5] = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
         }
       ]
     }

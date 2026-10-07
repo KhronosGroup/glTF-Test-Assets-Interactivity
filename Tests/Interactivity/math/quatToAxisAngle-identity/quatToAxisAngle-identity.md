@@ -4,7 +4,7 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| identity -> angle 0 | TestResult_math/quatToAxisAngle-identity_identity -> angle 0 | 1 | 0.00000
+| identity -> angle 0 | TestResult_math/quatToAxisAngle-identity_identity -> angle 0 | 1 | 0
 
 Schemas used in this test case:
 - debug/log

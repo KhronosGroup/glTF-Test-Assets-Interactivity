@@ -22,14 +22,14 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] (0.00, 1.00, 0.00, 0.00) = (0.00, -1.00, 0.00, 0.00)",
+          "name": "[a] (0, 1, 0, -4.371139E-08) = (0, -1, 0, -4.371139E-08)",
           "nodeId": 1
         }
       ],
       "subTests": [
         {
-          "name": "[a] (0.00, 1.00, 0.00, 0.00) = (0.00, -1.00, 0.00, 0.00)",
-          "resultVarName": "TestResult_math/quatConjugate_[a] (0.00, 1.00, 0.00, 0.00) = (0.00, -1.00, 0.00, 0.00)",
+          "name": "[a] (0, 1, 0, -4.371139E-08) = (0, -1, 0, -4.371139E-08)",
+          "resultVarName": "TestResult_math/quatConjugate_[a] (0, 1, 0, -4.371139E-08) = (0, -1, 0, -4.371139E-08)",
           "resultVarId": 1,
           "resultVarType": "float4",
           "expectedResultValue": [
@@ -39,7 +39,7 @@
             -4.371139E-08
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/quatConjugate_[a] (0.00, 1.00, 0.00, 0.00) = (0.00, -1.00, 0.00, 0.00)"
+          "successResultVarName": "TestResult_HasPassed_math/quatConjugate_[a] (0, 1, 0, -4.371139E-08) = (0, -1, 0, -4.371139E-08)"
         }
       ]
     }

@@ -18,7 +18,7 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] 1.00 [b] 2.00 = False",
+          "name": "[a] 1 [b] 2 = False",
           "nodeId": 1
         },
         {
@@ -30,32 +30,32 @@
           "nodeId": 27
         },
         {
-          "name": "[a] NaN [b] 1.00 = False",
+          "name": "[a] NaN [b] 1 = False",
           "nodeId": 46
         }
       ],
       "subTests": [
         {
-          "name": "[a] 1.00 [b] 2.00 = False",
-          "resultVarName": "TestResult_math/gt_[a] 1.00 [b] 2.00 = False",
+          "name": "[a] 1 [b] 2 = False",
+          "resultVarName": "TestResult_math/gt_[a] 1 [b] 2 = False",
           "resultVarId": 1,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/gt_[a] 1.00 [b] 2.00 = False"
+          "successResultVarName": "TestResult_HasPassed_math/gt_[a] 1 [b] 2 = False"
         },
         {
           "name": "[a] 1 [b] 2 = False",
-          "resultVarName": "TestResult_math/gt_[a] 1 [b] 2 = False",
+          "resultVarName": "TestResult_math/gt_[a] 1 [b] 2 = False (1)",
           "resultVarId": 3,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/gt_[a] 1 [b] 2 = False"
+          "successResultVarName": "TestResult_HasPassed_math/gt_[a] 1 [b] 2 = False (1)"
         },
         {
           "name": "[a] 3 [b] 2 = True",
@@ -69,15 +69,15 @@
           "successResultVarName": "TestResult_HasPassed_math/gt_[a] 3 [b] 2 = True"
         },
         {
-          "name": "[a] NaN [b] 1.00 = False",
-          "resultVarName": "TestResult_math/gt_[a] NaN [b] 1.00 = False",
+          "name": "[a] NaN [b] 1 = False",
+          "resultVarName": "TestResult_math/gt_[a] NaN [b] 1 = False",
           "resultVarId": 7,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/gt_[a] NaN [b] 1.00 = False"
+          "successResultVarName": "TestResult_HasPassed_math/gt_[a] NaN [b] 1 = False"
         }
       ]
     }

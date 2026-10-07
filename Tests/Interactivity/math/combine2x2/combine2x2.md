@@ -4,10 +4,10 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| combine2x2[0] == 1 | TestResult_math/combine2x2_combine2x2[0] == 1 | 1 | 1.00000
-| combine2x2[1] == 2 | TestResult_math/combine2x2_combine2x2[1] == 2 | 3 | 2.00000
-| combine2x2[2] == 3 | TestResult_math/combine2x2_combine2x2[2] == 3 | 5 | 3.00000
-| combine2x2[3] == 4 | TestResult_math/combine2x2_combine2x2[3] == 4 | 7 | 4.00000
+| combine2x2[0] == 1 | TestResult_math/combine2x2_combine2x2[0] == 1 | 1 | 1
+| combine2x2[1] == 2 | TestResult_math/combine2x2_combine2x2[1] == 2 | 3 | 2
+| combine2x2[2] == 3 | TestResult_math/combine2x2_combine2x2[2] == 3 | 5 | 3
+| combine2x2[3] == 4 | TestResult_math/combine2x2_combine2x2[3] == 4 | 7 | 4
 
 Schemas used in this test case:
 - debug/log

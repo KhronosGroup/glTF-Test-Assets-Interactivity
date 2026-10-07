@@ -5,9 +5,9 @@
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
 | [out] fired right after [in] | TestResult_animation/start_[out] fired right after [in] | 1 | True
-| Position at 50% | TestResult_animation/start_Position at 50% | 3 | (-0.50000, 1.00000, 1.50000)
+| Position at 50% | TestResult_animation/start_Position at 50% | 3 | (-0.5, 1, 1.5)
 | Flow [done] | TestResult_animation/start_Flow [done] | 4 | True
-| Position at 100% | TestResult_animation/start_Position at 100% | 6 | (-1.00000, 2.00000, 3.00000)
+| Position at 100% | TestResult_animation/start_Position at 100% | 6 | (-1, 2, 3)
 | [err] flow (speed -1) | TestResult_animation/start_[err] flow (speed -1) | 7 | True
 | [err] flow (speed 0) | TestResult_animation/start_[err] flow (speed 0) | 8 | True
 | [err] flow (speed NaN) | TestResult_animation/start_[err] flow (speed NaN) | 9 | True

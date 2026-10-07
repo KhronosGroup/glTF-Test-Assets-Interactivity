@@ -22,14 +22,14 @@
       ],
       "entryPoints": [
         {
-          "name": "[translation] (1.00, 1.00, 1.00) [rotation] (0.00, 0.00, 0.00, 1.00) [scale] (1.00, 1.00, 1.00) = [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]",
+          "name": "[translation] (1, 1, 1) [rotation] (0, 0, 0, 1) [scale] (1, 1, 1) = [1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1]",
           "nodeId": 1
         }
       ],
       "subTests": [
         {
-          "name": "[translation] (1.00, 1.00, 1.00) [rotation] (0.00, 0.00, 0.00, 1.00) [scale] (1.00, 1.00, 1.00) = [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]",
-          "resultVarName": "TestResult_math/matCompose_[translation] (1.00, 1.00, 1.00) [rotation] (0.00, 0.00, 0.00, 1.00) [scale] (1.00, 1.00, 1.00) = [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]",
+          "name": "[translation] (1, 1, 1) [rotation] (0, 0, 0, 1) [scale] (1, 1, 1) = [1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1]",
+          "resultVarName": "TestResult_math/matCompose_[translation] (1, 1, 1) [rotation] (0, 0, 0, 1) [scale] (1, 1, 1) = [1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1]",
           "resultVarId": 1,
           "resultVarType": "float4x4",
           "expectedResultValue": [
@@ -51,7 +51,7 @@
             1.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/matCompose_[translation] (1.00, 1.00, 1.00) [rotation] (0.00, 0.00, 0.00, 1.00) [scale] (1.00, 1.00, 1.00) = [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]"
+          "successResultVarName": "TestResult_HasPassed_math/matCompose_[translation] (1, 1, 1) [rotation] (0, 0, 0, 1) [scale] (1, 1, 1) = [1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1]"
         }
       ]
     }

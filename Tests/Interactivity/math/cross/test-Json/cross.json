@@ -23,22 +23,22 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 1.00)",
+          "name": "[a] (1, 0, 0) [b] (0, 1, 0) = (0, 0, 1)",
           "nodeId": 1
         },
         {
-          "name": "[a] (2.00, 3.00, 4.00) [b] (5.00, 6.00, 7.00) = (-3.00, 6.00, -3.00)",
+          "name": "[a] (2, 3, 4) [b] (5, 6, 7) = (-3, 6, -3)",
           "nodeId": 19
         },
         {
-          "name": "[a] (2.00, 4.00, 6.00) [b] (1.00, 2.00, 3.00) = (0.00, 0.00, 0.00)",
+          "name": "[a] (2, 4, 6) [b] (1, 2, 3) = (0, 0, 0)",
           "nodeId": 37
         }
       ],
       "subTests": [
         {
-          "name": "[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 1.00)",
-          "resultVarName": "TestResult_math/cross_[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 1.00)",
+          "name": "[a] (1, 0, 0) [b] (0, 1, 0) = (0, 0, 1)",
+          "resultVarName": "TestResult_math/cross_[a] (1, 0, 0) [b] (0, 1, 0) = (0, 0, 1)",
           "resultVarId": 1,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -47,11 +47,11 @@
             1.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/cross_[a] (1.00, 0.00, 0.00) [b] (0.00, 1.00, 0.00) = (0.00, 0.00, 1.00)"
+          "successResultVarName": "TestResult_HasPassed_math/cross_[a] (1, 0, 0) [b] (0, 1, 0) = (0, 0, 1)"
         },
         {
-          "name": "[a] (2.00, 3.00, 4.00) [b] (5.00, 6.00, 7.00) = (-3.00, 6.00, -3.00)",
-          "resultVarName": "TestResult_math/cross_[a] (2.00, 3.00, 4.00) [b] (5.00, 6.00, 7.00) = (-3.00, 6.00, -3.00)",
+          "name": "[a] (2, 3, 4) [b] (5, 6, 7) = (-3, 6, -3)",
+          "resultVarName": "TestResult_math/cross_[a] (2, 3, 4) [b] (5, 6, 7) = (-3, 6, -3)",
           "resultVarId": 3,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -60,11 +60,11 @@
             -3.0
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/cross_[a] (2.00, 3.00, 4.00) [b] (5.00, 6.00, 7.00) = (-3.00, 6.00, -3.00)"
+          "successResultVarName": "TestResult_HasPassed_math/cross_[a] (2, 3, 4) [b] (5, 6, 7) = (-3, 6, -3)"
         },
         {
-          "name": "[a] (2.00, 4.00, 6.00) [b] (1.00, 2.00, 3.00) = (0.00, 0.00, 0.00)",
-          "resultVarName": "TestResult_math/cross_[a] (2.00, 4.00, 6.00) [b] (1.00, 2.00, 3.00) = (0.00, 0.00, 0.00)",
+          "name": "[a] (2, 4, 6) [b] (1, 2, 3) = (0, 0, 0)",
+          "resultVarName": "TestResult_math/cross_[a] (2, 4, 6) [b] (1, 2, 3) = (0, 0, 0)",
           "resultVarId": 5,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -73,7 +73,7 @@
             0.0
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/cross_[a] (2.00, 4.00, 6.00) [b] (1.00, 2.00, 3.00) = (0.00, 0.00, 0.00)"
+          "successResultVarName": "TestResult_HasPassed_math/cross_[a] (2, 4, 6) [b] (1, 2, 3) = (0, 0, 0)"
         }
       ]
     }

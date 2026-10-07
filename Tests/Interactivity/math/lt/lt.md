@@ -4,11 +4,11 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| [a] 1.00 [b] 2.00 = True | TestResult_math/lt_[a] 1.00 [b] 2.00 = True | 1 | True
-| [a] 1 [b] 2 = True | TestResult_math/lt_[a] 1 [b] 2 = True | 3 | True
+| [a] 1 [b] 2 = True | TestResult_math/lt_[a] 1 [b] 2 = True | 1 | True
+| [a] 1 [b] 2 = True | TestResult_math/lt_[a] 1 [b] 2 = True (1) | 3 | True
 | [a] 7 [b] 2 = False | TestResult_math/lt_[a] 7 [b] 2 = False | 5 | False
-| [a] NaN [b] 1.00 = False | TestResult_math/lt_[a] NaN [b] 1.00 = False | 7 | False
-| [a] 1.00 [b] NaN = False | TestResult_math/lt_[a] 1.00 [b] NaN = False | 9 | False
+| [a] NaN [b] 1 = False | TestResult_math/lt_[a] NaN [b] 1 = False | 7 | False
+| [a] 1 [b] NaN = False | TestResult_math/lt_[a] 1 [b] NaN = False | 9 | False
 
 Schemas used in this test case:
 - debug/log

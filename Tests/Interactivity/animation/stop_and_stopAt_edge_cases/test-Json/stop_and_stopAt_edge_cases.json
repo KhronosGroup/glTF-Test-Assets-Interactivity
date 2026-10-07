@@ -30,31 +30,31 @@
         },
         {
           "name": "stopAt, not playing:\n[out] (delayed execution)",
-          "nodeId": 16,
+          "nodeId": 15,
           "delayedExecutionTime": 1.2
         },
         {
           "name": "stopAt +Inf:\n[out]",
-          "nodeId": 68
+          "nodeId": 66
         },
         {
           "name": "stopTime == endTime:\nstart [done] (delayed execution)",
-          "nodeId": 80,
+          "nodeId": 78,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "stopTime passed:\nstopAt [done] (delayed execution)",
-          "nodeId": 103,
+          "nodeId": 100,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "stopTime > endTime:\nstopAt [out] (delayed execution)",
-          "nodeId": 145,
+          "nodeId": 141,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "stop from another\n[done]: [out] (delayed execution)",
-          "nodeId": 174,
+          "nodeId": 169,
           "delayedExecutionTime": 4.0
         }
       ],
@@ -68,7 +68,7 @@
             true
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stop, not playing:\n[out]"
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stop, not playing:\n[out]"
         },
         {
           "name": "stop, not playing:\nno [err]",
@@ -76,175 +76,175 @@
           "resultVarId": 1,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stop, not playing:\nno [err]"
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stop, not playing:\nno [err]"
         },
         {
           "name": "stopAt, not playing:\n[out]",
           "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopAt, not playing:\n[out]",
+          "resultVarId": 2,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stopAt, not playing:\n[out]"
+        },
+        {
+          "name": "stopAt, not playing:\n[done] not fired",
+          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopAt, not playing:\n[done] not fired",
           "resultVarId": 3,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 3,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopAt, not playing:\n[out]"
-        },
-        {
-          "name": "stopAt, not playing:\n[done] not fired",
-          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopAt, not playing:\n[done] not fired",
-          "resultVarId": 4,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            false
-          ],
-          "successResultVarId": 5,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopAt, not playing:\n[done] not fired"
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stopAt, not playing:\n[done] not fired"
         },
         {
           "name": "stopAt +Inf:\n[out]",
           "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopAt +Inf:\n[out]",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stopAt +Inf:\n[out]"
+        },
+        {
+          "name": "stopAt -Inf:\n[out]",
+          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopAt -Inf:\n[out]",
+          "resultVarId": 6,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stopAt -Inf:\n[out]"
+        },
+        {
+          "name": "stopAt +/-Inf:\nno [err]",
+          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopAt +/-Inf:\nno [err]",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stopAt +/-Inf:\nno [err]"
+        },
+        {
+          "name": "stopTime == endTime:\nstart [done]",
+          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime == endTime:\nstart [done]",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 7,
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime == endTime:\nstart [done]"
+        },
+        {
+          "name": "stopTime == endTime:\nstopAt [done] not fired",
+          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime == endTime:\nstopAt [done] not fired",
           "resultVarId": 8,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopAt +Inf:\n[out]"
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime == endTime:\nstopAt [done] not fired"
         },
         {
-          "name": "stopAt -Inf:\n[out]",
-          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopAt -Inf:\n[out]",
+          "name": "stopTime passed:\nstopAt [done]",
+          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime passed:\nstopAt [done]",
           "resultVarId": 9,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 9,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopAt -Inf:\n[out]"
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime passed:\nstopAt [done]"
         },
         {
-          "name": "stopAt +/-Inf:\nno [err]",
-          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopAt +/-Inf:\nno [err]",
-          "resultVarId": 6,
-          "resultVarType": "bool",
+          "name": "stopTime passed:\npose rewound",
+          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime passed:\npose rewound",
+          "resultVarId": 11,
+          "resultVarType": "float",
           "expectedResultValue": [
-            false
+            0.5
           ],
-          "successResultVarId": 7,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopAt +/-Inf:\nno [err]"
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopTime passed:\npose rewound"
         },
         {
-          "name": "stopTime == endTime:\nstart [done]",
-          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime == endTime:\nstart [done]",
-          "resultVarId": 10,
+          "name": "stopTime passed:\nstart [done] not fired",
+          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime passed:\nstart [done] not fired",
+          "resultVarId": 12,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 10,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopTime == endTime:\nstart [done]"
-        },
-        {
-          "name": "stopTime == endTime:\nstopAt [done] not fired",
-          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime == endTime:\nstopAt [done] not fired",
-          "resultVarId": 11,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            false
-          ],
           "successResultVarId": 12,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopTime == endTime:\nstopAt [done] not fired"
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime passed:\nstart [done] not fired"
         },
         {
-          "name": "stopTime passed:\nstopAt [done]",
-          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime passed:\nstopAt [done]",
+          "name": "stopTime > endTime:\nstopAt [out]",
+          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime > endTime:\nstopAt [out]",
           "resultVarId": 13,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 13,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopTime passed:\nstopAt [done]"
-        },
-        {
-          "name": "stopTime passed:\npose rewound",
-          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime passed:\npose rewound",
-          "resultVarId": 15,
-          "resultVarType": "float",
-          "expectedResultValue": [
-            0.5
-          ],
-          "successResultVarId": 14,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopTime passed:\npose rewound"
-        },
-        {
-          "name": "stopTime passed:\nstart [done] not fired",
-          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime passed:\nstart [done] not fired",
-          "resultVarId": 16,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            false
-          ],
-          "successResultVarId": 17,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopTime passed:\nstart [done] not fired"
-        },
-        {
-          "name": "stopTime > endTime:\nstopAt [out]",
-          "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime > endTime:\nstopAt [out]",
-          "resultVarId": 18,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            true
-          ],
-          "successResultVarId": 18,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopTime > endTime:\nstopAt [out]"
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime > endTime:\nstopAt [out]"
         },
         {
           "name": "stopTime > endTime:\nstopAt [done] not fired",
           "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime > endTime:\nstopAt [done] not fired",
-          "resultVarId": 19,
+          "resultVarId": 14,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 20,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopTime > endTime:\nstopAt [done] not fired"
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime > endTime:\nstopAt [done] not fired"
         },
         {
           "name": "stopTime > endTime:\nstart [done]",
           "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime > endTime:\nstart [done]",
-          "resultVarId": 21,
+          "resultVarId": 15,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 21,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopTime > endTime:\nstart [done]"
+          "successResultVarId": 15,
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stopTime > endTime:\nstart [done]"
         },
         {
           "name": "stop from another\n[done]: [out]",
           "resultVarName": "TestResult_animation/stop and stopAt edge cases_stop from another\n[done]: [out]",
-          "resultVarId": 22,
+          "resultVarId": 16,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 22,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stop from another\n[done]: [out]"
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stop from another\n[done]: [out]"
         },
         {
           "name": "stopped from another\n[done]: own [done] not fired",
           "resultVarName": "TestResult_animation/stop and stopAt edge cases_stopped from another\n[done]: own [done] not fired",
-          "resultVarId": 23,
+          "resultVarId": 17,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 24,
-          "successResultVarName": "TestResult_HasPassed_animation/stop and stopAt edge cases_stopped from another\n[done]: own [done] not fired"
+          "successResultVarId": 17,
+          "successResultVarName": "TestResult_animation/stop and stopAt edge cases_stopped from another\n[done]: own [done] not fired"
         }
       ]
     }

@@ -4,9 +4,9 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| [a] -7.00 = 7.00 | TestResult_math/abs_[a] -7.00 = 7.00 | 1 | 7.00000
-| [a] 7.00 = 7.00 | TestResult_math/abs_[a] 7.00 = 7.00 | 3 | 7.00000
-| [a] 0.00 = 0.00 | TestResult_math/abs_[a] 0.00 = 0.00 | 5 | 0.00000
+| [a] -7 = 7 | TestResult_math/abs_[a] -7 = 7 | 1 | 7
+| [a] 7 = 7 | TestResult_math/abs_[a] 7 = 7 | 3 | 7
+| [a] 0 = 0 | TestResult_math/abs_[a] 0 = 0 | 5 | 0
 | [a] -10 = 10 | TestResult_math/abs_[a] -10 = 10 | 7 | 10
 | [a] -2147483648 = -2147483648 | TestResult_math/abs_[a] -2147483648 = -2147483648 | 9 | -2147483648
 

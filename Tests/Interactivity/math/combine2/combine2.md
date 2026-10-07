@@ -4,7 +4,7 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| [a] 1.00 [b] 2.00 = (1.00, 2.00) | TestResult_math/combine2_[a] 1.00 [b] 2.00 = (1.00, 2.00) | 1 | (1.00000, 2.00000)
+| [a] 1 [b] 2 = (1, 2) | TestResult_math/combine2_[a] 1 [b] 2 = (1, 2) | 1 | (1, 2)
 
 Schemas used in this test case:
 - debug/log

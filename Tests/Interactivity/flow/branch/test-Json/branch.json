@@ -21,7 +21,7 @@
         },
         {
           "name": "Branch Condition False",
-          "nodeId": 16
+          "nodeId": 15
         }
       ],
       "subTests": [
@@ -34,7 +34,7 @@
             true
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_flow/branch_True-Condition true-flow"
+          "successResultVarName": "TestResult_flow/branch_True-Condition true-flow"
         },
         {
           "name": "True-Condition false-flow",
@@ -42,32 +42,32 @@
           "resultVarId": 1,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_flow/branch_True-Condition false-flow"
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_flow/branch_True-Condition false-flow"
         },
         {
           "name": "False-Condition true-flow",
           "resultVarName": "TestResult_flow/branch_False-Condition true-flow",
-          "resultVarId": 3,
-          "resultVarType": "bool",
-          "expectedResultValue": [
-            false
-          ],
-          "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_flow/branch_False-Condition true-flow"
-        },
-        {
-          "name": "False-Condition false-flow",
-          "resultVarName": "TestResult_flow/branch_False-Condition false-flow",
-          "resultVarId": 5,
+          "resultVarId": 2,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 5,
-          "successResultVarName": "TestResult_HasPassed_flow/branch_False-Condition false-flow"
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_flow/branch_False-Condition true-flow"
+        },
+        {
+          "name": "False-Condition false-flow",
+          "resultVarName": "TestResult_flow/branch_False-Condition false-flow",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_flow/branch_False-Condition false-flow"
         }
       ]
     }

@@ -22,81 +22,81 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] (13.00, 2.00) = 13.15",
+          "name": "[a] (13, 2) = 13.1529465",
           "nodeId": 1
         },
         {
-          "name": "[a] (13.00, 2.00, 15.00) = 19.95",
+          "name": "[a] (13, 2, 15) = 19.9499378",
           "nodeId": 16
         },
         {
-          "name": "[a] (13.00, 2.00, 23.00, 123.00) = 125.82",
+          "name": "[a] (13, 2, 23, 123) = 125.821304",
           "nodeId": 31
         },
         {
-          "name": "[a] (Infinity, 2.00, 3.00) = Infinity",
+          "name": "[a] (Infinity, 2, 3) = Infinity",
           "nodeId": 54
         },
         {
-          "name": "[a] (NaN, 2.00, 3.00) = NaN",
+          "name": "[a] (NaN, 2, 3) = NaN",
           "nodeId": 59
         }
       ],
       "subTests": [
         {
-          "name": "[a] (13.00, 2.00) = 13.15",
-          "resultVarName": "TestResult_math/length_[a] (13.00, 2.00) = 13.15",
+          "name": "[a] (13, 2) = 13.1529465",
+          "resultVarName": "TestResult_math/length_[a] (13, 2) = 13.1529465",
           "resultVarId": 1,
           "resultVarType": "float",
           "expectedResultValue": [
             13.1529465
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13.00, 2.00) = 13.15"
+          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13, 2) = 13.1529465"
         },
         {
-          "name": "[a] (13.00, 2.00, 15.00) = 19.95",
-          "resultVarName": "TestResult_math/length_[a] (13.00, 2.00, 15.00) = 19.95",
+          "name": "[a] (13, 2, 15) = 19.9499378",
+          "resultVarName": "TestResult_math/length_[a] (13, 2, 15) = 19.9499378",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             19.9499378
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13.00, 2.00, 15.00) = 19.95"
+          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13, 2, 15) = 19.9499378"
         },
         {
-          "name": "[a] (13.00, 2.00, 23.00, 123.00) = 125.82",
-          "resultVarName": "TestResult_math/length_[a] (13.00, 2.00, 23.00, 123.00) = 125.82",
+          "name": "[a] (13, 2, 23, 123) = 125.821304",
+          "resultVarName": "TestResult_math/length_[a] (13, 2, 23, 123) = 125.821304",
           "resultVarId": 5,
           "resultVarType": "float",
           "expectedResultValue": [
             125.821304
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13.00, 2.00, 23.00, 123.00) = 125.82"
+          "successResultVarName": "TestResult_HasPassed_math/length_[a] (13, 2, 23, 123) = 125.821304"
         },
         {
-          "name": "[a] (Infinity, 2.00, 3.00) = Infinity",
-          "resultVarName": "TestResult_math/length_[a] (Infinity, 2.00, 3.00) = Infinity",
+          "name": "[a] (Infinity, 2, 3) = Infinity",
+          "resultVarName": "TestResult_math/length_[a] (Infinity, 2, 3) = Infinity",
           "resultVarId": 7,
           "resultVarType": "float",
           "expectedResultValue": [
             "Infinity"
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_math/length_[a] (Infinity, 2.00, 3.00) = Infinity"
+          "successResultVarName": "TestResult_HasPassed_math/length_[a] (Infinity, 2, 3) = Infinity"
         },
         {
-          "name": "[a] (NaN, 2.00, 3.00) = NaN",
-          "resultVarName": "TestResult_math/length_[a] (NaN, 2.00, 3.00) = NaN",
+          "name": "[a] (NaN, 2, 3) = NaN",
+          "resultVarName": "TestResult_math/length_[a] (NaN, 2, 3) = NaN",
           "resultVarId": 9,
           "resultVarType": "float",
           "expectedResultValue": [
             "NaN"
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_math/length_[a] (NaN, 2.00, 3.00) = NaN"
+          "successResultVarName": "TestResult_HasPassed_math/length_[a] (NaN, 2, 3) = NaN"
         }
       ]
     }

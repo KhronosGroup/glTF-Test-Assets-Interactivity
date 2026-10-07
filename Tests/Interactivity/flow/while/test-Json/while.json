@@ -38,7 +38,7 @@
             true
           ],
           "successResultVarId": 1,
-          "successResultVarName": "TestResult_HasPassed_flow/while_[body] flow"
+          "successResultVarName": "TestResult_flow/while_[body] flow"
         },
         {
           "name": "[completed] flow",
@@ -49,7 +49,7 @@
             true
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_flow/while_[completed] flow"
+          "successResultVarName": "TestResult_flow/while_[completed] flow"
         },
         {
           "name": "[body] iteration (2)",
@@ -68,21 +68,21 @@
           "resultVarId": 5,
           "resultVarType": "bool",
           "expectedResultValue": [
-            false
+            true
           ],
-          "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_flow/while_[body] flow when false"
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_flow/while_[body] flow when false"
         },
         {
           "name": "[completed] flow when false",
           "resultVarName": "TestResult_flow/while_[completed] flow when false",
-          "resultVarId": 7,
+          "resultVarId": 6,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 7,
-          "successResultVarName": "TestResult_HasPassed_flow/while_[completed] flow when false"
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_flow/while_[completed] flow when false"
         }
       ]
     }

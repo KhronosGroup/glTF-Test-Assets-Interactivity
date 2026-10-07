@@ -64,37 +64,37 @@
       ],
       "subTests": [
         {
-          "name": "event/onStart\n ref not null",
-          "resultVarName": "TestResult_event/Event Refs_event/onStart\n ref not null",
+          "name": "event/onStart\n (ref == null) == false",
+          "resultVarName": "TestResult_event/Event Refs_event/onStart\n (ref == null) == false",
           "resultVarId": 1,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onStart\n ref not null"
+          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onStart\n (ref == null) == false"
         },
         {
-          "name": "event/onTick\n ref not null",
-          "resultVarName": "TestResult_event/Event Refs_event/onTick\n ref not null",
+          "name": "event/onTick\n (ref == null) == false",
+          "resultVarName": "TestResult_event/Event Refs_event/onTick\n (ref == null) == false",
           "resultVarId": 3,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onTick\n ref not null"
+          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onTick\n (ref == null) == false"
         },
         {
-          "name": "event/receive\n ref not null",
-          "resultVarName": "TestResult_event/Event Refs_event/receive\n ref not null",
+          "name": "event/receive\n (ref == null) == false",
+          "resultVarName": "TestResult_event/Event Refs_event/receive\n (ref == null) == false",
           "resultVarId": 6,
           "resultVarType": "bool",
           "expectedResultValue": [
             false
           ],
           "successResultVarId": 5,
-          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/receive\n ref not null"
+          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/receive\n (ref == null) == false"
         },
         {
           "name": "event/onStart\n two nodes same ref",
@@ -108,15 +108,15 @@
           "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onStart\n two nodes same ref"
         },
         {
-          "name": "event/onTick\nt wo nodes same ref",
-          "resultVarName": "TestResult_event/Event Refs_event/onTick\nt wo nodes same ref",
+          "name": "event/onTick\n two nodes same ref",
+          "resultVarName": "TestResult_event/Event Refs_event/onTick\n two nodes same ref",
           "resultVarId": 10,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 9,
-          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onTick\nt wo nodes same ref"
+          "successResultVarName": "TestResult_HasPassed_event/Event Refs_event/onTick\n two nodes same ref"
         },
         {
           "name": "event/onStart\n pointer/get isValid",
