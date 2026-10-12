@@ -669,6 +669,40 @@
     }
   },
   {
+    "label": "pointer/activeCamera",
+    "name": "pointer/activeCamera",
+    "tags": [
+      "event/onStart",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/branch",
+      "flow/setDelay",
+      "pointer/get",
+      "math/eq",
+      "flow/sequence",
+      "math/isNaN",
+      "math/and",
+      "math/or",
+      "math/extract3",
+      "math/not",
+      "math/extract4",
+      "math/length",
+      "math/sub",
+      "math/abs",
+      "math/lt",
+      "math/xor",
+      "math/gt",
+      "math/ge",
+      "pointer/interpolate"
+    ],
+    "variants": {
+      "glTF-Binary": "activeCamera.glb",
+      "test-Json": "activeCamera.json"
+    }
+  },
+  {
     "label": "pointer/get_set_morphtargets",
     "name": "pointer/get_set_morphtargets",
     "tags": [

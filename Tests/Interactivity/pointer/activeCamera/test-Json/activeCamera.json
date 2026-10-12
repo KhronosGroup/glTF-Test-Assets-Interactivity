@@ -1,0 +1,647 @@
+{
+  "glbFileName": "activeCamera.glb",
+  "name": "pointer/activeCamera",
+  "tests": [
+    {
+      "name": "pointer/activeCamera",
+      "description": "Read-only activeCamera pointers: pointer/get isValid, two reads in the same flow return the same value, pointer/set and pointer/interpolate fire [err] and don't change the value, and sanity checks of the values (assumes the viewer renders with an active camera, otherwise all values are NaN).",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "flow/setDelay",
+        "math/abs",
+        "math/and",
+        "math/eq",
+        "math/extract3",
+        "math/extract4",
+        "math/ge",
+        "math/gt",
+        "math/isNaN",
+        "math/length",
+        "math/lt",
+        "math/not",
+        "math/or",
+        "math/sub",
+        "math/xor",
+        "pointer/get",
+        "pointer/interpolate",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "No [out]/[done] on\nset and interpolate (delayed execution)",
+          "nodeId": 0,
+          "delayedExecutionTime": 0.5
+        },
+        {
+          "name": "position\nisValid",
+          "nodeId": 5
+        },
+        {
+          "name": "rotation\nisValid",
+          "nodeId": 146
+        },
+        {
+          "name": "perspective/aspectRatio\nisValid",
+          "nodeId": 192
+        },
+        {
+          "name": "perspective/yfov\nisValid",
+          "nodeId": 242
+        },
+        {
+          "name": "perspective/znear\nisValid",
+          "nodeId": 292
+        },
+        {
+          "name": "perspective/zfar\nisValid",
+          "nodeId": 342
+        },
+        {
+          "name": "orthographic/xmag\nisValid",
+          "nodeId": 392
+        },
+        {
+          "name": "orthographic/ymag\nisValid",
+          "nodeId": 442
+        },
+        {
+          "name": "orthographic/znear\nisValid",
+          "nodeId": 492
+        },
+        {
+          "name": "orthographic/zfar\nisValid",
+          "nodeId": 542
+        },
+        {
+          "name": "position\nhas no NaN",
+          "nodeId": 592
+        },
+        {
+          "name": "position\npointer/interpolate [err]",
+          "nodeId": 708
+        }
+      ],
+      "subTests": [
+        {
+          "name": "position\nisValid",
+          "resultVarName": "TestResult_pointer/activeCamera_position\nisValid",
+          "resultVarId": 2,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 1,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_position\nisValid"
+        },
+        {
+          "name": "position\ntwo reads equal",
+          "resultVarName": "TestResult_pointer/activeCamera_position\ntwo reads equal",
+          "resultVarId": 4,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_position\ntwo reads equal"
+        },
+        {
+          "name": "position\npointer/set [err]",
+          "resultVarName": "TestResult_pointer/activeCamera_position\npointer/set [err]",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_pointer/activeCamera_position\npointer/set [err]"
+        },
+        {
+          "name": "position\nunchanged after set",
+          "resultVarName": "TestResult_pointer/activeCamera_position\nunchanged after set",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_position\nunchanged after set"
+        },
+        {
+          "name": "rotation\nisValid",
+          "resultVarName": "TestResult_pointer/activeCamera_rotation\nisValid",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_rotation\nisValid"
+        },
+        {
+          "name": "rotation\ntwo reads equal",
+          "resultVarName": "TestResult_pointer/activeCamera_rotation\ntwo reads equal",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_rotation\ntwo reads equal"
+        },
+        {
+          "name": "rotation\npointer/set [err]",
+          "resultVarName": "TestResult_pointer/activeCamera_rotation\npointer/set [err]",
+          "resultVarId": 12,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_pointer/activeCamera_rotation\npointer/set [err]"
+        },
+        {
+          "name": "rotation\nunchanged after set",
+          "resultVarName": "TestResult_pointer/activeCamera_rotation\nunchanged after set",
+          "resultVarId": 14,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 13,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_rotation\nunchanged after set"
+        },
+        {
+          "name": "perspective/aspectRatio\nisValid",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/aspectRatio\nisValid",
+          "resultVarId": 16,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 15,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_perspective/aspectRatio\nisValid"
+        },
+        {
+          "name": "perspective/aspectRatio\ntwo reads equal",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/aspectRatio\ntwo reads equal",
+          "resultVarId": 18,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 17,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_perspective/aspectRatio\ntwo reads equal"
+        },
+        {
+          "name": "perspective/aspectRatio\npointer/set [err]",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/aspectRatio\npointer/set [err]",
+          "resultVarId": 19,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 19,
+          "successResultVarName": "TestResult_pointer/activeCamera_perspective/aspectRatio\npointer/set [err]"
+        },
+        {
+          "name": "perspective/aspectRatio\nunchanged after set",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/aspectRatio\nunchanged after set",
+          "resultVarId": 21,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 20,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_perspective/aspectRatio\nunchanged after set"
+        },
+        {
+          "name": "perspective/yfov\nisValid",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/yfov\nisValid",
+          "resultVarId": 23,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 22,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_perspective/yfov\nisValid"
+        },
+        {
+          "name": "perspective/yfov\ntwo reads equal",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/yfov\ntwo reads equal",
+          "resultVarId": 25,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 24,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_perspective/yfov\ntwo reads equal"
+        },
+        {
+          "name": "perspective/yfov\npointer/set [err]",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/yfov\npointer/set [err]",
+          "resultVarId": 26,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 26,
+          "successResultVarName": "TestResult_pointer/activeCamera_perspective/yfov\npointer/set [err]"
+        },
+        {
+          "name": "perspective/yfov\nunchanged after set",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/yfov\nunchanged after set",
+          "resultVarId": 28,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 27,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_perspective/yfov\nunchanged after set"
+        },
+        {
+          "name": "perspective/znear\nisValid",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/znear\nisValid",
+          "resultVarId": 30,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 29,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_perspective/znear\nisValid"
+        },
+        {
+          "name": "perspective/znear\ntwo reads equal",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/znear\ntwo reads equal",
+          "resultVarId": 32,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 31,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_perspective/znear\ntwo reads equal"
+        },
+        {
+          "name": "perspective/znear\npointer/set [err]",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/znear\npointer/set [err]",
+          "resultVarId": 33,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 33,
+          "successResultVarName": "TestResult_pointer/activeCamera_perspective/znear\npointer/set [err]"
+        },
+        {
+          "name": "perspective/znear\nunchanged after set",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/znear\nunchanged after set",
+          "resultVarId": 35,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 34,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_perspective/znear\nunchanged after set"
+        },
+        {
+          "name": "perspective/zfar\nisValid",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/zfar\nisValid",
+          "resultVarId": 37,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 36,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_perspective/zfar\nisValid"
+        },
+        {
+          "name": "perspective/zfar\ntwo reads equal",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/zfar\ntwo reads equal",
+          "resultVarId": 39,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 38,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_perspective/zfar\ntwo reads equal"
+        },
+        {
+          "name": "perspective/zfar\npointer/set [err]",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/zfar\npointer/set [err]",
+          "resultVarId": 40,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 40,
+          "successResultVarName": "TestResult_pointer/activeCamera_perspective/zfar\npointer/set [err]"
+        },
+        {
+          "name": "perspective/zfar\nunchanged after set",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective/zfar\nunchanged after set",
+          "resultVarId": 42,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 41,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_perspective/zfar\nunchanged after set"
+        },
+        {
+          "name": "orthographic/xmag\nisValid",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/xmag\nisValid",
+          "resultVarId": 44,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 43,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_orthographic/xmag\nisValid"
+        },
+        {
+          "name": "orthographic/xmag\ntwo reads equal",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/xmag\ntwo reads equal",
+          "resultVarId": 46,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 45,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_orthographic/xmag\ntwo reads equal"
+        },
+        {
+          "name": "orthographic/xmag\npointer/set [err]",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/xmag\npointer/set [err]",
+          "resultVarId": 47,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 47,
+          "successResultVarName": "TestResult_pointer/activeCamera_orthographic/xmag\npointer/set [err]"
+        },
+        {
+          "name": "orthographic/xmag\nunchanged after set",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/xmag\nunchanged after set",
+          "resultVarId": 49,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 48,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_orthographic/xmag\nunchanged after set"
+        },
+        {
+          "name": "orthographic/ymag\nisValid",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/ymag\nisValid",
+          "resultVarId": 51,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 50,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_orthographic/ymag\nisValid"
+        },
+        {
+          "name": "orthographic/ymag\ntwo reads equal",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/ymag\ntwo reads equal",
+          "resultVarId": 53,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 52,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_orthographic/ymag\ntwo reads equal"
+        },
+        {
+          "name": "orthographic/ymag\npointer/set [err]",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/ymag\npointer/set [err]",
+          "resultVarId": 54,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 54,
+          "successResultVarName": "TestResult_pointer/activeCamera_orthographic/ymag\npointer/set [err]"
+        },
+        {
+          "name": "orthographic/ymag\nunchanged after set",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/ymag\nunchanged after set",
+          "resultVarId": 56,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 55,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_orthographic/ymag\nunchanged after set"
+        },
+        {
+          "name": "orthographic/znear\nisValid",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/znear\nisValid",
+          "resultVarId": 58,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 57,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_orthographic/znear\nisValid"
+        },
+        {
+          "name": "orthographic/znear\ntwo reads equal",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/znear\ntwo reads equal",
+          "resultVarId": 60,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 59,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_orthographic/znear\ntwo reads equal"
+        },
+        {
+          "name": "orthographic/znear\npointer/set [err]",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/znear\npointer/set [err]",
+          "resultVarId": 61,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 61,
+          "successResultVarName": "TestResult_pointer/activeCamera_orthographic/znear\npointer/set [err]"
+        },
+        {
+          "name": "orthographic/znear\nunchanged after set",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/znear\nunchanged after set",
+          "resultVarId": 63,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 62,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_orthographic/znear\nunchanged after set"
+        },
+        {
+          "name": "orthographic/zfar\nisValid",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/zfar\nisValid",
+          "resultVarId": 65,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 64,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_orthographic/zfar\nisValid"
+        },
+        {
+          "name": "orthographic/zfar\ntwo reads equal",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/zfar\ntwo reads equal",
+          "resultVarId": 67,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 66,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_orthographic/zfar\ntwo reads equal"
+        },
+        {
+          "name": "orthographic/zfar\npointer/set [err]",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/zfar\npointer/set [err]",
+          "resultVarId": 68,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 68,
+          "successResultVarName": "TestResult_pointer/activeCamera_orthographic/zfar\npointer/set [err]"
+        },
+        {
+          "name": "orthographic/zfar\nunchanged after set",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic/zfar\nunchanged after set",
+          "resultVarId": 70,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 69,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_orthographic/zfar\nunchanged after set"
+        },
+        {
+          "name": "position\nhas no NaN",
+          "resultVarName": "TestResult_pointer/activeCamera_position\nhas no NaN",
+          "resultVarId": 72,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 71,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_position\nhas no NaN"
+        },
+        {
+          "name": "rotation\nhas no NaN",
+          "resultVarName": "TestResult_pointer/activeCamera_rotation\nhas no NaN",
+          "resultVarId": 74,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 73,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_rotation\nhas no NaN"
+        },
+        {
+          "name": "rotation\nhas unit length",
+          "resultVarName": "TestResult_pointer/activeCamera_rotation\nhas unit length",
+          "resultVarId": 76,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 75,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_rotation\nhas unit length"
+        },
+        {
+          "name": "either perspective\nor orthographic",
+          "resultVarName": "TestResult_pointer/activeCamera_either perspective\nor orthographic",
+          "resultVarId": 78,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 77,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_either perspective\nor orthographic"
+        },
+        {
+          "name": "perspective values\nvalid (if perspective)",
+          "resultVarName": "TestResult_pointer/activeCamera_perspective values\nvalid (if perspective)",
+          "resultVarId": 80,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 79,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_perspective values\nvalid (if perspective)"
+        },
+        {
+          "name": "orthographic values\nvalid (if orthographic)",
+          "resultVarName": "TestResult_pointer/activeCamera_orthographic values\nvalid (if orthographic)",
+          "resultVarId": 82,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 81,
+          "successResultVarName": "TestResult_HasPassed_pointer/activeCamera_orthographic values\nvalid (if orthographic)"
+        },
+        {
+          "name": "position\npointer/interpolate [err]",
+          "resultVarName": "TestResult_pointer/activeCamera_position\npointer/interpolate [err]",
+          "resultVarId": 83,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 83,
+          "successResultVarName": "TestResult_pointer/activeCamera_position\npointer/interpolate [err]"
+        },
+        {
+          "name": "No [out]/[done] on\nset and interpolate",
+          "resultVarName": "TestResult_pointer/activeCamera_No [out]/[done] on\nset and interpolate",
+          "resultVarId": 0,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_pointer/activeCamera_No [out]/[done] on\nset and interpolate"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "flow/setDelay",
+    "math/abs",
+    "math/and",
+    "math/eq",
+    "math/extract3",
+    "math/extract4",
+    "math/ge",
+    "math/gt",
+    "math/isNaN",
+    "math/length",
+    "math/lt",
+    "math/not",
+    "math/or",
+    "math/sub",
+    "math/xor",
+    "pointer/get",
+    "pointer/interpolate",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}
