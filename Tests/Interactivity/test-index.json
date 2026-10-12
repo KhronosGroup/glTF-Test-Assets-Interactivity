@@ -695,7 +695,12 @@
       "math/xor",
       "math/gt",
       "math/ge",
-      "pointer/interpolate"
+      "pointer/interpolate",
+      "math/matCompose",
+      "math/matMul",
+      "math/inverse",
+      "math/matDecompose",
+      "event/onTick"
     ],
     "variants": {
       "glTF-Binary": "activeCamera.glb",

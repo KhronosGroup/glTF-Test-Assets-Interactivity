@@ -35,139 +35,139 @@
       "entryPoints": [
         {
           "name": "literal 16777217 - 16777216 == 1",
-          "nodeId": 3189
+          "nodeId": 3202
         },
         {
           "name": "literal (2^53-1) - (2^53-2) == 1",
-          "nodeId": 3199
+          "nodeId": 3212
         },
         {
           "name": "(0.1 + 0.2 == 0.3) == false",
-          "nodeId": 3209
+          "nodeId": 3222
         },
         {
           "name": "isInf(literal 1.79e308) == false",
-          "nodeId": 3219
+          "nodeId": 3232
         },
         {
           "name": "literal 5e-324 > 0",
-          "nodeId": 3229
+          "nodeId": 3242
         },
         {
           "name": "literal -0.0 is -0",
-          "nodeId": 3239
+          "nodeId": 3252
         },
         {
           "name": "float var init 16777217",
-          "nodeId": 3243
+          "nodeId": 3256
         },
         {
           "name": "float3 var init [2^24+1, 1e-300, 1+2^-52]",
-          "nodeId": 3253
+          "nodeId": 3266
         },
         {
           "name": "var set/get keeps 16777217",
-          "nodeId": 3263
+          "nodeId": 3276
         },
         {
           "name": "(1 + 1e-10) - 1 > 0",
-          "nodeId": 3275
+          "nodeId": 3288
         },
         {
           "name": "Pi - 3 == 0.14159265358979312",
-          "nodeId": 3285
+          "nodeId": 3298
         },
         {
           "name": "isInf(1e30 * 1e30) == false",
-          "nodeId": 3295
+          "nodeId": 3308
         },
         {
           "name": "round(0.49999999999999994) == 0",
-          "nodeId": 3305
+          "nodeId": 3318
         },
         {
           "name": "intToFloat(2147483647) - 2147483646 == 1",
-          "nodeId": 3315
+          "nodeId": 3328
         },
         {
           "name": "intToFloat(-2147483647) + 2147483646 == -1",
-          "nodeId": 3325
+          "nodeId": 3338
         },
         {
           "name": "intToFloat(0) is +0",
-          "nodeId": 3335
+          "nodeId": 3348
         },
         {
           "name": "floatToInt(+Inf) == 0",
-          "nodeId": 3339
+          "nodeId": 3352
         },
         {
           "name": "floatToInt(-Inf) == 0",
-          "nodeId": 3343
+          "nodeId": 3356
         },
         {
           "name": "floatToInt(-0.9) == 0",
-          "nodeId": 3347
+          "nodeId": 3360
         },
         {
           "name": "floatToInt(-0) == 0",
-          "nodeId": 3357
+          "nodeId": 3370
         },
         {
           "name": "floatToInt(2147483647.0) == 2147483647",
-          "nodeId": 3367
+          "nodeId": 3380
         },
         {
           "name": "floatToInt(2147483648.0) == -2147483648",
-          "nodeId": 3377
+          "nodeId": 3390
         },
         {
           "name": "floatToInt(4294967301.0) == 5",
-          "nodeId": 3387
+          "nodeId": 3400
         },
         {
           "name": "floatToInt(-4294967301.0) == -5",
-          "nodeId": 3397
+          "nodeId": 3410
         },
         {
           "name": "floatToInt(1e20) == 1661992960",
-          "nodeId": 3407
+          "nodeId": 3420
         },
         {
           "name": "floatToBool(NaN) == false",
-          "nodeId": 3417
+          "nodeId": 3430
         },
         {
           "name": "floatToBool(-0) == false",
-          "nodeId": 3421
+          "nodeId": 3434
         },
         {
           "name": "floatToBool(5e-324) == true",
-          "nodeId": 3431
+          "nodeId": 3444
         },
         {
           "name": "neg(0) is -0",
-          "nodeId": 3441
+          "nodeId": 3454
         },
         {
           "name": "-0 == 0",
-          "nodeId": 3445
+          "nodeId": 3458
         },
         {
           "name": "min(0, -0) is -0",
-          "nodeId": 3455
+          "nodeId": 3468
         },
         {
           "name": "max(-0, 0) is +0",
-          "nodeId": 3459
+          "nodeId": 3472
         },
         {
           "name": "round(-0.3) is -0",
-          "nodeId": 3463
+          "nodeId": 3476
         },
         {
           "name": "abs(-0) is +0",
-          "nodeId": 3467
+          "nodeId": 3480
         }
       ],
       "subTests": [
@@ -566,7 +566,7 @@
       "entryPoints": [
         {
           "name": "Loop in Loop",
-          "nodeId": 3477
+          "nodeId": 3490
         }
       ],
       "subTests": [
@@ -619,7 +619,7 @@
       "entryPoints": [
         {
           "name": "Matrix Update",
-          "nodeId": 3511
+          "nodeId": 3524
         }
       ],
       "subTests": [
@@ -714,40 +714,40 @@
       "entryPoints": [
         {
           "name": "Play animation (delayed execution)",
-          "nodeId": 3574,
+          "nodeId": 3587,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "[err] flow (speed -1)",
-          "nodeId": 3623
+          "nodeId": 3636
         },
         {
           "name": "[err] flow (speed 0)",
-          "nodeId": 3631
+          "nodeId": 3644
         },
         {
           "name": "[err] flow (speed NaN)",
-          "nodeId": 3639
+          "nodeId": 3652
         },
         {
           "name": "[err] flow (speed +Inf)",
-          "nodeId": 3643
+          "nodeId": 3656
         },
         {
           "name": "[err] flow (startTime NaN)",
-          "nodeId": 3647
+          "nodeId": 3660
         },
         {
           "name": "[err] flow (startTime +Inf)",
-          "nodeId": 3651
+          "nodeId": 3664
         },
         {
           "name": "[err] flow (endTime NaN)",
-          "nodeId": 3655
+          "nodeId": 3668
         },
         {
           "name": "[err] flow (invalid ref)",
-          "nodeId": 3659
+          "nodeId": 3672
         }
       ],
       "subTests": [
@@ -911,37 +911,37 @@
       "entryPoints": [
         {
           "name": "Reverse (T..0):\nposition at 50% (delayed execution)",
-          "nodeId": 3689,
+          "nodeId": 3702,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "endTime +Inf:\nwraps (25% at 1.25T) (delayed execution)",
-          "nodeId": 3725,
+          "nodeId": 3738,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "endTime -Inf:\nwraps (75% at 1.25T) (delayed execution)",
-          "nodeId": 3778,
+          "nodeId": 3791,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "Times outside [0,T]\n(1.25T..1.75T): [done] (delayed execution)",
-          "nodeId": 3797,
+          "nodeId": 3810,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "startTime == endTime:\n[done] (delayed execution)",
-          "nodeId": 3820,
+          "nodeId": 3833,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "Restart: 1st\n[done] not fired (delayed execution)",
-          "nodeId": 3843,
+          "nodeId": 3856,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "Started from another\n[done]: [done] (delayed execution)",
-          "nodeId": 3863,
+          "nodeId": 3876,
           "delayedExecutionTime": 5.0
         }
       ],
@@ -1168,17 +1168,17 @@
       "entryPoints": [
         {
           "name": "isPlaying false\nbefore start (delayed execution)",
-          "nodeId": 3906,
+          "nodeId": 3919,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "Unused sampler:\nmaxTime T (delayed execution)",
-          "nodeId": 3997,
+          "nodeId": 4010,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "Not started:\nisPlaying false (delayed execution)",
-          "nodeId": 4037,
+          "nodeId": 4050,
           "delayedExecutionTime": 3.0
         }
       ],
@@ -1372,12 +1372,12 @@
       "entryPoints": [
         {
           "name": "Play and stop (delayed execution)",
-          "nodeId": 4072,
+          "nodeId": 4085,
           "delayedExecutionTime": 4.0
         },
         {
           "name": "[err] flow \n(invalid ref)",
-          "nodeId": 4105
+          "nodeId": 4118
         }
       ],
       "subTests": [
@@ -1450,35 +1450,35 @@
       "entryPoints": [
         {
           "name": "stop, not playing:\n[out]",
-          "nodeId": 4134
+          "nodeId": 4147
         },
         {
           "name": "stopAt, not playing:\n[out] (delayed execution)",
-          "nodeId": 4147,
+          "nodeId": 4160,
           "delayedExecutionTime": 1.2
         },
         {
           "name": "stopAt +Inf:\n[out]",
-          "nodeId": 4163
+          "nodeId": 4176
         },
         {
           "name": "stopTime == endTime:\nstart [done] (delayed execution)",
-          "nodeId": 4172,
+          "nodeId": 4185,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "stopTime passed:\nstopAt [done] (delayed execution)",
-          "nodeId": 4192,
+          "nodeId": 4205,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "stopTime > endTime:\nstopAt [out] (delayed execution)",
-          "nodeId": 4225,
+          "nodeId": 4238,
           "delayedExecutionTime": 3.0
         },
         {
           "name": "stop from another\n[done]: [out] (delayed execution)",
-          "nodeId": 4250,
+          "nodeId": 4263,
           "delayedExecutionTime": 4.0
         }
       ],
@@ -1694,16 +1694,16 @@
       "entryPoints": [
         {
           "name": "Play and stopAt (delayed execution)",
-          "nodeId": 4281,
+          "nodeId": 4294,
           "delayedExecutionTime": 5.0
         },
         {
           "name": "[err] flow \n(stopTime NaN)",
-          "nodeId": 4318
+          "nodeId": 4331
         },
         {
           "name": "[err] flow \n(invalid ref)",
-          "nodeId": 4322
+          "nodeId": 4335
         }
       ],
       "subTests": [
@@ -1797,42 +1797,42 @@
       "entryPoints": [
         {
           "name": "event/onStart ref (delayed execution)",
-          "nodeId": 4342,
+          "nodeId": 4355,
           "delayedExecutionTime": 0.5
         },
         {
           "name": "event/onTick ref (delayed execution)",
-          "nodeId": 4347,
+          "nodeId": 4360,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "event/receive ref (delayed execution)",
-          "nodeId": 4352,
+          "nodeId": 4365,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "event/onStart same ref (delayed execution)",
-          "nodeId": 4358,
+          "nodeId": 4371,
           "delayedExecutionTime": 0.5
         },
         {
           "name": "event/onTick same ref (delayed execution)",
-          "nodeId": 4363,
+          "nodeId": 4376,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "event ref pointer/get (delayed execution)",
-          "nodeId": 4368,
+          "nodeId": 4381,
           "delayedExecutionTime": 0.5
         },
         {
           "name": "onTick ref pointer/get (delayed execution)",
-          "nodeId": 4373,
+          "nodeId": 4386,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "receive ref pointer/get (delayed execution)",
-          "nodeId": 4378,
+          "nodeId": 4391,
           "delayedExecutionTime": 1.0
         }
       ],
@@ -1951,17 +1951,17 @@
       "entryPoints": [
         {
           "name": "onStart:\nJSON order (delayed execution)",
-          "nodeId": 4397,
+          "nodeId": 4410,
           "delayedExecutionTime": 0.2
         },
         {
           "name": "receive:\nJSON order (delayed execution)",
-          "nodeId": 4401,
+          "nodeId": 4414,
           "delayedExecutionTime": 0.5
         },
         {
           "name": "1st tick:\ntimeSinceStart 0 (delayed execution)",
-          "nodeId": 4411,
+          "nodeId": 4424,
           "delayedExecutionTime": 1.0
         }
       ],
@@ -2085,12 +2085,12 @@
       "entryPoints": [
         {
           "name": "Without Parameters (delayed execution)",
-          "nodeId": 4444,
+          "nodeId": 4457,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "With Parameters (flow received) (delayed execution)",
-          "nodeId": 4476,
+          "nodeId": 4489,
           "delayedExecutionTime": 1.0
         }
       ],
@@ -2205,17 +2205,17 @@
       "entryPoints": [
         {
           "name": "stopImmediate=true (delayed execution)",
-          "nodeId": 4501,
+          "nodeId": 4514,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "stopImmediate=false (delayed execution)",
-          "nodeId": 4516,
+          "nodeId": 4529,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "invalid event ref (delayed execution)",
-          "nodeId": 4531,
+          "nodeId": 4544,
           "delayedExecutionTime": 1.0
         }
       ],
@@ -2291,11 +2291,11 @@
       "entryPoints": [
         {
           "name": "Branch Condition True",
-          "nodeId": 4549
+          "nodeId": 4562
         },
         {
           "name": "Branch Condition False",
-          "nodeId": 4562
+          "nodeId": 4575
         }
       ],
       "subTests": [
@@ -2362,23 +2362,23 @@
       "entryPoints": [
         {
           "name": "Do N - Iterations",
-          "nodeId": 4586
+          "nodeId": 4599
         },
         {
           "name": "Do N - Reset",
-          "nodeId": 4616
-        },
-        {
-          "name": "Do N - Max Iteration",
           "nodeId": 4629
         },
         {
-          "name": "N = 0: [out] never fires",
+          "name": "Do N - Max Iteration",
           "nodeId": 4642
         },
         {
+          "name": "N = 0: [out] never fires",
+          "nodeId": 4655
+        },
+        {
           "name": "[n] re-evaluated (raised 1 -> 3 at runtime, 3x)",
-          "nodeId": 4651
+          "nodeId": 4664
         }
       ],
       "subTests": [
@@ -2478,35 +2478,35 @@
       "entryPoints": [
         {
           "name": "Loop Entry",
-          "nodeId": 4682
+          "nodeId": 4695
         },
         {
           "name": "Empty range",
-          "nodeId": 4725
+          "nodeId": 4738
         },
         {
           "name": "Negative range",
-          "nodeId": 4748
+          "nodeId": 4761
         },
         {
           "name": "endIndex re-evaluation",
-          "nodeId": 4770
+          "nodeId": 4783
         },
         {
           "name": "Invalid initialIndex 1.5",
-          "nodeId": 4784
+          "nodeId": 4797
         },
         {
           "name": "Invalid initialIndex 2147483648",
-          "nodeId": 4794
+          "nodeId": 4807
         },
         {
           "name": "Invalid initialIndex \"3\"",
-          "nodeId": 4804
+          "nodeId": 4817
         },
         {
           "name": "Invalid initialIndex true",
-          "nodeId": 4814
+          "nodeId": 4827
         }
       ],
       "subTests": [
@@ -2695,27 +2695,27 @@
       "entryPoints": [
         {
           "name": "Order (008, 004, 001) > (001, 004, 008)",
-          "nodeId": 4838
+          "nodeId": 4851
         },
         {
           "name": "isRandom \"yes\" uses default configuration (in order)",
-          "nodeId": 4859
+          "nodeId": 4872
         },
         {
           "name": "Random (Check if all out flows are triggered once)",
-          "nodeId": 4880
+          "nodeId": 4893
         },
         {
           "name": "Loop",
-          "nodeId": 4898
+          "nodeId": 4911
         },
         {
           "name": "Loop",
-          "nodeId": 4919
+          "nodeId": 4932
         },
         {
           "name": "No loop: 4th [in] fires nothing (3x total)",
-          "nodeId": 4939
+          "nodeId": 4952
         }
       ],
       "subTests": [
@@ -2847,15 +2847,15 @@
       "entryPoints": [
         {
           "name": "Sequence Order (0,9,10) > (0,10,9)",
-          "nodeId": 4993
+          "nodeId": 5006
         },
         {
           "name": "Sequence Order (ccc,aaa,b) > (aaa,b,ccc)",
-          "nodeId": 5013
+          "nodeId": 5026
         },
         {
           "name": "Sequence Order (b,B,a,A) > (A,B,a,b)",
-          "nodeId": 5033
+          "nodeId": 5046
         }
       ],
       "subTests": [
@@ -2920,59 +2920,59 @@
       "entryPoints": [
         {
           "name": "Set Delay (delayed execution)",
-          "nodeId": 5077,
+          "nodeId": 5090,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "setDelay [cancel] (delayed execution)",
-          "nodeId": 5111,
+          "nodeId": 5124,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "Cancel Delay (delayed execution)",
-          "nodeId": 5122,
+          "nodeId": 5135,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "Error (delayed execution)",
-          "nodeId": 5140,
+          "nodeId": 5153,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "Delay Ref (delayed execution)",
-          "nodeId": 5148,
+          "nodeId": 5161,
           "delayedExecutionTime": 0.5
         },
         {
           "name": "Flow [err]\n(NaN)",
-          "nodeId": 5164
+          "nodeId": 5177
         },
         {
           "name": "Flow [err]\n(+Inf)",
-          "nodeId": 5168
+          "nodeId": 5181
         },
         {
           "name": "Concurrent delays\n[done] in time order (delayed execution)",
-          "nodeId": 5172,
+          "nodeId": 5185,
           "delayedExecutionTime": 1.5
         },
         {
           "name": "One node, 3 pending\n[done] 3x (delayed execution)",
-          "nodeId": 5197,
-          "delayedExecutionTime": 1.0
-        },
-        {
-          "name": "[cancel] cancels all\npending delays (delayed execution)",
           "nodeId": 5210,
           "delayedExecutionTime": 1.0
         },
         {
+          "name": "[cancel] cancels all\npending delays (delayed execution)",
+          "nodeId": 5223,
+          "delayedExecutionTime": 1.0
+        },
+        {
           "name": "cancelDelay null ref\nFlow [out]",
-          "nodeId": 5232
+          "nodeId": 5245
         },
         {
           "name": "cancelDelay fired ref\nFlow [out] (delayed execution)",
-          "nodeId": 5240,
+          "nodeId": 5253,
           "delayedExecutionTime": 1.0
         }
       ],
@@ -3170,35 +3170,35 @@
       "entryPoints": [
         {
           "name": "Switch selection flow",
-          "nodeId": 5267
+          "nodeId": 5280
         },
         {
           "name": "Switch default flow",
-          "nodeId": 5275
+          "nodeId": 5288
         },
         {
           "name": "Switch empty-cases default flow",
-          "nodeId": 5283
+          "nodeId": 5296
         },
         {
           "name": "Switch negate cases flow",
-          "nodeId": 5291
+          "nodeId": 5304
         },
         {
           "name": "Switch fractional cases default configuration",
-          "nodeId": 5299
-        },
-        {
-          "name": "Switch out of int32 range cases default configuration",
           "nodeId": 5312
         },
         {
-          "name": "Switch duplicate cases flow",
+          "name": "Switch out of int32 range cases default configuration",
           "nodeId": 5325
         },
         {
-          "name": "Switch selection not in cases",
+          "name": "Switch duplicate cases flow",
           "nodeId": 5338
+        },
+        {
+          "name": "Switch selection not in cases",
+          "nodeId": 5351
         }
       ],
       "subTests": [
@@ -3358,40 +3358,40 @@
       "entryPoints": [
         {
           "name": "[out] flow",
-          "nodeId": 5367
+          "nodeId": 5380
         },
         {
           "name": "Flow Out After Delay (delayed execution)",
-          "nodeId": 5389,
+          "nodeId": 5402,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "[err] Flow on -1 Duration",
-          "nodeId": 5412
-        },
-        {
-          "name": "[reset]",
           "nodeId": 5425
         },
         {
+          "name": "[reset]",
+          "nodeId": 5438
+        },
+        {
           "name": "[err] Flow on NaN Duration",
-          "nodeId": 5436
+          "nodeId": 5449
         },
         {
           "name": "[err] Flow on +Inf Duration",
-          "nodeId": 5440
+          "nodeId": 5453
         },
         {
           "name": "Duration 0: every [in] passes (3x)",
-          "nodeId": 5444
+          "nodeId": 5457
         },
         {
           "name": "[lastRemainingTime] NaN before first [in]",
-          "nodeId": 5455
+          "nodeId": 5468
         },
         {
           "name": "[lastRemainingTime] NaN after [reset]",
-          "nodeId": 5463
+          "nodeId": 5476
         }
       ],
       "subTests": [
@@ -3546,31 +3546,31 @@
       "entryPoints": [
         {
           "name": "Wait All - Completed",
-          "nodeId": 5487
+          "nodeId": 5500
         },
         {
           "name": "Wait All - Remaining",
-          "nodeId": 5505
-        },
-        {
-          "name": "Wait All - Reset",
           "nodeId": 5518
         },
         {
-          "name": "Wait All - Reset Completed",
+          "name": "Wait All - Reset",
           "nodeId": 5531
         },
         {
+          "name": "Wait All - Reset Completed",
+          "nodeId": 5544
+        },
+        {
           "name": "Wait All - Invalid Configuration",
-          "nodeId": 5542
+          "nodeId": 5555
         },
         {
           "name": "[out] on every non-final input (2x)",
-          "nodeId": 5552
+          "nodeId": 5565
         },
         {
           "name": "Re-activated input fires [out] again (2x)",
-          "nodeId": 5563
+          "nodeId": 5576
         }
       ],
       "subTests": [
@@ -3693,11 +3693,11 @@
       "entryPoints": [
         {
           "name": "While Loop flowIn",
-          "nodeId": 5592
+          "nodeId": 5605
         },
         {
           "name": "While Loop flowIn (false Condition)",
-          "nodeId": 5616
+          "nodeId": 5629
         }
       ],
       "subTests": [
@@ -3779,19 +3779,19 @@
       "entryPoints": [
         {
           "name": "flow to unknown\nsocket: next output",
-          "nodeId": 5640
+          "nodeId": 5653
         },
         {
           "name": "math/add with\nextra input c",
-          "nodeId": 5658
+          "nodeId": 5671
         },
         {
           "name": "flow/branch extra\nflow: [true]",
-          "nodeId": 5668
+          "nodeId": 5681
         },
         {
           "name": "type-default float\ninput is NaN",
-          "nodeId": 5686
+          "nodeId": 5699
         }
       ],
       "subTests": [
@@ -3891,15 +3891,15 @@
       "entryPoints": [
         {
           "name": "debug/log invalid\nmessage: [out]",
-          "nodeId": 5713
+          "nodeId": 5726
         },
         {
           "name": "math/add with\nconfiguration",
-          "nodeId": 5723
+          "nodeId": 5736
         },
         {
           "name": "flow/switch unknown\nproperty: case [1]",
-          "nodeId": 5733
+          "nodeId": 5746
         }
       ],
       "subTests": [
@@ -3969,24 +3969,24 @@
       "entryPoints": [
         {
           "name": "integers written\nas 5.0 and 2.0",
-          "nodeId": 5761
+          "nodeId": 5774
         },
         {
           "name": "two custom\ntypes",
-          "nodeId": 5771
+          "nodeId": 5784
         },
         {
           "name": "event without id:\nreceived (delayed execution)",
-          "nodeId": 5780,
+          "nodeId": 5793,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "same variable name:\nfirst unchanged",
-          "nodeId": 5790
+          "nodeId": 5803
         },
         {
           "name": "pointer with doubled\nbrackets: isValid == false",
-          "nodeId": 5810
+          "nodeId": 5823
         }
       ],
       "subTests": [
@@ -4086,12 +4086,12 @@
       "entryPoints": [
         {
           "name": "unsupported op:\ntype-default output (delayed execution)",
-          "nodeId": 5827,
+          "nodeId": 5840,
           "delayedExecutionTime": 0.5
         },
         {
           "name": "invalid graph 1:\ngraph 0 runs",
-          "nodeId": 5847
+          "nodeId": 5860
         }
       ],
       "subTests": [
@@ -4147,39 +4147,39 @@
       "entryPoints": [
         {
           "name": "asset/majorVersion",
-          "nodeId": 5878
+          "nodeId": 5891
         },
         {
           "name": "asset/minorVersion",
-          "nodeId": 5897
+          "nodeId": 5910
         },
         {
           "name": "asset/extensions/KHR_interactivity/enabled",
-          "nodeId": 5916
+          "nodeId": 5929
         },
         {
           "name": "asset/extensions/KHR_this_extension_does_not_exist/enabled",
-          "nodeId": 5935
+          "nodeId": 5948
         },
         {
           "name": "asset/extensions/KHR_this_extension_is_not_used/enabled",
-          "nodeId": 5954
+          "nodeId": 5967
         },
         {
           "name": "limits/maxActiveAnimations",
-          "nodeId": 5973
+          "nodeId": 5986
         },
         {
           "name": "limits/maxActiveDelays",
-          "nodeId": 5992
+          "nodeId": 6005
         },
         {
           "name": "limits/maxActivePropertyInterpolations",
-          "nodeId": 6011
+          "nodeId": 6024
         },
         {
           "name": "limits/maxActiveVariableInterpolations",
-          "nodeId": 6030
+          "nodeId": 6043
         }
       ],
       "subTests": [
@@ -4400,99 +4400,99 @@
       "entryPoints": [
         {
           "name": "/animations.length",
-          "nodeId": 6101
+          "nodeId": 6114
         },
         {
           "name": "/cameras.length",
-          "nodeId": 6120
+          "nodeId": 6133
         },
         {
           "name": "/materials.length",
-          "nodeId": 6139
+          "nodeId": 6152
         },
         {
           "name": "/materials/[]/doubleSided",
-          "nodeId": 6158
+          "nodeId": 6171
         },
         {
           "name": "/meshes.length",
-          "nodeId": 6177
+          "nodeId": 6190
         },
         {
           "name": "/meshes/0/primitives.length",
-          "nodeId": 6196
+          "nodeId": 6209
         },
         {
           "name": "/meshes/0/primitives/0/material",
-          "nodeId": 6215
+          "nodeId": 6228
         },
         {
           "name": "/nodes/[]/weights.length",
-          "nodeId": 6234
+          "nodeId": 6247
         },
         {
           "name": "/meshes/[]/weights.length",
-          "nodeId": 6253
+          "nodeId": 6266
         },
         {
           "name": "/nodes.length",
-          "nodeId": 6272
+          "nodeId": 6285
         },
         {
           "name": "/nodes/[]/camera",
-          "nodeId": 6291
+          "nodeId": 6304
         },
         {
           "name": "/nodes/0/children.length",
-          "nodeId": 6310
+          "nodeId": 6323
         },
         {
           "name": "/nodes/[]/children/[]",
-          "nodeId": 6329
+          "nodeId": 6342
         },
         {
           "name": "/nodes/[]/mesh",
-          "nodeId": 6348
+          "nodeId": 6361
         },
         {
           "name": "/nodes/1/parent",
-          "nodeId": 6367
+          "nodeId": 6380
         },
         {
           "name": "/scene",
-          "nodeId": 6386
+          "nodeId": 6399
         },
         {
           "name": "/scenes.length",
-          "nodeId": 6405
+          "nodeId": 6418
         },
         {
           "name": "/scenes/0/nodes.length",
-          "nodeId": 6424
+          "nodeId": 6437
         },
         {
           "name": "/scenes/0/nodes/0",
-          "nodeId": 6443
+          "nodeId": 6456
         },
         {
           "name": "/nodes/[]/skin",
-          "nodeId": 6462
+          "nodeId": 6475
         },
         {
           "name": "/skins.length",
-          "nodeId": 6481
+          "nodeId": 6494
         },
         {
           "name": "/skins/0/joints.length",
-          "nodeId": 6500
+          "nodeId": 6513
         },
         {
           "name": "/skins/[]/joints/[]",
-          "nodeId": 6519
+          "nodeId": 6532
         },
         {
           "name": "/skins/[]/skeleton",
-          "nodeId": 6538
+          "nodeId": 6551
         }
       ],
       "subTests": [
@@ -4546,7 +4546,7 @@
           "resultVarId": 502,
           "resultVarType": "int",
           "expectedResultValue": [
-            24
+            25
           ],
           "successResultVarId": 501,
           "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/materials.length"
@@ -4590,7 +4590,7 @@
           "resultVarId": 510,
           "resultVarType": "int",
           "expectedResultValue": [
-            636
+            638
           ],
           "successResultVarId": 509,
           "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/meshes.length"
@@ -4700,7 +4700,7 @@
           "resultVarId": 530,
           "resultVarType": "int",
           "expectedResultValue": [
-            4155
+            4158
           ],
           "successResultVarId": 529,
           "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes.length"
@@ -4744,7 +4744,7 @@
           "resultVarId": 538,
           "resultVarType": "int",
           "expectedResultValue": [
-            674
+            675
           ],
           "successResultVarId": 537,
           "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/0/children.length"
@@ -5031,6 +5031,7 @@
       "description": "Read-only activeCamera pointers: pointer/get isValid, two reads in the same flow return the same value, pointer/set and pointer/interpolate fire [err] and don't change the value, and sanity checks of the values (assumes the viewer renders with an active camera, otherwise all values are NaN).",
       "usedSchemas": [
         "debug/log",
+        "event/onTick",
         "flow/branch",
         "flow/sequence",
         "flow/setDelay",
@@ -5041,9 +5042,13 @@
         "math/extract4",
         "math/ge",
         "math/gt",
+        "math/inverse",
         "math/isNaN",
         "math/length",
         "math/lt",
+        "math/matCompose",
+        "math/matDecompose",
+        "math/matMul",
         "math/not",
         "math/or",
         "math/sub",
@@ -5057,56 +5062,56 @@
       "entryPoints": [
         {
           "name": "No [out]/[done] on\nset and interpolate (delayed execution)",
-          "nodeId": 6609,
+          "nodeId": 6622,
           "delayedExecutionTime": 0.5
         },
         {
           "name": "position\nisValid",
-          "nodeId": 6613
+          "nodeId": 6626
         },
         {
           "name": "rotation\nisValid",
-          "nodeId": 6646
+          "nodeId": 6659
         },
         {
           "name": "perspective/aspectRatio\nisValid",
-          "nodeId": 6679
+          "nodeId": 6692
         },
         {
           "name": "perspective/yfov\nisValid",
-          "nodeId": 6712
+          "nodeId": 6725
         },
         {
           "name": "perspective/znear\nisValid",
-          "nodeId": 6745
+          "nodeId": 6758
         },
         {
           "name": "perspective/zfar\nisValid",
-          "nodeId": 6778
+          "nodeId": 6791
         },
         {
           "name": "orthographic/xmag\nisValid",
-          "nodeId": 6811
+          "nodeId": 6824
         },
         {
           "name": "orthographic/ymag\nisValid",
-          "nodeId": 6844
+          "nodeId": 6857
         },
         {
           "name": "orthographic/znear\nisValid",
-          "nodeId": 6877
+          "nodeId": 6890
         },
         {
           "name": "orthographic/zfar\nisValid",
-          "nodeId": 6910
+          "nodeId": 6923
         },
         {
           "name": "position\nhas no NaN",
-          "nodeId": 6943
+          "nodeId": 6956
         },
         {
           "name": "position\npointer/interpolate [err]",
-          "nodeId": 6994
+          "nodeId": 7007
         }
       ],
       "subTests": [
@@ -5659,43 +5664,43 @@
       "entryPoints": [
         {
           "name": "Get weights.length - Without Mesh",
-          "nodeId": 7022
+          "nodeId": 7035
         },
         {
           "name": "Get weights.length - Without Morph Targets",
-          "nodeId": 7032
+          "nodeId": 7045
         },
         {
           "name": "Get weights.length - With static-Morph Targets",
-          "nodeId": 7051
+          "nodeId": 7064
         },
         {
           "name": "Get weights.length - With nonStatic-Morph Targets",
-          "nodeId": 7061
+          "nodeId": 7074
         },
         {
           "name": "Get node/{}/weights/0 - Without Mesh",
-          "nodeId": 7071
+          "nodeId": 7084
         },
         {
           "name": "Get node/{}/weights/0 - Without Morph Targets",
-          "nodeId": 7081
+          "nodeId": 7094
         },
         {
           "name": "Get node/{}/weights/0 - With static Morph Targets",
-          "nodeId": 7091
+          "nodeId": 7104
         },
         {
           "name": "Get node/{}/weights/0 - With nonStatic Morph Targets",
-          "nodeId": 7110
+          "nodeId": 7123
         },
         {
           "name": "Get node/{}/weights/0 - With mesh and node weights",
-          "nodeId": 7129
+          "nodeId": 7142
         },
         {
           "name": "Set weight and read back",
-          "nodeId": 7139
+          "nodeId": 7152
         }
       ],
       "subTests": [
@@ -5872,67 +5877,67 @@
       "entryPoints": [
         {
           "name": "Interpolate translation (delayed execution)",
-          "nodeId": 7177,
+          "nodeId": 7190,
           "delayedExecutionTime": 4.5
         },
         {
           "name": "[err] flow (duration -1)",
-          "nodeId": 7226
+          "nodeId": 7239
         },
         {
           "name": "[err] flow (duration infinite)",
-          "nodeId": 7234
+          "nodeId": 7247
         },
         {
           "name": "[err] flow (p1 NaN)",
-          "nodeId": 7238
+          "nodeId": 7251
         },
         {
           "name": "[err] flow (p2 NaN)",
-          "nodeId": 7246
+          "nodeId": 7259
         },
         {
           "name": "[err] flow (p1.x -0.1)",
-          "nodeId": 7254
+          "nodeId": 7267
         },
         {
           "name": "[err] flow (p2.x 1.1)",
-          "nodeId": 7262
+          "nodeId": 7275
         },
         {
           "name": "[err] flow (p1.y +Inf)",
-          "nodeId": 7270
+          "nodeId": 7283
         },
         {
           "name": "[err] flow (index out of range)",
-          "nodeId": 7274
+          "nodeId": 7287
         },
         {
           "name": "[err] flow (read-only globalMatrix)",
-          "nodeId": 7282
+          "nodeId": 7295
         },
         {
           "name": "[err] flow (float on translation)",
-          "nodeId": 7290
+          "nodeId": 7303
         },
         {
           "name": "p1.y/p2.y outside [0,1]: [out] (delayed execution)",
-          "nodeId": 7298,
+          "nodeId": 7311,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "Duration 0: [done] (delayed execution)",
-          "nodeId": 7312,
+          "nodeId": 7325,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "Re-trigger: 1st [done] not fired (delayed execution)",
-          "nodeId": 7335,
+          "nodeId": 7348,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "Rotation uses slerp (value at 25%) (delayed execution)",
-          "nodeId": 7367,
+          "nodeId": 7380,
           "delayedExecutionTime": 4.5
         }
       ],
@@ -6207,331 +6212,331 @@
       "entryPoints": [
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/color",
-          "nodeId": 7469
+          "nodeId": 7482
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/intensity",
-          "nodeId": 7481
+          "nodeId": 7494
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/range",
-          "nodeId": 7493
+          "nodeId": 7506
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/innerConeAngle",
-          "nodeId": 7505
+          "nodeId": 7518
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[lightIndex]/spot/outerConeAngle",
-          "nodeId": 7517
+          "nodeId": 7530
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/color",
-          "nodeId": 7529
+          "nodeId": 7542
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/intensity",
-          "nodeId": 7541
+          "nodeId": 7554
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/range",
-          "nodeId": 7553
+          "nodeId": 7566
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
-          "nodeId": 7565
+          "nodeId": 7578
         },
         {
           "name": "/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
-          "nodeId": 7577
+          "nodeId": 7590
         },
         {
           "name": "/alphaCutoff",
-          "nodeId": 7589
+          "nodeId": 7602
         },
         {
           "name": "/emissiveFactor",
-          "nodeId": 7601
+          "nodeId": 7614
         },
         {
           "name": "/normalTexture/scale",
-          "nodeId": 7613
+          "nodeId": 7626
         },
         {
           "name": "/occlusionTexture/strength",
-          "nodeId": 7625
+          "nodeId": 7638
         },
         {
           "name": "/normalTexture texture offset",
-          "nodeId": 7637
+          "nodeId": 7650
         },
         {
           "name": "/normalTexture texture rotation",
-          "nodeId": 7649
+          "nodeId": 7662
         },
         {
           "name": "/normalTexture texture scale",
-          "nodeId": 7661
+          "nodeId": 7674
         },
         {
           "name": "/occlusionTexture texture offset",
-          "nodeId": 7673
+          "nodeId": 7686
         },
         {
           "name": "/occlusionTexture texture rotation",
-          "nodeId": 7685
+          "nodeId": 7698
         },
         {
           "name": "/occlusionTexture texture scale",
-          "nodeId": 7697
+          "nodeId": 7710
         },
         {
           "name": "/emissiveTexture texture offset",
-          "nodeId": 7709
+          "nodeId": 7722
         },
         {
           "name": "/emissiveTexture texture rotation",
-          "nodeId": 7721
+          "nodeId": 7734
         },
         {
           "name": "/emissiveTexture texture scale",
-          "nodeId": 7733
+          "nodeId": 7746
         },
         {
           "name": "/baseColorFactor",
-          "nodeId": 7745
+          "nodeId": 7758
         },
         {
           "name": "/metallicFactor",
-          "nodeId": 7757
+          "nodeId": 7770
         },
         {
           "name": "/roughnessFactor",
-          "nodeId": 7769
+          "nodeId": 7782
         },
         {
           "name": "/baseColorTexture texture offset",
-          "nodeId": 7781
+          "nodeId": 7794
         },
         {
           "name": "/baseColorTexture texture rotation",
-          "nodeId": 7793
+          "nodeId": 7806
         },
         {
           "name": "/baseColorTexture texture scale",
-          "nodeId": 7805
+          "nodeId": 7818
         },
         {
           "name": "/metallicRoughnessTexture texture offset",
-          "nodeId": 7817
+          "nodeId": 7830
         },
         {
           "name": "/metallicRoughnessTexture texture rotation",
-          "nodeId": 7829
+          "nodeId": 7842
         },
         {
           "name": "/metallicRoughnessTexture texture scale",
-          "nodeId": 7841
+          "nodeId": 7854
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyStrength",
-          "nodeId": 7853
+          "nodeId": 7866
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyRotation",
-          "nodeId": 7865
+          "nodeId": 7878
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture offset",
-          "nodeId": 7877
+          "nodeId": 7890
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture rotation",
-          "nodeId": 7889
+          "nodeId": 7902
         },
         {
           "name": "KHR_materials_anisotropy/anisotropyTexture texture scale",
-          "nodeId": 7901
+          "nodeId": 7914
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture offset",
-          "nodeId": 7913
+          "nodeId": 7926
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture rotation",
-          "nodeId": 7925
+          "nodeId": 7938
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatTexture texture scale",
-          "nodeId": 7937
+          "nodeId": 7950
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture offset",
-          "nodeId": 7949
+          "nodeId": 7962
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture rotation",
-          "nodeId": 7961
+          "nodeId": 7974
         },
         {
           "name": "KHR_materials_clearcoat/clearcoatRoughnessTexture texture scale",
-          "nodeId": 7973
+          "nodeId": 7986
         },
         {
           "name": "KHR_materials_dispersion/dispersion",
-          "nodeId": 7985
+          "nodeId": 7998
         },
         {
           "name": "KHR_materials_emissive_strength/emissiveStrength",
-          "nodeId": 7997
+          "nodeId": 8010
         },
         {
           "name": "KHR_materials_ior/ior",
-          "nodeId": 8009
+          "nodeId": 8022
         },
         {
           "name": "KHR_materials_iridescence/iridescenceFactor",
-          "nodeId": 8021
+          "nodeId": 8034
         },
         {
           "name": "KHR_materials_iridescence/iridescenceIor",
-          "nodeId": 8033
+          "nodeId": 8046
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessMinimum",
-          "nodeId": 8045
+          "nodeId": 8058
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessMaximum",
-          "nodeId": 8057
+          "nodeId": 8070
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture offset",
-          "nodeId": 8069
+          "nodeId": 8082
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture rotation",
-          "nodeId": 8081
+          "nodeId": 8094
         },
         {
           "name": "KHR_materials_iridescence/iridescenceTexture texture scale",
-          "nodeId": 8093
+          "nodeId": 8106
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture offset",
-          "nodeId": 8105
+          "nodeId": 8118
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture rotation",
-          "nodeId": 8117
+          "nodeId": 8130
         },
         {
           "name": "KHR_materials_iridescence/iridescenceThicknessTexture texture scale",
-          "nodeId": 8129
+          "nodeId": 8142
         },
         {
           "name": "KHR_materials_sheen/sheenColorFactor",
-          "nodeId": 8141
+          "nodeId": 8154
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessFactor",
-          "nodeId": 8153
+          "nodeId": 8166
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture offset",
-          "nodeId": 8165
+          "nodeId": 8178
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture rotation",
-          "nodeId": 8177
+          "nodeId": 8190
         },
         {
           "name": "KHR_materials_sheen/sheenColorTexture texture scale",
-          "nodeId": 8189
+          "nodeId": 8202
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture offset",
-          "nodeId": 8201
+          "nodeId": 8214
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture rotation",
-          "nodeId": 8213
+          "nodeId": 8226
         },
         {
           "name": "KHR_materials_sheen/sheenRoughnessTexture texture scale",
-          "nodeId": 8225
+          "nodeId": 8238
         },
         {
           "name": "KHR_materials_specular/specularFactor",
-          "nodeId": 8237
+          "nodeId": 8250
         },
         {
           "name": "KHR_materials_specular/specularColorFactor",
-          "nodeId": 8249
+          "nodeId": 8262
         },
         {
           "name": "KHR_materials_specular/specularTexture texture offset",
-          "nodeId": 8261
+          "nodeId": 8274
         },
         {
           "name": "KHR_materials_specular/specularTexture texture rotation",
-          "nodeId": 8273
+          "nodeId": 8286
         },
         {
           "name": "KHR_materials_specular/specularTexture texture scale",
-          "nodeId": 8285
+          "nodeId": 8298
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture offset",
-          "nodeId": 8297
+          "nodeId": 8310
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture rotation",
-          "nodeId": 8309
+          "nodeId": 8322
         },
         {
           "name": "KHR_materials_specular/specularColorTexture texture scale",
-          "nodeId": 8321
+          "nodeId": 8334
         },
         {
           "name": "KHR_materials_transmission/transmissionFactor",
-          "nodeId": 8333
+          "nodeId": 8346
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture offset",
-          "nodeId": 8345
+          "nodeId": 8358
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture rotation",
-          "nodeId": 8357
+          "nodeId": 8370
         },
         {
           "name": "KHR_materials_transmission/transmissionTexture texture scale",
-          "nodeId": 8369
+          "nodeId": 8382
         },
         {
           "name": "KHR_materials_volume/thicknessFactor",
-          "nodeId": 8381
+          "nodeId": 8394
         },
         {
           "name": "KHR_materials_volume/attenuationDistance",
-          "nodeId": 8393
+          "nodeId": 8406
         },
         {
           "name": "KHR_materials_volume/attenuationColor",
-          "nodeId": 8405
+          "nodeId": 8418
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture offset",
-          "nodeId": 8417
+          "nodeId": 8430
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture rotation",
-          "nodeId": 8429
+          "nodeId": 8442
         },
         {
           "name": "KHR_materials_volume/thicknessTexture texture scale",
-          "nodeId": 8441
+          "nodeId": 8454
         }
       ],
       "subTests": [
@@ -7508,45 +7513,45 @@
       "entryPoints": [
         {
           "name": "No [out] on\nthe [err] cases (delayed execution)",
-          "nodeId": 8469,
+          "nodeId": 8482,
           "delayedExecutionTime": 0.2
         },
         {
           "name": "[err] index -1",
-          "nodeId": 8473
+          "nodeId": 8486
         },
         {
           "name": "[err] index out of range",
-          "nodeId": 8481
+          "nodeId": 8494
         },
         {
           "name": "[err] type mismatch\n(float on translation)",
-          "nodeId": 8489
+          "nodeId": 8502
         },
         {
           "name": "[err] read-only\n(/nodes.length)",
-          "nodeId": 8497
+          "nodeId": 8510
         },
         {
           "name": "[err] /nodes/{}/weights",
-          "nodeId": 8505
+          "nodeId": 8518
         },
         {
           "name": "Invalid value\n(metallic 2): [out]",
-          "nodeId": 8516
+          "nodeId": 8529
         },
         {
           "name": "set stops interpolate:\n[done] not fired (delayed execution)",
-          "nodeId": 8529,
+          "nodeId": 8542,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "pointer/get index -1:\nisValid false",
-          "nodeId": 8554
+          "nodeId": 8567
         },
         {
           "name": "pointer/get index out\nof range: isValid false",
-          "nodeId": 8564
+          "nodeId": 8577
         }
       ],
       "subTests": [
@@ -7705,11 +7710,11 @@
       "entryPoints": [
         {
           "name": "Entry",
-          "nodeId": 8584
+          "nodeId": 8597
         },
         {
           "name": "Delayed Check (delayed execution)",
-          "nodeId": 8627,
+          "nodeId": 8640,
           "delayedExecutionTime": 1.0
         }
       ],
@@ -7799,31 +7804,31 @@
       "entryPoints": [
         {
           "name": "Same mesh ref in ref/eq",
-          "nodeId": 8647
+          "nodeId": 8660
         },
         {
           "name": "Two nulls in ref/eq",
-          "nodeId": 8657
+          "nodeId": 8670
         },
         {
           "name": "One mesh and one null in ref/eq",
-          "nodeId": 8667
+          "nodeId": 8680
         },
         {
           "name": "One mesh and one node in ref/eq",
-          "nodeId": 8677
+          "nodeId": 8690
         },
         {
           "name": "Connected mesh ref and same static mesh ref in ref/eq",
-          "nodeId": 8687
+          "nodeId": 8700
         },
         {
           "name": "Connected mesh ref and static node ref in ref/eq",
-          "nodeId": 8697
+          "nodeId": 8710
         },
         {
           "name": "Connected child node ref and same static node ref in ref/eq",
-          "nodeId": 8707
+          "nodeId": 8720
         }
       ],
       "subTests": [
@@ -7927,59 +7932,59 @@
       "entryPoints": [
         {
           "name": "boolToInt(true) == 1",
-          "nodeId": 8735
+          "nodeId": 8748
         },
         {
           "name": "boolToInt(false) == 0",
-          "nodeId": 8745
+          "nodeId": 8758
         },
         {
           "name": "boolToFloat(true) == 1",
-          "nodeId": 8755
+          "nodeId": 8768
         },
         {
           "name": "boolToFloat(false) == 0",
-          "nodeId": 8765
+          "nodeId": 8778
         },
         {
           "name": "intToBool(0) == false",
-          "nodeId": 8775
+          "nodeId": 8788
         },
         {
           "name": "intToBool(5) == true",
-          "nodeId": 8785
+          "nodeId": 8798
         },
         {
           "name": "intToBool(-3) == true",
-          "nodeId": 8795
+          "nodeId": 8808
         },
         {
           "name": "intToFloat(7) == 7.0",
-          "nodeId": 8805
+          "nodeId": 8818
         },
         {
           "name": "floatToInt(3.7) == 3 (trunc)",
-          "nodeId": 8815
+          "nodeId": 8828
         },
         {
           "name": "floatToInt(-3.7) == -3 (trunc)",
-          "nodeId": 8825
+          "nodeId": 8838
         },
         {
           "name": "floatToInt(NaN) == 0",
-          "nodeId": 8835
+          "nodeId": 8848
         },
         {
           "name": "floatToBool(0) == false",
-          "nodeId": 8839
+          "nodeId": 8852
         },
         {
           "name": "floatToBool(2.5) == true",
-          "nodeId": 8849
+          "nodeId": 8862
         },
         {
           "name": "floatToBool(-2.5) == true",
-          "nodeId": 8859
+          "nodeId": 8872
         }
       ],
       "subTests": [
@@ -8164,65 +8169,65 @@
       "entryPoints": [
         {
           "name": "Interpolate (delayed execution)",
-          "nodeId": 8895,
+          "nodeId": 8908,
           "delayedExecutionTime": 4.5
         },
         {
           "name": "[Err] flow (duration -1f",
-          "nodeId": 8936
+          "nodeId": 8949
         },
         {
           "name": "[Err] flow (duration infinite",
-          "nodeId": 8944
+          "nodeId": 8957
         },
         {
           "name": "[Err] flow (p1 NaN)",
-          "nodeId": 8948
+          "nodeId": 8961
         },
         {
           "name": "[Err] flow (p2 NaN)",
-          "nodeId": 8956
+          "nodeId": 8969
         },
         {
           "name": "useSlerp on float4, value at 100% (delayed execution)",
-          "nodeId": 8964,
+          "nodeId": 8977,
           "delayedExecutionTime": 1.5
         },
         {
           "name": "[Err] flow (p1.x -0.1)",
-          "nodeId": 8978
+          "nodeId": 8991
         },
         {
           "name": "[Err] flow (p2.x 1.1)",
-          "nodeId": 8986
+          "nodeId": 8999
         },
         {
           "name": "[Err] flow (p1.y +Inf)",
-          "nodeId": 8994
+          "nodeId": 9007
         },
         {
           "name": "Ease-in curve, value at 50% (delayed execution)",
-          "nodeId": 8998,
+          "nodeId": 9011,
           "delayedExecutionTime": 4.5
         },
         {
           "name": "Overshoot curve (p1.y -1), value below start (delayed execution)",
-          "nodeId": 9014,
+          "nodeId": 9027,
           "delayedExecutionTime": 4.5
         },
         {
           "name": "Duration 0: [done] (delayed execution)",
-          "nodeId": 9036,
+          "nodeId": 9049,
           "delayedExecutionTime": 1.0
         },
         {
           "name": "Re-trigger: 1st [done] not fired (delayed execution)",
-          "nodeId": 9059,
+          "nodeId": 9072,
           "delayedExecutionTime": 2.0
         },
         {
           "name": "variable/set stops it: [done] not fired (delayed execution)",
-          "nodeId": 9091,
+          "nodeId": 9104,
           "delayedExecutionTime": 2.0
         }
       ],
@@ -8489,75 +8494,75 @@
       "entryPoints": [
         {
           "name": "Set Variable (connected) bool",
-          "nodeId": 9138
+          "nodeId": 9151
         },
         {
           "name": "Set Variable (connected) int",
-          "nodeId": 9149
+          "nodeId": 9162
         },
         {
           "name": "Set Variable (connected) float",
-          "nodeId": 9160
+          "nodeId": 9173
         },
         {
           "name": "Set Variable (connected) float2",
-          "nodeId": 9171
+          "nodeId": 9184
         },
         {
           "name": "Set Variable (connected) float3",
-          "nodeId": 9182
+          "nodeId": 9195
         },
         {
           "name": "Set Variable (connected) float4",
-          "nodeId": 9193
+          "nodeId": 9206
         },
         {
           "name": "Set Variable bool",
-          "nodeId": 9204
+          "nodeId": 9217
         },
         {
           "name": "Set Variable int",
-          "nodeId": 9215
+          "nodeId": 9228
         },
         {
           "name": "Set Variable float",
-          "nodeId": 9226
+          "nodeId": 9239
         },
         {
           "name": "Set Variable float2",
-          "nodeId": 9237
+          "nodeId": 9250
         },
         {
           "name": "Set Variable float3",
-          "nodeId": 9248
+          "nodeId": 9261
         },
         {
           "name": "Set Variable float4",
-          "nodeId": 9259
+          "nodeId": 9272
         },
         {
           "name": "Get default value from Variable bool",
-          "nodeId": 9270
+          "nodeId": 9283
         },
         {
           "name": "Get default value from Variable int",
-          "nodeId": 9280
+          "nodeId": 9293
         },
         {
           "name": "Get default value from Variable float",
-          "nodeId": 9290
+          "nodeId": 9303
         },
         {
           "name": "Get default value from Variable float2",
-          "nodeId": 9300
+          "nodeId": 9313
         },
         {
           "name": "Get default value from Variable float3",
-          "nodeId": 9310
+          "nodeId": 9323
         },
         {
           "name": "Get default value from Variable float4",
-          "nodeId": 9320
+          "nodeId": 9333
         }
       ],
       "subTests": [
@@ -8794,11 +8799,11 @@
       "entryPoints": [
         {
           "name": "Set multiple variables",
-          "nodeId": 9338
+          "nodeId": 9351
         },
         {
           "name": "Set variable with duplicate index",
-          "nodeId": 9366
+          "nodeId": 9379
         }
       ],
       "subTests": [

@@ -56,6 +56,7 @@
 Schemas used in this test case:
 - debug/log
 - event/onStart
+- event/onTick
 - flow/branch
 - flow/sequence
 - flow/setDelay
@@ -66,9 +67,13 @@ Schemas used in this test case:
 - math/extract4
 - math/ge
 - math/gt
+- math/inverse
 - math/isNaN
 - math/length
 - math/lt
+- math/matCompose
+- math/matDecompose
+- math/matMul
 - math/not
 - math/or
 - math/sub
