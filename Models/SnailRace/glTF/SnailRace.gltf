@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "UnityGltf 2.21.0, Unity 2022.3.62f2, Built-in RP",
+    "generator": "UnityGltf 2.23.0, Unity 2022.3.62f2, Built-in RP",
     "version": "2.0"
   },
   "extensionsUsed": [
@@ -1038,6 +1038,12 @@
               "signature": "float3"
             },
             {
+              "signature": "float4"
+            },
+            {
+              "signature": "float4x4"
+            },
+            {
               "signature": "ref"
             }
           ],
@@ -1056,10 +1062,10 @@
               "name": "Move Now",
               "values": {
                 "targetNodeRef": {
-                  "type": 4
+                  "type": 6
                 },
                 "argument_0": {
-                  "type": 4
+                  "type": 6
                 }
               }
             }
@@ -1073,7 +1079,7 @@
               "extension": "KHR_node_selectability",
               "outputValueSockets": {
                 "selectedNode": {
-                  "type": 4
+                  "type": 6
                 },
                 "selectionRayOrigin": {
                   "type": 3
@@ -1083,6 +1089,9 @@
                 },
                 "controllerIndex": {
                   "type": 1
+                },
+                "event": {
+                  "type": 6
                 }
               }
             },
@@ -1096,10 +1105,25 @@
               "op": "pointer/get"
             },
             {
+              "op": "math/matDecompose"
+            },
+            {
               "op": "math/mul"
             },
             {
+              "op": "math/rotate3D"
+            },
+            {
               "op": "math/add"
+            },
+            {
+              "op": "math/inverse"
+            },
+            {
+              "op": "math/matMul"
+            },
+            {
+              "op": "math/matCompose"
             },
             {
               "op": "math/rem"
@@ -1163,7 +1187,7 @@
               },
               "flows": {
                 "out": {
-                  "node": 10,
+                  "node": 19,
                   "socket": "in"
                 }
               }
@@ -1191,13 +1215,13 @@
                   "socket": "value"
                 },
                 "a": {
-                  "type": 4,
+                  "type": 6,
                   "value": [
                     "/nodes/8"
                   ]
                 },
                 "b": {
-                  "type": 4,
+                  "type": 6,
                   "value": [
                     "/nodes/9"
                   ]
@@ -1209,12 +1233,12 @@
               "configuration": {
                 "pointer": {
                   "value": [
-                    "/nodes/{nodeRef}/translation"
+                    "/nodes/{nodeRef}/globalMatrix"
                   ]
                 },
                 "type": {
                   "value": [
-                    3
+                    5
                   ]
                 }
               },
@@ -1231,6 +1255,15 @@
                 "a": {
                   "node": 4,
                   "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 6,
+              "values": {
+                "a": {
+                  "node": 5,
+                  "socket": "translation"
                 },
                 "b": {
                   "type": 3,
@@ -1244,6 +1277,24 @@
             },
             {
               "declaration": 6,
+              "values": {
+                "a": {
+                  "node": 5,
+                  "socket": "rotation"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    1.0,
+                    -1.0,
+                    -1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 7,
               "values": {
                 "a": {
                   "type": 3,
@@ -1253,17 +1304,30 @@
                     -0.25
                   ]
                 },
-                "b": {
-                  "node": 5,
+                "rotation": {
+                  "node": 7,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 5,
+              "declaration": 8,
               "values": {
                 "a": {
                   "node": 6,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 8,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 6,
+              "values": {
+                "a": {
+                  "node": 9,
                   "socket": "value"
                 },
                 "b": {
@@ -1277,7 +1341,98 @@
               }
             },
             {
-              "declaration": 6,
+              "declaration": 4,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/matrix"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    5
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "node": 3,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 9,
+              "values": {
+                "a": {
+                  "node": 4,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 11,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 12,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 11,
+              "values": {
+                "translation": {
+                  "node": 10,
+                  "socket": "value"
+                },
+                "rotation": {
+                  "type": 4,
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                },
+                "scale": {
+                  "type": 3,
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 13,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 14,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 5,
+              "values": {
+                "a": {
+                  "node": 15,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 8,
               "values": {
                 "a": {
                   "node": 0,
@@ -1292,10 +1447,10 @@
               }
             },
             {
-              "declaration": 7,
+              "declaration": 12,
               "values": {
                 "a": {
-                  "node": 8,
+                  "node": 17,
                   "socket": "value"
                 },
                 "b": {
@@ -1307,7 +1462,7 @@
               }
             },
             {
-              "declaration": 8,
+              "declaration": 13,
               "configuration": {
                 "variables": {
                   "value": [
@@ -1317,19 +1472,19 @@
               },
               "values": {
                 "0": {
-                  "node": 9,
+                  "node": 18,
                   "socket": "value"
                 }
               },
               "flows": {
                 "out": {
-                  "node": 11,
+                  "node": 20,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 9,
+              "declaration": 14,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -1344,8 +1499,8 @@
               },
               "values": {
                 "value": {
-                  "node": 7,
-                  "socket": "value"
+                  "node": 16,
+                  "socket": "translation"
                 },
                 "nodeRef": {
                   "node": 3,
@@ -1364,13 +1519,13 @@
               },
               "flows": {
                 "out": {
-                  "node": 20,
+                  "node": 39,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 10,
+              "declaration": 15,
               "configuration": {
                 "event": {
                   "value": [
@@ -1380,7 +1535,7 @@
               },
               "flows": {
                 "out": {
-                  "node": 22,
+                  "node": 41,
                   "socket": "in"
                 }
               }
@@ -1390,18 +1545,18 @@
               "configuration": {
                 "pointer": {
                   "value": [
-                    "/nodes/{nodeRef}/translation"
+                    "/nodes/{nodeRef}/globalMatrix"
                   ]
                 },
                 "type": {
                   "value": [
-                    3
+                    5
                   ]
                 }
               },
               "values": {
                 "nodeRef": {
-                  "node": 13,
+                  "node": 22,
                   "socket": "argument_0"
                 }
               }
@@ -1410,8 +1565,17 @@
               "declaration": 5,
               "values": {
                 "a": {
-                  "node": 14,
+                  "node": 23,
                   "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 6,
+              "values": {
+                "a": {
+                  "node": 24,
+                  "socket": "translation"
                 },
                 "b": {
                   "type": 3,
@@ -1424,7 +1588,48 @@
               }
             },
             {
+              "declaration": 4,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/matrix"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    5
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 6,
+                  "value": [
+                    "/nodes/21"
+                  ]
+                }
+              }
+            },
+            {
               "declaration": 6,
+              "values": {
+                "a": {
+                  "node": 24,
+                  "socket": "rotation"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    1.0,
+                    -1.0,
+                    -1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 7,
               "values": {
                 "a": {
                   "type": 3,
@@ -1434,17 +1639,30 @@
                     -0.45
                   ]
                 },
-                "b": {
-                  "node": 15,
+                "rotation": {
+                  "node": 27,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 5,
+              "declaration": 8,
               "values": {
                 "a": {
-                  "node": 16,
+                  "node": 25,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 28,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 6,
+              "values": {
+                "a": {
+                  "node": 29,
                   "socket": "value"
                 },
                 "b": {
@@ -1458,14 +1676,105 @@
               }
             },
             {
-              "declaration": 11,
+              "declaration": 4,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/matrix"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    5
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "node": 22,
+                  "socket": "argument_0"
+                }
+              }
+            },
+            {
+              "declaration": 9,
               "values": {
                 "a": {
-                  "node": 13,
+                  "node": 23,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 31,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 32,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 11,
+              "values": {
+                "translation": {
+                  "node": 30,
+                  "socket": "value"
+                },
+                "rotation": {
+                  "type": 4,
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                },
+                "scale": {
+                  "type": 3,
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 33,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 34,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 5,
+              "values": {
+                "a": {
+                  "node": 35,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 16,
+              "values": {
+                "a": {
+                  "node": 22,
                   "socket": "argument_0"
                 },
                 "b": {
-                  "type": 4,
+                  "type": 6,
                   "value": [
                     "/nodes/14"
                   ]
@@ -1476,17 +1785,17 @@
               "declaration": 3,
               "values": {
                 "condition": {
-                  "node": 18,
+                  "node": 37,
                   "socket": "value"
                 },
                 "a": {
-                  "type": 4,
+                  "type": 6,
                   "value": [
                     "/nodes/15"
                   ]
                 },
                 "b": {
-                  "type": 4,
+                  "type": 6,
                   "value": [
                     "/nodes/14"
                   ]
@@ -1494,7 +1803,7 @@
               }
             },
             {
-              "declaration": 12,
+              "declaration": 17,
               "configuration": {
                 "event": {
                   "value": [
@@ -1504,26 +1813,26 @@
               },
               "values": {
                 "targetNodeRef": {
-                  "type": 4,
+                  "type": 6,
                   "value": [
                     "/nodes/13"
                   ]
                 },
                 "argument_0": {
-                  "node": 19,
+                  "node": 38,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 16,
               "values": {
                 "a": {
-                  "node": 13,
+                  "node": 22,
                   "socket": "targetNodeRef"
                 },
                 "b": {
-                  "type": 4,
+                  "type": 6,
                   "value": [
                     "/nodes/13"
                   ]
@@ -1531,22 +1840,22 @@
               }
             },
             {
-              "declaration": 13,
+              "declaration": 18,
               "values": {
                 "condition": {
-                  "node": 21,
+                  "node": 40,
                   "socket": "value"
                 }
               },
               "flows": {
                 "true": {
-                  "node": 23,
+                  "node": 42,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 9,
+              "declaration": 14,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -1561,11 +1870,11 @@
               },
               "values": {
                 "value": {
-                  "node": 17,
-                  "socket": "value"
+                  "node": 36,
+                  "socket": "translation"
                 },
                 "nodeRef": {
-                  "node": 13,
+                  "node": 22,
                   "socket": "argument_0"
                 }
               }
@@ -1581,16 +1890,16 @@
               },
               "flows": {
                 "out": {
-                  "node": 31,
+                  "node": 50,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 14
+              "declaration": 19
             },
             {
-              "declaration": 15,
+              "declaration": 20,
               "values": {
                 "a": {
                   "type": 1,
@@ -1607,47 +1916,47 @@
               }
             },
             {
-              "declaration": 16,
+              "declaration": 21,
               "values": {
                 "a": {
-                  "node": 26,
+                  "node": 45,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 5,
+              "declaration": 6,
               "values": {
                 "a": {
-                  "node": 25,
+                  "node": 44,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 27,
+                  "node": 46,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 17,
+              "declaration": 22,
               "values": {
                 "a": {
-                  "node": 28,
+                  "node": 47,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 18,
+              "declaration": 23,
               "values": {
                 "a": {
-                  "node": 29,
+                  "node": 48,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 19,
+              "declaration": 24,
               "configuration": {
                 "cases": {
                   "value": [
@@ -1658,17 +1967,17 @@
               },
               "values": {
                 "selection": {
-                  "node": 30,
+                  "node": 49,
                   "socket": "value"
                 }
               },
               "flows": {
                 "0": {
-                  "node": 36,
+                  "node": 64,
                   "socket": "in"
                 },
                 "1": {
-                  "node": 41,
+                  "node": 77,
                   "socket": "in"
                 }
               }
@@ -1678,18 +1987,18 @@
               "configuration": {
                 "pointer": {
                   "value": [
-                    "/nodes/{nodeRef}/translation"
+                    "/nodes/{nodeRef}/globalMatrix"
                   ]
                 },
                 "type": {
                   "value": [
-                    3
+                    5
                   ]
                 }
               },
               "values": {
                 "nodeRef": {
-                  "type": 4,
+                  "type": 6,
                   "value": [
                     "/nodes/20"
                   ]
@@ -1700,8 +2009,17 @@
               "declaration": 5,
               "values": {
                 "a": {
-                  "node": 32,
+                  "node": 51,
                   "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 6,
+              "values": {
+                "a": {
+                  "node": 52,
+                  "socket": "translation"
                 },
                 "b": {
                   "type": 3,
@@ -1717,6 +2035,24 @@
               "declaration": 6,
               "values": {
                 "a": {
+                  "node": 52,
+                  "socket": "rotation"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    1.0,
+                    -1.0,
+                    -1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 7,
+              "values": {
+                "a": {
                   "type": 3,
                   "value": [
                     0.0,
@@ -1724,17 +2060,30 @@
                     -0.25
                   ]
                 },
-                "b": {
-                  "node": 33,
+                "rotation": {
+                  "node": 54,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 5,
+              "declaration": 8,
               "values": {
                 "a": {
-                  "node": 34,
+                  "node": 53,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 55,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 6,
+              "values": {
+                "a": {
+                  "node": 56,
                   "socket": "value"
                 },
                 "b": {
@@ -1748,7 +2097,100 @@
               }
             },
             {
+              "declaration": 4,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/matrix"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    5
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 6,
+                  "value": [
+                    "/nodes/20"
+                  ]
+                }
+              }
+            },
+            {
               "declaration": 9,
+              "values": {
+                "a": {
+                  "node": 51,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 58,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 59,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 11,
+              "values": {
+                "translation": {
+                  "node": 57,
+                  "socket": "value"
+                },
+                "rotation": {
+                  "type": 4,
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                },
+                "scale": {
+                  "type": 3,
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 60,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 61,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 5,
+              "values": {
+                "a": {
+                  "node": 62,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 14,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -1763,11 +2205,11 @@
               },
               "values": {
                 "value": {
-                  "node": 35,
-                  "socket": "value"
+                  "node": 63,
+                  "socket": "translation"
                 },
                 "nodeRef": {
-                  "type": 4,
+                  "type": 6,
                   "value": [
                     "/nodes/20"
                   ]
@@ -1779,18 +2221,18 @@
               "configuration": {
                 "pointer": {
                   "value": [
-                    "/nodes/{nodeRef}/translation"
+                    "/nodes/{nodeRef}/globalMatrix"
                   ]
                 },
                 "type": {
                   "value": [
-                    3
+                    5
                   ]
                 }
               },
               "values": {
                 "nodeRef": {
-                  "type": 4,
+                  "type": 6,
                   "value": [
                     "/nodes/21"
                   ]
@@ -1798,17 +2240,49 @@
               }
             },
             {
-              "declaration": 5,
+              "declaration": 9,
               "values": {
                 "a": {
-                  "node": 37,
+                  "node": 65,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 26,
                   "socket": "value"
                 },
                 "b": {
-                  "type": 3,
+                  "node": 66,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 5,
+              "values": {
+                "a": {
+                  "node": 65,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 6,
+              "values": {
+                "a": {
+                  "node": 68,
+                  "socket": "rotation"
+                },
+                "b": {
+                  "type": 4,
                   "value": [
-                    -1.0,
                     1.0,
+                    -1.0,
+                    -1.0,
                     1.0
                   ]
                 }
@@ -1818,6 +2292,23 @@
               "declaration": 6,
               "values": {
                 "a": {
+                  "node": 68,
+                  "socket": "translation"
+                },
+                "b": {
+                  "type": 3,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 7,
+              "values": {
+                "a": {
                   "type": 3,
                   "value": [
                     0.0,
@@ -1825,17 +2316,30 @@
                     -0.25
                   ]
                 },
-                "b": {
-                  "node": 38,
+                "rotation": {
+                  "node": 69,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 5,
+              "declaration": 8,
               "values": {
                 "a": {
-                  "node": 39,
+                  "node": 70,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 71,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 6,
+              "values": {
+                "a": {
+                  "node": 72,
                   "socket": "value"
                 },
                 "b": {
@@ -1849,7 +2353,55 @@
               }
             },
             {
-              "declaration": 9,
+              "declaration": 11,
+              "values": {
+                "translation": {
+                  "node": 73,
+                  "socket": "value"
+                },
+                "rotation": {
+                  "type": 4,
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                },
+                "scale": {
+                  "type": 3,
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 67,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 74,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 5,
+              "values": {
+                "a": {
+                  "node": 75,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 14,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -1864,11 +2416,11 @@
               },
               "values": {
                 "value": {
-                  "node": 40,
-                  "socket": "value"
+                  "node": 76,
+                  "socket": "translation"
                 },
                 "nodeRef": {
-                  "type": 4,
+                  "type": 6,
                   "value": [
                     "/nodes/21"
                   ]

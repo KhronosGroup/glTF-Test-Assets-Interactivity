@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "UnityGltf 2.21.0, Unity 2022.3.62f2, Built-in RP",
+    "generator": "UnityGltf 2.23.0, Unity 2022.3.62f2, Built-in RP",
     "version": "2.0"
   },
   "extensionsUsed": [
@@ -520,7 +520,7 @@
   "buffers": [
     {
       "uri": "Events.bin",
-      "byteLength": 273800
+      "byteLength": 271056
     }
   ],
   "bufferViews": [
@@ -613,125 +613,125 @@
     {
       "buffer": 0,
       "byteOffset": 9464,
-      "byteLength": 255516
+      "byteLength": 252772
     },
     {
       "buffer": 0,
-      "byteOffset": 264980,
+      "byteOffset": 262236,
       "byteLength": 1200,
       "byteStride": 12,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 266180,
+      "byteOffset": 263436,
       "byteLength": 1200,
       "byteStride": 12,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 267380,
+      "byteOffset": 264636,
       "byteLength": 800,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 268180,
+      "byteOffset": 265436,
       "byteLength": 1600,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 269780,
+      "byteOffset": 267036,
       "byteLength": 96,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 269876,
+      "byteOffset": 267132,
       "byteLength": 192,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 270068,
+      "byteOffset": 267324,
       "byteLength": 384,
       "byteStride": 12,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 270452,
+      "byteOffset": 267708,
       "byteLength": 384,
       "byteStride": 12,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 270836,
+      "byteOffset": 268092,
       "byteLength": 512,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 271348,
+      "byteOffset": 268604,
       "byteLength": 256,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 271604,
+      "byteOffset": 268860,
       "byteLength": 256,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 271860,
+      "byteOffset": 269116,
       "byteLength": 512,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 272372,
+      "byteOffset": 269628,
       "byteLength": 48,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 272420,
+      "byteOffset": 269676,
       "byteLength": 288,
       "byteStride": 12,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 272708,
+      "byteOffset": 269964,
       "byteLength": 288,
       "byteStride": 12,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 272996,
+      "byteOffset": 270252,
       "byteLength": 384,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 273380,
+      "byteOffset": 270636,
       "byteLength": 192,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 273572,
+      "byteOffset": 270828,
       "byteLength": 192,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 273764,
+      "byteOffset": 271020,
       "byteLength": 36,
       "target": 34963
     }
@@ -1178,7 +1178,8 @@
   ],
   "samplers": [
     {
-      "minFilter": 9987
+      "minFilter": 9987,
+      "wrapT": 33071
     },
     {
       "minFilter": 9987,
@@ -1279,6 +1280,9 @@
                 },
                 "controllerIndex": {
                   "type": 1
+                },
+                "event": {
+                  "type": 5
                 }
               }
             },

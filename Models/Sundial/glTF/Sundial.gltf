@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "UnityGltf 2.21.0, Unity 2022.3.62f2, Built-in RP",
+    "generator": "UnityGltf 2.23.0, Unity 2022.3.62f2, Built-in RP",
     "version": "2.0"
   },
   "extensionsUsed": [
@@ -2631,6 +2631,9 @@
                 },
                 "controllerIndex": {
                   "type": 1
+                },
+                "event": {
+                  "type": 6
                 }
               }
             },
@@ -3076,7 +3079,7 @@
               "declaration": 14,
               "flows": {
                 "sequ000": {
-                  "node": 32,
+                  "node": 31,
                   "socket": "in"
                 },
                 "sequ001": {
@@ -3138,24 +3141,6 @@
               "values": {
                 "a": {
                   "node": 29,
-                  "socket": "rotation"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    1.0,
-                    -1.0,
-                    -1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 5,
-              "values": {
-                "a": {
-                  "node": 29,
                   "socket": "translation"
                 },
                 "b": {
@@ -3179,8 +3164,26 @@
               },
               "values": {
                 "1": {
-                  "node": 31,
+                  "node": 30,
                   "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 5,
+              "values": {
+                "a": {
+                  "node": 29,
+                  "socket": "rotation"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    1.0,
+                    -1.0,
+                    -1.0,
+                    1.0
+                  ]
                 }
               }
             },
@@ -3195,7 +3198,7 @@
               },
               "values": {
                 "0": {
-                  "node": 30,
+                  "node": 32,
                   "socket": "value"
                 }
               }

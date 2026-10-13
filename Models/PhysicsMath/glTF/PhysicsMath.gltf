@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "UnityGltf 2.21.0, Unity 2022.3.62f2, Built-in RP",
+    "generator": "UnityGltf 2.23.0, Unity 2022.3.62f2, Built-in RP",
     "version": "2.0"
   },
   "extensionsUsed": [
@@ -2614,24 +2614,6 @@
               "op": "variable/get"
             },
             {
-              "op": "event/onSelect",
-              "extension": "KHR_node_selectability",
-              "outputValueSockets": {
-                "selectedNode": {
-                  "type": 7
-                },
-                "selectionRayOrigin": {
-                  "type": 4
-                },
-                "selectionPoint": {
-                  "type": 4
-                },
-                "controllerIndex": {
-                  "type": 1
-                }
-              }
-            },
-            {
               "op": "math/mul"
             },
             {
@@ -2651,15 +2633,6 @@
             },
             {
               "op": "pointer/set"
-            },
-            {
-              "op": "event/onTick"
-            },
-            {
-              "op": "variable/set"
-            },
-            {
-              "op": "math/isNaN"
             },
             {
               "op": "math/normalize"
@@ -2684,6 +2657,36 @@
             },
             {
               "op": "math/matCompose"
+            },
+            {
+              "op": "event/onSelect",
+              "extension": "KHR_node_selectability",
+              "outputValueSockets": {
+                "selectedNode": {
+                  "type": 7
+                },
+                "selectionRayOrigin": {
+                  "type": 4
+                },
+                "selectionPoint": {
+                  "type": 4
+                },
+                "controllerIndex": {
+                  "type": 1
+                },
+                "event": {
+                  "type": 7
+                }
+              }
+            },
+            {
+              "op": "event/onTick"
+            },
+            {
+              "op": "math/isNaN"
+            },
+            {
+              "op": "variable/set"
             },
             {
               "op": "flow/for"
@@ -2765,22 +2768,6 @@
               }
             },
             {
-              "declaration": 2,
-              "configuration": {
-                "nodeIndex": {
-                  "value": [
-                    5
-                  ]
-                }
-              },
-              "flows": {
-                "out": {
-                  "node": 287,
-                  "socket": "in"
-                }
-              }
-            },
-            {
               "declaration": 1,
               "configuration": {
                 "variable": {
@@ -2828,16 +2815,16 @@
                 "nodeRef": {
                   "type": 7,
                   "value": [
-                    "/nodes/3"
+                    "/nodes/5"
                   ]
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 8,
+                  "node": 7,
                   "socket": "value"
                 },
                 "b": {
@@ -2851,23 +2838,63 @@
               }
             },
             {
-              "declaration": 4,
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 7,
+                  "value": [
+                    "/nodes/3"
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 2,
               "values": {
                 "a": {
                   "node": 9,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 7,
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 3,
+              "values": {
+                "a": {
+                  "node": 10,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 6,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 5,
+              "declaration": 4,
               "values": {
                 "a": {
-                  "node": 10,
+                  "node": 11,
                   "socket": "value"
                 }
               }
@@ -2896,19 +2923,19 @@
               }
             },
             {
-              "declaration": 6,
+              "declaration": 5,
               "values": {
                 "a": {
-                  "node": 12,
+                  "node": 13,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 13,
+                  "node": 14,
                   "socket": "0"
                 },
                 "b": {
@@ -2920,23 +2947,23 @@
               }
             },
             {
-              "declaration": 7,
+              "declaration": 6,
               "values": {
                 "a": {
-                  "node": 11,
+                  "node": 12,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 14,
+                  "node": 15,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 8,
+              "declaration": 7,
               "values": {
                 "condition": {
-                  "node": 15,
+                  "node": 16,
                   "socket": "value"
                 },
                 "a": {
@@ -2998,13 +3025,13 @@
               },
               "values": {
                 "meshRef": {
-                  "node": 17,
+                  "node": 18,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -3019,17 +3046,17 @@
               },
               "values": {
                 "value": {
-                  "node": 16,
+                  "node": 17,
                   "socket": "value"
                 },
                 "materialRef": {
-                  "node": 18,
+                  "node": 19,
                   "socket": "value"
                 }
               },
               "flows": {
                 "out": {
-                  "node": 44,
+                  "node": 41,
                   "socket": "in"
                 }
               }
@@ -3050,7 +3077,7 @@
               },
               "values": {
                 "materialRef": {
-                  "node": 18,
+                  "node": 19,
                   "socket": "value"
                 }
               }
@@ -3071,7 +3098,7 @@
               },
               "values": {
                 "nodeRef": {
-                  "node": 5,
+                  "node": 4,
                   "socket": "value"
                 }
               }
@@ -3092,77 +3119,16 @@
               },
               "values": {
                 "meshRef": {
-                  "node": 21,
+                  "node": 22,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 10,
-              "flows": {
-                "out": {
-                  "node": 24,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 11,
-              "configuration": {
-                "variables": {
-                  "value": [
-                    27
-                  ]
-                }
-              },
-              "values": {
-                "27": {
-                  "type": 2,
-                  "value": [
-                    1E+07
-                  ]
-                }
-              },
-              "flows": {
-                "out": {
-                  "node": 215,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 12,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 23,
-                  "socket": "timeSinceLastTick"
-                }
-              }
-            },
-            {
-              "declaration": 8,
-              "values": {
-                "condition": {
-                  "node": 25,
-                  "socket": "value"
-                },
-                "a": {
-                  "type": 2,
-                  "value": [
-                    0.0
-                  ]
-                },
-                "b": {
-                  "node": 23,
-                  "socket": "timeSinceLastTick"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 8,
+                  "node": 9,
                   "socket": "value"
                 },
                 "b": {
@@ -3176,19 +3142,19 @@
               }
             },
             {
-              "declaration": 6,
+              "declaration": 5,
               "values": {
                 "a": {
-                  "node": 27,
+                  "node": 24,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 7,
+              "declaration": 6,
               "values": {
                 "a": {
-                  "node": 28,
+                  "node": 25,
                   "socket": "1"
                 },
                 "b": {
@@ -3200,10 +3166,10 @@
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 8,
+                  "node": 9,
                   "socket": "value"
                 },
                 "b": {
@@ -3217,29 +3183,29 @@
               }
             },
             {
-              "declaration": 13,
+              "declaration": 9,
               "values": {
                 "a": {
-                  "node": 10,
+                  "node": 11,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 14,
+              "declaration": 10,
               "values": {
                 "a": {
-                  "node": 7,
+                  "node": 6,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 31,
+                  "node": 28,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 15,
+              "declaration": 11,
               "values": {
                 "a": {
                   "node": 3,
@@ -3252,10 +3218,10 @@
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 33,
+                  "node": 30,
                   "socket": "value"
                 },
                 "b": {
@@ -3267,27 +3233,27 @@
               }
             },
             {
-              "declaration": 16,
+              "declaration": 12,
               "values": {
                 "a": {
-                  "node": 34,
+                  "node": 31,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 34,
+                  "node": 31,
                   "socket": "value"
                 },
                 "c": {
-                  "node": 34,
+                  "node": 31,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 35,
+                  "node": 32,
                   "socket": "value"
                 },
                 "b": {
@@ -3297,10 +3263,10 @@
               }
             },
             {
-              "declaration": 14,
+              "declaration": 10,
               "values": {
                 "a": {
-                  "node": 36,
+                  "node": 33,
                   "socket": "value"
                 },
                 "b": {
@@ -3310,16 +3276,59 @@
               }
             },
             {
-              "declaration": 17
+              "declaration": 13
             },
             {
-              "declaration": 18,
+              "declaration": 14,
               "values": {
                 "a": {
                   "type": 2,
                   "value": [
                     -4.0
                   ]
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    4.0
+                  ]
+                },
+                "c": {
+                  "node": 35,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 13
+            },
+            {
+              "declaration": 14,
+              "values": {
+                "a": {
+                  "type": 2,
+                  "value": [
+                    -4.0
+                  ]
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    4.0
+                  ]
+                },
+                "c": {
+                  "node": 37,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 12,
+              "values": {
+                "a": {
+                  "node": 36,
+                  "socket": "value"
                 },
                 "b": {
                   "type": 2,
@@ -3334,50 +3343,56 @@
               }
             },
             {
-              "declaration": 17
-            },
-            {
-              "declaration": 18,
-              "values": {
-                "a": {
-                  "type": 2,
-                  "value": [
-                    -4.0
-                  ]
-                },
-                "b": {
-                  "type": 2,
-                  "value": [
-                    4.0
-                  ]
-                },
-                "c": {
-                  "node": 40,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 16,
+              "declaration": 2,
               "values": {
                 "a": {
                   "node": 39,
                   "socket": "value"
                 },
                 "b": {
-                  "type": 2,
+                  "type": 4,
                   "value": [
-                    4.0
+                    -1.0,
+                    1.0,
+                    1.0
                   ]
-                },
-                "c": {
-                  "node": 41,
-                  "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 15,
+              "values": {
+                "condition": {
+                  "node": 16,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 164,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 9,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 2,
               "values": {
                 "a": {
                   "node": 42,
@@ -3394,59 +3409,10 @@
               }
             },
             {
-              "declaration": 19,
-              "values": {
-                "condition": {
-                  "node": 15,
-                  "socket": "value"
-                }
-              },
-              "flows": {
-                "true": {
-                  "node": 159,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 8,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 45,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 20,
+              "declaration": 16,
               "values": {
                 "translation": {
-                  "node": 46,
+                  "node": 43,
                   "socket": "value"
                 },
                 "rotation": {
@@ -3469,7 +3435,7 @@
               }
             },
             {
-              "declaration": 2,
+              "declaration": 17,
               "configuration": {
                 "nodeIndex": {
                   "value": [
@@ -3479,16 +3445,16 @@
               },
               "flows": {
                 "out": {
-                  "node": 89,
+                  "node": 88,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 8,
+                  "node": 9,
                   "socket": "value"
                 },
                 "b": {
@@ -3502,7 +3468,10 @@
               }
             },
             {
-              "declaration": 3,
+              "declaration": 13
+            },
+            {
+              "declaration": 2,
               "values": {
                 "a": {
                   "type": 4,
@@ -3523,7 +3492,7 @@
               }
             },
             {
-              "declaration": 4,
+              "declaration": 3,
               "values": {
                 "a": {
                   "type": 4,
@@ -3534,62 +3503,33 @@
                   ]
                 },
                 "b": {
-                  "node": 50,
+                  "node": 48,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 17
-            },
-            {
-              "declaration": 16,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 26,
+                  "node": 6,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 26,
-                  "socket": "value"
-                },
-                "c": {
-                  "node": 26,
-                  "socket": "value"
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 1,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 53,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 14,
-              "values": {
-                "a": {
-                  "node": 49,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 54,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 55,
+                  "node": 6,
                   "socket": "value"
                 },
                 "b": {
@@ -3606,52 +3546,20 @@
               "declaration": 3,
               "values": {
                 "a": {
-                  "type": 4,
-                  "value": [
-                    0.0,
-                    -9.81,
-                    0.0
-                  ]
+                  "node": 15,
+                  "socket": "value"
                 },
                 "b": {
-                  "node": 53,
+                  "node": 12,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 14,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 57,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 1,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 4,
-              "values": {
-                "a": {
-                  "type": 2,
-                  "value": [
-                    1.0
-                  ]
-                },
-                "b": {
-                  "node": 26,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 7,
+                  "node": 9,
                   "socket": "value"
                 },
                 "b": {
@@ -3665,63 +3573,44 @@
               }
             },
             {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 7,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 4,
-              "values": {
-                "a": {
-                  "node": 14,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 11,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 8,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 10,
+              "declaration": 18,
               "flows": {
                 "out": {
-                  "node": 65,
+                  "node": 57,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 19,
+              "values": {
+                "a": {
+                  "node": 54,
+                  "socket": "timeSinceLastTick"
+                }
+              }
+            },
+            {
+              "declaration": 7,
+              "values": {
+                "condition": {
+                  "node": 55,
+                  "socket": "value"
+                },
+                "a": {
+                  "type": 2,
+                  "value": [
+                    0.0
+                  ]
+                },
+                "b": {
+                  "node": 54,
+                  "socket": "timeSinceLastTick"
+                }
+              }
+            },
+            {
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -3739,7 +3628,7 @@
               },
               "flows": {
                 "out": {
-                  "node": 66,
+                  "node": 58,
                   "socket": "in"
                 }
               }
@@ -3767,11 +3656,11 @@
               },
               "flows": {
                 "loopBody": {
-                  "node": 83,
+                  "node": 82,
                   "socket": "in"
                 },
                 "completed": {
-                  "node": 87,
+                  "node": 86,
                   "socket": "in"
                 }
               }
@@ -3798,7 +3687,7 @@
                   ]
                 },
                 "childIndex": {
-                  "node": 66,
+                  "node": 58,
                   "socket": "index"
                 }
               }
@@ -3819,7 +3708,7 @@
               },
               "values": {
                 "nodeRef": {
-                  "node": 67,
+                  "node": 59,
                   "socket": "value"
                 }
               }
@@ -3828,7 +3717,7 @@
               "declaration": 22,
               "values": {
                 "a": {
-                  "node": 68,
+                  "node": 60,
                   "socket": "value"
                 }
               }
@@ -3837,11 +3726,11 @@
               "declaration": 23,
               "values": {
                 "a": {
-                  "node": 69,
+                  "node": 61,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 47,
+                  "node": 44,
                   "socket": "value"
                 }
               }
@@ -3850,16 +3739,16 @@
               "declaration": 24,
               "values": {
                 "a": {
-                  "node": 70,
+                  "node": 62,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 71,
+                  "node": 63,
                   "socket": "translation"
                 },
                 "b": {
@@ -3876,11 +3765,11 @@
               "declaration": 25,
               "values": {
                 "a": {
-                  "node": 72,
+                  "node": 64,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 50,
+                  "node": 48,
                   "socket": "value"
                 }
               }
@@ -3889,20 +3778,20 @@
               "declaration": 26,
               "values": {
                 "a": {
-                  "node": 73,
+                  "node": 65,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 51,
+                  "node": 49,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 74,
+                  "node": 66,
                   "socket": "value"
                 },
                 "b": {
@@ -3916,10 +3805,10 @@
               }
             },
             {
-              "declaration": 20,
+              "declaration": 16,
               "values": {
                 "translation": {
-                  "node": 75,
+                  "node": 67,
                   "socket": "value"
                 },
                 "rotation": {
@@ -3945,11 +3834,11 @@
               "declaration": 23,
               "values": {
                 "a": {
-                  "node": 68,
+                  "node": 60,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 76,
+                  "node": 68,
                   "socket": "value"
                 }
               }
@@ -3958,16 +3847,16 @@
               "declaration": 24,
               "values": {
                 "a": {
-                  "node": 77,
+                  "node": 69,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 78,
+                  "node": 70,
                   "socket": "translation"
                 },
                 "b": {
@@ -3981,57 +3870,162 @@
               }
             },
             {
+              "declaration": 3,
+              "values": {
+                "a": {
+                  "node": 27,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 71,
+                  "socket": "value"
+                }
+              }
+            },
+            {
               "declaration": 4,
               "values": {
                 "a": {
-                  "node": 30,
+                  "node": 72,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 12,
+              "values": {
+                "a": {
+                  "node": 56,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 79,
+                  "node": 56,
+                  "socket": "value"
+                },
+                "c": {
+                  "node": 56,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 5,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 80,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 7,
-              "values": {
-                "a": {
-                  "node": 81,
+                  "node": 1,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 6,
+                  "node": 74,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 19,
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 46,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 75,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 76,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "type": 4,
+                  "value": [
+                    0.0,
+                    -9.81,
+                    0.0
+                  ]
+                },
+                "b": {
+                  "node": 74,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 78,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 1,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 3,
+              "values": {
+                "a": {
+                  "type": 2,
+                  "value": [
+                    1.0
+                  ]
+                },
+                "b": {
+                  "node": 56,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 6,
+              "values": {
+                "a": {
+                  "node": 73,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 5,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 15,
               "values": {
                 "condition": {
-                  "node": 82,
+                  "node": 81,
                   "socket": "value"
                 }
               },
               "flows": {
                 "true": {
-                  "node": 84,
+                  "node": 83,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -4041,7 +4035,29 @@
               },
               "values": {
                 "7": {
-                  "node": 81,
+                  "node": 73,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 84,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 20,
+              "configuration": {
+                "variables": {
+                  "value": [
+                    8
+                  ]
+                }
+              },
+              "values": {
+                "8": {
+                  "node": 71,
                   "socket": "value"
                 }
               },
@@ -4053,29 +4069,7 @@
               }
             },
             {
-              "declaration": 11,
-              "configuration": {
-                "variables": {
-                  "value": [
-                    8
-                  ]
-                }
-              },
-              "values": {
-                "8": {
-                  "node": 79,
-                  "socket": "value"
-                }
-              },
-              "flows": {
-                "out": {
-                  "node": 86,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -4085,7 +4079,7 @@
               },
               "values": {
                 "4": {
-                  "node": 67,
+                  "node": 59,
                   "socket": "value"
                 }
               }
@@ -4094,48 +4088,48 @@
               "declaration": 27,
               "flows": {
                 "sequ000": {
-                  "node": 97,
+                  "node": 96,
                   "socket": "in"
                 },
                 "sequ001": {
-                  "node": 95,
-                  "socket": "in"
-                },
-                "sequ002": {
-                  "node": 125,
-                  "socket": "in"
-                },
-                "sequ003": {
-                  "node": 90,
-                  "socket": "in"
-                },
-                "sequ004": {
                   "node": 94,
                   "socket": "in"
                 },
+                "sequ002": {
+                  "node": 127,
+                  "socket": "in"
+                },
+                "sequ003": {
+                  "node": 89,
+                  "socket": "in"
+                },
+                "sequ004": {
+                  "node": 93,
+                  "socket": "in"
+                },
                 "sequ005": {
+                  "node": 87,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 15,
+              "values": {
+                "condition": {
+                  "node": 26,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
                   "node": 88,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 19,
-              "values": {
-                "condition": {
-                  "node": 29,
-                  "socket": "value"
-                }
-              },
-              "flows": {
-                "true": {
-                  "node": 89,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -4155,13 +4149,13 @@
               },
               "flows": {
                 "out": {
-                  "node": 93,
+                  "node": 92,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 19,
+              "declaration": 15,
               "values": {
                 "condition": {
                   "node": 2,
@@ -4170,13 +4164,13 @@
               },
               "flows": {
                 "true": {
-                  "node": 91,
+                  "node": 90,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -4186,19 +4180,19 @@
               },
               "values": {
                 "1": {
-                  "node": 37,
+                  "node": 34,
                   "socket": "value"
                 }
               },
               "flows": {
                 "out": {
-                  "node": 92,
+                  "node": 91,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -4213,23 +4207,23 @@
               },
               "values": {
                 "value": {
-                  "node": 20,
+                  "node": 21,
                   "socket": "value"
                 },
                 "materialRef": {
-                  "node": 22,
+                  "node": 23,
                   "socket": "value"
                 }
               },
               "flows": {
                 "out": {
-                  "node": 96,
+                  "node": 95,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -4244,7 +4238,7 @@
               },
               "values": {
                 "value": {
-                  "node": 43,
+                  "node": 40,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -4256,7 +4250,7 @@
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -4271,7 +4265,7 @@
               },
               "values": {
                 "value": {
-                  "node": 56,
+                  "node": 77,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -4283,7 +4277,7 @@
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -4293,7 +4287,7 @@
               },
               "values": {
                 "2": {
-                  "node": 15,
+                  "node": 16,
                   "socket": "value"
                 }
               }
@@ -4343,13 +4337,13 @@
                   ]
                 },
                 "materialRef": {
-                  "node": 22,
+                  "node": 23,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -4364,7 +4358,7 @@
               },
               "values": {
                 "value": {
-                  "node": 61,
+                  "node": 51,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -4376,13 +4370,13 @@
               },
               "flows": {
                 "out": {
-                  "node": 98,
+                  "node": 97,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -4392,19 +4386,19 @@
               },
               "values": {
                 "3": {
-                  "node": 31,
+                  "node": 28,
                   "socket": "value"
                 }
               },
               "flows": {
                 "out": {
-                  "node": 99,
+                  "node": 98,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -4419,7 +4413,7 @@
               },
               "values": {
                 "value": {
-                  "node": 60,
+                  "node": 50,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -4431,16 +4425,16 @@
               },
               "flows": {
                 "out": {
-                  "node": 101,
+                  "node": 100,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 32,
+                  "node": 29,
                   "socket": "value"
                 },
                 "b": {
@@ -4454,7 +4448,7 @@
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -4469,7 +4463,7 @@
               },
               "values": {
                 "value": {
-                  "node": 100,
+                  "node": 99,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -4477,6 +4471,15 @@
                   "value": [
                     "/nodes/22"
                   ]
+                }
+              }
+            },
+            {
+              "declaration": 18,
+              "flows": {
+                "out": {
+                  "node": 258,
+                  "socket": "in"
                 }
               }
             },
@@ -4564,7 +4567,7 @@
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
                   "node": 108,
@@ -4581,7 +4584,7 @@
               }
             },
             {
-              "declaration": 4,
+              "declaration": 3,
               "values": {
                 "a": {
                   "node": 109,
@@ -4594,7 +4597,7 @@
               }
             },
             {
-              "declaration": 5,
+              "declaration": 4,
               "values": {
                 "a": {
                   "node": 110,
@@ -4626,7 +4629,7 @@
               }
             },
             {
-              "declaration": 6,
+              "declaration": 5,
               "values": {
                 "a": {
                   "node": 112,
@@ -4635,7 +4638,7 @@
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
                   "node": 113,
@@ -4650,7 +4653,7 @@
               }
             },
             {
-              "declaration": 7,
+              "declaration": 6,
               "values": {
                 "a": {
                   "node": 111,
@@ -4663,7 +4666,7 @@
               }
             },
             {
-              "declaration": 8,
+              "declaration": 7,
               "values": {
                 "condition": {
                   "node": 115,
@@ -4734,7 +4737,7 @@
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -4759,8 +4762,32 @@
               },
               "flows": {
                 "out": {
-                  "node": 144,
+                  "node": 150,
                   "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 13
+            },
+            {
+              "declaration": 14,
+              "values": {
+                "a": {
+                  "type": 2,
+                  "value": [
+                    -4.0
+                  ]
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    4.0
+                  ]
+                },
+                "c": {
+                  "node": 120,
+                  "socket": "value"
                 }
               }
             },
@@ -4822,43 +4849,43 @@
               },
               "values": {
                 "meshRef": {
-                  "node": 121,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 16,
-              "values": {
-                "a": {
-                  "node": 59,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 59,
-                  "socket": "value"
-                },
-                "c": {
-                  "node": 59,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 58,
-                  "socket": "value"
-                },
-                "b": {
                   "node": 123,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 12,
+              "values": {
+                "a": {
+                  "node": 80,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 80,
+                  "socket": "value"
+                },
+                "c": {
+                  "node": 80,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 79,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 125,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -4868,29 +4895,29 @@
               },
               "values": {
                 "1": {
-                  "node": 124,
+                  "node": 126,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
                   "node": 102,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 53,
+                  "node": 74,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 108,
+                  "node": 7,
                   "socket": "value"
                 },
                 "b": {
@@ -4904,34 +4931,10 @@
               }
             },
             {
-              "declaration": 6,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 127,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 7,
-              "values": {
-                "a": {
-                  "node": 128,
-                  "socket": "1"
-                },
-                "b": {
-                  "type": 2,
-                  "value": [
-                    -13.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 108,
+                  "node": 129,
                   "socket": "value"
                 },
                 "b": {
@@ -4940,241 +4943,15 @@
                     -1.0,
                     1.0,
                     1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 13,
-              "values": {
-                "a": {
-                  "node": 110,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 14,
-              "values": {
-                "a": {
-                  "node": 107,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 131,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 15,
-              "values": {
-                "a": {
-                  "node": 104,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 102,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 133,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 2,
-                  "value": [
-                    -2.0
                   ]
                 }
               }
             },
             {
               "declaration": 16,
-              "values": {
-                "a": {
-                  "node": 134,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 134,
-                  "socket": "value"
-                },
-                "c": {
-                  "node": 134,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 135,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 104,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 14,
-              "values": {
-                "a": {
-                  "node": 136,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 102,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 17
-            },
-            {
-              "declaration": 18,
-              "values": {
-                "a": {
-                  "type": 2,
-                  "value": [
-                    -4.0
-                  ]
-                },
-                "b": {
-                  "type": 2,
-                  "value": [
-                    4.0
-                  ]
-                },
-                "c": {
-                  "node": 138,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 17
-            },
-            {
-              "declaration": 18,
-              "values": {
-                "a": {
-                  "type": 2,
-                  "value": [
-                    -4.0
-                  ]
-                },
-                "b": {
-                  "type": 2,
-                  "value": [
-                    4.0
-                  ]
-                },
-                "c": {
-                  "node": 140,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 16,
-              "values": {
-                "a": {
-                  "node": 139,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 2,
-                  "value": [
-                    4.0
-                  ]
-                },
-                "c": {
-                  "node": 141,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 142,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 19,
-              "values": {
-                "condition": {
-                  "node": 115,
-                  "socket": "value"
-                }
-              },
-              "flows": {
-                "true": {
-                  "node": 173,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 108,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 145,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 20,
               "values": {
                 "translation": {
-                  "node": 146,
+                  "node": 130,
                   "socket": "value"
                 },
                 "rotation": {
@@ -5198,22 +4975,6 @@
             },
             {
               "declaration": 2,
-              "configuration": {
-                "nodeIndex": {
-                  "value": [
-                    4
-                  ]
-                }
-              },
-              "flows": {
-                "out": {
-                  "node": 199,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 3,
               "values": {
                 "a": {
                   "node": 108,
@@ -5230,23 +4991,50 @@
               }
             },
             {
-              "declaration": 14,
+              "declaration": 5,
               "values": {
                 "a": {
-                  "node": 149,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 126,
+                  "node": 132,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 6,
               "values": {
                 "a": {
-                  "node": 150,
+                  "node": 133,
+                  "socket": "1"
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    -13.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 17,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    5
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 287,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 108,
                   "socket": "value"
                 },
                 "b": {
@@ -5260,10 +5048,322 @@
               }
             },
             {
-              "declaration": 17
+              "declaration": 9,
+              "values": {
+                "a": {
+                  "node": 110,
+                  "socket": "value"
+                }
+              }
             },
             {
-              "declaration": 3,
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 107,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 137,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 11,
+              "values": {
+                "a": {
+                  "node": 104,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 102,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 139,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    -2.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 12,
+              "values": {
+                "a": {
+                  "node": 140,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 140,
+                  "socket": "value"
+                },
+                "c": {
+                  "node": 140,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 141,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 104,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 142,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 102,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 13
+            },
+            {
+              "declaration": 14,
+              "values": {
+                "a": {
+                  "type": 2,
+                  "value": [
+                    -4.0
+                  ]
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    4.0
+                  ]
+                },
+                "c": {
+                  "node": 144,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 13
+            },
+            {
+              "declaration": 14,
+              "values": {
+                "a": {
+                  "type": 2,
+                  "value": [
+                    -4.0
+                  ]
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    4.0
+                  ]
+                },
+                "c": {
+                  "node": 146,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 12,
+              "values": {
+                "a": {
+                  "node": 145,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    4.0
+                  ]
+                },
+                "c": {
+                  "node": 147,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 148,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 15,
+              "values": {
+                "condition": {
+                  "node": 115,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 175,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 108,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 151,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 16,
+              "values": {
+                "translation": {
+                  "node": 152,
+                  "socket": "value"
+                },
+                "rotation": {
+                  "type": 5,
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                },
+                "scale": {
+                  "type": 4,
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 17,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 201,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 108,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 10,
+              "values": {
+                "a": {
+                  "node": 155,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 128,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 156,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 2,
               "values": {
                 "a": {
                   "type": 4,
@@ -5284,7 +5384,7 @@
               }
             },
             {
-              "declaration": 4,
+              "declaration": 3,
               "values": {
                 "a": {
                   "type": 4,
@@ -5295,33 +5395,33 @@
                   ]
                 },
                 "b": {
-                  "node": 153,
+                  "node": 158,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 16,
+              "declaration": 12,
               "values": {
                 "a": {
-                  "node": 62,
+                  "node": 52,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 62,
+                  "node": 52,
                   "socket": "value"
                 },
                 "c": {
-                  "node": 62,
+                  "node": 52,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 155,
+                  "node": 160,
                   "socket": "value"
                 },
                 "b": {
@@ -5331,23 +5431,23 @@
               }
             },
             {
-              "declaration": 14,
+              "declaration": 10,
               "values": {
                 "a": {
-                  "node": 156,
+                  "node": 161,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 63,
+                  "node": 53,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 157,
+                  "node": 162,
                   "socket": "value"
                 },
                 "b": {
@@ -5361,7 +5461,7 @@
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -5376,7 +5476,7 @@
               },
               "values": {
                 "value": {
-                  "node": 158,
+                  "node": 163,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -5388,31 +5488,10 @@
               }
             },
             {
-              "declaration": 18,
+              "declaration": 10,
               "values": {
                 "a": {
-                  "type": 2,
-                  "value": [
-                    -4.0
-                  ]
-                },
-                "b": {
-                  "type": 2,
-                  "value": [
-                    4.0
-                  ]
-                },
-                "c": {
-                  "node": 152,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 14,
-              "values": {
-                "a": {
-                  "node": 57,
+                  "node": 78,
                   "socket": "value"
                 },
                 "b": {
@@ -5422,60 +5501,37 @@
               }
             },
             {
-              "declaration": 18,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "type": 2,
-                  "value": [
-                    -4.0
-                  ]
+                  "node": 165,
+                  "socket": "value"
                 },
                 "b": {
-                  "type": 2,
-                  "value": [
-                    4.0
-                  ]
-                },
-                "c": {
-                  "node": 52,
+                  "node": 125,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 16,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 162,
+                  "node": 107,
                   "socket": "value"
                 },
                 "b": {
-                  "type": 2,
+                  "type": 4,
                   "value": [
-                    4.0
+                    -1.0,
+                    1.0,
+                    1.0
                   ]
-                },
-                "c": {
-                  "node": 160,
-                  "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 161,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 123,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
                   "node": 107,
@@ -5493,23 +5549,6 @@
             },
             {
               "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 107,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 4,
               "values": {
                 "a": {
                   "node": 114,
@@ -5522,27 +5561,27 @@
               }
             },
             {
-              "declaration": 16,
+              "declaration": 12,
               "values": {
                 "a": {
-                  "node": 167,
+                  "node": 169,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 167,
+                  "node": 169,
                   "socket": "value"
                 },
                 "c": {
-                  "node": 167,
+                  "node": 169,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 168,
+                  "node": 170,
                   "socket": "value"
                 },
                 "b": {
@@ -5552,7 +5591,7 @@
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
                   "node": 108,
@@ -5569,23 +5608,23 @@
               }
             },
             {
-              "declaration": 14,
+              "declaration": 10,
               "values": {
                 "a": {
-                  "node": 169,
+                  "node": 171,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 170,
+                  "node": 172,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 171,
+                  "node": 173,
                   "socket": "value"
                 },
                 "b": {
@@ -5599,7 +5638,7 @@
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -5614,7 +5653,7 @@
               },
               "values": {
                 "value": {
-                  "node": 172,
+                  "node": 174,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -5626,16 +5665,16 @@
               }
             },
             {
-              "declaration": 10,
+              "declaration": 18,
               "flows": {
                 "out": {
-                  "node": 175,
+                  "node": 177,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -5653,7 +5692,7 @@
               },
               "flows": {
                 "out": {
-                  "node": 176,
+                  "node": 178,
                   "socket": "in"
                 }
               }
@@ -5681,11 +5720,11 @@
               },
               "flows": {
                 "loopBody": {
-                  "node": 193,
+                  "node": 195,
                   "socket": "in"
                 },
                 "completed": {
-                  "node": 197,
+                  "node": 199,
                   "socket": "in"
                 }
               }
@@ -5712,7 +5751,7 @@
                   ]
                 },
                 "childIndex": {
-                  "node": 176,
+                  "node": 178,
                   "socket": "index"
                 }
               }
@@ -5733,7 +5772,7 @@
               },
               "values": {
                 "nodeRef": {
-                  "node": 177,
+                  "node": 179,
                   "socket": "value"
                 }
               }
@@ -5742,7 +5781,7 @@
               "declaration": 22,
               "values": {
                 "a": {
-                  "node": 178,
+                  "node": 180,
                   "socket": "value"
                 }
               }
@@ -5751,11 +5790,11 @@
               "declaration": 23,
               "values": {
                 "a": {
-                  "node": 179,
+                  "node": 181,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 147,
+                  "node": 153,
                   "socket": "value"
                 }
               }
@@ -5764,16 +5803,16 @@
               "declaration": 24,
               "values": {
                 "a": {
-                  "node": 180,
+                  "node": 182,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 181,
+                  "node": 183,
                   "socket": "translation"
                 },
                 "b": {
@@ -5790,11 +5829,11 @@
               "declaration": 25,
               "values": {
                 "a": {
-                  "node": 182,
+                  "node": 184,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 153,
+                  "node": 158,
                   "socket": "value"
                 }
               }
@@ -5803,20 +5842,20 @@
               "declaration": 26,
               "values": {
                 "a": {
-                  "node": 183,
+                  "node": 185,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 154,
+                  "node": 159,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 184,
+                  "node": 186,
                   "socket": "value"
                 },
                 "b": {
@@ -5830,10 +5869,10 @@
               }
             },
             {
-              "declaration": 20,
+              "declaration": 16,
               "values": {
                 "translation": {
-                  "node": 185,
+                  "node": 187,
                   "socket": "value"
                 },
                 "rotation": {
@@ -5859,11 +5898,11 @@
               "declaration": 23,
               "values": {
                 "a": {
-                  "node": 178,
+                  "node": 180,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 186,
+                  "node": 188,
                   "socket": "value"
                 }
               }
@@ -5872,16 +5911,16 @@
               "declaration": 24,
               "values": {
                 "a": {
-                  "node": 187,
+                  "node": 189,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 188,
+                  "node": 190,
                   "socket": "translation"
                 },
                 "b": {
@@ -5895,32 +5934,32 @@
               }
             },
             {
-              "declaration": 4,
+              "declaration": 3,
               "values": {
                 "a": {
-                  "node": 130,
+                  "node": 136,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 189,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 5,
-              "values": {
-                "a": {
-                  "node": 190,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 7,
-              "values": {
-                "a": {
                   "node": 191,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 4,
+              "values": {
+                "a": {
+                  "node": 192,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 6,
+              "values": {
+                "a": {
+                  "node": 193,
                   "socket": "value"
                 },
                 "b": {
@@ -5930,22 +5969,22 @@
               }
             },
             {
-              "declaration": 19,
+              "declaration": 15,
               "values": {
                 "condition": {
-                  "node": 192,
+                  "node": 194,
                   "socket": "value"
                 }
               },
               "flows": {
                 "true": {
-                  "node": 194,
+                  "node": 196,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -5955,19 +5994,19 @@
               },
               "values": {
                 "17": {
-                  "node": 191,
+                  "node": 193,
                   "socket": "value"
                 }
               },
               "flows": {
                 "out": {
-                  "node": 195,
+                  "node": 197,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -5977,19 +6016,19 @@
               },
               "values": {
                 "18": {
-                  "node": 189,
+                  "node": 191,
                   "socket": "value"
                 }
               },
               "flows": {
                 "out": {
-                  "node": 196,
+                  "node": 198,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -5999,7 +6038,7 @@
               },
               "values": {
                 "15": {
-                  "node": 177,
+                  "node": 179,
                   "socket": "value"
                 }
               }
@@ -6008,48 +6047,48 @@
               "declaration": 27,
               "flows": {
                 "sequ000": {
-                  "node": 208,
+                  "node": 210,
                   "socket": "in"
                 },
                 "sequ001": {
-                  "node": 206,
+                  "node": 208,
                   "socket": "in"
                 },
                 "sequ002": {
-                  "node": 205,
+                  "node": 207,
                   "socket": "in"
                 },
                 "sequ003": {
-                  "node": 200,
+                  "node": 202,
                   "socket": "in"
                 },
                 "sequ004": {
-                  "node": 204,
+                  "node": 206,
                   "socket": "in"
                 },
                 "sequ005": {
-                  "node": 198,
+                  "node": 200,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 19,
+              "declaration": 15,
               "values": {
                 "condition": {
-                  "node": 129,
+                  "node": 134,
                   "socket": "value"
                 }
               },
               "flows": {
                 "true": {
-                  "node": 199,
+                  "node": 201,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -6069,13 +6108,13 @@
               },
               "flows": {
                 "out": {
-                  "node": 203,
+                  "node": 205,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 19,
+              "declaration": 15,
               "values": {
                 "condition": {
                   "node": 103,
@@ -6084,13 +6123,13 @@
               },
               "flows": {
                 "true": {
-                  "node": 201,
+                  "node": 203,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -6100,19 +6139,19 @@
               },
               "values": {
                 "12": {
-                  "node": 137,
+                  "node": 143,
                   "socket": "value"
                 }
               },
               "flows": {
                 "out": {
-                  "node": 202,
+                  "node": 204,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -6127,23 +6166,23 @@
               },
               "values": {
                 "value": {
-                  "node": 120,
+                  "node": 122,
                   "socket": "value"
                 },
                 "materialRef": {
-                  "node": 122,
+                  "node": 124,
                   "socket": "value"
                 }
               },
               "flows": {
                 "out": {
-                  "node": 207,
+                  "node": 209,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -6158,7 +6197,7 @@
               },
               "values": {
                 "value": {
-                  "node": 143,
+                  "node": 149,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -6170,7 +6209,7 @@
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -6185,7 +6224,7 @@
               },
               "values": {
                 "value": {
-                  "node": 151,
+                  "node": 157,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -6197,7 +6236,7 @@
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -6207,13 +6246,13 @@
               },
               "values": {
                 "12": {
-                  "node": 164,
+                  "node": 166,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -6273,13 +6312,13 @@
                   ]
                 },
                 "materialRef": {
-                  "node": 122,
+                  "node": 124,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -6294,7 +6333,7 @@
               },
               "values": {
                 "value": {
-                  "node": 166,
+                  "node": 168,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -6306,13 +6345,13 @@
               },
               "flows": {
                 "out": {
-                  "node": 209,
+                  "node": 211,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -6322,19 +6361,19 @@
               },
               "values": {
                 "14": {
-                  "node": 131,
+                  "node": 137,
                   "socket": "value"
                 }
               },
               "flows": {
                 "out": {
-                  "node": 210,
+                  "node": 212,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -6349,7 +6388,7 @@
               },
               "values": {
                 "value": {
-                  "node": 165,
+                  "node": 167,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -6361,16 +6400,16 @@
               },
               "flows": {
                 "out": {
-                  "node": 212,
+                  "node": 214,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 132,
+                  "node": 138,
                   "socket": "value"
                 },
                 "b": {
@@ -6384,7 +6423,7 @@
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -6399,7 +6438,7 @@
               },
               "values": {
                 "value": {
-                  "node": 211,
+                  "node": 213,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -6407,162 +6446,6 @@
                   "value": [
                     "/nodes/28"
                   ]
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "type": 4,
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0
-                  ]
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    0.5,
-                    0.5,
-                    0.5
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 4,
-              "values": {
-                "a": {
-                  "type": 4,
-                  "value": [
-                    0.0,
-                    0.0,
-                    0.0
-                  ]
-                },
-                "b": {
-                  "node": 213,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 21,
-              "configuration": {
-                "initialIndex": {
-                  "value": [
-                    0
-                  ]
-                }
-              },
-              "values": {
-                "startIndex": {
-                  "type": 1,
-                  "value": [
-                    0
-                  ]
-                },
-                "endIndex": {
-                  "node": 0,
-                  "socket": "value"
-                }
-              },
-              "flows": {
-                "loopBody": {
-                  "node": 283,
-                  "socket": "in"
-                },
-                "completed": {
-                  "node": 216,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 27,
-              "flows": {
-                "sequ000": {
-                  "node": 278,
-                  "socket": "in"
-                },
-                "sequ001": {
-                  "node": 263,
-                  "socket": "in"
-                },
-                "sequ002": {
-                  "node": 264,
-                  "socket": "in"
-                },
-                "sequ003": {
-                  "node": 295,
-                  "socket": "in"
-                },
-                "sequ004": {
-                  "node": 272,
-                  "socket": "in"
-                },
-                "sequ005": {
-                  "node": 276,
-                  "socket": "in"
-                }
-              }
-            },
-            {
-              "declaration": 0,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/nodes/{nodeRef}/children/[childIndex]"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    7
-                  ]
-                }
-              },
-              "values": {
-                "nodeRef": {
-                  "type": 7,
-                  "value": [
-                    "/nodes/6"
-                  ]
-                },
-                "childIndex": {
-                  "node": 215,
-                  "socket": "index"
-                }
-              }
-            },
-            {
-              "declaration": 0,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/nodes/{nodeRef}/globalMatrix"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    6
-                  ]
-                }
-              },
-              "values": {
-                "nodeRef": {
-                  "node": 217,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 22,
-              "values": {
-                "a": {
-                  "node": 218,
-                  "socket": "value"
                 }
               }
             },
@@ -6577,27 +6460,27 @@
               }
             },
             {
-              "declaration": 14,
+              "declaration": 10,
               "values": {
                 "a": {
-                  "node": 57,
+                  "node": 78,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 220,
+                  "node": 215,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 221,
+                  "node": 216,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 123,
+                  "node": 125,
                   "socket": "value"
                 }
               }
@@ -6619,6 +6502,44 @@
                   "value": [
                     24
                   ]
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "type": 4,
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    0.5,
+                    0.5,
+                    0.5
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 3,
+              "values": {
+                "a": {
+                  "type": 4,
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                "b": {
+                  "node": 220,
+                  "socket": "value"
                 }
               }
             },
@@ -6653,6 +6574,57 @@
               }
             },
             {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 224,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 224,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 7,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
               "declaration": 3,
               "values": {
                 "a": {
@@ -6660,293 +6632,8 @@
                   "socket": "value"
                 },
                 "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 0,
-              "configuration": {
-                "pointer": {
-                  "value": [
-                    "/nodes/{nodeRef}/translation"
-                  ]
-                },
-                "type": {
-                  "value": [
-                    4
-                  ]
-                }
-              },
-              "values": {
-                "nodeRef": {
-                  "type": 7,
-                  "value": [
-                    "/nodes/5"
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 229,
+                  "node": 224,
                   "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 229,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 229,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 232,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 20,
-              "values": {
-                "translation": {
-                  "node": 233,
-                  "socket": "value"
-                },
-                "rotation": {
-                  "type": 5,
-                  "value": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    1.0
-                  ]
-                },
-                "scale": {
-                  "type": 4,
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 23,
-              "values": {
-                "a": {
-                  "node": 219,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 234,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 24,
-              "values": {
-                "a": {
-                  "node": 235,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 236,
-                  "socket": "translation"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 25,
-              "values": {
-                "a": {
-                  "node": 237,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 213,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 26,
-              "values": {
-                "a": {
-                  "node": 238,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 214,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 239,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 20,
-              "values": {
-                "translation": {
-                  "node": 240,
-                  "socket": "value"
-                },
-                "rotation": {
-                  "type": 5,
-                  "value": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    1.0
-                  ]
-                },
-                "scale": {
-                  "type": 4,
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 23,
-              "values": {
-                "a": {
-                  "node": 218,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 241,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 24,
-              "values": {
-                "a": {
-                  "node": 242,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 243,
-                  "socket": "translation"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 229,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
                 }
               }
             },
@@ -6954,20 +6641,7 @@
               "declaration": 4,
               "values": {
                 "a": {
-                  "node": 245,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 227,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 5,
-              "values": {
-                "a": {
-                  "node": 246,
+                  "node": 228,
                   "socket": "value"
                 }
               }
@@ -6996,19 +6670,19 @@
               }
             },
             {
-              "declaration": 6,
+              "declaration": 5,
               "values": {
                 "a": {
-                  "node": 248,
+                  "node": 230,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 249,
+                  "node": 231,
                   "socket": "0"
                 },
                 "b": {
@@ -7020,66 +6694,66 @@
               }
             },
             {
-              "declaration": 4,
+              "declaration": 3,
               "values": {
                 "a": {
-                  "node": 250,
+                  "node": 232,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 247,
+                  "node": 229,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 16,
+              "declaration": 12,
               "values": {
                 "a": {
-                  "node": 251,
+                  "node": 233,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 251,
+                  "node": 233,
                   "socket": "value"
                 },
                 "c": {
-                  "node": 251,
+                  "node": 233,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 252,
+                  "node": 234,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 224,
+                  "node": 219,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 14,
+              "declaration": 10,
               "values": {
                 "a": {
-                  "node": 253,
+                  "node": 235,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 230,
+                  "node": 8,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 254,
+                  "node": 236,
                   "socket": "value"
                 },
                 "b": {
@@ -7093,23 +6767,23 @@
               }
             },
             {
-              "declaration": 7,
+              "declaration": 6,
               "values": {
                 "a": {
-                  "node": 247,
+                  "node": 229,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 250,
+                  "node": 232,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 8,
+              "declaration": 7,
               "values": {
                 "condition": {
-                  "node": 256,
+                  "node": 238,
                   "socket": "value"
                 },
                 "a": {
@@ -7171,13 +6845,13 @@
               },
               "values": {
                 "meshRef": {
-                  "node": 258,
+                  "node": 240,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -7192,92 +6866,90 @@
               },
               "values": {
                 "value": {
-                  "node": 257,
+                  "node": 239,
                   "socket": "value"
                 },
                 "materialRef": {
-                  "node": 259,
+                  "node": 241,
                   "socket": "value"
                 }
               },
               "flows": {
                 "out": {
-                  "node": 261,
+                  "node": 243,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 19,
+              "declaration": 15,
               "values": {
                 "condition": {
-                  "node": 256,
+                  "node": 238,
                   "socket": "value"
                 }
               },
               "flows": {
                 "true": {
-                  "node": 262,
+                  "node": 250,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 9,
-              "configuration": {
-                "pointer": {
+              "declaration": 14,
+              "values": {
+                "a": {
+                  "type": 2,
                   "value": [
-                    "/nodes/{nodeRef}/translation"
+                    -4.0
                   ]
                 },
-                "type": {
+                "b": {
+                  "type": 2,
                   "value": [
-                    4
+                    4.0
                   ]
-                }
-              },
-              "values": {
-                "value": {
-                  "node": 255,
-                  "socket": "value"
                 },
-                "nodeRef": {
-                  "type": 7,
-                  "value": [
-                    "/nodes/5"
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 11,
-              "configuration": {
-                "variables": {
-                  "value": [
-                    23
-                  ]
-                }
-              },
-              "values": {
-                "23": {
-                  "node": 256,
+                "c": {
+                  "node": 47,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 11,
-              "configuration": {
-                "variables": {
-                  "value": [
-                    22
-                  ]
-                }
-              },
+              "declaration": 12,
               "values": {
-                "22": {
-                  "node": 222,
+                "a": {
+                  "node": 244,
                   "socket": "value"
+                },
+                "b": {
+                  "type": 2,
+                  "value": [
+                    4.0
+                  ]
+                },
+                "c": {
+                  "node": 121,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 245,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
                 }
               }
             },
@@ -7297,7 +6969,7 @@
               },
               "values": {
                 "materialRef": {
-                  "node": 259,
+                  "node": 241,
                   "socket": "value"
                 }
               }
@@ -7318,7 +6990,7 @@
               },
               "values": {
                 "nodeRef": {
-                  "node": 225,
+                  "node": 222,
                   "socket": "value"
                 }
               }
@@ -7339,73 +7011,13 @@
               },
               "values": {
                 "meshRef": {
-                  "node": 266,
+                  "node": 248,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 163,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 220,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 53,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 14,
-              "values": {
-                "a": {
-                  "node": 231,
-                  "socket": "value"
-                },
-                "b": {
-                  "node": 269,
-                  "socket": "value"
-                }
-              }
-            },
-            {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 270,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
-                  "value": [
-                    -1.0,
-                    1.0,
-                    1.0
-                  ]
-                }
-              }
-            },
-            {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -7420,7 +7032,7 @@
               },
               "values": {
                 "value": {
-                  "node": 271,
+                  "node": 237,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -7432,10 +7044,23 @@
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 229,
+                  "node": 215,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 74,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 7,
                   "socket": "value"
                 },
                 "b": {
@@ -7449,19 +7074,66 @@
               }
             },
             {
-              "declaration": 6,
+              "declaration": 10,
               "values": {
                 "a": {
-                  "node": 273,
+                  "node": 252,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 251,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 7,
+              "declaration": 2,
               "values": {
                 "a": {
-                  "node": 274,
+                  "node": 253,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 7,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 5,
+              "values": {
+                "a": {
+                  "node": 255,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 6,
+              "values": {
+                "a": {
+                  "node": 256,
                   "socket": "1"
                 },
                 "b": {
@@ -7473,39 +7145,92 @@
               }
             },
             {
-              "declaration": 19,
+              "declaration": 20,
+              "configuration": {
+                "variables": {
+                  "value": [
+                    27
+                  ]
+                }
+              },
               "values": {
-                "condition": {
-                  "node": 275,
-                  "socket": "value"
+                "27": {
+                  "type": 2,
+                  "value": [
+                    1E+07
+                  ]
                 }
               },
               "flows": {
-                "true": {
-                  "node": 287,
+                "out": {
+                  "node": 259,
                   "socket": "in"
                 }
               }
             },
             {
-              "declaration": 3,
-              "values": {
-                "a": {
-                  "node": 227,
-                  "socket": "value"
-                },
-                "b": {
-                  "type": 4,
+              "declaration": 21,
+              "configuration": {
+                "initialIndex": {
                   "value": [
-                    -1.0,
-                    1.0,
-                    1.0
+                    0
                   ]
+                }
+              },
+              "values": {
+                "startIndex": {
+                  "type": 1,
+                  "value": [
+                    0
+                  ]
+                },
+                "endIndex": {
+                  "node": 0,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "loopBody": {
+                  "node": 283,
+                  "socket": "in"
+                },
+                "completed": {
+                  "node": 260,
+                  "socket": "in"
                 }
               }
             },
             {
-              "declaration": 9,
+              "declaration": 27,
+              "flows": {
+                "sequ000": {
+                  "node": 261,
+                  "socket": "in"
+                },
+                "sequ001": {
+                  "node": 263,
+                  "socket": "in"
+                },
+                "sequ002": {
+                  "node": 276,
+                  "socket": "in"
+                },
+                "sequ003": {
+                  "node": 295,
+                  "socket": "in"
+                },
+                "sequ004": {
+                  "node": 262,
+                  "socket": "in"
+                },
+                "sequ005": {
+                  "node": 278,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -7520,7 +7245,7 @@
               },
               "values": {
                 "value": {
-                  "node": 277,
+                  "node": 225,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -7538,10 +7263,175 @@
               }
             },
             {
-              "declaration": 3,
+              "declaration": 8,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/translation"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    4
+                  ]
+                }
+              },
+              "values": {
+                "value": {
+                  "node": 254,
+                  "socket": "value"
+                },
+                "nodeRef": {
+                  "type": 7,
+                  "value": [
+                    "/nodes/5"
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 20,
+              "configuration": {
+                "variables": {
+                  "value": [
+                    23
+                  ]
+                }
+              },
+              "values": {
+                "23": {
+                  "node": 238,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/children/[childIndex]"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    7
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "type": 7,
+                  "value": [
+                    "/nodes/6"
+                  ]
+                },
+                "childIndex": {
+                  "node": 259,
+                  "socket": "index"
+                }
+              }
+            },
+            {
+              "declaration": 0,
+              "configuration": {
+                "pointer": {
+                  "value": [
+                    "/nodes/{nodeRef}/globalMatrix"
+                  ]
+                },
+                "type": {
+                  "value": [
+                    6
+                  ]
+                }
+              },
+              "values": {
+                "nodeRef": {
+                  "node": 264,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 22,
               "values": {
                 "a": {
-                  "node": 229,
+                  "node": 265,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 23,
+              "values": {
+                "a": {
+                  "node": 266,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 131,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 24,
+              "values": {
+                "a": {
+                  "node": 267,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 268,
+                  "socket": "translation"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 25,
+              "values": {
+                "a": {
+                  "node": 269,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 220,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 26,
+              "values": {
+                "a": {
+                  "node": 270,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 221,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 271,
                   "socket": "value"
                 },
                 "b": {
@@ -7555,20 +7445,133 @@
               }
             },
             {
-              "declaration": 4,
+              "declaration": 16,
+              "values": {
+                "translation": {
+                  "node": 272,
+                  "socket": "value"
+                },
+                "rotation": {
+                  "type": 5,
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                },
+                "scale": {
+                  "type": 4,
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 23,
+              "values": {
+                "a": {
+                  "node": 265,
+                  "socket": "value"
+                },
+                "b": {
+                  "node": 273,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 24,
+              "values": {
+                "a": {
+                  "node": 274,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 20,
+              "configuration": {
+                "variables": {
+                  "value": [
+                    22
+                  ]
+                }
+              },
+              "values": {
+                "22": {
+                  "node": 217,
+                  "socket": "value"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 275,
+                  "socket": "translation"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 15,
+              "values": {
+                "condition": {
+                  "node": 257,
+                  "socket": "value"
+                }
+              },
+              "flows": {
+                "true": {
+                  "node": 287,
+                  "socket": "in"
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "values": {
+                "a": {
+                  "node": 7,
+                  "socket": "value"
+                },
+                "b": {
+                  "type": 4,
+                  "value": [
+                    -1.0,
+                    1.0,
+                    1.0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 3,
               "values": {
                 "a": {
                   "node": 279,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 244,
+                  "node": 277,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 5,
+              "declaration": 4,
               "values": {
                 "a": {
                   "node": 280,
@@ -7577,20 +7580,20 @@
               }
             },
             {
-              "declaration": 7,
+              "declaration": 6,
               "values": {
                 "a": {
                   "node": 281,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 226,
+                  "node": 223,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 19,
+              "declaration": 15,
               "values": {
                 "condition": {
                   "node": 282,
@@ -7605,7 +7608,7 @@
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -7627,7 +7630,7 @@
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -7637,7 +7640,7 @@
               },
               "values": {
                 "28": {
-                  "node": 244,
+                  "node": 277,
                   "socket": "value"
                 }
               },
@@ -7649,7 +7652,7 @@
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -7659,13 +7662,13 @@
               },
               "values": {
                 "25": {
-                  "node": 217,
+                  "node": 264,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -7691,7 +7694,7 @@
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -7706,7 +7709,7 @@
               },
               "values": {
                 "value": {
-                  "node": 268,
+                  "node": 246,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -7718,16 +7721,16 @@
               }
             },
             {
-              "declaration": 13,
+              "declaration": 9,
               "values": {
                 "a": {
-                  "node": 246,
+                  "node": 228,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -7749,7 +7752,7 @@
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -7764,7 +7767,7 @@
               },
               "values": {
                 "value": {
-                  "node": 228,
+                  "node": 226,
                   "socket": "value"
                 },
                 "nodeRef": {
@@ -7782,10 +7785,10 @@
               }
             },
             {
-              "declaration": 14,
+              "declaration": 10,
               "values": {
                 "a": {
-                  "node": 227,
+                  "node": 224,
                   "socket": "value"
                 },
                 "b": {
@@ -7795,7 +7798,7 @@
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
                   "node": 292,
@@ -7812,7 +7815,7 @@
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -7839,10 +7842,10 @@
               }
             },
             {
-              "declaration": 19,
+              "declaration": 15,
               "values": {
                 "condition": {
-                  "node": 223,
+                  "node": 218,
                   "socket": "value"
                 }
               },
@@ -7854,20 +7857,20 @@
               }
             },
             {
-              "declaration": 15,
+              "declaration": 11,
               "values": {
                 "a": {
-                  "node": 224,
+                  "node": 219,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 220,
+                  "node": 215,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
                   "node": 296,
@@ -7882,7 +7885,7 @@
               }
             },
             {
-              "declaration": 16,
+              "declaration": 12,
               "values": {
                 "a": {
                   "node": 297,
@@ -7899,33 +7902,33 @@
               }
             },
             {
-              "declaration": 3,
+              "declaration": 2,
               "values": {
                 "a": {
                   "node": 298,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 224,
+                  "node": 219,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 14,
+              "declaration": 10,
               "values": {
                 "a": {
                   "node": 299,
                   "socket": "value"
                 },
                 "b": {
-                  "node": 220,
+                  "node": 215,
                   "socket": "value"
                 }
               }
             },
             {
-              "declaration": 11,
+              "declaration": 20,
               "configuration": {
                 "variables": {
                   "value": [
@@ -7947,7 +7950,7 @@
               }
             },
             {
-              "declaration": 9,
+              "declaration": 8,
               "configuration": {
                 "pointer": {
                   "value": [
@@ -7962,11 +7965,11 @@
               },
               "values": {
                 "value": {
-                  "node": 265,
+                  "node": 247,
                   "socket": "value"
                 },
                 "materialRef": {
-                  "node": 267,
+                  "node": 249,
                   "socket": "value"
                 }
               },
@@ -8022,7 +8025,7 @@
                   ]
                 },
                 "materialRef": {
-                  "node": 267,
+                  "node": 249,
                   "socket": "value"
                 }
               }
