@@ -221,5 +221,18 @@
       "glTF": "ActiveCamera.gltf",
       "glTF-Binary": "ActiveCamera.glb"
     }
+  },
+  {
+    "label": "Mini Chess",
+    "name": "MiniChess",
+    "screenshot": "screenshot/screenshot.png",
+    "description": "Chess against a built-in computer opponent. Human vs Computer: click one of your pieces (White), then the target square. Computer vs Computer: click the play button and the computer plays both sides automatically. The reset button starts a new game.",
+    "tags": [
+      "interactivity",
+      "showcase"
+    ],
+    "variants": {
+      "glTF-Binary": "mini-chess.glb"
+    }
   }
 ]
