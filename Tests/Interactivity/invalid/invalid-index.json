@@ -1130,6 +1130,25 @@
     }
   },
   {
+    "label": "E5d duplicate_extension_declaration_reordered_inputs",
+    "name": "invalid/declarations",
+    "id": "E5d",
+    "title": "extension op declared twice, the second time with input sockets b, a instead of a, b (still equal)",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "test/customOp2"
+    ],
+    "variants": {
+      "glTF": "E5d_duplicate_extension_declaration_reordered_inputs.gltf"
+    }
+  },
+  {
     "label": "E6 extension_not_string",
     "name": "invalid/declarations",
     "id": "E6",
@@ -1146,6 +1165,149 @@
     ],
     "variants": {
       "glTF": "E6_extension_not_string.gltf"
+    }
+  },
+  {
+    "label": "E7a ext_output_sockets_missing",
+    "name": "invalid/declarations",
+    "id": "E7a",
+    "title": "event/onSelect declared without outputValueSockets, but its outputs are read",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onSelect",
+      "event/onStart",
+      "event/send",
+      "math/extract3",
+      "ref/eq"
+    ],
+    "variants": {
+      "glTF": "E7a_ext_output_sockets_missing.gltf"
+    }
+  },
+  {
+    "label": "E7b ext_output_socket_not_declared",
+    "name": "invalid/declarations",
+    "id": "E7b",
+    "title": "event/onSelect declaration without the \"event\" output, but event is read",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onSelect",
+      "event/onStart",
+      "event/send",
+      "math/extract3",
+      "ref/eq"
+    ],
+    "variants": {
+      "glTF": "E7b_ext_output_socket_not_declared.gltf"
+    }
+  },
+  {
+    "label": "E7c ext_output_socket_wrong_case",
+    "name": "invalid/declarations",
+    "id": "E7c",
+    "title": "event/onSelect declares \"SelectedNode\", but selectedNode is read (case-sensitive)",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onSelect",
+      "event/onStart",
+      "event/send",
+      "math/extract3",
+      "ref/eq"
+    ],
+    "variants": {
+      "glTF": "E7c_ext_output_socket_wrong_case.gltf"
+    }
+  },
+  {
+    "label": "E7d ext_output_socket_implicit_value",
+    "name": "invalid/declarations",
+    "id": "E7d",
+    "title": "input value omits socket, but event/onSelect declares no \"value\" output",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onSelect",
+      "event/onStart",
+      "event/send",
+      "math/extract3",
+      "ref/eq"
+    ],
+    "variants": {
+      "glTF": "E7d_ext_output_socket_implicit_value.gltf"
+    }
+  },
+  {
+    "label": "E7e ext_output_socket_declared_wrong_type",
+    "name": "invalid/declarations",
+    "id": "E7e",
+    "title": "event/onSelect declares selectionPoint as float, read by math/extract3 (float3 input)",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onSelect",
+      "event/onStart",
+      "event/send",
+      "math/extract3",
+      "ref/eq"
+    ],
+    "variants": {
+      "glTF": "E7e_ext_output_socket_declared_wrong_type.gltf"
+    }
+  },
+  {
+    "label": "E8a ext_input_socket_missing",
+    "name": "invalid/declarations",
+    "id": "E8a",
+    "title": "extension op node without its declared input a",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "test/customOp"
+    ],
+    "variants": {
+      "glTF": "E8a_ext_input_socket_missing.gltf"
+    }
+  },
+  {
+    "label": "E8b ext_input_socket_type_differs",
+    "name": "invalid/declarations",
+    "id": "E8b",
+    "title": "extension op node with float input a, declared as int",
+    "specSection": "JSON Syntax › Declarations",
+    "expectedOutcome": "rejectGraph",
+    "schemaAssert": false,
+    "signalEvent": "test/onFailed",
+    "tags": [
+      "debug/log",
+      "event/onStart",
+      "event/send",
+      "test/customOp"
+    ],
+    "variants": {
+      "glTF": "E8b_ext_input_socket_type_differs.gltf"
     }
   },
   {

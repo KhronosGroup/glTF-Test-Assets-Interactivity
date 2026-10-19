@@ -1,0 +1,166 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Khronos_Test_Export InvalidGraphs",
+    "extras": {
+      "caseId": "E7b",
+      "title": "event/onSelect declaration without the \"event\" output, but event is read",
+      "specSection": "JSON Syntax › Declarations",
+      "expectedOutcome": "rejectGraph",
+      "schemaAssert": false,
+      "signalEvent": "test/onFailed",
+      "pass": "the graph is rejected: no node runs and the custom event 'test/onFailed' is never sent"
+    }
+  },
+  "extensionsUsed": [
+    "KHR_interactivity",
+    "KHR_node_selectability"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Target"
+    }
+  ],
+  "extensions": {
+    "KHR_interactivity": {
+      "graphs": [
+        {
+          "types": [
+            {
+              "signature": "ref"
+            },
+            {
+              "signature": "int"
+            },
+            {
+              "signature": "float3"
+            },
+            {
+              "signature": "float"
+            }
+          ],
+          "events": [
+            {
+              "id": "test/onFailed"
+            }
+          ],
+          "declarations": [
+            {
+              "op": "event/onStart"
+            },
+            {
+              "op": "debug/log"
+            },
+            {
+              "op": "event/send"
+            },
+            {
+              "op": "event/onSelect",
+              "extension": "KHR_node_selectability",
+              "outputValueSockets": {
+                "selectedNode": {
+                  "type": 0
+                },
+                "controllerIndex": {
+                  "type": 1
+                },
+                "selectionPoint": {
+                  "type": 2
+                },
+                "selectionRayOrigin": {
+                  "type": 2
+                }
+              }
+            },
+            {
+              "op": "ref/eq"
+            },
+            {
+              "op": "math/extract3"
+            }
+          ],
+          "nodes": [
+            {
+              "declaration": 0,
+              "flows": {
+                "out": {
+                  "node": 1
+                }
+              }
+            },
+            {
+              "declaration": 1,
+              "configuration": {
+                "severity": {
+                  "value": [
+                    0
+                  ]
+                },
+                "message": {
+                  "value": [
+                    "FAILED [E7b] event/onSelect declaration without the \"event\" output, but event is read: this graph MUST be rejected (spec: JSON Syntax › Declarations)."
+                  ]
+                }
+              },
+              "flows": {
+                "out": {
+                  "node": 2
+                }
+              }
+            },
+            {
+              "declaration": 2,
+              "configuration": {
+                "event": {
+                  "value": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 3,
+              "configuration": {
+                "nodeIndex": {
+                  "value": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "declaration": 4,
+              "values": {
+                "a": {
+                  "node": 3,
+                  "socket": "event"
+                },
+                "b": {
+                  "node": 3,
+                  "socket": "selectedNode"
+                }
+              }
+            },
+            {
+              "declaration": 5,
+              "values": {
+                "a": {
+                  "node": 3,
+                  "socket": "selectionPoint"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

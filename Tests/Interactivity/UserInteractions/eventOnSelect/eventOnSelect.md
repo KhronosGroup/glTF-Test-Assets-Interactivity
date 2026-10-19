@@ -8,8 +8,11 @@
 | onSelect: selectedNode == target | TestResult_UserInteractions/eventOnSelect_onSelect: selectedNode == target | 2 | /nodes/3
 | onSelect: controllerIndex >= 0 | TestResult_UserInteractions/eventOnSelect_onSelect: controllerIndex >= 0 | 4 | True
 | onSelect: selectionRayOriginisNaN == false | TestResult_UserInteractions/eventOnSelect_onSelect: selectionRayOriginisNaN == false | 6 | False
-| onSelect: selectable=false NOT fired | TestResult_UserInteractions/eventOnSelect_onSelect: selectable=false NOT fired | 8 | True
-| onSelect: inherited selectable=false NOT fired | TestResult_UserInteractions/eventOnSelect_onSelect: inherited selectable=false NOT fired | 9 | True
+| onSelect: selectionPointisNaN == false | TestResult_UserInteractions/eventOnSelect_onSelect: selectionPointisNaN == false | 8 | False
+| onSelect: selectionPointon target cube | TestResult_UserInteractions/eventOnSelect_onSelect: selectionPointon target cube | 10 | True
+| onSelect: event != null | TestResult_UserInteractions/eventOnSelect_onSelect: event != null | 12 | False
+| onSelect: selectable=false NOT fired | TestResult_UserInteractions/eventOnSelect_onSelect: selectable=false NOT fired | 14 | True
+| onSelect: inherited selectable=false NOT fired | TestResult_UserInteractions/eventOnSelect_onSelect: inherited selectable=false NOT fired | 15 | True
 
 Schemas used in this test case:
 - debug/log
@@ -22,7 +25,12 @@ Schemas used in this test case:
 - math/extract3
 - math/ge
 - math/isNaN
+- math/le
+- math/length
+- math/matDecompose
 - math/or
+- math/sub
+- pointer/get
 - pointer/set
 - ref/eq
 - variable/get

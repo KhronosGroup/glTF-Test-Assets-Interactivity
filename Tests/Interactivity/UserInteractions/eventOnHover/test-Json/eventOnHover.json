@@ -63,47 +63,69 @@
           "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverIn: controllerIndex >= 0"
         },
         {
+          "name": "onHoverIn: event != null",
+          "resultVarName": "TestResult_UserInteractions/eventOnHover_onHoverIn: event != null",
+          "resultVarId": 6,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 5,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverIn: event != null"
+        },
+        {
           "name": "onHoverOut: flow fired",
           "resultVarName": "TestResult_UserInteractions/eventOnHover_onHoverOut: flow fired",
-          "resultVarId": 6,
+          "resultVarId": 8,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 6,
+          "successResultVarId": 8,
           "successResultVarName": "TestResult_UserInteractions/eventOnHover_onHoverOut: flow fired"
         },
         {
           "name": "onHoverOut: hoveredNode == target",
           "resultVarName": "TestResult_UserInteractions/eventOnHover_onHoverOut: hoveredNode == target",
-          "resultVarId": 8,
+          "resultVarId": 10,
           "resultVarType": "ref",
           "expectedResultValue": [
             "/nodes/3"
           ],
-          "successResultVarId": 7,
+          "successResultVarId": 9,
           "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverOut: hoveredNode == target"
+        },
+        {
+          "name": "onHoverOut: event != null",
+          "resultVarName": "TestResult_UserInteractions/eventOnHover_onHoverOut: event != null",
+          "resultVarId": 12,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 11,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnHover_onHoverOut: event != null"
         },
         {
           "name": "onHoverIn: hoverable=false NOT fired",
           "resultVarName": "TestResult_UserInteractions/eventOnHover_onHoverIn: hoverable=false NOT fired",
-          "resultVarId": 9,
+          "resultVarId": 13,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 9,
+          "successResultVarId": 13,
           "successResultVarName": "TestResult_UserInteractions/eventOnHover_onHoverIn: hoverable=false NOT fired"
         },
         {
           "name": "onHoverIn: inherited hoverable=false NOT fired",
           "resultVarName": "TestResult_UserInteractions/eventOnHover_onHoverIn: inherited hoverable=false NOT fired",
-          "resultVarId": 10,
+          "resultVarId": 14,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
-          "successResultVarId": 10,
+          "successResultVarId": 14,
           "successResultVarName": "TestResult_UserInteractions/eventOnHover_onHoverIn: inherited hoverable=false NOT fired"
         }
       ],

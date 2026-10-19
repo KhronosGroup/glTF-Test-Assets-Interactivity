@@ -7,15 +7,15 @@ a set of operations, compares the results against known‑good expected values, 
 records whether every sub‑test passed.
 
 <!-- coverage:start -->
-> **Current coverage:** 160 test files · 1,136 sub-tests, plus 179 invalid-graph cases.
+> **Current coverage:** 160 test files · 1,142 sub-tests, plus 187 invalid-graph cases.
 >
 > | Set | Test cases | Sub-tests |
 > | --- | ---: | ---: |
-> | `test-index.json` (animation, event, Extras, flow, graph, pointer, prerequisites, ref, type, variable) | 40 | 571 |
+> | `test-index.json` (animation, event, Extras, flow, graph, pointer, prerequisites, ref, type, variable) | 40 | 572 |
 > | `mathtests-index.json` | 116 | 549 |
-> | `UserInteractions/` (need a simulated hover/select) | 2 | 13 |
+> | `UserInteractions/` (need a simulated hover/select) | 2 | 18 |
 > | `InterGlb/` (two files loaded together) | 2 | 3 |
-> | [`invalid/`](#invalid-graphs-invalid) (must be rejected, no sub-tests) | 179 | — |
+> | [`invalid/`](#invalid-graphs-invalid) (must be rejected, no sub-tests) | 187 | — |
 <!-- coverage:end -->
 
 The assets are meant to be used two ways:

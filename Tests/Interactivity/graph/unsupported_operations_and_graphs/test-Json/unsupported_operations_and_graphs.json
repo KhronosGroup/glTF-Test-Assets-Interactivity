@@ -4,7 +4,7 @@
   "tests": [
     {
       "name": "graph/unsupported operations and graphs",
-      "description": "Operations of an unsupported extension are no-ops, and an invalid graph that is not the default graph doesn't prevent the default graph from running.",
+      "description": "Operations of an unsupported extension are no-ops, also when named like a core operation, and an invalid graph that is not the default graph doesn't prevent the default graph from running.",
       "usedSchemas": [
         "debug/log",
         "event/onStart",
@@ -12,7 +12,9 @@
         "flow/sequence",
         "flow/setDelay",
         "math/abs",
+        "math/E",
         "math/eq",
+        "math/isNaN",
         "pointer/set",
         "variable/get",
         "variable/set"
@@ -24,8 +26,12 @@
           "delayedExecutionTime": 0.5
         },
         {
+          "name": "ext. math/pi:\nisNaN (no-op)",
+          "nodeId": 26
+        },
+        {
           "name": "invalid graph 1:\ngraph 0 runs",
-          "nodeId": 24
+          "nodeId": 45
         }
       ],
       "subTests": [
@@ -52,14 +58,25 @@
           "successResultVarName": "TestResult_HasPassed_graph/unsupported operations and graphs_unsupported op:\ntype-default output"
         },
         {
-          "name": "invalid graph 1:\ngraph 0 runs",
-          "resultVarName": "TestResult_graph/unsupported operations and graphs_invalid graph 1:\ngraph 0 runs",
-          "resultVarId": 3,
+          "name": "ext. math/pi:\nisNaN (no-op)",
+          "resultVarName": "TestResult_graph/unsupported operations and graphs_ext. math/pi:\nisNaN (no-op)",
+          "resultVarId": 4,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 3,
+          "successResultVarName": "TestResult_HasPassed_graph/unsupported operations and graphs_ext. math/pi:\nisNaN (no-op)"
+        },
+        {
+          "name": "invalid graph 1:\ngraph 0 runs",
+          "resultVarName": "TestResult_graph/unsupported operations and graphs_invalid graph 1:\ngraph 0 runs",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 5,
           "successResultVarName": "TestResult_graph/unsupported operations and graphs_invalid graph 1:\ngraph 0 runs"
         }
       ]
@@ -72,7 +89,9 @@
     "flow/sequence",
     "flow/setDelay",
     "math/abs",
+    "math/E",
     "math/eq",
+    "math/isNaN",
     "pointer/set",
     "variable/get",
     "variable/set"

@@ -16,7 +16,12 @@
         "math/extract3",
         "math/ge",
         "math/isNaN",
+        "math/le",
+        "math/length",
+        "math/matDecompose",
         "math/or",
+        "math/sub",
+        "pointer/get",
         "pointer/set",
         "ref/eq",
         "variable/get",
@@ -76,25 +81,58 @@
           "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: selectionRayOrigin\nisNaN == false"
         },
         {
-          "name": "onSelect: selectable=false NOT fired",
-          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: selectable=false NOT fired",
+          "name": "onSelect: selectionPoint\nisNaN == false",
+          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: selectionPoint\nisNaN == false",
           "resultVarId": 8,
           "resultVarType": "bool",
           "expectedResultValue": [
-            true
+            false
           ],
-          "successResultVarId": 8,
-          "successResultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: selectable=false NOT fired"
+          "successResultVarId": 7,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: selectionPoint\nisNaN == false"
         },
         {
-          "name": "onSelect: inherited selectable=false NOT fired",
-          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: inherited selectable=false NOT fired",
-          "resultVarId": 9,
+          "name": "onSelect: selectionPoint\non target cube",
+          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: selectionPoint\non target cube",
+          "resultVarId": 10,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 9,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: selectionPoint\non target cube"
+        },
+        {
+          "name": "onSelect: event != null",
+          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: event != null",
+          "resultVarId": 12,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 11,
+          "successResultVarName": "TestResult_HasPassed_UserInteractions/eventOnSelect_onSelect: event != null"
+        },
+        {
+          "name": "onSelect: selectable=false NOT fired",
+          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: selectable=false NOT fired",
+          "resultVarId": 14,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: selectable=false NOT fired"
+        },
+        {
+          "name": "onSelect: inherited selectable=false NOT fired",
+          "resultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: inherited selectable=false NOT fired",
+          "resultVarId": 15,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 15,
           "successResultVarName": "TestResult_UserInteractions/eventOnSelect_onSelect: inherited selectable=false NOT fired"
         }
       ],
@@ -134,7 +172,12 @@
     "math/extract3",
     "math/ge",
     "math/isNaN",
+    "math/le",
+    "math/length",
+    "math/matDecompose",
     "math/or",
+    "math/sub",
+    "pointer/get",
     "pointer/set",
     "ref/eq",
     "variable/get",

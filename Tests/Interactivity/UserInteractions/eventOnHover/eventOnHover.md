@@ -7,10 +7,12 @@
 | onHoverIn: flow fired | TestResult_UserInteractions/eventOnHover_onHoverIn: flow fired | 0 | True
 | onHoverIn: hoveredNode == target | TestResult_UserInteractions/eventOnHover_onHoverIn: hoveredNode == target | 2 | /nodes/3
 | onHoverIn: controllerIndex >= 0 | TestResult_UserInteractions/eventOnHover_onHoverIn: controllerIndex >= 0 | 4 | True
-| onHoverOut: flow fired | TestResult_UserInteractions/eventOnHover_onHoverOut: flow fired | 6 | True
-| onHoverOut: hoveredNode == target | TestResult_UserInteractions/eventOnHover_onHoverOut: hoveredNode == target | 8 | /nodes/3
-| onHoverIn: hoverable=false NOT fired | TestResult_UserInteractions/eventOnHover_onHoverIn: hoverable=false NOT fired | 9 | True
-| onHoverIn: inherited hoverable=false NOT fired | TestResult_UserInteractions/eventOnHover_onHoverIn: inherited hoverable=false NOT fired | 10 | True
+| onHoverIn: event != null | TestResult_UserInteractions/eventOnHover_onHoverIn: event != null | 6 | False
+| onHoverOut: flow fired | TestResult_UserInteractions/eventOnHover_onHoverOut: flow fired | 8 | True
+| onHoverOut: hoveredNode == target | TestResult_UserInteractions/eventOnHover_onHoverOut: hoveredNode == target | 10 | /nodes/3
+| onHoverOut: event != null | TestResult_UserInteractions/eventOnHover_onHoverOut: event != null | 12 | False
+| onHoverIn: hoverable=false NOT fired | TestResult_UserInteractions/eventOnHover_onHoverIn: hoverable=false NOT fired | 13 | True
+| onHoverIn: inherited hoverable=false NOT fired | TestResult_UserInteractions/eventOnHover_onHoverIn: inherited hoverable=false NOT fired | 14 | True
 
 Schemas used in this test case:
 - debug/log

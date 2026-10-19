@@ -106,7 +106,15 @@ Each `.gltf` also carries its metadata in `asset.extras`.
 | E5a | [`E5a_duplicate_declaration.gltf`](declarations/E5a_duplicate_declaration.gltf) | rejectGraph | math/add declared twice | JSON Syntax › Declarations |
 | E5b | [`E5b_duplicate_extension_declaration.gltf`](declarations/E5b_duplicate_extension_declaration.gltf) | rejectGraph | identical extension op declared twice | JSON Syntax › Declarations |
 | E5c | [`E5c_duplicate_extension_declaration_other_outputs.gltf`](declarations/E5c_duplicate_extension_declaration_other_outputs.gltf) | rejectGraph | extension op declared twice, differing only in outputValueSockets (still equal) | JSON Syntax › Declarations |
+| E5d | [`E5d_duplicate_extension_declaration_reordered_inputs.gltf`](declarations/E5d_duplicate_extension_declaration_reordered_inputs.gltf) | rejectGraph | extension op declared twice, the second time with input sockets b, a instead of a, b (still equal) | JSON Syntax › Declarations |
 | E6 | [`E6_extension_not_string.gltf`](declarations/E6_extension_not_string.gltf) | rejectExtension † | declaration extension is a number | Validation › Graph Object Validation |
+| E7a | [`E7a_ext_output_sockets_missing.gltf`](declarations/E7a_ext_output_sockets_missing.gltf) | rejectGraph | event/onSelect declared without outputValueSockets, but its outputs are read | JSON Syntax › Declarations |
+| E7b | [`E7b_ext_output_socket_not_declared.gltf`](declarations/E7b_ext_output_socket_not_declared.gltf) | rejectGraph | event/onSelect declaration without the "event" output, but event is read | JSON Syntax › Declarations |
+| E7c | [`E7c_ext_output_socket_wrong_case.gltf`](declarations/E7c_ext_output_socket_wrong_case.gltf) | rejectGraph | event/onSelect declares "SelectedNode", but selectedNode is read (case-sensitive) | JSON Syntax › Declarations |
+| E7d | [`E7d_ext_output_socket_implicit_value.gltf`](declarations/E7d_ext_output_socket_implicit_value.gltf) | rejectGraph | input value omits socket, but event/onSelect declares no "value" output | JSON Syntax › Declarations |
+| E7e | [`E7e_ext_output_socket_declared_wrong_type.gltf`](declarations/E7e_ext_output_socket_declared_wrong_type.gltf) | rejectGraph | event/onSelect declares selectionPoint as float, read by math/extract3 (float3 input) | JSON Syntax › Declarations |
+| E8a | [`E8a_ext_input_socket_missing.gltf`](declarations/E8a_ext_input_socket_missing.gltf) | rejectGraph | extension op node without its declared input a | JSON Syntax › Declarations |
+| E8b | [`E8b_ext_input_socket_type_differs.gltf`](declarations/E8b_ext_input_socket_type_differs.gltf) | rejectGraph | extension op node with float input a, declared as int | JSON Syntax › Declarations |
 
 ## nodes
 
