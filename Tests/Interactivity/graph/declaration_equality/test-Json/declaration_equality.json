@@ -1,0 +1,68 @@
+{
+  "glbFileName": "declaration_equality.glb",
+  "name": "graph/declaration equality",
+  "tests": [
+    {
+      "name": "graph/declaration equality",
+      "description": "Two declarations of the same extension operation that differ only in an input value socket type are different declarations, so the graph is valid.",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/eq",
+        "math/isNaN",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "a:int declaration:\ntype-default 0",
+          "nodeId": 2
+        },
+        {
+          "name": "a:float declaration:\nisNaN",
+          "nodeId": 15
+        }
+      ],
+      "subTests": [
+        {
+          "name": "a:int declaration:\ntype-default 0",
+          "resultVarName": "TestResult_graph/declaration equality_a:int declaration:\ntype-default 0",
+          "resultVarId": 1,
+          "resultVarType": "int",
+          "expectedResultValue": [
+            0
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_graph/declaration equality_a:int declaration:\ntype-default 0"
+        },
+        {
+          "name": "a:float declaration:\nisNaN",
+          "resultVarName": "TestResult_graph/declaration equality_a:float declaration:\nisNaN",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_graph/declaration equality_a:float declaration:\nisNaN"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/eq",
+    "math/isNaN",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "glbFileName": "get_light_type_pointers.glb",
+  "name": "pointer/get light type pointers",
+  "tests": [
+    {
+      "name": "pointer/get light type pointers",
+      "description": "The spot pointers of KHR_lights_punctual only exist for spot lights: pointer/get on point and directional lights returns isValid false, pointer/set triggers [err].",
+      "usedSchemas": [
+        "debug/log",
+        "event/onStart",
+        "flow/branch",
+        "flow/sequence",
+        "math/abs",
+        "math/eq",
+        "math/lt",
+        "math/sub",
+        "pointer/get",
+        "pointer/set",
+        "variable/get",
+        "variable/set"
+      ],
+      "entryPoints": [
+        {
+          "name": "point (before spot)\nspot/outerConeAngle\nisValid false",
+          "nodeId": 0
+        },
+        {
+          "name": "point (before spot)\nspot/innerConeAngle\nisValid false",
+          "nodeId": 13
+        },
+        {
+          "name": "point (after spot)\nspot/outerConeAngle\nisValid false",
+          "nodeId": 26
+        },
+        {
+          "name": "point (after spot)\nspot/innerConeAngle\nisValid false",
+          "nodeId": 62
+        },
+        {
+          "name": "directional\nspot/outerConeAngle\nisValid false",
+          "nodeId": 75
+        },
+        {
+          "name": "directional\nspot/innerConeAngle\nisValid false",
+          "nodeId": 88
+        },
+        {
+          "name": "point (before spot)\nby ref\nspot/outerConeAngle\nisValid false",
+          "nodeId": 101
+        },
+        {
+          "name": "directional\nby ref\nspot/outerConeAngle\nisValid false",
+          "nodeId": 114
+        },
+        {
+          "name": "spot\nspot/outerConeAngle\nisValid true",
+          "nodeId": 127
+        },
+        {
+          "name": "set point\nspot/outerConeAngle\n[err]",
+          "nodeId": 153
+        }
+      ],
+      "subTests": [
+        {
+          "name": "point (before spot)\nspot/outerConeAngle\nisValid false",
+          "resultVarName": "TestResult_pointer/get light type pointers_point (before spot)\nspot/outerConeAngle\nisValid false",
+          "resultVarId": 1,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 0,
+          "successResultVarName": "TestResult_HasPassed_pointer/get light type pointers_point (before spot)\nspot/outerConeAngle\nisValid false"
+        },
+        {
+          "name": "point (before spot)\nspot/innerConeAngle\nisValid false",
+          "resultVarName": "TestResult_pointer/get light type pointers_point (before spot)\nspot/innerConeAngle\nisValid false",
+          "resultVarId": 3,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 2,
+          "successResultVarName": "TestResult_HasPassed_pointer/get light type pointers_point (before spot)\nspot/innerConeAngle\nisValid false"
+        },
+        {
+          "name": "point (after spot)\nspot/outerConeAngle\nisValid false",
+          "resultVarName": "TestResult_pointer/get light type pointers_point (after spot)\nspot/outerConeAngle\nisValid false",
+          "resultVarId": 5,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 4,
+          "successResultVarName": "TestResult_HasPassed_pointer/get light type pointers_point (after spot)\nspot/outerConeAngle\nisValid false"
+        },
+        {
+          "name": "point (after spot)\nspot/innerConeAngle\nisValid false",
+          "resultVarName": "TestResult_pointer/get light type pointers_point (after spot)\nspot/innerConeAngle\nisValid false",
+          "resultVarId": 7,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 6,
+          "successResultVarName": "TestResult_HasPassed_pointer/get light type pointers_point (after spot)\nspot/innerConeAngle\nisValid false"
+        },
+        {
+          "name": "directional\nspot/outerConeAngle\nisValid false",
+          "resultVarName": "TestResult_pointer/get light type pointers_directional\nspot/outerConeAngle\nisValid false",
+          "resultVarId": 9,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 8,
+          "successResultVarName": "TestResult_HasPassed_pointer/get light type pointers_directional\nspot/outerConeAngle\nisValid false"
+        },
+        {
+          "name": "directional\nspot/innerConeAngle\nisValid false",
+          "resultVarName": "TestResult_pointer/get light type pointers_directional\nspot/innerConeAngle\nisValid false",
+          "resultVarId": 11,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 10,
+          "successResultVarName": "TestResult_HasPassed_pointer/get light type pointers_directional\nspot/innerConeAngle\nisValid false"
+        },
+        {
+          "name": "point (before spot)\nby ref\nspot/outerConeAngle\nisValid false",
+          "resultVarName": "TestResult_pointer/get light type pointers_point (before spot)\nby ref\nspot/outerConeAngle\nisValid false",
+          "resultVarId": 13,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 12,
+          "successResultVarName": "TestResult_HasPassed_pointer/get light type pointers_point (before spot)\nby ref\nspot/outerConeAngle\nisValid false"
+        },
+        {
+          "name": "directional\nby ref\nspot/outerConeAngle\nisValid false",
+          "resultVarName": "TestResult_pointer/get light type pointers_directional\nby ref\nspot/outerConeAngle\nisValid false",
+          "resultVarId": 15,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            false
+          ],
+          "successResultVarId": 14,
+          "successResultVarName": "TestResult_HasPassed_pointer/get light type pointers_directional\nby ref\nspot/outerConeAngle\nisValid false"
+        },
+        {
+          "name": "spot\nspot/outerConeAngle\nisValid true",
+          "resultVarName": "TestResult_pointer/get light type pointers_spot\nspot/outerConeAngle\nisValid true",
+          "resultVarId": 17,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 16,
+          "successResultVarName": "TestResult_HasPassed_pointer/get light type pointers_spot\nspot/outerConeAngle\nisValid true"
+        },
+        {
+          "name": "spot\nspot/outerConeAngle\nvalue",
+          "resultVarName": "TestResult_pointer/get light type pointers_spot\nspot/outerConeAngle\nvalue",
+          "resultVarId": 19,
+          "resultVarType": "float",
+          "expectedResultValue": [
+            0.5235988
+          ],
+          "successResultVarId": 18,
+          "successResultVarName": "TestResult_HasPassed_pointer/get light type pointers_spot\nspot/outerConeAngle\nvalue"
+        },
+        {
+          "name": "set point\nspot/outerConeAngle\n[err]",
+          "resultVarName": "TestResult_pointer/get light type pointers_set point\nspot/outerConeAngle\n[err]",
+          "resultVarId": 20,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 20,
+          "successResultVarName": "TestResult_pointer/get light type pointers_set point\nspot/outerConeAngle\n[err]"
+        },
+        {
+          "name": "set point\nspot/outerConeAngle\nno [out]",
+          "resultVarName": "TestResult_pointer/get light type pointers_set point\nspot/outerConeAngle\nno [out]",
+          "resultVarId": 21,
+          "resultVarType": "bool",
+          "expectedResultValue": [
+            true
+          ],
+          "successResultVarId": 21,
+          "successResultVarName": "TestResult_pointer/get light type pointers_set point\nspot/outerConeAngle\nno [out]"
+        }
+      ]
+    }
+  ],
+  "usedSchemas": [
+    "debug/log",
+    "event/onStart",
+    "flow/branch",
+    "flow/sequence",
+    "math/abs",
+    "math/eq",
+    "math/lt",
+    "math/sub",
+    "pointer/get",
+    "pointer/set",
+    "variable/get",
+    "variable/set"
+  ]
+}

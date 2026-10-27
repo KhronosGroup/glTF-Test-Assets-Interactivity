@@ -7,11 +7,11 @@ a set of operations, compares the results against known‑good expected values, 
 records whether every sub‑test passed.
 
 <!-- coverage:start -->
-> **Current coverage:** 160 test files · 1,142 sub-tests, plus 187 invalid-graph cases.
+> **Current coverage:** 162 test files · 1,156 sub-tests, plus 187 invalid-graph cases.
 >
 > | Set | Test cases | Sub-tests |
 > | --- | ---: | ---: |
-> | `test-index.json` (animation, event, Extras, flow, graph, pointer, prerequisites, ref, type, variable) | 40 | 572 |
+> | `test-index.json` (animation, event, Extras, flow, graph, pointer, prerequisites, ref, type, variable) | 42 | 586 |
 > | `mathtests-index.json` | 116 | 549 |
 > | `UserInteractions/` (need a simulated hover/select) | 2 | 18 |
 > | `InterGlb/` (two files loaded together) | 2 | 3 |

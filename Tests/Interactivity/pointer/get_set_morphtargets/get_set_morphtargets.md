@@ -17,6 +17,8 @@
 | nonStatic weights[0] from Node with Mesh with Morph Targets (value == 0.5) | TestResult_pointer/get_set_morphtargets_nonStatic weights[0] from Node with Mesh with Morph Targets (value == 0.5) | 21 | 0.5
 | mesh and node weights[0] (value == 0.6) | TestResult_pointer/get_set_morphtargets_mesh and node weights[0] (value == 0.6) | 23 | 0.6
 | Set weight and read back | TestResult_pointer/get_set_morphtargets_Set weight and read back | 25 | 0.9
+| meshes/{}/weights.length from Mesh with Morph Targets (isValid == false) | TestResult_pointer/get_set_morphtargets_meshes/{}/weights.length from Mesh with Morph Targets (isValid == false) | 27 | False
+| meshes/{}/weights/0 from Mesh with Morph Targets (isValid == false) | TestResult_pointer/get_set_morphtargets_meshes/{}/weights/0 from Mesh with Morph Targets (isValid == false) | 29 | False
 
 Schemas used in this test case:
 - debug/log

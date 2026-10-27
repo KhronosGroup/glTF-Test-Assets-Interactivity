@@ -542,6 +542,26 @@
     }
   },
   {
+    "label": "graph/declaration equality",
+    "name": "graph/declaration_equality",
+    "tags": [
+      "math/abs",
+      "event/onStart",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/isNaN"
+    ],
+    "variants": {
+      "glTF-Binary": "declaration_equality.glb",
+      "test-Json": "declaration_equality.json"
+    }
+  },
+  {
     "label": "graph/extra and unknown sockets",
     "name": "graph/extra_and_unknown_sockets",
     "tags": [
@@ -707,6 +727,28 @@
     "variants": {
       "glTF-Binary": "activeCamera.glb",
       "test-Json": "activeCamera.json"
+    }
+  },
+  {
+    "label": "pointer/get light type pointers",
+    "name": "pointer/get_light_type_pointers",
+    "tags": [
+      "event/onStart",
+      "pointer/get",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence",
+      "math/sub",
+      "math/abs",
+      "math/lt"
+    ],
+    "variants": {
+      "glTF-Binary": "get_light_type_pointers.glb",
+      "test-Json": "get_light_type_pointers.json"
     }
   },
   {
